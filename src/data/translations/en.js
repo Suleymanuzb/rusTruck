@@ -1,5 +1,10 @@
 const en = {
     header: {
+        production: "Manufacturing and sales of special vehicles",
+        workingTime: "Working time",
+        adress: "35 Torfyanaya St., Nizhny Novgorod, Russia",
+        numberForStates: "Toll-free (within Russia): +7 (800) 511-05-25",
+        numberFotLocals: "Nizhny Novgorod: 8 (831) 235-26-16",
         navigation: {
             about: "About us",
             media: "Media",
