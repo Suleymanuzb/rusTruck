@@ -1,4 +1,4 @@
-const Button = ({ children, variant, arrow }) => {
+const Button = ({ children, variant, arrow, className = "" }) => {
     const variants = {
         btn_big: "bg-[#FEC80B] hover:bg-[#FFD43A] active:bg-[#E9C135]",
         btn_big_border:
@@ -12,7 +12,7 @@ const Button = ({ children, variant, arrow }) => {
     return (
         <button
             className={`
-                ${variants[variant]}
+                ${variants[variant]} ${className}
                 px-8
                 py-4
                 rounded-md

@@ -3,9 +3,12 @@ const { SearchIcon } = icons;
 
 const SearchInput = () => {
     return (
-        <div className='flex border-2 border-[#FEC80B] max-w-76 rounded-full '>
-            <input type='text' className='w-full outline-none ml-2' />
-            <SearchIcon className='mr-2 active:scale-95 cursor-pointer' />
+        <div className='min-w-[310px] flex items-center justify-center border-2 border-[#FEC80B] rounded-full '>
+            <input
+                type='text'
+                className='w-full text-[16px] outline-none ml-2 py-2'
+            />
+            <SearchIcon className='mr-4 active:scale-95 cursor-pointer' />
         </div>
     );
 };
