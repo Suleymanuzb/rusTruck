@@ -51,6 +51,7 @@ const Header = () => {
                                 <CatalogButton />
 
                                 <Navigation
+                                    currentLang={currentLang}
                                     navigation={currentLang.header.navigation}
                                 ></Navigation>
                             </div>

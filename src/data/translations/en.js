@@ -12,6 +12,28 @@ const en = {
             news: "News",
             contacts: "Contacts",
         },
+        megaMenu: {
+            categories: {
+                title: "Categories",
+                types: [
+                    { truck: "Curtain-sided trucks" },
+                    { truck: "Truck-mounted cranes" },
+                    { truck: "Fuel tank trucks" },
+                    { truck: "Truck-mounted aerial platforms" },
+                    { truck: "Tank trucks" },
+                    { truck: "Tow trucks" },
+                    { truck: "Flatbed trucks" },
+                    { truck: "Insulated vans" },
+                    { truck: "Hook loaders" },
+                    { truck: "Dump trucks" },
+                    { truck: "ADR EXII category vehicles" },
+                ],
+            },
+
+            aboutUs: {
+                title: "",
+            },
+        },
     },
     hero: {},
     categories: {},

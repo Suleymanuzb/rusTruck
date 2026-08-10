@@ -17,6 +17,129 @@ const ru = {
             news: "Новости",
             contacts: "Контакты",
         },
+
+        megaMenu: {
+            categories: {
+                title: "Категории",
+                types: [
+                    {
+                        name: "Шторные автомобили",
+                        path: "/shtornye-avtomobili",
+                    },
+                    {
+                        name: "Краны-манипуляторы",
+                        path: "/krany-manipulyatory",
+                    },
+                    {
+                        name: "Автотопливозаправщики",
+                        path: "/avtotoplivozapravshchiki",
+                    },
+                    {
+                        name: "Автогидроподъёмники",
+                        path: "/avtogidropodyemniki",
+                    },
+                    {
+                        name: "Автоцистерны",
+                        path: "/avtotsisterny",
+                    },
+                    {
+                        name: "Автоэвакуаторы",
+                        path: "/avtoevakuatory",
+                    },
+                    {
+                        name: "Бортовые автомобили",
+                        path: "/bortovye-avtomobili",
+                    },
+                    {
+                        name: "Изотермические фургоны",
+                        path: "/avtofurgony",
+                    },
+                    {
+                        name: "Контейнеровозы",
+                        path: "/konteynerovozy",
+                    },
+                    {
+                        name: "Крюковые погрузчики",
+                        path: "/kryukovye-pogruzchiki",
+                    },
+                    {
+                        name: "Самосвалы",
+                        path: "/catalog/samosvaly",
+                    },
+                    {
+                        name: "Автомобили ДОПОГ категория EXII",
+                        path: "/avtomobili-dopog-kategoriya-exii",
+                    },
+                ],
+            },
+
+            aboutUs: {
+                title: "О нас",
+                links: [
+                    {
+                        name: "О компании ООО «Рустрак»",
+                        path: "/about",
+                    },
+                    {
+                        name: "Новости",
+                        path: "/news",
+                    },
+                    {
+                        name: "Наши партнёры",
+                        path: "/partners",
+                    },
+                    { name: "Поставщикам и партнёрам", path: "/suppliers" },
+                    { name: "Отзывы", path: "/reviews" },
+                    { name: "Сертификаты", path: "/cert" },
+                    { name: "Вакансии", path: "/vacancies" },
+                    { name: "Кредит и лизинг", path: "/leasing" },
+                ],
+            },
+
+            media: {
+                title: "Медиа",
+                links: [
+                    {
+                        name: "Фотогалерея",
+                        path: "/photogallery",
+                    },
+                    {
+                        name: "Видео",
+                        path: "/video",
+                    },
+
+                    {
+                        name: "Рекламные материалы",
+                        path: "/promo",
+                    },
+                    {
+                        name: "Информационные материалы",
+                        path: "/info",
+                    },
+                ],
+            },
+
+            service: {
+                links: [
+                    {
+                        name: "Сервис",
+                        path: "/service",
+                    },
+                    {
+                        name: "Ремонт",
+                        path: "/remont",
+                    },
+                    {
+                        name: "Новости",
+                        path: "/news",
+                    },
+                    {
+                        name: "Контакты",
+                        path: "/contacts",
+                    },
+                ],
+            },
+        },
     },
     hero: {
         slides: [
