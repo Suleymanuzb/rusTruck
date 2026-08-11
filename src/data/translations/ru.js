@@ -19,6 +19,7 @@ const ru = {
         },
 
         megaMenu: {
+            
             categories: {
                 title: "Категории",
                 types: [

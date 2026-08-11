@@ -1,7 +1,6 @@
 import ru from "../../data/translations/ru";
 import Navigation from "./Navigation";
 import { icons } from "../../assets/icons/icons";
-import CatalogButton from "../CatalogButton/CatalogButton";
 import SearchInput from "./SearchInput";
 import Korzinka from "./Korzinka";
 import Favourites from "./Favourite";
@@ -14,12 +13,25 @@ import Button from "../Button/Button";
 import BurgerButton from "./HeaderHidden/BurgerButton";
 import RusTruck from "./RusTruckLogo/RusTruckLogo";
 import PhoneCallHidden from "./HeaderHidden/PhoneCall";
+import CatalogButton from "./CatalogButton";
+import { useEffect, useState } from "react";
 
 const currentLang = ru;
 
 const { BurgerIcon } = icons;
 
 const Header = () => {
+    const [openMenu, setOpenMenu] = useState(null);
+    const isMenuOpen = openMenu !== null;
+
+    useEffect(() => {
+        document.body.style.overflow = isMenuOpen ? "hidden" : "";
+
+        return () => {
+            document.body.style.overflow = "";
+        };
+    }, [isMenuOpen]);
+
     return (
         <>
             <header>
@@ -48,9 +60,15 @@ const Header = () => {
                         {/* below header */}
                         <div className='flex justify-between py-2.5'>
                             <div className='flex items-center gap-10'>
-                                <CatalogButton />
+                                <CatalogButton
+                                    currentLang={currentLang}
+                                    openMenu={openMenu}
+                                    setOpenMenu={setOpenMenu}
+                                />
 
                                 <Navigation
+                                    openMenu={openMenu}
+                                    setOpenMenu={setOpenMenu}
                                     currentLang={currentLang}
                                     navigation={currentLang.header.navigation}
                                 ></Navigation>
