@@ -19,7 +19,6 @@ const ru = {
         },
 
         megaMenu: {
-            
             categories: {
                 title: "Категории",
                 types: [
@@ -234,7 +233,9 @@ const ru = {
             },
         ],
     },
-    categories: {},
+    categories: {
+        title: "Категории",
+    },
     about: {},
     statistics: {},
     products: {},
