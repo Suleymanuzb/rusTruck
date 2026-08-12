@@ -234,9 +234,73 @@ const ru = {
         ],
     },
     categories: {
-        title: "Категории",
+        intro: {
+            title: "Категории",
+        },
+        trucks: [
+            {
+                id: 1,
+                category: "Шторные автомобили",
+                howManyModels: "10 Моделей",
+            },
+            {
+                id: 2,
+                category: "Автоэвакуаторы",
+                howManyModels: "2 Модели",
+            },
+            {
+                id: 3,
+                category: "Изотермические фургоны",
+                howManyModels: "15 Моделей",
+            },
+            {
+                id: 4,
+                category: "Контейнеровозы",
+                howManyModels: "2 Моделей",
+            },
+            {
+                id: 5,
+                category: "Крюковые погрузчики",
+                howManyModels: "3 Модели",
+            },
+            {
+                id: 6,
+                category: "Самосвалы",
+                howManyModels: "12 Моделей",
+            },
+            {
+                id: 7,
+                category: "Автомобили ДОПОГ категория EXII",
+                howManyModels: "4 Модели",
+            },
+            {
+                id: 8,
+                category: "Шторные автомобили",
+                howManyModels: "30 Моделей",
+            },
+            {
+                id: 9,
+                category: "Краны-манипуляторы",
+                howManyModels: "79 Моделей",
+            },
+            {
+                id: 10,
+                category: "Краны-манипуляторы",
+                howManyModels: "79 Моделей",
+            },
+            {
+                id: 11,
+                category: "Автотопливозаправщики",
+                howManyModels: "26 моделей",
+            },
+        ],
     },
-    about: {},
+    aboutCompany: {
+        intro: {
+            title: "О компании Рустрак",
+            
+        },
+    },
     statistics: {},
     products: {},
     news: {},

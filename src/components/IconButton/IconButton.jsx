@@ -1,16 +1,17 @@
 import { icons } from "../../assets/icons/icons";
 const { ChevronRight, ChevronLeft } = icons;
 
-const IconButton = ({ direction }) => {
+const IconButton = ({ direction, onClick }) => {
     return (
         <button
-            className='w-14 h-14 flex
+            onClick={onClick}
+            className='w-9.75 h-9.75 flex
                 items-center
                 justify-center
 
-                border-2
+                border
                 border-black
-                rounded-lg
+                rounded
 
                 bg-transparent
                 text-black

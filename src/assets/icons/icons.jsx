@@ -2,37 +2,42 @@ export const icons = {
     ChevronRight: (props) => (
         <svg
             xmlns='http://www.w3.org/2000/svg'
-            xmlSpace='preserve'
-            width={140}
-            height={140}
-            stroke='#000'
-            transform='rotate(180)'
-            viewBox='0 0 185.343 185.343'
+            width={18}
+            height={11}
+            fill='none'
             {...props}
+            style={{
+                transform: "rotate(-90deg)",
+                ...props.style,
+            }}
         >
             <path
-                d='M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z'
-                style={{
-                    fill: "#010002",
-                }}
+                stroke='#000'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth={2}
+                d='M17.25 1.136 9 9.386.75 1.136'
             />
         </svg>
     ),
     ChevronLeft: (props) => (
         <svg
             xmlns='http://www.w3.org/2000/svg'
-            xmlSpace='preserve'
-            width={140}
-            height={140}
-            stroke='#000'
-            viewBox='0 0 185.343 185.343'
+            width={18}
+            height={11}
+            fill='none'
             {...props}
+            style={{
+                transform: "rotate(90deg)",
+                ...props.style,
+            }}
         >
             <path
-                d='M51.707 185.343a10.692 10.692 0 0 1-7.593-3.149 10.724 10.724 0 0 1 0-15.175l74.352-74.347L44.114 18.32c-4.194-4.194-4.194-10.987 0-15.175 4.194-4.194 10.987-4.194 15.18 0l81.934 81.934c4.194 4.194 4.194 10.987 0 15.175l-81.934 81.939a10.678 10.678 0 0 1-7.587 3.15z'
-                style={{
-                    fill: "#010002",
-                }}
+                stroke='#000'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth={2}
+                d='M17.25 1.136 9 9.386.75 1.136'
             />
         </svg>
     ),
