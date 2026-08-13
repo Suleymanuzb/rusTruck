@@ -5,7 +5,7 @@ const currentLang = ru;
 
 const Gisp = () => {
     return (
-        <div className='flex items-center gap-1.5 leading-none'>
+        <div className='flex items-center gap-1.5 leading-none pr-4 pl-3 lg:pl-0'>
             <div className='w-6'>
                 <GispIcon className='w-full h-full' />
             </div>

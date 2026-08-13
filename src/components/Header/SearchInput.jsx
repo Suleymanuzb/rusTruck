@@ -3,7 +3,7 @@ const { SearchIcon } = icons;
 
 const SearchInput = () => {
     return (
-        <div className='min-w-[310px] flex items-center justify-center border-2 border-[#FEC80B] rounded-full '>
+        <div className='hidden min-w-77.5 lg:flex items-center justify-center border-2 border-[#FEC80B] rounded-full '>
             <input
                 type='text'
                 className='w-full text-[16px] outline-none ml-2 py-2'

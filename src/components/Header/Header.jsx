@@ -44,7 +44,7 @@ const Header = () => {
                                 <Gisp />
                             </div>
 
-                            <div className='flex items-center gap-10'>
+                            <div className='flex items-center max-[1200px]:gap-3 min-[1200px]:gap-10'>
                                 <WorkingTime
                                     currentLang={currentLang}
                                     hasDropdown
@@ -66,12 +66,16 @@ const Header = () => {
                                     setOpenMenu={setOpenMenu}
                                 />
 
-                                <Navigation
-                                    openMenu={openMenu}
-                                    setOpenMenu={setOpenMenu}
-                                    currentLang={currentLang}
-                                    navigation={currentLang.header.navigation}
-                                ></Navigation>
+                                <div className="hidden lg:block">
+                                    <Navigation
+                                        openMenu={openMenu}
+                                        setOpenMenu={setOpenMenu}
+                                        currentLang={currentLang}
+                                        navigation={
+                                            currentLang.header.navigation
+                                        }
+                                    ></Navigation>
+                                </div>
                             </div>
 
                             <div className='flex items-center gap-4'>

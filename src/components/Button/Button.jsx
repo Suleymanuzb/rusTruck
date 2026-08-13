@@ -13,8 +13,10 @@ const Button = ({ children, variant, arrow, className = "" }) => {
         <button
             className={`
                 ${variants[variant]} ${className}
-                px-8
-                py-4
+                px-4 py-1
+                leading-none
+                md:px-8
+                md:py-4
                 rounded-md
             `}
         >

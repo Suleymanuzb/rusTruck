@@ -9,7 +9,7 @@ const RusTruckLogoText = ({ to }) => {
     return (
         <Link to={to} className='flex items-center gap-2.5'>
             <RusTruckLogo />
-            <span className='max-w-48 leading-none text-[14px] relative ml-2 before:content-[" "] before:absolute before:w-0.5 before:h-7 before:bg-[#FEC80B] before:-left-3 '>
+            <span className='hidden lg:block max-w-48 leading-none text-[14px] relative ml-2 before:content-[" "] before:absolute before:w-0.5 before:h-7 before:bg-[#FEC80B] before:-left-3 '>
                 {currentLang.header.production}
             </span>
         </Link>

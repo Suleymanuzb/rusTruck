@@ -5,11 +5,11 @@ const WorkingTime = ({ currentLang, hasDropdown = false }) => {
 
     return (
         <div>
-            <div className='relative text-end'>
+            <div className='relative text-end hidden lg:block'>
                 {/* Working time - clickable */}
                 <p
                     onClick={() => setIsOpen(!isOpen)}
-                    className='flex items-center justify-end cursor-pointer'
+                    className='flex items-center min-[1px]:justify-center min-[1140px]:justify-end cursor-pointer'
                 >
                     {currentLang.header.workingTime}
                     {hasDropdown && (
@@ -41,7 +41,7 @@ const WorkingTime = ({ currentLang, hasDropdown = false }) => {
                 )}
             </div>
 
-            <span className='text-[15px] text-[#A1A1A1]'>
+            <span className='hidden md:flex items-center justify-center text-[15px] leading-none text-[#A1A1A1] max-w-40 min-[1140px]:max-w-full'>
                 {currentLang.header.adress}
             </span>
         </div>

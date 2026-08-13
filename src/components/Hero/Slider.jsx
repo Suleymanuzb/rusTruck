@@ -59,7 +59,7 @@ const Slider = ({ currentLang }) => {
                     return (
                         <SwiperSlide key={slideText.id}>
                             <div
-                                className='relative min-h-129.5 max-w-full rounded-xl bg-cover bg-center'
+                                className='relative min-h-115 md:min-h-129.5 max-w-full md:rounded-xl bg-cover bg-center'
                                 style={{
                                     backgroundImage: `url(${slideImage.image})`,
                                 }}
@@ -68,11 +68,11 @@ const Slider = ({ currentLang }) => {
                                 <div className='absolute inset-0 bg-black/30 z-0' />
 
                                 {/* text */}
-                                <div className='absolute left-10 top-50 z-3 -translate-y-1/2'>
-                                    <h1 className='max-w-113 font-bold leading-7.5 text-[28px] mb-4 text-white'>
+                                <div className='absolute max-[442px]:left-4 left-10 top-40 md:top-50 z-3 -translate-y-1/2'>
+                                    <h1 className='max-w-113 font-bold leading-7.5 max-[442px]:text-[23px] text-[28px] mb-4 text-white'>
                                         {slideText.title}
                                     </h1>
-                                    <p className='text-white mb-8 leading-normal max-w-111.75'>
+                                    <p className='text-white mb-8 leading-normal max-w-111.75 max-[442px]:text-[14px]'>
                                         {slideText.description}
                                     </p>
 

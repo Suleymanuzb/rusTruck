@@ -5,9 +5,9 @@ const currentLang = ru;
 
 const Hero = () => {
     return (
-        <Container>
+        <div className='md:max-w-338 md:w-full md:px-[1.6rem] md:mx-auto'>
             <Slider currentLang={currentLang} />
-        </Container>
+        </div>
     );
 };
 

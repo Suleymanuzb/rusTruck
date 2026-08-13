@@ -5,7 +5,7 @@ import Container from "../Container/Container";
 const Navigation = ({ navigation, currentLang, openMenu, setOpenMenu }) => {
     return (
         <div>
-            <nav className='relative flex items-center gap-10'>
+            <nav className='relative flex items-center max-[1200px]:gap-3 min-[1200px]:gap-10'>
                 <NavigationItem
                     hasDropdown
                     currentLang={currentLang}
