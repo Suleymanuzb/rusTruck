@@ -1,4 +1,3 @@
-import ru from "../../data/translations/ru";
 import Navigation from "./Navigation";
 import { icons } from "../../assets/icons/icons";
 import SearchInput from "./SearchInput";
@@ -16,11 +15,9 @@ import PhoneCallHidden from "./HeaderHidden/PhoneCall";
 import CatalogButton from "./CatalogButton";
 import { useEffect, useState } from "react";
 
-const currentLang = ru;
-
 const { BurgerIcon } = icons;
 
-const Header = () => {
+const Header = ({ currentLang }) => {
     const [openMenu, setOpenMenu] = useState(null);
     const isMenuOpen = openMenu !== null;
 
@@ -66,7 +63,7 @@ const Header = () => {
                                     setOpenMenu={setOpenMenu}
                                 />
 
-                                <div className="hidden lg:block">
+                                <div className='hidden lg:block'>
                                     <Navigation
                                         openMenu={openMenu}
                                         setOpenMenu={setOpenMenu}
