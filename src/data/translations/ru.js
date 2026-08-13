@@ -331,6 +331,23 @@ const ru = {
             },
         ],
     },
+    anyQuestions: {
+        extraQuest: "ОСТАЛИСЬ ВОПРОСЫ?",
+        leaveContact:
+            "Оставьте свои контактные данные, и мы перезвоним Вам в ближайшее время",
+
+        inputs: [
+            {
+                label: "Ваше имя *",
+                placeholder: "Артем",
+            },
+            {
+                label: "Телефон *",
+                placeholder: "+7",
+            },
+        ],
+        agreement: "Вы соглашаетесь на обработку персональных данных",
+    },
     products: {},
     news: {},
     footer: {},
