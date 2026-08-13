@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero";
 import IconButton from "./components/IconButton/IconButton";
 import TruckCategories from "./components/TruckCategories/TruckCategories";
 import H1 from "./components/Typography/H1";
+import CompanyStatistics from "./components/CompanyStatistics/CompanyStatistics";
 
 const App = () => {
     const currentLang = ru;
@@ -15,6 +16,7 @@ const App = () => {
             <Hero currentLang={currentLang} />
             <TruckCategories currentLang={currentLang} />
             <AboutCompany currentLang={currentLang} />
+            <CompanyStatistics currentLang={currentLang} />
         </>
     );
 };
