@@ -1,4 +1,3 @@
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -28,7 +27,7 @@ const Slider = ({ currentLang }) => {
                 }}
                 navigation={true}
                 modules={[Keyboard, Pagination, Navigation]}
-                className='
+                className=' rounded-xl
         mySwiper
          [&_.swiper-button-next]:!w-6
         [&_.swiper-button-next]:!h-6
@@ -59,13 +58,13 @@ const Slider = ({ currentLang }) => {
                     return (
                         <SwiperSlide key={slideText.id}>
                             <div
-                                className='relative min-h-115 md:min-h-129.5 max-w-full md:rounded-xl bg-cover bg-center'
+                                className='relative min-h-115 md:min-h-129.5 max-w-full rounded-xl bg-cover bg-center'
                                 style={{
                                     backgroundImage: `url(${slideImage.image})`,
                                 }}
                             >
                                 {/* Dark overlay */}
-                                <div className='absolute inset-0 bg-black/30 z-0' />
+                                <div className='absolute inset-0 bg-black/30 z-0 rounded-xl' />
 
                                 {/* text */}
                                 <div className='absolute max-[442px]:left-4 left-10 top-40 md:top-50 z-3 -translate-y-1/2'>

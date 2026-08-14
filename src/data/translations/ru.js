@@ -339,14 +339,18 @@ const ru = {
         inputs: [
             {
                 label: "Ваше имя *",
+                htmlFor: "name",
                 placeholder: "Артем",
             },
             {
                 label: "Телефон *",
+                htmlFor: "phone",
                 placeholder: "+7",
             },
         ],
-        agreement: "Вы соглашаетесь на обработку персональных данных",
+        sendButton: "Отправить",
+        agreement:
+            'Нажимая на кнопку отправить <a href="/upload/privacy_policy.pdf">Вы соглашаетесь на обработку персональных данных</a>',
     },
     products: {},
     news: {},
