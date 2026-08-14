@@ -19,7 +19,7 @@ const App = () => {
             <TruckCategories currentLang={currentLang} />
             <AboutCompany currentLang={currentLang} />
             <CompanyStatistics currentLang={currentLang} />
-            <ScrollSlider />
+            <ScrollSlider currentLang={currentLang} />
             {/* <AnyQuestions currentLang={currentLang} /> */}
         </>
     );
