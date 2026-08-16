@@ -7,13 +7,24 @@ import Button from "../Button/Button";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import "swiper/css/navigation";
 
 // import required modules
 import { Keyboard, Pagination, Navigation } from "swiper/modules";
 import H1 from "../Typography/H1";
+import { useEffect } from "react";
 
 const Slider = ({ currentLang }) => {
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
+    }, []);
+
     return (
         <>
             <Swiper
@@ -67,10 +78,15 @@ const Slider = ({ currentLang }) => {
                                 <div className='absolute inset-0 bg-black/30 z-0 rounded-xl' />
 
                                 {/* text */}
-                                <div className='absolute max-[442px]:left-4 left-10 top-40 md:top-50 z-3 -translate-y-1/2'>
-                                    <h1 className='max-w-113 font-bold leading-7.5 max-[442px]:text-[23px] text-[28px] mb-4 text-white'>
-                                        {slideText.title}
-                                    </h1>
+                                <div
+                                    data-aos='fade-right'
+                                    className='absolute max-[442px]:left-4 left-10 top-40 md:top-50 z-3 -translate-y-1/2'
+                                >
+                                    <div>
+                                        <h1 className='max-w-113 font-bold leading-7.5 max-[442px]:text-[23px] text-[28px] mb-4 text-white'>
+                                            {slideText.title}
+                                        </h1>
+                                    </div>
                                     <p className='text-white mb-8 leading-normal max-w-111.75 max-[442px]:text-[14px]'>
                                         {slideText.description}
                                     </p>

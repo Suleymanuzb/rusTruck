@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import sliderImage from "../../assets/images/sliderImage/benefits.png";
+import sliderImage2 from "../../assets/images/sliderImage/benefits2.png";
 import lineSvg from "../../data/sliderLinePart";
 
 const ScrollSlider = ({ currentLang }) => {
@@ -96,6 +97,7 @@ before:border-2
 
 max-[500px]:before:w-3
 max-[500px]:before:h-3
+max-[500px]:before:-left-2.5
 max-[500px]:ml-2
 min-[890px]:before:border-[#fec80b]
 

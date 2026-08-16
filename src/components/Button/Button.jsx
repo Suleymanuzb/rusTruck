@@ -1,4 +1,4 @@
-const Button = ({ children, variant, arrow, className = ""}) => {
+const Button = ({ children, variant, arrow, className = "", ...props }) => {
     const variants = {
         btn_big:
             "bg-[#FEC80B] hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none md:px-8 md:py-4",
@@ -12,8 +12,9 @@ const Button = ({ children, variant, arrow, className = ""}) => {
 
     return (
         <button
+            {...props}
             className={`
-                ${variants[variant]} ${className}
+                ${variants[variant]} ${className} 
             `}
         >
             {children}
