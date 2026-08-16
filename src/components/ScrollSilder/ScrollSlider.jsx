@@ -44,75 +44,121 @@ const ScrollSlider = ({ currentLang }) => {
     console.log("item:", item);
 
     const positions = [
-        "top-10 left-115",
-        "top-35 left-142",
-        "top-65 left-150",
-        "top-94 left-148",
-        "top-120 left-135",
-    ];
+        { top: "5%", left: "71%" },
 
-    const dotPositions = [
-        "-left-8", // Конструкторское бюро
-        "-left-9.5", // Разработка
-        "-left-8", // Производственная база
-        "-left-8.5", // Гарантия
-        "-left-10", // Сервис
+        { top: "23%", left: "95%" },
+
+        { top: "44%", left: "103%" },
+
+        { top: "65%", left: "101%" },
+
+        { top: "83%", left: "91.5%" },
     ];
 
     return (
-        <section ref={sectionRef} className='h-[500vh] my-20'>
-            <div className='h-dvh sticky top-0 w-full flex items-center justify-between p-30'>
-                <div className='benefits_left'>
-                    <div className='relative'>
-                        <img src={sliderImage} alt='' />
-                        <ul className='list-none'>
-                            <ul className='list-none'>
-                                {items.map((item, index) => {
-                                    const isActive = index === activeIndex;
+        <section ref={sectionRef} className='h-[500vh] my-10 min-[890px]:my-20'>
+            <div className='sticky gap-20 top-0 w-full flex flex-col-reverse items-start justify-start  min-[890px]:h-dvh min-[890px]:flex-row min-[890px]:items-center min-[890px]:justify-between px-6 md:px-10 lg:px-20 xl:px-30'>
+                <div className='benefits_left w-[45%] min-[890px]:w-[45%] lg:w-[45%] max-[1235px]:w-[45%] xl:w-[40%] '>
+                    <div className='relative w-full'>
+                        <img
+                            className='w-full h-auto'
+                            src={sliderImage}
+                            alt='slider image'
+                        />
 
-                                    return (
-                                        <li
-                                            key={item.id}
-                                            className={`absolute ${positions[index]} whitespace-nowrap`}
-                                        >
-                                            <span
-                                                className={`absolute ${dotPositions[index]} top-1 w-5 h-5 rounded-full border-2 border-[#fec80b] ${isActive ? "bg-[#fec80b]" : "bg-white"}
-                `}
-                                            />
+                        <ul className='absolute inset-0'>
+                            {items.map((item, index) => {
+                                const isActive = index === activeIndex;
 
-                                            <button className='benefits__button text opacity-100'>
-                                                {item.name}
-                                            </button>
-                                        </li>
-                                    );
-                                })}
-                            </ul>
+                                return (
+                                    <li
+                                        key={item.id}
+                                        className={`absolute whitespace-nowrap`}
+                                        style={{
+                                            top: positions[index].top,
+                                            left: positions[index].left,
+                                            transform: "translateY(-50%)",
+                                        }}
+                                    >
+                                        <span
+                                            className={`before:-left-3.5
+before:top-2
+before:absolute
+
+before:border-[#00FFFF]
+before:content-[""]
+before:inline-block
+before:w-5
+before:h-5
+before:rounded-full
+before:border-2
+
+
+max-[500px]:before:w-3
+max-[500px]:before:h-3
+max-[500px]:ml-2
+min-[890px]:before:border-[#fec80b]
+
+min-[500px]:before:-left-4
+min-[500px]:before:w-3.5
+min-[500px]:before:h-3.5
+
+md:before:-left-5
+
+min-[1024px]:before:-left-7
+
+min-[1190px]:before:-left-6!
+
+min-[1500px]:before:-left-6.5!
+
+ml-1.5
+
+${isActive ? "before:bg-[#00FFFF] min-[890px]:before:bg-[#fec80b]" : "before:bg-white"}
+`}
+                                        />
+
+                                        <button className='text-[12px] benefits__button text opacity-100'>
+                                            {item.name}
+                                        </button>
+                                    </li>
+                                );
+                            })}
                         </ul>
                     </div>
                 </div>
 
-                <div className='flex w-[30%]'>
-                    <div className='relative w-0.5 h-120'>
+                <div className='w-full flex max-[890px]:flex-col-reverse max-[890px]:gap-4 min-[890px]:w-[30%]'>
+                    <div className='relative w-0.5 h-120 max-[890px]:w-full max-[890px]:h-0.5'>
                         {/* Background line */}
                         <div className='absolute inset-0 bg-transparent rounded-lg'></div>
 
                         {/* Growing line */}
                         <div
-                            className='absolute top-0 left-0 w-full bg-[#fec80b] rounded-lg'
+                            className='absolute top-0 left-0 w-full bg-[#fec80b] rounded-lg hidden min-[890px]:block'
                             style={{
                                 height: `${progress * 100}%`,
                             }}
                         />
+
+                        {/* Mobile → horizontal */}
+                        <div
+                            className='absolute top-0 left-0 h-full bg-[#3bf5ff] rounded-lg hidden max-[890px]:block'
+                            style={{
+                                width: `${progress * 100}%`,
+                            }}
+                        />
                     </div>
 
-                    <div className='flex items-center w-full ml-5'>
-                        <div className='flex flex-col border-amber-400 mb-2'>
-                            <div className='mb-8'>
+                    <div className='flex items-center w-full ml-3'>
+                        <div className='w-full flex flex-col items-strecht min-[540]:flex-col gap-5 min-[890px]:flex-col min-[890px]:items-start mb-2'>
+                            <div className='mb-8 w-full'>
                                 {ItemSvg && <ItemSvg.svg />}
                             </div>
 
-                            <div>
-                                <p className='max-w-[]'>{item.text}</p>
+                            <div className='max-[890px]:w-full'>
+                                <p className='max-[890px]:text-[15px] w-full'>
+                                    {item.text}
+                                </p>
                             </div>
                         </div>
                     </div>
