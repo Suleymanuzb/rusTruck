@@ -18,7 +18,7 @@ const RusTruckLogoText = ({ to }) => {
 
         gsap.to(logo, {
             rotationX: 360,
-            duration: 1.2,
+            duration: 2,
             repeat: -1,
             ease: "none",
         });

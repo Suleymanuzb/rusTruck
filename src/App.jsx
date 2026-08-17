@@ -9,6 +9,7 @@ import H1 from "./components/Typography/H1";
 import CompanyStatistics from "./components/CompanyStatistics/CompanyStatistics";
 import AnyQuestions from "./components/AnyQuestions/AnyQuestions";
 import ScrollSlider from "./components/ScrollSilder/ScrollSlider";
+import Products from "./components/Products/Products";
 
 const App = () => {
     const currentLang = ru;
@@ -20,6 +21,7 @@ const App = () => {
             <AboutCompany currentLang={currentLang} />
             <CompanyStatistics currentLang={currentLang} />
             <ScrollSlider currentLang={currentLang} />
+            <Products currentLang={currentLang} />
             {/* <AnyQuestions currentLang={currentLang} /> */}
         </>
     );

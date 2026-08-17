@@ -1,4 +1,6 @@
 const ru = {
+    language: "ru",
+
     header: {
         production: "производство и продажа автоспецтехники",
         workingTime: "Время работы",
@@ -361,6 +363,13 @@ const ru = {
             },
         ],
     },
+
+    products: {
+        intro: {
+            title: "Рекомендуемая продукция",
+        },
+    },
+
     anyQuestions: {
         extraQuest: "ОСТАЛИСЬ ВОПРОСЫ?",
         leaveContact:
@@ -382,7 +391,7 @@ const ru = {
         agreement:
             'Нажимая на кнопку отправить <a href="/upload/privacy_policy.pdf">Вы соглашаетесь на обработку персональных данных</a>',
     },
-    products: {},
+
     news: {},
     footer: {},
 };
