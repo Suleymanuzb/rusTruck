@@ -40,8 +40,6 @@ const ScrollSlider = ({ currentLang }) => {
         };
     }, []);
 
-    
-
     const positions = [
         { top: "5%", left: "71%" },
 
@@ -56,7 +54,7 @@ const ScrollSlider = ({ currentLang }) => {
 
     return (
         <section ref={sectionRef} className='h-[500vh] my-10 min-[890px]:my-20'>
-            <div className='h-dvh sticky gap-10 top-0 w-full flex flex-col justify-start  min-[890px]:h-dvh min-[890px]:flex-row min-[890px]:items-center min-[890px]:justify-between px-6 md:px-10 lg:px-20 xl:px-30'>
+            <div className='h-dvh sticky gap-10 top-0 w-full flex flex-col justify-start min-[890px]:h-dvh min-[890px]:flex-row min-[890px]:items-center min-[890px]:justify-between px-6 md:px-10 lg:px-20 xl:px-30'>
                 <div className='benefits_left w-[45%] min-[890px]:w-[45%] lg:w-[45%] max-[1235px]:w-[45%] xl:w-[40%]'>
                     <div className='relative w-full'>
                         <img
@@ -135,8 +133,8 @@ ${isActive ? "before:bg-[#fec80b] min-[890px]:before:bg-[#fec80b]" : "before:bg-
                     </div>
                 </div>
 
-                <div className='w-full flex max-[890px]:flex-col-reverse max-[890px]:gap-1 min-[890px]:w-[30%]'>
-                    <div className='relative w-0.5 h-120 max-[890px]:w-full max-[890px]:h-1 bg-transparent rounded-full overflow-visible'>
+                <div className='relative w-full min-[890px]:w-[30%]'>
+                    <div className='relative w-0.5 h-120 max-[890px]:w-full max-[890px]:h-1 bg-transparent rounded-full overflow-visible min-[890px]:absolute min-[890px]:left-0 min-[890px]:top-1/2 min-[890px]:-translate-y-1/2'>
                         {/* Desktop (Vertical) Growing Line */}
                         <div
                             className='absolute inset-0 origin-top rounded-full hidden min-[890px]:block transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]'
@@ -192,13 +190,13 @@ ${isActive ? "before:bg-[#fec80b] min-[890px]:before:bg-[#fec80b]" : "before:bg-
                         </div>
                     </div>
 
-                    <div className='flex items-center w-full ml-3'>
+                    <div className='flex items-center w-full ml-3 mt-10'>
                         <div className='w-full flex flex-col items-strecht min-[540]:flex-col gap-5 min-[890px]:flex-col min-[890px]:items-start mb-2'>
                             <div className='mb-8 w-full'>
                                 {ItemSvg && <ItemSvg.svg />}
                             </div>
 
-                            <div className='max-[890px]:w-full'>
+                            <div className='w-full max-[890px]:w-full'>
                                 <p className='max-[890px]:text-[15px] w-full'>
                                     {item.text}
                                 </p>

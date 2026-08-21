@@ -9,6 +9,7 @@ import truckCategoryPic8 from "../assets/images/truckCategories/konteynerovozy.p
 import truckCategoryPic9 from "../assets/images/truckCategories/kryukovie-pogruzchiki.webp";
 import truckCategoryPic10 from "../assets/images/truckCategories/samosvaly.png";
 import truckCategoryPic11 from "../assets/images/truckCategories/avtodopogkategoriyaex2.webp";
+import truckCategoryPic12 from "../assets/images/truckCategories/bortovye-avtomobili.webp";
 
 const truckCategories = [
     {
@@ -54,6 +55,10 @@ const truckCategories = [
     {
         id: 11,
         image: truckCategoryPic11,
+    },
+    {
+        id: 12,
+        image: truckCategoryPic12,
     },
 ];
 

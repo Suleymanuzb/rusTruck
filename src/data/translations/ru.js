@@ -23,54 +23,68 @@ const ru = {
         megaMenu: {
             categories: {
                 title: "Категории",
+                recommendedProducts: "Рекомендуемая продукция",
                 types: [
                     {
+                        id: 1,
                         name: "Шторные автомобили",
                         path: "/shtornye-avtomobili",
                     },
                     {
+                        id: 2,
                         name: "Краны-манипуляторы",
                         path: "/krany-manipulyatory",
                     },
                     {
+                        id: 3,
                         name: "Автотопливозаправщики",
                         path: "/avtotoplivozapravshchiki",
                     },
                     {
+                        id: 4,
                         name: "Автогидроподъёмники",
                         path: "/avtogidropodyemniki",
                     },
                     {
+                        id: 5,
                         name: "Автоцистерны",
                         path: "/avtotsisterny",
                     },
                     {
+                        id: 6,
                         name: "Автоэвакуаторы",
                         path: "/avtoevakuatory",
                     },
+
                     {
-                        name: "Бортовые автомобили",
-                        path: "/bortovye-avtomobili",
-                    },
-                    {
+                        id: 7,
                         name: "Изотермические фургоны",
                         path: "/avtofurgony",
                     },
                     {
+                        id: 8,
                         name: "Контейнеровозы",
                         path: "/konteynerovozy",
                     },
                     {
+                        id: 9,
                         name: "Крюковые погрузчики",
                         path: "/kryukovye-pogruzchiki",
                     },
                     {
+                        id: 10,
                         name: "Самосвалы",
                         path: "/catalog/samosvaly",
                     },
                     {
+                        id: 11,
                         name: "Автомобили ДОПОГ категория EXII",
                         path: "/avtomobili-dopog-kategoriya-exii",
+                    },
+                    {
+                        id: 12,
+                        name: "Бортовые автомобили",
+                        path: "/bortovye-avtomobili",
                     },
                 ],
             },
@@ -143,6 +157,7 @@ const ru = {
             },
         },
     },
+
     hero: {
         slides: [
             {
@@ -235,68 +250,7 @@ const ru = {
             },
         ],
     },
-    categories: {
-        intro: {
-            title: "Категории",
-        },
-        trucks: [
-            {
-                id: 1,
-                category: "Шторные автомобили",
-                howManyModels: "10 Моделей",
-            },
-            {
-                id: 2,
-                category: "Автоэвакуаторы",
-                howManyModels: "2 Модели",
-            },
-            {
-                id: 3,
-                category: "Изотермические фургоны",
-                howManyModels: "15 Моделей",
-            },
-            {
-                id: 4,
-                category: "Контейнеровозы",
-                howManyModels: "2 Моделей",
-            },
-            {
-                id: 5,
-                category: "Крюковые погрузчики",
-                howManyModels: "3 Модели",
-            },
-            {
-                id: 6,
-                category: "Самосвалы",
-                howManyModels: "12 Моделей",
-            },
-            {
-                id: 7,
-                category: "Автомобили ДОПОГ категория EXII",
-                howManyModels: "4 Модели",
-            },
-            {
-                id: 8,
-                category: "Шторные автомобили",
-                howManyModels: "30 Моделей",
-            },
-            {
-                id: 9,
-                category: "Краны-манипуляторы",
-                howManyModels: "79 Моделей",
-            },
-            {
-                id: 10,
-                category: "Краны-манипуляторы",
-                howManyModels: "79 Моделей",
-            },
-            {
-                id: 11,
-                category: "Автотопливозаправщики",
-                howManyModels: "26 моделей",
-            },
-        ],
-    },
+
     aboutCompany: {
         intro: {
             title: 'О компании <span class="rustrack text-[#FEC80B]">Рустрак</span>',
@@ -365,8 +319,38 @@ const ru = {
     },
 
     products: {
-        intro: {
-            title: "Рекомендуемая продукция",
+        modal: {
+            title: "Получить коммерческое предложение",
+            inputs: [
+                {
+                    name: "name",
+                    label: "Ваше имя *",
+                    placeholder: "Иван",
+                    type: "text",
+                    must: "Поле обязательно для заполнения",
+                },
+                {
+                    name: "email",
+                    label: "Э-мейл *",
+                    placeholder: "russia@mail.com",
+                    type: "email",
+                    must: "Поле обязательно для заполнения",
+                },
+                {
+                    name: "tel",
+                    label: "Телефон *",
+                    placeholder: "+7 (___) ___-__-__",
+                    type: "tel",
+                    must: "Поле обязательно для заполнения",
+                },
+            ],
+
+            agreement: {
+                text: "Я согласен",
+                link: "на обработку персональных данных",
+            },
+
+            getPk: "Получить КП",
         },
     },
 

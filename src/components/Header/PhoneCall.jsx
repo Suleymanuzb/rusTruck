@@ -6,15 +6,15 @@ const PhoneCall = ({ currentLang }) => {
         <div className='flex items-center gap-6'>
             <div className='hidden md:flex flex-col text-[#A1A1A1]'>
                 <span className='min-[1140px]:ml-7 whitespace-nowrap'>
-                    {currentLang.header.forStates}
+                    {currentLang?.header?.forStates}
                     <a href='tel:88005110525'>
-                        {currentLang.header.numberForStates}
+                        {currentLang?.header?.numberForStates}
                     </a>
                 </span>
                 <span className='whitespace-nowrap'>
-                    {currentLang.header.forLocals}
+                    {currentLang?.header.forLocals}
                     <a href='tel:88005110525'>
-                        {currentLang.header.numberFotLocals}
+                        {currentLang?.header.numberFotLocals}
                     </a>
                 </span>
             </div>

@@ -14,7 +14,7 @@ const Navigation = ({ navigation, currentLang, openMenu, setOpenMenu }) => {
                         setOpenMenu(openMenu === "about" ? null : "about");
                     }}
                 >
-                    {navigation.about}
+                    {navigation?.about}
                 </NavigationItem>
 
                 <NavigationItem
@@ -25,17 +25,17 @@ const Navigation = ({ navigation, currentLang, openMenu, setOpenMenu }) => {
                         setOpenMenu(openMenu === "media" ? null : "media");
                     }}
                 >
-                    {navigation.media}
+                    {navigation?.media}
                 </NavigationItem>
 
                 <NavigationItem to='/service'>
-                    {navigation.service}
+                    {navigation?.service}
                 </NavigationItem>
 
-                <NavigationItem to='/news'>{navigation.news}</NavigationItem>
+                <NavigationItem to='/news'>{navigation?.news}</NavigationItem>
 
                 <NavigationItem to='/contacts'>
-                    {navigation.contacts}
+                    {navigation?.contacts}
                 </NavigationItem>
 
                 {/* About modal */}

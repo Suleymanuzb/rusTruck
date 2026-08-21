@@ -20,6 +20,7 @@ const { BurgerIcon } = icons;
 const Header = ({ currentLang }) => {
     const [openMenu, setOpenMenu] = useState(null);
     const isMenuOpen = openMenu !== null;
+    console.log(currentLang);
 
     useEffect(() => {
         document.body.style.overflow = isMenuOpen ? "hidden" : "";
@@ -37,7 +38,7 @@ const Header = ({ currentLang }) => {
                         {/* top header */}
                         <div className='flex items-center justify-between'>
                             <div className='flex items-center pt-4 pb-2.25'>
-                                <RusTruckLogoText to='/home' />
+                                <RusTruckLogoText to='/' />
                                 <Gisp />
                             </div>
 
@@ -69,7 +70,7 @@ const Header = ({ currentLang }) => {
                                         setOpenMenu={setOpenMenu}
                                         currentLang={currentLang}
                                         navigation={
-                                            currentLang.header.navigation
+                                            currentLang?.header?.navigation
                                         }
                                     ></Navigation>
                                 </div>
@@ -92,7 +93,7 @@ const Header = ({ currentLang }) => {
                             <RusTruck />
                             <BurgerButton />
                             <Navigation
-                                navigation={currentLang.header.navigation}
+                                navigation={currentLang?.header?.navigation}
                             ></Navigation>
                         </div>
                         <div className='flex items-center gap-6'>

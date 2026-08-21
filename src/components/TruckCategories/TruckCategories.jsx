@@ -4,14 +4,14 @@ import IconButton from "../IconButton/IconButton";
 import TruckSliders from "./TruckSliders";
 import Button from "../Button/Button";
 
-const TruckCategories = () => {
+const TruckCategories = ({ currentLang }) => {
     const swiperRef = useRef(null);
 
     return (
         <Container className='pt-19.75 pb-20'>
             <div className='flex items-center justify-between mb-8'>
                 <h2 className='text-[40px] font-medium leading-[1.9]'>
-                    Categories
+                    {currentLang.header.megaMenu.categories.title}
                 </h2>
 
                 <div className='flex items-center gap-3'>
@@ -26,7 +26,7 @@ const TruckCategories = () => {
                 </div>
             </div>
 
-            <TruckSliders ref={swiperRef} />
+            <TruckSliders ref={swiperRef} currentLang={currentLang} />
         </Container>
     );
 };
