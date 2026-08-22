@@ -10,8 +10,15 @@ import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./layout";
 import Home from "./pages/Home";
+import Catalog from "./pages/Catalog";
+import { useEffect } from "react";
+import Aos from "aos";
+import Product from "./pages/Product";
 
 const App = () => {
+    useEffect(() => {
+        Aos.init();
+    }, []);
     const currentLang = ru;
 
     return (
@@ -42,6 +49,14 @@ const App = () => {
                     <Route
                         path='about'
                         element={<About currentLang={currentLang} />}
+                    />
+                    <Route
+                        path='catalog'
+                        element={<Catalog currentLang={currentLang} />}
+                    />
+                    <Route
+                        path='catalog/:category/:slug'
+                        element={<Product currentLang={currentLang} />}
                     />
                 </Route>
             </Routes>

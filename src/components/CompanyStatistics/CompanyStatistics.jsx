@@ -9,6 +9,7 @@ import {
 import { useEffect, useRef } from "react";
 
 const CompanyStatistics = ({ currentLang }) => {
+    
     function CountMotion({ value, duration = 2.5 }) {
         const ref = useRef(null);
         const isInView = useInView(ref, { once: true, margin: "-50px" });

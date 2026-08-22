@@ -26,63 +26,63 @@ const ru = {
                 recommendedProducts: "Рекомендуемая продукция",
                 types: [
                     {
-                        id: 1,
+                        id: 0,
                         name: "Шторные автомобили",
-                        path: "/shtornye-avtomobili",
+                        path: "shtornye-avtomobili",
                     },
                     {
-                        id: 2,
+                        id: 1,
                         name: "Краны-манипуляторы",
                         path: "/krany-manipulyatory",
                     },
                     {
-                        id: 3,
+                        id: 2,
                         name: "Автотопливозаправщики",
                         path: "/avtotoplivozapravshchiki",
                     },
                     {
-                        id: 4,
+                        id: 3,
                         name: "Автогидроподъёмники",
                         path: "/avtogidropodyemniki",
                     },
                     {
-                        id: 5,
+                        id: 4,
                         name: "Автоцистерны",
                         path: "/avtotsisterny",
                     },
                     {
-                        id: 6,
+                        id: 5,
                         name: "Автоэвакуаторы",
                         path: "/avtoevakuatory",
                     },
 
                     {
-                        id: 7,
+                        id: 6,
                         name: "Изотермические фургоны",
                         path: "/avtofurgony",
                     },
                     {
-                        id: 8,
+                        id: 7,
                         name: "Контейнеровозы",
                         path: "/konteynerovozy",
                     },
                     {
-                        id: 9,
+                        id: 8,
                         name: "Крюковые погрузчики",
                         path: "/kryukovye-pogruzchiki",
                     },
                     {
-                        id: 10,
+                        id: 9,
                         name: "Самосвалы",
                         path: "/catalog/samosvaly",
                     },
                     {
-                        id: 11,
+                        id: 10,
                         name: "Автомобили ДОПОГ категория EXII",
                         path: "/avtomobili-dopog-kategoriya-exii",
                     },
                     {
-                        id: 12,
+                        id: 11,
                         name: "Бортовые автомобили",
                         path: "/bortovye-avtomobili",
                     },

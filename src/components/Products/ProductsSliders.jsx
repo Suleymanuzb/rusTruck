@@ -8,7 +8,7 @@ import trucks from "../../data/truckData";
 import { forwardRef, useEffect, useState } from "react";
 import Button from "../Button/Button";
 import { icons } from "../../assets/icons/icons";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 const { IconHeart } = icons;
 
 const ProductSliders = forwardRef(({ currentLang }, ref) => {
@@ -24,8 +24,6 @@ const ProductSliders = forwardRef(({ currentLang }, ref) => {
         email: "",
         tel: "",
     });
-
-    
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -53,11 +51,7 @@ const ProductSliders = forwardRef(({ currentLang }, ref) => {
             setErrors({});
             console.log("Form is valid");
 
-
             navigate("/success");
-
-
-            
         }
     };
 
@@ -109,12 +103,12 @@ const ProductSliders = forwardRef(({ currentLang }, ref) => {
                         >
                             <div className='relative h-full'>
                                 <div className='relative'>
-                                    <a href='#'>
+                                    <Link to={`/catalog/krany-manipula`}>
                                         <img
-                                            className='w-full block'
+                                            className='w-full block aspect-12/10 object-cover'
                                             src={truck.images.image}
                                         />
-                                    </a>
+                                    </Link>
 
                                     <div className='hidden md:absolute top-[1.5%] right-[2%]'>
                                         <span className='text-transparent hover:text-[#fec80b] cursor-pointer'>
