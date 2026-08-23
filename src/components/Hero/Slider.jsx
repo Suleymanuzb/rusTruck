@@ -16,8 +16,16 @@ import "swiper/css/navigation";
 import { Keyboard, Pagination, Navigation } from "swiper/modules";
 import H1 from "../Typography/H1";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
-const Slider = ({ currentLang }) => {
+const Slider = () => {
+    const { t } = useTranslation();
+
+    const heroSlidesArray = t("hero.slides", {
+        returnObjects: true,
+    });
+
+
     useEffect(() => {
         AOS.init({
             duration: 800,
@@ -61,7 +69,7 @@ const Slider = ({ currentLang }) => {
     [&_.swiper-pagination-bullet-active]:!border-white/70
     '
             >
-                {currentLang.hero.slides.map((slideText) => {
+                {heroSlidesArray.map((slideText) => {
                     const slideImage = heroSlides.find(
                         (slide) => slide.id === slideText.id,
                     );

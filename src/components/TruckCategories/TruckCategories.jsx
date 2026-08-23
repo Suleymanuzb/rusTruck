@@ -3,9 +3,12 @@ import Container from "../Container/Container";
 import IconButton from "../IconButton/IconButton";
 import TruckSliders from "./TruckSliders";
 import Button from "../Button/Button";
+import { useTranslation } from "react-i18next";
 
 const TruckCategories = ({ currentLang }) => {
     const swiperRef = useRef(null);
+
+    const { t } = useTranslation();
 
     return (
         <Container className='pt-19.75 pb-20'>
@@ -26,7 +29,7 @@ const TruckCategories = ({ currentLang }) => {
                 </div>
             </div>
 
-            <TruckSliders ref={swiperRef} currentLang={currentLang} />
+            <TruckSliders ref={swiperRef} t={t} />
         </Container>
     );
 };

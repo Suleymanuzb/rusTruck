@@ -14,7 +14,11 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
 import TruckCards from "./TruckCards";
 
-const TruckSliders = forwardRef(({ currentLang }, ref) => {
+const TruckSliders = forwardRef(({ t }, ref) => {
+    const categoryTypes = t("header.megaMenu.categories.types", {
+        returnObjects: true,
+    });
+
     return (
         <>
             <Swiper
@@ -48,15 +52,13 @@ const TruckSliders = forwardRef(({ currentLang }, ref) => {
                 modules={[Pagination, Navigation]}
                 className='mySwiper  py-5!'
             >
-                {currentLang?.header?.megaMenu?.categories?.types.map(
-                    (truck) => {
-                        return (
-                            <SwiperSlide key={truck.id}>
-                                <TruckCards category={truck} />
-                            </SwiperSlide>
-                        );
-                    },
-                )}
+                {categoryTypes.map((truck) => {
+                    return (
+                        <SwiperSlide key={truck.id}>
+                            <TruckCards category={truck} />
+                        </SwiperSlide>
+                    );
+                })}
             </Swiper>
         </>
     );
