@@ -1,13 +1,13 @@
 import { useRef } from "react";
 import Container from "../Container/Container";
 import IconButton from "../IconButton/IconButton";
-import ProductSliders from "./ProductsSliders";
+import RecProductSliders from "./RecProductSliders";
 
-const Products = ({ currentLang }) => {
+const RecProducts = ({ currentLang }) => {
     const swiperRef = useRef(null);
     return (
         <div className='bg-gray-100 py-10 md:py-14'>
-            <Container className="max-[500px]:px-4">
+            <Container className='max-[500px]:px-4'>
                 <div className='flex justify-between mb-8'>
                     <h1 className='text-2xl md:text-[40px] text-medium'>
                         {
@@ -28,10 +28,10 @@ const Products = ({ currentLang }) => {
                     </div>
                 </div>
 
-                <ProductSliders ref={swiperRef} currentLang={currentLang} />
+                <RecProductSliders ref={swiperRef} currentLang={currentLang} />
             </Container>
         </div>
     );
 };
 
-export default Products;
+export default RecProducts;

@@ -18,6 +18,7 @@ const ru = {
             service: "Сервис",
             news: "Новости",
             contacts: "Контакты",
+            filtered: "filtered",
         },
 
         megaMenu: {
@@ -28,63 +29,63 @@ const ru = {
                     {
                         id: 0,
                         name: "Шторные автомобили",
-                        path: "shtornye-avtomobili",
+                        slug: "shtornye-avtomobili",
                     },
                     {
                         id: 1,
                         name: "Краны-манипуляторы",
-                        path: "/krany-manipulyatory",
+                        slug: "krany-manipulyatory",
                     },
                     {
                         id: 2,
                         name: "Автотопливозаправщики",
-                        path: "/avtotoplivozapravshchiki",
+                        slug: "avtotoplivozapravshchiki",
                     },
                     {
                         id: 3,
                         name: "Автогидроподъёмники",
-                        path: "/avtogidropodyemniki",
+                        slug: "avtogidropodyemniki",
                     },
                     {
                         id: 4,
                         name: "Автоцистерны",
-                        path: "/avtotsisterny",
+                        slug: "avtotsisterny",
                     },
                     {
                         id: 5,
                         name: "Автоэвакуаторы",
-                        path: "/avtoevakuatory",
+                        slug: "avtoevakuatory",
                     },
 
                     {
                         id: 6,
                         name: "Изотермические фургоны",
-                        path: "/avtofurgony",
+                        slug: "avtofurgony",
                     },
                     {
                         id: 7,
                         name: "Контейнеровозы",
-                        path: "/konteynerovozy",
+                        slug: "konteynerovozy",
                     },
                     {
                         id: 8,
                         name: "Крюковые погрузчики",
-                        path: "/kryukovye-pogruzchiki",
+                        slug: "kryukovye-pogruzchiki",
                     },
                     {
                         id: 9,
                         name: "Самосвалы",
-                        path: "/catalog/samosvaly",
+                        slug: "catalog/samosvaly",
                     },
                     {
                         id: 10,
                         name: "Автомобили ДОПОГ категория EXII",
-                        path: "/avtomobili-dopog-kategoriya-exii",
+                        slug: "avtomobili-dopog-kategoriya-exii",
                     },
                     {
                         id: 11,
                         name: "Бортовые автомобили",
-                        path: "/bortovye-avtomobili",
+                        slug: "bortovye-avtomobili",
                     },
                 ],
             },

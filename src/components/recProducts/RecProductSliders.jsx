@@ -11,11 +11,10 @@ import { icons } from "../../assets/icons/icons";
 import { useNavigate, Link } from "react-router-dom";
 const { IconHeart } = icons;
 
-const ProductSliders = forwardRef(({ currentLang }, ref) => {
+const RecProductSliders = forwardRef(({ currentLang }, ref) => {
     const [isOpen, setIsopen] = useState(false);
     const [errors, setErrors] = useState({});
     const [agreed, setAgreed] = useState(false);
-    const [isSuccess, setIsSuccess] = useState(false);
 
     const navigate = useNavigate();
 
@@ -44,8 +43,6 @@ const ProductSliders = forwardRef(({ currentLang }, ref) => {
         setErrors(newErrors);
 
         if (Object.keys(newErrors).length === 0) {
-            // submit form
-            setIsSuccess(true);
             setIsopen(false);
             setAgreed(false);
             setErrors({});
@@ -69,7 +66,7 @@ const ProductSliders = forwardRef(({ currentLang }, ref) => {
 
     const handleCloseModal = () => setIsopen(false);
 
-    console.log(isOpen);
+    // console.log(isOpen);
 
     return (
         <div className='relative'>
@@ -97,10 +94,7 @@ const ProductSliders = forwardRef(({ currentLang }, ref) => {
             >
                 {trucks.map((truck, id) => {
                     return (
-                        <SwiperSlide
-                            key={id}
-                            className='h-auto! bg-transparent'
-                        >
+                        <SwiperSlide key={id} className='h-auto! bg-transparen'>
                             <div className='relative h-full'>
                                 <div className='relative'>
                                     <Link to={`/catalog/krany-manipula`}>
@@ -254,4 +248,4 @@ const ProductSliders = forwardRef(({ currentLang }, ref) => {
     );
 });
 
-export default ProductSliders;
+export default RecProductSliders;

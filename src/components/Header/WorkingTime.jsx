@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const WorkingTime = ({ currentLang, hasDropdown = false }) => {
     const [isOpen, setIsOpen] = useState(false);
-    console.log(currentLang);
+    // console.log(currentLang);
 
     return (
         <div>

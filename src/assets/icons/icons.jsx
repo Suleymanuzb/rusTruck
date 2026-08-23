@@ -1155,4 +1155,32 @@ export const icons = {
             />
         </svg>
     ),
+    IconLine: (props) => (
+        <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width={18}
+            height={18}
+            fill='currentColor'
+            {...props}
+        >
+            <path
+                fill='currentColor'
+                d='M0 2.813C0 1.673.895.75 2 .75s2 .923 2 2.063c0 1.139-.895 2.062-2 2.062s-2-.923-2-2.063ZM0 9c0-1.14.895-2.063 2-2.063S4 7.862 4 9c0 1.14-.895 2.063-2 2.063S0 10.139 0 9ZM0 15.188c0-1.14.895-2.063 2-2.063s2 .923 2 2.063c0 1.139-.895 2.062-2 2.062s-2-.923-2-2.063ZM5 1.781h13v2.063H5V1.78ZM5 7.969h13v2.062H5V7.97ZM5 14.156h13v2.063H5v-2.063Z'
+            />
+        </svg>
+    ),
+    IconTable: (props) => (
+        <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width={18}
+            height={18}
+            fill='currentColor'
+            {...props}
+        >
+            <path
+                fill='currentColor'
+                d='M0 0h8v8H0V0ZM0 10h8v8H0v-8ZM10 0h8v8h-8V0ZM10 10h8v8h-8v-8Z'
+            />
+        </svg>
+    ),
 };

@@ -38,6 +38,10 @@ const Navigation = ({ navigation, currentLang, openMenu, setOpenMenu }) => {
                     {navigation?.contacts}
                 </NavigationItem>
 
+                <NavigationItem to='/filtered'>
+                    {navigation?.filtered}
+                </NavigationItem>
+
                 {/* About modal */}
                 {openMenu === "about" && (
                     <div className='fixed overflow-y-auto left-0 top-36.5 bottom-0 z-10  w-screen bg-gray-200 pt-4'>

@@ -7,7 +7,7 @@ import H1 from "../components/Typography/H1";
 import CompanyStatistics from "../components/CompanyStatistics/CompanyStatistics";
 import AnyQuestions from "../components/AnyQuestions/AnyQuestions";
 import ScrollSlider from "../components/ScrollSilder/ScrollSlider";
-import Products from "../components/Products/Products";
+import Products from "../components/recProducts/RecProducts";
 
 const Home = ({ currentLang }) => {
     return (

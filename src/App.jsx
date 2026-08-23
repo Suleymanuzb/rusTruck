@@ -1,5 +1,4 @@
 import ru from "./data/translations/ru";
-
 import Header from "./components/Header/Header";
 import Success from "./pages/Success";
 import Service from "./pages/Service";
@@ -13,7 +12,8 @@ import Home from "./pages/Home";
 import Catalog from "./pages/Catalog";
 import { useEffect } from "react";
 import Aos from "aos";
-import Product from "./pages/Product";
+import FilteredCatalog from "./pages/FilteredCatalog/FilteredCatalog";
+import RecProductSliders from "./components/recProducts/RecProductSliders";
 
 const App = () => {
     useEffect(() => {
@@ -26,10 +26,12 @@ const App = () => {
             <Routes>
                 <Route path='/' element={<Layout currentLang={currentLang} />}>
                     <Route index element={<Home currentLang={currentLang} />} />
+
                     <Route
                         path='success'
                         element={<Success currentLang={currentLang} />}
                     />
+
                     <Route
                         path='service'
                         element={<Service currentLang={currentLang} />}
@@ -56,7 +58,13 @@ const App = () => {
                     />
                     <Route
                         path='catalog/:category/:slug'
-                        element={<Product currentLang={currentLang} />}
+                        element={
+                            <RecProductSliders currentLang={currentLang} />
+                        }
+                    />
+                    <Route
+                        path='catalog/:category'
+                        element={<FilteredCatalog currentLang={currentLang} />}
                     />
                 </Route>
             </Routes>

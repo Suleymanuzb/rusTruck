@@ -20,7 +20,7 @@ const { BurgerIcon } = icons;
 const Header = ({ currentLang }) => {
     const [openMenu, setOpenMenu] = useState(null);
     const isMenuOpen = openMenu !== null;
-    console.log(currentLang);
+    // console.log(currentLang);
 
     useEffect(() => {
         document.body.style.overflow = isMenuOpen ? "hidden" : "";
