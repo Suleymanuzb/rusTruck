@@ -1,24 +1,23 @@
 import Container from "../../components/Container/Container";
 import { icons } from "../../assets/icons/icons";
-import { useParams, Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import trucks from "../../data/truckData";
+import { useTranslation } from "react-i18next";
 const { IconLine, IconTable, SearchIcon } = icons;
 
-const FilteredCatalog = ({ currentLang }) => {
-    const language = currentLang.ru;
-
+const FilteredCatalog = () => {
+    const { t } = useTranslation();
     const { category } = useParams();
+    console.log(category);
 
-    const categories = currentLang.header.megaMenu.categories.types;
-    console.log(categories);
-
+    const categories = t("header.megaMenu.categories.types", {
+        returnObjects: true,
+    });
     const selectedCategory = categories.find((item) => item.slug === category);
-    console.log(selectedCategory);
 
     const matchingTrucks = trucks.filter(
-        (truck) => truck.categoryId === selectedCategory.id,
+        (truck) => truck.categoryId === selectedCategory?.id,
     );
-    console.log(matchingTrucks);
 
     return (
         <div className='bg-gray-100'>
@@ -174,7 +173,9 @@ const FilteredCatalog = ({ currentLang }) => {
                         {matchingTrucks.map((truck) => {
                             return (
                                 <div key={truck.id} className='bg-white'>
-                                    <Link className="">
+                                    <Link
+                                        to={`/catalog/${category}/${truck.id}`}
+                                    >
                                         <img
                                             src={truck.images.image}
                                             alt=''

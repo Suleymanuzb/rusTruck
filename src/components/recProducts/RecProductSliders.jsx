@@ -9,9 +9,18 @@ import { forwardRef, useEffect, useState } from "react";
 import Button from "../Button/Button";
 import { icons } from "../../assets/icons/icons";
 import { useNavigate, Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 const { IconHeart } = icons;
 
-const RecProductSliders = forwardRef(({ currentLang }, ref) => {
+const RecProductSliders = forwardRef((props, ref) => {
+    const { t } = useTranslation();
+
+    const modalInputs = t("products.modal.inputs", {
+        returnObjects: true,
+    });
+
+    const language = t("language");
+
     const [isOpen, setIsopen] = useState(false);
     const [errors, setErrors] = useState({});
     const [agreed, setAgreed] = useState(false);
@@ -28,7 +37,7 @@ const RecProductSliders = forwardRef(({ currentLang }, ref) => {
         e.preventDefault();
         const newErrors = {};
 
-        currentLang.products.modal.inputs.forEach((item) => {
+        modalInputs.forEach((item) => {
             const value = formData[item.name];
 
             if (!value.trim()) {
@@ -52,8 +61,6 @@ const RecProductSliders = forwardRef(({ currentLang }, ref) => {
         }
     };
 
-    const language = currentLang.language;
-
     useEffect(() => {
         document.body.style.overflow = isOpen ? "hidden" : "";
 
@@ -69,13 +76,15 @@ const RecProductSliders = forwardRef(({ currentLang }, ref) => {
     // console.log(isOpen);
 
     return (
-        <div className='relative'>
+        <div className='relative border'>
             {isOpen && <div className='fixed inset-0 z-10 bg-black/50'></div>}
 
             <Swiper
                 className='mySwiper rounded-tr-lg rounded-tl-lg relative!'
                 onSwiper={(swiper) => {
-                    ref.current = swiper;
+                    if (ref) {
+                        ref.current = swiper;
+                    }
                 }}
                 spaceBetween={15}
                 breakpoints={{
@@ -95,9 +104,9 @@ const RecProductSliders = forwardRef(({ currentLang }, ref) => {
                 {trucks.map((truck, id) => {
                     return (
                         <SwiperSlide key={id} className='h-auto! bg-transparen'>
-                            <div className='relative h-full'>
+                            <div className='relative h-full border'>
                                 <div className='relative'>
-                                    <Link to={`/catalog/krany-manipula`}>
+                                    <Link>
                                         <img
                                             className='w-full block aspect-12/10 object-cover'
                                             src={truck.images.image}
@@ -114,10 +123,10 @@ const RecProductSliders = forwardRef(({ currentLang }, ref) => {
                                 <div className='bg-white px-0.5 py-2 min-[500px]:px-3 sm:py-4'>
                                     <div>
                                         <a className='md:text-center xl:text-start mb-4 line-clamp-2 text-[14px]  min-[1200px]:text-lg w-full'>
-                                            {truck[language].truckType}
+                                            {truck[language]?.truckType}
                                         </a>
                                         <p className='text-center md:text-start font-medium leading-[1.18] mb-3 md:text-xl'>
-                                            {truck[language].price}
+                                            {truck[language]?.price}
                                         </p>
                                     </div>
                                     <div className='max-[1360px]:flex max-[1360px]:items-center max-[1360px]:flex-col min-[1360px]:flex min-[1360px]:items-center min-[1360px]:gap-3 '>
@@ -133,7 +142,7 @@ const RecProductSliders = forwardRef(({ currentLang }, ref) => {
                                             variant='getKp'
                                             arrowDown='true'
                                         >
-                                            {truck[language].buttons.getPk}
+                                            {truck[language]?.buttons.getPk}
                                         </Button>
                                     </div>
                                 </div>
@@ -155,51 +164,48 @@ const RecProductSliders = forwardRef(({ currentLang }, ref) => {
                     <div className='relative flex flex-col items-center gap-11 justify-center w-full'>
                         <div className='text-2xl'>
                             <h1 className='font-medium text-center'>
-                                {currentLang.products.modal.title}
+                                {t("products.modal.title")}
                             </h1>
                         </div>
 
                         <form className='w-[70%]' onSubmit={handleSubmit}>
-                            {currentLang.products.modal.inputs.map(
-                                (item, index) => {
-                                    return (
-                                        <div
-                                            key={index}
-                                            className='flex flex-col w-full'
+                            {modalInputs.inputs.map((item, index) => {
+                                return (
+                                    <div
+                                        key={index}
+                                        className='flex flex-col w-full'
+                                    >
+                                        <label
+                                            className='mb-1.25 text-sm'
+                                            htmlFor={item.name}
                                         >
-                                            <label
-                                                className='mb-1.25 text-sm'
-                                                htmlFor={item.name}
-                                            >
-                                                {item.label}
-                                            </label>
-                                            <input
-                                                id={item.name}
-                                                name={item.name}
-                                                className='outline-none border border-[#a2a2a2] rounded focus:border-[#fec80b] focus:shadow-[0_0_4px_#fec80b] transform duration-300 placeholder:text-gray-400 py-3 pl-3 pr-10.25'
-                                                type={item.type}
-                                                placeholder={item.placeholder}
-                                                value={formData[item.name]}
-                                                onChange={(e) => {
-                                                    setFormData((prev) => ({
-                                                        ...prev,
-                                                        [item.name]:
-                                                            e.target.value,
-                                                    }));
-                                                }}
-                                            />
-                                            {/*  */}
-                                            {errors[item.name] && (
-                                                <p className='text-sm text-red-500'>
-                                                    {errors[item.name]}
-                                                </p>
-                                            )}
+                                            {item.label}
+                                        </label>
+                                        <input
+                                            id={item.name}
+                                            name={item.name}
+                                            className='outline-none border border-[#a2a2a2] rounded focus:border-[#fec80b] focus:shadow-[0_0_4px_#fec80b] transform duration-300 placeholder:text-gray-400 py-3 pl-3 pr-10.25'
+                                            type={item.type}
+                                            placeholder={item.placeholder}
+                                            value={formData[item.name]}
+                                            onChange={(e) => {
+                                                setFormData((prev) => ({
+                                                    ...prev,
+                                                    [item.name]: e.target.value,
+                                                }));
+                                            }}
+                                        />
+                                        {/*  */}
+                                        {errors[item.name] && (
+                                            <p className='text-sm text-red-500'>
+                                                {errors[item.name]}
+                                            </p>
+                                        )}
 
-                                            {/*  */}
-                                        </div>
-                                    );
-                                },
-                            )}
+                                        {/*  */}
+                                    </div>
+                                );
+                            })}
                             <div className='flex gap-3 mb-14'>
                                 <input
                                     type='checkbox'
@@ -210,15 +216,12 @@ const RecProductSliders = forwardRef(({ currentLang }, ref) => {
                                     className='size-7.5 accent-black '
                                 />
                                 <p className='text-sm leading-none text-gray-400'>
-                                    {currentLang.products.modal.agreement.text}
+                                    {t("products.modal.agreement.text")}
                                     <a
                                         href='/upload/privacy_policy.pdf'
                                         className='text-indigo-600 hover:text-blue-800 ml-1'
                                     >
-                                        {
-                                            currentLang.products.modal.agreement
-                                                .link
-                                        }
+                                        {t("products.modal.agreement.link")}
                                     </a>
                                 </p>
                             </div>
@@ -235,7 +238,7 @@ const RecProductSliders = forwardRef(({ currentLang }, ref) => {
                                     variant='btn_big_more'
                                     className='w-full'
                                 >
-                                    {currentLang.products.modal.getPk}
+                                    {t("products.modal.getPk")}
                                 </Button>
                             </div>
                         </form>

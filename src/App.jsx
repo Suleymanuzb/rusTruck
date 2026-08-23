@@ -1,4 +1,3 @@
-import ru from "./data/translations/ru";
 import Header from "./components/Header/Header";
 import Success from "./pages/Success";
 import Service from "./pages/Service";
@@ -14,57 +13,35 @@ import { useEffect } from "react";
 import Aos from "aos";
 import FilteredCatalog from "./pages/FilteredCatalog/FilteredCatalog";
 import RecProductSliders from "./components/recProducts/RecProductSliders";
+import ProductDetails from "./pages/ProductDetails/ProductDetails";
 
 const App = () => {
     useEffect(() => {
         Aos.init();
     }, []);
-    const currentLang = ru;
 
     return (
         <>
             <Routes>
-                <Route path='/' element={<Layout currentLang={currentLang} />}>
-                    <Route index element={<Home currentLang={currentLang} />} />
+                <Route path='/' element={<Layout />}>
+                    <Route index element={<Home />} />
+
+                    <Route path='success' element={<Success />} />
+
+                    <Route path='service' element={<Service />} />
+                    <Route path='remont' element={<Remont />} />
+                    <Route path='news' element={<News />} />
+                    <Route path='contacts' element={<Contacts />} />
+                    <Route path='about' element={<About />} />
+                    <Route path='catalog' element={<Catalog />} />
 
                     <Route
-                        path='success'
-                        element={<Success currentLang={currentLang} />}
-                    />
-
-                    <Route
-                        path='service'
-                        element={<Service currentLang={currentLang} />}
-                    />
-                    <Route
-                        path='remont'
-                        element={<Remont currentLang={currentLang} />}
-                    />
-                    <Route
-                        path='news'
-                        element={<News currentLang={currentLang} />}
-                    />
-                    <Route
-                        path='contacts'
-                        element={<Contacts currentLang={currentLang} />}
-                    />
-                    <Route
-                        path='about'
-                        element={<About currentLang={currentLang} />}
-                    />
-                    <Route
-                        path='catalog'
-                        element={<Catalog currentLang={currentLang} />}
-                    />
-                    <Route
-                        path='catalog/:category/:slug'
-                        element={
-                            <RecProductSliders currentLang={currentLang} />
-                        }
+                        path='catalog/:category/:productId'
+                        element={<ProductDetails />}
                     />
                     <Route
                         path='catalog/:category'
-                        element={<FilteredCatalog currentLang={currentLang} />}
+                        element={<FilteredCatalog />}
                     />
                 </Route>
             </Routes>

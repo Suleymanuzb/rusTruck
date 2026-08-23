@@ -4,8 +4,14 @@ import Button from "../Button/Button";
 import Container from "../Container/Container";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useTranslation } from "react-i18next";
 
-const AboutCompany = ({ currentLang }) => {
+const AboutCompany = () => {
+    const { t } = useTranslation();
+    const aboutCompanyParahraphs = t("aboutCompany.intro.paragraphs", {
+        returnObjects: true,
+    });
+
     useEffect(() => {
         AOS.init();
     }, []);
@@ -18,23 +24,21 @@ const AboutCompany = ({ currentLang }) => {
                         data-aos='fade-right'
                         className='font-medium text-[42px] leading-[1.19] mb-5.5'
                         dangerouslySetInnerHTML={{
-                            __html: currentLang.aboutCompany.intro.title,
+                            __html: t("aboutCompany.intro.title"),
                         }}
                     ></h1>
-                    {currentLang.aboutCompany.intro.paragraphs.map(
-                        (p, index) => {
-                            return (
-                                <div key={index}>
-                                    <p
-                                        data-aos='fade-right'
-                                        className={`text-lg ${p.text.includes("Наша компания") ? "mb-10" : "mb-16"}`}
-                                    >
-                                        {p.text}
-                                    </p>
-                                </div>
-                            );
-                        },
-                    )}
+                    {aboutCompanyParahraphs.map((p, index) => {
+                        return (
+                            <div key={index}>
+                                <p
+                                    data-aos='fade-right'
+                                    className={`text-lg ${p.text.includes("Наша компания") ? "mb-10" : "mb-16"}`}
+                                >
+                                    {p.text}
+                                </p>
+                            </div>
+                        );
+                    })}
                     <Button
                         data-aos='zoom-out-up'
                         data-aos-duration='1000'
@@ -42,10 +46,10 @@ const AboutCompany = ({ currentLang }) => {
                         arrow='right'
                         className='hidden lg:flex items-center [&>span]:text-4xl text-xl font-light [&>span]:ml-2 [&>span]:font-thin'
                     >
-                        {currentLang.aboutCompany.intro.button}
+                        {t("aboutCompany.intro.button")}
                     </Button>
                 </div>
-                {/* ask!!! */}
+
                 <div data-aos='fade-left' className='flex w-full justify-end'>
                     <img
                         className='w-full max-[1000px]:w-[80%] max-[800px]:w-[90%]  max-[600px]:w-full max-[1200px]:w-[70%]'

@@ -1,9 +1,13 @@
+import { useTranslation } from "react-i18next";
 import Container from "../components/Container/Container";
 import TruckCards from "../components/TruckCategories/TruckCards";
-import TruckSliders from "../components/TruckCategories/TruckSliders";
 
-const Catalog = ({ currentLang }) => {
-    const catalogItems = currentLang?.header?.megaMenu?.categories?.types;
+const Catalog = () => {
+    const { t } = useTranslation();
+
+    const catalogItems = t("header.megaMenu.categories.types", {
+        returnObjects: true,
+    });
 
     return (
         <section>
@@ -14,7 +18,6 @@ const Catalog = ({ currentLang }) => {
                             <TruckCards
                                 key={`catalog item ${i + 1}`}
                                 category={category}
-                                currentlang={currentLang}
                             />
                         );
                     })}

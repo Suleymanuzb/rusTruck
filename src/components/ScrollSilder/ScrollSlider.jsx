@@ -2,13 +2,19 @@ import { useEffect, useRef, useState } from "react";
 import sliderImage from "../../assets/images/sliderImage/benefits.png";
 // import sliderImage2 from "../../assets/images/sliderImage/benefits2.png";
 import lineSvg from "../../data/sliderLinePart";
+import { useTranslation } from "react-i18next";
 
-const ScrollSlider = ({ currentLang }) => {
+const ScrollSlider = () => {
+    const { t } = useTranslation();
+    const scrollSlider = t("scrollSlider.linePart", {
+        returnObjects: true,
+    });
+
     const sectionRef = useRef(null);
 
     const [progress, setProgress] = useState(0);
 
-    const items = currentLang?.scrollSlider?.linePart || [];
+    const items = scrollSlider || [];
 
     const activeIndex = Math.min(
         Math.floor(progress * items.length),

@@ -13,51 +13,51 @@ import truckCategoryPic12 from "../assets/images/truckCategories/bortovye-avtomo
 
 const truckCategories = [
     {
-        id: 0,
+        id: 1,
         image: truckCategoryPic1,
     },
     {
-        id: 1,
+        id: 2,
         image: truckCategoryPic2,
     },
     {
-        id: 2,
+        id: 3,
         image: truckCategoryPic3,
     },
     {
-        id: 3,
+        id: 4,
         image: truckCategoryPic4,
     },
     {
-        id: 4,
+        id: 5,
         image: truckCategoryPic5,
     },
     {
-        id: 5,
+        id: 6,
         image: truckCategoryPic6,
     },
     {
-        id: 6,
+        id: 7,
         image: truckCategoryPic7,
     },
     {
-        id: 7,
+        id: 8,
         image: truckCategoryPic8,
     },
     {
-        id: 8,
+        id: 9,
         image: truckCategoryPic9,
     },
     {
-        id: 9,
+        id: 10,
         image: truckCategoryPic10,
     },
     {
-        id: 10,
+        id: 11,
         image: truckCategoryPic11,
     },
     {
-        id: 11,
+        id: 12,
         image: truckCategoryPic12,
     },
 ];

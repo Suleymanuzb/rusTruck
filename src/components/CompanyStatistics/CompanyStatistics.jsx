@@ -7,9 +7,14 @@ import {
     useInView,
 } from "framer-motion";
 import { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 const CompanyStatistics = ({ currentLang }) => {
-    
+    const { t } = useTranslation();
+    const threeStats = t("CompanyStatistics.fullThreeStats", {
+        returnObjects: true,
+    });
+
     function CountMotion({ value, duration = 2.5 }) {
         const ref = useRef(null);
         const isInView = useInView(ref, { once: true, margin: "-50px" });
@@ -33,28 +38,26 @@ const CompanyStatistics = ({ currentLang }) => {
     return (
         <div className='bg-[#fec80b] mt-20'>
             <Container className='grid  md:grid-cols-6 pt-13.25 pb-16.25 gap-y-10'>
-                {currentLang.CompanyStatistics.fullThreeStats.map(
-                    (statistic, index) => {
-                        return (
-                            <div key={index} className='col-span-2'>
-                                <div className='flex flex-col mb-6'>
-                                    <p className='text-[100px] font-medium leading-none'>
-                                        <CountMotion
-                                            value={statistic.numberOfStats}
-                                            duration={1.5}
-                                        />
-                                    </p>
-                                    <span className='text-[32px] font-medium leading-[1.18] '>
-                                        {statistic.unit}
-                                    </span>
-                                </div>
-                                <p className='leading-normal  md:max-w-78'>
-                                    {statistic.description}
+                {threeStats.map((statistic, index) => {
+                    return (
+                        <div key={index} className='col-span-2'>
+                            <div className='flex flex-col mb-6'>
+                                <p className='text-[100px] font-medium leading-none'>
+                                    <CountMotion
+                                        value={statistic.numberOfStats}
+                                        duration={1.5}
+                                    />
                                 </p>
+                                <span className='text-[32px] font-medium leading-[1.18] '>
+                                    {statistic.unit}
+                                </span>
                             </div>
-                        );
-                    },
-                )}
+                            <p className='leading-normal  md:max-w-78'>
+                                {statistic.description}
+                            </p>
+                        </div>
+                    );
+                })}
             </Container>
         </div>
     );

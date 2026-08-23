@@ -25,7 +25,6 @@ const Slider = () => {
         returnObjects: true,
     });
 
-
     useEffect(() => {
         AOS.init({
             duration: 800,
