@@ -29,62 +29,62 @@ const en = {
 
                 types: [
                     {
-                        id: 0,
+                        id: 1,
                         name: "Curtain-Sided Trucks",
                         slug: "shtornye-avtomobili",
                     },
                     {
-                        id: 1,
+                        id: 2,
                         name: "Truck-Mounted Cranes",
                         slug: "krany-manipulyatory",
                     },
                     {
-                        id: 2,
+                        id: 3,
                         name: "Fuel Tanker Trucks",
                         slug: "avtotoplivozapravshchiki",
                     },
                     {
-                        id: 3,
+                        id: 4,
                         name: "Truck-Mounted Aerial Platforms",
                         slug: "avtogidropodyemniki",
                     },
                     {
-                        id: 4,
-                        name: "Tanker Trucks",
+                        id: 5,
+                        name: "Tank Trucks",
                         slug: "avtotsisterny",
                     },
                     {
-                        id: 5,
+                        id: 6,
                         name: "Tow Trucks",
                         slug: "avtoevakuatory",
                     },
                     {
-                        id: 6,
+                        id: 7,
                         name: "Insulated Vans",
                         slug: "avtofurgony",
                     },
                     {
-                        id: 7,
+                        id: 8,
                         name: "Container Carriers",
                         slug: "konteynerovozy",
                     },
                     {
-                        id: 8,
+                        id: 9,
                         name: "Hook Loaders",
                         slug: "kryukovye-pogruzchiki",
                     },
                     {
-                        id: 9,
+                        id: 10,
                         name: "Dump Trucks",
-                        slug: "catalog/samosvaly",
+                        slug: "samosvaly",
                     },
                     {
-                        id: 10,
+                        id: 11,
                         name: "ADR Category EXII Vehicles",
                         slug: "avtomobili-dopog-kategoriya-exii",
                     },
                     {
-                        id: 11,
+                        id: 12,
                         name: "Flatbed Trucks",
                         slug: "bortovye-avtomobili",
                     },
@@ -95,7 +95,7 @@ const en = {
                 title: "About Us",
                 links: [
                     {
-                        name: "About Rustrak LLC",
+                        name: "About RusTruck LLC",
                         path: "/about",
                     },
                     {
@@ -119,7 +119,7 @@ const en = {
                         path: "/cert",
                     },
                     {
-                        name: "Vacancies",
+                        name: "Careers",
                         path: "/vacancies",
                     },
                     {
@@ -137,11 +137,11 @@ const en = {
                         path: "/photogallery",
                     },
                     {
-                        name: "Video",
+                        name: "Videos",
                         path: "/video",
                     },
                     {
-                        name: "Promotional Materials",
+                        name: "Advertising Materials",
                         path: "/promo",
                     },
                     {
@@ -178,7 +178,7 @@ const en = {
         slides: [
             {
                 id: 1,
-                title: "Rustrak fuel tankers are included in the Russian industrial products register",
+                title: "RusTruck Fuel Tankers Included in the Russian Industrial Products Register",
                 description:
                     "Now available for purchase under Federal Law 44-FZ",
                 buttons: [
@@ -191,9 +191,9 @@ const en = {
 
             {
                 id: 2,
-                title: "Curtain-sided KAMAZ 4308 vans in stock",
+                title: "KAMAZ 4308 Curtain-Sided Vans Available",
                 description:
-                    "Superstructure dimensions: 6200×2550×2850 mm. Price: 5,500,000 RUB.",
+                    "Superstructure dimensions: 6200x2550x2850 mm. Price: RUB 5,500,000.",
                 buttons: [
                     {
                         text: "Request a Call",
@@ -206,7 +206,7 @@ const en = {
                 id: 3,
                 title: "Flatbed Platforms with Curtain Mechanism",
                 description:
-                    "Production and supply of commercial vehicles, flatbed platforms, including sliding curtains and sliding roofs.",
+                    "Manufacturing and supply of commercial vehicles, flatbed platforms, including platforms with sliding curtains and sliding roofs.",
                 buttons: [
                     {
                         text: "Learn More",
@@ -217,9 +217,9 @@ const en = {
 
             {
                 id: 4,
-                title: "Rustrak LLC",
+                title: "RusTruck LLC",
                 description:
-                    "Production and supply of specialized machinery and special-purpose vehicles",
+                    "Manufacturing and supply of specialized machinery and special-purpose vehicles",
                 buttons: [
                     {
                         text: "Open Catalog",
@@ -236,7 +236,7 @@ const en = {
                 id: 5,
                 title: "Truck-Mounted Cranes Based on MCV/HCV Trucks",
                 description:
-                    "Production of vehicles equipped with truck-mounted crane units. Anti-shift plates, rear outrigger control distributor blocks, open HOSSEN profiles, mounting plates at the base of the crane unit, and platform painting in the crane color.",
+                    "Manufacturing of vehicles equipped with truck-mounted crane units. Use of anti-shift plates, installation of a control distributor block for rear supports, open HOSSEN profile, mounting plates at the base of the crane unit, and platform painting to match the crane color.",
                 buttons: [
                     {
                         text: "Learn More",
@@ -253,7 +253,7 @@ const en = {
                 id: 6,
                 title: "Fuel Tanker Trucks Based on MCV/HCV Trucks",
                 description:
-                    "Production and supply of fuel tanker trucks with capacities of 8 and 6 cubic meters. Aluminum piping, composite pressure-suction hoses, and high-performance fuel dispensing equipment.",
+                    "Manufacturing and supply of fuel tanker trucks with capacities of 8 and 6 cubic meters. Aluminum piping, composite suction-discharge hoses, and a high-performance fuel dispensing unit.",
                 buttons: [
                     {
                         text: "Learn More",
@@ -270,17 +270,15 @@ const en = {
 
     aboutCompany: {
         intro: {
-            title: 'About <span class="rustrack text-[#FEC80B]">Rustrak</span>',
-
+            title: 'About <span class="rustrack text-[#FEC80B]">RusTruck</span>',
             paragraphs: [
                 {
-                    text: "Our company is one of the leading players in the special-purpose vehicle market. Every day, we contribute to the development of the domestic automotive industry and the strengthening of the Russian economy.",
+                    text: "Our company is a leading player in the special-purpose vehicle market. Every day, we contribute to the development of the domestic automotive industry and the strengthening of the Russian economy.",
                 },
                 {
-                    text: "Rustrak is a leading manufacturer of commercial vehicles and specialized machinery. Our work is recognized and highly valued by major Russian corporations and government organizations. We supply specialized vehicles to companies such as Gazprom, Rosatom, Rosseti, RSK MiG, and others.",
+                    text: "RusTruck is a leading manufacturer of commercial vehicles and specialized machinery. Our work is recognized and highly valued by major Russian corporations and government organizations. We supply special-purpose vehicles to companies such as Gazprom, Rosatom, Rosseti, RSK MiG, and others.",
                 },
             ],
-
             button: "Learn More",
         },
     },
@@ -291,7 +289,7 @@ const en = {
                 numberOfStats: "17",
                 unit: "years",
                 description:
-                    "Over 17 years of operation, Rustrak LLC has grown into a major company specializing in the production and sale of special-purpose vehicles.",
+                    "Over 17 years of operation, RusTruck LLC has grown into a major company specializing in the manufacturing and sale of special-purpose vehicles.",
             },
             {
                 numberOfStats: "85",
@@ -303,7 +301,7 @@ const en = {
                 numberOfStats: "11",
                 unit: "manufacturers",
                 description:
-                    "Rustrak LLC values the trust of the automotive industry, confirmed by authorized partnerships with 11 vehicle manufacturers.",
+                    "RusTruck LLC values the trust of the automotive industry, confirmed by official partnerships with 11 vehicle manufacturers.",
             },
         ],
     },
@@ -315,12 +313,12 @@ const en = {
             {
                 id: 1,
                 name: "Design Bureau",
-                text: "Our own design bureau allows us to implement customized projects according to our customers' requirements.",
+                text: "Our own design bureau allows us to implement individual customer projects.",
             },
             {
                 id: 2,
                 name: "Development",
-                text: "All projects are developed according to vehicle manufacturers' body-building guidelines.",
+                text: "All projects are developed in accordance with vehicle manufacturers' bodybuilder manuals.",
             },
             {
                 id: 3,
@@ -330,12 +328,12 @@ const en = {
             {
                 id: 4,
                 name: "Warranty",
-                text: "Our own design bureau allows us to implement customized customer projects. The warranty for superstructures and work corresponds to the chassis warranty.",
+                text: "Our own design bureau allows us to implement individual customer projects. The warranty for superstructures and work corresponds to the chassis warranty.",
             },
             {
                 id: 5,
                 name: "Service",
-                text: "Service maintenance: a partner service network throughout the Russian Federation.",
+                text: "Service and maintenance: an extensive partner service network throughout the Russian Federation.",
             },
         ],
     },
@@ -379,9 +377,8 @@ const en = {
 
     anyQuestions: {
         extraQuest: "HAVE ANY QUESTIONS?",
-
         leaveContact:
-            "Leave your contact details and we will call you back as soon as possible.",
+            "Leave your contact details and we will call you back as soon as possible",
 
         inputs: [
             {
@@ -399,11 +396,10 @@ const en = {
         sendButton: "Send",
 
         agreement:
-            'By clicking the Send button <a href="/upload/privacy_policy.pdf">you agree to the processing of personal data</a>',
+            'By clicking the send button <a href="/upload/privacy_policy.pdf">you agree to the processing of personal data</a>',
     },
 
     news: {},
-
     footer: {},
 };
 

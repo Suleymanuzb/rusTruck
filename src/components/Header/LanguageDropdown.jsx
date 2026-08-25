@@ -7,8 +7,7 @@ const { IconRussianFlag, IconAmericanFlag, IconUzbekFlag } = icons;
 const App = () => {
     const { i18n } = useTranslation();
     const currentLanguage = i18n.language;
-    console.log(currentLanguage);
-
+    
     const languages = [
         {
             label: (
@@ -17,7 +16,7 @@ const App = () => {
                         <IconAmericanFlag />
                     </div>
                     <div>
-                        <span className="text-[10px]">EN</span>
+                        <span className='text-[10px]'>EN</span>
                     </div>
                 </div>
             ),
@@ -30,7 +29,7 @@ const App = () => {
                         <IconUzbekFlag />
                     </div>
                     <div>
-                        <span className="text-[10px]">UZ</span>
+                        <span className='text-[10px]'>UZ</span>
                     </div>
                 </div>
             ),
@@ -43,7 +42,7 @@ const App = () => {
                         <IconRussianFlag />
                     </div>
                     <div>
-                        <span className="text-[10px]">RU</span>
+                        <span className='text-[10px]'>RU</span>
                     </div>
                 </div>
             ),

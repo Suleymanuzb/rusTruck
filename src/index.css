@@ -7,7 +7,7 @@ body {
 }
 
 
-
+/* language */
 .ant-dropdown-menu {
   display: block !important;
   width: 70px;
@@ -22,3 +22,5 @@ body {
   background-color: white !important;
   padding: 0px !important;
 }
+
+/* language */

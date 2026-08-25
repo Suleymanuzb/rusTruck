@@ -1,29 +1,15 @@
 import Container from "../../components/Container/Container";
 import { icons } from "../../assets/icons/icons";
-import { Link, useLocation, useParams } from "react-router-dom";
 import trucks from "../../data/truckData";
 import { useTranslation } from "react-i18next";
+import { useParams, Link } from "react-router-dom";
+import Breadcrumbs from "../../components/Breadcrumb/Breadcrumb";
 const { IconLine, IconTable, SearchIcon } = icons;
-
-const Breadcrumbs = () => {
-    const location = useLocation();
-    const parts = location.pathname.split(" / ").filter(Boolean);
-
-    console.log(parts);
-    return (
-        <div>
-            {parts.map((part) => (
-                <span key={part}>{part}</span>
-            ))}
-        </div>
-    );
-};
 
 const FilteredCatalog = () => {
     const { t } = useTranslation();
 
     const { category } = useParams();
-    console.log(category);
 
     const categories = t("header.megaMenu.categories.types", {
         returnObjects: true,

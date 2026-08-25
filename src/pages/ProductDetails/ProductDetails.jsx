@@ -4,30 +4,18 @@ import Container from "../../components/Container/Container";
 import { useTranslation } from "react-i18next";
 import Button from "../../components/Button/Button";
 import useFancybox from "./FancyHook";
-
-const Breadcrumbs = () => {
-    const location = useLocation();
-    const parts = location.pathname.split(" / ").filter(Boolean);
-
-    console.log(parts);
-    return (
-        <div>
-            {parts.map((part) => (
-                <span key={part}>{part}</span>
-            ))}
-        </div>
-    );
-};
+import Breadcrumbs from "../../components/Breadcrumb/Breadcrumb";
 
 const ProductDetails = () => {
     const [fancyboxRef] = useFancybox();
 
     const { productId } = useParams();
-    console.log(productId);
+    // console.log(productId);
     const { i18n } = useTranslation();
 
     const currentTruck = trucks.find((truck) => truck.id === Number(productId));
-    console.log(currentTruck);
+    // console.log(currentTruck);
+
     const product = currentTruck?.[i18n.language];
     // console.log(product);
 
