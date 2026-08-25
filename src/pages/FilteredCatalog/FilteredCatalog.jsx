@@ -1,12 +1,27 @@
 import Container from "../../components/Container/Container";
 import { icons } from "../../assets/icons/icons";
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import trucks from "../../data/truckData";
 import { useTranslation } from "react-i18next";
 const { IconLine, IconTable, SearchIcon } = icons;
 
+const Breadcrumbs = () => {
+    const location = useLocation();
+    const parts = location.pathname.split(" / ").filter(Boolean);
+
+    console.log(parts);
+    return (
+        <div>
+            {parts.map((part) => (
+                <span key={part}>{part}</span>
+            ))}
+        </div>
+    );
+};
+
 const FilteredCatalog = () => {
     const { t } = useTranslation();
+
     const { category } = useParams();
     console.log(category);
 
@@ -22,10 +37,13 @@ const FilteredCatalog = () => {
     return (
         <div className='bg-gray-100'>
             <Container>
+                {/* breadcrumbs */}
                 <div className='mb-6'>
-                    <p className='text-gray-400'>
-                        Главная Каталог Автомобили ДОПОГ категория EXII
-                    </p>
+                    <ul>
+                        <li>
+                            <Breadcrumbs />
+                        </li>
+                    </ul>
                 </div>
 
                 <div className='flex items-center justify-between mb-5'>

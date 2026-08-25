@@ -1,4 +1,7 @@
-import mainTruckImage1 from "../assets/images/truckData/1/truck1.webp";
+import mainTruckImage1 from "../assets/images/truckData/1/main.webp";
+
+
+
 import truckDrawing1 from "../assets/images/truckData/1/truckDrawing1.png";
 import mainTruckImage2 from "../assets/images/truckData/2/Main.webp";
 import galleryOf1TruckImage2 from "../assets/images/truckData/2/galleryOf1TruckImage2.webp";
@@ -127,6 +130,7 @@ const trucks = [
                 ],
             },
 
+            charectiristicsTitle: "Характеристики",
             characteristics: [
                 {
                     sectionTitle:
@@ -767,6 +771,7 @@ const trucks = [
                 ],
             },
 
+            charectiristicsTitle: "Характеристики",
             characteristics: [
                 {
                     sectionTitle:
@@ -1712,12 +1717,6 @@ const trucks = [
 
             category: "Автомобили ДОПОГ категории EXII",
 
-            description: {
-                title: "Описание",
-
-                text: "",
-            },
-
             buttons: {
                 more: "Подробнее",
                 getPk: "Получить КП",
@@ -1792,6 +1791,7 @@ const trucks = [
                 ],
             },
 
+            charectiristicsTitle: "Характеристики",
             characteristics: [
                 {
                     sectionTitle:
@@ -2284,6 +2284,7 @@ const trucks = [
                 ],
             },
 
+            charectiristicsTitle: "Характеристики",
             characteristics: [
                 {
                     sectionTitle:
@@ -2829,6 +2830,7 @@ const trucks = [
                 ],
             },
 
+            charectiristicsTitle: "Характеристики",
             characteristics: [
                 {
                     sectionTitle: "Автотопливозаправщик на шасси JAC N-90S",
@@ -3768,6 +3770,8 @@ const trucks = [
 
         ru: {
             price: "Цена по запросу",
+            discount:
+                "*Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
 
             truckType: "ШТОРНЫЙ ГРУЗОВИК КАМАЗ КОМПАС 43082 (МОДЕЛЬ 5389R1)",
 
@@ -3840,6 +3844,7 @@ const trucks = [
                 ],
             },
 
+            charectiristicsTitle: "Характеристики",
             characteristics: [
                 {
                     sectionTitle: "Шторный грузовик КАМАЗ КОМПАС 43082",

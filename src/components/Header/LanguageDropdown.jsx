@@ -1,94 +1,83 @@
-import { DownOutlined } from "@ant-design/icons";
-import { Dropdown } from "antd";
+import React from "react";
+import { Dropdown, Space } from "antd";
 import { icons } from "../../assets/icons/icons";
 import { useTranslation } from "react-i18next";
+const { IconRussianFlag, IconAmericanFlag, IconUzbekFlag } = icons;
 
-const { IconLanguage, IconAmericanFlag, IconRussianFlag, IconUzbekFlag } =
-    icons;
-
-const LanguageDropdown = () => {
+const App = () => {
     const { i18n } = useTranslation();
+    const currentLanguage = i18n.language;
+    console.log(currentLanguage);
 
     const languages = [
         {
+            label: (
+                <div className='flex items-center gap-2  hover:text-[#fec80b] active:scale-95 transform duration-200'>
+                    <div className='w-7.5 h-7.5 rounded-full! bg-[#fec80b] flex justify-center items-center hover:border-red-500 hover:border-[0.5px] mt-2'>
+                        <IconAmericanFlag />
+                    </div>
+                    <div>
+                        <span className="text-[10px]">EN</span>
+                    </div>
+                </div>
+            ),
             key: "en",
-            label: "English",
-            icon: <IconAmericanFlag />,
         },
         {
-            key: "ru",
-            label: "Русский",
-            icon: <IconRussianFlag />,
-        },
-        {
+            label: (
+                <div className='flex items-center gap-2  hover:text-[#fec80b] active:scale-95 transform duration-200'>
+                    <div className='w-7.5 h-7.5 rounded-full! bg-[#fec80b] flex justify-center items-center hover:border-red-500 hover:border-[0.5px] mt-2'>
+                        <IconUzbekFlag />
+                    </div>
+                    <div>
+                        <span className="text-[10px]">UZ</span>
+                    </div>
+                </div>
+            ),
             key: "uz",
-            label: "O‘zbekcha",
-            icon: <IconUzbekFlag />,
+        },
+        {
+            label: (
+                <div className='flex items-center gap-2  hover:text-[#fec80b] active:scale-95 transform duration-200'>
+                    <div className='w-7.5 h-7.5 rounded-full! bg-[#fec80b] flex justify-center items-center hover:border-red-500 hover:border-[0.5px] mt-2'>
+                        <IconRussianFlag />
+                    </div>
+                    <div>
+                        <span className="text-[10px]">RU</span>
+                    </div>
+                </div>
+            ),
+            key: "ru",
         },
     ];
 
-    const items = languages.map((language) => ({
-        key: language.key,
+    const items = languages.filter(
+        (language) => language.key !== currentLanguage,
+    );
 
-        label: (
-            <button
-                type='button'
-                onClick={() => i18n.changeLanguage(language.key)}
-                className={`
-                    flex items-center gap-2
-                    rounded-lg  py-2
-                    text-[14px] font-medium
-                    transition-all duration-200
-                    ${
-                        i18n.language === language.key
-                            ? "bg-[#FEC80B]/10 text-[#111]"
-                            : "text-gray-700 hover:bg-gray-100"
-                    }
-                `}
-            >
-                <span className='flex h-5 w-5 items-center justify-center'>
-                    {language.icon}
-                </span>
-
-                <span className='flex-1 text-left'>{language.label}</span>
-
-                {i18n.language === language.key && (
-                    <span className='h-1.5 w-1.5 rounded-full bg-[#FEC80B]' />
-                )}
-            </button>
-        ),
-    }));
+    const handleClick = (info) => {
+        i18n.changeLanguage(info.key);
+    };
 
     return (
         <Dropdown
-            menu={{
-                items,
-                className:
-                    "!rounded-xl !p-1.5 !shadow-[0_10px_35px_rgba(0,0,0,0.12)]",
-            }}
+            menu={{ items, onClick: handleClick }}
             trigger={["click"]}
-            placement='bottomRight'
+            classNames={{
+                root: "my-language-popup",
+            }}
+            className=' my-language-menu'
         >
-            <button
-                type='button'
-                className='
-                    flex items-center gap-2
-                    rounded-lg
-                    px-2.5 py-2
-                    text-gray-800
-                    transition-all duration-200
-                    hover:bg-gray-100
-                    active:scale-95
-                '
-            >
-                <IconLanguage />
-
-                <span className='hidden text-sm font-medium sm:block'>
-                    {i18n.language.toUpperCase()}
-                </span>
-            </button>
+            <div className='w-10 h-10 rounded-full bg-[#fec80b] border-red-500 border-[0.5px] flex items-center justify-center overflow-hidden shadow-sm hover:shadow-md active:scale-85 transition-all  cursor-pointer'>
+                {currentLanguage === "ru" ? (
+                    <IconRussianFlag />
+                ) : currentLanguage === "uz" ? (
+                    <IconUzbekFlag />
+                ) : (
+                    <IconAmericanFlag />
+                )}
+            </div>
         </Dropdown>
     );
 };
-
-export default LanguageDropdown;
+export default App;
