@@ -15,6 +15,7 @@ import FilteredCatalog from "./pages/FilteredCatalog/FilteredCatalog";
 import RecProductSliders from "./components/recProducts/RecProductSliders";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import NewsDetails from "./components/NewsSection/NewsDetails";
+import NewsSlider from "./components/NewsSection/NewsSectionSlider";
 
 const App = () => {
     useEffect(() => {
@@ -36,16 +37,23 @@ const App = () => {
                     <Route path='about' element={<About />} />
                     <Route path='catalog' element={<Catalog />} />
 
+                    
+                    <Route
+                        path='catalog/:slug'
+                        element={<RecProductSliders />}
+                    />
+                    
                     <Route
                         path='catalog/:category/:productId'
                         element={<ProductDetails />}
                     />
+
                     <Route
                         path='catalog/:category'
                         element={<FilteredCatalog />}
                     />
 
-                    <Route path='news/:productId' element={<NewsDetails />} />
+                    <Route path='news/:slug' element={<NewsDetails />} />
                 </Route>
             </Routes>
         </>

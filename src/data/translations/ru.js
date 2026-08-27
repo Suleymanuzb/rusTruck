@@ -403,6 +403,24 @@ const ru = {
         intro: {
             title: "Новости",
         },
+        categories: [
+            {
+                id: 1,
+                slug: "pervyy-v-rossii-konteynerovoz-na-shassi-kamaz-65658-vypustil-rustrak",
+            },
+            {
+                id: 2,
+                slug: "rustrak-podvyel-itogi-uchastiya-v-vystavke-comvex-2026-",
+            },
+            {
+                id: 3,
+                slug: "sadko-9-fermer-obzavelsya-kmu-s-burilnoy-ustanovkoy-",
+            },
+            {
+                id: 4,
+                slug: "rustrak-pozdravryalet-s-mezhdunarodnym-zhenskim-dnyem",
+            },
+        ],
     },
     footer: {},
 };

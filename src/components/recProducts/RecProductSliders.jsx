@@ -17,7 +17,6 @@ const RecProductSliders = forwardRef((props, ref) => {
     const modalInputs = t("products.modal.inputs", {
         returnObjects: true,
     });
-    console.log(modalInputs);
 
     const language = t("language");
 
@@ -106,7 +105,9 @@ const RecProductSliders = forwardRef((props, ref) => {
                         <SwiperSlide key={id} className='h-auto!'>
                             <div className='relative h-full'>
                                 <div className='relative'>
-                                    <Link>
+                                    <Link
+                                        to={`/catalog/${truck.slug}/${truck.categoryId}`}
+                                    >
                                         <img
                                             className='w-full block aspect-12/10 object-cover'
                                             src={truck.images.image}

@@ -1,4 +1,4 @@
-import { useLocation, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import trucks from "../../data/truckData";
 import Container from "../../components/Container/Container";
 import { useTranslation } from "react-i18next";

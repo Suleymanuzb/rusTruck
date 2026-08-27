@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import { forwardRef } from "react";
 import Button from "../Button/Button";
 import { icons } from "../../assets/icons/icons";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { TruckNews } from "../../data/TruckNews";
 
@@ -15,6 +15,9 @@ const { IconHeart, IconArrowRight } = icons;
 
 const NewsSlider = forwardRef((props, ref) => {
     const { i18n } = useTranslation();
+
+    const { category } = useParams();
+    console.log(category);
 
     return (
         <Swiper
@@ -47,7 +50,7 @@ const NewsSlider = forwardRef((props, ref) => {
                     <SwiperSlide key={id} className='h-auto! bg-transparent'>
                         <div className='relative h-full flex flex-col'>
                             <div className='relative'>
-                                <Link to={`news/NewsDetails`}>
+                                <Link to={`/news/${truck.slug}`}>
                                     {truck.gallerImages.map((img, index) => (
                                         <img
                                             key={index}

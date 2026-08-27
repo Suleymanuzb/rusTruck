@@ -11,18 +11,11 @@ const ScrollSlider = () => {
         returnObjects: true,
     });
 
-    console.log("scrollSlider:", scrollSlider);
-    console.log("type:", typeof scrollSlider);
-    console.log("isArray:", Array.isArray(scrollSlider));
-
     const sectionRef = useRef(null);
 
     const [progress, setProgress] = useState(0);
 
     const items = scrollSlider || [];
-
-    console.log("scrollSlider:", scrollSlider);
-    console.log("is array:", Array.isArray(scrollSlider));
 
     const activeIndex = Math.min(
         Math.floor(progress * items.length),
@@ -67,7 +60,7 @@ const ScrollSlider = () => {
         "top-[25%] left-[91.5%] max-[600px]:left-[93%] max-[500px]:left-[92%]",
 
         "top-[45%] left-[98%] min-[850px]:left-[98%] min-[680px]:left-[97.5%] min-[600px]:left-[97%] min-[505px]:left-[98%] min-[405px]:left-[97.5%] max-[400px]:left-[97%]",
-        
+
         "top-[67%] left-[92.5%] min-[1120px]:left-[95%] min-[1024px]:left-[94%] min-[850px]:left-[95%] min-[600px]:left-[94%] min-[500px]:left-[94.5%] min-[450px]:left-[94%]",
 
         "top-[82%] left-[84%] min-[1200px]:left-[85.5%] min-[1024px]:left-[85%] min-[890px]:left-[86%] min-[780px]:left-[85%] min-[500px]:left-[84%] min-[450px]:left-[83%]",

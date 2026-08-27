@@ -5,7 +5,7 @@ import TruckSliders from "./TruckSliders";
 import Button from "../Button/Button";
 import { useTranslation } from "react-i18next";
 
-const TruckCategories = ({ currentLang }) => {
+const TruckCategories = () => {
     const swiperRef = useRef(null);
 
     const { t } = useTranslation();
