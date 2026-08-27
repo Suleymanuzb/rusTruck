@@ -14,10 +14,10 @@ const { IconHeart } = icons;
 
 const RecProductSliders = forwardRef((props, ref) => {
     const { t } = useTranslation();
-
     const modalInputs = t("products.modal.inputs", {
         returnObjects: true,
     });
+    console.log(modalInputs);
 
     const language = t("language");
 
@@ -76,7 +76,7 @@ const RecProductSliders = forwardRef((props, ref) => {
     // console.log(isOpen);
 
     return (
-        <div className='relative border'>
+        <div className='relative'>
             {isOpen && <div className='fixed inset-0 z-10 bg-black/50'></div>}
 
             <Swiper
@@ -103,8 +103,8 @@ const RecProductSliders = forwardRef((props, ref) => {
             >
                 {trucks.map((truck, id) => {
                     return (
-                        <SwiperSlide key={id} className='h-auto! bg-transparen'>
-                            <div className='relative h-full border'>
+                        <SwiperSlide key={id} className='h-auto!'>
+                            <div className='relative h-full'>
                                 <div className='relative'>
                                     <Link>
                                         <img
@@ -169,7 +169,7 @@ const RecProductSliders = forwardRef((props, ref) => {
                         </div>
 
                         <form className='w-[70%]' onSubmit={handleSubmit}>
-                            {modalInputs.inputs.map((item, index) => {
+                            {modalInputs.map((item, index) => {
                                 return (
                                     <div
                                         key={index}

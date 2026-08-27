@@ -21,8 +21,8 @@ const PhoneCall = () => {
             {/*phone icon  */}
             <button
                 type='button'
-                className='w-[3.7rem]
-        h-[3.7rem]
+                className='w-10 h-10 md:w-[3.7rem]
+        md:h-[3.7rem]
         p-0
         cursor-pointer
         border-0
@@ -39,7 +39,7 @@ const PhoneCall = () => {
         overflow-hidden
         uppercase'
             >
-                <PhoneIcon className='max-w-full h-auto' />
+                <PhoneIcon className='w-4! h-4! md:w-6! md:h-6!' />
             </button>
         </div>
     );

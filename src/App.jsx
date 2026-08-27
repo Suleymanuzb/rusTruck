@@ -14,6 +14,7 @@ import Aos from "aos";
 import FilteredCatalog from "./pages/FilteredCatalog/FilteredCatalog";
 import RecProductSliders from "./components/recProducts/RecProductSliders";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
+import NewsDetails from "./components/NewsSection/NewsDetails";
 
 const App = () => {
     useEffect(() => {
@@ -43,6 +44,8 @@ const App = () => {
                         path='catalog/:category'
                         element={<FilteredCatalog />}
                     />
+
+                    <Route path='news/:productId' element={<NewsDetails />} />
                 </Route>
             </Routes>
         </>

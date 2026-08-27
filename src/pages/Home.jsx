@@ -8,16 +8,19 @@ import CompanyStatistics from "../components/CompanyStatistics/CompanyStatistics
 import AnyQuestions from "../components/AnyQuestions/AnyQuestions";
 import ScrollSlider from "../components/ScrollSilder/ScrollSlider";
 import Products from "../components/recProducts/RecProducts";
+import NewsSection from "../components/NewsSection/NewsSection";
 
-const Home = ({ currentLang }) => {
+const Home = () => {
     return (
         <>
-            <Hero currentLang={currentLang} />
-            <TruckCategories currentLang={currentLang} />
-            <AboutCompany currentLang={currentLang} />
-            <CompanyStatistics currentLang={currentLang} />
-            <ScrollSlider currentLang={currentLang} />
-            <Products currentLang={currentLang} />
+            
+            <Hero />
+            <TruckCategories />
+            <AboutCompany />
+            <CompanyStatistics />
+            <ScrollSlider />
+            <Products />
+            <NewsSection />
             {/* <AnyQuestions currentLang={currentLang} /> */}
         </>
     );

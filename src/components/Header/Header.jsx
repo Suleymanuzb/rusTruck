@@ -13,7 +13,7 @@ import BurgerButton from "./HeaderHidden/BurgerButton";
 import RusTruck from "./RusTruckLogo/RusTruckLogo";
 import PhoneCallHidden from "./HeaderHidden/PhoneCall";
 import CatalogButton from "./CatalogButton";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import LanguageDropdown from "./languageDropdown";
 
 const { BurgerIcon } = icons;
@@ -22,6 +22,24 @@ const Header = () => {
     const [openMenu, setOpenMenu] = useState(null);
     const isMenuOpen = openMenu !== null;
     // console.log(currentLang);
+
+    // for understanding where is the sticky div
+    const [isSticky, setIsSticky] = useState(false);
+    const stickyMarker = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(([entry]) => {
+            setIsSticky(!entry.isIntersecting);
+        });
+
+        if (stickyMarker.current) {
+            observer.observe(stickyMarker.current);
+        }
+
+        return () => {
+            observer.disconnect();
+        };
+    }, []);
 
     useEffect(() => {
         document.body.style.overflow = isMenuOpen ? "hidden" : "";
@@ -34,12 +52,13 @@ const Header = () => {
     return (
         <>
             <header>
-                <div>
+                <div className=''>
                     <Container>
-                        {/* top header */}
+                        {/* Main header */}
                         <div className='flex items-center justify-between'>
-                            <div className='flex items-center pt-4 pb-2.25'>
-                                <RusTruckLogoText to='/' />
+                            <div className='flex items-center gap-3 pt-4 pb-2.25'>
+                                {/* LOGO */}
+                                <RusTruck to={"/"} />
                                 <Gisp />
                             </div>
 
@@ -51,55 +70,45 @@ const Header = () => {
                     </Container>
 
                     <div className='w-full h-0.5 bg-[#FFE99D]'></div>
+                </div>
+            </header>
 
-                    <Container>
-                        {/* below header */}
-                        <div className='flex justify-between py-2.5'>
-                            <div className='flex items-center gap-10'>
-                                <CatalogButton
+            <div ref={stickyMarker} className='h-px'></div>
+
+            {/* sticky header */}
+            <div className='sticky top-0 z-50 bg-white'>
+                <Container>
+                    <div className='flex justify-between py-2.5'>
+                        <div className='flex items-center gap-10'>
+                            <CatalogButton
+                                openMenu={openMenu}
+                                setOpenMenu={setOpenMenu}
+                                isSticky={isSticky}
+                            />
+
+                            {/* LOGO */}
+                            {isSticky && <RusTruck />}
+
+                            <div className='hidden lg:block'>
+                                <Navigation
                                     openMenu={openMenu}
                                     setOpenMenu={setOpenMenu}
-                                />
-
-                                <div className='hidden lg:block'>
-                                    <Navigation
-                                        openMenu={openMenu}
-                                        setOpenMenu={setOpenMenu}
-                                    ></Navigation>
-                                </div>
-                            </div>
-
-                            <div className='flex items-center gap-4'>
-                                <SearchInput />
-
-                                <div className='flex items-center gap-4'>
-                                    <Korzinka to='/korzinka' />
-                                    <Favourites to='/favourites' />
-                                    <LanguageDropdown />
-                                </div>
+                                ></Navigation>
                             </div>
                         </div>
-                    </Container>
-                </div>
 
-                {/* hidden Header */}
-                <Container>
-                    <div className='flex items-center justify-between hidden'>
-                        <div className='flex items-center gap-6'>
-                            <RusTruck />
-                            <BurgerButton />
-                        </div>
-                        <div className='flex items-center gap-6'>
+                        <div className='flex items-center gap-4'>
                             <SearchInput />
 
-                            <Korzinka to='/korzinka' />
-                            <Favourites to='/favourites' />
-                            <PhoneCallHidden />
+                            <div className='flex items-center gap-4'>
+                                <Korzinka to='/korzinka' />
+                                <Favourites to='/favourites' />
+                                <LanguageDropdown />
+                            </div>
                         </div>
                     </div>
                 </Container>
-                {/* hidden Header */}
-            </header>
+            </div>
         </>
     );
 };

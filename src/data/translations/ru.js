@@ -399,7 +399,11 @@ const ru = {
             'Нажимая на кнопку отправить <a href="/upload/privacy_policy.pdf">Вы соглашаетесь на обработку персональных данных</a>',
     },
 
-    news: {},
+    newsSection: {
+        intro: {
+            title: "Новости",
+        },
+    },
     footer: {},
 };
 

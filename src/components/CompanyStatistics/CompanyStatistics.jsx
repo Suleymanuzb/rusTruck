@@ -48,7 +48,7 @@ const CompanyStatistics = ({ currentLang }) => {
                                         duration={1.5}
                                     />
                                 </p>
-                                <span className='text-[32px] font-medium leading-[1.18] '>
+                                <span className='text-2xl md:text-2xl lg:text-[32px] font-medium leading-[1.18] '>
                                     {statistic.unit}
                                 </span>
                             </div>

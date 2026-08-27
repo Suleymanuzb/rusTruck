@@ -131,6 +131,7 @@ const trucks = [
             },
 
             charectiristicsTitle: "Характеристики",
+            
             characteristics: [
                 {
                     sectionTitle:
