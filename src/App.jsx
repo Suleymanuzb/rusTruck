@@ -37,12 +37,8 @@ const App = () => {
                     <Route path='about' element={<About />} />
                     <Route path='catalog' element={<Catalog />} />
 
-                    
-                    <Route
-                        path='catalog/:slug'
-                        element={<RecProductSliders />}
-                    />
-                    
+                  
+
                     <Route
                         path='catalog/:category/:productId'
                         element={<ProductDetails />}
@@ -53,7 +49,7 @@ const App = () => {
                         element={<FilteredCatalog />}
                     />
 
-                    <Route path='news/:slug' element={<NewsDetails />} />
+                    <Route path='news/:slug/' element={<NewsDetails />} />
                 </Route>
             </Routes>
         </>

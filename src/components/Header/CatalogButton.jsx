@@ -9,6 +9,8 @@ const CatalogButton = ({ openMenu, setOpenMenu, isSticky }) => {
             <motion.button
                 animate={{
                     width: isSticky ? 52 : 142,
+                    paddingLeft: isSticky ? 16 : 16,
+                    paddingRight: isSticky ? 16 : 16,
                 }}
                 transition={{
                     duration: 0.4,

@@ -17,7 +17,6 @@ const ProductDetails = () => {
     // console.log(currentTruck);
 
     const product = currentTruck?.[i18n.language];
-    // console.log(product);
 
     return (
         <Container>

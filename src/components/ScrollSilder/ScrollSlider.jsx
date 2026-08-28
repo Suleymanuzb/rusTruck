@@ -72,7 +72,7 @@ const ScrollSlider = () => {
                 ref={sectionRef}
                 className='h-[500vh] my-10 min-[890px]:my-20'
             >
-                <div className='h-dvh sticky gap-10 top-25 min-[890px]:top-25 w-full flex flex-col max-[890px]:mt-20 min-[890px]:flex-row min-[890px]:items-start'>
+                <div className='h-dvh! sticky gap-10 top-25 min-[890px]:top-25 w-full flex flex-col  max-[890px]:mt-20 min-[890px]:flex-row min-[890px]:items-start'>
                     {/* image and circular dots part */}
 
                     <div className='benefits_left w-[60%]'>

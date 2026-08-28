@@ -16,8 +16,7 @@ const { IconHeart, IconArrowRight } = icons;
 const NewsSlider = forwardRef((props, ref) => {
     const { i18n } = useTranslation();
 
-    const { category } = useParams();
-    console.log(category);
+    
 
     return (
         <Swiper

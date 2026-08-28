@@ -4,7 +4,7 @@ const { RusTruckLogo } = icons;
 
 const RusTruck = ({ to }) => {
     return (
-        <Link to={to}>
+        <Link to={to} className='hidden lg:flex items-center shrink-0'>
             <RusTruckLogo />
         </Link>
     );

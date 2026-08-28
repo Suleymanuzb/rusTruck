@@ -1,5 +1,4 @@
 import Navigation from "./Navigation";
-import { icons } from "../../assets/icons/icons";
 import SearchInput from "./SearchInput";
 import Korzinka from "./Korzinka";
 import Favourites from "./Favourite";
@@ -15,22 +14,24 @@ import PhoneCallHidden from "./HeaderHidden/PhoneCall";
 import CatalogButton from "./CatalogButton";
 import { useEffect, useRef, useState } from "react";
 import LanguageDropdown from "./languageDropdown";
-
-const { BurgerIcon } = icons;
+import { motion } from "motion/react";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(null);
     const isMenuOpen = openMenu !== null;
-    // console.log(currentLang);
 
-    // for understanding where is the sticky div
-    const [isSticky, setIsSticky] = useState(false);
     const stickyMarker = useRef(null);
+    const [isSticky, setIsSticky] = useState(false);
 
     useEffect(() => {
-        const observer = new IntersectionObserver(([entry]) => {
-            setIsSticky(!entry.isIntersecting);
-        });
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                setIsSticky(!entry.isIntersecting);
+            },
+            {
+                rootMargin: "-20px 0px 0px 0px",
+            },
+        );
 
         if (stickyMarker.current) {
             observer.observe(stickyMarker.current);
@@ -52,33 +53,48 @@ const Header = () => {
     return (
         <>
             <header>
-                <div className=''>
-                    <Container>
-                        {/* Main header */}
-                        <div className='flex items-center justify-between'>
-                            <div className='flex items-center gap-3 pt-4 pb-2.25'>
-                                {/* LOGO */}
-                                <RusTruck to={"/"} />
-                                <Gisp />
-                            </div>
-
-                            <div className='flex items-center max-[1200px]:gap-3 min-[1200px]:gap-10'>
-                                <WorkingTime hasDropdown />
-                                <PhoneCall />
-                            </div>
+                <Container>
+                    {/* Main header */}
+                    <div className='flex items-center justify-between'>
+                        <div className='flex items-center gap-3 pt-4 pb-2.25'>
+                            {/* LOGO */}
+                            <RusTruck to={"/"} />
+                            <Gisp />
                         </div>
-                    </Container>
 
-                    <div className='w-full h-0.5 bg-[#FFE99D]'></div>
-                </div>
+                        <div className='flex items-center max-[1200px]:gap-3 min-[1200px]:gap-10'>
+                            <WorkingTime hasDropdown />
+                            <PhoneCall />
+                        </div>
+                    </div>
+                </Container>
+
+                <div className='w-full h-0.5 bg-[#FFE99D]'></div>
             </header>
 
             <div ref={stickyMarker} className='h-px'></div>
 
-            {/* sticky header */}
-            <div className='sticky top-0 z-50 bg-white'>
+            {/* Sticky Header with bottom curved wave grow */}
+            <motion.div
+                animate={{
+                    paddingTop: 10,
+                    // Bottom swells from 10px -> 28px peak -> snaps back to 10px
+                    paddingBottom: isSticky ? [10, 28, 10] : 10,
+                }}
+                transition={{
+                    duration: 1,
+                    // Curve overshoot cubic-bezier: creates elastic wave arc
+                    ease: [0.34, 1.7, 0.64, 1],
+                    // Explicit keyframe pacing (swells fast to 40%, then curves back slowly)
+                    times: [0, 0.4, 1],
+                }}
+                className={`sticky top-0 z-50 bg-white transition-shadow duration-300 ${
+                    isSticky ? "shadow-lg" : ""
+                }`}
+            >
+                {/* {isSticky && <div className='bg-black h-5'>extra header</div>} */}
                 <Container>
-                    <div className='flex justify-between py-2.5'>
+                    <div className='flex justify-between items-center'>
                         <div className='flex items-center gap-10'>
                             <CatalogButton
                                 openMenu={openMenu}
@@ -86,19 +102,33 @@ const Header = () => {
                                 isSticky={isSticky}
                             />
 
-                            {/* LOGO */}
-                            {isSticky && <RusTruck />}
+                            {/* LOGO (Expands only when sticky) */}
+                            <motion.div
+                                initial={false}
+                                animate={{
+                                    width: isSticky ? "auto" : 0,
+                                    opacity: isSticky ? 1 : 0,
+                                    marginRight: isSticky ? 0 : -40,
+                                }}
+                                transition={{
+                                    duration: 0.35,
+                                    ease: [0.4, 0, 0.2, 1],
+                                }}
+                                className='overflow-hidden shrink-0 flex items-center'
+                            >
+                                <RusTruck to='/'/>
+                            </motion.div>
 
-                            <div className='hidden lg:block'>
+                            <div className='hidden xl:block'>
                                 <Navigation
                                     openMenu={openMenu}
                                     setOpenMenu={setOpenMenu}
-                                ></Navigation>
+                                />
                             </div>
                         </div>
 
                         <div className='flex items-center gap-4'>
-                            <SearchInput />
+                            <SearchInput className='hidden lg:block' />
 
                             <div className='flex items-center gap-4'>
                                 <Korzinka to='/korzinka' />
@@ -108,7 +138,7 @@ const Header = () => {
                         </div>
                     </div>
                 </Container>
-            </div>
+            </motion.div>
         </>
     );
 };
