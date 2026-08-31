@@ -13,7 +13,7 @@ import RusTruck from "./RusTruckLogo/RusTruckLogo";
 import PhoneCallHidden from "./HeaderHidden/PhoneCall";
 import CatalogButton from "./CatalogButton";
 import { useEffect, useRef, useState } from "react";
-import LanguageDropdown from "./languageDropdown";
+import LanguageDropdown from "../Header/LanguageDropdown";
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import PhoneCallOnly from "./PhoneCalIconItself";
@@ -131,8 +131,6 @@ const Header = () => {
                                 openMenu={openMenu}
                                 setOpenMenu={setOpenMenu}
                                 isSticky={isSticky}
-                                
-
                             />
                             {isSticky && (
                                 <div className='flex flex-col leading-none lg:hidden'>
