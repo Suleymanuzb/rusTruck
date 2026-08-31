@@ -33,11 +33,11 @@ const WorkingTime = ({ hasDropdown = false }) => {
                 </p>
 
                 {isOpen && (
-                    <div className='absolute z-60 text-[14px] p-3 left-26.25 bg-[rgb(255,255,255)] rounded-lg w-43.25 top-[top: 18px] shadow'>
-                        <p className='text-start mb-3'>
+                    <div className='absolute z-60 text-[14px] p-3 left-26.25 bg-[rgb(255,255,255)] rounded-lg top-[top: 18px] shadow-xl'>
+                        <p className='text-start mb-3 whitespace-nowrap'>
                             {t("header.workingTimeOpened")}
                         </p>
-                        <p className='text-start'>
+                        <p className='text-start whitespace-nowrap'>
                             {t("header.workingTimeWeekend")}
                         </p>
                     </div>

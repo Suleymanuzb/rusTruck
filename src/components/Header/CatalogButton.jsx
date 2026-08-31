@@ -1,14 +1,33 @@
+import { useEffect, useState } from "react";
 import MegaMenu from "./MegaMenu";
 import { motion } from "motion/react";
 
 const CatalogButton = ({ openMenu, setOpenMenu, isSticky }) => {
     const isOpen = openMenu === "catalog";
 
+    const [isMobile, setMobile] = useState(
+        window.matchMedia("(max-width: 480px)").matches,
+    );
+
+    useEffect(() => {
+        const mediaQuery = window.matchMedia("(max-width: 480px)");
+
+        const handleChange = (event) => {
+            setMobile(event.matches);
+        };
+
+        mediaQuery.addEventListener("change", handleChange);
+
+        return () => {
+            mediaQuery.removeEventListener("change", handleChange);
+        };
+    }, []);
+
     return (
         <>
             <motion.button
                 animate={{
-                    width: isSticky ? 52 : 142,
+                    width: isMobile ? 52 : isSticky ? 52 : 142,
                     paddingLeft: isSticky ? 16 : 16,
                     paddingRight: isSticky ? 16 : 16,
                 }}
@@ -16,8 +35,7 @@ const CatalogButton = ({ openMenu, setOpenMenu, isSticky }) => {
                     duration: 0.4,
                     ease: [0.4, 0, 0.2, 1],
                 }}
-                className='
-                    flex items-center gap-4
+                className='flex items-center gap-4
                     px-4 py-2.25
                     bg-[#FEC80B]
                     rounded-md
@@ -61,7 +79,7 @@ const CatalogButton = ({ openMenu, setOpenMenu, isSticky }) => {
                         duration: 0.35,
                         ease: [0.4, 0, 0.2, 1],
                     }}
-                    className='shrink-0 overflow-hidden whitespace-nowrap'
+                    className='max-[480px]:hidden shrink-0 overflow-hidden whitespace-nowrap'
                 >
                     Каталог
                 </motion.span>

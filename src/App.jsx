@@ -16,6 +16,7 @@ import RecProductSliders from "./components/recProducts/RecProductSliders";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import NewsDetails from "./components/NewsSection/NewsDetails";
 import NewsSlider from "./components/NewsSection/NewsSectionSlider";
+import ScrollToTop from "./ScrollTop";
 
 const App = () => {
     useEffect(() => {
@@ -24,6 +25,8 @@ const App = () => {
 
     return (
         <>
+            <ScrollToTop />
+
             <Routes>
                 <Route path='/' element={<Layout />}>
                     <Route index element={<Home />} />
@@ -36,8 +39,6 @@ const App = () => {
                     <Route path='contacts' element={<Contacts />} />
                     <Route path='about' element={<About />} />
                     <Route path='catalog' element={<Catalog />} />
-
-                  
 
                     <Route
                         path='catalog/:category/:productId'

@@ -6,7 +6,7 @@ const Gisp = () => {
     const { t } = useTranslation();
 
     return (
-        <div className='flex items-center gap-1.5 leading-none pr-5 pl-3  lg:pl-0'>
+        <div className='hidden min-[420px]:flex items-center gap-1.5 leading-none pr-5 pl-3  lg:pl-0'>
             <div className='w-6'>
                 <GispIcon className='w-full h-full' />
             </div>

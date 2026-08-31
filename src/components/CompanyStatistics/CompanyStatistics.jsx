@@ -36,11 +36,15 @@ const CompanyStatistics = ({ currentLang }) => {
     }
 
     return (
-        <div className='bg-[#fec80b] mt-20'>
+        <div data-aos-duration='1000' className='bg-[#fec80b] mt-20'>
             <Container className='grid  md:grid-cols-6 pt-13.25 pb-16.25 gap-y-10'>
                 {threeStats.map((statistic, index) => {
                     return (
-                        <div key={index} className='col-span-2'>
+                        <div
+                            data-aos='fade-right'
+                            key={index}
+                            className='col-span-2'
+                        >
                             <div className='flex flex-col mb-6'>
                                 <p className='text-[100px] font-medium leading-none'>
                                     <CountMotion
@@ -48,7 +52,7 @@ const CompanyStatistics = ({ currentLang }) => {
                                         duration={1.5}
                                     />
                                 </p>
-                                <span className='text-2xl md:text-2xl lg:text-[32px] font-medium leading-[1.18] '>
+                                <span className='text-2xl md:text-2xl lg:text-[32px] font-medium leading-[1.18]'>
                                     {statistic.unit}
                                 </span>
                             </div>

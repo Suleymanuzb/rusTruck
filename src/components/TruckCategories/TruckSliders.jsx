@@ -28,11 +28,11 @@ const TruckSliders = forwardRef(({ t }, ref) => {
                 breakpoints={{
                     0: {
                         slidesPerView: 2,
-                        spaceBetween: 45,
+                        spaceBetween: 15,
                     },
                     500: {
                         slidesPerView: 2,
-                        spaceBetween: 45,
+                        spaceBetween: 20,
                     },
                     600: {
                         slidesPerView: 3,

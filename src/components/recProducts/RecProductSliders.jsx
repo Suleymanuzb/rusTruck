@@ -79,6 +79,7 @@ const RecProductSliders = forwardRef((props, ref) => {
             {isOpen && <div className='fixed inset-0 z-10 bg-black/50'></div>}
 
             <Swiper
+                data-aos='fade-up'
                 className='mySwiper rounded-tr-lg rounded-tl-lg relative!'
                 onSwiper={(swiper) => {
                     if (ref) {

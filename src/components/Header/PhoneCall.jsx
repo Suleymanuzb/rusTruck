@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { icons } from "../../assets/icons/icons";
 const { PhoneIcon } = icons;
 
-const PhoneCall = () => {
+const PhoneCall = ({ className = "", IconClassname = "" }) => {
     const { t } = useTranslation();
 
     return (
@@ -21,7 +21,7 @@ const PhoneCall = () => {
             {/*phone icon  */}
             <button
                 type='button'
-                className='w-10 h-10 md:w-[3.7rem]
+                className={`${className} md:w-[3.7rem]
         md:h-[3.7rem]
         p-0
         cursor-pointer
@@ -37,9 +37,9 @@ const PhoneCall = () => {
         items-center
         justify-center
         overflow-hidden
-        uppercase'
+        uppercase`}
             >
-                <PhoneIcon className='w-4! h-4! md:w-6! md:h-6!' />
+                <PhoneIcon className={`${IconClassname}`} />
             </button>
         </div>
     );

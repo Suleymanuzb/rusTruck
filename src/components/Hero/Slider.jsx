@@ -37,6 +37,7 @@ const Slider = () => {
             <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
+                loop={true}
                 keyboard={{
                     enabled: true,
                 }}
@@ -103,7 +104,7 @@ const Slider = () => {
                                         {slideText.buttons.map(
                                             (button, buttonIndex) => (
                                                 <Button
-                                                    className='text-white'
+                                                    className='text-white max-[768px]:px-4 py-2'
                                                     key={buttonIndex}
                                                     variant={button.variant}
                                                 >

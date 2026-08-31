@@ -15,6 +15,8 @@ import CatalogButton from "./CatalogButton";
 import { useEffect, useRef, useState } from "react";
 import LanguageDropdown from "./languageDropdown";
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
+import PhoneCallOnly from "./PhoneCalIconItself";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(null);
@@ -55,21 +57,25 @@ const Header = () => {
             <header>
                 <Container>
                     {/* Main header */}
-                    <div className='flex items-center justify-between'>
-                        <div className='flex items-center gap-3 pt-4 pb-2.25'>
+                    <div className='flex items-center  justify-between'>
+                        <div className='flex items-center gap-1 sm:gap-3'>
                             {/* LOGO */}
                             <RusTruck to={"/"} />
                             <Gisp />
                         </div>
 
-                        <div className='flex items-center max-[1200px]:gap-3 min-[1200px]:gap-10'>
+                        <div className='flex items-center max-[648px]:gap-1 max-[1200px]:gap-3 min-[1200px]:gap-10'>
                             <WorkingTime hasDropdown />
-                            <PhoneCall />
+                            <PhoneCall
+                                className='max-[430px]:w-7! max-[430px]:h-7! w-10! h-10!'
+                                IconClassname='max-[430px]:w-4! w-4! md:h-5!'
+                            />
+                            <LanguageDropdown className='max-[430px]:w-7! max-[430px]:h-7! w-10 h-10 sm:hidden' />
                         </div>
                     </div>
                 </Container>
 
-                <div className='w-full h-0.5 bg-[#FFE99D]'></div>
+                <div className='top-0 sticky w-full h-0.5 bg-[#fec400] my-2'></div>
             </header>
 
             <div ref={stickyMarker} className='h-px'></div>
@@ -77,7 +83,6 @@ const Header = () => {
             {/* Sticky Header with bottom curved wave grow */}
             <motion.div
                 animate={{
-                    paddingTop: 10,
                     // Bottom swells from 10px -> 28px peak -> snaps back to 10px
                     paddingBottom: isSticky ? [10, 28, 10] : 10,
                 }}
@@ -92,15 +97,51 @@ const Header = () => {
                     isSticky ? "shadow-lg" : ""
                 }`}
             >
-                {/* {isSticky && <div className='bg-black h-5'>extra header</div>} */}
+                {isSticky && (
+                    <div className='flex py-1 sm:hidden'>
+                        <Container>
+                            <div className='flex! items-center justify-between'>
+                                <div className='flex flex-col'>
+                                    <Link className='max-[390px]:text-[10px] max-[600px]:text-[12px] text-sm'>
+                                        г. Нижний Новгород, ул. Торфяная, 35
+                                    </Link>
+                                </div>
+                                <div className='flex items-center gap-2'>
+                                    <div className=''>
+                                        <LanguageDropdown className='w-7 h-7 sm:hidden' />
+                                    </div>
+                                    <PhoneCallOnly
+                                        className='w-7! h-7!'
+                                        IconClassname='w-4 h-4 md:5h-5'
+                                    />
+                                </div>
+                            </div>
+                        </Container>
+                    </div>
+                )}
+
+                {isSticky && (
+                    <div className='w-full h-0.5 bg-[#fec400] mt-1 mb-2 sm:opacity-0'></div>
+                )}
+
                 <Container>
                     <div className='flex justify-between items-center'>
-                        <div className='flex items-center gap-10'>
+                        <div className='flex items-center  gap-4 lg:gap-10'>
                             <CatalogButton
                                 openMenu={openMenu}
                                 setOpenMenu={setOpenMenu}
                                 isSticky={isSticky}
                             />
+                            {isSticky && (
+                                <div className='flex flex-col leading-none lg:hidden'>
+                                    <Link className='font-extrabold mb-0.5'>
+                                        РУСТРАК
+                                    </Link>
+                                    <Link to={"tel: 8 800-511-05-25"}>
+                                        8 800-511-05-25
+                                    </Link>
+                                </div>
+                            )}
 
                             {/* LOGO (Expands only when sticky) */}
                             <motion.div
@@ -116,7 +157,11 @@ const Header = () => {
                                 }}
                                 className='overflow-hidden shrink-0 flex items-center'
                             >
-                                <RusTruck to='/'/>
+                                <RusTruck
+                                    to='/'
+                                    isAnimated={false}
+                                    className='hidden lg:block'
+                                />
                             </motion.div>
 
                             <div className='hidden xl:block'>
@@ -130,10 +175,10 @@ const Header = () => {
                         <div className='flex items-center gap-4'>
                             <SearchInput className='hidden lg:block' />
 
-                            <div className='flex items-center gap-4'>
+                            <div className='flex items-center gap-2.5'>
                                 <Korzinka to='/korzinka' />
                                 <Favourites to='/favourites' />
-                                <LanguageDropdown />
+                                <LanguageDropdown className='hidden sm:flex w-10 h-10' />
                             </div>
                         </div>
                     </div>

@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import { forwardRef } from "react";
 import Button from "../Button/Button";
 import { icons } from "../../assets/icons/icons";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { TruckNews } from "../../data/TruckNews";
 
@@ -16,10 +16,9 @@ const { IconHeart, IconArrowRight } = icons;
 const NewsSlider = forwardRef((props, ref) => {
     const { i18n } = useTranslation();
 
-    
-
     return (
         <Swiper
+            data-aos='fade-up'
             className='mySwiper rounded-tr-lg rounded-tl-lg relative!'
             onSwiper={(swiper) => {
                 if (ref) {
@@ -43,20 +42,22 @@ const NewsSlider = forwardRef((props, ref) => {
         >
             {TruckNews.map((truck, id) => {
                 const product = truck?.[i18n.language];
+                const coverImage = truck?.gallerImages[0]?.image;
                 // console.log(truck);
 
                 return (
-                    <SwiperSlide key={id} className='h-auto! bg-transparent'>
+                    <SwiperSlide key={id} className='bg-transparent'>
                         <div className='relative h-full flex flex-col'>
                             <div className='relative'>
                                 <Link to={`/news/${truck.slug}`}>
-                                    {truck.gallerImages.map((img, index) => (
+                                    {coverImage && (
                                         <img
-                                            key={index}
-                                            src={img.image}
+                                            key={id}
+                                            src={coverImage}
+                                            alt={product?.mainTitle}
                                             className='w-full object-cover aspect-10/8'
                                         />
-                                    ))}
+                                    )}
                                 </Link>
 
                                 <div className='hidden md:absolute top-[1.5%] right-[2%]'>
@@ -73,7 +74,7 @@ const NewsSlider = forwardRef((props, ref) => {
                                     </a>
                                     <div>
                                         <p className='max-[400px]:text-[13px] sm:text-lg font-medium w-full cursor-pointer leading-normal'>
-                                            {product.mainTitle}
+                                            {product?.mainTitle}
                                         </p>
                                     </div>
                                 </div>

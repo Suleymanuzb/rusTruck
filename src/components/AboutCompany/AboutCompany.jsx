@@ -1,8 +1,6 @@
-import { useEffect } from "react";
 import aboutCompanyImage from "../../assets/images/aboutComapny/aboutCompany.png";
 import Button from "../Button/Button";
 import Container from "../Container/Container";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 
@@ -11,10 +9,6 @@ const AboutCompany = () => {
     const aboutCompanyParahraphs = t("aboutCompany.intro.paragraphs", {
         returnObjects: true,
     });
-
-    useEffect(() => {
-        AOS.init();
-    }, []);
 
     return (
         <Container className='pt-20'>
@@ -40,7 +34,7 @@ const AboutCompany = () => {
                         );
                     })}
                     <Button
-                        data-aos='zoom-out-up'
+                        data-aos='fade-right'
                         data-aos-duration='1000'
                         variant='btn_big_more'
                         arrow='right'
@@ -50,12 +44,17 @@ const AboutCompany = () => {
                     </Button>
                 </div>
 
-                <div data-aos='fade-left' className='flex w-full justify-end'>
-                    <img
-                        className='w-full max-[1000px]:w-[80%] max-[800px]:w-[90%]  max-[600px]:w-full max-[1200px]:w-[70%]'
-                        src={aboutCompanyImage}
-                        alt=''
-                    />
+                <div className='overflow-hidden'>
+                    <div
+                        data-aos='fade-left'
+                        className='flex w-full justify-end'
+                    >
+                        <img
+                            className='w-full max-[1000px]:w-[80%] max-[800px]:w-[90%]  max-[600px]:w-full max-[1200px]:w-[70%]'
+                            src={aboutCompanyImage}
+                            alt=''
+                        />
+                    </div>
                 </div>
             </div>
         </Container>

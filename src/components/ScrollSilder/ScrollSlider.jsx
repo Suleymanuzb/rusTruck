@@ -31,13 +31,15 @@ const ScrollSlider = () => {
             if (!sectionRef.current) return;
 
             const rect = sectionRef.current.getBoundingClientRect();
+            const startOffset = window.innerWidth >= 890 ? 100 : 80;
 
-            // 1. Get exact sticky container distance
+            // Calculate available scroll distance dynamically based on actual element dimensions
             const totalScrollableDistance = rect.height - window.innerHeight;
 
-            // 2. Measure scroll ONLY when section top has hit 0 (pinned)
-            // If rect.top > 0, we haven't reached the sticky point yet, so progress stays 0.
-            const scrolledDistance = -rect.top;
+            if (totalScrollableDistance <= 0) return;
+
+            // Measure progress accurately through the section duration
+            const scrolledDistance = -rect.top + startOffset;
 
             const newProgress = Math.min(
                 Math.max(scrolledDistance / totalScrollableDistance, 0),
@@ -48,35 +50,36 @@ const ScrollSlider = () => {
         };
 
         window.addEventListener("scroll", handleScroll, { passive: true });
+        window.addEventListener("resize", handleScroll);
+
         handleScroll();
 
         return () => {
             window.removeEventListener("scroll", handleScroll);
+            window.removeEventListener("resize", handleScroll);
         };
     }, []);
 
     const positions = [
-        "top-[4%] left-[70%] min-[890px]:left-[67%] min-[680px]:left-[68%] max-[600px]:left-[71%] max-[500px]:left-[72%]",
-        "top-[25%] left-[91.5%] max-[600px]:left-[93%] max-[500px]:left-[92%]",
+        "top-[4%] left-[70%] min-[890px]:left-[67%] min-[680px]:left-[66.5%] max-[600px]:left-[71%] min-[600px]:left-[68%] min-[480px]:left-[69.5%] min-[380px]:left-[71%]",
 
-        "top-[45%] left-[98%] min-[850px]:left-[98%] min-[680px]:left-[97.5%] min-[600px]:left-[97%] min-[505px]:left-[98%] min-[405px]:left-[97.5%] max-[400px]:left-[97%]",
+        "top-[25%] left-[91.5%] min-[600px]:left-[91.5%] max-[600px]:left-[93%] min-[500px]:left-[92.5%]  max-[500px]:left-[92%]",
 
-        "top-[67%] left-[92.5%] min-[1120px]:left-[95%] min-[1024px]:left-[94%] min-[850px]:left-[95%] min-[600px]:left-[94%] min-[500px]:left-[94.5%] min-[450px]:left-[94%]",
+        "top-[45%] left-[98%] min-[1000px]:left-[97.5%] min-[900px]:left-[98%] min-[850px]:left-[98.5%]  min-[600px]:left-[98%] min-[482px]:left-[98.5%] min-[472px]:left-[98%] min-[380px]:left-[98%]",
 
-        "top-[82%] left-[84%] min-[1200px]:left-[85.5%] min-[1024px]:left-[85%] min-[890px]:left-[86%] min-[780px]:left-[85%] min-[500px]:left-[84%] min-[450px]:left-[83%]",
+        "top-[67%] left-[92.5%] min-[1120px]:left-[95%] min-[1024px]:left-[94%] min-[850px]:left-[95.5%] min-[780px]:left-[95.5%] min-[680px]:left-[95%] min-[600px]:left-[94.5%] min-[550px]:left-[95%] min-[450px]:left-[94.5%] min-[380px]:left-[94%]",
+
+        "top-[82%] left-[84%] min-[1200px]:left-[85.5%] min-[1024px]:left-[85%] min-[890px]:left-[85.5%] min-[760px]:left-[86%] min-[550px]:left-[85.5%] min-[460px]:left-[85%]",
     ];
 
     return (
         <Container>
-            <section
-                ref={sectionRef}
-                className='h-[500vh] my-10 min-[890px]:my-20'
-            >
-                <div className='h-dvh! sticky gap-10 top-25 min-[890px]:top-25 w-full flex flex-col  max-[890px]:mt-20 min-[890px]:flex-row min-[890px]:items-start'>
+            <section ref={sectionRef} className='h-[250vh] mt-10 md:my-20'>
+                <div className='sticky top-25 h-[calc(100vh-5rem)] gap-20 w-full flex flex-col max-[890px]:mt-0 min-[890px]:flex-row min-[890px]:items-start overflow-hidden'>
                     {/* image and circular dots part */}
 
-                    <div className='benefits_left w-[60%]'>
-                        <div className='w-[55%] min-[890px]:w-[60%] relative'>
+                    <div className='max-[890px]:w-full w-[60%] max-[890px]:flex max-[890px]:flex-col max-[890px]:justify-center'>
+                        <div className='w-1/2 min-[890px]:w-[60%] relative'>
                             <img
                                 className='w-full h-auto block'
                                 src={sliderImage}
@@ -113,7 +116,7 @@ const ScrollSlider = () => {
                     </div>
 
                     {/* svg and growing line part */}
-                    <div className='relative w-full min-[890px]:w-[30%]'>
+                    <div className='relative w-full max-[500px]:flex max-[500px]:justify-end! max-[890px]:flex max-[890px]:flex-col max-[890px]:h-auto max-[890px]:justify-start min-[890px]:w-[30%]'>
                         <div className='relative w-0.5 h-120 max-[890px]:w-full max-[890px]:h-1 bg-transparent rounded-full overflow-visible min-[890px]:absolute min-[890px]:left-0 min-[890px]:top-1/2 min-[890px]:-translate-y-1/2'>
                             {/* Desktop (Vertical) Growing Line */}
                             <div
@@ -177,7 +180,7 @@ const ScrollSlider = () => {
                                 </div>
 
                                 <div className='w-full max-[890px]:w-full'>
-                                    <p className='max-[890px]:text-[15px] w-full'>
+                                    <p className='text-[12px] sm-[890px]:text-[15px] w-full'>
                                         {item.text}
                                     </p>
                                 </div>

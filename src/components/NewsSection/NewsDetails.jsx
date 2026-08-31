@@ -2,7 +2,18 @@ import { useParams } from "react-router-dom";
 import Container from "../Container/Container";
 import { useTranslation } from "react-i18next";
 import { TruckNews } from "../../data/TruckNews";
-import { div, h1, p } from "motion/react-client";
+
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const NewsDetails = () => {
     const { i18n } = useTranslation();
@@ -39,12 +50,30 @@ const NewsDetails = () => {
                         </div>
                     ))}
                 </div>
-                <div className='w-[60%] '>
-                    <img
-                        src={currentTruck.gallerImages[0].image}
-                        alt=''
-                        className='w-[90%] rounded-2xl! aspect-30/22 object-cover '
-                    />
+                <div className='w-[60%] cursor-pointer'>
+                    <Swiper
+                        spaceBetween={30}
+                        centeredSlides={true}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
+                        modules={[Autoplay, Pagination, Navigation]}
+                        className='mySwiper'
+                    >
+                        {currentTruck?.gallerImages?.map((each, i) => {
+                            return (
+                                <SwiperSlide>
+                                    <img
+                                        key={i}
+                                        src={each?.image}
+                                        alt={truckWithLanguage?.mainTitle}
+                                        className='w-[90%] rounded-2xl! aspect-30/22 object-cover'
+                                    />
+                                </SwiperSlide>
+                            );
+                        })}
+                    </Swiper>
                 </div>
             </div>
         </Container>

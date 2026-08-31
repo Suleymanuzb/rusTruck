@@ -4,10 +4,10 @@ import { icons } from "../../assets/icons/icons";
 import { useTranslation } from "react-i18next";
 const { IconRussianFlag, IconAmericanFlag, IconUzbekFlag } = icons;
 
-const App = () => {
+const App = ({ className = "w-10 h-10" }) => {
     const { i18n } = useTranslation();
     const currentLanguage = i18n.language;
-    
+
     const languages = [
         {
             label: (
@@ -67,7 +67,9 @@ const App = () => {
             }}
             className=' my-language-menu'
         >
-            <div className='w-10 h-10 rounded-full bg-[#fec80b] border-red-500 border-[0.5px] flex items-center justify-center overflow-hidden shadow-sm hover:shadow-md active:scale-85 transition-all  cursor-pointer'>
+            <div
+                className={`${className} rounded-full bg-[#fec80b] border-red-500 border-[0.5px] flex items-center justify-center overflow-hidden shadow-sm hover:shadow-md active:scale-85 transition-all  cursor-pointer`}
+            >
                 {currentLanguage === "ru" ? (
                     <IconRussianFlag />
                 ) : currentLanguage === "uz" ? (

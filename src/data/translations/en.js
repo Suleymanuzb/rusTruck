@@ -11,10 +11,10 @@ const en = {
         numberForStates: " 8 (800)-511-05-25",
         forLocals: "Nizhny Novgorod:",
         numberFotLocals: " 8 (831) 235-26-16",
-        gispText: "REGISTERED IN THE RUSSIAN INDUSTRIAL PRODUCTS REGISTER",
+        gispText: "IN THE REGISTER OF RUSSIAN INDUSTRIAL PRODUCTS",
 
         navigation: {
-            about: "About Us",
+            about: "About us",
             media: "Media",
             service: "Service",
             news: "News",
@@ -25,77 +25,77 @@ const en = {
         megaMenu: {
             categories: {
                 title: "Categories",
-                recommendedProducts: "Recommended Products",
+                recommendedProducts: "Recommended products",
 
                 types: [
                     {
                         id: 1,
-                        name: "Curtain-Sided Trucks",
-                        slug: "shtornye-avtomobili",
+                        name: "Curtain-sided trucks",
+                        slug: "шторные-автомобили",
                     },
                     {
                         id: 2,
-                        name: "Truck-Mounted Cranes",
-                        slug: "krany-manipulyatory",
+                        name: "Truck-mounted cranes",
+                        slug: "краны-манипуляторы",
                     },
                     {
                         id: 3,
-                        name: "Fuel Tanker Trucks",
-                        slug: "avtotoplivozapravshchiki",
+                        name: "Fuel tank trucks",
+                        slug: "автотопливозаправщики",
                     },
                     {
                         id: 4,
-                        name: "Truck-Mounted Aerial Platforms",
-                        slug: "avtogidropodyemniki",
+                        name: "Truck-mounted aerial platforms",
+                        slug: "автогидроподъёмники",
                     },
                     {
                         id: 5,
-                        name: "Tank Trucks",
-                        slug: "avtotsisterny",
+                        name: "Tank trucks",
+                        slug: "автоцистерны",
                     },
                     {
                         id: 6,
-                        name: "Tow Trucks",
-                        slug: "avtoevakuatory",
+                        name: "Tow trucks",
+                        slug: "автомобили-эвакуаторы",
                     },
                     {
                         id: 7,
-                        name: "Insulated Vans",
-                        slug: "avtofurgony",
+                        name: "Insulated vans",
+                        slug: "изотермические-фургоны",
                     },
                     {
                         id: 8,
-                        name: "Container Carriers",
-                        slug: "konteynerovozy",
+                        name: "Container carriers",
+                        slug: "контейнеровозы",
                     },
                     {
                         id: 9,
-                        name: "Hook Loaders",
-                        slug: "kryukovye-pogruzchiki",
+                        name: "Hook loaders",
+                        slug: "крюковые-погрузчики",
                     },
                     {
                         id: 10,
-                        name: "Dump Trucks",
-                        slug: "samosvaly",
+                        name: "Dump trucks",
+                        slug: "самосвалы",
                     },
                     {
                         id: 11,
-                        name: "ADR Category EXII Vehicles",
-                        slug: "avtomobili-dopog-kategoriya-exii",
+                        name: "ADR EXII category vehicles",
+                        slug: "автомобили-допог-категории-exii",
                     },
                     {
                         id: 12,
-                        name: "Flatbed Trucks",
-                        slug: "bortovye-avtomobili",
+                        name: "Flatbed trucks",
+                        slug: "бортовые-автомобили",
                     },
                 ],
             },
 
             aboutUs: {
-                title: "About Us",
+                title: "About us",
                 links: [
                     {
-                        name: "About RusTruck LLC",
+                        name: "About Rustrack LLC",
                         path: "/about",
                     },
                     {
@@ -103,11 +103,11 @@ const en = {
                         path: "/news",
                     },
                     {
-                        name: "Our Partners",
+                        name: "Our partners",
                         path: "/partners",
                     },
                     {
-                        name: "For Suppliers and Partners",
+                        name: "For suppliers and partners",
                         path: "/suppliers",
                     },
                     {
@@ -119,11 +119,11 @@ const en = {
                         path: "/cert",
                     },
                     {
-                        name: "Careers",
+                        name: "Vacancies",
                         path: "/vacancies",
                     },
                     {
-                        name: "Credit and Leasing",
+                        name: "Credit and leasing",
                         path: "/leasing",
                     },
                 ],
@@ -133,19 +133,19 @@ const en = {
                 title: "Media",
                 links: [
                     {
-                        name: "Photo Gallery",
+                        name: "Photo gallery",
                         path: "/photogallery",
                     },
                     {
-                        name: "Videos",
+                        name: "Video",
                         path: "/video",
                     },
                     {
-                        name: "Advertising Materials",
+                        name: "Promotional materials",
                         path: "/promo",
                     },
                     {
-                        name: "Information Materials",
+                        name: "Information materials",
                         path: "/info",
                     },
                 ],
@@ -178,12 +178,12 @@ const en = {
         slides: [
             {
                 id: 1,
-                title: "RusTruck Fuel Tankers Included in the Russian Industrial Products Register",
+                title: "Rustrack fuel tank trucks included in the Russian Register of Industrial Products",
                 description:
-                    "Now available for purchase under Federal Law 44-FZ",
+                    "Now available for purchase under Federal Law No. 44-FZ",
                 buttons: [
                     {
-                        text: "Request a Call",
+                        text: "Request a callback",
                         variant: "btn_big_border",
                     },
                 ],
@@ -191,12 +191,12 @@ const en = {
 
             {
                 id: 2,
-                title: "KAMAZ 4308 Curtain-Sided Vans Available",
+                title: "KAMAZ 4308 curtain-sided vans available",
                 description:
-                    "Superstructure dimensions: 6200x2550x2850 mm. Price: RUB 5,500,000.",
+                    "Superstructure dimensions: 6200x2550x2850 mm. Price: RUB 5,500,000",
                 buttons: [
                     {
-                        text: "Request a Call",
+                        text: "Request a callback",
                         variant: "btn_big_border",
                     },
                 ],
@@ -204,12 +204,12 @@ const en = {
 
             {
                 id: 3,
-                title: "Flatbed Platforms with Curtain Mechanism",
+                title: "Flatbed platforms with curtain mechanism",
                 description:
-                    "Manufacturing and supply of commercial vehicles, flatbed platforms, including platforms with sliding curtains and sliding roofs.",
+                    "Production and supply of commercial vehicles and flatbed platforms, including sliding curtains and sliding roofs.",
                 buttons: [
                     {
-                        text: "Learn More",
+                        text: "Learn more",
                         variant: "btn_big",
                     },
                 ],
@@ -217,16 +217,16 @@ const en = {
 
             {
                 id: 4,
-                title: "RusTruck LLC",
+                title: "Rustrack LLC",
                 description:
-                    "Manufacturing and supply of specialized machinery and special-purpose vehicles",
+                    "Production and supply of specialized equipment and special-purpose vehicles",
                 buttons: [
                     {
-                        text: "Open Catalog",
+                        text: "Open catalog",
                         variant: "btn_big",
                     },
                     {
-                        text: "Request a Call",
+                        text: "Request a callback",
                         variant: "btn_big_border",
                     },
                 ],
@@ -234,16 +234,16 @@ const en = {
 
             {
                 id: 5,
-                title: "Truck-Mounted Cranes Based on MCV/HCV Trucks",
+                title: "Truck-mounted cranes based on MCV/HCV trucks",
                 description:
-                    "Manufacturing of vehicles equipped with truck-mounted crane units. Use of anti-shift plates, installation of a control distributor block for rear supports, open HOSSEN profile, mounting plates at the base of the crane unit, and platform painting to match the crane color.",
+                    "Production of vehicles equipped with truck-mounted crane units. Anti-shift plates, installation of a control distributor block for rear supports, open HOSSEN profile, mounting plates at the base of the crane unit, and platform painting in the crane color.",
                 buttons: [
                     {
-                        text: "Learn More",
+                        text: "Learn more",
                         variant: "btn_big",
                     },
                     {
-                        text: "Request a Call",
+                        text: "Request a callback",
                         variant: "btn_big_border",
                     },
                 ],
@@ -251,16 +251,16 @@ const en = {
 
             {
                 id: 6,
-                title: "Fuel Tanker Trucks Based on MCV/HCV Trucks",
+                title: "Fuel tank trucks based on MCV/HCV trucks",
                 description:
-                    "Manufacturing and supply of fuel tanker trucks with capacities of 8 and 6 cubic meters. Aluminum piping, composite suction-discharge hoses, and a high-performance fuel dispensing unit.",
+                    "Production and supply of fuel tank trucks with capacities of 8 and 6 cubic meters. Aluminum piping, composite suction and pressure hoses, and a high-performance fuel dispensing unit.",
                 buttons: [
                     {
-                        text: "Learn More",
+                        text: "Learn more",
                         variant: "btn_big",
                     },
                     {
-                        text: "Request a Call",
+                        text: "Request a callback",
                         variant: "btn_big_border",
                     },
                 ],
@@ -270,16 +270,16 @@ const en = {
 
     aboutCompany: {
         intro: {
-            title: 'About <span class="rustrack text-[#FEC80B]">RusTruck</span>',
+            title: 'About <span class="rustrack text-[#FEC80B]">Rustrack</span>',
             paragraphs: [
                 {
-                    text: "Our company is a leading player in the special-purpose vehicle market. Every day, we contribute to the development of the domestic automotive industry and the strengthening of the Russian economy.",
+                    text: "Our company holds a leading position in the special-purpose vehicle market. Every day, we contribute to the development of the domestic automotive industry and the strengthening of the Russian economy.",
                 },
                 {
-                    text: "RusTruck is a leading manufacturer of commercial vehicles and specialized machinery. Our work is recognized and highly valued by major Russian corporations and government organizations. We supply special-purpose vehicles to companies such as Gazprom, Rosatom, Rosseti, RSK MiG, and others.",
+                    text: "Rustrack is a leading manufacturer of commercial vehicles and specialized equipment. Our work has been recognized and highly valued by major domestic corporations and government organizations. We supply specialized equipment to companies such as Gazprom, Rosatom, Rosseti, RSK MiG, and others.",
                 },
             ],
-            button: "Learn More",
+            button: "Learn more",
         },
     },
 
@@ -289,19 +289,19 @@ const en = {
                 numberOfStats: "17",
                 unit: "years",
                 description:
-                    "Over 17 years of operation, RusTruck LLC has grown into a major company specializing in the manufacturing and sale of special-purpose vehicles.",
+                    "Over 17 years of operation, Rustrack LLC has grown into a large-scale company specializing in the production and sale of special-purpose equipment.",
             },
             {
                 numberOfStats: "85",
                 unit: "regions",
                 description:
-                    "We have supplied 85 regions of the Russian Federation with reliable commercial and specialized vehicles.",
+                    "We have supplied reliable commercial and specialized equipment to 85 regions of the Russian Federation.",
             },
             {
                 numberOfStats: "11",
-                unit: "manufacturers",
+                unit: "vehicle manufacturers",
                 description:
-                    "RusTruck LLC values the trust of the automotive industry, confirmed by official partnerships with 11 vehicle manufacturers.",
+                    "Rustrack LLC values the trust of the automotive industry, confirmed by official partnerships with 11 vehicle manufacturers.",
             },
         ],
     },
@@ -313,12 +313,12 @@ const en = {
             {
                 id: 1,
                 name: "Design Bureau",
-                text: "Our own design bureau allows us to implement individual customer projects.",
+                text: "Our own design bureau allows us to implement customized projects for our clients.",
             },
             {
                 id: 2,
                 name: "Development",
-                text: "All projects are developed in accordance with vehicle manufacturers' bodybuilder manuals.",
+                text: "All projects are developed in accordance with vehicle manufacturers' manuals.",
             },
             {
                 id: 3,
@@ -328,24 +328,24 @@ const en = {
             {
                 id: 4,
                 name: "Warranty",
-                text: "Our own design bureau allows us to implement individual customer projects. The warranty for superstructures and work corresponds to the chassis warranty.",
+                text: "Our own design bureau allows us to implement customized projects for our clients. The warranty for superstructures and work corresponds to the chassis warranty.",
             },
             {
                 id: 5,
                 name: "Service",
-                text: "Service and maintenance: an extensive partner service network throughout the Russian Federation.",
+                text: "Service maintenance: an extensive partner service network throughout the Russian Federation.",
             },
         ],
     },
 
     products: {
         modal: {
-            title: "Get a Commercial Offer",
+            title: "Get a commercial offer",
 
             inputs: [
                 {
                     name: "name",
-                    label: "Your Name *",
+                    label: "Your name *",
                     placeholder: "Ivan",
                     type: "text",
                     must: "This field is required",
@@ -371,18 +371,18 @@ const en = {
                 link: "to the processing of personal data",
             },
 
-            getPk: "Get Commercial Offer",
+            getPk: "Get a commercial offer",
         },
     },
 
     anyQuestions: {
-        extraQuest: "HAVE ANY QUESTIONS?",
+        extraQuest: "STILL HAVE QUESTIONS?",
         leaveContact:
-            "Leave your contact details and we will call you back as soon as possible",
+            "Leave your contact details and we will call you back shortly",
 
         inputs: [
             {
-                label: "Your Name *",
+                label: "Your name *",
                 htmlFor: "name",
                 placeholder: "Artem",
             },
@@ -399,7 +399,30 @@ const en = {
             'By clicking the send button <a href="/upload/privacy_policy.pdf">you agree to the processing of personal data</a>',
     },
 
-    news: {},
+    newsSection: {
+        intro: {
+            title: "News",
+        },
+        categories: [
+            {
+                id: 1,
+                slug: "pervyy-v-rossii-konteynerovoz-na-shassi-kamaz-65658-vypustil-rustrak",
+            },
+            {
+                id: 2,
+                slug: "rustrak-podvyel-itogi-uchastiya-v-vystavke-comvex-2026-",
+            },
+            {
+                id: 3,
+                slug: "sadko-9-fermer-obzavelsya-kmu-s-burilnoy-ustanovkoy-",
+            },
+            {
+                id: 4,
+                slug: "rustrak-pozdravryalet-s-mezhdunarodnym-zhenskim-dnyem",
+            },
+        ],
+    },
+
     footer: {},
 };
 
