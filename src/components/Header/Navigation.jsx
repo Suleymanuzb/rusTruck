@@ -9,7 +9,7 @@ const Navigation = ({ openMenu, setOpenMenu }) => {
 
     return (
         <div>
-            <nav className='relative flex items-center max-[1200px]:gap-3 min-[1200px]:gap-10'>
+            <nav className='relative flex items-center max-[1200px]:gap-3 min-[1200px]:gap-10 '>
                 <NavigationItem
                     hasDropdown
                     isOpen={openMenu === "about"}

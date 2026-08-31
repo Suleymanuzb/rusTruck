@@ -131,6 +131,8 @@ const Header = () => {
                                 openMenu={openMenu}
                                 setOpenMenu={setOpenMenu}
                                 isSticky={isSticky}
+                                
+
                             />
                             {isSticky && (
                                 <div className='flex flex-col leading-none lg:hidden'>
