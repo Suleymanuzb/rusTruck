@@ -10,7 +10,7 @@ import Button from "../Button/Button";
 import { icons } from "../../assets/icons/icons";
 import { useNavigate, Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-const { IconHeart } = icons;
+const { IconHeart, IconClose } = icons;
 
 const RecProductSliders = forwardRef((props, ref) => {
     const { t } = useTranslation();
@@ -80,7 +80,7 @@ const RecProductSliders = forwardRef((props, ref) => {
 
             <Swiper
                 data-aos='fade-up'
-                className='mySwiper rounded-tr-lg rounded-tl-lg relative!'
+                className='mySwiper md:rounded-tr-lg md:rounded-tl-lg relative!'
                 onSwiper={(swiper) => {
                     if (ref) {
                         ref.current = swiper;
@@ -110,7 +110,7 @@ const RecProductSliders = forwardRef((props, ref) => {
                                         to={`/catalog/${truck.slug}/${truck.categoryId}`}
                                     >
                                         <img
-                                            className='w-full block aspect-12/10 object-cover'
+                                            className='w-full block aspect-12/10 object-cover rounded-t-sm'
                                             src={truck.images.image}
                                         />
                                     </Link>
@@ -140,7 +140,7 @@ const RecProductSliders = forwardRef((props, ref) => {
                                         </Button>
                                         <Button
                                             onClick={handleOpenModal}
-                                            className='flex gap-2.5 cursor-pointer  whitespace-nowrap'
+                                            className='hidden md:flex gap-2.5 cursor-pointer  whitespace-nowrap'
                                             variant='getKp'
                                             arrowDown='true'
                                         >
@@ -155,27 +155,32 @@ const RecProductSliders = forwardRef((props, ref) => {
             </Swiper>
 
             {isOpen && (
-                <div className='modal fixed z-10 w-120 bg-white top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-lg border px-6 pt-8 pb-6'>
+                <div className='border modal fixed z-10 w-80 md:min-w-120 bg-white top-[55%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-lg px-6 pt-8 pb-6'>
                     <div
                         onClick={handleCloseModal}
-                        className='absolute top-3 right-3'
+                        className='absolute top-1 right-1'
                     >
-                        <span className='text-3xl cursor-pointer'>X</span>
+                        <span className='text-3xl cursor-pointer'>
+                            <IconClose />
+                        </span>
                     </div>
 
-                    <div className='relative flex flex-col items-center gap-11 justify-center w-full'>
+                    <div className='relative flex flex-col items-center md:gap-5 w-full'>
                         <div className='text-2xl'>
-                            <h1 className='font-medium text-center'>
+                            <h1 className='font-medium text-center w-full text-xl md:text-2xl'>
                                 {t("products.modal.title")}
                             </h1>
                         </div>
 
-                        <form className='w-[70%]' onSubmit={handleSubmit}>
+                        <form
+                            className='w-full md:w-[70%] flex flex-col md:gap-3'
+                            onSubmit={handleSubmit}
+                        >
                             {modalInputs.map((item, index) => {
                                 return (
                                     <div
                                         key={index}
-                                        className='flex flex-col w-full'
+                                        className='flex flex-col w-full mt-1'
                                     >
                                         <label
                                             className='mb-1.25 text-sm'
@@ -208,7 +213,9 @@ const RecProductSliders = forwardRef((props, ref) => {
                                     </div>
                                 );
                             })}
-                            <div className='flex gap-3 mb-14'>
+                            <div
+                                className={`flex gap-3 mt-1 ${!errors.agreement ? "mb-20" : "mb-0"}`}
+                            >
                                 <input
                                     type='checkbox'
                                     checked={agreed}
@@ -217,6 +224,7 @@ const RecProductSliders = forwardRef((props, ref) => {
                                     }
                                     className='size-7.5 accent-black '
                                 />
+
                                 <p className='text-sm leading-none text-gray-400'>
                                     {t("products.modal.agreement.text")}
                                     <a
@@ -229,7 +237,7 @@ const RecProductSliders = forwardRef((props, ref) => {
                             </div>
 
                             {errors.agreement && (
-                                <p className='text-sm text-red-500'>
+                                <p className='text-sm text-red-500 mb-3'>
                                     {errors.agreement}
                                 </p>
                             )}
@@ -238,14 +246,12 @@ const RecProductSliders = forwardRef((props, ref) => {
                                 <Button
                                     type='submit'
                                     variant='btn_big_more'
-                                    className='w-full'
+                                    className='w-full whitespace-nowrap'
                                 >
                                     {t("products.modal.getPk")}
                                 </Button>
                             </div>
                         </form>
-
-                        <p>{JSON.stringify(formData)}</p>
                     </div>
                 </div>
             )}

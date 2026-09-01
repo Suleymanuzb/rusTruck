@@ -5,11 +5,11 @@ import Remont from "./pages/Remont";
 import News from "./pages/News";
 import Contacts from "./pages/Contacts";
 import About from "./pages/About";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { Layout } from "./layout";
 import Home from "./pages/Home";
 import Catalog from "./pages/Catalog";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Aos from "aos";
 import FilteredCatalog from "./pages/FilteredCatalog/FilteredCatalog";
 import RecProductSliders from "./components/recProducts/RecProductSliders";
@@ -22,6 +22,9 @@ const App = () => {
     useEffect(() => {
         Aos.init();
     }, []);
+
+    const location = useLocation(); 
+    const [initialLoading, setInitialLoading] = useState(true);
 
     return (
         <>

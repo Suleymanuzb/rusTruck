@@ -10,7 +10,7 @@ const NewsSection = () => {
 
     const swiperRef = useRef(null);
     return (
-        <div className='pt-30.75! md:py-14'>
+        <div className='pt-14 md:pt-30.75! md:py-14'>
             <Container className='max-[500px]:px-4'>
                 <div className='flex justify-between mb-8'>
                     <h1 className='text-2xl md:text-[40px] text-medium'>

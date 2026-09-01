@@ -19,7 +19,7 @@ const NewsSlider = forwardRef((props, ref) => {
     return (
         <Swiper
             data-aos='fade-up'
-            className='mySwiper rounded-tr-lg rounded-tl-lg relative!'
+            className='mySwiper relative!'
             onSwiper={(swiper) => {
                 if (ref) {
                     ref.current = swiper;
@@ -55,7 +55,7 @@ const NewsSlider = forwardRef((props, ref) => {
                                             key={id}
                                             src={coverImage}
                                             alt={product?.mainTitle}
-                                            className='w-full object-cover aspect-10/8'
+                                            className='w-full object-cover aspect-10/8 rounded-t-sm'
                                         />
                                     )}
                                 </Link>
@@ -73,7 +73,7 @@ const NewsSlider = forwardRef((props, ref) => {
                                         {truck.date}
                                     </a>
                                     <div>
-                                        <p className='max-[400px]:text-[13px] sm:text-lg font-medium w-full cursor-pointer leading-normal'>
+                                        <p className='max-[400px]:text-[13px] sm:text-lg font-medium w-full cursor-pointer leading-normal line-clamp-3'>
                                             {product?.mainTitle}
                                         </p>
                                     </div>
