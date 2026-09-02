@@ -17,17 +17,49 @@ import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import NewsDetails from "./components/NewsSection/NewsDetails";
 import NewsSlider from "./components/NewsSection/NewsSectionSlider";
 import ScrollToTop from "./ScrollTop";
+import Loader from "./components/Loader/Loader";
 
 const App = () => {
     useEffect(() => {
         Aos.init();
     }, []);
 
-    const location = useLocation(); 
+    const location = useLocation();
+    console.log(location);
     const [initialLoading, setInitialLoading] = useState(true);
+    const [pageLoading, setPageLoading] = useState(false);
+
+    useEffect(() => {
+        const handleLoad = () => {
+            setTimeout(() => {
+                setInitialLoading(false);
+            }, 300);
+        };
+
+        if (document.readyState === "complete") {
+            handleLoad();
+        } else {
+            window.addEventListener("load", handleLoad);
+        }
+
+        return () => {
+            window.removeEventListener("load", handleLoad);
+        };
+    }, []);
+
+    useEffect(() => {
+        setPageLoading(true);
+
+        const timer = setTimeout(() => {
+            setPageLoading(false);
+        }, 300);
+
+        return () => clearTimeout(timer);
+    }, [location]);
 
     return (
         <>
+            {(initialLoading || pageLoading) && <Loader />}
             <ScrollToTop />
 
             <Routes>
