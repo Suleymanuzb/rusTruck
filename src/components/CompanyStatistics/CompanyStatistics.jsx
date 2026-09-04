@@ -9,7 +9,7 @@ import {
 import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
-const CompanyStatistics = ({ currentLang }) => {
+const CompanyStatistics = () => {
     const { t } = useTranslation();
     const threeStats = t("CompanyStatistics.fullThreeStats", {
         returnObjects: true,

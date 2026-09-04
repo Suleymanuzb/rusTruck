@@ -25,7 +25,7 @@ const App = () => {
     }, []);
 
     const location = useLocation();
-    console.log(location);
+    // console.log(location);
     const [initialLoading, setInitialLoading] = useState(true);
     const [pageLoading, setPageLoading] = useState(false);
 

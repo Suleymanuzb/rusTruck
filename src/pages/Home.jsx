@@ -13,7 +13,6 @@ import NewsSection from "../components/NewsSection/NewsSection";
 const Home = () => {
     return (
         <>
-            
             <Hero />
             <TruckCategories />
             <AboutCompany />
@@ -21,7 +20,7 @@ const Home = () => {
             <ScrollSlider />
             <Products />
             <NewsSection />
-            {/* <AnyQuestions currentLang={currentLang} /> */}
+            <AnyQuestions />
         </>
     );
 };

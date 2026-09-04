@@ -385,18 +385,24 @@ const ru = {
                 label: "Ваше имя *",
                 htmlFor: "name",
                 placeholder: "Артем",
+                name: "name",
+                type: "text",
+                must: "Это поле обязательно для заполнения",
             },
             {
                 label: "Телефон *",
                 htmlFor: "phone",
                 placeholder: "+7",
+                name: "tel",
+                type: "tel",
+                must: "Это поле обязательно для заполнения",
             },
         ],
 
         sendButton: "Отправить",
 
         agreement:
-            'Нажимая на кнопку отправить <a href="/upload/privacy_policy.pdf">Вы соглашаетесь на обработку персональных данных</a>',
+            'Нажимая на кнопку отправить <1 href="/upload/privacy_policy.pdf">Вы соглашаетесь на обработку персональных данных</1>',
     },
 
     newsSection: {
