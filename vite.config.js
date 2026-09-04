@@ -6,6 +6,9 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
     plugins: [react(), tailwindcss()],
     server: {
-        port: "7777",
+        host: true,
+        port: 80,
+        strictPort: true,
+        allowedHosts: ["rustrack.ru"],
     },
 });
