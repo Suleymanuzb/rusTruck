@@ -3,7 +3,7 @@ import Container from "../Container/Container";
 
 const Hero = () => {
     return (
-        <Container>
+        <Container className='px-2!'>
             <div className='md:max-w-338 md:w-full md:px-[1.6rem] md:mx-auto'>
                 <Slider />
             </div>
