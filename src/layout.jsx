@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
-export function Layout({ currentLang }) {
+export function Layout() {
     return (
         <>
-            <Header currentLang={currentLang} />
+            <Header />
             <main>
                 <Outlet />
             </main>
-            <footer>footer</footer>
+            <Footer />
         </>
     );
 }

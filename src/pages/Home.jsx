@@ -21,6 +21,8 @@ const Home = () => {
             <Products />
             <NewsSection />
             <AnyQuestions />
+
+          
         </>
     );
 };
