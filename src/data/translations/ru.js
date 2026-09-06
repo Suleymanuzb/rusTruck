@@ -459,12 +459,15 @@ const ru = {
         ],
 
         aboutUs: [
-            {
-                text: "О нас",
-                type: "title",
-            },
+            { title: "О нас" },
+
             {
                 text: "О компании ООО «Рустрак»",
+                to: "/about",
+            },
+            {
+                text: "Новости",
+                to: "/news",
             },
             {
                 text: "Наши партнёры",
@@ -494,8 +497,7 @@ const ru = {
 
         media: [
             {
-                text: "Медиа",
-                type: "title",
+                title: "Медиа",
             },
             {
                 text: "Фотогалерея",

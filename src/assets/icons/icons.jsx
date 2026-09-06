@@ -1568,4 +1568,23 @@ export const icons = {
             </g>
         </svg>
     ),
+    IconChevronDown: (props) => (
+        <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='1em'
+            height='1em'
+            viewBox='0 0 24 24'
+            {...props}
+        >
+            <path fill='none' d='M0 0h24v24H0z' />
+            <path
+                fill='none'
+                stroke='currentColor'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth={2}
+                d='m4 9 8 8 8-8'
+            />
+        </svg>
+    ),
 };

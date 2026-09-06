@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Button from "../Button/Button";
 import qrCodeImg from "../../assets/images/footer/qr.svg";
 import { icons } from "../../assets/icons/icons";
-const { IconClose } = icons;
+const { IconClose, IconChevronDown } = icons;
 
 import max from "../../assets/images/footer/social-media/max-messenger-sign-logo.svg";
 import telegram from "../../assets/images/footer/social-media/telegram.svg";
@@ -13,6 +13,7 @@ import vk from "../../assets/images/footer/social-media/VK_com-logo.svg";
 import rutube from "../../assets/images/footer/social-media/Rutube_icon.png";
 import youtube from "../../assets/images/footer/social-media/YouTube_full-color_icon.png";
 import yandexZen from "../../assets/images/footer/social-media/Yandex_Zen_logo_icon.png";
+import FooterDropDown from "./FooterDropDown";
 
 const Footer = () => {
     const { t } = useTranslation();
@@ -20,6 +21,11 @@ const Footer = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [errors, setErrors] = useState({});
     const [agreed, setAgreed] = useState(false);
+
+    const [isDropDown, setIsDropDown] = useState(false);
+
+    const [openAboutUs, setOpenAboutUs] = useState(false);
+    const [openMedia, setOpenMedia] = useState(false);
 
     useEffect(() => {
         document.body.style.overflow = isOpen ? "hidden" : "";
@@ -88,10 +94,19 @@ const Footer = () => {
         }
     };
 
-    return (
-        <div className='bg-black pt-15.5 pb-10'>
-            <Container className='relative'>
+    const handleDropDown = () => {
+        setIsDropDown((prev) => !prev);
+        console.log(isDropDown);
+        setOpenAboutUs((prev) => !prev);
+    };
 
+    const handleMediaDropDown = () => {
+        setOpenMedia((prev) => !prev);
+    };
+
+    return (
+        <div className='bg-black pt-8 md:pt-15.5 pb-14 md:pb-10'>
+            <Container className='relative'>
                 <div className='grid  md:grid-cols-14 gap-x-10 text-white'>
                     <div className='col-span-5'>
                         {info.map((item, i) => {
@@ -101,7 +116,7 @@ const Footer = () => {
                                         key={i}
                                         onClick={handleCloseModal}
                                         variant='btn_big'
-                                        className='text-black mt-4 mb-6 cursor-pointer'
+                                        className='text-black mt-4 mb-6 cursor-pointer bg-[#FEC80B] hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none px-8 py-3.5'
                                     >
                                         {item.text}
                                     </Button>
@@ -133,24 +148,36 @@ const Footer = () => {
                     </div>
 
                     <div className='col-span-3 flex flex-col gap-3'>
-                        {aboutUs.map((item, i) => {
-                            if (item.type === "title") {
-                                return (
-                                    <h1 key={i} className='mb-3.5'>
-                                        {item.text}
-                                    </h1>
-                                );
-                            }
+                        <div className='flex items-center gap-2 cursor-pointer'>
+                            <h1 onClick={handleDropDown}>
+                                {aboutUs[0].title}{" "}
+                            </h1>
 
-                            return (
-                                <Link key={i} className='block'>
-                                    {item.text}
-                                </Link>
-                            );
-                        })}
+                            <span
+                                onClick={handleDropDown}
+                                className={`md:hidden cursor-pointer inline-block items-center justify-center text-xl opacity-50 transform duration-300 ${isDropDown ? "-rotate-180" : "rotate-0"}`}
+                            >
+                                <IconChevronDown />
+                            </span>
+                        </div>
+
+                        <FooterDropDown openDropDown={openAboutUs}>
+                            {aboutUs.map((item, i) => {
+                                return (
+                                    <div
+                                        key={i}
+                                        className='flex items-start gap-2 '
+                                    >
+                                        <Link to={item.to} className='mb-3.5'>
+                                            {item.text}
+                                        </Link>
+                                    </div>
+                                );
+                            })}
+                        </FooterDropDown>
                     </div>
 
-                    <div className='col-span-3 mt-12 flex flex-col gap-3'>
+                    <div className='hidden mt-12 md:flex flex-col gap-3  col-span-3'>
                         {services.map((item, i) => {
                             return (
                                 <Link className='block' key={i}>
@@ -161,25 +188,39 @@ const Footer = () => {
                     </div>
 
                     <div className='col-span-3  flex flex-col gap-3'>
-                        {media.map((item, i) => {
-                            if (item.type === "title") {
-                                return (
-                                    <h1 key={i} className='mb-3.5'>
-                                        {item.text}
-                                    </h1>
-                                );
-                            }
+                        <div className='flex items-center gap-2 cursor-pointer'>
+                            <h1 onClick={handleMediaDropDown}>
+                                {media[0].title}{" "}
+                            </h1>
 
-                            return (
-                                <Link className='block' key={i}>
-                                    {item.text}
-                                </Link>
-                            );
-                        })}
+                            <span
+                                onClick={handleMediaDropDown}
+                                className={`md:hidden cursor-pointerinline-block items-center justify-center text-xl opacity-50 transform duration-300 ${openMedia ? "-rotate-180" : "rotate-0"}`}
+                            >
+                                <IconChevronDown />
+                            </span>
+                        </div>
+                        <FooterDropDown openDropDown={openMedia}>
+                            {media.map((item, i) => {
+                                if (item.type === "title") {
+                                    return (
+                                        <h1 key={i} className='mb-3.5'>
+                                            {item.text}
+                                        </h1>
+                                    );
+                                }
+
+                                return (
+                                    <Link className='block' key={i}>
+                                        {item.text}
+                                    </Link>
+                                );
+                            })}
+                        </FooterDropDown>
                     </div>
                 </div>
 
-                <div className='grid grid-cols-6 mt-5 max-[1024px]:flex max-[1024px]:justify-between'>
+                <div className='max-[768px]:flex max-[768px]:flex-col-reverse max-[768px]:gap-5 grid md:grid-cols-6 mt-10 md:flex md:justify-between lg:justify-normal lg:gap-35'>
                     <div className='text-white col-span-3'>
                         {info.map((item, i) => {
                             if (item.type === "disclaimerOne")
@@ -201,6 +242,7 @@ const Footer = () => {
                                 );
                         })}
                     </div>
+
                     <div className='text-white col-span-3 flex items-center gap-2'>
                         <div className='w-7.5 h-7.5'>
                             <img

@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <>
-            <h1>Hello</h1>
+            <h1>About Us</h1>
         </>
     );
 };
