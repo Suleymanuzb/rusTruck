@@ -15,7 +15,7 @@ const AnyQuestions = () => {
 
     // for inputs
     const [errors, setErrors] = useState({});
-    console.log(errors);
+    // console.log(errors);
 
     const [formData, setFormData] = useState({
         name: "",

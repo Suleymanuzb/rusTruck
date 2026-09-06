@@ -1,14 +1,35 @@
 import { useTranslation } from "react-i18next";
 import Container from "../../components/Container/Container";
-import { Fragment, useState } from "react";
-import { Link } from "react-router-dom";
+import { Fragment, useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import Button from "../Button/Button";
+import qrCodeImg from "../../assets/images/footer/qr.svg";
+import { icons } from "../../assets/icons/icons";
+const { IconClose } = icons;
+
+import max from "../../assets/images/footer/social-media/max-messenger-sign-logo.svg";
+import telegram from "../../assets/images/footer/social-media/telegram.svg";
+import vk from "../../assets/images/footer/social-media/VK_com-logo.svg";
+import rutube from "../../assets/images/footer/social-media/Rutube_icon.png";
+import youtube from "../../assets/images/footer/social-media/YouTube_full-color_icon.png";
+import yandexZen from "../../assets/images/footer/social-media/Yandex_Zen_logo_icon.png";
 
 const Footer = () => {
     const { t } = useTranslation();
 
-    const [IsOpen, setIsOpen] = useState(false);
-    const { error, setError } = useState("");
+    const [isOpen, setIsOpen] = useState(false);
+    const [errors, setErrors] = useState({});
+    const [agreed, setAgreed] = useState(false);
+
+    useEffect(() => {
+        document.body.style.overflow = isOpen ? "hidden" : "";
+
+        return () => {
+            document.body.style.overflow = "";
+        };
+    }, [isOpen]);
+
+    const navigate = useNavigate();
 
     const [formData, setFormData] = useState({
         name: "",
@@ -34,32 +55,51 @@ const Footer = () => {
         returnObjects: true,
     });
 
-    // here will be - form codes
-    const handleInputs = (e) => {
-        const { name, value } = e.target;
-
-        setFormData((prev) => ({
-            ...prev,
-            [name]: value,
-        }));
-    };
-    //
-
-    const handleModal = () => {
+    const handleCloseModal = () => {
         setIsOpen((prev) => !prev);
     };
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        const newErrors = {};
+
+        inputs.forEach((input) => {
+            const value = formData[input.name];
+
+            if (!value.trim()) {
+                newErrors[input.name] = input.must;
+            }
+        });
+
+        if (!agreed) {
+            newErrors.agreement = "Необходимо дать согласие";
+        }
+
+        setErrors(newErrors);
+
+        if (Object.keys(newErrors).length === 0) {
+            setIsOpen(false);
+            setAgreed(true);
+            setErrors({});
+            console.log("Form is valid");
+
+            navigate("/success");
+        }
+    };
+
     return (
-        <div className='bg-black pt-15.5'>
+        <div className='bg-black pt-15.5 pb-10'>
             <Container className='relative'>
-                <div className='grid grid-cols-14 text-white'>
+
+                <div className='grid  md:grid-cols-14 gap-x-10 text-white'>
                     <div className='col-span-5'>
                         {info.map((item, i) => {
                             if (item.type === "button") {
                                 return (
                                     <Button
                                         key={i}
-                                        onClick={handleModal}
+                                        onClick={handleCloseModal}
                                         variant='btn_big'
                                         className='text-black mt-4 mb-6 cursor-pointer'
                                     >
@@ -72,32 +112,18 @@ const Footer = () => {
                                 return (
                                     <Fragment key={i}>
                                         {/* SVG Divider inserted between button & disclaimer */}
-                                        <svg
-                                            className='w-full text-gray-600 my-2'
-                                            height='2'
-                                            viewBox='0 0 100 2'
-                                            fill='none'
-                                            xmlns='http://www.w3.org/2000/svg'
-                                        >
-                                            <line
-                                                x1='0'
-                                                y1='1'
-                                                x2='100'
-                                                y2='1'
-                                                stroke='currentColor'
-                                                strokeDasharray='4 4'
+                                        <div className='mb-3'>
+                                            <img
+                                                className='w-45 h-36'
+                                                src={qrCodeImg}
                                             />
-                                        </svg>
-
-                                        <p className='text-xs text-gray-400 opacity-80 leading-relaxed'>
-                                            {item.text}
-                                        </p>
+                                        </div>
                                     </Fragment>
                                 );
                             }
 
                             return (
-                                <div key={i} className='col-span-5  '>
+                                <div key={i} className='col-span-5'>
                                     <Link to={item.to} className='mb-2'>
                                         {item.text}
                                     </Link>
@@ -106,11 +132,11 @@ const Footer = () => {
                         })}
                     </div>
 
-                    <div className='col-span-3'>
+                    <div className='col-span-3 flex flex-col gap-3'>
                         {aboutUs.map((item, i) => {
                             if (item.type === "title") {
                                 return (
-                                    <h1 key={i} className='mb-8'>
+                                    <h1 key={i} className='mb-3.5'>
                                         {item.text}
                                     </h1>
                                 );
@@ -124,7 +150,7 @@ const Footer = () => {
                         })}
                     </div>
 
-                    <div className='col-span-3'>
+                    <div className='col-span-3 mt-12 flex flex-col gap-3'>
                         {services.map((item, i) => {
                             return (
                                 <Link className='block' key={i}>
@@ -134,8 +160,16 @@ const Footer = () => {
                         })}
                     </div>
 
-                    <div className='col-span-3'>
+                    <div className='col-span-3  flex flex-col gap-3'>
                         {media.map((item, i) => {
+                            if (item.type === "title") {
+                                return (
+                                    <h1 key={i} className='mb-3.5'>
+                                        {item.text}
+                                    </h1>
+                                );
+                            }
+
                             return (
                                 <Link className='block' key={i}>
                                     {item.text}
@@ -145,77 +179,186 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {IsOpen && (
-                    <div className='fixed inset-0 z-50 flex items-center justify-center p-4 border-2 border-red-900'>
+                <div className='grid grid-cols-6 mt-5 max-[1024px]:flex max-[1024px]:justify-between'>
+                    <div className='text-white col-span-3'>
+                        {info.map((item, i) => {
+                            if (item.type === "disclaimerOne")
+                                return (
+                                    <p className='text-sm opacity-40' key={i}>
+                                        {item.text}
+                                    </p>
+                                );
+                        })}
+                        {info.map((item, i) => {
+                            if (item.type === "disclaimer")
+                                return (
+                                    <p
+                                        className='max-w-110 text-sm opacity-40'
+                                        key={i}
+                                    >
+                                        {item.text}
+                                    </p>
+                                );
+                        })}
+                    </div>
+                    <div className='text-white col-span-3 flex items-center gap-2'>
+                        <div className='w-7.5 h-7.5'>
+                            <img
+                                className='w-full h-full object-cover'
+                                src={max}
+                                alt='social-media'
+                            />
+                        </div>
+
+                        <div className='w-7.5 h-7.5'>
+                            <img
+                                className='w-full h-full object-cover'
+                                src={telegram}
+                                alt='social-media'
+                            />
+                        </div>
+
+                        <div className='w-7.5 h-7.5'>
+                            <img
+                                className='w-full h-full object-cover'
+                                src={vk}
+                                alt='social-media'
+                            />
+                        </div>
+
+                        <div className='w-7.5 h-7.5'>
+                            <img
+                                className='w-full h-full object-cover'
+                                src={rutube}
+                                alt='social-media'
+                            />
+                        </div>
+
+                        <div className='w-7.5 h-7.5'>
+                            <img
+                                className='w-full h-full object-cover'
+                                src={youtube}
+                                alt='social-media'
+                            />
+                        </div>
+
+                        <div className='w-7.5 h-7.5'>
+                            <img
+                                className='w-full h-full object-cover'
+                                src={yandexZen}
+                                alt='social-media'
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                {isOpen && (
+                    <div className='fixed z-50 inset-0 flex items-center justify-center p-4'>
                         <div
-                            onClick={() => setIsOpen(false)}
-                            className='fixed inset-0 bg-black/50'
+                            onClick={handleCloseModal}
+                            className='fixed inset-0  bg-black/50'
                         ></div>
 
-                        <div className='modal z-10 bg-white rounded-lg px-5 pt-13 pb-8.5'>
-                            <div className='p-4'>
-                                <div className='flex flex-col items-center mb-6'>
-                                    <h1 className='text-3xl font-medium'>
+                        <div className='modal fixed z-10 w-80 md:min-w-120 bg-white top-[55%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-lg px-6 pt-8 pb-6'>
+                            <div
+                                onClick={handleCloseModal}
+                                className='absolute top-1 right-1'
+                            >
+                                <span className='text-3xl cursor-pointer'>
+                                    <IconClose />
+                                </span>
+                            </div>
+
+                            <div className='relative flex flex-col items-center md:gap-5 w-full'>
+                                <div className='text-2xl'>
+                                    <h1 className='font-medium text-center w-full text-xl md:text-2xl'>
                                         {t("footer.inputTitle.orderCall")}
                                     </h1>
-                                    <h4 className=''>
+                                    <h4 className='font-medium text-center w-full text-sm'>
                                         {t("footer.inputTitle.getInTouch")}
                                     </h4>
                                 </div>
 
                                 <form
-                                    action='#'
-                                    className='flex flex-col items-center'
+                                    className='w-full md:w-[70%] flex flex-col md:gap-3'
+                                    onSubmit={handleSubmit}
                                 >
-                                    <div className='p-4'>
-                                        {inputs.map((input, i) => {
-                                            return (
-                                                <div
-                                                    key={i}
-                                                    className='flex flex-col items-start w-full'
-                                                >
-                                                    <label
-                                                        htmlFor={`footer-${input.htmlFor}`}
-                                                        className='mt-4 w-full cursor-pointer'
-                                                    >
-                                                        {input.label}
-                                                    </label>
-                                                    <input
-                                                        onChange={handleInputs}
-                                                        type='text'
-                                                        name={input.name}
-                                                        value={
-                                                            formData[input.name]
-                                                        }
-                                                        id={`footer-${input.htmlFor}`}
-                                                        placeholder={
-                                                            input.placeholder
-                                                        }
-                                                        className='outline-none border-[#fec400] rounded py-2 pl-3 pr-10 border w-full   [#fec400]/30'
-                                                    />
-                                                </div>
-                                            );
-                                        })}
-
-                                        <div className='mt-4'>
-                                            <input
-                                                type='checkbox'
-                                                name='agreement'
-                                                id='agreement'
-                                            />
-
-                                            <label
-                                                htmlFor='agreement'
-                                                className='ml-2'
+                                    {inputs.map((item, index) => {
+                                        return (
+                                            <div
+                                                key={index}
+                                                className='flex flex-col w-full mt-1'
                                             >
-                                                Я согласен с условиями
-                                            </label>
-                                        </div>
+                                                <label
+                                                    className='mb-1.25 text-sm'
+                                                    htmlFor={item.name}
+                                                >
+                                                    {item.label}
+                                                </label>
+                                                <input
+                                                    id={item.name}
+                                                    name={item.name}
+                                                    className='outline-none border border-[#a2a2a2] rounded focus:border-[#fec80b] focus:shadow-[0_0_4px_#fec80b] transform duration-300 placeholder:text-gray-400 py-3 pl-3 pr-10.25'
+                                                    type={item.type}
+                                                    placeholder={
+                                                        item.placeholder
+                                                    }
+                                                    value={formData[item.name]}
+                                                    onChange={(e) => {
+                                                        setFormData((prev) => ({
+                                                            ...prev,
+                                                            [item.name]:
+                                                                e.target.value,
+                                                        }));
+                                                    }}
+                                                />
+                                                {/*  */}
+                                                {errors[item.name] && (
+                                                    <p className='text-sm text-red-500'>
+                                                        {errors[item.name]}
+                                                    </p>
+                                                )}
 
+                                                {/*  */}
+                                            </div>
+                                        );
+                                    })}
+                                    <div
+                                        className={`flex gap-3 mt-1 ${!errors.agreement ? "mb-20" : "mb-0"}`}
+                                    >
+                                        <input
+                                            type='checkbox'
+                                            checked={agreed}
+                                            onChange={(e) =>
+                                                setAgreed(e.target.checked)
+                                            }
+                                            className='size-7.5 accent-black '
+                                        />
+
+                                        <p className='text-sm leading-none text-gray-400'>
+                                            {t("products.modal.agreement.text")}
+                                            <a
+                                                href='/upload/privacy_policy.pdf'
+                                                className='text-indigo-600 hover:text-blue-800 ml-1'
+                                            >
+                                                {t(
+                                                    "products.modal.agreement.link",
+                                                )}
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                    {errors.agreement && (
+                                        <p className='text-sm text-red-500 mb-3'>
+                                            {errors.agreement}
+                                        </p>
+                                    )}
+
+                                    <div className='w-full'>
                                         <Button
                                             type='submit'
-                                            variant='btn_big'
-                                            className='mt-3 self-center w-full'
+                                            variant='btn_big_more'
+                                            className='w-full whitespace-nowrap'
                                         >
                                             {t("footer.button")}
                                         </Button>
