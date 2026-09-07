@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Container from "../components/Container/Container";
 import TruckCards from "../components/TruckCategories/TruckCards";
+import AnyQuestions from "../components/AnyQuestions/AnyQuestions";
 
 const Catalog = () => {
     const { t } = useTranslation();
@@ -23,6 +24,7 @@ const Catalog = () => {
                     })}
                 </div>
             </Container>
+            <AnyQuestions />
         </section>
     );
 };

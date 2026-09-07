@@ -18,6 +18,7 @@ import NewsDetails from "./components/NewsSection/NewsDetails";
 import NewsSlider from "./components/NewsSection/NewsSectionSlider";
 import ScrollToTop from "./ScrollTop";
 import Loader from "./components/Loader/Loader";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
     useEffect(() => {
@@ -73,7 +74,7 @@ const App = () => {
                     <Route path='news' element={<News />} />
                     <Route path='contacts' element={<Contacts />} />
                     <Route path='about' element={<About />} />
-                    <Route path='catalog' element={<Catalog />} />
+                    <Route path='/catalog' element={<Catalog />} />
 
                     <Route
                         path='catalog/:category/:productId'
@@ -86,6 +87,8 @@ const App = () => {
                     />
 
                     <Route path='news/:slug/' element={<NewsDetails />} />
+
+                    <Route path='*' element={<NotFound />} />
                 </Route>
             </Routes>
         </>
