@@ -20,10 +20,10 @@ const NewsDetails = () => {
     const { slug } = useParams();
 
     const currentTruck = TruckNews.find((item) => item.slug === slug);
-    console.log(currentTruck);
+    // console.log(currentTruck);
 
     const truckWithLanguage = currentTruck?.[i18n.language];
-    console.log(truckWithLanguage);
+    // console.log(truckWithLanguage);
 
     return (
         <Container>

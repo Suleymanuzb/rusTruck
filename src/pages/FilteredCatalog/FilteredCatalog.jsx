@@ -24,13 +24,7 @@ const FilteredCatalog = () => {
         <div className='bg-gray-100'>
             <Container>
                 {/* breadcrumbs */}
-                <div className='mb-6'>
-                    <ul>
-                        <li>
-                            <Breadcrumbs />
-                        </li>
-                    </ul>
-                </div>
+               
 
                 <div className='flex items-center justify-between mb-5'>
                     <div className='flex items-center gap-6 '>

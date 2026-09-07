@@ -19,6 +19,7 @@ import NewsSlider from "./components/NewsSection/NewsSectionSlider";
 import ScrollToTop from "./ScrollTop";
 import Loader from "./components/Loader/Loader";
 import NotFound from "./pages/NotFound";
+import Breadcrumbs from "./components/Breadcrumb/Breadcrumb";
 
 const App = () => {
     useEffect(() => {
@@ -62,6 +63,7 @@ const App = () => {
         <>
             {(initialLoading || pageLoading) && <Loader />}
             <ScrollToTop />
+            <Breadcrumbs />
 
             <Routes>
                 <Route path='/' element={<Layout />}>

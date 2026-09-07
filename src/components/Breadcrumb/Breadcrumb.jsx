@@ -1,43 +1,30 @@
-import { useTranslation } from "react-i18next";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
+import { Fragment } from "react";
 
 const Breadcrumbs = () => {
-    const { t } = useTranslation();
-
-    const categories = t("header.megaMenu.categories.types", {
-        returnObjects: true,
-    });
-
     const location = useLocation();
 
-    const parts = location.pathname.split("/").filter(Boolean);
-    console.log("parts pr removes all /", parts);
+    const pathname = location.pathname;
+    const parts = pathname.split("/").filter(Boolean);
+
+    // console.log(parts);
 
     return (
-        <div>
-            {parts.map((part, index) => {
-                const decodedPart = decodeURIComponent(part);
+        <nav>
+            <Link to={"/"}>Главная</Link>
 
-                const selectedCategory = categories.find(
-                    (item) => item.slug === decodedPart,
-                );
-                console.log(selectedCategory);
-
-                const breadcrumbName = selectedCategory
-                    ? selectedCategory.name
-                    : decodedPart;
-
-                const isLast = index === parts.length - 1;
-                console.log(isLast);
+            {parts.map((part, i) => {
+                const path = "/" + parts.slice(0, i + 1).join("/");
 
                 return (
-                    <span className='' key={part}>
-                        {breadcrumbName}
-                        {!isLast && " / "}
-                    </span>
+                    <Fragment key={i}>
+                        <span>/</span>
+
+                        <Link to={path}>{part}</Link>
+                    </Fragment>
                 );
             })}
-        </div>
+        </nav>
     );
 };
 
