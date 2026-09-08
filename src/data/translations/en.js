@@ -2,11 +2,11 @@ const en = {
     language: "en",
 
     header: {
-        production: "production and sale of special-purpose vehicles",
+        production: "production and sale of special automotive equipment",
         workingTime: "Working hours",
-        workingTimeOpened: "Mon-Fri: from 8:00 to 18:00",
+        workingTimeOpened: "Mon-Fri: 8:00 AM to 6:00 PM",
         workingTimeWeekend: "Sat-Sun: Closed",
-        adress: "Nizhny Novgorod, Torfyanaya St., 35",
+        adress: "Nizhny Novgorod, Torfyanaya st., 35",
         forStates: "For regions:",
         numberForStates: " 8 (800)-511-05-25",
         forLocals: "Nizhny Novgorod:",
@@ -30,63 +30,63 @@ const en = {
                 types: [
                     {
                         id: 1,
-                        name: "Curtain-sided trucks",
-                        slug: "шторные-автомобили",
+                        name: "Curtainsider trucks",
+                        slug: "curtainsider-trucks",
                     },
                     {
                         id: 2,
-                        name: "Truck-mounted cranes",
-                        slug: "краны-манипуляторы",
+                        name: "Crane manipulators",
+                        slug: "crane-manipulators",
                     },
                     {
                         id: 3,
-                        name: "Fuel tank trucks",
-                        slug: "автотопливозаправщики",
+                        name: "Fuel bowsers",
+                        slug: "fuel-bowsers",
                     },
                     {
                         id: 4,
-                        name: "Truck-mounted aerial platforms",
-                        slug: "автогидроподъёмники",
+                        name: "Aerial work platforms",
+                        slug: "aerial-work-platforms",
                     },
                     {
                         id: 5,
                         name: "Tank trucks",
-                        slug: "автоцистерны",
+                        slug: "tank-trucks",
                     },
                     {
                         id: 6,
                         name: "Tow trucks",
-                        slug: "автомобили-эвакуаторы",
+                        slug: "tow-trucks",
                     },
                     {
                         id: 7,
                         name: "Insulated vans",
-                        slug: "изотермические-фургоны",
+                        slug: "insulated-vans",
                     },
                     {
                         id: 8,
-                        name: "Container carriers",
-                        slug: "контейнеровозы",
+                        name: "Container ships",
+                        slug: "container-ships",
                     },
                     {
                         id: 9,
                         name: "Hook loaders",
-                        slug: "крюковые-погрузчики",
+                        slug: "hook-loaders",
                     },
                     {
                         id: 10,
                         name: "Dump trucks",
-                        slug: "самосвалы",
+                        slug: "dump-trucks",
                     },
                     {
                         id: 11,
                         name: "ADR EXII category vehicles",
-                        slug: "автомобили-допог-категории-exii",
+                        slug: "adr-exii-category-vehicles",
                     },
                     {
                         id: 12,
-                        name: "Flatbed trucks",
-                        slug: "бортовые-автомобили",
+                        name: "Dropside trucks",
+                        slug: "dropside-trucks",
                     },
                 ],
             },
@@ -95,7 +95,7 @@ const en = {
                 title: "About us",
                 links: [
                     {
-                        name: "About Rustrack LLC",
+                        name: "About RusTruck LLC",
                         path: "/about",
                     },
                     {
@@ -178,12 +178,12 @@ const en = {
         slides: [
             {
                 id: 1,
-                title: "Rustrack fuel tank trucks included in the Russian Register of Industrial Products",
+                title: "Rustrak ATZ added to the register of Russian industrial products",
                 description:
                     "Now available for purchase under Federal Law No. 44-FZ",
                 buttons: [
                     {
-                        text: "Request a callback",
+                        text: "Request a call",
                         variant: "btn_big_border",
                     },
                 ],
@@ -191,12 +191,12 @@ const en = {
 
             {
                 id: 2,
-                title: "KAMAZ 4308 curtain-sided vans available",
+                title: "KAMAZ 4308 curtainsider vans in stock",
                 description:
-                    "Superstructure dimensions: 6200x2550x2850 mm. Price: RUB 5,500,000",
+                    "Superstructure dimensions: 6200x2550x2850 mm. Price: 5,500,000 RUB.",
                 buttons: [
                     {
-                        text: "Request a callback",
+                        text: "Request a call",
                         variant: "btn_big_border",
                     },
                 ],
@@ -204,12 +204,12 @@ const en = {
 
             {
                 id: 3,
-                title: "Flatbed platforms with curtain mechanism",
+                title: "Dropside platforms with curtain mechanism",
                 description:
-                    "Production and supply of commercial vehicles and flatbed platforms, including sliding curtains and sliding roofs.",
+                    "Production and supply of commercial vehicles, dropside platforms, including those with sliding curtains and sliding roofs.",
                 buttons: [
                     {
-                        text: "Learn more",
+                        text: "Read more",
                         variant: "btn_big",
                     },
                 ],
@@ -217,16 +217,16 @@ const en = {
 
             {
                 id: 4,
-                title: "Rustrack LLC",
+                title: "RusTruck LLC",
                 description:
-                    "Production and supply of specialized equipment and special-purpose vehicles",
+                    "Production and supply of specialized equipment and vehicles",
                 buttons: [
                     {
                         text: "Open catalog",
                         variant: "btn_big",
                     },
                     {
-                        text: "Request a callback",
+                        text: "Request a call",
                         variant: "btn_big_border",
                     },
                 ],
@@ -234,16 +234,16 @@ const en = {
 
             {
                 id: 5,
-                title: "Truck-mounted cranes based on MCV/HCV trucks",
+                title: "Crane manipulators based on MCV/HCV trucks",
                 description:
-                    "Production of vehicles equipped with truck-mounted crane units. Anti-shift plates, installation of a control distributor block for rear supports, open HOSSEN profile, mounting plates at the base of the crane unit, and platform painting in the crane color.",
+                    "Production of vehicles with crane-manipulator units. Use of anti-shift plates, installation of rear outrigger control distributor block, open HOSSEN profile, mounting plates at the base of the crane, platform painted in crane color.",
                 buttons: [
                     {
-                        text: "Learn more",
+                        text: "Read more",
                         variant: "btn_big",
                     },
                     {
-                        text: "Request a callback",
+                        text: "Request a call",
                         variant: "btn_big_border",
                     },
                 ],
@@ -251,16 +251,16 @@ const en = {
 
             {
                 id: 6,
-                title: "Fuel tank trucks based on MCV/HCV trucks",
+                title: "Fuel bowsers based on MCV/HCV trucks",
                 description:
-                    "Production and supply of fuel tank trucks with capacities of 8 and 6 cubic meters. Aluminum piping, composite suction and pressure hoses, and a high-performance fuel dispensing unit.",
+                    "Production and supply of fuel bowsers with a volume of 8 and 6 cubic meters. Aluminum communications, composite suction and discharge hoses, and efficient fuel dispensing unit.",
                 buttons: [
                     {
-                        text: "Learn more",
+                        text: "Read more",
                         variant: "btn_big",
                     },
                     {
-                        text: "Request a callback",
+                        text: "Request a call",
                         variant: "btn_big_border",
                     },
                 ],
@@ -270,16 +270,16 @@ const en = {
 
     aboutCompany: {
         intro: {
-            title: 'About <span class="rustrack text-[#FEC80B]">Rustrack</span>',
+            title: 'About company <span class="rustrack text-[#FEC80B]">RusTruck</span>',
             paragraphs: [
                 {
-                    text: "Our company holds a leading position in the special-purpose vehicle market. Every day, we contribute to the development of the domestic automotive industry and the strengthening of the Russian economy.",
+                    text: "Our company holds a leading position in the special equipment market. Every day we contribute to the development of the domestic automotive industry and strengthen the economy.",
                 },
                 {
-                    text: "Rustrack is a leading manufacturer of commercial vehicles and specialized equipment. Our work has been recognized and highly valued by major domestic corporations and government organizations. We supply specialized equipment to companies such as Gazprom, Rosatom, Rosseti, RSK MiG, and others.",
+                    text: "RusTruck is a leading manufacturer of commercial transport and specialized equipment. Our work is recognized and highly valued by major domestic corporations and government structures. We supply special equipment for companies such as Gazprom, Rosatom, Rosseti, RSK MiG, and others.",
                 },
             ],
-            button: "Learn more",
+            button: "Read more",
         },
     },
 
@@ -289,19 +289,19 @@ const en = {
                 numberOfStats: "17",
                 unit: "years",
                 description:
-                    "Over 17 years of operation, Rustrack LLC has grown into a large-scale company specializing in the production and sale of special-purpose equipment.",
+                    "Over 17 years of activity, RusTruck LLC has grown into a major enterprise for the production and sale of special equipment.",
             },
             {
                 numberOfStats: "85",
                 unit: "regions",
                 description:
-                    "We have supplied reliable commercial and specialized equipment to 85 regions of the Russian Federation.",
+                    "We have provided 85 regions of the Russian Federation with reliable commercial and specialized equipment.",
             },
             {
                 numberOfStats: "11",
-                unit: "vehicle manufacturers",
+                unit: "automakers",
                 description:
-                    "Rustrack LLC values the trust of the automotive industry, confirmed by official partnerships with 11 vehicle manufacturers.",
+                    "RusTruck LLC values the trust of the automotive industry, which is confirmed by official partnerships with 11 automakers.",
             },
         ],
     },
@@ -312,28 +312,28 @@ const en = {
         linePart: [
             {
                 id: 1,
-                name: "Design Bureau",
-                text: "Our own design bureau allows us to implement customized projects for our clients.",
+                name: "Design bureau",
+                text: "Our own design bureau allows us to implement custom projects for clients.",
             },
             {
                 id: 2,
                 name: "Development",
-                text: "All projects are developed in accordance with vehicle manufacturers' manuals.",
+                text: "All projects are developed in accordance with vehicle manufacturer manuals.",
             },
             {
                 id: 3,
-                name: "Production Facility",
-                text: "Our own production facility allows us to significantly reduce production costs while increasing the competitiveness of our products.",
+                name: "Production facility",
+                text: "Our own production facility allows us to significantly reduce cost prices, increasing product competitiveness.",
             },
             {
                 id: 4,
                 name: "Warranty",
-                text: "Our own design bureau allows us to implement customized projects for our clients. The warranty for superstructures and work corresponds to the chassis warranty.",
+                text: "Our own design bureau allows us to implement custom projects for clients. The warranty on superstructures and work corresponds to the chassis warranty.",
             },
             {
                 id: 5,
                 name: "Service",
-                text: "Service maintenance: an extensive partner service network throughout the Russian Federation.",
+                text: "Service maintenance: an extensive partner service network across the entire territory.",
             },
         ],
     },
@@ -346,7 +346,7 @@ const en = {
                 {
                     name: "name",
                     label: "Your name *",
-                    placeholder: "Ivan",
+                    placeholder: "John",
                     type: "text",
                     must: "This field is required",
                 },
@@ -367,16 +367,16 @@ const en = {
             ],
 
             agreement: {
-                text: "I agree",
-                link: "to the processing of personal data",
+                text: "I agree to",
+                link: "the processing of personal data",
             },
 
-            getPk: "Get a commercial offer",
+            getPk: "Get offer",
         },
     },
 
     anyQuestions: {
-        extraQuest: "STILL HAVE QUESTIONS?",
+        extraQuest: "HAVE QUESTIONS LEFT?",
         leaveContact:
             "Leave your contact details and we will call you back shortly",
 
@@ -385,18 +385,23 @@ const en = {
                 label: "Your name *",
                 htmlFor: "name",
                 placeholder: "Artem",
+                name: "name",
+                type: "text",
+                must: "This field is required",
             },
             {
                 label: "Phone *",
                 htmlFor: "phone",
                 placeholder: "+7",
+                name: "tel",
+                type: "tel",
+                must: "This field is required",
             },
         ],
 
-        sendButton: "Send",
+        sendButton: "Submit",
 
-        agreement:
-            'By clicking the send button <a href="/upload/privacy_policy.pdf">you agree to the processing of personal data</a>',
+        agreement: `By clicking submit <1 href="/upload/privacy_policy.pdf">you agree to the processing of personal data</1>`,
     },
 
     newsSection: {
@@ -406,24 +411,143 @@ const en = {
         categories: [
             {
                 id: 1,
-                slug: "pervyy-v-rossii-konteynerovoz-na-shassi-kamaz-65658-vypustil-rustrak",
+                slug: "first-in-russia-container-ship-on-kamaz-65658-chassis-released-by-rustruck",
             },
             {
                 id: 2,
-                slug: "rustrak-podvyel-itogi-uchastiya-v-vystavke-comvex-2026-",
+                slug: "rustruck-summarized-participation-results-in-comvex-2026-exhibition",
             },
             {
                 id: 3,
-                slug: "sadko-9-fermer-obzavelsya-kmu-s-burilnoy-ustanovkoy-",
+                slug: "sadko-9-farmer-acquired-crane-manipulator-with-drilling-rig",
             },
             {
                 id: 4,
-                slug: "rustrak-pozdravryalet-s-mezhdunarodnym-zhenskim-dnyem",
+                slug: "rustruck-congratulates-on-international-womens-day",
             },
         ],
     },
 
-    footer: {},
+    footer: {
+        mainInfo: [
+            {
+                text: "Tel/fax: 8 (831) 235-25-17",
+                to: "tel:88312352517",
+            },
+            {
+                text: "Email: info+7603@rtrf.ru",
+                to: "mailto:info+7603@rtrf.ru",
+            },
+            {
+                text: "Nizhny Novgorod, Torfyanaya st., 35",
+                to: "https://yandex.ru/maps/?text=Нижний+Новгород+Торфяная+35",
+                isExternal: true,
+            },
+            {
+                text: "Request a call",
+                type: "button",
+            },
+            {
+                text: "2009 - 2026 © Rus - Trucks",
+                type: "disclaimerOne",
+            },
+            {
+                text: "Information on the site is not a public offer defined under Article 435 of the Civil Code of the Russian Federation and is for informational purposes only.",
+                type: "disclaimer",
+            },
+        ],
+
+        aboutUs: [
+            { title: "About us" },
+
+            {
+                text: "About RusTruck LLC",
+                to: "/about",
+            },
+            {
+                text: "News",
+                to: "/news",
+            },
+            {
+                text: "Our partners",
+            },
+            {
+                text: "Production",
+            },
+            {
+                text: "For suppliers and partners",
+            },
+            {
+                text: "Reviews",
+            },
+            {
+                text: "Certificates",
+            },
+        ],
+
+        services: [
+            { text: "Vacancies" },
+            { text: "Credit and leasing" },
+            { text: "Service" },
+            { text: "Repair" },
+            { text: "Contacts" },
+            { text: "Useful articles" },
+        ],
+
+        media: [
+            {
+                title: "Media",
+            },
+            {
+                text: "Photo gallery",
+            },
+            {
+                text: "Video",
+            },
+            {
+                text: "Promotional materials",
+            },
+        ],
+
+        inputTitle: {
+            orderCall: "Request a call",
+            getInTouch: "Our manager will contact you shortly",
+        },
+
+        inputs: [
+            {
+                label: "Your name *",
+                htmlFor: "name",
+                placeholder: "John",
+                name: "name",
+                type: "text",
+                must: "This field is required",
+            },
+            {
+                label: "Phone *",
+                htmlFor: "phone",
+                placeholder: "+7",
+                name: "tel",
+                type: "tel",
+                must: "This field is required",
+            },
+        ],
+
+        button: "Submit request",
+
+        agreement: `I agree to <1 href="/upload/privacy_policy.pdf">the processing of personal data</1>`,
+    },
+
+    breadcrumbs: {
+        home: "Home",
+        catalog: "Catalog",
+        news: "News",
+        about: "About Us",
+        contacts: "Contacts",
+        service: "Service",
+        remont: "Repair",
+        success: "Success",
+    },
 };
 
 export default en;

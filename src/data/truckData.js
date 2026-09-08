@@ -1,7 +1,5 @@
 import mainTruckImage1 from "../assets/images/truckData/1/main.webp";
 
-
-
 import truckDrawing1 from "../assets/images/truckData/1/truckDrawing1.png";
 import mainTruckImage2 from "../assets/images/truckData/2/Main.webp";
 import galleryOf1TruckImage2 from "../assets/images/truckData/2/galleryOf1TruckImage2.webp";
@@ -131,7 +129,7 @@ const trucks = [
             },
 
             charectiristicsTitle: "Характеристики",
-            
+
             characteristics: [
                 {
                     sectionTitle:

@@ -1,31 +1,46 @@
-import { useLocation, Link } from "react-router-dom";
-import { Fragment } from "react";
+import { useTranslation } from "react-i18next";
+import { Link, useLocation } from "react-router-dom";
 
-const Breadcrumbs = () => {
+const Breadcrumb = () => {
     const location = useLocation();
+    const { t } = useTranslation();
 
-    const pathname = location.pathname;
-    const parts = pathname.split("/").filter(Boolean);
+    const parts = location.pathname
+        .split("/")
+        .filter(Boolean)
+        .map((part) => decodeURIComponent(part));
 
-    // console.log(parts);
+    // if (parts.length === 0) return null;
+
+    // const translated = t(`breadcrumbs.${pathNames[0]}`);
 
     return (
         <nav>
-            <Link to={"/"}>Главная</Link>
+            <Link to={"/"} className='text-3xl'>
+                {t("breadcrumbs.home")}
+            </Link>
 
-            {parts.map((part, i) => {
-                const path = "/" + parts.slice(0, i + 1).join("/");
+            {parts.map((part, index) => {
+                const path = "/" + parts.slice(0, index + 1).join("/");
 
                 return (
-                    <Fragment key={i}>
-                        <span>/</span>
+                    <div>
+                        <Link to={path} key={part} className='text-3xl'>
+                            {" / "}
+                            {t(`breadcrumbs.${part}`)}
+                        </Link>
 
-                        <Link to={path}>{part}</Link>
-                    </Fragment>
+                        {part === "catalog" && (
+                            <Link to={path} key={part} className='text-3xl'>
+                                {" / "}
+                                {t(`header.megaMenu.categories.${part}`)}
+                            </Link>
+                        )}
+                    </div>
                 );
             })}
         </nav>
     );
 };
 
-export default Breadcrumbs;
+export default Breadcrumb;

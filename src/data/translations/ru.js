@@ -539,6 +539,28 @@ const ru = {
         agreement:
             'Я согласен <1 href="/upload/privacy_policy.pdf">на обработку персональных данных</1>',
     },
+
+    breadcrumbs: {
+        home: "Главная",
+        catalog: "Каталог",
+        news: "Новости",
+        about: "О нас",
+        contacts: "Контакты",
+        service: "Сервис",
+        remont: "Ремонт",
+        success: "Успешно",
+    },
+
+    breadcrumb: {
+        home: "Главная",
+        catalog: "Каталог",
+        news: "Новости",
+        about: "О нас",
+        contacts: "Контакты",
+        service: "Сервис",
+        remont: "Ремонт",
+        success: "Успешно",
+    },
 };
 
 export default ru;

@@ -59,6 +59,7 @@ const App = () => {
         return () => clearTimeout(timer);
     }, [location]);
 
+
     return (
         <>
             {(initialLoading || pageLoading) && <Loader />}
@@ -76,7 +77,7 @@ const App = () => {
                     <Route path='news' element={<News />} />
                     <Route path='contacts' element={<Contacts />} />
                     <Route path='about' element={<About />} />
-                    <Route path='/catalog' element={<Catalog />} />
+                    <Route path='catalog' element={<Catalog />} />
 
                     <Route
                         path='catalog/:category/:productId'
@@ -89,7 +90,6 @@ const App = () => {
                     />
 
                     <Route path='news/:slug/' element={<NewsDetails />} />
-
                     <Route path='*' element={<NotFound />} />
                 </Route>
             </Routes>
