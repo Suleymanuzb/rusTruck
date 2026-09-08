@@ -59,12 +59,10 @@ const App = () => {
         return () => clearTimeout(timer);
     }, [location]);
 
-
     return (
         <>
             {(initialLoading || pageLoading) && <Loader />}
             <ScrollToTop />
-            <Breadcrumbs />
 
             <Routes>
                 <Route path='/' element={<Layout />}>

@@ -550,17 +550,6 @@ const ru = {
         remont: "Ремонт",
         success: "Успешно",
     },
-
-    breadcrumb: {
-        home: "Главная",
-        catalog: "Каталог",
-        news: "Новости",
-        about: "О нас",
-        contacts: "Контакты",
-        service: "Сервис",
-        remont: "Ремонт",
-        success: "Успешно",
-    },
 };
 
 export default ru;
