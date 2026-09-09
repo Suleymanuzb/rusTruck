@@ -1,6 +1,17 @@
 import galleryOf1TruckImage1 from "../assets/images/truckNews/1/main.webp";
+import galleryOf2TruckImage1 from "../assets/images/truckNews/1/2.webp";
+import galleryOf3TruckImage1 from "../assets/images/truckNews/1/3.webp";
+import galleryOf4TruckImage1 from "../assets/images/truckNews/1/4.webp";
+import galleryOf5TruckImage1 from "../assets/images/truckNews/1/5.webp";
+import galleryOf6TruckImage1 from "../assets/images/truckNews/1/6.webp";
+
 import galleryOf1TruckImage2 from "../assets/images/truckNews/2/main.webp";
+
 import galleryOf1TruckImage3 from "../assets/images/truckNews/3/main.webp";
+import galleryOf2TruckImage3 from "../assets/images/truckNews/3/2.webp";
+import galleryOf3TruckImage3 from "../assets/images/truckNews/3/3.webp";
+import galleryOf4TruckImage3 from "../assets/images/truckNews/3/4.webp";
+
 import galleryOf1TruckImage4 from "../assets/images/truckNews/4/main.webp";
 
 export const TruckNews = [
@@ -16,13 +27,19 @@ export const TruckNews = [
                 image: galleryOf1TruckImage1,
             },
             {
-                image: galleryOf1TruckImage2,
+                image: galleryOf2TruckImage1,
             },
             {
-                image: galleryOf1TruckImage3,
+                image: galleryOf3TruckImage1,
             },
             {
-                image: galleryOf1TruckImage4,
+                image: galleryOf4TruckImage1,
+            },
+            {
+                image: galleryOf5TruckImage1,
+            },
+            {
+                image: galleryOf6TruckImage1,
             },
         ],
 
@@ -190,15 +207,6 @@ export const TruckNews = [
             {
                 image: galleryOf1TruckImage2,
             },
-            {
-                image: galleryOf1TruckImage1,
-            },
-            {
-                image: galleryOf1TruckImage3,
-            },
-            {
-                image: galleryOf1TruckImage4,
-            },
         ],
 
         ru: {
@@ -268,16 +276,16 @@ export const TruckNews = [
 
         gallerImages: [
             {
-                image: galleryOf1TruckImage1,
-            },
-            {
-                image: galleryOf1TruckImage2,
-            },
-            {
                 image: galleryOf1TruckImage3,
             },
             {
-                image: galleryOf1TruckImage4,
+                image: galleryOf2TruckImage3,
+            },
+            {
+                image: galleryOf3TruckImage3,
+            },
+            {
+                image: galleryOf4TruckImage3,
             },
         ],
 
@@ -286,12 +294,30 @@ export const TruckNews = [
 
             newsInfo: [
                 {
+                    type: "paragraph",
+
                     section: [
                         {
-                            text: "Завод «Рустрак» установил на базу Садко NEXT 9 кран манипулятор с бурильно-крановой установкой TAURUS 035A. Садко 9 с КМУ с бурильным оборудованием, закрывает потребности энергетических, строительных и коммунальных компаний в технике, способной эффективно работать там, где заканчиваются дороги. Универсальность оборудования в комбинации с полноприводным шасси с двухрядной кабиной минимизирует простои в условиях отсутствия дорожной инфраструктуры.",
+                            type: "text",
+                            value: "Завод «Рустрак» установил на базу Садко NEXT 9  с бурильно-крановой установкой TAURUS 035A.",
                         },
                         {
-                            text: "Комментарий Шалявина Дмитрия Леонидовича, главного конструктора завода «Рустрак» Эта машина будет работать в энергетике, но сфера применения ее гораздо шире, строительство, нефтегазовая и добывающая промышленность, да и в сфере ЖКХ такая универсальность дает бесспорное сокращение времени на решение поставленных задач. По сути, это автономный комплекс, способный заменить собой парк из нескольких специализированных единиц техники» ",
+                            type: "Link",
+                            value: "кран манипулятор",
+                            href: "/catalog/краны-манипуляторы",
+                        },
+                        {
+                            type: "text",
+                            value: " Садко 9 с КМУ с бурильным оборудованием, закрывает потребности энергетических, строительных и коммунальных компаний в технике, способной эффективно работать там, где заканчиваются дороги. Универсальность оборудования в комбинации с полноприводным шасси с двухрядной кабиной минимизирует простои в условиях отсутствия дорожной инфраструктуры.",
+                        },
+                    ],
+                },
+                {
+                    section: [
+                        {
+                            type: "comment",
+                            author: "Комментарий Шалявина Дмитрия Леонидовича, главного конструктора завода «Рустрак»",
+                            text: " с бурильно-крановой установкой TAURUS 035A. Садко 9 с КМУ с бурильным оборудованием, закрывает потребности энергетических, строительных и коммунальных компаний в технике, способной эффективно работать там, где заканчиваются дороги. Универсальность оборудования в комбинации с полноприводным шасси с двухрядной кабиной минимизирует простои в условиях отсутствия дорожной инфраструктуры.",
                         },
                     ],
                 },

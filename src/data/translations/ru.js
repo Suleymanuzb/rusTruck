@@ -429,6 +429,12 @@ const ru = {
         ],
     },
 
+    newsPage: {
+        intro: {
+            title: "Новости РусТрак",
+        },
+    },
+
     footer: {
         mainInfo: [
             {

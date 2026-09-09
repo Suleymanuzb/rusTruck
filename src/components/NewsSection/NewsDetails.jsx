@@ -1,7 +1,8 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Container from "../Container/Container";
 import { useTranslation } from "react-i18next";
 import { TruckNews } from "../../data/TruckNews";
+import { Fragment } from "react";
 
 import React, { useRef, useState } from "react";
 // Import Swiper React components
@@ -15,6 +16,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
+import { span } from "motion/react-client";
 
 const NewsDetails = () => {
     const { i18n } = useTranslation();
@@ -27,12 +29,14 @@ const NewsDetails = () => {
     // console.log(truckWithLanguage);
 
     return (
-        <Container className="pb-39">
+        <Container className='pb-39'>
             <Breadcrumbs />
             <h1 className='text-xl max-[400px]:leading-[110%] leading-[135%] font-bold sm:font-normal sm:text-2xl lg:text-3xl mb-3 mt-5'>
                 {truckWithLanguage.mainTitle}
             </h1>
-            <p className='leading-normal text-lg sm:mb-5 md:mb-7 lg:mb-10'>{currentTruck.date}</p>
+            <p className='leading-normal text-lg sm:mb-5 md:mb-7 lg:mb-10'>
+                {currentTruck.date}
+            </p>
 
             <div className='flex flex-col lg:flex-row lg:justify-between gap-6'>
                 <div className='lg:w-[40%]'>
@@ -44,11 +48,64 @@ const NewsDetails = () => {
                                 </h2>
                             )}
 
-                            {mainNews?.section?.map((item, j) => (
-                                <div key={j}>
-                                    <p className='my-3'>{item.text}</p>
-                                </div>
-                            ))}
+                            {mainNews.type === "paragraph" && (
+                                <p>
+                                    {mainNews.section.map((each, i) => {
+                                        if (each.type === "Link") {
+                                            return (
+                                                <Link
+                                                    key={i}
+                                                    className=' ml-1 cursor-pointer text-purple-700 font-medium'
+                                                    to={each.href}
+                                                >
+                                                    {each.value}
+                                                </Link>
+                                            );
+                                        }
+
+                                        if (
+                                            each.value.includes(
+                                                "Завод «Рустрак»",
+                                            )
+                                        ) {
+                                            return (
+                                                <span
+                                                    key={i}
+                                                    className=' ml-1 cursor-pointer font-extrabold'
+                                                    to={each.href}
+                                                >
+                                                    {each.value} <br />
+                                                </span>
+                                            );
+                                        }
+
+                                        return <span>{each.value}</span>;
+                                    })}
+                                </p>
+                            )}
+
+                            {mainNews?.section?.map((item, j) => {
+                                if (item.type === "comment") {
+                                    return (
+                                        <div className='mb-3' key={j}>
+                                            <p className=''>
+                                                <span className='font-bold text-[#f55409]'>
+                                                    {item.author}
+                                                </span>{" "}
+                                            </p>
+                                            <p className='text-[#f16522]'>
+                                                {item.text}
+                                            </p>
+                                        </div>
+                                    );
+                                }
+
+                                return (
+                                    <div key={j}>
+                                        <p className='my-3'>{item.text}</p>
+                                    </div>
+                                );
+                            })}
                         </div>
                     ))}
                 </div>
