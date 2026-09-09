@@ -1,8 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import trucks from "../../data/truckData";
+import { Fragment } from "react";
+import { TruckNews } from "../../data/TruckNews";
+import Container from "../Container/Container";
 
-const Breadcrumb = () => {
+const Breadcrumbs = () => {
     const location = useLocation();
     const { t, i18n } = useTranslation();
 
@@ -18,8 +21,16 @@ const Breadcrumb = () => {
 
     const categorySlug = parts[1];
     const productId = parts[2];
+    const truckNewsUrl = parts[1];
 
     const isCatalog = parts[0] === "catalog";
+    const isNews = parts[0] === "news";
+
+    const currentTruckNews = isNews
+        ? TruckNews.find((truckNews) => truckNews.slug === truckNewsUrl)
+        : undefined;
+
+    const truckNewsLan = currentTruckNews?.[i18n.language];
 
     const currentTruck = isCatalog
         ? trucks.find((truck) => truck.id === Number(productId))
@@ -36,19 +47,23 @@ const Breadcrumb = () => {
         }
 
         if (index === 1 && parts[0] === "catalog") {
-            return selectedCategory.name;
+            return selectedCategory?.name;
         }
 
         if (index === 2 && parts[0] === "catalog") {
             return product?.truckType;
         }
 
+        if (index === 1 && parts[0] === "news") {
+            return truckNewsLan?.mainTitle;
+        }
+
         return part;
     };
 
     return (
-        <nav>
-            <Link to={"/"} className='text-3xl'>
+        <nav className='text-[14px]'>
+            <Link to={"/"} className='text-[#777]'>
                 {t("breadcrumbs.home")}
             </Link>
 
@@ -56,20 +71,27 @@ const Breadcrumb = () => {
                 const path = "/" + rawParts.slice(0, index + 1).join("/");
                 const isLast = index === parts.length - 1;
 
-                return isLast ? (
-                    <span key={part} className='text-pink-500 text-3xl'>
-                        {" / "}
-                        {getLabel(part, index)}
-                    </span>
-                ) : (
-                    <Link to={path} key={part} className='text-3xl'>
-                        {" / "}
-                        {getLabel(part, index)}
-                    </Link>
+                return (
+                    <Fragment key={part}>
+                        <span>{" / "}</span>
+
+                        {isLast ? (
+                            <span className='text-[#222] font-medium'>
+                                {getLabel(part, index)}
+                            </span>
+                        ) : (
+                            <Link
+                                to={path}
+                                className='cursor-pointer text-[#777]'
+                            >
+                                {getLabel(part, index)}
+                            </Link>
+                        )}
+                    </Fragment>
                 );
             })}
         </nav>
     );
 };
 
-export default Breadcrumb;
+export default Breadcrumbs;

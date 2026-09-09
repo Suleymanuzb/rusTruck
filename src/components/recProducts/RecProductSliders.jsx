@@ -73,6 +73,9 @@ const RecProductSliders = forwardRef((props, ref) => {
     const handleCloseModal = () => setIsopen(false);
 
     // console.log(isOpen);
+    const categories = t("header.megaMenu.categories.types", {
+        returnObjects: true,
+    });
 
     return (
         <div className='relative'>
@@ -102,12 +105,16 @@ const RecProductSliders = forwardRef((props, ref) => {
                 }}
             >
                 {trucks.map((truck, id) => {
+                    const category = categories.find(
+                        (item) => item.id === truck.categoryId,
+                    );
+
                     return (
                         <SwiperSlide key={id} className='h-auto!'>
                             <div className='relative h-full'>
                                 <div className='relative'>
                                     <Link
-                                        to={`/catalog/${truck.slug}/${truck.categoryId}`}
+                                        to={`/catalog/${category.slug}/${truck.id}`}
                                     >
                                         <img
                                             className='w-full block aspect-12/10 object-cover rounded-t-sm'

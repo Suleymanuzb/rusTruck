@@ -19,7 +19,7 @@ import NewsSlider from "./components/NewsSection/NewsSectionSlider";
 import ScrollToTop from "./ScrollTop";
 import Loader from "./components/Loader/Loader";
 import NotFound from "./pages/NotFound";
-import Breadcrumbs from "./components/Breadcrumb/Breadcrumb";
+import Breadcrumbs from "./components/Breadcrumbs/Breadcrumbs";
 
 const App = () => {
     useEffect(() => {

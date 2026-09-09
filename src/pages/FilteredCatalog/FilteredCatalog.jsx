@@ -3,7 +3,7 @@ import { icons } from "../../assets/icons/icons";
 import trucks from "../../data/truckData";
 import { useTranslation } from "react-i18next";
 import { useParams, Link } from "react-router-dom";
-import Breadcrumbs from "../../components/Breadcrumb/Breadcrumb";
+import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 const { IconLine, IconTable, SearchIcon } = icons;
 
 const FilteredCatalog = () => {
@@ -23,9 +23,7 @@ const FilteredCatalog = () => {
     return (
         <div className='bg-gray-100'>
             <Container>
-                {/* breadcrumbs */}
-               
-
+                <Breadcrumbs />
                 <div className='flex items-center justify-between mb-5'>
                     <div className='flex items-center gap-6 '>
                         <h1 className='text-3xl font-medium'>

@@ -4,7 +4,7 @@ import Container from "../../components/Container/Container";
 import { useTranslation } from "react-i18next";
 import Button from "../../components/Button/Button";
 import useFancybox from "./FancyHook";
-import Breadcrumbs from "../../components/Breadcrumb/Breadcrumb";
+import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 
 const ProductDetails = () => {
     const [fancyboxRef] = useFancybox();
@@ -20,13 +20,7 @@ const ProductDetails = () => {
 
     return (
         <Container>
-            <div className='mb-6'>
-                <ul>
-                    <li>
-                        <Breadcrumbs />
-                    </li>
-                </ul>
-            </div>
+            <Breadcrumbs />
 
             <h1 className='text-xl md:text-3xl font-medium mb-2 mt-5'>
                 {product.truckType}
