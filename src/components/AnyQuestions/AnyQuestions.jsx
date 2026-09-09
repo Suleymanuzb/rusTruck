@@ -49,11 +49,11 @@ const AnyQuestions = () => {
         <div className='bg-[rgb(242,242,242)] pb-13 overflow-hidden mt-30'>
             <Container className='flex flex-col min-[1190px]:flex-row justify-between'>
                 <div className='w-full md:w-[65%]'>
-                    <div className='pt-30'>
+                    <div className='pt-7.75 min-[1200px]:pt-30'>
                         <h2 className='text-4xl text-center md:text-start'>
                             {t("anyQuestions.extraQuest")}
                         </h2>
-                        <p className='text-[14px] text-center md:text-start md:text-xl whitespace-nowrap'>
+                        <p className='text-[14px] sm:whitespace-nowrap text-center md:text-start md:text-xl '>
                             {t("anyQuestions.leaveContact")}
                         </p>
                     </div>
