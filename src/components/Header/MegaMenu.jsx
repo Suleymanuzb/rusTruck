@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Container from "../Container/Container";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import DropDown from "./DropDown/DropDown";
 
-const MegaMenu = ({ openMenu }) => {
+const MegaMenu = ({ openMenu, setOpenMenu }) => {
     const { t } = useTranslation();
 
     const [openCategories, setOpenCategories] = useState(false);
@@ -13,7 +13,7 @@ const MegaMenu = ({ openMenu }) => {
     const [openMedia, setOpenMedia] = useState(false);
 
     const closeMegaMenu = () => {
-        openMenu(null);
+        setOpenMenu(null);
         setOpenCategories(false);
         setOpenAboutUs(false);
         setOpenMedia(false);
@@ -46,6 +46,20 @@ const MegaMenu = ({ openMenu }) => {
     const service = t("header.megaMenu.service.links", {
         returnObjects: true,
     });
+
+    const location = useLocation();
+    const prevPathname = useRef(location.pathname);
+
+    useEffect(() => {
+        if (prevPathname.current !== location.pathname) {
+            setOpenMenu(null);
+            setOpenCategories(false);
+            setOpenAboutUs(false);
+            setOpenMedia(false);
+
+            prevPathname.current = location.pathname;
+        }
+    }, [location.pathname, setOpenMenu]);
 
     return (
         <div className='fixed overflow-y-auto left-0 top-36.5 bottom-0 z-10 w-screen bg-gray-200 pt-4'>
@@ -81,7 +95,10 @@ const MegaMenu = ({ openMenu }) => {
                                             className='mb-[1.2rem] cursor-pointer leading-[1.3] transition-all duration-300 hover:text-[#ffd43a]'
                                         >
                                             <Link
-                                                onClick={closeMegaMenu}
+                                                onClick={(e) => {
+                                                    e.stopPropagation();
+                                                    closeMegaMenu();
+                                                }}
                                                 to={`/catalog/${cat.slug}`}
                                             >
                                                 {cat.name}
@@ -117,7 +134,10 @@ const MegaMenu = ({ openMenu }) => {
                                                 className='mb-[1.2rem] cursor-pointer leading-[1.3] transition-all duration-300 hover:text-[#ffd43a]'
                                             >
                                                 <Link
-                                                    onClick={closeMegaMenu}
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        closeMegaMenu();
+                                                    }}
                                                     to={link.path}
                                                 >
                                                     {link.name}
@@ -158,7 +178,10 @@ const MegaMenu = ({ openMenu }) => {
                                                     className='mb-[1.2rem] cursor-pointer leading-[1.3] transition-all duration-300 hover:text-[#ffd43a]'
                                                 >
                                                     <Link
-                                                        onClick={closeMegaMenu}
+                                                        onClick={(e) => {
+                                                            e.stopPropagation();
+                                                            closeMegaMenu();
+                                                        }}
                                                         to={link.path}
                                                     >
                                                         {link.name}
@@ -178,7 +201,13 @@ const MegaMenu = ({ openMenu }) => {
                                                 key={link.path}
                                                 className='font-bold text-[1.6rem] leading-normal transition-all duration-300 hover:text-[#ffd43a] cursor-pointer mb-6'
                                             >
-                                                <Link to={link.path}>
+                                                <Link
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        closeMegaMenu();
+                                                    }}
+                                                    to={link.path}
+                                                >
                                                     {link.name}
                                                 </Link>
                                             </li>
