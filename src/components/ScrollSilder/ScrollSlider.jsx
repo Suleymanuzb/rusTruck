@@ -78,7 +78,7 @@ const ScrollSlider = () => {
                 <div className='sticky top-25 h-[calc(100vh-5rem)] gap-10 sm:gap-15 w-full flex flex-col max-[890px]:mt-0 min-[890px]:flex-row min-[890px]:items-start overflow-hidden'>
                     {/* image and circular dots part */}
 
-                    <div className='max-[890px]:w-[83%] w-[60%] max-[890px]:flex max-[890px]:flex-col max-[890px]:justify-center'>
+                    <div className='max-[500px]:w-full max-[890px]:w-[83%] w-[60%] max-[890px]:flex max-[890px]:flex-col max-[890px]:justify-center'>
                         <div className='w-1/2 min-[890px]:w-[60%] relative'>
                             <img
                                 className='w-full h-auto block'
@@ -178,33 +178,33 @@ const ScrollSlider = () => {
                                 {/* Icon */}
                                 <div
                                     className='
-                mb-5 sm:mb-6 lg:mb-8
-                flex items-center justify-center
-                w-16 h-16
-                md:w-20 md:h-20
-                lg:w-24 lg:h-24
-                rounded-[22px]
-                bg-gradient-to-br from-[#FFFBEA] to-[#FFF4B8]
-                border border-[#FEC80B]/30
-                shadow-[0_8px_25px_rgba(254,200,11,0.12)]
-                transition-all duration-300 ease-out
-                group-hover:bg-[#FEC80B]
-                group-hover:border-[#FEC80B]
-                group-hover:shadow-[0_12px_30px_rgba(254,200,11,0.28)]
-                group-hover:scale-105
+                                    mb-5 sm:mb-6 lg:mb-8
+                                    flex items-center justify-center
+                                    w-16 h-16
+                                    md:w-20 md:h-20
+                                    lg:w-24 lg:h-24
+                                    rounded-[22px]
+                                    bg-gradient-to-br from-[#FFFBEA] to-[#FFF4B8]
+                                    border border-[#FEC80B]/30
+                                    shadow-[0_8px_25px_rgba(254,200,11,0.12)]
+                                    transition-all duration-300 ease-out
+                                    group-hover:bg-[#FEC80B]
+                                    group-hover:border-[#FEC80B]
+                                    group-hover:shadow-[0_12px_30px_rgba(254,200,11,0.28)]
+                                    group-hover:scale-105
             '
                                 >
                                     {ItemSvg && (
                                         <ItemSvg.svg
                                             className='
-                        w-8 h-8
-                        md:w-10 md:h-10
-                        lg:w-12 lg:h-12
-                        text-[#FEC80B]
-                        drop-shadow-[0_2px_3px_rgba(0,0,0,0.08)]
-                        transition-all duration-300
-                        group-hover:text-white
-                        group-hover:drop-shadow-none
+                                            w-8 h-8
+                                            md:w-10 md:h-10
+                                            lg:w-12 lg:h-12
+                                            text-[#FEC80B]
+                                            drop-shadow-[0_2px_3px_rgba(0,0,0,0.08)]
+                                            transition-all duration-300
+                                            group-hover:text-white
+                                            group-hover:drop-shadow-none
                     '
                                         />
                                     )}
@@ -213,22 +213,22 @@ const ScrollSlider = () => {
                                 {/* Text */}
                                 <div
                                     className='
-                relative
-                max-w-2xl
-                pl-0
-                transition-all duration-300
+                                    relative
+                                    max-w-2xl
+                                    pl-0
+                                    transition-all duration-300
             '
                                 >
                                     <p
                                         className='
-                    text-[12px] sm-[890px]:text-[15px]
-                    w-full
-                    text-gray-700
-                    font-medium
-                    leading-6
-                    tracking-[0.01em]
-                    transition-colors duration-300
-                    group-hover:text-gray-900
+                                    text-[12px] sm-[890px]:text-[15px]
+                                    w-full
+                                    text-gray-700
+                                    font-medium
+                                    leading-6
+                                    tracking-[0.01em]
+                                    transition-colors duration-300
+                                    group-hover:text-gray-900
                 '
                                     >
                                         {item.text}

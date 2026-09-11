@@ -3,7 +3,7 @@ import Success from "./pages/Success";
 import Service from "./pages/Service";
 import Remont from "./pages/Remont";
 import News from "./pages/News";
-import Contacts from "./pages/Contacts";
+import Contacts from "./pages/Contact/Contacts";
 import About from "./pages/About";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { Layout } from "./layout";

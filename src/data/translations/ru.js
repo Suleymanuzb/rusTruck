@@ -546,6 +546,114 @@ const ru = {
             'Я согласен <1 href="/upload/privacy_policy.pdf">на обработку персональных данных</1>',
     },
 
+    contactsPage: {
+        adressSection: {
+            title: "Контакты производителя автоспецтехники РусТрак",
+
+            adress: `603035 г. Нижний Новгород, ул. Торфяная, д. 35`,
+            forLocals: "Нижний Новгород:",
+            numberFotLocals: "8 (831) 235-25-17",
+            forStates: "Для регионов:",
+            numberForStates: "8 (800)-511-05-25",
+            emailText: "Электронная почта: ",
+            email: "info+7603@rtrf.ru",
+
+            redisterText: "Запись на техническое обслуживание:",
+            registerNumber: "8 (831) 225-00-55",
+        },
+        employeeSection: {
+            title: "Сотрудники",
+
+            employees: [
+                {
+                    id: 1,
+                    name: "Шаронов Сергей Владимирович",
+                    position: "Генеральный директор",
+                    phoneNumber: "8 (831) 225-00-55",
+                    email: "komdir@rtrf.ru",
+                },
+                {
+                    id: 2,
+                    name: "Сучков Александр Алексеевич",
+                    position: "Коммерческий директор",
+                    phoneNumber: "8 (831) 225-00-55",
+                    email: "sale@rtrf.ru",
+                },
+                {
+                    id: 3,
+                    name: "Ширдин Михаил Васильевич",
+                    position: "Руководитель отдела продаж",
+                    extraNumber: "88312352517 доб.202",
+                    phoneNumber: "89524466974",
+                    email: "rop+7603@rtrf.ru",
+                },
+                {
+                    id: 4,
+                    name: "Савенко Екатерина Юрьевна",
+                    position: "Менеджер по продажам",
+                    phoneNumber: "88312352517 доб.214",
+                    email: "RK+7603@rtrf.ru",
+                },
+                {
+                    id: 5,
+                    name: "Сергеева Юлия Юрьевна",
+                    position: "Менеджер по продажам",
+                    phoneNumber: "88312352551 доб.215",
+                    email: "sale4+7603@rtrf.ru",
+                },
+                {
+                    id: 6,
+                    name: "Конев Максим Анатольевич",
+                    position:
+                        "Руководитель направления развития дилерской сети",
+                    phoneNumber: "88312250055 доб.213",
+                    extraNumber: "89302703728",
+                    email: "sale3@rtrf.ru",
+                },
+                {
+                    id: 7,
+                    name: "Киселёв Иван Александрович",
+                    position:
+                        "Руководитель отдела по сертификации ООО «РусТрак»",
+                    phoneNumber: "88312250055 доб.212",
+                    extraNumber: "89534157742",
+                    email: "sale2@rtrf.ru",
+                },
+                {
+                    id: 8,
+                    name: "Шалявин Дмитрий Леонидович",
+                    position: "Главный конструктор",
+                    phoneNumber: "88312250055 доб.701",
+                    email: "kb@rtrf.ru",
+                },
+                {
+                    id: 9,
+                    name: "Ярилин Александр Валерьевич",
+                    position: "Инженер по гарантии",
+                    phoneNumber: "88312250055 доб.610",
+                    email: "kb1@rtrf.ru",
+                },
+
+                {
+                    id: 10,
+                    name: "Муреев Александр Евгеньевич",
+                    position: "Начальник ОТК",
+                    phoneNumber: "88312250055 доб.601",
+                    extraNumber: "89534154171",
+                    email: "OTK@rtrf.ru",
+                },
+                {
+                    id: 11,
+                    name: "Иванов Сергей Иванович ",
+                    position: "Руководитель отдела снабжения",
+                    phoneNumber: "88312250055 доб.401",
+                    extraNumber: "89519151423",
+                    email: "snab@rtrf.ru",
+                },
+            ],
+        },
+    },
+
     breadcrumbs: {
         home: "Главная",
         catalog: "Каталог",
