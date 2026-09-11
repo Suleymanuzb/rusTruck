@@ -62,7 +62,7 @@ const Breadcrumbs = () => {
     };
 
     return (
-        <nav className='text-[14px]'>
+        <nav className='text-[14px] mb-6'>
             <Link to={"/"} className='text-[#777]'>
                 {t("breadcrumbs.home")}
             </Link>
