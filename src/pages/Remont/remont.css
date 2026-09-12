@@ -13,3 +13,5 @@ img-comparison-slider [slot="handle"] * {
 img-comparison-slider::part(divider) {
   cursor: ew-resize !important;
 }
+
+/*  */

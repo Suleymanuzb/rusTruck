@@ -5,7 +5,6 @@ import Button from "../../components/Button/Button";
 import { remontImg } from "../../data/remontPage";
 import { ImgComparisonSlider } from "@img-comparison-slider/react";
 import Anyquestions from "../../components/AnyQuestions/AnyQuestions";
-import { div } from "motion/react-client";
 
 const Remont = () => {
     const { t } = useTranslation();
@@ -63,70 +62,53 @@ const Remont = () => {
                 </div>
 
                 {/* before after images */}
-                <div className='px-25 mt-6 flex flex-col min-[1000px]:flex-row w-full gap-4 h-120'>
-                    {remontImg.beforeAfter.map((item, i) => {
-                        return (
-                            <ImgComparisonSlider
-                                style={{
-                                    "--divider-color": "#fec400",
-                                    "--divider-width": "8px",
-                                    width: "100%",
-                                    height: "100%",
-                                }}
-                                key={i}
-                                className={`rounded-lg overflow-hidden outline-none ${
-                                    i === 0
-                                        ? "basis-[70%] h-full"
-                                        : "basis-[30%] h-full"
-                                }`}
-                            >
-                                <img
-                                    slot='first'
-                                    src={item.before}
-                                    alt={item.before}
-                                    className='w-full h-full object-cover'
-                                ></img>
-                                <img
-                                    slot='second'
-                                    src={item.after}
-                                    alt={item.after}
-                                    className='w-full h-full object-cover'
-                                ></img>
+                <div className='lg:px-20 mt-6 flex flex-col items-center min-[1000px]:flex-row w-full gap-10 min-[1000px]:h-120'>
+                    {remontImg.beforeAfter.map((item, i) => (
+                        <ImgComparisonSlider
+                            key={i}
+                            className={`text-center  rounded-lg overflow-hidden outline-none ${
+                                i === 0
+                                    ? "w-full min-[1000px]:w-147.5 min-[1000px]:shrink-0"
+                                    : "w-[70%] min-[1000px]:w-75 min-[1000px]:shrink-0"
+                            }`}
+                            style={{
+                                "--divider-color": "#fec400",
+                                "--divider-width": "8px",
+                                height: "100%",
+                                minHeight: 0,
+                            }}
+                        >
+                            <img
+                                slot='first'
+                                src={item.before}
+                                alt={item.before}
+                                className='w-full h-full object-cover'
+                            />
 
-                                <div
-                                    slot='handle'
-                                    className='flex items-center justify-center w-10 h-10 bg-[#fec400] rounded-full border-2 border-white shadow-md focus:outline-none'
-                                    style={{
-                                        cursor: "ew-resize",
-                                        pointerEvents: "auto",
-                                    }}
-                                >
-                                    <svg
-                                        xmlns='http://www.w3.org/2000/svg'
-                                        width='18'
-                                        height='18'
-                                        viewBox='0 0 24 24'
-                                        fill='none'
-                                        stroke='white'
-                                        strokeWidth='3'
-                                        strokeLinecap='round'
-                                        strokeLinejoin='round'
-                                    >
-                                        <path d='m9 18-6-6 6-6' />
-                                        <path d='m15 6 6 6-6 6' />
-                                    </svg>
-                                </div>
-                            </ImgComparisonSlider>
-                        );
-                    })}
+                            <img
+                                slot='second'
+                                src={item.after}
+                                alt={item.after}
+                                className='w-full object-cover'
+                                style={{ height: "480px" }}
+                            />
+
+                            <div
+                                slot='handle'
+                                className='flex items-center justify-center w-10 h-10 bg-[#fec400] rounded-full border-2 border-white shadow-md'
+                            >
+                                {/* svg */}
+                            </div>
+                        </ImgComparisonSlider>
+                    ))}
                 </div>
                 {/* part2 */}
 
                 <div>
-                    <h1 className='mt-5 mb-3 text-2xl font-medium text-xl sm:text-2xl'>
+                    <h1 className='mt-5 mb-3 font-medium text-xl sm:text-2xl'>
                         {t("remontPage.advantages.title")}
                     </h1>
-                    <div className='flex flex-col gap-4 mt-2'>
+                    <div className='flex flex-col gap-4 mt-2 mb-2.5'>
                         {t("remontPage.advantages.prems", {
                             returnObjects: true,
                         }).map((item) => {
@@ -160,7 +142,7 @@ const Remont = () => {
                     </div>
 
                     <div className='flex items-center justify-center mt-6.25'>
-                        <Button variant='btn_big'>
+                        <Button variant='btn_big_more'>
                             {t("remontPage.advantages.Calcbutton")}
                         </Button>
                     </div>
