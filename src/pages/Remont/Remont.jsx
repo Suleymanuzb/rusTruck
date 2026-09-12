@@ -11,7 +11,7 @@ const Remont = () => {
 
     return (
         <div>
-            <Container>
+            <Container className="max-[500px]:px-4">
                 <Breadcrumbs />
                 {/* part1 */}
                 <div>
@@ -69,7 +69,7 @@ const Remont = () => {
                             className={`text-center  rounded-lg overflow-hidden outline-none ${
                                 i === 0
                                     ? "w-full min-[1000px]:w-147.5 min-[1000px]:shrink-0"
-                                    : "w-[70%] min-[1000px]:w-75 min-[1000px]:shrink-0"
+                                    : "w-[85%] min-[1000px]:w-75 min-[1000px]:shrink-0"
                             }`}
                             style={{
                                 "--divider-color": "#fec400",
@@ -95,7 +95,7 @@ const Remont = () => {
 
                             <div
                                 slot='handle'
-                                className='flex items-center justify-center w-10 h-10 bg-[#fec400] rounded-full border-2 border-white shadow-md'
+                                className='flex items-center justify-center w-5 h-5 md:w-10 md:h-10 bg-[#fec400] rounded-full border-2 border-white shadow-md'
                             >
                                 {/* svg */}
                             </div>
