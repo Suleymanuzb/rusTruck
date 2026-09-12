@@ -12,6 +12,7 @@
   "dependencies": {
     "@fancyapps/ui": "^6.1.14",
     "@gsap/react": "^2.1.2",
+    "@img-comparison-slider/react": "^8.0.2",
     "@tailwindcss/vite": "^4.3.3",
     "antd": "^6.6.1",
     "aos": "^2.3.4",

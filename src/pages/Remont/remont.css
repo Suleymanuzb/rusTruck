@@ -1,0 +1,15 @@
+/* 1. Reset standard container cursor */
+img-comparison-slider {
+  cursor: default !important;
+}
+
+img-comparison-slider::part(handle),
+img-comparison-slider [slot="handle"],
+img-comparison-slider [slot="handle"] * {
+  cursor: ew-resize !important;
+  pointer-events: auto !important;
+}
+
+img-comparison-slider::part(divider) {
+  cursor: ew-resize !important;
+}
