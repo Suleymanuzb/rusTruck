@@ -753,6 +753,7 @@ const ru = {
                     type: "text",
                     placeholder: "Иван",
                     focus: crypto.randomUUID(),
+                    must: "Поле обязательно для заполнения",
                 },
                 {
                     label: "Телефон <0>*</0>",
@@ -760,6 +761,7 @@ const ru = {
                     type: "tel",
                     placeholder: "+7 (_ _ _) _ _ _ - _ _ - _ _",
                     focus: crypto.randomUUID(),
+                    must: "Поле обязательно для заполнения",
                 },
             ],
         },
