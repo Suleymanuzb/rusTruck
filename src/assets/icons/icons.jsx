@@ -1670,4 +1670,19 @@ export const icons = {
             />
         </svg>
     ),
+    IconDiamond: (props) => (
+        <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='1em'
+            height='1em'
+            viewBox='0 0 64 64'
+            {...props}
+        >
+            <path fill='none' d='M0 0h64v64H0z' />
+            <path
+                fill='#f6921e'
+                d='M32.725 56.013 8.407 32.077l24.32-23.941 24.315 23.941z'
+            />
+        </svg>
+    ),
 };
