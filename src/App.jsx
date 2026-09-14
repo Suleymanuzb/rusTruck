@@ -21,6 +21,7 @@ import Loader from "./components/Loader/Loader";
 import NotFound from "./pages/NotFound";
 import Breadcrumbs from "./components/Breadcrumbs/Breadcrumbs";
 import OurPartners from "./pages/ourPartners/OurPartners";
+import Production from "./pages/production/Production";
 
 const App = () => {
     useEffect(() => {
@@ -90,6 +91,8 @@ const App = () => {
 
                     <Route path='news/:slug/' element={<NewsDetails />} />
                     <Route path='partners' element={<OurPartners />} />
+
+                    <Route path='production' element={<Production />} />
 
                     <Route path='*' element={<NotFound />} />
                 </Route>
