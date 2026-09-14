@@ -20,6 +20,7 @@ import ScrollToTop from "./ScrollTop";
 import Loader from "./components/Loader/Loader";
 import NotFound from "./pages/NotFound";
 import Breadcrumbs from "./components/Breadcrumbs/Breadcrumbs";
+import OurPartners from "./pages/ourPartners/OurPartners";
 
 const App = () => {
     useEffect(() => {
@@ -88,6 +89,8 @@ const App = () => {
                     />
 
                     <Route path='news/:slug/' element={<NewsDetails />} />
+                    <Route path='partners' element={<OurPartners />} />
+
                     <Route path='*' element={<NotFound />} />
                 </Route>
             </Routes>

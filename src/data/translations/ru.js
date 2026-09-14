@@ -866,6 +866,10 @@ const ru = {
         },
     },
 
+    partnersPage: {
+        title: "",
+    },
+
     breadcrumbs: {
         home: "Главная",
         catalog: "Каталог",
@@ -875,6 +879,7 @@ const ru = {
         service: "Сервис",
         remont: "Ремонт",
         success: "Успешно",
+        partners: "Партнёры",
     },
 };
 
