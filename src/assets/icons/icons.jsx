@@ -1685,4 +1685,37 @@ export const icons = {
             />
         </svg>
     ),
+    IconAbout: (props) => (
+        <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width={127}
+            height={151}
+            fill='none'
+            {...props}
+        >
+            <path
+                fill='#FEC80B'
+                d='M0 41.842V151h127V41.842L64 .654V0l-.5.327L63 0v.654L0 41.842Z'
+            />
+        </svg>
+    ),
+    IconTick: (props) => (
+        <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='1em'
+            height='1em'
+            viewBox='0 0 24 24'
+            {...props}
+        >
+            <path fill='none' d='M0 0h24v24H0z' />
+            <path
+                fill='none'
+                stroke='currentColor'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth={1.5}
+                d='m5 14 3.5 3.5L19 6.5'
+            />
+        </svg>
+    ),
 };

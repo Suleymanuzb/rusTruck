@@ -4,7 +4,7 @@ import Service from "./pages/Service";
 import Remont from "./pages/Remont/Remont";
 import News from "./pages/News";
 import Contacts from "./pages/Contact/Contacts";
-import About from "./pages/About";
+import About from "./pages/About/About";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { Layout } from "./layout";
 import Home from "./pages/Home";
