@@ -435,6 +435,9 @@ const ru = {
         intro: {
             title: "Новости РусТрак",
         },
+
+        back: "Назад",
+        button: "Покозать ещё",
     },
 
     footer: {

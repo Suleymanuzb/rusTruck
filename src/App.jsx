@@ -2,7 +2,7 @@ import Header from "./components/Header/Header";
 import Success from "./pages/Success";
 import Service from "./pages/Service";
 import Remont from "./pages/Remont/Remont";
-import News from "./pages/News";
+import News from "./pages/News/News";
 import Contacts from "./pages/Contact/Contacts";
 import About from "./pages/About/About";
 import { Route, Routes, useLocation } from "react-router-dom";

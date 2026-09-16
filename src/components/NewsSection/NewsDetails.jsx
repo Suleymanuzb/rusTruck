@@ -3,8 +3,9 @@ import Container from "../Container/Container";
 import { useTranslation } from "react-i18next";
 import { TruckNews } from "../../data/TruckNews";
 import { Fragment } from "react";
+import { icons } from "../../assets/icons/icons";
+const { IconArrowLeft } = icons;
 
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -16,9 +17,9 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
-import { span } from "motion/react-client";
 
 const NewsDetails = () => {
+    const { t } = useTranslation();
     const { i18n } = useTranslation();
     const { slug } = useParams();
 
@@ -30,7 +31,12 @@ const NewsDetails = () => {
 
     return (
         <Container className='pb-39'>
-            <Breadcrumbs />
+            <Link to={"/news"} className='flex items-center gap-2 opacity-40'>
+                <span className='text-2xl'>
+                    <IconArrowLeft />
+                </span>
+                {t("newsPage.back")}
+            </Link>
             <h1 className='text-xl max-[400px]:leading-[110%] leading-[135%] font-bold sm:font-normal sm:text-2xl lg:text-3xl mb-3 mt-5'>
                 {truckWithLanguage.mainTitle}
             </h1>
@@ -109,16 +115,16 @@ const NewsDetails = () => {
                         </div>
                     ))}
                 </div>
-                <div className=' lg:w-[60%] cursor-pointer'>
+                <div className=' lg:w-[50%] cursor-pointer rounded'>
                     <Swiper
-                        spaceBetween={30}
+                        spaceBetween={0}
                         centeredSlides={true}
                         autoplay={{
                             delay: 2500,
                             disableOnInteraction: false,
                         }}
                         modules={[Autoplay, Pagination, Navigation]}
-                        className='mySwiper'
+                        className='mySwiper rounded-xl'
                     >
                         {currentTruck?.gallerImages?.map((each, i) => {
                             return (
@@ -127,7 +133,7 @@ const NewsDetails = () => {
                                         key={i}
                                         src={each?.image}
                                         alt={truckWithLanguage?.mainTitle}
-                                        className='w-full lg:w-[90%] rounded-2xl! aspect-30/22 object-cover'
+                                        className='w-full rounded-2xl! aspect-30/22 object-cover'
                                     />
                                 </SwiperSlide>
                             );
