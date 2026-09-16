@@ -9,21 +9,31 @@ import Slider from "./Slider";
 import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";
 import { useState } from "react";
+import React from "react";
+import { Pagination, ConfigProvider } from "antd";
 
 const News = () => {
     const { t } = useTranslation();
 
-    const [visibleCount, setVisibleCount] = useState(9);
     const [isLoading, setIsLoading] = useState(false);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [pageSize, setPageSize] = useState(8);
 
     const handleMore = () => {
         setIsLoading(true);
 
         setTimeout(() => {
-            setVisibleCount((prev) => prev + 8);
+            setCurrentPage((prevPage) => prevPage + 1);
+
             setIsLoading(false);
         }, 1000);
     };
+
+    const totalPages = Math.ceil(TruckNews.length / pageSize);
+
+    const startIndex = (currentPage - 1) * pageSize;
+    const endIndex = startIndex + pageSize;
+    const paginatedNews = TruckNews.slice(startIndex, endIndex);
 
     return (
         <Container>
@@ -31,49 +41,53 @@ const News = () => {
             <h1 className='mb-8 text-3xl font-medium'>
                 {t("newsPage.intro.title")}
             </h1>
+
+            {/* 0 */}
+            {currentPage === 1 && TruckNews.length > 0 && (
+                <div className='flex flex-col md:flex-row gap-4 mb-14 col-span-full'>
+                    <Link to={TruckNews[0].slug} className='md:w-[40%]'>
+                        <Slider item={TruckNews[0]} />
+                    </Link>
+
+                    <div className='max-[768px]:w-full w-1/2'>
+                        <p className='mb-2.75'>{TruckNews[0].date}</p>
+
+                        <h1 className='text-2xl font-medium line-clamp-2'>
+                            {TruckNews[0]?.[i18next.language]?.mainTitle}
+                        </h1>
+
+                        {TruckNews[0]?.[i18next.language]?.description && (
+                            <p className='my-8'>
+                                {TruckNews[0]?.[i18next.language]?.description}
+                            </p>
+                        )}
+
+                        <Link
+                            to={TruckNews[0].slug}
+                            className='cursor-pointer opacity-50 flex items-center gap-4 transform duration-300 hover:text-[#fec400]'
+                        >
+                            {TruckNews[0]?.[i18next.language]?.moreButton}
+                            <span>
+                                <IconArrowRight />
+                            </span>
+                        </Link>
+                    </div>
+                </div>
+            )}
+            {/* 0 */}
+
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-5'>
-                {TruckNews.slice(0, visibleCount).map((item, index) => {
+                {paginatedNews.map((item, index) => {
                     const truckNewsLanguage = item?.[i18next.language];
+
+                    if (currentPage === 1 && index === 0) return null;
+
                     {
-                        if (index === 0) {
-                            return (
-                                <div
-                                    key={index}
-                                    className='flex flex-col md:flex-row gap-4 mb-14 col-span-full'
-                                >
-                                    <Link to={item.slug} className='md:w-[40%]'>
-                                        <Slider item={item} />
-                                    </Link>
-
-                                    <div className='max-[768px]:w-full w-1/2'>
-                                        <p className='mb-2.75'>{item.date}</p>
-
-                                        <h1 className='text-2xl font-medium line-clamp-2'>
-                                            {truckNewsLanguage.mainTitle}
-                                        </h1>
-
-                                        {truckNewsLanguage.description && (
-                                            <p className='my-8l'>
-                                                {truckNewsLanguage.description}
-                                            </p>
-                                        )}
-
-                                        <Link
-                                            to={item.slug}
-                                            className='cursor-pointer opacity-50 flex items-center gap-4 transform duration-300 hover:text-[#fec400]'
-                                        >
-                                            {truckNewsLanguage.moreButton}
-                                            <span>
-                                                <IconArrowRight />
-                                            </span>
-                                        </Link>
-                                    </div>
-                                </div>
-                            );
-                        }
-
                         return (
-                            <div className='col-span-1 mb-10 flex flex-col gap-3'>
+                            <div
+                                key={index}
+                                className='col-span-1 mb-10 flex flex-col gap-3'
+                            >
                                 <Link to={item.slug}>
                                     <img
                                         src={item.gallerImages[0].image}
@@ -108,8 +122,9 @@ const News = () => {
                     }
                 })}
             </div>
+
             <div className='flex items-center justify-center'>
-                {visibleCount < TruckNews.length && (
+                {currentPage < totalPages && (
                     <Button
                         onClick={handleMore}
                         variant='btn_big_more'
@@ -126,6 +141,31 @@ const News = () => {
                         )}
                     </Button>
                 )}
+            </div>
+
+            <div className='flex justify-center mb-10'>
+                <ConfigProvider
+                    theme={{
+                        token: {
+                            colorPrimary: "#000", // Changes all active highlights and borders globally
+                            colorTextActive: "#000000",
+                        },
+                        components: {
+                            Pagination: {
+                                itemActiveBg: "#fec400",
+                                activeBorderColor: "yellow",
+                            },
+                        },
+                    }}
+                >
+                    <Pagination
+                        showSizeChanger={false}
+                        total={TruckNews.length}
+                        current={currentPage}
+                        pageSize={pageSize}
+                        onChange={(page) => setCurrentPage(page)}
+                    />
+                </ConfigProvider>
             </div>
         </Container>
     );
