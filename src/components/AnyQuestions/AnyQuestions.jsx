@@ -5,7 +5,7 @@ import feedbackImage from "../../assets/images/anyQuestions/anyQuestions-backgro
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const AnyQuestions = () => {
+const AnyQuestions = ({ disableAnimation }) => {
     const { t } = useTranslation();
     const inputs = t("anyQuestions.inputs", {
         returnObjects: true,
@@ -47,8 +47,8 @@ const AnyQuestions = () => {
 
     return (
         <div
-            data-aos='fade-up'
-            className='bg-[rgb(242,242,242)] pb-13 overflow-hidden mt-30'
+            data-aos={disableAnimation ? "none" : "fade-up"}
+            className='bg-[rgb(242,242,242)] pb-13 overflow-hidden mt-20'
         >
             <Container className='flex flex-col min-[1190px]:flex-row justify-between'>
                 <div className='w-full md:w-[65%]'>
