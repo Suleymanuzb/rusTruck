@@ -23,6 +23,7 @@ import Breadcrumbs from "./components/Breadcrumbs/Breadcrumbs";
 import OurPartners from "./pages/ourPartners/OurPartners";
 import Production from "./pages/production/Production";
 import Suppliers from "./pages/suppliers/Suppliers";
+import Reviews from "./pages/Reviews/Reviews";
 
 const App = () => {
     useEffect(() => {
@@ -96,6 +97,7 @@ const App = () => {
                     <Route path='production' element={<Production />} />
 
                     <Route path='suppliers' element={<Suppliers />} />
+                    <Route path='reviews' element={<Reviews />} />
 
                     <Route path='*' element={<NotFound />} />
                 </Route>

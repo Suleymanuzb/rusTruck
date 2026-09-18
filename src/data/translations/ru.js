@@ -1029,6 +1029,10 @@ const ru = {
         },
     },
 
+    reviewsPage: {
+        title: "Отзывы",
+    },
+
     breadcrumbs: {
         home: "Главная",
         catalog: "Каталог",
@@ -1041,6 +1045,7 @@ const ru = {
         partners: "Партнёры",
         production: "Производство",
         suppliers: "Поставщикам и партнёрам",
+        reviews: "Отзывы и рекомендательные письма партнёров ООО «Рустрак»",
     },
 };
 
