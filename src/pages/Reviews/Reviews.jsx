@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import Container from "../../components/Container/Container";
+import { LightGalleryComp } from "./LightGalleryComp";
+import AnyQuestions from "../../components/AnyQuestions/AnyQuestions";
 
 const Reviews = () => {
     const { t } = useTranslation();
@@ -15,9 +17,12 @@ const Reviews = () => {
                         {t("reviewsPage.title")}
                     </h1>
 
-                    <div></div>
+                    {/* light Gallery  */}
+                    <LightGalleryComp />
+                    {/* light Gallery  */}
                 </div>
             </Container>
+            <AnyQuestions />
         </section>
     );
 };
