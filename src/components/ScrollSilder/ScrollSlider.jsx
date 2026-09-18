@@ -74,7 +74,11 @@ const ScrollSlider = () => {
 
     return (
         <Container>
-            <section ref={sectionRef} className='h-[250vh] mt-10 md:my-20'>
+            <section
+                data-aos='flip-down'
+                ref={sectionRef}
+                className='h-[250vh] mt-10 md:my-20'
+            >
                 <div className='sticky top-25 h-[calc(100vh-5rem)] gap-10 sm:gap-15 w-full flex flex-col max-[890px]:mt-0 min-[890px]:flex-row min-[890px]:items-start overflow-hidden'>
                     {/* image and circular dots part */}
 

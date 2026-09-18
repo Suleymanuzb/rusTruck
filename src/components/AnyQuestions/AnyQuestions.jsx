@@ -46,7 +46,10 @@ const AnyQuestions = () => {
     };
 
     return (
-        <div className='bg-[rgb(242,242,242)] pb-13 overflow-hidden mt-30'>
+        <div
+            data-aos='fade-right'
+            className='bg-[rgb(242,242,242)] pb-13 overflow-hidden mt-30'
+        >
             <Container className='flex flex-col min-[1190px]:flex-row justify-between'>
                 <div className='w-full md:w-[65%]'>
                     <div className='pt-7.75 min-[1200px]:pt-30'>

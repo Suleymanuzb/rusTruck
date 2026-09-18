@@ -41,7 +41,7 @@ const CompanyStatistics = () => {
                 {threeStats.map((statistic, index) => {
                     return (
                         <div
-                            data-aos='fade-right'
+                            data-aos='fade-up-right'
                             key={index}
                             className='col-span-2'
                         >

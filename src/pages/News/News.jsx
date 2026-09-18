@@ -8,16 +8,21 @@ const { IconArrowRight } = icons;
 import Slider from "./Slider";
 import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import React from "react";
 import { Pagination, ConfigProvider } from "antd";
+import Loader from "../../components/Loader/Loader";
 
 const News = () => {
     const { t } = useTranslation();
 
+    const newsGridRef = useRef(null);
+
     const [isLoading, setIsLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
     const [pageSize, setPageSize] = useState(8);
+
+    const [isPaginationLoading, setIsPaginationLoading] = useState(false);
 
     const handleMore = () => {
         setIsLoading(true);
@@ -35,8 +40,14 @@ const News = () => {
     const endIndex = startIndex + pageSize;
     const paginatedNews = TruckNews.slice(startIndex, endIndex);
 
+    const onShowSizeChange = (current, pageSize) => {
+        console.log(current, pageSize);
+    };
+
     return (
         <Container>
+            {isPaginationLoading && <Loader />}
+
             <Breadcrumbs />
             <h1 className='mb-8 text-3xl font-medium'>
                 {t("newsPage.intro.title")}
@@ -76,7 +87,11 @@ const News = () => {
             )}
             {/* 0 */}
 
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-5'>
+            <div
+                ref={newsGridRef}
+                data-aos='fade-up'
+                className={`scroll-mt-40 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-5 transition-opacity duration-300`}
+            >
                 {paginatedNews.map((item, index) => {
                     const truckNewsLanguage = item?.[i18next.language];
 
@@ -147,7 +162,7 @@ const News = () => {
                 <ConfigProvider
                     theme={{
                         token: {
-                            colorPrimary: "#000", // Changes all active highlights and borders globally
+                            colorPrimary: "#000",
                             colorTextActive: "#000000",
                         },
                         components: {
@@ -159,11 +174,50 @@ const News = () => {
                     }}
                 >
                     <Pagination
+                        onShowSizeChange={onShowSizeChange}
                         showSizeChanger={false}
                         total={TruckNews.length}
                         current={currentPage}
                         pageSize={pageSize}
-                        onChange={(page) => setCurrentPage(page)}
+                        onChange={(page) => {
+                            setIsLoading(true);
+                            setIsPaginationLoading(true);
+                            setCurrentPage(page);
+
+                            // const gridPosition = newsGridRef.current.getBoundingClient().top;
+                            // console.log(gridPosition);
+
+                            setTimeout(() => {
+                                newsGridRef.current?.scrollIntoView({
+                                    behavior: "smooth",
+                                    block: "start",
+                                });
+
+                                setIsLoading(false);
+                                setIsPaginationLoading(false);
+                            }, 400);
+                        }}
+                        itemRender={(page, type, originalElement) => {
+                            if (type === "prev") {
+                                return (
+                                    <span className='flex  gap-1'>
+                                        <span className='text-xl'>‹</span>
+                                        <span>{t("newsPage.back")}</span>
+                                    </span>
+                                );
+                            }
+                            if (type === "next") {
+                                return (
+                                    <span className='flex  gap-1'>
+                                        <span className=''>
+                                            {t("newsPage.next")}
+                                        </span>
+                                        <span className='text-xl'>›</span>
+                                    </span>
+                                );
+                            }
+                            return originalElement;
+                        }}
                     />
                 </ConfigProvider>
             </div>

@@ -105,7 +105,10 @@ const Footer = () => {
     };
 
     return (
-        <div className='bg-black pt-8 md:pt-15.5 pb-14 md:pb-10'>
+        <div
+            data-aos='fade-up'
+            className='bg-black pt-8 md:pt-15.5 pb-14 md:pb-10'
+        >
             <Container className='relative'>
                 <div className='grid  md:grid-cols-14 gap-x-10 text-white'>
                     <div className='col-span-5'>
