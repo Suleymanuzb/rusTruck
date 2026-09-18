@@ -24,6 +24,7 @@ const NewsDetails = () => {
     const { slug } = useParams();
 
     const currentTruck = TruckNews.find((item) => item.slug === slug);
+    console.log(slug);
     // console.log(currentTruck);
 
     const truckWithLanguage = currentTruck?.[i18n.language];
@@ -38,10 +39,10 @@ const NewsDetails = () => {
                 {t("newsPage.back")}
             </Link>
             <h1 className='text-xl max-[400px]:leading-[110%] leading-[135%] font-bold sm:font-normal sm:text-2xl lg:text-3xl mb-3 mt-5'>
-                {truckWithLanguage.mainTitle}
+                {truckWithLanguage?.mainTitle}
             </h1>
             <p className='leading-normal text-lg sm:mb-5 md:mb-7 lg:mb-10'>
-                {currentTruck.date}
+                {currentTruck?.date}
             </p>
 
             <div className='flex flex-col lg:flex-row lg:justify-between gap-6'>
@@ -108,7 +109,12 @@ const NewsDetails = () => {
 
                                 return (
                                     <div key={j}>
-                                        <p className='my-3'>{item.text}</p>
+                                        <p
+                                            dangerouslySetInnerHTML={{
+                                                __html: item.text,
+                                            }}
+                                            className='my-3'
+                                        ></p>
                                     </div>
                                 );
                             })}
@@ -127,6 +133,18 @@ const NewsDetails = () => {
                         className='mySwiper rounded-xl'
                     >
                         {currentTruck?.gallerImages?.map((each, i) => {
+                            if (currentTruck.id === 6) {
+                                return (
+                                    <SwiperSlide key={i}>
+                                        <img
+                                            src={each?.image}
+                                            alt={truckWithLanguage?.mainTitle}
+                                            className='w-full aspect-square object-cover'
+                                        />
+                                    </SwiperSlide>
+                                );
+                            }
+
                             return (
                                 <SwiperSlide>
                                     <img
