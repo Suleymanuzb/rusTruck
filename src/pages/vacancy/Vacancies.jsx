@@ -29,7 +29,7 @@ const Vacancies = () => {
                 <div>
                     <div
                         onClick={() => setIsOpen((prev) => !prev)}
-                        className={`flex items-center justify-between p-4 transform duration-500 ${isOpen ? "bg-[#fec400] rounded-tl-lg rounded-tr-lg" : "bg-white border border-[#fec400] rounded-lg"} cursor-pointer`}
+                        className={`flex items-center justify-between p-4 transform duration-500 border border-[#fec400] ${isOpen ? "bg-[#fec400] rounded-tl-lg rounded-tr-lg" : "bg-white border border-[#fec400] rounded-lg"} cursor-pointer`}
                     >
                         <div>
                             <h1 className='text-2xl font-medium select-none'>
@@ -38,7 +38,6 @@ const Vacancies = () => {
                         </div>
 
                         <div
-                            onClick={() => setIsOpen((prev) => !prev)}
                             className={`text-xl cursor-pointer active:scale-85 transform duration-305 ${isOpen ? "rotate-180" : "rotate-0"}`}
                         >
                             <ChevronUp />

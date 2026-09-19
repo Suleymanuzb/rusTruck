@@ -25,6 +25,7 @@ import Production from "./pages/production/Production";
 import Suppliers from "./pages/suppliers/Suppliers";
 import Reviews from "./pages/Reviews/Reviews";
 import Vacancies from "./pages/vacancy/Vacancies";
+import Certificate from "./pages/Certificate/Certificate";
 
 const App = () => {
     useEffect(() => {
@@ -100,6 +101,7 @@ const App = () => {
                     <Route path='suppliers' element={<Suppliers />} />
                     <Route path='reviews' element={<Reviews />} />
                     <Route path='vacancies' element={<Vacancies />} />
+                    <Route path='cert' element={<Certificate />} />
 
                     <Route path='*' element={<NotFound />} />
                 </Route>
