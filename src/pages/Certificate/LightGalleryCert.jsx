@@ -54,9 +54,10 @@ export const LightGalleryCert = () => {
                     </span>
                     <img
                         className='img-fluid w-full h-full shadow border border-gray-200 rounded-lg cursor-pointer'
-                        src={certificate2}
+                        src={certificate1}
                     />
                 </a>
+
                 <a
                     className={
                         "gallery__item aspect-4/5 cursor-pointer group relative overflow-hidden"
@@ -72,10 +73,11 @@ export const LightGalleryCert = () => {
                         </span>
                     </span>
                     <img
-                        className='img-fluid w-full h-full shadow-2xl border border-gray-200 rounded-lg cursor-pointer'
-                        src={certificate3}
+                        className='img-fluid w-full h-full shadow border border-gray-200 rounded-lg cursor-pointer'
+                        src={certificate2}
                     />
                 </a>
+
                 <a
                     className={
                         "gallery__item aspect-4/5 cursor-pointer group relative overflow-hidden"
@@ -91,10 +93,11 @@ export const LightGalleryCert = () => {
                         </span>
                     </span>
                     <img
-                        className='img-fluid w-full h-full shadow-2xl border border-gray-200 rounded-lg cursor-pointer'
+                        className='img-fluid w-full h-full shadow border border-gray-200 rounded-lg cursor-pointer'
                         src={certificate3}
                     />
                 </a>
+
                 <a
                     className={
                         "gallery__item aspect-4/5 cursor-pointer group relative overflow-hidden"
@@ -110,10 +113,11 @@ export const LightGalleryCert = () => {
                         </span>
                     </span>
                     <img
-                        className='img-fluid w-full h-full shadow-2xl border border-gray-200 rounded-lg cursor-pointer'
+                        className='img-fluid w-full h-full shadow border border-gray-200 rounded-lg cursor-pointer'
                         src={certificate4}
                     />
                 </a>
+
                 <a
                     className={
                         "gallery__item aspect-4/5 cursor-pointer group relative overflow-hidden"
@@ -129,12 +133,11 @@ export const LightGalleryCert = () => {
                         </span>
                     </span>
                     <img
-                        className='img-fluid w-full h-full shadow-2xl border border-gray-200 rounded-lg cursor-pointer'
-                        src={certificate6}
+                        className='img-fluid w-full h-full shadow border border-gray-200 rounded-lg cursor-pointer'
+                        src={certificate5}
                     />
                 </a>
-            
-            
+
                 <a
                     className={
                         "gallery__item aspect-4/5 cursor-pointer group relative overflow-hidden"
@@ -150,18 +153,17 @@ export const LightGalleryCert = () => {
                         </span>
                     </span>
                     <img
-                        className='img-fluid w-full h-full shadow-2xl border border-gray-200 rounded-lg cursor-pointer'
-                        src={certificate7}
+                        className='img-fluid w-full h-full shadow border border-gray-200 rounded-lg cursor-pointer'
+                        src={certificate6}
                     />
                 </a>
 
-                
                 <a
                     className={
                         "gallery__item aspect-4/5 cursor-pointer group relative overflow-hidden"
                     }
                     data-lg-size='800-1200'
-                    data-src={certificate6}
+                    data-src={certificate7}
                     data-responsive={certificate7}
                     data-sub-html=''
                 >
@@ -171,8 +173,88 @@ export const LightGalleryCert = () => {
                         </span>
                     </span>
                     <img
-                        className='img-fluid w-full h-full shadow-2xl border border-gray-200 rounded-lg cursor-pointer'
+                        className='img-fluid w-full h-full shadow border border-gray-200 rounded-lg cursor-pointer'
                         src={certificate7}
+                    />
+                </a>
+
+                <a
+                    className={
+                        "gallery__item aspect-4/5 cursor-pointer group relative overflow-hidden"
+                    }
+                    data-lg-size='800-1200'
+                    data-src={certificate8}
+                    data-responsive={certificate8}
+                    data-sub-html=''
+                >
+                    <span className='rounded-lg absolute inset-0 flex items-center justify-center group-hover:bg-black/50 transition-all duration-200'>
+                        <span className='text-4xl text-white opacity-0 group-hover:opacity-100'>
+                            <IconZoom />
+                        </span>
+                    </span>
+                    <img
+                        className='img-fluid w-full h-full shadow border border-gray-200 rounded-lg cursor-pointer'
+                        src={certificate8}
+                    />
+                </a>
+
+                <a
+                    className={
+                        "gallery__item aspect-4/5 cursor-pointer group relative overflow-hidden"
+                    }
+                    data-lg-size='800-1200'
+                    data-src={certificate9}
+                    data-responsive={certificate9}
+                    data-sub-html=''
+                >
+                    <span className='rounded-lg absolute inset-0 flex items-center justify-center group-hover:bg-black/50 transition-all duration-200'>
+                        <span className='text-4xl text-white opacity-0 group-hover:opacity-100'>
+                            <IconZoom />
+                        </span>
+                    </span>
+                    <img
+                        className='img-fluid w-full h-full shadow border border-gray-200 rounded-lg cursor-pointer'
+                        src={certificate9}
+                    />
+                </a>
+
+                <a
+                    className={
+                        "gallery__item aspect-4/5 cursor-pointer group relative overflow-hidden"
+                    }
+                    data-lg-size='800-1200'
+                    data-src={certificate10}
+                    data-responsive={certificate10}
+                    data-sub-html=''
+                >
+                    <span className='rounded-lg absolute inset-0 flex items-center justify-center group-hover:bg-black/50 transition-all duration-200'>
+                        <span className='text-4xl text-white opacity-0 group-hover:opacity-100'>
+                            <IconZoom />
+                        </span>
+                    </span>
+                    <img
+                        className='img-fluid w-full h-full shadow border border-gray-200 rounded-lg cursor-pointer'
+                        src={certificate10}
+                    />
+                </a>
+
+                <a
+                    className={
+                        "gallery__item aspect-4/5 cursor-pointer group relative overflow-hidden"
+                    }
+                    data-lg-size='800-1200'
+                    data-src={certificate10}
+                    data-responsive={certificate11}
+                    data-sub-html=''
+                >
+                    <span className='rounded-lg absolute inset-0 flex items-center justify-center group-hover:bg-black/50 transition-all duration-200'>
+                        <span className='text-4xl text-white opacity-0 group-hover:opacity-100'>
+                            <IconZoom />
+                        </span>
+                    </span>
+                    <img
+                        className='img-fluid w-full h-full shadow border border-gray-200 rounded-lg cursor-pointer'
+                        src={certificate11}
                     />
                 </a>
             </LightGallery>
