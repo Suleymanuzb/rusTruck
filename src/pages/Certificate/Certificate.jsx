@@ -3,9 +3,14 @@ import Container from "../../components/Container/Container";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import { LightGalleryCert } from "./LightGalleryCert";
 import AnyQuestions from "../../components/AnyQuestions/AnyQuestions";
+import { useEffect } from "react";
 
 const Certificate = () => {
     const { t } = useTranslation();
+
+    useEffect(() => {
+        document.title = "Сертификаты  | Производитель автоспецтехники РусТрак";
+    }, []);
 
     return (
         <div>

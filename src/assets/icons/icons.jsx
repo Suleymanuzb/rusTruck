@@ -883,6 +883,22 @@ export const icons = {
             </g>
         </svg>
     ),
+    LogoIcon: (props) => (
+        <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width={44}
+            height={44}
+            fill='none'
+            {...props}
+        >
+            <path
+                fill='#FEC80B'
+                fillRule='evenodd'
+                d='M43.264 23.776a2.512 2.512 0 0 0 0-3.552L23.776.736a2.512 2.512 0 0 0-3.552 0L.736 20.224a2.512 2.512 0 0 0 0 3.552l19.488 19.488a2.512 2.512 0 0 0 3.552 0l19.488-19.488Zm-8.373 0a2.512 2.512 0 0 0 0-3.552L23.776 9.109a2.512 2.512 0 0 0-3.552 0L9.109 20.224a2.512 2.512 0 0 0 0 3.552l11.115 11.115a2.512 2.512 0 0 0 3.552 0l11.115-11.115Z'
+                clipRule='evenodd'
+            />
+        </svg>
+    ),
     BurgerIcon: (props) => (
         <svg
             xmlns='http://www.w3.org/2000/svg'

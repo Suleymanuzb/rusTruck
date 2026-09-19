@@ -2,9 +2,14 @@ import { useTranslation } from "react-i18next";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import Container from "../../components/Container/Container";
 import AnyQuestions from "../../components/AnyQuestions/AnyQuestions";
+import { useEffect } from "react";
 
 const Loan = () => {
     const { t } = useTranslation();
+
+    useEffect(() => {
+        document.title = "Кредит и лизинг на автоспецтехнику компании РусТрак";
+    }, []);
 
     return (
         <div>

@@ -3,9 +3,14 @@ import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import Container from "../../components/Container/Container";
 import { LightGalleryComp } from "./LightGalleryComp";
 import AnyQuestions from "../../components/AnyQuestions/AnyQuestions";
+import { useEffect } from "react";
 
 const Reviews = () => {
     const { t } = useTranslation();
+
+    useEffect(() => {
+        document.title = "Отзывы | Производитель автоспецтехники РусТрак";
+    }, []);
 
     return (
         <section>

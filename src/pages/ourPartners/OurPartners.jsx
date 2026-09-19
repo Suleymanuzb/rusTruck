@@ -1,20 +1,19 @@
 import { useTranslation } from "react-i18next";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import Container from "../../components/Container/Container";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import AnyQuestions from "../../components/AnyQuestions/AnyQuestions";
 
 const OurPartners = () => {
     const { t } = useTranslation();
 
-    const [expanded, setExpanded] = useState(false);
+    useEffect(() => {
+        document.title =
+            "Партнёры завода-производителя автоспецтехники «РусТрак»";
+    }, []);
 
-    const handleMore = (item, element) => {
-        if (item.text.includes("компаний «КАМАЗ»")) {
-            element.classList.add("line-clamp-none");
-        }
-    };
+    const [expanded, setExpanded] = useState(false);
 
     return (
         <div>

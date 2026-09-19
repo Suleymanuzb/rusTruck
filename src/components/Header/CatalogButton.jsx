@@ -43,6 +43,7 @@ const CatalogButton = ({ openMenu, setOpenMenu, isSticky }) => {
                     active:bg-[#E9C135]
                     overflow-hidden
                     whitespace-nowrap
+                    cursor-pointer
                 '
                 onClick={() => {
                     setOpenMenu(isOpen ? null : "catalog");

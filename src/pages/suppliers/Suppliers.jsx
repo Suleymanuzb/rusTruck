@@ -2,9 +2,15 @@ import { useTranslation } from "react-i18next";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import Container from "../../components/Container/Container";
 import AnyQuestions from "../../components/AnyQuestions/AnyQuestions";
+import { useEffect } from "react";
 
 const Suppliers = () => {
     const { t } = useTranslation();
+
+    useEffect(() => {
+        document.title =
+            "Поставщикам и партнёрам  | Производитель автоспецтехники РусТрак";
+    }, []);
 
     return (
         <div>
@@ -19,7 +25,11 @@ const Suppliers = () => {
                         {t("suppliersPage.invite", { returnObjects: true }).map(
                             (item, i, arr) => {
                                 return (
-                                    <div key={i} children className='text-lg max-w-207'>
+                                    <div
+                                        key={i}
+                                        children
+                                        className='text-lg max-w-207'
+                                    >
                                         {item.title && (
                                             <h1 className='pb-8 w-full text-2xl md:text-3xl font-medium'>
                                                 {item.title}

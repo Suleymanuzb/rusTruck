@@ -11,9 +11,15 @@ import factoryImage4 from "../../assets/images/production/4/photo_production4.jp
 
 import repairShop from "../../assets/images/production/4/production-2.jpg";
 import AnyQuestions from "../../components/AnyQuestions/AnyQuestions";
+import { useEffect } from "react";
 
 const Production = () => {
     const { t } = useTranslation();
+
+    useEffect(() => {
+        document.title =
+            "Производственные мощности компании «РусТрак» — инновационные линии и проверенные процессы создают автоспецтехнику с высокой надежностью и долговечностью.";
+    }, []);
 
     return (
         <div>

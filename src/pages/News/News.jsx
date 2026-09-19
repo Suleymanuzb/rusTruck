@@ -8,7 +8,7 @@ const { IconArrowRight } = icons;
 import Slider from "./Slider";
 import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import React from "react";
 import { Pagination, ConfigProvider } from "antd";
 import Loader from "../../components/Loader/Loader";
@@ -17,6 +17,11 @@ import AnyQuestions from "../../components/AnyQuestions/AnyQuestions";
 
 const News = () => {
     const { t } = useTranslation();
+
+    useEffect(() => {
+        document.title =
+            "Актуальные новости производителя автоспецтехники «РусТрак»";
+    }, []);
 
     const newsGridRef = useRef(null);
 

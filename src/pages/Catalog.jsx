@@ -3,9 +3,14 @@ import Container from "../components/Container/Container";
 import TruckCards from "../components/TruckCategories/TruckCards";
 import AnyQuestions from "../components/AnyQuestions/AnyQuestions";
 import Breadcrumb from "../components/Breadcrumbs/Breadcrumbs";
+import { useEffect } from "react";
 
 const Catalog = () => {
     const { t } = useTranslation();
+
+    useEffect(() => {
+        document.title = "Шторный грузовик от компании «РусТрак»";
+    }, []);
 
     const catalogItems = t("header.megaMenu.categories.types", {
         returnObjects: true,

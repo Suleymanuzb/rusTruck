@@ -487,27 +487,47 @@ const ru = {
             },
             {
                 text: "Наши партнёры",
+                to: "/partners",
             },
             {
                 text: "Производство",
+                to: "/production",
             },
             {
                 text: "Поставщикам и партнёрам",
+                to: "/suppliers",
             },
             {
                 text: "Отзывы",
+                to: "/reviews",
             },
             {
                 text: "Сертификаты",
+                to: "/certificate",
             },
         ],
 
         services: [
-            { text: "Вакансии" },
-            { text: "Кредит и лизинг" },
-            { text: "Сервис" },
-            { text: "Ремонт" },
-            { text: "Контакты" },
+            {
+                text: "Вакансии",
+                to: "/vacancies",
+            },
+            {
+                text: "Кредит и лизинг",
+                to: "/leasing",
+            },
+            {
+                text: "Сервис",
+                to: "/service",
+            },
+            {
+                text: "Ремонт",
+                to: "/remont",
+            },
+            {
+                text: "Контакты",
+                to: "/contacts",
+            },
             { text: "Полезные статьи" },
         ],
 
@@ -762,7 +782,7 @@ const ru = {
                     name: "name",
                     type: "text",
                     placeholder: "Иван",
-                    focus: crypto.randomUUID(),
+                    focus: "nameUnique",
                     must: "Поле обязательно для заполнения",
                 },
                 {
@@ -770,7 +790,7 @@ const ru = {
                     name: "phoneNumber",
                     type: "tel",
                     placeholder: "+7 (_ _ _) _ _ _ - _ _ - _ _",
-                    focus: crypto.randomUUID(),
+                    focus: "nameUnique",
                     must: "Поле обязательно для заполнения",
                 },
             ],

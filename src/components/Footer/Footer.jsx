@@ -129,7 +129,6 @@ const Footer = () => {
                             if (item.type === "disclaimer") {
                                 return (
                                     <Fragment key={i}>
-                                        {/* SVG Divider inserted between button & disclaimer */}
                                         <div className='mb-3'>
                                             <img
                                                 className='w-45 h-36'
@@ -169,7 +168,7 @@ const Footer = () => {
                                 return (
                                     <div
                                         key={i}
-                                        className='flex items-start gap-2 '
+                                        className='flex items-start gap-2'
                                     >
                                         <Link to={item.to} className='mb-3.5'>
                                             {item.text}
@@ -180,12 +179,12 @@ const Footer = () => {
                         </FooterDropDown>
                     </div>
 
-                    <div className='hidden mt-12 md:flex flex-col gap-3  col-span-3'>
+                    <div className='hidden mt-12 md:flex flex-col gap-3 col-span-3'>
                         {services.map((item, i) => {
                             return (
-                                <Link className='block' key={i}>
-                                    {item.text}
-                                </Link>
+                                <div key={i}>
+                                    <Link to={item.to}>{item.text}</Link>
+                                </div>
                             );
                         })}
                     </div>
@@ -214,7 +213,7 @@ const Footer = () => {
                                 }
 
                                 return (
-                                    <Link className='block' key={i}>
+                                    <Link className='my-1.25 block' key={i}>
                                         {item.text}
                                     </Link>
                                 );
@@ -247,53 +246,78 @@ const Footer = () => {
                     </div>
 
                     <div className='text-white col-span-3 flex items-center gap-2'>
-                        <div className='w-7.5 h-7.5'>
+                        <Link
+                            to={"https://max.ru/id5257099304_biz"}
+                            target='_blank'
+                            className='w-7.5 h-7.5'
+                        >
                             <img
                                 className='w-full h-full object-cover'
                                 src={max}
                                 alt='social-media'
                             />
-                        </div>
+                        </Link>
 
-                        <div className='w-7.5 h-7.5'>
+                        <Link
+                            to={"https://t.me/rustruckrussia"}
+                            target='_blank'
+                            className='w-7.5 h-7.5'
+                        >
                             <img
                                 className='w-full h-full object-cover'
                                 src={telegram}
                                 alt='social-media'
                             />
-                        </div>
+                        </Link>
 
-                        <div className='w-7.5 h-7.5'>
+                        <Link
+                            to={"//vk.com/rustruck"}
+                            target='_blank'
+                            className='w-7.5 h-7.5'
+                        >
                             <img
                                 className='w-full h-full object-cover'
                                 src={vk}
                                 alt='social-media'
                             />
-                        </div>
+                        </Link>
 
-                        <div className='w-7.5 h-7.5'>
+                        <Link
+                            to={"//rutube.ru/channel/31838454/"}
+                            target='_blank'
+                            className='w-7.5 h-7.5'
+                        >
                             <img
                                 className='w-full h-full object-cover'
                                 src={rutube}
                                 alt='social-media'
                             />
-                        </div>
+                        </Link>
 
-                        <div className='w-7.5 h-7.5'>
+                        <Link
+                            to={
+                                "//www.youtube.com/channel/UC0dOSenU7s7mdzvnGQMyzkQ"
+                            }
+                            target='_blank'
+                            className='w-7.5 h-7.5'
+                        >
                             <img
                                 className='w-full h-full object-cover'
                                 src={youtube}
                                 alt='social-media'
                             />
-                        </div>
+                        </Link>
 
-                        <div className='w-7.5 h-7.5'>
+                        <Link
+                            to={"https://dzen.ru/rustruck"}
+                            className='w-7.5 h-7.5'
+                        >
                             <img
                                 className='w-full h-full object-cover'
                                 src={yandexZen}
                                 alt='social-media'
                             />
-                        </div>
+                        </Link>
                     </div>
                 </div>
 

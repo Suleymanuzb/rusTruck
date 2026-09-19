@@ -3,12 +3,16 @@ import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import Container from "../../components/Container/Container";
 import DropDown from "./DropDown";
 import { icons } from "../../assets/icons/icons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import AnyQuestions from "../../components/AnyQuestions/AnyQuestions";
 const { ChevronUp } = icons;
 
 const Vacancies = () => {
     const { t } = useTranslation();
+
+    useEffect(() => {
+        document.title = "Вакансии | Производитель автоспецтехники РусТрак";
+    }, []);
 
     const [isOpen, setIsOpen] = useState(false);
     // console.log(isOpen);
