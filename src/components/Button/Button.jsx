@@ -11,7 +11,7 @@ const Button = ({
 }) => {
     const variants = {
         btn_big:
-            "bg-[#FEC80B] hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none md:px-8 md:py-4",
+            "bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none md:px-8 md:py-4",
         btn_big_border:
             "bg-transparent border-2 hover:bg-[#FFD43A] border-[#FEC80B] hover:bg-[#FFD43A] text-black active:bg-[#E9C135] rounded-md leading-none px-10 py-2.5",
         btn_big_more:

@@ -6,10 +6,15 @@ import Button from "../../components/Button/Button";
 import useFancybox from "./FancyHook";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import { icons } from "../../assets/icons/icons";
+import AnyQuestions from "../../components/AnyQuestions/AnyQuestions";
 const { IconService, IconWarranty, IconDelivery } = icons;
+import Modal from "./Modal";
+import { useState } from "react";
 
 const ProductDetails = () => {
     const [fancyboxRef] = useFancybox();
+
+    const [isOpen, setIsOpen] = useState(false);
 
     const { productId } = useParams();
     // console.log(productId);
@@ -26,7 +31,7 @@ const ProductDetails = () => {
                 <Breadcrumbs />
 
                 <h1 className='text-xl md:text-3xl font-medium mb-2 mt-5'>
-                    {product.truckType}
+                    {product?.truckType}
                 </h1>
 
                 <div className='flex flex-col lg:flex-row gap-5 mt-7'>
@@ -58,7 +63,7 @@ const ProductDetails = () => {
                                 ))}
                         </div>
 
-                        {product.discount && (
+                        {product?.discount && (
                             <div className='pt-5 mt-2.5 min-h-10 text-sm'>
                                 <p className='text-red-500 text-center'>
                                     {product.discount}
@@ -69,48 +74,64 @@ const ProductDetails = () => {
                     {/* right side */}
                     <div>
                         <span className='text-3xl font-medium ml-3'>
-                            {product.price}
+                            {product?.price}
                         </span>
 
                         <div className='flex flex-col items-start md:flex-row lg:flex-col min-[1200px]:flex-row! gap-3 mt-4'>
                             <Button
                                 variant='btn_big_more'
-                                className='w-55 px-6 py-2.5 whitespace-nowrap'
+                                className='w-55 px-6 py-2.5 whitespace-nowrap cursor-pointer'
                             >
-                                {product.buttons.addToCart}
+                                {product?.buttons?.addToCart}
                             </Button>
-                            <button className='w-55 bg-transparent border-2 hover:bg-[#FEC80B] border-[#FEC80B] text-black active:bg-[#E9C135] rounded-md leading-none px-7 py-2.5 whitespace-nowrap'>
-                                {product.buttons.getPk}
+                            <button
+                                onClick={() => setIsOpen(true)}
+                                className='w-55 bg-transparent border-2 hover:bg-[#FEC80B] border-[#FEC80B] text-black active:bg-[#E9C135] rounded-md leading-none px-7 py-2.5 whitespace-nowrap cursor-pointer'
+                            >
+                                {product?.buttons?.getPk}
                             </button>
                         </div>
 
+                        {product?.buttons?.download && (
+                            <div className='flex lg:justify-center mt-5'>
+                                <a
+                                    href='/upload/iblock/637/64kgb5la3gy95zvs7kby21rkzd1rz513.pdf'
+                                    className='inline-block lg:block text-center lg:w-full bg-transparent border-2 hover:bg-[#FFD43A] border-[#FEC80B] text-black active:bg-[#E9C135] rounded-md leading-none py-3 cursor-pointer max-[1024px]:w-55 max-[1024px]:whitespace-nowrap max-[1024px]:shrink-0'
+                                >
+                                    {product?.buttons?.download}
+                                </a>
+                            </div>
+                        )}
+
                         <div className='mt-6 hidden lg:block'>
-                            {product.specifications.truckInfo.map((item, i) => {
-                                return (
-                                    <div
-                                        key={i}
-                                        className='flex items-center justify-between mb-2'
-                                    >
-                                        <p
-                                            className={
-                                                item.title.includes(
-                                                    "характеристики",
-                                                )
-                                                    ? "text-[rgb(162,162,162)] underline hover:no-underline cursor-pointer"
-                                                    : "text-black"
-                                            }
+                            {product?.specifications?.truckInfo?.map(
+                                (item, i) => {
+                                    return (
+                                        <div
+                                            key={i}
+                                            className='flex items-center justify-between mb-2'
                                         >
-                                            {item.title}:
-                                        </p>
-                                        <p>{item.value}</p>
-                                    </div>
-                                );
-                            })}
+                                            <p
+                                                className={
+                                                    item.title.includes(
+                                                        "характеристики",
+                                                    )
+                                                        ? "text-[rgb(162,162,162)] underline hover:no-underline cursor-pointer"
+                                                        : "text-black"
+                                                }
+                                            >
+                                                {item.title}:
+                                            </p>
+                                            <p>{item.value}</p>
+                                        </div>
+                                    );
+                                },
+                            )}
                         </div>
                     </div>
                 </div>
 
-                {currentTruck.images.drawing && (
+                {currentTruck?.images?.drawing && (
                     <div
                         key={currentTruck.id}
                         className='border border-gray-100 mt-5'
@@ -124,7 +145,7 @@ const ProductDetails = () => {
             </Container>
 
             {/* no container */}
-            {product.description && (
+            {product?.description && (
                 <div className='flex items-center w-full min-[992px]:p-[3.2rem] bg-[linear-gradient(to_right,#fec80b_61%,black_31%)] mt-12 max-[992px]:bg-none'>
                     <div className='w-[62%] max-[992px]:bg-[#fec400] max-[992px]:p-10 max-[992px]:w-full'>
                         <h1 className='font-medium mb-4 text-3xl'>
@@ -155,7 +176,7 @@ const ProductDetails = () => {
                 </div>
             )}
             {/* no container */}
-            <Container>
+            <Container className='pb-14'>
                 {product?.characteristics && (
                     <div className='mt-14'>
                         <h1 className='mb-7 max-[768px]:text-2xl text-3xl font-medium'>
@@ -200,6 +221,78 @@ const ProductDetails = () => {
                     </div>
                 )}
             </Container>
+
+            {/* extraDesc */}
+            <Container className='mt-10'>
+                {product?.extraDesc && (
+                    <div>
+                        {product?.extraDesc?.map((item, i) => {
+                            return (
+                                <div key={i}>
+                                    <h1 className='text-2xl font-medium'>
+                                        {item.title}
+                                    </h1>
+
+                                    {item.titles && (
+                                        <div className='my-4 ml-6'>
+                                            {item?.titles.map((each, i) => {
+                                                return (
+                                                    <div
+                                                        key={i}
+                                                        className='flex items-start gap-3'
+                                                    >
+                                                        <div>
+                                                            <span className='text-3xl font-extrablack text-[#fec400] mr-2'>
+                                                                ·
+                                                            </span>
+                                                            {each.text}
+                                                        </div>
+                                                    </div>
+                                                );
+                                            })}
+                                        </div>
+                                    )}
+                                    <p className='mb-3.75 text-gray-800 leading-[1.6]'>
+                                        {item.text}
+                                    </p>
+                                </div>
+                            );
+                        })}
+                    </div>
+                )}
+            </Container>
+
+            {/* Video Part */}
+            <Container className='mt-10'>
+                {product?.videoPart && (
+                    <div>
+                        <h1 className='text-3xl font-medium'>
+                            {product?.videoPart.title}
+                        </h1>
+
+                        <div className='relative pb-[56.25%] h-0 overflow-hidden rounded-lg bg-black'>
+                            <iframe
+                                src={product?.videoPart?.src}
+                                className='absolute top-0 left-0 w-full h-full border-0'
+                                frameBorder='0'
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+
+                        <div className='flex justify-center mt-5'>
+                            <button
+                                onClick={() => setIsOpen(true)}
+                                className='w-55 bg-transparent border-2 hover:bg-[#FEC80B] border-[#FEC80B] text-black active:bg-[#E9C135] rounded-md leading-none px-10 py-3 whitespace-nowrap cursor-pointer'
+                            >
+                                {product?.buttons?.getPk}
+                            </button>
+                        </div>
+                    </div>
+                )}
+            </Container>
+            {isOpen && <Modal onClose={() => setIsOpen(false)} />}
+
+            <AnyQuestions />
         </div>
     );
 };

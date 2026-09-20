@@ -1,13 +1,15 @@
 import Container from "../../components/Container/Container";
-import { icons } from "../../assets/icons/icons";
 import trucks from "../../data/truckData";
 import { useTranslation } from "react-i18next";
 import { useParams, Link } from "react-router-dom";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
+import Trucks from "./Trucks";
+import { icons } from "../../assets/icons/icons";
 const { IconLine, IconTable, SearchIcon } = icons;
 
 const FilteredCatalog = () => {
     const { t } = useTranslation();
+    const { i18n } = useTranslation();
 
     const { category } = useParams();
 
@@ -19,6 +21,7 @@ const FilteredCatalog = () => {
     const matchingTrucks = trucks.filter(
         (truck) => truck.categoryId === selectedCategory?.id,
     );
+    console.log("MMMM", matchingTrucks);
 
     return (
         <div className='bg-gray-100'>
@@ -53,7 +56,7 @@ const FilteredCatalog = () => {
                                 className='outline-none border border-[#a2a2a2] rounded focus:border-[#fec80b] focus:shadow-[0_0_4px_#fec80b] transform duration-300 placeholder:text-gray-400 py-2 pl-3 pr-10'
                                 placeholder='Найти'
                             />
-                            <span className='absolute right-[5.5%] top-[15%]'>
+                            <span className='absolute right-[15%] top-[15%]'>
                                 <SearchIcon />
                             </span>
                         </div>
@@ -63,126 +66,16 @@ const FilteredCatalog = () => {
                                 <input type='checkbox' />
                                 <span className='ml-2'>Gaz</span>
                             </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
-                            <label className='relative inline-flex items-center cursor-pointer text-sm'>
-                                <input type='checkbox' />
-                                <span className='ml-2'>Gaz</span>
-                            </label>
                         </div>
                     </form>
 
-                    <div className='grid grid-cols-3 gap-5'>
-                        {matchingTrucks.map((truck) => {
-                            return (
-                                <div key={truck.id} className='bg-white'>
-                                    <Link
-                                        to={`/catalog/${category}/${truck.id}`}
-                                    >
-                                        <img
-                                            src={truck.images.image}
-                                            alt=''
-                                            className='aspect-9/7.5 object-cover'
-                                        />
-                                    </Link>
-                                    <div>
-                                        <p>text</p>
-                                        <p>another Text</p>
-                                    </div>
-                                </div>
-                            );
-                        })}
-                    </div>
+                    {/*Trucks Part  */}
+                    <Trucks
+                        matchingTrucks={matchingTrucks}
+                        i18n={i18n}
+                        category={category}
+                    />
+                    {/*Trucks Part  */}
                 </div>
             </Container>
         </div>
