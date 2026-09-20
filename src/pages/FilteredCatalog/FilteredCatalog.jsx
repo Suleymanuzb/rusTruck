@@ -26,14 +26,11 @@ const FilteredCatalog = () => {
                 <Breadcrumbs />
                 <div className='flex items-center justify-between mb-5'>
                     <div className='flex items-center gap-6 '>
-                        <h1 className='text-3xl font-medium'>
-                            Автомобили ДОПОГ категория EXII
-                        </h1>
-                        <span className='text-gray-400'>4 товара</span>
+                        {/* how many */}
                     </div>
 
                     <div className='flex items-centers gap-40'>
-                        <p>Сортировка: По бренду</p>
+                        {/* <p>Сортировка: По бренду</p> */}
 
                         <div className='flex gap-4 items-center'>
                             <span className='hover:text-black text-[#A2A2A2] transform duration-300'>

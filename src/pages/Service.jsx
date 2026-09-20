@@ -5,9 +5,15 @@ import { Trans } from "react-i18next";
 import { Link } from "react-router-dom";
 import AnyQuestions from "../components/AnyQuestions/AnyQuestions";
 import p from "../assets/images/service/p.png";
+import { useEffect } from "react";
 
 const Service = () => {
     const { t } = useTranslation();
+
+    useEffect(() => {
+        document.title =
+            "Сервис по гарантийному ремонту автоспецтехники РусТрак";
+    }, []);
 
     return (
         <div>
