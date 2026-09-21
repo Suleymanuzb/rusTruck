@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";
 import { icons } from "../../assets/icons/icons";
 import { useState } from "react";
+import ModalIsAvailable from "./Modal";
 const {
     IconLine,
     IconTable,
@@ -9,10 +10,14 @@ const {
     KorzinkaIcon,
     IconHeartBgWhite,
     DownloadIcon,
+    IconMessage,
 } = icons;
 
 const Trucks = ({ matchingTrucks, i18n, category }) => {
+    const [modalOpen, setModalOpen] = useState(false);
+
     const [liked, setLiked] = useState(null);
+    const [hoveredHeart, setHoveredHeart] = useState(null);
 
     return (
         <div className='grid grid-cols-3 gap-5'>
@@ -37,6 +42,22 @@ const Trucks = ({ matchingTrucks, i18n, category }) => {
                                     </div>
                                 )}
                             </Link>
+
+                            <div
+                                onMouseEnter={() => setHoveredHeart(truck.id)}
+                                onMouseLeave={() => setHoveredHeart(null)}
+                                className='absolute top-[3%] right-[3%] z-35'
+                            >
+                                <IconHeartBgWhite
+                                    className={`w-6 h-6 `}
+                                    heartColor={
+                                        liked === truck.id ||
+                                        hoveredHeart === truck.id
+                                            ? "#fec400"
+                                            : "transparent"
+                                    }
+                                />
+                            </div>
                         </div>
                         <div className='mb-10 px-3 py-4'>
                             <p className='text-lg mb-4 leading-[130%] line-clamp-2'>
@@ -46,7 +67,9 @@ const Trucks = ({ matchingTrucks, i18n, category }) => {
                                 {truckCurrentLang?.price}
                             </h5>
 
-                            <div className='flex items-center gap-2'>
+                            <div
+                                className={`flex items-center gap-2 ${!truck.available ? "hidden" : ""}`}
+                            >
                                 <Button
                                     variant='btn_big'
                                     className='text-sm px-4! whitespace-nowrap'
@@ -69,6 +92,29 @@ const Trucks = ({ matchingTrucks, i18n, category }) => {
                                     <DownloadIcon className='w-3 h-3.5 ' />
                                 </button>
                             </div>
+
+                            {!truck.available && (
+                                <div className='flex items-center justify-center'>
+                                    <button
+                                        onClick={() => setModalOpen(true)}
+                                        className='flex items-center justify-center gap-2 bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none md:py-4 whitespace-nowrap w-full'
+                                    >
+                                        {truckCurrentLang?.buttons?.iNeedThis}
+                                        <IconMessage className='max-[1024px]:hidden shrink-0' />
+                                    </button>
+                                </div>
+                            )}
+
+                            {modalOpen && !truck.available && (
+                                <ModalIsAvailable
+                                    open={modalOpen}
+                                    onClose={() => {
+                                        setModalOpen(false);
+                                    }}
+                                    truck={truck}
+                                    truckCurrentLang={truckCurrentLang}
+                                />
+                            )}
                         </div>
                     </div>
                 );

@@ -12942,6 +12942,7 @@ const trucks = [
                 more: "Получить КП",
                 getPk: "Получить КП",
                 download: "Скачать спецификацию",
+                iNeedThis: "Мне нужен такой же",
             },
 
             truckType:

@@ -1146,6 +1146,40 @@ const ru = {
         ],
     },
 
+    truckDetailsForm: {
+        title: "Подобрать аналогичный грузовик",
+
+        form: [
+            {
+                label: "E-mail *",
+                name: "email",
+                type: "email",
+                placeholder: "your@mail.com",
+                focus: "emailTruckDetails",
+                must: "Поле обязательно для заполнения",
+            },
+            {
+                label: "Телефон *",
+                name: "tel",
+                type: "tel",
+                placeholder: "+7 (_ _ _) _ _ _ - _ _ - _ _",
+                focus: "phoneTruckDetails",
+                must: "Поле обязательно для заполнения",
+            },
+        ],
+
+        agreement:
+            "Я согласен <0>на обработку персональных данных компанией ООО «РусТрак»</0>",
+
+        button: "Получить варианты",
+
+        success: {
+            title: "Успешно",
+            text: "Когда товар снова будет доступен для заказа, мы отправим Вам письмо-уведомление на почту",
+            button: "Закрыть",
+        },
+    },
+
     breadcrumbs: {
         home: "Главная",
         catalog: "Каталог",
