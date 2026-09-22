@@ -250,6 +250,21 @@ import galleryOf1TruckImage49 from "../assets/images/truckData/49/galleryOf1Truc
 import galleryOf2TruckImage49 from "../assets/images/truckData/49/galleryOf2TruckImage49.webp";
 import galleryOf3TruckImage49 from "../assets/images/truckData/49/galleryOf3TruckImage49.webp";
 
+// ДОПОГ
+import mainTruckImage50 from "../assets/images/truckData/50/Main.webp";
+import galleryOf1TruckImage50 from "../assets/images/truckData/50/galleryOf1TruckImage50.webp";
+import galleryOf2TruckImage50 from "../assets/images/truckData/50/galleryOf2TruckImage50.webp";
+import galleryOf3TruckImage50 from "../assets/images/truckData/50/galleryOf3TruckImage50.webp";
+
+import mainTruckImage51 from "../assets/images/truckData/51/Main.webp";
+import galleryOf1TruckImage51 from "../assets/images/truckData/51/galleryOf1TruckImage51.webp";
+
+import mainTruckImage52 from "../assets/images/truckData/52/Main.webp";
+import galleryOf1TruckImage52 from "../assets/images/truckData/52/galleryOf1TruckImage52.webp";
+import galleryOf2TruckImage52 from "../assets/images/truckData/52/galleryOf2TruckImage52.webp";
+import galleryOf3TruckImage52 from "../assets/images/truckData/52/galleryOf3TruckImage52.webp";
+import galleryOf4TruckImage52 from "../assets/images/truckData/52/galleryOf4TruckImage52.webp";
+
 const trucks = [
     {
         available: true,
@@ -1956,7 +1971,7 @@ const trucks = [
 
         slug: "shtornyy-gruzovik-kamaz-4308-dopog-ekhii-model-4388n2-10",
 
-        categoryId: 1,
+        categoryId: 11,
 
         images: {
             image: mainTruckImage3,
@@ -26487,6 +26502,4840 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             ],
         },
     },
+
+    // ДОПОГ
+    {
+        available: true,
+        recommended: true,
+        id: 50,
+        slug: "bortovoy-avtomobil-kamaz-4308-3083-69-dopog-ex-ii",
+        categoryId: 11,
+
+        images: {
+            image: mainTruckImage50,
+        },
+
+        gallery: [
+            {
+                image: mainTruckImage50,
+            },
+            {
+                image: galleryOf1TruckImage50,
+            },
+            {
+                image: galleryOf2TruckImage50,
+            },
+            {
+                image: galleryOf3TruckImage50,
+            },
+        ],
+
+        ru: {
+            price: "По запросу",
+            discount:
+                "Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Подробнее",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужно это",
+            },
+
+            truckType:
+                "Бортовой автомобиль КАМАЗ 4308-3083-69, ДОПОГ категория EX II (модель 4388Н2-10)",
+            category: "Бортовые автомобили",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "КАМАЗ 4308-3063-69(G5)",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISB6.7 E5 250, 250 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    {
+                        title: "Тип бортовой платформы",
+                        value: "168",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "8450",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2615",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "4200...6200",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4х2",
+                    },
+                    {
+                        title: "Длина платформы, м",
+                        value: "5,2…6,2",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "9500",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "6050...6180",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "5150",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Бортовой автомобиль КАМАЗ 4308, с доработкой под требования ДОПОГ II класса опасности",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "КАМАЗ 4308-3063-69(G5)",
+                        },
+                        {
+                            title: "Длина автомобиля, мм",
+                            value: "8450",
+                        },
+                        {
+                            title: "Ширина автомобиля, мм",
+                            value: "2550",
+                        },
+                        {
+                            title: "Грузоподъёмность, кг",
+                            value: "5150",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle: "БОРТОВОЙ АВТОМОБИЛЬ КАМАЗ 4308-3063-69(G5)",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "4308-3063-69(G5)",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Платформа бортовая",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISB6.7 E5 250, 250 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "4200...6200",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля (мм)",
+                            value: "",
+                        },
+                        {
+                            title: "Длина",
+                            value: "8745…8450",
+                        },
+                        {
+                            title: "Ширина",
+                            value: "2550",
+                        },
+                        {
+                            title: "Высота",
+                            value: "2615",
+                        },
+                        {
+                            title: "Длина бортовой платформы, мм",
+                            value: "5200…6200",
+                        },
+                        {
+                            title: "Ширина бортовой платформы, мм",
+                            value: "2550",
+                        },
+                        {
+                            title: "Высота бортовой платформы, мм",
+                            value: "400",
+                        },
+                        {
+                            title: "Полная масса, кг",
+                            value: "9500",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "6050...6180",
+                        },
+                        {
+                            title: "Грузоподъёмность, кг",
+                            value: "5940...5820",
+                        },
+                        {
+                            title: "Основание бортовой платформы",
+                            value: "Сварная рамная конструкция из открытых профилей. Состоит из продольных лонжеронов и поперечных балок, окантовочного и передней стенки профиля HOSSEN. Оцинкованные петли крепления груза в окантовочном профиле платформы (не уменьшают погрузочную ширину платформы), 5...6 шт. с каждой стороны.",
+                        },
+                        {
+                            title: "Пол",
+                            value: "Влагостойкая фанера с противоскользящим покрытием толщиной 18 мм.",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "Алюминиевые борта, откидывающиеся, количество секций – 2...3 шт. на сторону, высота 400 мм. Угол открывания бортов – 180°. Быстросъёмные стойки ломающегося типа по 1...2 шт. на сторону с алюминиевыми замками.",
+                        },
+                        {
+                            title: "Прочее оборудование",
+                            value: "Пластиковые крылья, брызговики. Боковые влагозащитные габаритные огни. Боковая защита из алюминиевых профилей на откидных оцинкованных кронштейнах. Заднее защитное устройство. Ступень для подъёма на платформу.",
+                        },
+                        {
+                            title: "Оборудование под требования ДОПОГ II класса опасности",
+                            value: "Дистанционный выключатель массы аккумуляторной батареи IP65; проблесковые маячки оранжевого цвета (2 шт.); ящик для песка; инструментальный ящик; защита глушителя; огнетушитель; комплект ADR.",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+            discount:
+                "10% discount (up to RUB 500,000) under the state preferential leasing program",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "More details",
+                getPk: "Get a quotation",
+                iNeedThis: "I need this",
+            },
+
+            truckType:
+                "KAMAZ 4308-3083-69 Flatbed Truck, ADR EX II Category (Model 4388N2-10)",
+            category: "Flatbed Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Basic chassis",
+                        value: "KAMAZ 4308-3063-69(G5)",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISB6.7 E5 250, 250 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Flatbed platform type",
+                        value: "168",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "8450",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2615",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "4200...6200",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platform length, m",
+                        value: "5.2…6.2",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "9500",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "6050...6180",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "5150",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "KAMAZ 4308 Flatbed Truck, modified to meet ADR Class II hazardous goods requirements",
+
+                    items: [
+                        {
+                            title: "Basic chassis",
+                            value: "KAMAZ 4308-3063-69(G5)",
+                        },
+                        {
+                            title: "Vehicle length, mm",
+                            value: "8450",
+                        },
+                        {
+                            title: "Vehicle width, mm",
+                            value: "2550",
+                        },
+                        {
+                            title: "Payload capacity, kg",
+                            value: "5150",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle: "KAMAZ 4308-3063-69(G5) FLATBED TRUCK",
+
+                    items: [
+                        {
+                            title: "Basic chassis",
+                            value: "4308-3063-69(G5)",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Flatbed platform",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISB6.7 E5 250, 250 hp",
+                        },
+                        {
+                            title: "Transmission",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "4200...6200",
+                        },
+                        {
+                            title: "Overall vehicle dimensions (mm)",
+                            value: "",
+                        },
+                        {
+                            title: "Length",
+                            value: "8745…8450",
+                        },
+                        {
+                            title: "Width",
+                            value: "2550",
+                        },
+                        {
+                            title: "Height",
+                            value: "2615",
+                        },
+                        {
+                            title: "Flatbed platform length, mm",
+                            value: "5200…6200",
+                        },
+                        {
+                            title: "Flatbed platform width, mm",
+                            value: "2550",
+                        },
+                        {
+                            title: "Flatbed platform height, mm",
+                            value: "400",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "9500",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "6050...6180",
+                        },
+                        {
+                            title: "Payload capacity, kg",
+                            value: "5940...5820",
+                        },
+                        {
+                            title: "Flatbed platform base",
+                            value: "Welded frame structure made of open profiles. Consists of longitudinal beams and cross-members, edging and front wall made of HOSSEN profile. Galvanized cargo securing loops are mounted in the platform edging profile and do not reduce the loading width of the platform, 5...6 pieces on each side.",
+                        },
+                        {
+                            title: "Floor",
+                            value: "18 mm moisture-resistant plywood with an anti-slip coating.",
+                        },
+                        {
+                            title: "Platform sides",
+                            value: "Folding aluminum sides, 2...3 sections per side, height 400 mm. Opening angle – 180°. Quick-release breakaway-type posts, 1...2 per side, with aluminum locks.",
+                        },
+                        {
+                            title: "Other equipment",
+                            value: "Plastic fenders and mudguards. Side moisture-protected marker lights. Side protection made of aluminum profiles on folding galvanized brackets. Rear underrun protection device. Step for accessing the platform.",
+                        },
+                        {
+                            title: "Equipment according to ADR Class II requirements",
+                            value: "Remote battery master switch IP65; orange flashing beacons (2 pcs.); sand box; tool box; muffler protection; fire extinguisher; ADR kit.",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+            discount:
+                "Imtiyozli davlat lizing dasturi bo‘yicha 10% chegirma (500 000 rublgacha)",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga kerak",
+            },
+
+            truckType:
+                "KAMAZ 4308-3083-69 bortli avtomobili, ДОПОГ EX II toifasi (4388N2-10 modeli)",
+            category: "Bortli avtomobillar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "KAMAZ 4308-3063-69(G5)",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISB6.7 E5 250, 250 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
+                        title: "Bortli platforma turi",
+                        value: "168",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "8450",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2615",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "4200...6200",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platforma uzunligi, m",
+                        value: "5,2…6,2",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "9500",
+                    },
+                    {
+                        title: "Bo‘sh massa, kg",
+                        value: "6050...6180",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "5150",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "KAMAZ 4308 bortli avtomobili, xavflilikning II klassi ДОПОГ talablariga muvofiq qayta jihozlangan",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "KAMAZ 4308-3063-69(G5)",
+                        },
+                        {
+                            title: "Avtomobil uzunligi, mm",
+                            value: "8450",
+                        },
+                        {
+                            title: "Avtomobil kengligi, mm",
+                            value: "2550",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "5150",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle: "KAMAZ 4308-3063-69(G5) BORTLI AVTOMOBILI",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "4308-3063-69(G5)",
+                        },
+                        {
+                            title: "Ustki qurilma turi",
+                            value: "Bortli platforma",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISB6.7 E5 250, 250 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "4200...6200",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari (mm)",
+                            value: "",
+                        },
+                        {
+                            title: "Uzunligi",
+                            value: "8745…8450",
+                        },
+                        {
+                            title: "Kengligi",
+                            value: "2550",
+                        },
+                        {
+                            title: "Balandligi",
+                            value: "2615",
+                        },
+                        {
+                            title: "Bortli platforma uzunligi, mm",
+                            value: "5200…6200",
+                        },
+                        {
+                            title: "Bortli platforma kengligi, mm",
+                            value: "2550",
+                        },
+                        {
+                            title: "Bortli platforma balandligi, mm",
+                            value: "400",
+                        },
+                        {
+                            title: "To‘liq massa, kg",
+                            value: "9500",
+                        },
+                        {
+                            title: "Bo‘sh massa, kg",
+                            value: "6050...6180",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "5940...5820",
+                        },
+                        {
+                            title: "Bortli platforma asosi",
+                            value: "Ochiq profillardan tayyorlangan payvandlangan rama konstruksiyasi. Uzunlamasına lonjeronlar va ko‘ndalang balkalar, HOSSEN profilidan tayyorlangan chekka va old devordan iborat. Platformaning chekka profiliga galvanizatsiyalangan yuk mahkamlash halqalari o‘rnatilgan bo‘lib, ular yuklash kengligini kamaytirmaydi, har bir tomonda 5...6 dona.",
+                        },
+                        {
+                            title: "Pol",
+                            value: "Qalinligi 18 mm bo‘lgan sirpanishga qarshi qoplamali namlikka chidamli fanera.",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Bukiladigan alyuminiy bortlar, har bir tomonda 2...3 ta seksiya, balandligi 400 mm. Ochilish burchagi – 180°. Har bir tomonda 1...2 tadan tez yechiladigan bukiluvchi turdagi ustunlar va alyuminiy qulflar.",
+                        },
+                        {
+                            title: "Boshqa jihozlar",
+                            value: "Plastik qanotlar va loy sachratkichlar. Yon namlikdan himoyalangan gabarit chiroqlari. Bukiladigan galvanizatsiyalangan kronshteynlardagi alyuminiy profillardan tayyorlangan yon himoya. Orqa himoya qurilmasi. Platformaga chiqish uchun zina.",
+                        },
+                        {
+                            title: "ДОПОГ xavflilikning II klassi talablariga muvofiq jihozlar",
+                            value: "IP65 himoyali akkumulyator batareyasining masofadan o‘chirgichi; to‘q sariq rangli miltillovchi маячoklar (2 dona); qum qutisi; asboblar qutisi; glushitel himoyasi; o‘t o‘chirgich; ADR to‘plami.",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 51,
+        slug: "kran-manipulyator-jac-n200l-c-kmu-inman-im150n-dopog-ex-ii",
+        categoryId: 11,
+
+        images: {
+            image: mainTruckImage51,
+        },
+
+        gallery: [
+            {
+                image: mainTruckImage51,
+            },
+            {
+                image: galleryOf1TruckImage51,
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужно это",
+            },
+
+            truckType:
+                "Кран-манипулятор JAC N200L c КМУ ИНМАН ИМ150N, ДОПОГ категория EX II (модель 4389К8-10)",
+            category: "Краны-манипуляторы",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "JAC N200L",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISD285 50, 6,7 л, 271 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 8-ми ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "11020",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3600",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "5300",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4х2",
+                    },
+                    {
+                        title: "Длина платформы, м",
+                        value: "6,2",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "19980",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "11500",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "8480",
+                    },
+                    {
+                        title: "Грузоподъёмность КМУ, тонн",
+                        value: "6,1",
+                    },
+                    {
+                        title: "Вылет стрелы, м",
+                        value: "8,1",
+                    },
+                    {
+                        title: "Высота подъема, м",
+                        value: "9,5",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Кран-манипулятор JAC N200L c КМУ ИНМАН ИМ150N, ДОПОГ категория EX II (модель 4389К8-10)",
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "JAC N200L",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Бортовая платформа с КМУ",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISD285 50 (Euro V), 6,7 л, 271 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 8-ми ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "5300",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, ДхШхВ (мм)",
+                            value: "11020х2550х3600",
+                        },
+                        {
+                            title: "Полная масса (кг)",
+                            value: "19980",
+                        },
+                        {
+                            title: "Снаряженная масса (кг)",
+                            value: "11500",
+                        },
+                        {
+                            title: "Габаритные размеры бортовой платформы, ДхШхВ (мм)",
+                            value: "6200х2550х2300",
+                        },
+                        {
+                            title: "Основание бортовой платформы",
+                            value: "Сварная рамная конструкция из открытых профилей. Состоит из продольных лонжеронов и поперечных балок, окантовочного и передней стенки профиля HOSSEN. Оцинкованные петли крепления груза в окантовочном профиле платформы (не уменьшают погрузочную ширину платформы), 6 шт. с каждой стороны.",
+                        },
+                        {
+                            title: "Пол",
+                            value: "Влагостойкая фанера с противоскользящим покрытием толщиной 21 мм.",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "Алюминиевые борта, откидывающиеся, количество секций – 2 шт. на сторону, высота 400 мм. Угол открывания бортов – 180°. Сдвижные стойки 2 шт. на сторону с алюминиевыми замками.",
+                        },
+                        {
+                            title: "Передняя стенка",
+                            value: "Выполнена из алюминиевого профиля на всю высоту надстройки",
+                        },
+                        {
+                            title: "Каркас",
+                            value: "Стальной, высотой 2300 мм. Механизм раздельного сдвижения тента с алюминиевыми направляющими на роликах: крыша, боковые стороны. Крюк-багор для сдвижения крыши с кронштейном крепления на правой задней стойке каркаса. Обрешетка из доски в четыре ряда. Съемная поперечина крыши над воротами, позволяет осуществлять загрузку без ограничений по высоте. Водоотводящий алюминиевый козырек над задними воротами. Передние и задние стойки оцинкованные",
+                        },
+                        {
+                            title: "Задние ворота",
+                            value: "Распашные ворота из алюминиевого профиля со скрытой фурнитурой. С возможностью фиксации в открытом положении.",
+                        },
+                        {
+                            title: "Тент",
+                            value: "Тент боковых штор из ткани удельный вес 630 г/м2, цвет серый. Тент крыши из ткани удельный вес 750 г/м2, цвет белый. Усиление тента крыши на углах. Натяжители тента в горизонтальном направлении (трещотка) сзади с обеих сторон. Натяжители тента в вертикальном направлении (натяжной замок с стропом и крюком) шаг 0,5 м. Съёмная передняя штанга боковой шторы для облегченного сдвижения шторы назад.",
+                        },
+                        {
+                            title: "Прочее оборудование",
+                            value: "Боковые влагозащитные габаритные огни. Задний противоподкатный брус - от базового шасси. Устройства световой сигнализации и светоотражающая лента в соответствии с требованиями по эксплуатации автомобиля. Боковая защита из алюминиевых профилей на откидных оцинкованных кронштейнах. Оцинкованная выдвижная лестница. Поручень для подъёма на платформу. Обтекатель на кабину",
+                        },
+                        {
+                            title: "Оборудование по требованиям ДОПОГ ЕХII",
+                            value: "Дистанционный выключатель массы аккумуляторной батареи с дублирующей кнопкой в салоне класса защиты IP65. Ящик для песка. Установлена цепь заземления с касанием земли 200 мм. Маячок проблесковый С24-75 - 2 шт. Пенал огнетушителя – 2 шт. Огнетушитель ОП-6 – 2 шт. Ткань тента соответствует требованиям ДОПОГ ЕХII. Установлена защита глушителя на системе выпуска отработавших газов. Установлен барабан защитного заземления. Устройство ограничения скорости «Надежный контроль» тип 80. Тахограф ШТРИХ, модель «МАК-1».",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle:
+                        "Характеристики крано-манипуляторной установки ИНМАН ИМ150N",
+                    items: [
+                        {
+                            title: "Максимальный грузовой момент, тм",
+                            value: "14,3",
+                        },
+                        {
+                            title: "Максимальная грузоподъёмность, кг",
+                            value: "6100",
+                        },
+                        {
+                            title: "Максимальная высота подъема, м",
+                            value: "9,5",
+                        },
+                        {
+                            title: "Максимальная глубина опускания, м",
+                            value: "6,0",
+                        },
+                        {
+                            title: "Г/п на максимальном вылете, кг",
+                            value: "1690",
+                        },
+                        {
+                            title: "Максимальный вылет стрелы, м",
+                            value: "8,1",
+                        },
+                        {
+                            title: "Стрела",
+                            value: "Гексагональная / 4 секции",
+                        },
+                        {
+                            title: "Угол вращения колонны вокруг своей оси, град",
+                            value: "420°",
+                        },
+                        {
+                            title: "Передние аутригеры",
+                            value: "Размах 5,0 м",
+                        },
+                        {
+                            title: "Задние аутригеры",
+                            value: "-",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "JAC N200L Crane-Manipulator Truck with INMAN IM150N CMU, ADR EX II Category (Model 4389K8-10)",
+            category: "Crane-Manipulator Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "JAC N200L",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISD285 50, 6.7 l, 271 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 8-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "11020",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3600",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "5300",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platform length, m",
+                        value: "6.2",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "19980",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "11500",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "8480",
+                    },
+                    {
+                        title: "CMU lifting capacity, tons",
+                        value: "6.1",
+                    },
+                    {
+                        title: "Boom reach, m",
+                        value: "8.1",
+                    },
+                    {
+                        title: "Lifting height, m",
+                        value: "9.5",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "JAC N200L Crane-Manipulator Truck with INMAN IM150N CMU, ADR EX II Category (Model 4389K8-10)",
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "JAC N200L",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Flatbed platform with CMU",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISD285 50 (Euro V), 6.7 l, 271 hp",
+                        },
+                        {
+                            title: "Transmission",
+                            value: "Manual, 8-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "5300",
+                        },
+                        {
+                            title: "Vehicle overall dimensions, LxWxH (mm)",
+                            value: "11020x2550x3600",
+                        },
+                        {
+                            title: "Gross vehicle weight (kg)",
+                            value: "19980",
+                        },
+                        {
+                            title: "Curb weight (kg)",
+                            value: "11500",
+                        },
+                        {
+                            title: "Flatbed platform dimensions, LxWxH (mm)",
+                            value: "6200x2550x2300",
+                        },
+                        {
+                            title: "Platform base",
+                            value: "Welded frame structure made of open profiles. Consists of longitudinal beams and cross-members, edging and front wall made of HOSSEN profile. Galvanized cargo securing loops in the platform edging profile (do not reduce loading width), 6 pcs. on each side.",
+                        },
+                        {
+                            title: "Floor",
+                            value: "21 mm moisture-resistant plywood with anti-slip coating.",
+                        },
+                        {
+                            title: "Platform sides",
+                            value: "Folding aluminum sides, 2 sections per side, height 400 mm. Side opening angle – 180°. Sliding posts, 2 pcs. per side with aluminum locks.",
+                        },
+                        {
+                            title: "Front wall",
+                            value: "Made of aluminum profile along the full height of the superstructure",
+                        },
+                        {
+                            title: "Frame",
+                            value: "Steel, height 2300 mm. Separate awning sliding mechanism with aluminum roller tracks: roof, sides. Awning pulling hook with a mounting bracket on the right rear pillar of the frame. Four-row board lath. Removable roof crossbar above the doors allows loading without height restrictions. Drainage aluminum visor over the rear doors. Galvanized front and rear pillars.",
+                        },
+                        {
+                            title: "Rear doors",
+                            value: "Double-wing doors made of aluminum profile with hidden hardware. Can be fixed in the open position.",
+                        },
+                        {
+                            title: "Awning",
+                            value: "Side curtain fabric weight 630 g/m2, grey color. Roof awning fabric weight 750 g/m2, white color. Roof awning reinforcement at corners. Horizontal awning tensioners (ratchet) at the rear on both sides. Vertical awning tensioners (tension lock with strap and hook) step 0.5 m. Removable front bar of the side curtain for easy sliding of the curtain backwards.",
+                        },
+                        {
+                            title: "Other equipment",
+                            value: "Side moisture-protected marker lights. Rear underrun bar from the base chassis. Light signaling devices and reflective tape in accordance with vehicle operation requirements. Side protection made of aluminum profiles on folding galvanized brackets. Galvanized retractable ladder. Grab handle for accessing the platform. Cabin roof fairing",
+                        },
+                        {
+                            title: "Equipment according to ADR EX II requirements",
+                            value: "Remote battery master switch with a duplicate button in the cabin, IP65 protection class. Sand box. Grounding chain installed with 200 mm contact to the ground. C24-75 flashing beacon - 2 pcs. Fire extinguisher case – 2 pcs. OP-6 fire extinguisher – 2 pcs. Awning fabric meets ADR EX II requirements. Exhaust system muffler protection installed. Protective grounding drum installed. 'Reliable Control' type 80 speed limiter device. SHTRICH tachograph, model 'MAK-1'.",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle:
+                        "INMAN IM150N Crane-Manipulator Unit Specifications",
+                    items: [
+                        {
+                            title: "Maximum load moment, tm",
+                            value: "14.3",
+                        },
+                        {
+                            title: "Maximum lifting capacity, kg",
+                            value: "6100",
+                        },
+                        {
+                            title: "Maximum lifting height, m",
+                            value: "9.5",
+                        },
+                        {
+                            title: "Maximum lowering depth, m",
+                            value: "6.0",
+                        },
+                        {
+                            title: "Capacity at maximum reach, kg",
+                            value: "1690",
+                        },
+                        {
+                            title: "Maximum boom reach, m",
+                            value: "8.1",
+                        },
+                        {
+                            title: "Boom",
+                            value: "Hexagonal / 4 sections",
+                        },
+                        {
+                            title: "Column rotation angle around its axis, deg",
+                            value: "420°",
+                        },
+                        {
+                            title: "Front outriggers",
+                            value: "Span 5.0 m",
+                        },
+                        {
+                            title: "Rear outriggers",
+                            value: "-",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narxi so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "JAC N200L kran-manipulyatori INMAN IM150N KMU bilan, ДОПОГ EX II toifasi (4389K8-10 modeli)",
+            category: "Kran-manipulyatorlar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Bazaviy shassi",
+                        value: "JAC N200L",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISD285 50, 6.7 l, 271 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 8 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "11020",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3600",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "5300",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platforma uzunligi, m",
+                        value: "6.2",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "19980",
+                    },
+                    {
+                        title: "Bo‘sh massa, kg",
+                        value: "11500",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "8480",
+                    },
+                    {
+                        title: "KMU yuk ko‘tarish qobiliyati, tonna",
+                        value: "6.1",
+                    },
+                    {
+                        title: "Strelka chiqishi, m",
+                        value: "8.1",
+                    },
+                    {
+                        title: "Ko‘tarish balandligi, m",
+                        value: "9.5",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "JAC N200L kran-manipulyatori INMAN IM150N KMU bilan, ДОПОГ EX II toifasi (4389K8-10 modeli)",
+                    items: [
+                        {
+                            title: "Bazaviy shassi",
+                            value: "JAC N200L",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "KMU bilan jihozlangan bortli platforma",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISD285 50 (Euro V), 6.7 l, 271 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 8 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "5300",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, DxShxB (mm)",
+                            value: "11020x2550x3600",
+                        },
+                        {
+                            title: "To‘liq massa (kg)",
+                            value: "19980",
+                        },
+                        {
+                            title: "Bo‘sh massa (kg)",
+                            value: "11500",
+                        },
+                        {
+                            title: "Bortli platformaning gabarit o‘lchamlari, DxShxB (mm)",
+                            value: "6200x2550x2300",
+                        },
+                        {
+                            title: "Platforma asosi",
+                            value: "Ochiq profillardan tayyorlangan payvandlangan rama konstruksiyasi. Uzunlamasına lonjeronlar va ko‘ndalang balkalar, HOSSEN profilidan tayyorlangan chekka va old devordan iborat. Platformaning chekka profilida galvanizatsiyalangan yuk mahkamlash halqalari mavjud (yuklash kengligini kamaytirmaydi), har bir tomonda 6 tadan.",
+                        },
+                        {
+                            title: "Pol",
+                            value: "Qalinligi 21 mm bo‘lgan sirpanishga qarshi qoplamali namlikka chidamli fanera.",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Bukiladigan alyuminiy bortlar, har bir tomonda 2 ta seksiya, balandligi 400 mm. Ochilish burchagi – 180°. Alyuminiy qulflari bo‘lgan har bir tomonda 2 tadan suriladigan ustunlar.",
+                        },
+                        {
+                            title: "Old devor",
+                            value: "Ustqurishmaning to‘liq balandligi bo‘yicha alyuminiy profilidan tayyorlangan",
+                        },
+                        {
+                            title: "Karkas",
+                            value: "Pochat po‘latdan, balandligi 2300 mm. Roliklardagi alyuminiy yo‘naltiruvchilar bilan tentni alohida siljitish mexanizmi: tom, yon tomonlar. Karkasning o‘ng orqa ustunida mahkamlash kronshteyniga ega tentni siljitish uchun ilmoqli tayoq. To‘rt qatorda taxtali panjaralar. Darvoza ustidagi olinadigan tom ko‘ndalang balanti balandlik cheklovlarisiz yuklash imkonini beradi. Orqa darvoza ustida suv oqizuvchi alyuminiy kosur. Old va orqa ustunlar galvanizatsiyalangan.",
+                        },
+                        {
+                            title: "Orqa darvoza",
+                            value: "Yashirin furniturali alyuminiy profilidan tayyorlangan ikki pallali darvoza. Ochiq holatda mahkamlash imkoniyati bilan.",
+                        },
+                        {
+                            title: "Tent",
+                            value: "Yon pardalar tenti matosi solishtirma og‘irligi 630 g/m2, kulrang rang. Tom tenti matosi solishtirma og‘irligi 750 g/m2, oq rang. Burchaklarda tom tentini kuchaytirish. Ikkala tomonda orqada gorizontal yo‘nalishdagi tent taranglashtirgichlari (Treshotka). Vertikal yo‘nalishdagi tent taranglashtirgichlari (kamar va ilgakli taranglashtiruvchi qulf) qadami 0,5 m. Pardani orqaga oson surish uchun yon pardaning olinadigan old shtangasi.",
+                        },
+                        {
+                            title: "Boshqa jihozlar",
+                            value: "Yon namlikdan himoyalangan gabarit chiroqlari. Orqa himoya brus - bazaviy shassidan. Avtomobildan foydalanish talablariga muvofiq yorug‘lik signallari va yorug‘lik qaytaruvchi lenta. Bukiladigan galvanizatsiyalangan kronshteynlardagi alyuminiy profillardan yon himoya. Galvanizatsiyalangan suriladigan zinapoya. Platformaga chiqish uchun tutqich. Kabinadagi obtekatel",
+                        },
+                        {
+                            title: "ДОПОГ EXII talablariga muvofiq jihozlar",
+                            value: "Salon ichida IP65 himoya sinfiga ega takroriy tugmachali akkumulyator batareyasining masofadan o‘chirgichi. Qum qutisi. Yer bilan 200 mm tegib turuvchi yerga ulanish zanjiri o‘rnatilgan. C24-75 miltillovchi маячок - 2 dona. O‘t o‘chirgich пенали – 2 dona. OP-6 o‘t o‘chirgichi – 2 dona. Tent matosi ДОПОГ EXII talablariga mos keladi. Chiqindi gazlarni chiqarish tizimida glushitel himoyasi o‘rnatilgan. Himoya yerga ulanish barabani o‘rnatilgan. Tezlikni cheklash qurilmasi «Nadejny kontrol» tip 80. SHTRICH taxografi, «MAK-1» modeli.",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle:
+                        "INMAN IM150N kran-manipulyator qurilmasining xususiyatlari",
+                    items: [
+                        {
+                            title: "Maksimal yuk momenti, tm",
+                            value: "14.3",
+                        },
+                        {
+                            title: "Maksimal yuk ko‘tarish qobiliyati, kg",
+                            value: "6100",
+                        },
+                        {
+                            title: "Maksimal ko‘tarish balandligi, m",
+                            value: "9.5",
+                        },
+                        {
+                            title: "Maksimal tushirish chuqurligi, m",
+                            value: "6.0",
+                        },
+                        {
+                            title: "Maksimal chiqishdagi yuk ko‘tarish qobiliyati, kg",
+                            value: "1690",
+                        },
+                        {
+                            title: "Maksimal strelka chiqishi, m",
+                            value: "8.1",
+                        },
+                        {
+                            title: "Strelka",
+                            value: "Geksagonal / 4 qism",
+                        },
+                        {
+                            title: "Kalonning o‘z o‘qi atrofida aylanish burchagi, daraja",
+                            value: "420°",
+                        },
+                        {
+                            title: "Old аутригерлар",
+                            value: "Qamrovi 5.0 m",
+                        },
+                        {
+                            title: "Orqa аутригерлар",
+                            value: "-",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 52,
+        slug: "kran-manipulyator-daewoo-cl8cf-c-kmu-palfinger-pk-8500-dopog-ex-ii",
+        categoryId: 11,
+
+        images: {
+            image: mainTruckImage52,
+        },
+
+        gallery: [
+            {
+                image: mainTruckImage52,
+            },
+            {
+                image: galleryOf1TruckImage52,
+            },
+            {
+                image: galleryOf2TruckImage52,
+            },
+            {
+                image: galleryOf3TruckImage52,
+            },
+            {
+                image: galleryOf4TruckImage52,
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужно это",
+            },
+
+            truckType:
+                "Кран-манипулятор DAEWOO CL8CF С КМУ PALFINGER PK 8500, ДОПОГ категория EX II (модель 5389M2)",
+            category: "Краны-манипуляторы",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "DAEWOO CL8CF",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Doosan DL08K (Евро-5), 350 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "11840",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2495",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3020",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "7025 (4675 + 1350)",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "6х4",
+                    },
+                    {
+                        title: "Длина платформы, м",
+                        value: "8,2",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "30100",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "12400",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "17700",
+                    },
+                    {
+                        title: "Грузоподъёмность КМУ, тонн",
+                        value: "3,3",
+                    },
+                    {
+                        title: "Вылет стрелы, м",
+                        value: "5,6",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Кран-манипулятор DAEWOO CL8CF С КМУ PALFINGER PK 8500, с доработкой под требования ДОПОГ II класса опасности",
+                    items: [
+                        {
+                            title: "Тип надстройки",
+                            value: "Платформа бортовая + КМУ с доработкой под требования ДОПОГ II класса опасности",
+                        },
+                        {
+                            title: "Грузоподъемность шасси",
+                            value: "17 700 кг",
+                        },
+                        {
+                            title: "Распределение по осям: Передняя",
+                            value: "7100 кг",
+                        },
+                        {
+                            title: "Распределение по осям: Задняя",
+                            value: "22000 кг",
+                        },
+                        {
+                            title: "Снаряженная масса",
+                            value: "12400 кг",
+                        },
+                        {
+                            title: "Полная масса",
+                            value: "30100 кг",
+                        },
+                        {
+                            title: "Двигатель: Модель",
+                            value: "Doosan DL08K (Евро-5)",
+                        },
+                        {
+                            title: "Двигатель: Тип",
+                            value: "дизельный",
+                        },
+                        {
+                            title: "Двигатель: Мощность",
+                            value: "350 л. с. (249 кВт) / 2000-2200 об./мин.",
+                        },
+                        {
+                            title: "Объём двигателя",
+                            value: "7640 куб. см.",
+                        },
+                        {
+                            title: "Количество цилиндров",
+                            value: "6, рядное",
+                        },
+                        {
+                            title: "Коробка передач: Модель",
+                            value: "T16S6, механическая F6/R1",
+                        },
+                        {
+                            title: "Число передач",
+                            value: "6 (вперед) и 1 (назад)",
+                        },
+                        {
+                            title: "Бортовая платформа: основание бортовой платформы",
+                            value: "сварная рамная конструкция из открытых профилей",
+                        },
+                        {
+                            title: "Бортовая платформа: материал изготовления бортов",
+                            value: "анодированный алюминиевый профиль",
+                        },
+                        {
+                            title: "Бортовая платформа: съёмные боковые стойки крепления бортов",
+                            value: "Предусмотрены",
+                        },
+                        {
+                            title: "Бортовая платформа: задний противоподкатный брус",
+                            value: "Предусмотрен",
+                        },
+                        {
+                            title: "Бортовая платформа: боковая защита",
+                            value: "из алюминиевых боковых ограждений на откидных оцинкованных кронштейнах",
+                        },
+                        {
+                            title: "Бортовая платформа: такелажные петли",
+                            value: "крепления груза в окантовочном профиле бортовой платформы",
+                        },
+                        {
+                            title: "Бортовая платформа: усиленное основание пола",
+                            value: "Предусмотрено",
+                        },
+                        {
+                            title: "Бортовая платформа: настил пола",
+                            value: "влагостойкая сетчатая фанера 24 мм",
+                        },
+                        {
+                            title: "Доработка под требования ДОПОГ: дистанционный выключатель массы",
+                            value: "аккумуляторной батареи IP65",
+                        },
+                        {
+                            title: "Доработка под требования ДОПОГ: проблесковый маячок",
+                            value: "оранжевого цвета (2 шт.)",
+                        },
+                        {
+                            title: "Доработка под требования ДОПОГ: ящик для песка",
+                            value: "Предусмотрен",
+                        },
+                        {
+                            title: "Доработка под требования ДОПОГ: инструментальный ящик",
+                            value: "Предусмотрен",
+                        },
+                        {
+                            title: "Доработка под требования ДОПОГ: цепь заземления",
+                            value: "Предусмотрена",
+                        },
+                        {
+                            title: "Доработка под требования ДОПОГ: защита глушителя",
+                            value: "Предусмотрена",
+                        },
+                        {
+                            title: "Доработка под требования ДОПОГ: огнетушитель",
+                            value: "Предусмотрен",
+                        },
+                        {
+                            title: "Доработка под требования ДОПОГ: комплект ADR",
+                            value: "Предусмотрен",
+                        },
+                        {
+                            title: "Доработка под требования ДОПОГ: тент на бортовую платформу",
+                            value: "Предусмотрен",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "DAEWOO CL8CF Crane-Manipulator Truck with PALFINGER PK 8500 CMU, ADR EX II Category (Model 5389M2)",
+            category: "Crane-Manipulator Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "DAEWOO CL8CF",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Doosan DL08K (Euro-5), 350 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "11840",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2495",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3020",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "7025 (4675 + 1350)",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Platform length, m",
+                        value: "8.2",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "30100",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "12400",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "17700",
+                    },
+                    {
+                        title: "CMU lifting capacity, tons",
+                        value: "3.3",
+                    },
+                    {
+                        title: "Boom reach, m",
+                        value: "5.6",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "DAEWOO CL8CF Crane-Manipulator Truck with PALFINGER PK 8500 CMU, customized for ADR Class II requirements",
+                    items: [
+                        {
+                            title: "Superstructure type",
+                            value: "Flatbed platform + CMU with ADR Class II customization",
+                        },
+                        {
+                            title: "Chassis payload capacity",
+                            value: "17,700 kg",
+                        },
+                        {
+                            title: "Axle load distribution: Front",
+                            value: "7,100 kg",
+                        },
+                        {
+                            title: "Axle load distribution: Rear",
+                            value: "22,000 kg",
+                        },
+                        {
+                            title: "Curb weight",
+                            value: "12,400 kg",
+                        },
+                        {
+                            title: "Gross vehicle weight",
+                            value: "30,100 kg",
+                        },
+                        {
+                            title: "Engine: Model",
+                            value: "Doosan DL08K (Euro-5)",
+                        },
+                        {
+                            title: "Engine: Type",
+                            value: "diesel",
+                        },
+                        {
+                            title: "Engine: Power",
+                            value: "350 hp (249 kW) / 2000-2200 rpm",
+                        },
+                        {
+                            title: "Engine displacement",
+                            value: "7,640 cc",
+                        },
+                        {
+                            title: "Number of cylinders",
+                            value: "6, inline",
+                        },
+                        {
+                            title: "Transmission: Model",
+                            value: "T16S6, manual F6/R1",
+                        },
+                        {
+                            title: "Number of gears",
+                            value: "6 (forward) and 1 (reverse)",
+                        },
+                        {
+                            title: "Flatbed platform: base structure",
+                            value: "welded frame structure made of open profiles",
+                        },
+                        {
+                            title: "Flatbed platform: side material",
+                            value: "anodized aluminum profile",
+                        },
+                        {
+                            title: "Flatbed platform: removable side pillars",
+                            value: "Included",
+                        },
+                        {
+                            title: "Flatbed platform: rear underrun bar",
+                            value: "Included",
+                        },
+                        {
+                            title: "Flatbed platform: side protection",
+                            value: "made of aluminum barriers on folding galvanized brackets",
+                        },
+                        {
+                            title: "Flatbed platform: lashing rings",
+                            value: "in the platform edging profile",
+                        },
+                        {
+                            title: "Flatbed platform: reinforced floor base",
+                            value: "Included",
+                        },
+                        {
+                            title: "Flatbed platform: floor decking",
+                            value: "24 mm moisture-resistant mesh plywood",
+                        },
+                        {
+                            title: "ADR customization: remote battery master switch",
+                            value: "IP65",
+                        },
+                        {
+                            title: "ADR customization: flashing beacons",
+                            value: "amber (2 pcs.)",
+                        },
+                        {
+                            title: "ADR customization: sand box",
+                            value: "Included",
+                        },
+                        {
+                            title: "ADR customization: tool box",
+                            value: "Included",
+                        },
+                        {
+                            title: "ADR customization: grounding chain",
+                            value: "Included",
+                        },
+                        {
+                            title: "ADR customization: muffler protection",
+                            value: "Included",
+                        },
+                        {
+                            title: "ADR customization: fire extinguisher",
+                            value: "Included",
+                        },
+                        {
+                            title: "ADR customization: ADR kit",
+                            value: "Included",
+                        },
+                        {
+                            title: "ADR customization: flatbed awning",
+                            value: "Included",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narxi so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "DAEWOO CL8CF kran-manipulyatori PALFINGER PK 8500 KMU bilan, ДОПОГ EX II toifasi (5389M2 modeli)",
+            category: "Kran-manipulyatorlar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Bazaviy shassi",
+                        value: "DAEWOO CL8CF",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Doosan DL08K (Yevro-5), 350 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "11840",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2495",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3020",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "7025 (4675 + 1350)",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Platforma uzunligi, m",
+                        value: "8.2",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "30100",
+                    },
+                    {
+                        title: "Bo‘sh massa, kg",
+                        value: "12400",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "17700",
+                    },
+                    {
+                        title: "KMU yuk ko‘tarish qobiliyati, tonna",
+                        value: "3.3",
+                    },
+                    {
+                        title: "Strelka chiqishi, m",
+                        value: "5.6",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "DAEWOO CL8CF kran-manipulyatori PALFINGER PK 8500 KMU bilan, ДОПОГ II xavflilik sinfi talablariga muvofiq tayyorlangan",
+                    items: [
+                        {
+                            title: "Ustqurma turi",
+                            value: "Bortli platforma + KMU, ДОПОГ II xavflilik sinfi talablariga moslashtirilgan",
+                        },
+                        {
+                            title: "Shassi yuk ko‘tarish qobiliyati",
+                            value: "17 700 kg",
+                        },
+                        {
+                            title: "O‘qlar bo‘yicha taqsimot: Old",
+                            value: "7100 kg",
+                        },
+                        {
+                            title: "O‘qlar bo‘yicha taqsimot: Orqa",
+                            value: "22000 kg",
+                        },
+                        {
+                            title: "Bo‘sh massa",
+                            value: "12400 kg",
+                        },
+                        {
+                            title: "To‘liq massa",
+                            value: "30100 kg",
+                        },
+                        {
+                            title: "Dvigatel: Model",
+                            value: "Doosan DL08K (Yevro-5)",
+                        },
+                        {
+                            title: "Dvigatel: Turi",
+                            value: "dizel",
+                        },
+                        {
+                            title: "Dvigatel: Quvvati",
+                            value: "350 ot kuchi (249 kVt) / 2000-2200 ayl./min.",
+                        },
+                        {
+                            title: "Dvigatel hajmi",
+                            value: "7640 kub sm",
+                        },
+                        {
+                            title: "Cilindrlar soni",
+                            value: "6, qatorli",
+                        },
+                        {
+                            title: "Uzatmalar qutisi: Model",
+                            value: "T16S6, mexanik F6/R1",
+                        },
+                        {
+                            title: "Uzatmalar soni",
+                            value: "6 (oldinga) va 1 (orqaga)",
+                        },
+                        {
+                            title: "Bortli platforma: asosiy ramka konstruksiyasi",
+                            value: "ochiq profillardan tayyorlangan payvandlangan rama",
+                        },
+                        {
+                            title: "Bortli platforma: bortlar materiali",
+                            value: "anodlangan alyuminiy profil",
+                        },
+                        {
+                            title: "Bortli platforma: olinadigan yon ustunlar",
+                            value: "Mavjud",
+                        },
+                        {
+                            title: "Bortli platforma: orqa himoya brusi",
+                            value: "Mavjud",
+                        },
+                        {
+                            title: "Bortli platforma: yon himoya",
+                            value: "bukiladigan galvanizatsiyalangan kronshteynlardagi alyuminiy to‘siqlardan",
+                        },
+                        {
+                            title: "Bortli platforma: yuk mahkamlash halqalari",
+                            value: "bortli platformaning chekka profilida",
+                        },
+                        {
+                            title: "Bortli platforma: kuchaytirilgan pol asosi",
+                            value: "Mavjud",
+                        },
+                        {
+                            title: "Bortli platforma: pol qoplamasi",
+                            value: "namlikka chidamli 24 mm to‘rli fanera",
+                        },
+                        {
+                            title: "ДОПОГ talablari bo‘yicha moslashtirish: akkumulyator batareyasining masofadan o‘chirgichi",
+                            value: "IP65",
+                        },
+                        {
+                            title: "ДОПОГ talablari bo‘yicha moslashtirish: miltillovchi маячок",
+                            value: "sariq rangli (2 dona)",
+                        },
+                        {
+                            title: "ДОПОГ talablari bo‘yicha moslashtirish: qum qutisi",
+                            value: "Mavjud",
+                        },
+                        {
+                            title: "ДОПОГ talablari bo‘yicha moslashtirish: asboblar qutisi",
+                            value: "Mavjud",
+                        },
+                        {
+                            title: "ДОПОГ talablari bo‘yicha moslashtirish: yerga ulanish zanjiri",
+                            value: "Mavjud",
+                        },
+                        {
+                            title: "ДОПОГ talablari bo‘yicha moslashtirish: glushitel himoyasi",
+                            value: "Mavjud",
+                        },
+                        {
+                            title: "ДОПОГ talablari bo‘yicha moslashtirish: o‘t o‘chirgich",
+                            value: "Mavjud",
+                        },
+                        {
+                            title: "ДОПОГ talablari bo‘yicha moslashtirish: ADR to‘plami",
+                            value: "Mavjud",
+                        },
+                        {
+                            title: "ДОПОГ talablari bo‘yicha moslashtirish: bortli platforma uchun tent",
+                            value: "Mavjud",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+
+    // AI DOPOG
+    {
+        available: true,
+        recommended: true,
+        id: 53,
+        slug: "dopog-tr80-47-s-kmu-hktc-3014",
+        categoryId: 11,
+
+        images: {
+            image: "https://image.made-in-china.com/202f0j00ivDlRSudAqrB/XCMG-Official-Second-Hand-Sq16sk4q-16ton-Truck-Mounted-Crane-Used-with-Telescopic-Boom.webp",
+        },
+
+        gallery: [
+            {
+                image: "https://img.archiexpo.com/pt/images_ae/photo-mg/155527-19684205.jpg",
+            },
+            {
+                image: "https://www.kamazik.ru/upload/iblock/983/9830d26a5fedfa06b8fc9e96a51833b9.jpg",
+            },
+            {
+                image: "https://image.made-in-china.com/202f0j00ivDlRSudAqrB/XCMG-Official-Second-Hand-Sq16sk4q-16ton-Truck-Mounted-Crane-Used-with-Telescopic-Boom.webp",
+            },
+            {
+                image: "https://amttagristorage.blob.core.windows.net/blogimages/assets/chris_boyd_O2g8_H_Cg_DN_8o_unsplash_0d435d9cba.jpg",
+            },
+            {
+                image: "https://img.archiexpo.com/pt/images_ae/photo-mg/155527-19684205.jpg",
+            },
+            {
+                image: "https://www.kamazik.ru/upload/iblock/983/9830d26a5fedfa06b8fc9e96a51833b9.jpg",
+            },
+            {
+                image: "https://image.made-in-china.com/202f0j00ivDlRSudAqrB/XCMG-Official-Second-Hand-Sq16sk4q-16ton-Truck-Mounted-Crane-Used-with-Telescopic-Boom.webp",
+            },
+            {
+                image: "https://amttagristorage.blob.core.windows.net/blogimages/assets/chris_boyd_O2g8_H_Cg_DN_8o_unsplash_0d435d9cba.jpg",
+            },
+        ],
+
+        ru: {
+            price: "По запросу",
+
+            buttons: {
+                addToCart: "В корзину",
+                more: "Подробнее",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне это нужно",
+            },
+
+            truckType: "Кран-манипулятор DOPOG TR80-47 с КМУ HKTC 3014",
+
+            category: "Краны-манипуляторы",
+
+            description: {
+                title: "Кран-манипулятор DOPOG TR80-47",
+                text: "Кран-манипулятор DOPOG TR80-47 с КМУ HKTC 3014 предназначен для погрузки, разгрузки и транспортировки различных грузов. Компактная конструкция, надежная гидравлическая система и удобное управление делают технику практичным решением для строительных, монтажных и логистических работ.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Модель",
+                        value: "DOPOG TR80-47",
+                    },
+                    {
+                        title: "Кран-манипулятор",
+                        value: "HKTC 3014",
+                    },
+                    {
+                        title: "Тип техники",
+                        value: "Бортовой автомобиль с КМУ",
+                    },
+                    {
+                        title: "Назначение",
+                        value: "Погрузка, разгрузка и транспортировка грузов",
+                    },
+                    {
+                        title: "Управление",
+                        value: "Гидравлическое",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Крановая установка DOPOG",
+                    items: [
+                        {
+                            title: "Модель КМУ",
+                            value: "HKTC 3014",
+                        },
+                        {
+                            title: "Тип стрелы",
+                            value: "Телескопическая",
+                        },
+                        {
+                            title: "Гидравлическая система",
+                            value: "Гидравлическое управление",
+                        },
+                        {
+                            title: "Опоры",
+                            value: "Гидравлические выносные опоры",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "Конструкция DOPOG TR80-47",
+                    items: [
+                        {
+                            title: "Тип автомобиля",
+                            value: "Бортовой грузовой автомобиль",
+                        },
+                        {
+                            title: "Назначение",
+                            value: "Строительные и погрузочно-разгрузочные работы",
+                        },
+                        {
+                            title: "Кузов",
+                            value: "Бортовая грузовая платформа",
+                        },
+                        {
+                            title: "Компоновка",
+                            value: "Грузовой автомобиль с КМУ",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "On request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "More details",
+                getPk: "Get PK",
+                iNeedThis: "I need this",
+            },
+
+            truckType: "DOPOG TR80-47 Crane Truck with HKTC 3014",
+
+            category: "Crane-Manipulator Trucks",
+
+            description: {
+                title: "DOPOG TR80-47 Crane Truck",
+                text: "The DOPOG TR80-47 crane truck with the HKTC 3014 crane-manipulator is designed for loading, unloading and transportation of various types of cargo. Its practical construction, reliable hydraulic system and convenient operation make it suitable for construction, installation and logistics operations.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Model",
+                        value: "DOPOG TR80-47",
+                    },
+                    {
+                        title: "Crane-manipulator",
+                        value: "HKTC 3014",
+                    },
+                    {
+                        title: "Vehicle type",
+                        value: "Flatbed truck with crane-manipulator",
+                    },
+                    {
+                        title: "Application",
+                        value: "Cargo loading, unloading and transportation",
+                    },
+                    {
+                        title: "Control",
+                        value: "Hydraulic",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "DOPOG Crane Unit",
+                    items: [
+                        {
+                            title: "Crane model",
+                            value: "HKTC 3014",
+                        },
+                        {
+                            title: "Boom type",
+                            value: "Telescopic",
+                        },
+                        {
+                            title: "Hydraulic system",
+                            value: "Hydraulic control",
+                        },
+                        {
+                            title: "Outriggers",
+                            value: "Hydraulic stabilizing outriggers",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "DOPOG TR80-47 Construction",
+                    items: [
+                        {
+                            title: "Vehicle type",
+                            value: "Flatbed cargo truck",
+                        },
+                        {
+                            title: "Application",
+                            value: "Construction and loading operations",
+                        },
+                        {
+                            title: "Cargo body",
+                            value: "Flatbed cargo platform",
+                        },
+                        {
+                            title: "Configuration",
+                            value: "Cargo truck with crane-manipulator",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "So‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                getPk: "PK olish",
+                iNeedThis: "Menga kerak",
+            },
+
+            truckType: "HKTC 3014 kran-manipulyatorli DOPOG TR80-47",
+
+            category: "Kran-manipulyatorlar",
+
+            description: {
+                title: "DOPOG TR80-47 kran-manipulyatori",
+                text: "HKTC 3014 kran-manipulyatori bilan jihozlangan DOPOG TR80-47 turli yuklarni ortish, tushirish va tashish uchun mo‘ljallangan. Amaliy konstruksiya, ishonchli gidravlik tizim va qulay boshqaruv ushbu texnikani qurilish, montaj va logistika ishlari uchun mos yechimga aylantiradi.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Model",
+                        value: "DOPOG TR80-47",
+                    },
+                    {
+                        title: "Kran-manipulyator",
+                        value: "HKTC 3014",
+                    },
+                    {
+                        title: "Texnika turi",
+                        value: "Kran-manipulyatorli bortli yuk avtomobili",
+                    },
+                    {
+                        title: "Vazifasi",
+                        value: "Yuklarni ortish, tushirish va tashish",
+                    },
+                    {
+                        title: "Boshqaruv",
+                        value: "Gidravlik",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle: "DOPOG kran qurilmasi",
+                    items: [
+                        {
+                            title: "Kran modeli",
+                            value: "HKTC 3014",
+                        },
+                        {
+                            title: "Strela turi",
+                            value: "Teleskopik",
+                        },
+                        {
+                            title: "Gidravlik tizim",
+                            value: "Gidravlik boshqaruv",
+                        },
+                        {
+                            title: "Tayanchlar",
+                            value: "Gidravlik tayanchlar",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "DOPOG TR80-47 konstruksiyasi",
+                    items: [
+                        {
+                            title: "Avtomobil turi",
+                            value: "Bortli yuk avtomobili",
+                        },
+                        {
+                            title: "Vazifasi",
+                            value: "Qurilish va yuklash-tushirish ishlari",
+                        },
+                        {
+                            title: "Kuzov",
+                            value: "Bortli yuk platformasi",
+                        },
+                        {
+                            title: "Komplektatsiya",
+                            value: "Kran-manipulyatorli yuk avtomobili",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: true,
+        id: 54,
+        slug: "dopog-tr80-47-hktc-3014-pro",
+        categoryId: 11,
+
+        images: {
+            image: "https://img.oemoffhighway.com/files/base/acbm/ooh/image/2016/11/IMG_2529.58332db7a9427.png?auto=format%2Ccompress&fit=max&q=70&rect=0%2C96%2C1920%2C1080&w=1200",
+        },
+
+        gallery: [
+            {
+                image: "https://media.base44.com/images/public/6954ca678e2c3f407fbdd60d/19da4f0fe_ChatGPTImageJan25202607_50_50AM.jpg",
+            },
+            {
+                image: "https://kvlg.ru/sites/default/files/img/avtopark/manipulyator-hero.webp",
+            },
+            {
+                image: "https://www.shandongjqcm.com/uploads/allimg/2024/07/8-ton-howo-truck-mounted-crane.jpg",
+            },
+            {
+                image: "https://img.oemoffhighway.com/files/base/acbm/ooh/image/2016/11/IMG_2529.58332db7a9427.png?auto=format%2Ccompress&fit=max&q=70&rect=0%2C96%2C1920%2C1080&w=1200",
+            },
+            {
+                image: "https://media.base44.com/images/public/6954ca678e2c3f407fbdd60d/19da4f0fe_ChatGPTImageJan25202607_50_50AM.jpg",
+            },
+            {
+                image: "https://kvlg.ru/sites/default/files/img/avtopark/manipulyator-hero.webp",
+            },
+            {
+                image: "https://www.shandongjqcm.com/uploads/allimg/2024/07/8-ton-howo-truck-mounted-crane.jpg",
+            },
+        ],
+
+        ru: {
+            price: "По запросу",
+
+            buttons: {
+                addToCart: "В корзину",
+                more: "Подробнее",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне это нужно",
+            },
+
+            truckType: "Кран-манипулятор DOPOG TR80-47 PRO с КМУ HKTC 3014",
+
+            category: "Краны-манипуляторы",
+
+            description: {
+                title: "DOPOG TR80-47 PRO",
+                text: "DOPOG TR80-47 PRO представляет собой универсальный грузовой автомобиль с краном-манипулятором HKTC 3014. Техника предназначена для самостоятельного выполнения погрузочно-разгрузочных операций и транспортировки строительных и промышленных грузов.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Модель",
+                        value: "DOPOG TR80-47 PRO",
+                    },
+                    {
+                        title: "КМУ",
+                        value: "HKTC 3014",
+                    },
+                    {
+                        title: "Тип",
+                        value: "Кран-манипулятор",
+                    },
+                    {
+                        title: "Назначение",
+                        value: "Строительство и логистика",
+                    },
+                    {
+                        title: "Тип стрелы",
+                        value: "Телескопическая",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "КМУ DOPOG",
+                    items: [
+                        {
+                            title: "Модель",
+                            value: "HKTC 3014",
+                        },
+                        {
+                            title: "Тип стрелы",
+                            value: "Телескопическая",
+                        },
+                        {
+                            title: "Опоры",
+                            value: "Гидравлические",
+                        },
+                        {
+                            title: "Управление",
+                            value: "Гидравлическое",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "DOPOG TR80-47 PRO",
+                    items: [
+                        {
+                            title: "Тип кузова",
+                            value: "Бортовая платформа",
+                        },
+                        {
+                            title: "Назначение",
+                            value: "Перевозка и погрузка грузов",
+                        },
+                        {
+                            title: "Область применения",
+                            value: "Строительство, монтаж, логистика",
+                        },
+                        {
+                            title: "Конструкция",
+                            value: "Грузовой автомобиль с КМУ",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "On request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "More details",
+                getPk: "Get PK",
+                iNeedThis: "I need this",
+            },
+
+            truckType: "DOPOG TR80-47 PRO Crane Truck with HKTC 3014",
+
+            category: "Crane-Manipulator Trucks",
+
+            description: {
+                title: "DOPOG TR80-47 PRO",
+                text: "The DOPOG TR80-47 PRO is a versatile cargo vehicle equipped with an HKTC 3014 crane-manipulator. It is designed for independent loading, unloading and transportation of construction and industrial cargo.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Model",
+                        value: "DOPOG TR80-47 PRO",
+                    },
+                    {
+                        title: "Crane",
+                        value: "HKTC 3014",
+                    },
+                    {
+                        title: "Type",
+                        value: "Crane-manipulator truck",
+                    },
+                    {
+                        title: "Application",
+                        value: "Construction and logistics",
+                    },
+                    {
+                        title: "Boom type",
+                        value: "Telescopic",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "DOPOG Crane Unit",
+                    items: [
+                        {
+                            title: "Model",
+                            value: "HKTC 3014",
+                        },
+                        {
+                            title: "Boom type",
+                            value: "Telescopic",
+                        },
+                        {
+                            title: "Outriggers",
+                            value: "Hydraulic",
+                        },
+                        {
+                            title: "Control",
+                            value: "Hydraulic",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "DOPOG TR80-47 PRO",
+                    items: [
+                        {
+                            title: "Body type",
+                            value: "Flatbed platform",
+                        },
+                        {
+                            title: "Application",
+                            value: "Cargo transportation and loading",
+                        },
+                        {
+                            title: "Use",
+                            value: "Construction, installation and logistics",
+                        },
+                        {
+                            title: "Configuration",
+                            value: "Cargo truck with crane-manipulator",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "So‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                getPk: "PK olish",
+                iNeedThis: "Menga kerak",
+            },
+
+            truckType: "HKTC 3014 kran-manipulyatorli DOPOG TR80-47 PRO",
+
+            category: "Kran-manipulyatorlar",
+
+            description: {
+                title: "DOPOG TR80-47 PRO",
+                text: "DOPOG TR80-47 PRO HKTC 3014 kran-manipulyatori bilan jihozlangan universal yuk avtomobilidir. U qurilish va sanoat yuklarini mustaqil ravishda ortish, tushirish hamda tashish uchun mo‘ljallangan.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Model",
+                        value: "DOPOG TR80-47 PRO",
+                    },
+                    {
+                        title: "Kran",
+                        value: "HKTC 3014",
+                    },
+                    {
+                        title: "Turi",
+                        value: "Kran-manipulyatorli yuk avtomobili",
+                    },
+                    {
+                        title: "Vazifasi",
+                        value: "Qurilish va logistika",
+                    },
+                    {
+                        title: "Strela turi",
+                        value: "Teleskopik",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle: "DOPOG kran qurilmasi",
+                    items: [
+                        {
+                            title: "Model",
+                            value: "HKTC 3014",
+                        },
+                        {
+                            title: "Strela turi",
+                            value: "Teleskopik",
+                        },
+                        {
+                            title: "Tayanchlar",
+                            value: "Gidravlik",
+                        },
+                        {
+                            title: "Boshqaruv",
+                            value: "Gidravlik",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "DOPOG TR80-47 PRO",
+                    items: [
+                        {
+                            title: "Kuzov turi",
+                            value: "Bortli platforma",
+                        },
+                        {
+                            title: "Vazifasi",
+                            value: "Yuk tashish va ortish",
+                        },
+                        {
+                            title: "Qo‘llanilishi",
+                            value: "Qurilish, montaj va logistika",
+                        },
+                        {
+                            title: "Komplektatsiya",
+                            value: "Kran-manipulyatorli yuk avtomobili",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: true,
+        id: 55,
+        slug: "dopog-43118-s-kmu-inman-it-150",
+        categoryId: 11,
+
+        images: {
+            image: "https://amttagristorage.blob.core.windows.net/blogimages/assets/chris_boyd_O2g8_H_Cg_DN_8o_unsplash_0d435d9cba.jpg",
+        },
+
+        gallery: [
+            {
+                image: "https://amttagristorage.blob.core.windows.net/blogimages/assets/chris_boyd_O2g8_H_Cg_DN_8o_unsplash_0d435d9cba.jpg",
+            },
+            {
+                image: "https://img.oemoffhighway.com/files/base/acbm/ooh/image/2016/11/IMG_2529.58332db7a9427.png?auto=format%2Ccompress&fit=max&q=70&rect=0%2C96%2C1920%2C1080&w=1200",
+            },
+            {
+                image: "https://kvlg.ru/sites/default/files/img/avtopark/manipulyator-hero.webp",
+            },
+            {
+                image: "https://www.kamazik.ru/upload/iblock/983/9830d26a5fedfa06b8fc9e96a51833b9.jpg",
+            },
+
+            {
+                image: "https://kvlg.ru/sites/default/files/img/avtopark/manipulyator-hero.webp",
+            },
+            {
+                image: "https://www.kamazik.ru/upload/iblock/983/9830d26a5fedfa06b8fc9e96a51833b9.jpg",
+            },
+        ],
+
+        ru: {
+            price: "По запросу",
+
+            buttons: {
+                addToCart: "В корзину",
+                more: "Подробнее",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне это нужно",
+            },
+
+            truckType: "Кран-манипулятор DOPOG 43118 с КМУ INMAN IT 150",
+
+            category: "Краны-манипуляторы",
+
+            description: {
+                title: "DOPOG 43118 с КМУ INMAN IT 150",
+                text: "DOPOG 43118 с краном-манипулятором INMAN IT 150 предназначен для транспортировки грузов и выполнения погрузочно-разгрузочных операций. Конструкция сочетает грузовую платформу и крановую установку, позволяя выполнять работы без привлечения дополнительной погрузочной техники.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Модель",
+                        value: "DOPOG 43118",
+                    },
+                    {
+                        title: "Кран-манипулятор",
+                        value: "INMAN IT 150",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "6x6",
+                    },
+                    {
+                        title: "Тип",
+                        value: "Грузовой автомобиль с КМУ",
+                    },
+                    {
+                        title: "Назначение",
+                        value: "Транспортировка и погрузка грузов",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Кран-манипулятор DOPOG",
+                    items: [
+                        {
+                            title: "Модель КМУ",
+                            value: "INMAN IT 150",
+                        },
+                        {
+                            title: "Тип",
+                            value: "Гидравлический кран-манипулятор",
+                        },
+                        {
+                            title: "Управление",
+                            value: "Гидравлическое",
+                        },
+                        {
+                            title: "Опоры",
+                            value: "Выносные стабилизирующие опоры",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "DOPOG 43118",
+                    items: [
+                        {
+                            title: "Колесная формула",
+                            value: "6x6",
+                        },
+                        {
+                            title: "Тип платформы",
+                            value: "Бортовая грузовая платформа",
+                        },
+                        {
+                            title: "Назначение",
+                            value: "Строительство и перевозка грузов",
+                        },
+                        {
+                            title: "Компоновка",
+                            value: "Шасси с краном-манипулятором",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "On request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "More details",
+                getPk: "Get PK",
+                iNeedThis: "I need this",
+            },
+
+            truckType: "DOPOG 43118 Crane Truck with INMAN IT 150",
+
+            category: "Crane-Manipulator Trucks",
+
+            description: {
+                title: "DOPOG 43118 with INMAN IT 150",
+                text: "The DOPOG 43118 equipped with an INMAN IT 150 crane-manipulator is designed for cargo transportation and loading operations. The configuration combines a cargo platform and crane equipment, allowing loading work without additional lifting machinery.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Model",
+                        value: "DOPOG 43118",
+                    },
+                    {
+                        title: "Crane-manipulator",
+                        value: "INMAN IT 150",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "6x6",
+                    },
+                    {
+                        title: "Type",
+                        value: "Cargo truck with crane-manipulator",
+                    },
+                    {
+                        title: "Application",
+                        value: "Cargo transportation and loading",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "DOPOG Crane-Manipulator",
+                    items: [
+                        {
+                            title: "Crane model",
+                            value: "INMAN IT 150",
+                        },
+                        {
+                            title: "Type",
+                            value: "Hydraulic crane-manipulator",
+                        },
+                        {
+                            title: "Control",
+                            value: "Hydraulic",
+                        },
+                        {
+                            title: "Outriggers",
+                            value: "Hydraulic stabilizing outriggers",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "DOPOG 43118",
+                    items: [
+                        {
+                            title: "Wheel formula",
+                            value: "6x6",
+                        },
+                        {
+                            title: "Platform type",
+                            value: "Flatbed cargo platform",
+                        },
+                        {
+                            title: "Application",
+                            value: "Construction and cargo transportation",
+                        },
+                        {
+                            title: "Configuration",
+                            value: "Chassis with crane-manipulator",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "So‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                getPk: "PK olish",
+                iNeedThis: "Menga kerak",
+            },
+
+            truckType: "INMAN IT 150 kran-manipulyatorli DOPOG 43118",
+
+            category: "Kran-manipulyatorlar",
+
+            description: {
+                title: "INMAN IT 150 li DOPOG 43118",
+                text: "INMAN IT 150 kran-manipulyatori bilan jihozlangan DOPOG 43118 yuk tashish va yuklash-tushirish ishlarini bajarish uchun mo‘ljallangan. Ushbu komplektatsiya yuk platformasi va kran qurilmasini birlashtirib, qo‘shimcha yuklash texnikasisiz ishlash imkonini beradi.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Model",
+                        value: "DOPOG 43118",
+                    },
+                    {
+                        title: "Kran-manipulyator",
+                        value: "INMAN IT 150",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "6x6",
+                    },
+                    {
+                        title: "Turi",
+                        value: "Kran-manipulyatorli yuk avtomobili",
+                    },
+                    {
+                        title: "Vazifasi",
+                        value: "Yuk tashish va ortish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle: "DOPOG kran-manipulyatori",
+                    items: [
+                        {
+                            title: "Kran modeli",
+                            value: "INMAN IT 150",
+                        },
+                        {
+                            title: "Turi",
+                            value: "Gidravlik kran-manipulyator",
+                        },
+                        {
+                            title: "Boshqaruv",
+                            value: "Gidravlik",
+                        },
+                        {
+                            title: "Tayanchlar",
+                            value: "Gidravlik tayanchlar",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "DOPOG 43118",
+                    items: [
+                        {
+                            title: "G‘ildirak formulasi",
+                            value: "6x6",
+                        },
+                        {
+                            title: "Platforma turi",
+                            value: "Bortli yuk platformasi",
+                        },
+                        {
+                            title: "Vazifasi",
+                            value: "Qurilish va yuk tashish",
+                        },
+                        {
+                            title: "Komplektatsiya",
+                            value: "Kran-manipulyatorli shassi",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: true,
+        id: 56,
+        slug: "dopog-65115-s-ks-55713",
+        categoryId: 11,
+
+        images: {
+            image: "https://media.base44.com/images/public/6954ca678e2c3f407fbdd60d/19da4f0fe_ChatGPTImageJan25202607_50_50AM.jpg",
+        },
+
+        gallery: [
+            {
+                image: "https://www.kamazik.ru/upload/iblock/983/9830d26a5fedfa06b8fc9e96a51833b9.jpg",
+            },
+            {
+                image: "https://img.archiexpo.com/pt/images_ae/photo-mg/155527-19684205.jpg",
+            },
+            {
+                image: "https://media.base44.com/images/public/6954ca678e2c3f407fbdd60d/19da4f0fe_ChatGPTImageJan25202607_50_50AM.jpg",
+            },
+            {
+                image: "https://amttagristorage.blob.core.windows.net/blogimages/assets/chris_boyd_O2g8_H_Cg_DN_8o_unsplash_0d435d9cba.jpg",
+            },
+            {
+                image: "https://www.kamazik.ru/upload/iblock/983/9830d26a5fedfa06b8fc9e96a51833b9.jpg",
+            },
+            {
+                image: "https://img.archiexpo.com/pt/images_ae/photo-mg/155527-19684205.jpg",
+            },
+
+            {
+                image: "https://amttagristorage.blob.core.windows.net/blogimages/assets/chris_boyd_O2g8_H_Cg_DN_8o_unsplash_0d435d9cba.jpg",
+            },
+        ],
+
+        ru: {
+            price: "18 900 000 руб.",
+
+            buttons: {
+                addToCart: "В корзину",
+                more: "Подробнее",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне это нужно",
+            },
+
+            truckType: "Автокран DOPOG 65115 с КС-55713",
+
+            category: "Краны-манипуляторы",
+
+            description: {
+                title: "Автокран DOPOG 65115 с КС-55713",
+                text: "Автокран DOPOG 65115 с крановой установкой КС-55713 предназначен для выполнения погрузочно-разгрузочных, монтажных и строительных работ. Техника сочетает мобильность грузового шасси и функциональность полноповоротной крановой установки.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "DOPOG 65115",
+                    },
+                    {
+                        title: "Крановая установка",
+                        value: "КС-55713",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Тип техники",
+                        value: "Автокран",
+                    },
+                    {
+                        title: "Назначение",
+                        value: "Строительные и монтажные работы",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Крановая установка DOPOG",
+                    items: [
+                        {
+                            title: "Модель",
+                            value: "КС-55713",
+                        },
+                        {
+                            title: "Тип",
+                            value: "Автомобильный кран",
+                        },
+                        {
+                            title: "Стрела",
+                            value: "Телескопическая",
+                        },
+                        {
+                            title: "Опоры",
+                            value: "Гидравлические",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "Шасси DOPOG 65115",
+                    items: [
+                        {
+                            title: "Колесная формула",
+                            value: "6x4",
+                        },
+                        {
+                            title: "Тип шасси",
+                            value: "Грузовое автомобильное шасси",
+                        },
+                        {
+                            title: "Назначение",
+                            value: "Монтаж, строительство и погрузка",
+                        },
+                        {
+                            title: "Крановая система",
+                            value: "Полноповоротная",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "18,900,000 RUB",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "More details",
+                getPk: "Get PK",
+                iNeedThis: "I need this",
+            },
+
+            truckType: "DOPOG 65115 Mobile Crane with KS-55713",
+
+            category: "Crane-Manipulator Trucks",
+
+            description: {
+                title: "DOPOG 65115 Mobile Crane with KS-55713",
+                text: "The DOPOG 65115 mobile crane equipped with a KS-55713 crane unit is designed for loading, unloading, installation and construction operations. The vehicle combines the mobility of a truck chassis with the functionality of a full-slewing crane unit.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "DOPOG 65115",
+                    },
+                    {
+                        title: "Crane unit",
+                        value: "KS-55713",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Vehicle type",
+                        value: "Mobile crane",
+                    },
+                    {
+                        title: "Application",
+                        value: "Construction and installation operations",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "DOPOG Crane Unit",
+                    items: [
+                        {
+                            title: "Model",
+                            value: "KS-55713",
+                        },
+                        {
+                            title: "Type",
+                            value: "Truck-mounted crane",
+                        },
+                        {
+                            title: "Boom",
+                            value: "Telescopic",
+                        },
+                        {
+                            title: "Outriggers",
+                            value: "Hydraulic",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "DOPOG 65115 Chassis",
+                    items: [
+                        {
+                            title: "Wheel formula",
+                            value: "6x4",
+                        },
+                        {
+                            title: "Chassis type",
+                            value: "Heavy-duty truck chassis",
+                        },
+                        {
+                            title: "Application",
+                            value: "Installation, construction and loading",
+                        },
+                        {
+                            title: "Crane system",
+                            value: "Full-slewing",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "18 900 000 rub.",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                getPk: "PK olish",
+                iNeedThis: "Menga kerak",
+            },
+
+            truckType: "KS-55713 kran qurilmasiga ega DOPOG 65115 avtokran",
+
+            category: "Kran-manipulyatorlar",
+
+            description: {
+                title: "KS-55713 kran qurilmasiga ega DOPOG 65115 avtokran",
+                text: "KS-55713 kran qurilmasi bilan jihozlangan DOPOG 65115 avtokran yuklash-tushirish, montaj va qurilish ishlarini bajarish uchun mo‘ljallangan. Texnika yuk avtomobili shassisining harakatchanligini to‘liq aylanadigan kran qurilmasining funksionalligi bilan birlashtiradi.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "DOPOG 65115",
+                    },
+                    {
+                        title: "Kran qurilmasi",
+                        value: "KS-55713",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Texnika turi",
+                        value: "Avtokran",
+                    },
+                    {
+                        title: "Vazifasi",
+                        value: "Qurilish va montaj ishlari",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle: "DOPOG kran qurilmasi",
+                    items: [
+                        {
+                            title: "Model",
+                            value: "KS-55713",
+                        },
+                        {
+                            title: "Turi",
+                            value: "Avtomobil krani",
+                        },
+                        {
+                            title: "Strela",
+                            value: "Teleskopik",
+                        },
+                        {
+                            title: "Tayanchlar",
+                            value: "Gidravlik",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "DOPOG 65115 shassisi",
+                    items: [
+                        {
+                            title: "G‘ildirak formulasi",
+                            value: "6x4",
+                        },
+                        {
+                            title: "Shassi turi",
+                            value: "Og‘ir yuk avtomobili shassisi",
+                        },
+                        {
+                            title: "Vazifasi",
+                            value: "Montaj, qurilish va yuklash",
+                        },
+                        {
+                            title: "Kran tizimi",
+                            value: "To‘liq aylanadigan",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+
+    {
+        available: true,
+        recommended: true,
+        id: 57,
+        slug: "dopog-65115-s-ks-55729-1k-3",
+        categoryId: 11,
+
+        images: {
+            image: "https://www.kamazik.ru/upload/iblock/983/9830d26a5fedfa06b8fc9e96a51833b9.jpg",
+        },
+
+        gallery: [
+            {
+                image: "https://kvlg.ru/sites/default/files/img/avtopark/manipulyator-hero.webp",
+            },
+            {
+                image: "https://img.oemoffhighway.com/files/base/acbm/ooh/image/2016/11/IMG_2529.58332db7a9427.png?auto=format%2Ccompress&fit=max&q=70&rect=0%2C96%2C1920%2C1080&w=1200",
+            },
+            {
+                image: "https://www.kamazik.ru/upload/iblock/983/9830d26a5fedfa06b8fc9e96a51833b9.jpg",
+            },
+            {
+                image: "https://kvlg.ru/sites/default/files/img/avtopark/manipulyator-hero.webp",
+            },
+            {
+                image: "https://img.oemoffhighway.com/files/base/acbm/ooh/image/2016/11/IMG_2529.58332db7a9427.png?auto=format%2Ccompress&fit=max&q=70&rect=0%2C96%2C1920%2C1080&w=1200",
+            },
+        ],
+
+        ru: {
+            price: "19 797 428 руб.",
+
+            buttons: {
+                addToCart: "В корзину",
+                more: "Подробнее",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне это нужно",
+            },
+
+            truckType: "Автокран DOPOG 65115 с КС-55729-1К-3",
+
+            category: "Краны-манипуляторы",
+
+            description: {
+                title: "Автокран DOPOG 65115 с КС-55729-1К-3",
+                text: "Автокран DOPOG 65115 с крановой установкой КС-55729-1К-3 предназначен для строительных, монтажных, погрузочно-разгрузочных и других работ, требующих перемещения тяжелых грузов. Конструкция обеспечивает сочетание мобильности шасси и высокой грузоподъемности крановой установки.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "DOPOG 65115",
+                    },
+                    {
+                        title: "Крановая установка",
+                        value: "КС-55729-1К-3",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Дизельный",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Полная масса",
+                        value: "25200 кг",
+                    },
+                    {
+                        title: "Грузоподъемность крана",
+                        value: "32 т",
+                    },
+                    {
+                        title: "Максимальный грузовой момент",
+                        value: "102,5 т·м",
+                    },
+                    {
+                        title: "Длина стрелы",
+                        value: "10,1–33 м",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Крановая установка DOPOG",
+                    items: [
+                        {
+                            title: "Модель",
+                            value: "КС-55729-1К-3",
+                        },
+                        {
+                            title: "Максимальная грузоподъемность",
+                            value: "32 т",
+                        },
+                        {
+                            title: "Максимальный грузовой момент",
+                            value: "102,5 т·м",
+                        },
+                        {
+                            title: "Профиль стрелы",
+                            value: "Овальный, четырехсекционный",
+                        },
+                        {
+                            title: "Длина основной стрелы",
+                            value: "10,1–33 м",
+                        },
+                        {
+                            title: "Дополнительный гусек",
+                            value: "9 м",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "Шасси DOPOG 65115",
+                    items: [
+                        {
+                            title: "Колесная формула",
+                            value: "6x4",
+                        },
+                        {
+                            title: "Полная масса",
+                            value: "25200 кг",
+                        },
+                        {
+                            title: "Тип двигателя",
+                            value: "Дизельный",
+                        },
+                        {
+                            title: "Назначение",
+                            value: "Строительные и монтажные работы",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "19,797,428 RUB",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "More details",
+                getPk: "Get PK",
+                iNeedThis: "I need this",
+            },
+
+            truckType: "DOPOG 65115 Mobile Crane with KS-55729-1K-3",
+
+            category: "Crane-Manipulator Trucks",
+
+            description: {
+                title: "DOPOG 65115 Mobile Crane with KS-55729-1K-3",
+                text: "The DOPOG 65115 mobile crane equipped with the KS-55729-1K-3 crane unit is designed for construction, installation, loading and unloading operations and other tasks requiring the movement of heavy loads. The configuration combines chassis mobility with high crane lifting capacity.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "DOPOG 65115",
+                    },
+                    {
+                        title: "Crane unit",
+                        value: "KS-55729-1K-3",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Diesel",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Gross vehicle weight",
+                        value: "25,200 kg",
+                    },
+                    {
+                        title: "Crane lifting capacity",
+                        value: "32 t",
+                    },
+                    {
+                        title: "Maximum load moment",
+                        value: "102.5 tm",
+                    },
+                    {
+                        title: "Boom length",
+                        value: "10.1–33 m",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "DOPOG Crane Unit",
+                    items: [
+                        {
+                            title: "Model",
+                            value: "KS-55729-1K-3",
+                        },
+                        {
+                            title: "Maximum lifting capacity",
+                            value: "32 t",
+                        },
+                        {
+                            title: "Maximum load moment",
+                            value: "102.5 tm",
+                        },
+                        {
+                            title: "Boom profile",
+                            value: "Oval, four-section",
+                        },
+                        {
+                            title: "Main boom length",
+                            value: "10.1–33 m",
+                        },
+                        {
+                            title: "Additional jib",
+                            value: "9 m",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "DOPOG 65115 Chassis",
+                    items: [
+                        {
+                            title: "Wheel formula",
+                            value: "6x4",
+                        },
+                        {
+                            title: "Gross vehicle weight",
+                            value: "25,200 kg",
+                        },
+                        {
+                            title: "Engine type",
+                            value: "Diesel",
+                        },
+                        {
+                            title: "Application",
+                            value: "Construction and installation operations",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "19 797 428 rub.",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                getPk: "PK olish",
+                iNeedThis: "Menga kerak",
+            },
+
+            truckType:
+                "KS-55729-1K-3 kran qurilmasiga ega DOPOG 65115 avtokran",
+
+            category: "Kran-manipulyatorlar",
+
+            description: {
+                title: "KS-55729-1K-3 kran qurilmasiga ega DOPOG 65115 avtokran",
+                text: "KS-55729-1K-3 kran qurilmasi bilan jihozlangan DOPOG 65115 avtokran qurilish, montaj, yuklash-tushirish va og‘ir yuklarni ko‘chirish talab qilinadigan boshqa ishlar uchun mo‘ljallangan. Texnika shassi harakatchanligi va kran qurilmasining yuqori yuk ko‘tarish imkoniyatlarini birlashtiradi.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "DOPOG 65115",
+                    },
+                    {
+                        title: "Kran qurilmasi",
+                        value: "KS-55729-1K-3",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Dizel",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "6x4",
+                    },
+                    {
+                        title: "To‘liq massa",
+                        value: "25200 kg",
+                    },
+                    {
+                        title: "Kran yuk ko‘tarish qobiliyati",
+                        value: "32 t",
+                    },
+                    {
+                        title: "Maksimal yuk momenti",
+                        value: "102,5 t·m",
+                    },
+                    {
+                        title: "Strela uzunligi",
+                        value: "10,1–33 m",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle: "DOPOG kran qurilmasi",
+                    items: [
+                        {
+                            title: "Model",
+                            value: "KS-55729-1K-3",
+                        },
+                        {
+                            title: "Maksimal yuk ko‘tarish qobiliyati",
+                            value: "32 t",
+                        },
+                        {
+                            title: "Maksimal yuk momenti",
+                            value: "102,5 t·m",
+                        },
+                        {
+                            title: "Strela profili",
+                            value: "Oval, to‘rt seksiyali",
+                        },
+                        {
+                            title: "Asosiy strela uzunligi",
+                            value: "10,1–33 m",
+                        },
+                        {
+                            title: "Qo‘shimcha gusyok",
+                            value: "9 m",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "DOPOG 65115 shassisi",
+                    items: [
+                        {
+                            title: "G‘ildirak formulasi",
+                            value: "6x4",
+                        },
+                        {
+                            title: "To‘liq massa",
+                            value: "25200 kg",
+                        },
+                        {
+                            title: "Dvigatel turi",
+                            value: "Dizel",
+                        },
+                        {
+                            title: "Vazifasi",
+                            value: "Qurilish va montaj ishlari",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+
+    /*
+    {
+        available: true,
+        recommended: false,
+        id: 53,
+        slug: "kran-manipulyator-sollers-tr80-47-s-kmu-hktc-3014",
+        categoryId: 11,
+
+        images: {
+            image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80",
+        },
+
+        gallery: [
+            {
+                image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80",
+            },
+            {
+                image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=80",
+            },
+            {
+                image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80",
+            },
+
+            {
+                image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80",
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужно это",
+            },
+
+            truckType:
+                "Кран-манипулятор SOLLERS TR80-47 с КМУ HKTC 3014 (модель 4389A8)",
+            category: "Краны-манипуляторы",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "SOLLERS TR80-47" },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins D4.0EVID170, 163 л. с.",
+                    },
+                    { title: "КПП", value: "Механическая, 6-ти ступенчатая" },
+                    { title: "Колесная формула", value: "4x2" },
+                    { title: "Полная масса, кг", value: "7980" },
+                    { title: "Грузоподъёмность, кг", value: "1580" },
+                    { title: "Грузоподъёмность КМУ, тонн", value: "3,2" },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Кран-манипулятор SOLLERS TR80-47 с КМУ HKTC 3014",
+                    items: [
+                        {
+                            title: "Тип надстройки",
+                            value: "Бортовая платформа + КМУ HKTC 3014",
+                        },
+                        {
+                            title: "Двигатель: Модель",
+                            value: "Cummins D4.0EVID170",
+                        },
+                        { title: "Мощность двигателя", value: "163 л. с." },
+                        {
+                            title: "Коробка передач",
+                            value: "Механическая, 6-ступенчатая",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "SOLLERS TR80-47 Crane-Manipulator Truck with HKTC 3014 CMU (Model 4389A8)",
+            category: "Crane-Manipulator Trucks",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Base chassis", value: "SOLLERS TR80-47" },
+                    { title: "Engine", value: "Cummins D4.0EVID170, 163 hp" },
+                    { title: "Transmission", value: "Manual, 6-speed" },
+                    { title: "Wheel formula", value: "4x2" },
+                    { title: "Gross vehicle weight, kg", value: "7980" },
+                    { title: "Payload capacity, kg", value: "1580" },
+                    { title: "CMU lifting capacity, tons", value: "3.2" },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "SOLLERS TR80-47 Crane-Manipulator Truck with HKTC 3014 CMU",
+                    items: [
+                        {
+                            title: "Superstructure type",
+                            value: "Flatbed platform + HKTC 3014 CMU",
+                        },
+                        {
+                            title: "Engine: Model",
+                            value: "Cummins D4.0EVID170",
+                        },
+                        { title: "Engine power", value: "163 hp" },
+                        { title: "Transmission", value: "Manual, 6-speed" },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narxi so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "SOLLERS TR80-47 kran-manipulyatori HKTC 3014 KMU bilan (4389A8 modeli)",
+            category: "Kran-manipulyatorlar",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Bazaviy shassi", value: "SOLLERS TR80-47" },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins D4.0EVID170, 163 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    { title: "G‘ildirak formulasi", value: "4x2" },
+                    { title: "To‘liq massa, kg", value: "7980" },
+                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "1580" },
+                    {
+                        title: "KMU yuk ko‘tarish qobiliyati, tonna",
+                        value: "3.2",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "SOLLERS TR80-47 kran-manipulyatori HKTC 3014 KMU bilan",
+                    items: [
+                        {
+                            title: "Ustqurma turi",
+                            value: "Bortli platforma + HKTC 3014 KMU",
+                        },
+                        {
+                            title: "Dvigatel: Model",
+                            value: "Cummins D4.0EVID170",
+                        },
+                        { title: "Dvigatel quvvati", value: "163 ot kuchi" },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+
+    {
+        available: true,
+        recommended: false,
+        id: 54,
+        slug: "kran-manipulyator-sollers-tr80-47-s-kmu-hktc-3014",
+        categoryId: 11,
+
+        images: {
+            image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80",
+        },
+
+        gallery: [
+            {
+                image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80",
+            },
+            {
+                image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80",
+            },
+
+            {
+                image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=80",
+            },
+            {
+                image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80",
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужно это",
+            },
+
+            truckType:
+                "Кран-манипулятор SOLLERS TR80-47 с КМУ HKTC 3014 (модель 4389A8)",
+            category: "Краны-манипуляторы",
+
+            description: {
+                title: "Описание",
+                text: "Кран-манипулятор на базе шасси SOLLERS TR80-47 представляет собой высокоэффективное универсальное транспортное средство, предназначенное для погрузочно-разгрузочных работ и транспортировки различных строительных, промышленных и габаритных грузов. Комплектуется надежной крано-манипуляторной установкой HKTC 3014, обеспечивающей точность позиционирования груза на вылете стрелы, а бортовая платформа позволяет безопасно перевозить материалы в городских и межрегиональных условиях.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "SOLLERS TR80-47" },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins D4.0EVID170, 163 л. с.",
+                    },
+                    { title: "КПП", value: "Механическая, 6-ти ступенчатая" },
+                    { title: "Колесная формула", value: "4x2" },
+                    { title: "Полная масса, кг", value: "7980" },
+                    { title: "Грузоподъёмность, кг", value: "1580" },
+                    { title: "Грузоподъёмность КМУ, тонн", value: "3,2" },
+                    { title: "Вылет стрелы КМУ, м", value: "7,8" },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Кран-манипулятор SOLLERS TR80-47 с КМУ HKTC 3014",
+                    items: [
+                        {
+                            title: "Тип надстройки",
+                            value: "Бортовая платформа + КМУ HKTC 3014",
+                        },
+                        {
+                            title: "Двигатель: Модель",
+                            value: "Cummins D4.0EVID170 (дизельный)",
+                        },
+                        {
+                            title: "Мощность двигателя",
+                            value: "163 л. с. / 120 кВт",
+                        },
+                        {
+                            title: "Коробка передач",
+                            value: "Механическая, 6-ступенчатая",
+                        },
+                        {
+                            title: "Материал бортов",
+                            value: "Анодированный алюминиевый профиль",
+                        },
+                        {
+                            title: "Настил пола",
+                            value: "Влагостойкая ламинированная фанера с антискользящим покрытием",
+                        },
+                        {
+                            title: "Безопасность",
+                            value: "Защитные ограждения, задний противоподкатный брус, такелажные петли",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "SOLLERS TR80-47 Crane-Manipulator Truck with HKTC 3014 CMU (Model 4389A8)",
+            category: "Crane-Manipulator Trucks",
+
+            description: {
+                title: "Description",
+                text: "The crane-manipulator truck based on the SOLLERS TR80-47 chassis is a highly efficient universal vehicle designed for loading, unloading, and transporting various construction, industrial, and oversized cargo. Equipped with a reliable HKTC 3014 crane-manipulator unit, it ensures precise cargo positioning at boom reach, while the flatbed platform allows safe transport in urban and regional environments.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Base chassis", value: "SOLLERS TR80-47" },
+                    { title: "Engine", value: "Cummins D4.0EVID170, 163 hp" },
+                    { title: "Transmission", value: "Manual, 6-speed" },
+                    { title: "Wheel formula", value: "4x2" },
+                    { title: "Gross vehicle weight, kg", value: "7980" },
+                    { title: "Payload capacity, kg", value: "1580" },
+                    { title: "CMU lifting capacity, tons", value: "3.2" },
+                    { title: "Boom reach, m", value: "7.8" },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "SOLLERS TR80-47 Crane-Manipulator Truck with HKTC 3014 CMU",
+                    items: [
+                        {
+                            title: "Superstructure type",
+                            value: "Flatbed platform + HKTC 3014 CMU",
+                        },
+                        {
+                            title: "Engine: Model",
+                            value: "Cummins D4.0EVID170 (diesel)",
+                        },
+                        { title: "Engine power", value: "163 hp / 120 kW" },
+                        { title: "Transmission", value: "Manual, 6-speed" },
+                        {
+                            title: "Side material",
+                            value: "Anodized aluminum profile",
+                        },
+                        {
+                            title: "Floor decking",
+                            value: "Moisture-resistant laminated plywood with anti-slip coating",
+                        },
+                        {
+                            title: "Safety features",
+                            value: "Protective guards, rear underrun protection, lashing loops",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narxi so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "SOLLERS TR80-47 kran-manipulyatori HKTC 3014 KMU bilan (4389A8 modeli)",
+            category: "Kran-manipulyatorlar",
+
+            description: {
+                title: "Tavsif",
+                text: "SOLLERS TR80-47 shassisi bazasidagi kran-manipulyator turli xil qurilish, sanoat va gabarit yuklarni ortish-tushirish va tashish uchun mo'ljallangan yuqori samarali universal transport vositasidir. Ishonchli HKTC 3014 kran-manipulyator qurilmasi bilan jihozlangan bo'lib, strelka chiqishida yukni aniq joylashtirishni ta'minlaydi, bortli platforma esa shahar va huduslararo sharoitlarda materiallarni xavfsiz tashish imkonini beradi.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Bazaviy shassi", value: "SOLLERS TR80-47" },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins D4.0EVID170, 163 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    { title: "G‘ildirak formulasi", value: "4x2" },
+                    { title: "To‘liq massa, kg", value: "7980" },
+                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "1580" },
+                    {
+                        title: "KMU yuk ko‘tarish qobiliyati, tonna",
+                        value: "3.2",
+                    },
+                    { title: "Strelka chiqishi, m", value: "7.8" },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "SOLLERS TR80-47 kran-manipulyatori HKTC 3014 KMU bilan",
+                    items: [
+                        {
+                            title: "Ustqurma turi",
+                            value: "Bortli platforma + HKTC 3014 KMU",
+                        },
+                        {
+                            title: "Dvigatel: Model",
+                            value: "Cummins D4.0EVID170 (dizel)",
+                        },
+                        {
+                            title: "Dvigatel quvvati",
+                            value: "163 ot kuchi / 120 kVt",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "Bortlar materiali",
+                            value: "Anodlangan alyuminiy profil",
+                        },
+                        {
+                            title: "Pol qoplamasi",
+                            value: "Sirpanmaydigan qoplamali namlikka chidamli laminatlangan fanera",
+                        },
+                        {
+                            title: "Xavfsizlik",
+                            value: "Himoya to'siqlari, orqa himoya brusi, yuk mahkamlash halqalari",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: true,
+        id: 55,
+        slug: "kran-manipulyator-kamaz-43118-s-kmu-inman-it-150",
+        categoryId: 11,
+
+        images: {
+            image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=80",
+        },
+        gallery: [
+            {
+                image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1200&q=80",
+            },
+            {
+                image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80",
+            },
+            {
+                image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=80",
+            },
+        ],
+        ru: {
+            price: "12 500 000 руб.",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужно это",
+            },
+
+            truckType:
+                "Кран-манипулятор КАМАЗ 43118 с КМУ INMAN IT 150 (модель 43118-30)",
+            category: "Краны-манипуляторы",
+
+            description: {
+                title: "Описание",
+                text: "Полноприводный кран-манипулятор на шасси КАМАЗ 43118 (колесная формула 6х6) с тросовой КМУ INMAN IT 150 предназначен для выполнения тяжелых погрузочно-разгрузочных и строительно-монтажных работ в условиях бездорожья и труднодоступной местности. Высокая проходимость шасси и надежная гидроманипуляторная установка делают его незаменимым помощником в нефтегазовой, строительной и энергетической отраслях.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "КАМАЗ 43118" },
+                    {
+                        title: "Двигатель",
+                        value: "КАМАЗ 740.705-300 (Евро-5), 300 л. с.",
+                    },
+                    { title: "КПП", value: "Механическая, 9-ти ступенчатая" },
+                    { title: "Колесная формула", value: "6x6" },
+                    { title: "Полная масса, кг", value: "21600" },
+                    { title: "Грузоподъёмность, кг", value: "10500" },
+                    { title: "Грузоподъёмность КМУ, тонн", value: "6,0" },
+                    { title: "Вылет стрелы КМУ, м", value: "19,0" },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Кран-манипулятор КАМАЗ 43118 с КМУ INMAN IT 150",
+                    items: [
+                        {
+                            title: "Тип надстройки",
+                            value: "Бортовая платформа повышенной вместимости + тросовый КМУ INMAN IT 150",
+                        },
+                        {
+                            title: "Двигатель: Модель",
+                            value: "КАМАЗ 740.705-300, дизельный с турбонаддувом",
+                        },
+                        {
+                            title: "Мощность двигателя",
+                            value: "300 л. с. / 220 кВт",
+                        },
+                        {
+                            title: "Коробка передач",
+                            value: "ZF 9S1310, механическая, 9-ступенчатая",
+                        },
+                        {
+                            title: "Материал бортов",
+                            value: "Стальной профилированный лист с антикоррозийным покрытием",
+                        },
+                        {
+                            title: "Настил пола",
+                            value: "Усиленная влагостойкая фанера с противоскользящим слоем",
+                        },
+                        {
+                            title: "Проходимость",
+                            value: "Постоянный полный привод 6х6, межколесные и межосевые блокировки",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "12,500,000 RUB",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "KAMAZ 43118 Crane-Manipulator Truck with INMAN IT 150 CMU (Model 43118-30)",
+            category: "Crane-Manipulator Trucks",
+
+            description: {
+                title: "Description",
+                text: "The all-wheel-drive crane-manipulator truck based on the KAMAZ 43118 chassis (6x6 wheel formula) with an INMAN IT 150 cable CMU is designed for heavy loading, unloading, and construction-installation works in off-road and harsh terrain conditions. High chassis cross-country capability and a reliable hydraulic manipulator unit make it an essential asset in the oil and gas, construction, and energy sectors.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Base chassis", value: "KAMAZ 43118" },
+                    {
+                        title: "Engine",
+                        value: "KAMAZ 740.705-300 (Euro-5), 300 hp",
+                    },
+                    { title: "Transmission", value: "Manual, 9-speed" },
+                    { title: "Wheel formula", value: "6x6" },
+                    { title: "Gross vehicle weight, kg", value: "21600" },
+                    { title: "Payload capacity, kg", value: "10500" },
+                    { title: "CMU lifting capacity, tons", value: "6.0" },
+                    { title: "Boom reach, m", value: "19.0" },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "KAMAZ 43118 Crane-Manipulator Truck with INMAN IT 150 CMU",
+                    items: [
+                        {
+                            title: "Superstructure type",
+                            value: "High-capacity flatbed platform + INMAN IT 150 cable CMU",
+                        },
+                        {
+                            title: "Engine: Model",
+                            value: "KAMAZ 740.705-300, turbocharged diesel",
+                        },
+                        { title: "Engine power", value: "300 hp / 220 kW" },
+                        {
+                            title: "Transmission",
+                            value: "ZF 9S1310, manual, 9-speed",
+                        },
+                        {
+                            title: "Side material",
+                            value: "Profiled steel sheet with anti-corrosion coating",
+                        },
+                        {
+                            title: "Floor decking",
+                            value: "Reinforced moisture-resistant plywood with anti-slip layer",
+                        },
+                        {
+                            title: "Off-road capability",
+                            value: "Permanent 6x6 all-wheel drive, inter-wheel and inter-axle locks",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "12 500 000 rub.",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "KAMAZ 43118 kran-manipulyatori INMAN IT 150 KMU bilan (43118-30 modeli)",
+            category: "Kran-manipulyatorlar",
+
+            description: {
+                title: "Tavsif",
+                text: "INMAN IT 150 trosli KMUga ega KAMAZ 43118 shassisi (6x6 g'ildirak formulasi) bazasidagi to'liq privodli kran-manipulyator yo'lsizlik va qiyin sharoitlarda og'ir ortish-tushirish va qurilish-montaj ishlarini bajarish uchun mo'ljallangan. Shassining yuqori o'tkazuvchanligi va ishonchli gidravlik manipulyator uni neft-gaz, qurilish va energetika sohalarida ajralmas yordamchiga aylantiradi.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Bazaviy shassi", value: "KAMAZ 43118" },
+                    {
+                        title: "Dvigatel",
+                        value: "KAMAZ 740.705-300 (Yevro-5), 300 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 9 pog‘onali",
+                    },
+                    { title: "G‘ildirak formulasi", value: "6x6" },
+                    { title: "To‘liq massa, kg", value: "21600" },
+                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "10500" },
+                    {
+                        title: "KMU yuk ko‘tarish qobiliyati, tonna",
+                        value: "6.0",
+                    },
+                    { title: "Strelka chiqishi, m", value: "19.0" },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "KAMAZ 43118 kran-manipulyatori INMAN IT 150 KMU bilan",
+                    items: [
+                        {
+                            title: "Ustqurma turi",
+                            value: "Kengaytirilgan bortli platforma + INMAN IT 150 trosli KMU",
+                        },
+                        {
+                            title: "Dvigatel: Model",
+                            value: "KAMAZ 740.705-300, turبوdizel",
+                        },
+                        {
+                            title: "Dvigatel quvvati",
+                            value: "300 ot kuchi / 220 kVt",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "ZF 9S1310, mexanik, 9 pog‘onali",
+                        },
+                        {
+                            title: "Bortlar materiali",
+                            value: "Korroziyaga qarshi qoplamali profilli po'lat list",
+                        },
+                        {
+                            title: "Pol qoplamasi",
+                            value: "Sirpanmaydigan qatlamli kuchaytirilgan namlikka chidamli fanera",
+                        },
+                        {
+                            title: "O'tkazuvchanlik",
+                            value: "Doimiy 6x6 to'liq privod, g'ildiraklararo va o'qlararo blokirovkalar",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 56,
+        slug: "avtokranshchik-kamaz-65115-s-kranom-ks-55713",
+
+        categoryId: 11,
+
+        images: {
+            image: "https://www.k2com.ru/upload/iblock/3cf/0n61tv2cxprrjz0i9sc829oc3ox4kwh1.jpeg",
+        },
+
+        gallery: [
+            {
+                image: "https://kamaz.avtofurgon.ru/upload/iblock/021/6fsjq15fukj0sejffvl4u0y16cjjom5o.webp",
+            },
+            {
+                image: "https://kamaz.avtofurgon.ru/upload/resize_cache/iblock/7b3/1200_900_0/m8ub1u7qijdciqrixex8ms81z5a8mtg7.webp",
+            },
+            {
+                image: "https://www.al63.ru/goods/296839866-avtokran_25_t_klintsy_x_55713_1k_4v_na_shassi_kamaz_65115_6_kh_4",
+            },
+        ],
+
+        ru: {
+            price: "18 900 000 руб.",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужно это",
+            },
+
+            truckType: "Автокран КАМАЗ 65115 с крановой установкой КС-55713",
+            category: "Краны-манипуляторы",
+
+            description: {
+                title: "Описание",
+                text: "Автокран на шасси КАМАЗ 65115 с крановой установкой КС-55713 предназначен для выполнения погрузочно-разгрузочных, строительных и монтажных работ на промышленных и строительных объектах. Усиленное шасси, надежная силовая установка и телескопическая стрела обеспечивают высокую производительность при работе с тяжелыми грузами.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "КАМАЗ 65115" },
+                    {
+                        title: "Двигатель",
+                        value: "КАМАЗ 740.62-280, дизельный, 280 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 9-ти ступенчатая",
+                    },
+                    { title: "Колесная формула", value: "6x4" },
+                    { title: "Полная масса, кг", value: "25200" },
+                    { title: "Грузоподъёмность, кг", value: "15000" },
+                    {
+                        title: "Грузоподъёмность крана, тонн",
+                        value: "16,0",
+                    },
+                    {
+                        title: "Длина стрелы, м",
+                        value: "21,7",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Автокран КАМАЗ 65115 с крановой установкой КС-55713",
+
+                    items: [
+                        {
+                            title: "Тип надстройки",
+                            value: "Автокрановая установка КС-55713 на шасси КАМАЗ 65115",
+                        },
+                        {
+                            title: "Двигатель: Модель",
+                            value: "КАМАЗ 740.62-280, дизельный с турбонаддувом",
+                        },
+                        {
+                            title: "Мощность двигателя",
+                            value: "280 л. с. / 206 кВт",
+                        },
+                        {
+                            title: "Коробка передач",
+                            value: "ZF 9S1310, механическая, 9-ступенчатая",
+                        },
+                        {
+                            title: "Грузовой момент",
+                            value: "48 тм",
+                        },
+                        {
+                            title: "Максимальный вылет стрелы",
+                            value: "19,7 м",
+                        },
+                        {
+                            title: "Опорный контур",
+                            value: "Передние и задние выносные опоры с гидравлическим приводом",
+                        },
+                        {
+                            title: "Проходимость",
+                            value: "Колесная формула 6х4, усиленное шасси для строительных площадок",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "18,900,000 RUB",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "KAMAZ 65115 Mobile Crane with KS-55713 Crane Unit",
+            category: "Crane-Manipulator Trucks",
+
+            description: {
+                title: "Description",
+                text: "The mobile crane based on the KAMAZ 65115 chassis and equipped with a KS-55713 crane unit is designed for loading, unloading, construction, and installation operations at industrial and construction sites. The reinforced chassis, reliable powertrain, and telescopic boom provide high productivity when handling heavy loads.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Base chassis", value: "KAMAZ 65115" },
+                    {
+                        title: "Engine",
+                        value: "KAMAZ 740.62-280, diesel, 280 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 9-speed",
+                    },
+                    { title: "Wheel formula", value: "6x4" },
+                    { title: "Gross vehicle weight, kg", value: "25200" },
+                    { title: "Payload capacity, kg", value: "15000" },
+                    {
+                        title: "Crane lifting capacity, tons",
+                        value: "16.0",
+                    },
+                    {
+                        title: "Boom length, m",
+                        value: "21.7",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "KAMAZ 65115 Mobile Crane with KS-55713 Crane Unit",
+
+                    items: [
+                        {
+                            title: "Superstructure type",
+                            value: "KS-55713 mobile crane unit mounted on a KAMAZ 65115 chassis",
+                        },
+                        {
+                            title: "Engine: Model",
+                            value: "KAMAZ 740.62-280, turbocharged diesel",
+                        },
+                        {
+                            title: "Engine power",
+                            value: "280 hp / 206 kW",
+                        },
+                        {
+                            title: "Transmission",
+                            value: "ZF 9S1310, manual, 9-speed",
+                        },
+                        {
+                            title: "Load moment",
+                            value: "48 tm",
+                        },
+                        {
+                            title: "Maximum boom reach",
+                            value: "19.7 m",
+                        },
+                        {
+                            title: "Outrigger system",
+                            value: "Front and rear hydraulic outriggers",
+                        },
+                        {
+                            title: "Off-road capability",
+                            value: "6x4 wheel formula with reinforced chassis for construction sites",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "18 900 000 rub.",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "KS-55713 kran qurilmasiga ega KAMAZ 65115 avtokran",
+            category: "Kran-manipulyatorlar",
+
+            description: {
+                title: "Tavsif",
+                text: "KS-55713 kran qurilmasi bilan jihozlangan KAMAZ 65115 shassisidagi avtokran sanoat va qurilish obyektlarida yuklash-tushirish, qurilish hamda montaj ishlarini bajarish uchun mo‘ljallangan. Kuchaytirilgan shassi, ishonchli dvigatel va teleskopik strelka og‘ir yuklar bilan ishlashda yuqori unumdorlikni ta’minlaydi.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Bazaviy shassi", value: "KAMAZ 65115" },
+                    {
+                        title: "Dvigatel",
+                        value: "KAMAZ 740.62-280, dizel, 280 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 9 pog‘onali",
+                    },
+                    { title: "G‘ildirak formulasi", value: "6x4" },
+                    { title: "To‘liq massa, kg", value: "25200" },
+                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "15000" },
+                    {
+                        title: "Kran yuk ko‘tarish qobiliyati, tonna",
+                        value: "16.0",
+                    },
+                    {
+                        title: "Strelka uzunligi, m",
+                        value: "21.7",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "KS-55713 kran qurilmasiga ega KAMAZ 65115 avtokran",
+
+                    items: [
+                        {
+                            title: "Ustqurma turi",
+                            value: "KAMAZ 65115 shassisiga o‘rnatilgan KS-55713 avtokran qurilmasi",
+                        },
+                        {
+                            title: "Dvigatel: Model",
+                            value: "KAMAZ 740.62-280, turbokompressorli dizel",
+                        },
+                        {
+                            title: "Dvigatel quvvati",
+                            value: "280 ot kuchi / 206 kVt",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "ZF 9S1310, mexanik, 9 pog‘onali",
+                        },
+                        {
+                            title: "Yuk momenti",
+                            value: "48 tm",
+                        },
+                        {
+                            title: "Strelkaning maksimal chiqishi",
+                            value: "19.7 m",
+                        },
+                        {
+                            title: "Tayanch tizimi",
+                            value: "Old va orqa gidravlik tayanchlar",
+                        },
+                        {
+                            title: "O‘tkazuvchanlik",
+                            value: "6x4 g‘ildirak formulasi, qurilish maydonlari uchun kuchaytirilgan shassi",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: true,
+        id: 57,
+        slug: "avtokran-kamaz-65115-s-ks-55729-1k-3",
+
+        categoryId: 11,
+
+        images: {
+            image: "https://kamaz.avtofurgon.ru/upload/iblock/7b3/m8ub1u7qijdciqrixex8ms81z5a8mtg7.webp",
+        },
+
+        gallery: [
+            {
+                image: "https://kamaz.avtofurgon.ru/upload/resize_cache/iblock/7b3/1200_900_0/m8ub1u7qijdciqrixex8ms81z5a8mtg7.webp",
+            },
+            {
+                image: "https://kamaz.avtofurgon.ru/upload/iblock/3cf/0n61tv2cxprrjz0i9sc829oc3ox4kwh1.jpeg",
+            },
+            {
+                image: "https://kamaz.avtofurgon.ru/upload/iblock/021/6fsjq15fukj0sejffvl4u0y16cjjom5o.webp",
+            },
+        ],
+
+        ru: {
+            price: "19 797 428 руб.",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужно это",
+            },
+
+            truckType: "Автокран КАМАЗ 65115 с КС-55729-1К-3",
+            category: "Краны-манипуляторы",
+
+            description: {
+                title: "Описание",
+                text: "Автомобильный кран КС-55729-1К-3 на шасси КАМАЗ 65115 предназначен для выполнения строительных, монтажных и погрузочно-разгрузочных работ. Надежное шасси 6х4 и четырехсекционная телескопическая стрела позволяют эффективно работать с тяжелыми грузами на строительных и промышленных объектах. Крановая установка сочетает высокую грузоподъёмность и большой рабочий радиус.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "КАМАЗ 65115-3968-48",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "КАМАЗ 667.511-300, дизельный, 300 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "ZF КАМА 1310 TO, механическая, 9-ступенчатая",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "25200",
+                    },
+                    {
+                        title: "Грузоподъёмность крана, тонн",
+                        value: "32",
+                    },
+                    {
+                        title: "Максимальный грузовой момент, тм",
+                        value: "102,5",
+                    },
+                    {
+                        title: "Длина стрелы, м",
+                        value: "10,1 - 33",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Автокран КАМАЗ 65115 с крановой установкой КС-55729-1К-3",
+
+                    items: [
+                        {
+                            title: "Тип надстройки",
+                            value: "Крановая установка КС-55729-1К-3 на шасси КАМАЗ 65115",
+                        },
+                        {
+                            title: "Базовое шасси",
+                            value: "КАМАЗ 65115-3968-48, колесная формула 6х4",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "КАМАЗ 667.511-300, дизельный",
+                        },
+                        {
+                            title: "Мощность двигателя",
+                            value: "300 л. с.",
+                        },
+                        {
+                            title: "Коробка передач",
+                            value: "ZF КАМА 1310 TO, механическая, 9-ступенчатая",
+                        },
+                        {
+                            title: "Максимальная грузоподъёмность",
+                            value: "32 т при минимальном вылете",
+                        },
+                        {
+                            title: "Максимальный грузовой момент",
+                            value: "102,5 тм",
+                        },
+                        {
+                            title: "Профиль стрелы",
+                            value: "Овоидный, четырехсекционный",
+                        },
+                        {
+                            title: "Длина основной стрелы",
+                            value: "10,1 - 33 м",
+                        },
+                        {
+                            title: "Дополнительный удлинитель",
+                            value: "9 м, с возможностью установки под углом 0°, 20° или 40°",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "19,797,428 RUB",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "KAMAZ 65115 Mobile Crane with KS-55729-1K-3",
+            category: "Crane-Manipulator Trucks",
+
+            description: {
+                title: "Description",
+                text: "The KS-55729-1K-3 mobile crane mounted on a KAMAZ 65115 chassis is designed for construction, installation, loading, and unloading operations. The reliable 6x4 chassis and four-section telescopic boom provide efficient handling of heavy loads at construction and industrial sites. The crane combines high lifting capacity with an extended working radius.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "KAMAZ 65115-3968-48",
+                    },
+                    {
+                        title: "Engine",
+                        value: "KAMAZ 667.511-300, diesel, 300 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "ZF KAMA 1310 TO, manual, 9-speed",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "25200",
+                    },
+                    {
+                        title: "Crane lifting capacity, tons",
+                        value: "32",
+                    },
+                    {
+                        title: "Maximum load moment, tm",
+                        value: "102.5",
+                    },
+                    {
+                        title: "Boom length, m",
+                        value: "10.1 - 33",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "KAMAZ 65115 Mobile Crane with KS-55729-1K-3",
+
+                    items: [
+                        {
+                            title: "Superstructure type",
+                            value: "KS-55729-1K-3 crane unit mounted on a KAMAZ 65115 chassis",
+                        },
+                        {
+                            title: "Base chassis",
+                            value: "KAMAZ 65115-3968-48, 6x4 wheel formula",
+                        },
+                        {
+                            title: "Engine",
+                            value: "KAMAZ 667.511-300, diesel",
+                        },
+                        {
+                            title: "Engine power",
+                            value: "300 hp",
+                        },
+                        {
+                            title: "Transmission",
+                            value: "ZF KAMA 1310 TO, manual, 9-speed",
+                        },
+                        {
+                            title: "Maximum lifting capacity",
+                            value: "32 tons at minimum outreach",
+                        },
+                        {
+                            title: "Maximum load moment",
+                            value: "102.5 tm",
+                        },
+                        {
+                            title: "Boom profile",
+                            value: "Oval, four-section telescopic boom",
+                        },
+                        {
+                            title: "Main boom length",
+                            value: "10.1 - 33 m",
+                        },
+                        {
+                            title: "Additional jib",
+                            value: "9 m, adjustable to 0°, 20°, or 40°",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "19 797 428 rub.",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "KS-55729-1K-3 kran qurilmasiga ega KAMAZ 65115 avtokran",
+            category: "Kran-manipulyatorlar",
+
+            description: {
+                title: "Tavsif",
+                text: "KAMAZ 65115 shassisiga o‘rnatilgan KS-55729-1K-3 avtokran qurilish, montaj, yuklash va tushirish ishlarini bajarish uchun mo‘ljallangan. Ishonchli 6x4 shassi va to‘rt seksiyali teleskopik strelka qurilish hamda sanoat obyektlarida og‘ir yuklar bilan samarali ishlash imkonini beradi. Kran qurilmasi yuqori yuk ko‘tarish qobiliyati va katta ish radiusini birlashtiradi.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Bazaviy shassi",
+                        value: "KAMAZ 65115-3968-48",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "KAMAZ 667.511-300, dizel, 300 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "ZF KAMA 1310 TO, mexanik, 9 pog‘onali",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "6x4",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "25200",
+                    },
+                    {
+                        title: "Kran yuk ko‘tarish qobiliyati, tonna",
+                        value: "32",
+                    },
+                    {
+                        title: "Maksimal yuk momenti, tm",
+                        value: "102.5",
+                    },
+                    {
+                        title: "Strelka uzunligi, m",
+                        value: "10.1 - 33",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "KS-55729-1K-3 kran qurilmasiga ega KAMAZ 65115 avtokran",
+
+                    items: [
+                        {
+                            title: "Ustqurma turi",
+                            value: "KAMAZ 65115 shassisiga o‘rnatilgan KS-55729-1K-3 kran qurilmasi",
+                        },
+                        {
+                            title: "Bazaviy shassi",
+                            value: "KAMAZ 65115-3968-48, 6x4 g‘ildirak formulasi",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "KAMAZ 667.511-300, dizel",
+                        },
+                        {
+                            title: "Dvigatel quvvati",
+                            value: "300 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "ZF KAMA 1310 TO, mexanik, 9 pog‘onali",
+                        },
+                        {
+                            title: "Maksimal yuk ko‘tarish qobiliyati",
+                            value: "Minimal chiqishda 32 tonna",
+                        },
+                        {
+                            title: "Maksimal yuk momenti",
+                            value: "102.5 tm",
+                        },
+                        {
+                            title: "Strelka profili",
+                            value: "Oval shaklli, to‘rt seksiyali teleskopik strelka",
+                        },
+                        {
+                            title: "Asosiy strelka uzunligi",
+                            value: "10.1 - 33 m",
+                        },
+                        {
+                            title: "Qo‘shimcha uzaytirgich",
+                            value: "9 m, 0°, 20° yoki 40° burchak ostida o‘rnatish mumkin",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    */
 ];
 
 export default trucks;
