@@ -71,35 +71,58 @@ const ProductDetails = () => {
                             </div>
                         )}
                     </div>
+
                     {/* right side */}
-                    <div>
-                        <span className='text-3xl font-medium ml-3'>
-                            {product?.price}
-                        </span>
+                    <div className=' flex-1'>
+                        {currentTruck.available && (
+                            <div>
+                                <span className='text-3xl font-medium ml-3'>
+                                    {product?.price}
+                                </span>
 
-                        <div className='flex flex-col items-start md:flex-row lg:flex-col min-[1200px]:flex-row! gap-3 mt-4'>
-                            <Button
-                                variant='btn_big_more'
-                                className='w-55 px-6 py-2.5 whitespace-nowrap cursor-pointer'
-                            >
-                                {product?.buttons?.addToCart}
-                            </Button>
-                            <button
-                                onClick={() => setIsOpen(true)}
-                                className='w-55 bg-transparent border-2 hover:bg-[#FEC80B] border-[#FEC80B] text-black active:bg-[#E9C135] rounded-md leading-none px-7 py-2.5 whitespace-nowrap cursor-pointer'
-                            >
-                                {product?.buttons?.getPk}
-                            </button>
-                        </div>
+                                <div className='flex flex-col items-start md:flex-row lg:flex-col min-[1200px]:flex-row! gap-3 mt-4'>
+                                    <Button
+                                        variant='btn_big_more'
+                                        className='w-55 px-6 py-2.5 whitespace-nowrap cursor-pointer'
+                                    >
+                                        {product?.buttons?.addToCart}
+                                    </Button>
+                                    <button
+                                        onClick={() => setIsOpen(true)}
+                                        className='w-55 bg-transparent border-2 hover:bg-[#FEC80B] border-[#FEC80B] text-black active:bg-[#E9C135] rounded-md leading-none px-7 py-2.5 whitespace-nowrap cursor-pointer'
+                                    >
+                                        {product?.buttons?.getPk}
+                                    </button>
+                                </div>
 
-                        {product?.buttons?.download && (
-                            <div className='flex lg:justify-center mt-5'>
-                                <a
-                                    href='/upload/iblock/637/64kgb5la3gy95zvs7kby21rkzd1rz513.pdf'
-                                    className='inline-block lg:block text-center lg:w-full bg-transparent border-2 hover:bg-[#FFD43A] border-[#FEC80B] text-black active:bg-[#E9C135] rounded-md leading-none py-3 cursor-pointer max-[1024px]:w-55 max-[1024px]:whitespace-nowrap max-[1024px]:shrink-0'
-                                >
-                                    {product?.buttons?.download}
-                                </a>
+                                {product?.buttons?.download && (
+                                    <div className='flex lg:justify-center mt-5'>
+                                        <a
+                                            href='/upload/iblock/637/64kgb5la3gy95zvs7kby21rkzd1rz513.pdf'
+                                            className='inline-block lg:block text-center lg:w-full bg-transparent border-2 hover:bg-[#FFD43A] border-[#FEC80B] text-black active:bg-[#E9C135] rounded-md leading-none py-3 cursor-pointer max-[1024px]:w-55 max-[1024px]:whitespace-nowrap max-[1024px]:shrink-0'
+                                        >
+                                            {product?.buttons?.download}
+                                        </a>
+                                    </div>
+                                )}
+                            </div>
+                        )}
+
+                        {!currentTruck.available && (
+                            <div>
+                                <div>
+                                    <Button
+                                        onClick={() => setIsOpen(true)}
+                                        variant='btn_big'
+                                        className='w-full'
+                                    >
+                                        {product?.buttons?.iNeedThis}
+                                    </Button>
+                                </div>
+
+                                {isOpen && (
+                                    <Modal onClose={() => setIsOpen(false)} />
+                                )}
                             </div>
                         )}
 

@@ -119,6 +119,136 @@ import galleryOf12TruckImage18 from "../assets/images/truckData/18/galleryOf12Tr
 import galleryOf13TruckImage18 from "../assets/images/truckData/18/galleryOf13TruckImage18.webp";
 
 import mainTruckImage19 from "../assets/images/truckData/19/Main.webp";
+import mainTruckImage20 from "../assets/images/truckData/20/Main.webp";
+import mainTruckImage21 from "../assets/images/truckData/21/Main.webp";
+import mainTruckImage22 from "../assets/images/truckData/22/Main.webp";
+
+//Автоцистерны
+import mainTruckImage23 from "../assets/images/truckData/23/Main.webp";
+import galleryOf1TruckImage23 from "../assets/images/truckData/23/galleryOf1TruckImage23.webp";
+import galleryOf2TruckImage23 from "../assets/images/truckData/23/galleryOf2TruckImage23.webp";
+import galleryOf3TruckImage23 from "../assets/images/truckData/23/galleryOf3TruckImage23.webp";
+
+import mainTruckImage24 from "../assets/images/truckData/24/Main.webp";
+import galleryOf1TruckImage24 from "../assets/images/truckData/24/galleryOf1TruckImage24.webp";
+import galleryOf2TruckImage24 from "../assets/images/truckData/24/galleryOf2TruckImage24.webp";
+
+import mainTruckImage25 from "../assets/images/truckData/25/Main.webp";
+import galleryOf1TruckImage25 from "../assets/images/truckData/25/galleryOf1TruckImage25.webp";
+import galleryOf2TruckImage25 from "../assets/images/truckData/25/galleryOf2TruckImage25.webp";
+import galleryOf3TruckImage25 from "../assets/images/truckData/25/galleryOf3TruckImage25.webp";
+
+import mainTruckImage26 from "../assets/images/truckData/26/Main.webp";
+import galleryOf1TruckImage26 from "../assets/images/truckData/26/galleryOf1TruckImage26.webp";
+import galleryOf2TruckImage26 from "../assets/images/truckData/26/galleryOf2TruckImage26.webp";
+import galleryOf3TruckImage26 from "../assets/images/truckData/26/galleryOf3TruckImage26.webp";
+import truckDrawing26 from "../assets/images/truckData/26/truckDrawing26.webp";
+
+import mainTruckImage27 from "../assets/images/truckData/27/Main.webp";
+import mainTruckImage28 from "../assets/images/truckData/28/Main.webp";
+import mainTruckImage29 from "../assets/images/truckData/29/Main.webp";
+
+// evakuator
+import mainTruckImage30 from "../assets/images/truckData/30/Main.webp";
+import mainTruckImage31 from "../assets/images/truckData/31/Main.webp";
+
+// Furgon
+import mainTruckImage32 from "../assets/images/truckData/32/Main.webp";
+import galleryOf1TruckImage32 from "../assets/images/truckData/32/galleryOf1TruckImage32.webp";
+import galleryOf2TruckImage32 from "../assets/images/truckData/32/galleryOf2TruckImage32.webp";
+import galleryOf3TruckImage32 from "../assets/images/truckData/32/galleryOf3TruckImage32.webp";
+
+import mainTruckImage33 from "../assets/images/truckData/33/Main.webp";
+import galleryOf1TruckImage33 from "../assets/images/truckData/33/galleryOf1TruckImage33.webp";
+import galleryOf2TruckImage33 from "../assets/images/truckData/33/galleryOf2TruckImage33.webp";
+import galleryOf3TruckImage33 from "../assets/images/truckData/33/galleryOf3TruckImage33.webp";
+import galleryOf4TruckImage33 from "../assets/images/truckData/33/galleryOf4TruckImage33.webp";
+
+import mainTruckImage34 from "../assets/images/truckData/34/Main.webp";
+import galleryOf1TruckImage34 from "../assets/images/truckData/34/galleryOf1TruckImage34.webp";
+import galleryOf2TruckImage34 from "../assets/images/truckData/34/galleryOf2TruckImage34.webp";
+import galleryOf3TruckImage34 from "../assets/images/truckData/34/galleryOf3TruckImage34.webp";
+
+import mainTruckImage35 from "../assets/images/truckData/35/Main.webp";
+import galleryOf1TruckImage35 from "../assets/images/truckData/35/galleryOf1TruckImage35.webp";
+import galleryOf2TruckImage35 from "../assets/images/truckData/35/galleryOf2TruckImage35.webp";
+import galleryOf3TruckImage35 from "../assets/images/truckData/35/galleryOf3TruckImage35.webp";
+import galleryOf4TruckImage35 from "../assets/images/truckData/35/galleryOf4TruckImage35.webp";
+
+import mainTruckImage36 from "../assets/images/truckData/36/Main.webp";
+import galleryOf1TruckImage36 from "../assets/images/truckData/36/galleryOf1TruckImage36.webp";
+import galleryOf2TruckImage36 from "../assets/images/truckData/36/galleryOf2TruckImage36.webp";
+import galleryOf3TruckImage36 from "../assets/images/truckData/36/galleryOf3TruckImage36.webp";
+
+import mainTruckImage37 from "../assets/images/truckData/37/Main.webp";
+import galleryOf1TruckImage37 from "../assets/images/truckData/37/galleryOf1TruckImage37.webp";
+
+// konteynerovoz
+import mainTruckImage38 from "../assets/images/truckData/38/Main.webp";
+import galleryOf1TruckImage38 from "../assets/images/truckData/38/galleryOf1TruckImage38.webp";
+import galleryOf3TruckImage38 from "../assets/images/truckData/38/galleryOf3TruckImage38.webp";
+import galleryOf4TruckImage38 from "../assets/images/truckData/38/galleryOf4TruckImage38.webp";
+
+import mainTruckImage39 from "../assets/images/truckData/39/Main.webp";
+import galleryOf1TruckImage39 from "../assets/images/truckData/39/galleryOf1TruckImage39.webp";
+import galleryOf2TruckImage39 from "../assets/images/truckData/39/galleryOf2TruckImage39.webp";
+import galleryOf3TruckImage39 from "../assets/images/truckData/39/galleryOf3TruckImage39.webp";
+import galleryOf4TruckImage39 from "../assets/images/truckData/39/galleryOf4TruckImage39.webp";
+
+// krukovoy
+import mainTruckImage40 from "../assets/images/truckData/40/Main.webp";
+import mainTruckImage41 from "../assets/images/truckData/41/Main.webp";
+import mainTruckImage42 from "../assets/images/truckData/42/Main.webp";
+
+// samosvaly
+import mainTruckImage43 from "../assets/images/truckData/43/Main.webp";
+import galleryOf1TruckImage43 from "../assets/images/truckData/43/galleryOf1TruckImage43.webp";
+import galleryOf2TruckImage43 from "../assets/images/truckData/43/galleryOf2TruckImage43.webp";
+import galleryOf3TruckImage43 from "../assets/images/truckData/43/galleryOf3TruckImage43.webp";
+import galleryOf4TruckImage43 from "../assets/images/truckData/43/galleryOf4TruckImage43.webp";
+import galleryOf5TruckImage43 from "../assets/images/truckData/43/galleryOf5TruckImage43.webp";
+import galleryOf6TruckImage43 from "../assets/images/truckData/43/galleryOf6TruckImage43.webp";
+import galleryOf7TruckImage43 from "../assets/images/truckData/43/galleryOf7TruckImage43.webp";
+import galleryOf8TruckImage43 from "../assets/images/truckData/43/galleryOf8TruckImage43.webp";
+import galleryOf9TruckImage43 from "../assets/images/truckData/43/galleryOf9TruckImage43.webp";
+import galleryOf10TruckImage43 from "../assets/images/truckData/43/galleryOf10TruckImage43.webp";
+
+import mainTruckImage44 from "../assets/images/truckData/44/Main.webp";
+import galleryOf1TruckImage44 from "../assets/images/truckData/44/galleryOf1TruckImage44.webp";
+import galleryOf2TruckImage44 from "../assets/images/truckData/44/galleryOf2TruckImage44.webp";
+import galleryOf3TruckImage44 from "../assets/images/truckData/44/galleryOf3TruckImage44.webp";
+import galleryOf4TruckImage44 from "../assets/images/truckData/44/galleryOf3TruckImage44.webp";
+import galleryOf5TruckImage44 from "../assets/images/truckData/44/galleryOf5TruckImage44.webp";
+
+import mainTruckImage45 from "../assets/images/truckData/45/Main.webp";
+import galleryOf1TruckImage45 from "../assets/images/truckData/45/galleryOf1TruckImage45.webp";
+import galleryOf2TruckImage45 from "../assets/images/truckData/45/galleryOf2TruckImage45.webp";
+import galleryOf3TruckImage45 from "../assets/images/truckData/45/galleryOf3TruckImage45.webp";
+import galleryOf4TruckImage45 from "../assets/images/truckData/45/galleryOf4TruckImage45.webp";
+
+import mainTruckImage46 from "../assets/images/truckData/46/Main.webp";
+import galleryOf1TruckImage46 from "../assets/images/truckData/46/galleryOf1TruckImage46.webp";
+import galleryOf2TruckImage46 from "../assets/images/truckData/46/galleryOf2TruckImage46.webp";
+import galleryOf3TruckImage46 from "../assets/images/truckData/46/galleryOf3TruckImage46.webp";
+import galleryOf4TruckImage46 from "../assets/images/truckData/46/galleryOf4TruckImage46.webp";
+
+import mainTruckImage47 from "../assets/images/truckData/47/Main.webp";
+import galleryOf1TruckImage47 from "../assets/images/truckData/47/galleryOf1TruckImage47.webp";
+import galleryOf2TruckImage47 from "../assets/images/truckData/47/galleryOf2TruckImage47.webp";
+import galleryOf3TruckImage47 from "../assets/images/truckData/47/galleryOf3TruckImage47.webp";
+import galleryOf4TruckImage47 from "../assets/images/truckData/47/galleryOf4TruckImage47.webp";
+
+import mainTruckImage48 from "../assets/images/truckData/48/Main.webp";
+import galleryOf1TruckImage48 from "../assets/images/truckData/48/galleryOf1TruckImage48.webp";
+import galleryOf2TruckImage48 from "../assets/images/truckData/48/galleryOf2TruckImage48.webp";
+import galleryOf3TruckImage48 from "../assets/images/truckData/48/galleryOf3TruckImage48.webp";
+import galleryOf4TruckImage48 from "../assets/images/truckData/48/galleryOf4TruckImage48.webp";
+import galleryOf5TruckImage48 from "../assets/images/truckData/48/galleryOf5TruckImage48.webp";
+
+import mainTruckImage49 from "../assets/images/truckData/49/Main.webp";
+import galleryOf1TruckImage49 from "../assets/images/truckData/49/galleryOf1TruckImage49.webp";
+import galleryOf2TruckImage49 from "../assets/images/truckData/49/galleryOf2TruckImage49.webp";
+import galleryOf3TruckImage49 from "../assets/images/truckData/49/galleryOf3TruckImage49.webp";
 
 const trucks = [
     {
@@ -12919,7 +13049,7 @@ const trucks = [
 
     // Автогидроподъёмники
     {
-        available: false,
+        available: true,
         recommended: false,
         id: 19,
         slug: "avtogidropodyemnik-palfinger-p-180t-na-shassi-gaz-c41r33",
@@ -13289,6 +13419,13068 @@ const trucks = [
                         {
                             title: "Strela chiqishi, m",
                             value: "10,7",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: false,
+        recommended: false,
+        id: 20,
+        slug: "avtogidropodyemniki-palfinger-p-240a-na-shassi-hd-78",
+        categoryId: 4,
+
+        images: {
+            image: mainTruckImage20,
+        },
+
+        gallery: [{ image: mainTruckImage20 }],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                download: "Скачать спецификацию",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "Автогидроподъемник PALFINGER P 240A на шасси HD-78",
+
+            category: "Автогидроподъемники",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "HYUNDAI HD 78 L",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "6240",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2100",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2240",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Высота подъема, м",
+                        value: "23,2 (по EN 280)",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Get a Quote",
+                download: "Download specification",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "PALFINGER P 240A Aerial Work Platform on HD-78 Chassis",
+
+            category: "Aerial Work Platforms",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "HYUNDAI HD 78 L",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "6240",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2100",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2240",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Lifting height, m",
+                        value: "23.2 (according to EN 280)",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                download: "Texnik xususiyatlarni yuklab olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "HD-78 shassisidagi PALFINGER P 240A avto-gidravlik ko‘taruvchisi",
+
+            category: "Avto-gidravlik ko‘taruvchilar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "HYUNDAI HD 78 L",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "6240",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2100",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2240",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Ko‘tarish balandligi, m",
+                        value: "23,2 (EN 280 bo‘yicha)",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+        },
+    },
+    {
+        available: false,
+        recommended: false,
+        id: 21,
+        slug: "avtogidropodyemnik-palfinger-p-200a-na-shassi-isuzu-nmr-85h",
+        categoryId: 4,
+
+        images: {
+            image: mainTruckImage21,
+        },
+
+        gallery: [{ image: mainTruckImage21 }],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                download: "Скачать спецификацию",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Автогидроподъемник PALFINGER P 200A на шасси ISUZU NMR-85H",
+
+            category: "Автогидроподъемники",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "ISUZU NMR-85H",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "6040",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "1860",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2170",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Вылет стрелы, м",
+                        value: "8,4",
+                    },
+                    {
+                        title: "Высота подъема, м",
+                        value: "20 (по EN 280)",
+                    },
+                    {
+                        title: "Грузоподъемность люльки, кг",
+                        value: "230",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Get a Quote",
+                download: "Download specification",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "PALFINGER P 200A Aerial Work Platform on ISUZU NMR-85H Chassis",
+
+            category: "Aerial Work Platforms",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "ISUZU NMR-85H",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "6040",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "1860",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2170",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Boom outreach, m",
+                        value: "8.4",
+                    },
+                    {
+                        title: "Lifting height, m",
+                        value: "20 (according to EN 280)",
+                    },
+                    {
+                        title: "Basket load capacity, kg",
+                        value: "230",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                download: "Texnik xususiyatlarni yuklab olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "ISUZU NMR-85H shassisidagi PALFINGER P 200A avto-gidravlik ko‘taruvchisi",
+
+            category: "Avto-gidravlik ko‘taruvchilar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "ISUZU NMR-85H",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "6040",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "1860",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2170",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Strela chiqishi, m",
+                        value: "8,4",
+                    },
+                    {
+                        title: "Ko‘tarish balandligi, m",
+                        value: "20 (EN 280 bo‘yicha)",
+                    },
+                    {
+                        title: "Lyulka yuk ko‘tarish qobiliyati, kg",
+                        value: "230",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+        },
+    },
+    {
+        available: false,
+        recommended: false,
+        id: 22,
+        slug: "avtogidropodyemnik-hansin-hs-320a-na-baze-shassi-fuso-canter",
+        categoryId: 4,
+
+        images: {
+            image: mainTruckImage22,
+        },
+
+        gallery: [{ image: mainTruckImage22 }],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                download: "Скачать спецификацию",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Автогидроподъемник Hansin HS 320А на базе шасси FUSO Canter",
+
+            category: "Автогидроподъемники",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "FUSO Canter",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "7395",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2180",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3135",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "8275",
+                    },
+                    {
+                        title: "Высота подъема, м",
+                        value: "32",
+                    },
+                    {
+                        title: "Грузоподъемность люльки, кг",
+                        value: "400",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Get a Quote",
+                download: "Download specification",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "Hansin HS 320A Aerial Work Platform on FUSO Canter Chassis",
+
+            category: "Aerial Work Platforms",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "FUSO Canter",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "7395",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2180",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3135",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "8275",
+                    },
+                    {
+                        title: "Lifting height, m",
+                        value: "32",
+                    },
+                    {
+                        title: "Basket load capacity, kg",
+                        value: "400",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                download: "Texnik xususiyatlarni yuklab olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "FUSO Canter shassisidagi Hansin HS 320A avto-gidravlik ko‘taruvchisi",
+
+            category: "Avto-gidravlik ko‘taruvchilar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "FUSO Canter",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "7395",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2180",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3135",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "8275",
+                    },
+                    {
+                        title: "Ko‘tarish balandligi, m",
+                        value: "32",
+                    },
+                    {
+                        title: "Lyulka yuk ko‘tarish qobiliyati, kg",
+                        value: "400",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 23,
+        slug: "pishchevaya-tsisterna-kamaz-43089",
+        categoryId: 5,
+
+        images: {
+            image: mainTruckImage23,
+        },
+
+        gallery: [
+            { image: mainTruckImage23 },
+            { image: galleryOf1TruckImage23 },
+            { image: galleryOf2TruckImage23 },
+            { image: galleryOf3TruckImage23 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            discount:
+                "*Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                download: "Скачать спецификацию",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "Пищевая цистерна КАМАЗ 43089",
+
+            category: "Автоцистерны",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "КАМАЗ 43089",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISF3.8S5154, 154 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "6500",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2200",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2300",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "3845",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "9500",
+                    },
+                    {
+                        title: "Объем цистерны, л",
+                        value: "5000",
+                    },
+                    {
+                        title: "Количество отсеков, шт.",
+                        value: "2",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Пищевая цистерна КАМАЗ 43089",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "КАМАЗ 43089",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Бортовая платформа с КМУ",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISF3.8S5154, 154 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "3845",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, Д × Ш × В, мм",
+                            value: "6500 × 2200 × 2300",
+                        },
+                        {
+                            title: "Полная масса, кг",
+                            value: "9500",
+                        },
+                        {
+                            title: "Вместимость, л",
+                            value: "5000",
+                        },
+                        {
+                            title: "Тип цистерны",
+                            value: "Эллиптического сечения",
+                        },
+                        {
+                            title: "Технологическая калибровка цистерны",
+                            value: "Есть, объемным методом",
+                        },
+                        {
+                            title: "Количество отсеков",
+                            value: "2",
+                        },
+                        {
+                            title: "Число горловин",
+                            value: "2, с герметичной крышкой диаметром 500 мм",
+                        },
+                        {
+                            title: "Люки",
+                            value: "Термоизолированные, с дыхательным клапаном ДУ-50; каждый вентиль люка имеет возможность пломбировки",
+                        },
+                        {
+                            title: "Запорная арматура",
+                            value: "Донный клапан, один на каждый отсек ДУ-50",
+                        },
+                        {
+                            title: "Управление",
+                            value: "Заднее из отсека обслуживания, ручное, механическое",
+                        },
+                        {
+                            title: "Материал секций",
+                            value: "Пищевая нержавеющая сталь AISI-304, толщиной 2 мм",
+                        },
+                        {
+                            title: "Материал наружной обшивки цистерны",
+                            value: "Нержавеющая сталь AISI, толщиной 1 мм",
+                        },
+                        {
+                            title: "Термоизоляция",
+                            value: "Пенопласт ФРП, 50 мм. Не допускает изменение температуры продукта более чем на 2 °C за 10 часов при разности температур продукта и окружающего воздуха в 30 °C",
+                        },
+                        {
+                            title: "Площадка обслуживания",
+                            value: "С перфорированной поверхностью против скольжения при любых климатических условиях, с поручнем и лестницей",
+                        },
+                        {
+                            title: "Отсек обслуживания",
+                            value: "Герметичный отсек в задней части цистерны, закрывается ключом и имеет возможность пломбировки",
+                        },
+                        {
+                            title: "Система мойки отсеков",
+                            value: "Опция",
+                        },
+                        {
+                            title: "Пенал",
+                            value: "1 шт.",
+                        },
+                        {
+                            title: "Рукав пищевой",
+                            value: "1 шт.",
+                        },
+                        {
+                            title: "Насосная станция",
+                            value: "Опция",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            discount:
+                "*10% discount (up to RUB 500,000) under the state preferential leasing program",
+
+            buttons: {
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Get a Quote",
+                download: "Download specification",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "KAMAZ 43089 Food Tanker",
+
+            category: "Tank Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "KAMAZ 43089",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISF3.8S5154, 154 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "6500",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2200",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2300",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "9500",
+                    },
+                    {
+                        title: "Tank volume, l",
+                        value: "5000",
+                    },
+                    {
+                        title: "Number of compartments",
+                        value: "2",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "KAMAZ 43089 Food Tanker",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "KAMAZ 43089",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Flatbed platform with crane-manipulator unit",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISF3.8S5154, 154 hp",
+                        },
+                        {
+                            title: "Transmission",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Vehicle dimensions L × W × H, mm",
+                            value: "6500 × 2200 × 2300",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "9500",
+                        },
+                        {
+                            title: "Tank capacity, l",
+                            value: "5000",
+                        },
+                        {
+                            title: "Tank type",
+                            value: "Elliptical cross-section",
+                        },
+                        {
+                            title: "Tank calibration",
+                            value: "Available, volumetric method",
+                        },
+                        {
+                            title: "Number of compartments",
+                            value: "2",
+                        },
+                        {
+                            title: "Number of filler necks",
+                            value: "2, with hermetic covers, 500 mm in diameter",
+                        },
+                        {
+                            title: "Manholes",
+                            value: "Thermally insulated, with DU-50 breathing valves; each manhole valve can be sealed",
+                        },
+                        {
+                            title: "Shut-off fittings",
+                            value: "Bottom valve, one for each DU-50 compartment",
+                        },
+                        {
+                            title: "Control",
+                            value: "Rear control from the service compartment, manual and mechanical",
+                        },
+                        {
+                            title: "Section material",
+                            value: "Food-grade AISI-304 stainless steel, 2 mm thick",
+                        },
+                        {
+                            title: "Outer tank cladding material",
+                            value: "AISI stainless steel, 1 mm thick",
+                        },
+                        {
+                            title: "Thermal insulation",
+                            value: "FRP foam, 50 mm. Limits product temperature change to no more than 2 °C over 10 hours when the temperature difference between the product and ambient air is 30 °C",
+                        },
+                        {
+                            title: "Service platform",
+                            value: "Perforated anti-slip surface for all climatic conditions, with handrail and ladder",
+                        },
+                        {
+                            title: "Service compartment",
+                            value: "Sealed compartment at the rear of the tank, lockable and sealable",
+                        },
+                        {
+                            title: "Compartment washing system",
+                            value: "Optional",
+                        },
+                        {
+                            title: "Tool box",
+                            value: "1 pc.",
+                        },
+                        {
+                            title: "Food-grade hose",
+                            value: "1 pc.",
+                        },
+                        {
+                            title: "Pump station",
+                            value: "Optional",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            discount:
+                "*Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+
+            buttons: {
+                getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                download: "Texnik xususiyatlarni yuklab olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "KAMAZ 43089 oziq-ovqat sisternasi",
+
+            category: "Avtosisternalar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "KAMAZ 43089",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "6500",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2200",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2300",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "9500",
+                    },
+                    {
+                        title: "Sisterna hajmi, l",
+                        value: "5000",
+                    },
+                    {
+                        title: "Bo‘limlar soni",
+                        value: "2",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle: "KAMAZ 43089 oziq-ovqat sisternasi",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "KAMAZ 43089",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "Kran-manipulyator qurilmasiga ega bort platformasi",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Avtomobil o‘lchamlari U × K × B, mm",
+                            value: "6500 × 2200 × 2300",
+                        },
+                        {
+                            title: "To‘liq massa, kg",
+                            value: "9500",
+                        },
+                        {
+                            title: "Sisterna sig‘imi, l",
+                            value: "5000",
+                        },
+                        {
+                            title: "Sisterna turi",
+                            value: "Ellips shaklidagi kesim",
+                        },
+                        {
+                            title: "Sisternani texnologik kalibrlash",
+                            value: "Mavjud, hajmiy usulda",
+                        },
+                        {
+                            title: "Bo‘limlar soni",
+                            value: "2",
+                        },
+                        {
+                            title: "Bo‘yinlar soni",
+                            value: "2 ta, diametri 500 mm bo‘lgan germetik qopqoqli",
+                        },
+                        {
+                            title: "Lyuklar",
+                            value: "Issiqlikdan izolyatsiyalangan, DU-50 nafas olish klapanlari bilan; har bir lyuk klapanini plombalash mumkin",
+                        },
+                        {
+                            title: "Yopish armaturasi",
+                            value: "Pastki klapan, har bir DU-50 bo‘lim uchun bittadan",
+                        },
+                        {
+                            title: "Boshqaruv",
+                            value: "Xizmat ko‘rsatish bo‘limidan orqa tomondan, qo‘lda va mexanik",
+                        },
+                        {
+                            title: "Seksiyalar materiali",
+                            value: "Oziq-ovqat uchun mo‘ljallangan AISI-304 zanglamaydigan po‘lat, qalinligi 2 mm",
+                        },
+                        {
+                            title: "Sisterna tashqi qoplamasi materiali",
+                            value: "AISI zanglamaydigan po‘lat, qalinligi 1 mm",
+                        },
+                        {
+                            title: "Issiqlik izolyatsiyasi",
+                            value: "FRP ko‘pigi, 50 mm. Mahsulot va tashqi havo harorati farqi 30 °C bo‘lganda, 10 soat davomida mahsulot haroratining 2 °C dan ortiq o‘zgarishiga yo‘l qo‘ymaydi",
+                        },
+                        {
+                            title: "Xizmat ko‘rsatish maydonchasi",
+                            value: "Har qanday iqlim sharoitida sirpanishga qarshi perforatsiyalangan yuzaga ega, tutqich va narvon bilan",
+                        },
+                        {
+                            title: "Xizmat ko‘rsatish bo‘limi",
+                            value: "Sisterna orqa qismidagi germetik bo‘lim, kalit bilan yopiladi va plombalash imkoniyatiga ega",
+                        },
+                        {
+                            title: "Bo‘limlarni yuvish tizimi",
+                            value: "Opsiya",
+                        },
+                        {
+                            title: "Quti",
+                            value: "1 dona",
+                        },
+                        {
+                            title: "Oziq-ovqat shlangi",
+                            value: "1 dona",
+                        },
+                        {
+                            title: "Nasos stansiyasi",
+                            value: "Opsiya",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 24,
+        slug: "gazon-next-s-pishchevoy-tsisternoy-4-2-kuba",
+        categoryId: 5,
+
+        images: {
+            image: mainTruckImage24,
+        },
+
+        gallery: [
+            { image: mainTruckImage24 },
+            { image: galleryOf1TruckImage24 },
+            { image: galleryOf2TruckImage24 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            discount:
+                "*Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                download: "Скачать спецификацию",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "ГАЗон NEXT с пищевой цистерной 4,2 куба",
+
+            category: "Автоцистерны",
+
+            description: {
+                title: "Описание",
+                text: "Цистерна (ОТА-3307(4,2)) предназначена для транспортировки и кратковременного хранения пищевых жидкостей (молоко, вода питьевая), плотностью не более 1,03 г/см³, в условиях, предназначенных для изделий, изготовленных по категории 1 ГОСТ 15150-69 в климатическом исполнении «У». Исполнение без средств измерения объема (по ГОСТ 9218). Термоизолированная цистерна состоит из двух секций, основания и отсека обслуживания, расположенного в задней части автоцистерны. Цистерна имеет две горловины, предназначенные для наполнения, дезинфекции и осмотра внутренней поверхности корпуса цистерны. Каждая горловина закрывается термоизолированными крышками. Трубопроводы наполнения-слива имеют защиту от обмерзания в зимнее время. Цистерна имеет герметичный отсек, в котором размещены выводы трубопроводов. Автоцистерна оборудована поручнями и удобными площадками обслуживания с перфорированной поверхностью против скольжения. Термоизоляция позволяет сохранять температуру перевозимого продукта в сложных климатических условиях.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "ГАЗ С41R13",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "ЯМЗ-53445, 168,9 л.с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 5-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "8150-9200",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2350",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3280",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "4515, 4570",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "8700",
+                    },
+                    {
+                        title: "Объем цистерны, л",
+                        value: "4200",
+                    },
+                    {
+                        title: "Количество отсеков, шт.",
+                        value: "2",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Пищевая цистерна",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "ГАЗ-С41R13",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм",
+                            value: "8150 × 2350 × 3280",
+                        },
+                        {
+                            title: "База автомобиля, мм",
+                            value: "4515, 4570",
+                        },
+                        {
+                            title: "Колесная формула автомобиля",
+                            value: "4х2",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "5350",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "8700",
+                        },
+                        {
+                            title: "Объем, м³",
+                            value: "4,2",
+                        },
+                        {
+                            title: "Сечение",
+                            value: "Чемоданное",
+                        },
+                        {
+                            title: "Количество секций, шт.",
+                            value: "2",
+                        },
+                        {
+                            title: "Горловины, шт.",
+                            value: "2 (Ду 500), термоизолированные",
+                        },
+                        {
+                            title: "Запорная арматура - донные клапана, шт.",
+                            value: "2 (Ду 50), обеспечивают отсечку перевозимой жидкости внутри цистерны",
+                        },
+                        {
+                            title: "Управление клапанами",
+                            value: "Ручное, сзади из отсека",
+                        },
+                        {
+                            title: "Сливные трубопроводы",
+                            value: "2 (Ду 50) из нержавеющей стали",
+                        },
+                        {
+                            title: "Термоизоляция",
+                            value: "ФРП, толщина 50 мм",
+                        },
+                        {
+                            title: "Материал внутреннего сосуда",
+                            value: "Нержавеющая сталь AISI 304",
+                        },
+                        {
+                            title: "Материал облицовки",
+                            value: "Нержавеющая сталь AISI 304 (зеркальная)",
+                        },
+                        {
+                            title: "Площадка обслуживания",
+                            value: "С левой и с правой стороны цистерны из просечно-профилированного настила с поручнями и лестницей",
+                        },
+                        {
+                            title: "Калибровка",
+                            value: "Есть, объемным методом",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            discount:
+                "*10% discount (up to RUB 500,000) under the state preferential leasing program",
+
+            buttons: {
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Get a Quote",
+                download: "Download specification",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "GAZon NEXT with 4.2 m³ Food Tanker",
+
+            category: "Tank Trucks",
+
+            description: {
+                title: "Description",
+                text: "The OTA-3307(4.2) tank is designed for the transportation and short-term storage of food liquids such as milk and drinking water, with a density of no more than 1.03 g/cm³. The insulated tank consists of two sections, a base, and a service compartment located at the rear of the tanker. The tank has two filler necks for filling, disinfection, and inspection of the inner surface. Each filler neck is closed with an insulated cover. The filling and discharge pipelines are protected against icing during winter operation. The tanker is equipped with handrails and convenient service platforms with perforated anti-slip surfaces. Thermal insulation helps maintain the temperature of the transported product in difficult climatic conditions.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "GAZ C41R13",
+                    },
+                    {
+                        title: "Engine",
+                        value: "YaMZ-53445, 168.9 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 5-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "8150-9200",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2350",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3280",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "4515, 4570",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "8700",
+                    },
+                    {
+                        title: "Tank volume, l",
+                        value: "4200",
+                    },
+                    {
+                        title: "Number of compartments",
+                        value: "2",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "Food Tanker",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "GAZ C41R13",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm",
+                            value: "8150 × 2350 × 3280",
+                        },
+                        {
+                            title: "Vehicle wheelbase, mm",
+                            value: "4515, 4570",
+                        },
+                        {
+                            title: "Vehicle wheel formula",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "5350",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "8700",
+                        },
+                        {
+                            title: "Volume, m³",
+                            value: "4.2",
+                        },
+                        {
+                            title: "Cross-section",
+                            value: "Suitcase-shaped",
+                        },
+                        {
+                            title: "Number of sections",
+                            value: "2",
+                        },
+                        {
+                            title: "Filler necks",
+                            value: "2 (DN 500), thermally insulated",
+                        },
+                        {
+                            title: "Bottom shut-off valves",
+                            value: "2 (DN 50), provide isolation of the transported liquid inside the tank",
+                        },
+                        {
+                            title: "Valve control",
+                            value: "Manual, from the rear service compartment",
+                        },
+                        {
+                            title: "Discharge pipelines",
+                            value: "2 (DN 50), made of stainless steel",
+                        },
+                        {
+                            title: "Thermal insulation",
+                            value: "FRP, 50 mm thick",
+                        },
+                        {
+                            title: "Inner vessel material",
+                            value: "AISI 304 stainless steel",
+                        },
+                        {
+                            title: "Cladding material",
+                            value: "AISI 304 stainless steel (mirror finish)",
+                        },
+                        {
+                            title: "Service platform",
+                            value: "Located on both sides of the tank, made of perforated profiled flooring with handrails and a ladder",
+                        },
+                        {
+                            title: "Calibration",
+                            value: "Available, volumetric method",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            discount:
+                "*Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+
+            buttons: {
+                getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                download: "Texnik xususiyatlarni yuklab olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "4,2 kub hajmli oziq-ovqat sisternasiga ega GAZon NEXT",
+
+            category: "Avtosisternalar",
+
+            description: {
+                title: "Tavsif",
+                text: "OTA-3307(4,2) sisternasi sut va ichimlik suvi kabi oziq-ovqat suyuqliklarini zichligi 1,03 g/sm³ dan oshmagan holda tashish va qisqa muddatli saqlash uchun mo‘ljallangan. Issiqlikdan izolyatsiyalangan sisterna ikki bo‘lim, asos va sisternaning orqa qismida joylashgan xizmat ko‘rsatish bo‘limidan iborat. Sisternada to‘ldirish, dezinfeksiya qilish va ichki yuzani tekshirish uchun ikkita bo‘yin mavjud. Har bir bo‘yin issiqlikdan izolyatsiyalangan qopqoq bilan yopiladi. To‘ldirish va bo‘shatish quvurlari qishda muzlashdan himoyalangan. Sisterna tutqichlar va sirpanishga qarshi perforatsiyalangan yuzaga ega qulay xizmat ko‘rsatish maydonchalari bilan jihozlangan. Issiqlik izolyatsiyasi tashilayotgan mahsulot haroratini murakkab iqlim sharoitlarida saqlashga yordam beradi.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "GAZ C41R13",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "YaMZ-53445, 168,9 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 5 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "8150-9200",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2350",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3280",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "4515, 4570",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "8700",
+                    },
+                    {
+                        title: "Sisterna hajmi, l",
+                        value: "4200",
+                    },
+                    {
+                        title: "Bo‘limlar soni",
+                        value: "2",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle: "Oziq-ovqat sisternasi",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "GAZ C41R13",
+                        },
+                        {
+                            title: "Avtomobil o‘lchamlari, mm",
+                            value: "8150 × 2350 × 3280",
+                        },
+                        {
+                            title: "Avtomobil g‘ildirak bazasi, mm",
+                            value: "4515, 4570",
+                        },
+                        {
+                            title: "Avtomobil g‘ildirak formulasi",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Bo‘sh massa, kg",
+                            value: "5350",
+                        },
+                        {
+                            title: "To‘liq massa, kg",
+                            value: "8700",
+                        },
+                        {
+                            title: "Hajmi, m³",
+                            value: "4,2",
+                        },
+                        {
+                            title: "Kesimi",
+                            value: "Chamadonsimon",
+                        },
+                        {
+                            title: "Bo‘limlar soni",
+                            value: "2",
+                        },
+                        {
+                            title: "Bo‘yinlar soni",
+                            value: "2 (DN 500), issiqlikdan izolyatsiyalangan",
+                        },
+                        {
+                            title: "Pastki yopish klapanlari",
+                            value: "2 (DN 50), tashilayotgan suyuqlikni sisterna ichida ajratib turishni ta’minlaydi",
+                        },
+                        {
+                            title: "Klapanlarni boshqarish",
+                            value: "Qo‘lda, orqa tomondagi xizmat ko‘rsatish bo‘limidan",
+                        },
+                        {
+                            title: "Bo‘shatish quvurlari",
+                            value: "2 (DN 50), zanglamaydigan po‘latdan",
+                        },
+                        {
+                            title: "Issiqlik izolyatsiyasi",
+                            value: "FRP, qalinligi 50 mm",
+                        },
+                        {
+                            title: "Ichki idish materiali",
+                            value: "AISI 304 zanglamaydigan po‘lat",
+                        },
+                        {
+                            title: "Qoplama materiali",
+                            value: "AISI 304 zanglamaydigan po‘lat (oynadek silliq)",
+                        },
+                        {
+                            title: "Xizmat ko‘rsatish maydonchasi",
+                            value: "Sisterna chap va o‘ng tomonida, tutqichlar va narvonli perforatsiyalangan profilli qoplamadan iborat",
+                        },
+                        {
+                            title: "Kalibrlash",
+                            value: "Mavjud, hajmiy usulda",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 25,
+        slug: "pishchevaya-tsisterna-jac-n90",
+        categoryId: 5,
+
+        images: {
+            image: mainTruckImage25,
+        },
+
+        gallery: [
+            { image: mainTruckImage25 },
+            { image: galleryOf1TruckImage25 },
+            { image: galleryOf2TruckImage25 },
+            { image: galleryOf3TruckImage25 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+            discount:
+                "*Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                download: "Скачать спецификацию",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "Пищевая цистерна JAC N90",
+            category: "Автоцистерны",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "JAC N90" },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISF3.8S5154, 154 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "6915",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2300",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2365",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "3845",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "9030",
+                    },
+                    {
+                        title: "Объем цистерны, л",
+                        value: "6000",
+                    },
+                    {
+                        title: "Количество отсеков, шт.",
+                        value: "2",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Пищевая цистерна JAC N90",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "JAC N90",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Пищевая автоцистерна с термоизоляцией",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISF3.8S5154, 154 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "3845",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, Д × Ш × В, мм",
+                            value: "6915 × 2300 × 2365",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "5750",
+                        },
+                        {
+                            title: "Вместимость, л",
+                            value: "6000",
+                        },
+                        {
+                            title: "Тип цистерны",
+                            value: "Эллиптического сечения",
+                        },
+                        {
+                            title: "Технологическая калибровка цистерны",
+                            value: "Есть, объемным методом",
+                        },
+                        {
+                            title: "Количество отсеков",
+                            value: "2",
+                        },
+                        {
+                            title: "Число горловин",
+                            value: "2, с герметичной крышкой диаметром 500 мм",
+                        },
+                        {
+                            title: "Люки",
+                            value: "Термоизолированные, с дыхательным клапаном ДУ-50, каждый вентиль люка имеет возможность пломбировки, нарушаемой при попытке открытия люка",
+                        },
+                        {
+                            title: "Запорная арматура",
+                            value: "Донный клапан, один на каждый отсек ДУ-50",
+                        },
+                        {
+                            title: "Управление",
+                            value: "Заднее из отсека обслуживания, ручное, механическое",
+                        },
+                        {
+                            title: "Материал секций",
+                            value: "Пищевая нержавеющая сталь AISI-304, толщиной 2 мм",
+                        },
+                        {
+                            title: "Материал наружной обшивки цистерны",
+                            value: "Нержавеющая сталь AISI, толщиной 1 мм",
+                        },
+                        {
+                            title: "Термоизоляция",
+                            value: "Пенопласт ФРП, 50 мм. Не допускает изменение температуры продукта более чем на 2 °C за 10 часов при разности температур продукта и окружающего воздуха в 30 °C",
+                        },
+                        {
+                            title: "Площадка обслуживания",
+                            value: "С перфорированной поверхностью против скольжения при любых климатических условиях, с поручнем и лестницей",
+                        },
+                        {
+                            title: "Отсек обслуживания",
+                            value: "Герметичный отсек в задней части цистерны, закрывается ключом и имеет возможность пломбировки",
+                        },
+                        {
+                            title: "Пенал",
+                            value: "1 шт.",
+                        },
+                        {
+                            title: "Рукав пищевой",
+                            value: "1 шт.",
+                        },
+                        {
+                            title: "Система мойки отсеков",
+                            value: "Опция",
+                        },
+                        {
+                            title: "Насосная станция",
+                            value: "Опция",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+            discount:
+                "*10% discount (up to RUB 500,000) under the state preferential leasing program",
+
+            buttons: {
+                addToCart: "Add to Cart",
+                more: "Get a Quote",
+                getPk: "Get a Quote",
+                download: "Download specification",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "JAC N90 Food Tanker",
+            category: "Tank Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "JAC N90",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISF3.8S5154, 154 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "6915",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2300",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2365",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "9030",
+                    },
+                    {
+                        title: "Tank volume, l",
+                        value: "6000",
+                    },
+                    {
+                        title: "Number of compartments",
+                        value: "2",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "JAC N90 Food Tanker",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "JAC N90",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Food tanker with thermal insulation",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISF3.8S5154, 154 hp",
+                        },
+                        {
+                            title: "Transmission",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Vehicle dimensions L × W × H, mm",
+                            value: "6915 × 2300 × 2365",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "5750",
+                        },
+                        {
+                            title: "Tank capacity, l",
+                            value: "6000",
+                        },
+                        {
+                            title: "Tank type",
+                            value: "Elliptical cross-section",
+                        },
+                        {
+                            title: "Tank calibration",
+                            value: "Available, volumetric method",
+                        },
+                        {
+                            title: "Number of compartments",
+                            value: "2",
+                        },
+                        {
+                            title: "Number of filler necks",
+                            value: "2, with hermetic covers, 500 mm in diameter",
+                        },
+                        {
+                            title: "Manholes",
+                            value: "Thermally insulated, with DU-50 breathing valves; each manhole valve can be sealed, with the seal broken if the manhole is opened",
+                        },
+                        {
+                            title: "Shut-off fittings",
+                            value: "Bottom valve, one for each DU-50 compartment",
+                        },
+                        {
+                            title: "Control",
+                            value: "Rear control from the service compartment, manual and mechanical",
+                        },
+                        {
+                            title: "Section material",
+                            value: "Food-grade AISI-304 stainless steel, 2 mm thick",
+                        },
+                        {
+                            title: "Outer tank cladding material",
+                            value: "AISI stainless steel, 1 mm thick",
+                        },
+                        {
+                            title: "Thermal insulation",
+                            value: "FRP foam, 50 mm. Limits product temperature change to no more than 2 °C over 10 hours when the temperature difference between the product and ambient air is 30 °C",
+                        },
+                        {
+                            title: "Service platform",
+                            value: "Perforated anti-slip surface for all climatic conditions, with handrail and ladder",
+                        },
+                        {
+                            title: "Service compartment",
+                            value: "Sealed compartment at the rear of the tank, lockable and sealable",
+                        },
+                        {
+                            title: "Tool box",
+                            value: "1 pc.",
+                        },
+                        {
+                            title: "Food-grade hose",
+                            value: "1 pc.",
+                        },
+                        {
+                            title: "Compartment washing system",
+                            value: "Optional",
+                        },
+                        {
+                            title: "Pump station",
+                            value: "Optional",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+            discount:
+                "*Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                download: "Texnik xususiyatlarni yuklab olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "JAC N90 oziq-ovqat sisternasi",
+            category: "Avtosisternalar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "JAC N90",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "6915",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2300",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2365",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "9030",
+                    },
+                    {
+                        title: "Sisterna hajmi, l",
+                        value: "6000",
+                    },
+                    {
+                        title: "Bo‘limlar soni",
+                        value: "2",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle: "JAC N90 oziq-ovqat sisternasi",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "JAC N90",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "Issiqlik izolyatsiyasiga ega oziq-ovqat sisternasi",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Avtomobil o‘lchamlari U × K × B, mm",
+                            value: "6915 × 2300 × 2365",
+                        },
+                        {
+                            title: "Quruq massa, kg",
+                            value: "5750",
+                        },
+                        {
+                            title: "Sisterna sig‘imi, l",
+                            value: "6000",
+                        },
+                        {
+                            title: "Sisterna turi",
+                            value: "Ellips shaklidagi kesim",
+                        },
+                        {
+                            title: "Sisternani texnologik kalibrlash",
+                            value: "Mavjud, hajmiy usulda",
+                        },
+                        {
+                            title: "Bo‘limlar soni",
+                            value: "2",
+                        },
+                        {
+                            title: "Bo‘yinlar soni",
+                            value: "2 ta, diametri 500 mm bo‘lgan germetik qopqoqli",
+                        },
+                        {
+                            title: "Lyuklar",
+                            value: "Issiqlikdan izolyatsiyalangan, DU-50 nafas olish klapanlari bilan; har bir lyuk klapanini plombalash mumkin, lyuk ochilganda plomba buziladi",
+                        },
+                        {
+                            title: "Yopish armaturasi",
+                            value: "Pastki klapan, har bir DU-50 bo‘lim uchun bittadan",
+                        },
+                        {
+                            title: "Boshqaruv",
+                            value: "Xizmat ko‘rsatish bo‘limidan orqa tomondan, qo‘lda va mexanik",
+                        },
+                        {
+                            title: "Seksiyalar materiali",
+                            value: "Oziq-ovqat uchun mo‘ljallangan AISI-304 zanglamaydigan po‘lat, qalinligi 2 mm",
+                        },
+                        {
+                            title: "Sisterna tashqi qoplamasi materiali",
+                            value: "AISI zanglamaydigan po‘lat, qalinligi 1 mm",
+                        },
+                        {
+                            title: "Issiqlik izolyatsiyasi",
+                            value: "FRP ko‘pigi, 50 mm. Mahsulot va tashqi havo harorati farqi 30 °C bo‘lganda, 10 soat davomida mahsulot haroratining 2 °C dan ortiq o‘zgarishiga yo‘l qo‘ymaydi",
+                        },
+                        {
+                            title: "Xizmat ko‘rsatish maydonchasi",
+                            value: "Har qanday iqlim sharoitida sirpanishga qarshi perforatsiyalangan yuzaga ega, tutqich va narvon bilan",
+                        },
+                        {
+                            title: "Xizmat ko‘rsatish bo‘limi",
+                            value: "Sisterna orqa qismidagi germetik bo‘lim, kalit bilan yopiladi va plombalash imkoniyatiga ega",
+                        },
+                        {
+                            title: "Quti",
+                            value: "1 dona",
+                        },
+                        {
+                            title: "Oziq-ovqat shlangi",
+                            value: "1 dona",
+                        },
+                        {
+                            title: "Bo‘limlarni yuvish tizimi",
+                            value: "Opsiya",
+                        },
+                        {
+                            title: "Nasos stansiyasi",
+                            value: "Opsiya",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 26,
+        slug: "vakuumnaya-avtotsisterna-na-shassi-jac-n90",
+        categoryId: 5,
+
+        images: {
+            image: mainTruckImage26,
+            drawing: truckDrawing26,
+        },
+
+        gallery: [
+            { image: mainTruckImage26 },
+            { image: galleryOf1TruckImage26 },
+            { image: galleryOf2TruckImage26 },
+            { image: galleryOf3TruckImage26 },
+            { image: truckDrawing26 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+            discount:
+                "*Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                download: "Скачать спецификацию",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "Вакуумная автоцистерна на шасси JAC N90",
+            category: "Автоцистерны",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "JAC N90",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISF3.8S5154, 154 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "7250",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2200",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2770",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "3845",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "9030",
+                    },
+                    {
+                        title: "Объем цистерны, л",
+                        value: "5000",
+                    },
+                    {
+                        title: "Количество отсеков, шт.",
+                        value: "2",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Вакуумная автоцистерна на шасси JAC N90",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "JAC N90",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Вакуумная автоцистерна",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISF3.8S5154, 154 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ти ступенчатая",
+                        },
+                        {
+                            title: "Вместимость цистерны, м³",
+                            value: "5,0",
+                        },
+                        {
+                            title: "Глубина очищаемой ямы, м",
+                            value: "4",
+                        },
+                        {
+                            title: "Вакуум-насос КО-510, производительность, м³/ч",
+                            value: "360",
+                        },
+                        {
+                            title: "Максимальное разрежение в цистерне, МПа",
+                            value: "0,08",
+                        },
+                        {
+                            title: "Время наполнения цистерны, мин",
+                            value: "6",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм:",
+                            value: "",
+                        },
+                        {
+                            title: "- длина",
+                            value: "7250",
+                        },
+                        {
+                            title: "- ширина",
+                            value: "2200",
+                        },
+                        {
+                            title: "- высота",
+                            value: "2770",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "3845",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+            discount:
+                "*10% discount (up to RUB 500,000) under the state preferential leasing program",
+
+            buttons: {
+                addToCart: "Add to Cart",
+                more: "Get a Quote",
+                getPk: "Get a Quote",
+                download: "Download specification",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "Vacuum Tanker on JAC N90 Chassis",
+            category: "Tank Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "JAC N90",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISF3.8S5154, 154 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "7250",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2200",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2770",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "9030",
+                    },
+                    {
+                        title: "Tank volume, l",
+                        value: "5000",
+                    },
+                    {
+                        title: "Number of compartments",
+                        value: "2",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "Vacuum Tanker on JAC N90 Chassis",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "JAC N90",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Vacuum tanker",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISF3.8S5154, 154 hp",
+                        },
+                        {
+                            title: "Transmission",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Tank capacity, m³",
+                            value: "5.0",
+                        },
+                        {
+                            title: "Depth of pit being cleaned, m",
+                            value: "4",
+                        },
+                        {
+                            title: "KO-510 vacuum pump capacity, m³/h",
+                            value: "360",
+                        },
+                        {
+                            title: "Maximum vacuum in the tank, MPa",
+                            value: "0.08",
+                        },
+                        {
+                            title: "Tank filling time, min",
+                            value: "6",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- length",
+                            value: "7250",
+                        },
+                        {
+                            title: "- width",
+                            value: "2200",
+                        },
+                        {
+                            title: "- height",
+                            value: "2770",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3845",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+            discount:
+                "*Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                download: "Texnik xususiyatlarni yuklab olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "JAC N90 shassisidagi vakuumli avtosistera",
+            category: "Avtosisternalar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "JAC N90",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "7250",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2200",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2770",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "9030",
+                    },
+                    {
+                        title: "Sisterna hajmi, l",
+                        value: "5000",
+                    },
+                    {
+                        title: "Bo‘limlar soni",
+                        value: "2",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle: "JAC N90 shassisidagi vakuumli avtosistera",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "JAC N90",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "Vakuumli avtosistera",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "Sisterna sig‘imi, m³",
+                            value: "5,0",
+                        },
+                        {
+                            title: "Tozalanadigan chuqurlik, m",
+                            value: "4",
+                        },
+                        {
+                            title: "KO-510 vakuum nasosi unumdorligi, m³/soat",
+                            value: "360",
+                        },
+                        {
+                            title: "Sisternadagi maksimal vakuum, MPa",
+                            value: "0,08",
+                        },
+                        {
+                            title: "Sisternani to‘ldirish vaqti, daqiqa",
+                            value: "6",
+                        },
+                        {
+                            title: "Avtomobil o‘lchamlari, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- uzunligi",
+                            value: "7250",
+                        },
+                        {
+                            title: "- kengligi",
+                            value: "2200",
+                        },
+                        {
+                            title: "- balandligi",
+                            value: "2770",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3845",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 27,
+        slug: "vakuumnoe-oborudovanie-ko-522-na-shassi-jac-n-90",
+        categoryId: 5,
+
+        images: {
+            image: mainTruckImage27,
+        },
+
+        gallery: [{ image: mainTruckImage27 }],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "Вакуумное оборудование КО-522 на шасси JAC N-90",
+            category: "Автоцистерны",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "JAC N90",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISF3.8S5154, 154 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "7100",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2250",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2850",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "3845",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "9030",
+                    },
+                    {
+                        title: "Объем цистерны, л",
+                        value: "4300",
+                    },
+                    {
+                        title: "Количество отсеков, шт.",
+                        value: "1",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Вакуумное оборудование КО-522 на шасси JAC N-90",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "JAC N-90 с колесной базой 3845 мм",
+                        },
+                        {
+                            title: "Вместимость цистерны, м³",
+                            value: "4,3",
+                        },
+                        {
+                            title: "Глубина очищаемой ямы, м",
+                            value: "4",
+                        },
+                        {
+                            title: "Вакуум-насос КО-510, производительность, м³/ч",
+                            value: "360",
+                        },
+                        {
+                            title: "Максимальное разрежение в цистерне, МПа",
+                            value: "0,08",
+                        },
+                        {
+                            title: "Время наполнения цистерны, мин",
+                            value: "6",
+                        },
+                        {
+                            title: "Базовое шасси",
+                            value: "",
+                        },
+                        {
+                            title: "Модель автомобиля по ОТТС",
+                            value: "53891Р, 53893Р",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм:",
+                            value: "",
+                        },
+                        {
+                            title: "- длина",
+                            value: "7100",
+                        },
+                        {
+                            title: "- ширина",
+                            value: "2250",
+                        },
+                        {
+                            title: "- высота",
+                            value: "2850",
+                        },
+                        {
+                            title: "База автомобиля, мм",
+                            value: "3850",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+            discount:
+                "*10% discount (up to RUB 500,000) under the state preferential leasing program",
+
+            buttons: {
+                addToCart: "Add to Cart",
+                more: "Get a Quote",
+                getPk: "Get a Quote",
+                download: "Download specification",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "KO-522 Vacuum Equipment on JAC N-90 Chassis",
+            category: "Tank Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "JAC N90",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISF3.8S5154, 154 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "7100",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2250",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2850",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "9030",
+                    },
+                    {
+                        title: "Tank volume, l",
+                        value: "4300",
+                    },
+                    {
+                        title: "Number of compartments",
+                        value: "1",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "KO-522 Vacuum Equipment on JAC N-90 Chassis",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "JAC N-90 with 3845 mm wheelbase",
+                        },
+                        {
+                            title: "Tank capacity, m³",
+                            value: "4.3",
+                        },
+                        {
+                            title: "Depth of pit being cleaned, m",
+                            value: "4",
+                        },
+                        {
+                            title: "KO-510 vacuum pump capacity, m³/h",
+                            value: "360",
+                        },
+                        {
+                            title: "Maximum vacuum in the tank, MPa",
+                            value: "0.08",
+                        },
+                        {
+                            title: "Tank filling time, min",
+                            value: "6",
+                        },
+                        {
+                            title: "Base chassis",
+                            value: "",
+                        },
+                        {
+                            title: "Vehicle model according to OTTS",
+                            value: "53891R, 53893R",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- length",
+                            value: "7100",
+                        },
+                        {
+                            title: "- width",
+                            value: "2250",
+                        },
+                        {
+                            title: "- height",
+                            value: "2850",
+                        },
+                        {
+                            title: "Vehicle wheelbase, mm",
+                            value: "3850",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+            discount:
+                "*Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                download: "Texnik xususiyatlarni yuklab olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "JAC N-90 shassisidagi KO-522 vakuum uskunasi",
+            category: "Avtosisternalar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "JAC N90",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "7100",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2250",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2850",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "9030",
+                    },
+                    {
+                        title: "Sisterna hajmi, l",
+                        value: "4300",
+                    },
+                    {
+                        title: "Bo‘limlar soni",
+                        value: "1",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "JAC N-90 shassisidagi KO-522 vakuum uskunasi",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "3845 mm g‘ildirak bazasiga ega JAC N-90",
+                        },
+                        {
+                            title: "Sisterna sig‘imi, m³",
+                            value: "4,3",
+                        },
+                        {
+                            title: "Tozalanadigan chuqurlik, m",
+                            value: "4",
+                        },
+                        {
+                            title: "KO-510 vakuum nasosi unumdorligi, m³/soat",
+                            value: "360",
+                        },
+                        {
+                            title: "Sisternadagi maksimal vakuum, MPa",
+                            value: "0,08",
+                        },
+                        {
+                            title: "Sisternani to‘ldirish vaqti, daqiqa",
+                            value: "6",
+                        },
+                        {
+                            title: "Asosiy shassi",
+                            value: "",
+                        },
+                        {
+                            title: "OTTS bo‘yicha avtomobil modeli",
+                            value: "53891R, 53893R",
+                        },
+                        {
+                            title: "Avtomobil o‘lchamlari, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- uzunligi",
+                            value: "7100",
+                        },
+                        {
+                            title: "- kengligi",
+                            value: "2250",
+                        },
+                        {
+                            title: "- balandligi",
+                            value: "2850",
+                        },
+                        {
+                            title: "Avtomobil bazasi, mm",
+                            value: "3850",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: false,
+        recommended: false,
+        id: 28,
+        slug: "pishchevaya-tsisterna-isuzu-npr-75-lk",
+        categoryId: 5,
+
+        images: {
+            image: mainTruckImage28,
+        },
+
+        gallery: [{ image: mainTruckImage28 }],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "Пищевая цистерна ISUZU NPR 75 LK",
+            category: "Автоцистерны",
+
+            description: {
+                title: "Описание",
+                text: `Цистерна (ОТА-3307(4,2)) предназначена для транспортировки и кратковременного хранения пищевых жидкостей (молоко, вода питьевая), плотностью не более 1,03 г/см³, в условиях предназначенных для изделий изготовленных по категории 1 ГОСТ 15150-69 в климатическом исполнении «У».
+
+Исполнение без средств измерения объема (по ГОСТ 9218).
+
+Термоизолированная цистерна состоит из двух секций, основания и отсека обслуживания, расположенного в задней части автоцистерны. Цистерна имеет две горловины, предназначенные для наполнения, дезинфекции и осмотра внутренней поверхности корпуса цистерны. Каждая горловина закрывается термоизолированными крышками. Трубопроводы наполнения-слива имеют эффективную защиту от обмерзания в зимнее время. Цистерна имеет герметичный отсек, в котором размещены выводы трубопроводов.
+
+Автоцистерна безопасна в эксплуатации, оборудована поручнями и удобными площадками обслуживания, имеющими перфорированную поверхность против скольжения при любых климатических условиях.
+
+Цистерна термоизолирована и поэтому удобна в эксплуатации в сложных климатических условиях, надолго сохраняя неизменной температуру перевозимого продукта.`,
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "ISUZU NPR 75 (ELF 7.5)",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "7150",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2280",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3100",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "3815",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "ISUZU NPR 75 LK с пищевой цистерной 4,2 куба",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "ELF 7.5 NORMAL (NPR75L-K)",
+                        },
+                        {
+                            title: "Базовое шасси",
+                            value: "ELF 7.5 LONG (NPR75L-L)",
+                        },
+                        {
+                            title: "Базовое шасси",
+                            value: "ELF 7.5 EXTRALONG (NPR75L-M)",
+                        },
+                        {
+                            title: "Базовое шасси",
+                            value: "ELF 7.5 NORMAL (NPR75L-K)",
+                        },
+                        {
+                            title: "Базовое шасси",
+                            value: "ELF 7.5 LONG (NPR75L-L)",
+                        },
+                        {
+                            title: "Базовое шасси",
+                            value: "ELF 7.5 EXTRALONG (NPR75L-M)",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм: длина",
+                            value: "7150 / 7700 / 8220 / 7150 / 7700 / 8220",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм: ширина",
+                            value: "2280",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм: высота",
+                            value: "3100",
+                        },
+                        {
+                            title: "База автомобиля, мм",
+                            value: "3815 / 4175 / 4475 / 3815 / 4175 / 4475",
+                        },
+                        {
+                            title: "Объем, м³",
+                            value: "4,2",
+                        },
+                        {
+                            title: "Сечение",
+                            value: "чемоданное",
+                        },
+                        {
+                            title: "Количество секций (шт.)",
+                            value: "2",
+                        },
+                        {
+                            title: "Горловины (шт.)",
+                            value: "2 (Ду 500), термоизолированные",
+                        },
+                        {
+                            title: "Запорная арматура - донные клапана (шт.)",
+                            value: "2 (Ду 50), обеспечивают отсечку перевозимой жидкости внутри цистерны",
+                        },
+                        {
+                            title: "Управление клапанами",
+                            value: "Ручное, сзади из отсека",
+                        },
+                        {
+                            title: "Сливные трубопроводы",
+                            value: "2 (Ду 50) из нержавеющей стали",
+                        },
+                        {
+                            title: "Термоизоляция",
+                            value: "ФРП, толщина 50 мм",
+                        },
+                        {
+                            title: "Материал внутреннего сосуда",
+                            value: "Нержавеющая сталь AISI 304",
+                        },
+                        {
+                            title: "Материал облицовки",
+                            value: "Нержавеющая сталь AISI 304 (зеркальная)",
+                        },
+                        {
+                            title: "Площадка обслуживания",
+                            value: "С левой и с правой стороны цистерны из просечно-профилированного настила с поручнями и лестницей.",
+                        },
+                        {
+                            title: "Калибровка",
+                            value: "Есть, объемным методом",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "ISUZU NPR 75 LK Food Tanker",
+            category: "Tank Trucks",
+
+            description: {
+                title: "Description",
+                text: `The tanker (OTA-3307(4.2)) is designed for the transportation and short-term storage of food liquids (milk, drinking water) with a density of no more than 1.03 g/cm³, under conditions intended for products manufactured according to Category 1 of GOST 15150-69 in climatic version "U".
+
+Version without volume measuring instruments (according to GOST 9218).
+
+The thermally insulated tanker consists of two sections, a base, and a service compartment located at the rear of the tanker. The tanker has two filling necks designed for filling, disinfection, and inspection of the inner surface of the tank body. Each neck is closed with a thermally insulated cover. The filling and drainage pipelines have effective protection against freezing during winter. The tanker has a sealed compartment in which the pipeline outlets are located.
+
+The tanker is safe to operate and is equipped with handrails and convenient service platforms with a perforated anti-slip surface for use in all climatic conditions.
+
+The tanker is thermally insulated, making it convenient to operate in difficult climatic conditions while maintaining the temperature of the transported product for a long time.`,
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "ISUZU NPR 75 (ELF 7.5)",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "7150",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2280",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3100",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3815",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "ISUZU NPR 75 LK with 4.2 m³ Food Tanker",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "ELF 7.5 NORMAL (NPR75L-K)",
+                        },
+                        {
+                            title: "Base chassis",
+                            value: "ELF 7.5 LONG (NPR75L-L)",
+                        },
+                        {
+                            title: "Base chassis",
+                            value: "ELF 7.5 EXTRALONG (NPR75L-M)",
+                        },
+                        {
+                            title: "Base chassis",
+                            value: "ELF 7.5 NORMAL (NPR75L-K)",
+                        },
+                        {
+                            title: "Base chassis",
+                            value: "ELF 7.5 LONG (NPR75L-L)",
+                        },
+                        {
+                            title: "Base chassis",
+                            value: "ELF 7.5 EXTRALONG (NPR75L-M)",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm: length",
+                            value: "7150 / 7700 / 8220 / 7150 / 7700 / 8220",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm: width",
+                            value: "2280",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm: height",
+                            value: "3100",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3815 / 4175 / 4475 / 3815 / 4175 / 4475",
+                        },
+                        {
+                            title: "Volume, m³",
+                            value: "4.2",
+                        },
+                        {
+                            title: "Cross-section",
+                            value: "Suitcase-shaped",
+                        },
+                        {
+                            title: "Number of sections",
+                            value: "2",
+                        },
+                        {
+                            title: "Filling necks",
+                            value: "2 (DN 500), thermally insulated",
+                        },
+                        {
+                            title: "Shut-off fittings - bottom valves",
+                            value: "2 (DN 50), providing shut-off of the transported liquid inside the tanker",
+                        },
+                        {
+                            title: "Valve control",
+                            value: "Manual, from the rear compartment",
+                        },
+                        {
+                            title: "Drainage pipelines",
+                            value: "2 (DN 50), made of stainless steel",
+                        },
+                        {
+                            title: "Thermal insulation",
+                            value: "FRP, thickness 50 mm",
+                        },
+                        {
+                            title: "Inner vessel material",
+                            value: "AISI 304 stainless steel",
+                        },
+                        {
+                            title: "Cladding material",
+                            value: "AISI 304 stainless steel (mirror finish)",
+                        },
+                        {
+                            title: "Service platform",
+                            value: "On the left and right sides of the tanker, made of perforated profiled flooring with handrails and a ladder.",
+                        },
+                        {
+                            title: "Calibration",
+                            value: "Available, by volumetric method",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "ISUZU NPR 75 LK oziq-ovqat sisternasi",
+            category: "Avtosisternalar",
+
+            description: {
+                title: "Tavsif",
+                text: `Sisterna (OTA-3307(4,2)) zichligi 1,03 g/sm³ dan oshmaydigan oziq-ovqat suyuqliklarini (sut, ichimlik suvi) tashish va qisqa muddatli saqlash uchun mo‘ljallangan. U GOST 15150-69 ning 1-toifasi bo‘yicha ishlab chiqarilgan mahsulotlar uchun mo‘ljallangan sharoitlarda, «U» iqlimiy ijrosida foydalanish uchun mo‘ljallangan.
+
+Hajmni o‘lchash vositalarisiz bajarilish (GOST 9218 bo‘yicha).
+
+Issiqlik izolyatsiyalangan sisterna ikkita seksiyadan, asosdan va avtosisternaning orqa qismida joylashgan xizmat ko‘rsatish bo‘linmasidan iborat. Sisterna to‘ldirish, dezinfeksiya qilish va korpusning ichki yuzasini ko‘zdan kechirish uchun mo‘ljallangan ikkita bo‘yin qismiga ega. Har bir bo‘yin qismi issiqlik izolyatsiyalangan qopqoq bilan yopiladi. To‘ldirish va bo‘shatish quvurlari qishda muzlashdan samarali himoyalangan. Sisternada quvur liniyalari chiqishlari joylashtirilgan germetik bo‘linma mavjud.
+
+Avtosisterna foydalanishda xavfsiz bo‘lib, tutqichlar va barcha iqlim sharoitlarida sirpanishga qarshi perforatsiyalangan yuzaga ega qulay xizmat ko‘rsatish maydonchalari bilan jihozlangan.
+
+Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoitlarida foydalanish uchun qulay va tashilayotgan mahsulot haroratini uzoq vaqt davomida o‘zgarmagan holda saqlash imkonini beradi.`,
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "ISUZU NPR 75 (ELF 7.5)",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "7150",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2280",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3100",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3815",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "ISUZU NPR 75 LK 4,2 m³ hajmli oziq-ovqat sisternasi bilan",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "ELF 7.5 NORMAL (NPR75L-K)",
+                        },
+                        {
+                            title: "Asosiy shassi",
+                            value: "ELF 7.5 LONG (NPR75L-L)",
+                        },
+                        {
+                            title: "Asosiy shassi",
+                            value: "ELF 7.5 EXTRALONG (NPR75L-M)",
+                        },
+                        {
+                            title: "Asosiy shassi",
+                            value: "ELF 7.5 NORMAL (NPR75L-K)",
+                        },
+                        {
+                            title: "Asosiy shassi",
+                            value: "ELF 7.5 LONG (NPR75L-L)",
+                        },
+                        {
+                            title: "Asosiy shassi",
+                            value: "ELF 7.5 EXTRALONG (NPR75L-M)",
+                        },
+                        {
+                            title: "Avtomobil gabarit o‘lchamlari, mm: uzunligi",
+                            value: "7150 / 7700 / 8220 / 7150 / 7700 / 8220",
+                        },
+                        {
+                            title: "Avtomobil gabarit o‘lchamlari, mm: kengligi",
+                            value: "2280",
+                        },
+                        {
+                            title: "Avtomobil gabarit o‘lchamlari, mm: balandligi",
+                            value: "3100",
+                        },
+                        {
+                            title: "Avtomobil bazasi, mm",
+                            value: "3815 / 4175 / 4475 / 3815 / 4175 / 4475",
+                        },
+                        {
+                            title: "Hajmi, m³",
+                            value: "4,2",
+                        },
+                        {
+                            title: "Kesimi",
+                            value: "Chamadonsimon",
+                        },
+                        {
+                            title: "Seksiyalar soni",
+                            value: "2",
+                        },
+                        {
+                            title: "Bo‘yin qismlari",
+                            value: "2 ta (DN 500), issiqlik izolyatsiyalangan",
+                        },
+                        {
+                            title: "Yopish armaturasi - tub klapanlar",
+                            value: "2 ta (DN 50), tashilayotgan suyuqlikni sisterna ichida uzib qo‘yishni ta’minlaydi",
+                        },
+                        {
+                            title: "Klapanlarni boshqarish",
+                            value: "Qo‘lda, orqa tomondagi bo‘linmadan",
+                        },
+                        {
+                            title: "Bo‘shatish quvurlari",
+                            value: "2 ta (DN 50), zanglamaydigan po‘latdan",
+                        },
+                        {
+                            title: "Issiqlik izolyatsiyasi",
+                            value: "FRP, qalinligi 50 mm",
+                        },
+                        {
+                            title: "Ichki idish materiali",
+                            value: "AISI 304 zanglamaydigan po‘lat",
+                        },
+                        {
+                            title: "Qoplama materiali",
+                            value: "AISI 304 zanglamaydigan po‘lat (oynadek jilolangan)",
+                        },
+                        {
+                            title: "Xizmat ko‘rsatish maydonchasi",
+                            value: "Sisterna chap va o‘ng tomonlarida joylashgan, tutqichlar va narvon bilan jihozlangan, teshikli profilli sirpanishga qarshi qoplamadan tayyorlangan.",
+                        },
+                        {
+                            title: "Kalibrlash",
+                            value: "Mavjud, hajmiy usulda",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: false,
+        recommended: false,
+        id: 29,
+        slug: "vakuumnoe-oborudovanie-ko-522-na-shassi-hyundai-mighty-ex8",
+        categoryId: 5,
+
+        images: {
+            image: mainTruckImage29,
+        },
+
+        gallery: [
+            {
+                image: mainTruckImage29,
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Вакуумное оборудование КО-522 на шасси HYUNDAI MIGHTY EX8",
+
+            category: "Автоцистерны",
+
+            description: {
+                title: "Описание",
+                text: "Вакуумное оборудование КО-522 на шасси HYUNDAI MIGHTY EX8 предназначено для сбора и транспортировки жидких бытовых отходов, а также для очистки выгребных ям и других подобных объектов. Оборудование оснащено цистерной вместимостью 4,3 м³ и вакуумным насосом КО-510 производительностью 360 м³/ч. Максимальное разрежение в цистерне составляет 0,08 МПа, а время наполнения цистерны — 6 минут.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "HYUNDAI MIGHTY EX8",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "7100",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2250",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2850",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "3850",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Вакуумное оборудование КО-522 на шасси HYUNDAI MIGHTY EX8",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "HYUNDAI MIGHTY EX8 (с колесной базой 3850 мм)",
+                        },
+                        {
+                            title: "Вместимость цистерны, м³",
+                            value: "4,3",
+                        },
+                        {
+                            title: "Глубина очищаемой ямы, м",
+                            value: "4",
+                        },
+                        {
+                            title: "Вакуум-насос КО-510, производительность, м³/ч",
+                            value: "360",
+                        },
+                        {
+                            title: "Максимальное разрежение в цистерне, МПа",
+                            value: "0,08",
+                        },
+                        {
+                            title: "Время наполнения цистерны, мин",
+                            value: "6",
+                        },
+                        {
+                            title: "Базовое шасси",
+                            value: "",
+                        },
+                        {
+                            title: "Модель автомобиля по ОТТС",
+                            value: "5389ZG",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм: длина",
+                            value: "7100",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм: ширина",
+                            value: "2250",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм: высота",
+                            value: "2850",
+                        },
+                        {
+                            title: "База автомобиля, мм",
+                            value: "3850",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "KO-522 Vacuum Equipment on HYUNDAI MIGHTY EX8 Chassis",
+
+            category: "Tank Trucks",
+
+            description: {
+                title: "Description",
+                text: "The KO-522 vacuum equipment on the HYUNDAI MIGHTY EX8 chassis is designed for collecting and transporting liquid household waste, as well as for cleaning cesspits and other similar facilities. The equipment is fitted with a 4.3 m³ tank and a KO-510 vacuum pump with a capacity of 360 m³/h. The maximum vacuum in the tank is 0.08 MPa, and the tank filling time is 6 minutes.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "HYUNDAI MIGHTY EX8",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "7100",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2250",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2850",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3850",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "KO-522 Vacuum Equipment on HYUNDAI MIGHTY EX8 Chassis",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "HYUNDAI MIGHTY EX8 (with 3850 mm wheelbase)",
+                        },
+                        {
+                            title: "Tank capacity, m³",
+                            value: "4.3",
+                        },
+                        {
+                            title: "Depth of the pit being cleaned, m",
+                            value: "4",
+                        },
+                        {
+                            title: "KO-510 vacuum pump, capacity, m³/h",
+                            value: "360",
+                        },
+                        {
+                            title: "Maximum vacuum in the tank, MPa",
+                            value: "0.08",
+                        },
+                        {
+                            title: "Tank filling time, min",
+                            value: "6",
+                        },
+                        {
+                            title: "Base chassis",
+                            value: "",
+                        },
+                        {
+                            title: "Vehicle model according to OTTS",
+                            value: "5389ZG",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm: length",
+                            value: "7100",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm: width",
+                            value: "2250",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm: height",
+                            value: "2850",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3850",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "HYUNDAI MIGHTY EX8 shassisidagi KO-522 vakuum uskunasi",
+
+            category: "Avtosisternalar",
+
+            description: {
+                title: "Tavsif",
+                text: "HYUNDAI MIGHTY EX8 shassisidagi KO-522 vakuum uskunasi maishiy suyuq chiqindilarni yig‘ish va tashish, shuningdek, hojatxonalar va boshqa shunga o‘xshash obyektlarni tozalash uchun mo‘ljallangan. Uskuna sig‘imi 4,3 m³ bo‘lgan sisterna va unumdorligi 360 m³/soat bo‘lgan KO-510 vakuum nasosi bilan jihozlangan. Sisternadagi maksimal vakuum 0,08 MPa, sisternani to‘ldirish vaqti esa 6 daqiqani tashkil etadi.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "HYUNDAI MIGHTY EX8",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "7100",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2250",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2850",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3850",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "HYUNDAI MIGHTY EX8 shassisidagi KO-522 vakuum uskunasi",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "HYUNDAI MIGHTY EX8 (3850 mm g‘ildirak bazasi bilan)",
+                        },
+                        {
+                            title: "Sisterna sig‘imi, m³",
+                            value: "4,3",
+                        },
+                        {
+                            title: "Tozalanadigan chuqurlik, m",
+                            value: "4",
+                        },
+                        {
+                            title: "KO-510 vakuum nasosi, unumdorligi, m³/soat",
+                            value: "360",
+                        },
+                        {
+                            title: "Sisternadagi maksimal vakuum, MPa",
+                            value: "0,08",
+                        },
+                        {
+                            title: "Sisternani to‘ldirish vaqti, daqiqa",
+                            value: "6",
+                        },
+                        {
+                            title: "Asosiy shassi",
+                            value: "",
+                        },
+                        {
+                            title: "OTTS bo‘yicha avtomobil modeli",
+                            value: "5389ZG",
+                        },
+                        {
+                            title: "Avtomobil gabarit o‘lchamlari, mm: uzunligi",
+                            value: "7100",
+                        },
+                        {
+                            title: "Avtomobil gabarit o‘lchamlari, mm: kengligi",
+                            value: "2250",
+                        },
+                        {
+                            title: "Avtomobil gabarit o‘lchamlari, mm: balandligi",
+                            value: "2850",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3850",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 30,
+        slug: "evakuator-na-shassi-kamaz-4308-s-kmu-palfinger-rk-13500t",
+        categoryId: 6,
+
+        images: {
+            image: mainTruckImage30,
+        },
+
+        gallery: [
+            {
+                image: mainTruckImage30,
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            discount:
+                "Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                getPk: "Получить КП",
+                more: "Подробнее",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Эвакуатор на шасси КАМАЗ-4308 с КМУ PALFINGER РК 13500Т",
+
+            category: "Автоэвакуаторы",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "КАМАЗ 4308",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins 4 ISB, 185 л.с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "ZF6",
+                    },
+                    {
+                        title: "Тип бортовой платформы",
+                        value: "Прямого типа",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "8500",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2500",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3390",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "4700",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4х2",
+                    },
+                    {
+                        title: "Длина платформы, м",
+                        value: "4600",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "11450",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "3100",
+                    },
+                    {
+                        title: "Грузоподъёмность КМУ, тонн",
+                        value: "5,2",
+                    },
+                    {
+                        title: "Вылет стрелы, м",
+                        value: "8",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "ЭВАКУАТОР ISUZU FSR-34UL-NCUN",
+
+                    items: [
+                        {
+                            title: "КОМПЛЕКТАЦИЯ АВТОЭВАКУАТОРА",
+                            value: "платформа прямого типа; траверса складная гидравлическая «Palfinger», г/п 3500 кг с гидробалансиром и ротатором; колесные захваты (4 шт.); полноценная трехслойная окраска; проблесковый маячок (2 шт.); крепежные ремни (2 шт.); фара рабочего света (2 шт.); диодные контурные огни; ящик стальной инструментальный; защитный короб задних фонарей; задние аутригеры; стропы синтетические – 4 шт.",
+                        },
+                        {
+                            title: "ХАРАКТЕРИСТИКИ КМУ",
+                            value: "",
+                        },
+                        {
+                            title: "Подъемный момент, тм",
+                            value: "12,1",
+                        },
+                        {
+                            title: "Максимальный вылет, м",
+                            value: "8,0",
+                        },
+                        {
+                            title: "Г/п на максимальном вылете, кг",
+                            value: "1520",
+                        },
+                        {
+                            title: "Максимальная грузоподъёмность, кг",
+                            value: "5200",
+                        },
+                        {
+                            title: "Ширина аутригеров, м",
+                            value: "5,6",
+                        },
+                        {
+                            title: "Вес, кг",
+                            value: "1420",
+                        },
+                        {
+                            title: "Угол поворота, град",
+                            value: "200",
+                        },
+                        {
+                            title: "Базовое шасси КАМАЗ-4308",
+                            value: "",
+                        },
+                        {
+                            title: "Модель автомобиля по ОТТС",
+                            value: "4388А5-10",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм: длина",
+                            value: "8500",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм: ширина",
+                            value: "2500",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм: высота",
+                            value: "3390",
+                        },
+                        {
+                            title: "База автомобиля, мм",
+                            value: "4700",
+                        },
+                        {
+                            title: "Колесная формула автомобиля",
+                            value: "4х2",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            discount:
+                "10% discount (up to RUB 500,000) under the state preferential leasing program",
+
+            buttons: {
+                addToCart: "Add to cart",
+                getPk: "Get a quotation",
+                more: "More details",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "Tow Truck on KAMAZ-4308 Chassis with PALFINGER PK 13500T Crane",
+
+            category: "Tow Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "KAMAZ 4308",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins 4 ISB, 185 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "ZF6",
+                    },
+                    {
+                        title: "Platform type",
+                        value: "Straight type",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "8500",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2500",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3390",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "4700",
+                    },
+                    {
+                        title: "Wheel arrangement",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platform length, m",
+                        value: "4600",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "11450",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "3100",
+                    },
+                    {
+                        title: "Crane lifting capacity, tons",
+                        value: "5.2",
+                    },
+                    {
+                        title: "Boom reach, m",
+                        value: "8",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "ISUZU FSR-34UL-NCUN TOW TRUCK",
+
+                    items: [
+                        {
+                            title: "TOW TRUCK EQUIPMENT",
+                            value: "straight-type platform; folding hydraulic «Palfinger» crossbeam, lifting capacity 3500 kg, with hydraulic balancer and rotator; wheel grabs (4 pcs.); full three-layer paint coating; flashing beacons (2 pcs.); fastening straps (2 pcs.); work lights (2 pcs.); LED contour lights; steel tool box; rear light protective box; rear outriggers; synthetic slings – 4 pcs.",
+                        },
+                        {
+                            title: "CRANE-MANIPULATOR SPECIFICATIONS",
+                            value: "",
+                        },
+                        {
+                            title: "Lifting moment, tm",
+                            value: "12.1",
+                        },
+                        {
+                            title: "Maximum reach, m",
+                            value: "8.0",
+                        },
+                        {
+                            title: "Lifting capacity at maximum reach, kg",
+                            value: "1520",
+                        },
+                        {
+                            title: "Maximum lifting capacity, kg",
+                            value: "5200",
+                        },
+                        {
+                            title: "Outrigger width, m",
+                            value: "5.6",
+                        },
+                        {
+                            title: "Weight, kg",
+                            value: "1420",
+                        },
+                        {
+                            title: "Rotation angle, degrees",
+                            value: "200",
+                        },
+                        {
+                            title: "KAMAZ-4308 base chassis",
+                            value: "",
+                        },
+                        {
+                            title: "Vehicle model according to OTTS",
+                            value: "4388A5-10",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm: length",
+                            value: "8500",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm: width",
+                            value: "2500",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm: height",
+                            value: "3390",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "4700",
+                        },
+                        {
+                            title: "Vehicle wheel arrangement",
+                            value: "4x2",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            discount:
+                "Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                getPk: "Tijorat taklifini olish",
+                more: "Batafsil",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "PALFINGER PK 13500T KUM bilan KAMAZ-4308 shassisidagi evakuator",
+
+            category: "Avtovakuatorlar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "KAMAZ 4308",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins 4 ISB, 185 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "ZF6",
+                    },
+                    {
+                        title: "Platforma turi",
+                        value: "To‘g‘ri turdagi",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "8500",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2500",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3390",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "4700",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platforma uzunligi, m",
+                        value: "4600",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "11450",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "3100",
+                    },
+                    {
+                        title: "KUM yuk ko‘tarish qobiliyati, tonna",
+                        value: "5,2",
+                    },
+                    {
+                        title: "Strela chiqishi, m",
+                        value: "8",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle: "ISUZU FSR-34UL-NCUN EVAKUATORI",
+
+                    items: [
+                        {
+                            title: "EVAKUATOR KOMPLEKTATSIYASI",
+                            value: "to‘g‘ri turdagi platforma; gidravlik yig‘iladigan «Palfinger» traversa, yuk ko‘tarish qobiliyati 3500 kg, gidrobalansir va rotator bilan; g‘ildirak ushlagichlari (4 dona); to‘liq uch qatlamli bo‘yoq qoplamasi; miltillovchi mayoqchalar (2 dona); mahkamlash tasmalari (2 dona); ish chiroqlari (2 dona); diodli kontur chiroqlari; po‘lat asboblar qutisi; orqa fonarlar uchun himoya qutisi; orqa tayanchlar; sintetik stroplar – 4 dona.",
+                        },
+                        {
+                            title: "KRAN-MANIPULYATOR XUSUSIYATLARI",
+                            value: "",
+                        },
+                        {
+                            title: "Ko‘tarish momenti, tm",
+                            value: "12,1",
+                        },
+                        {
+                            title: "Maksimal chiqish masofasi, m",
+                            value: "8,0",
+                        },
+                        {
+                            title: "Maksimal chiqishda yuk ko‘tarish qobiliyati, kg",
+                            value: "1520",
+                        },
+                        {
+                            title: "Maksimal yuk ko‘tarish qobiliyati, kg",
+                            value: "5200",
+                        },
+                        {
+                            title: "Tayanchlar kengligi, m",
+                            value: "5,6",
+                        },
+                        {
+                            title: "Og‘irligi, kg",
+                            value: "1420",
+                        },
+                        {
+                            title: "Burilish burchagi, daraja",
+                            value: "200",
+                        },
+                        {
+                            title: "KAMAZ-4308 asosiy shassisi",
+                            value: "",
+                        },
+                        {
+                            title: "OTTS bo‘yicha avtomobil modeli",
+                            value: "4388A5-10",
+                        },
+                        {
+                            title: "Avtomobil gabarit o‘lchamlari, mm: uzunligi",
+                            value: "8500",
+                        },
+                        {
+                            title: "Avtomobil gabarit o‘lchamlari, mm: kengligi",
+                            value: "2500",
+                        },
+                        {
+                            title: "Avtomobil gabarit o‘lchamlari, mm: balandligi",
+                            value: "3390",
+                        },
+                        {
+                            title: "Avtomobil bazasi, mm",
+                            value: "4700",
+                        },
+                        {
+                            title: "Avtomobil g‘ildirak formulasi",
+                            value: "4x2",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: false,
+        recommended: false,
+        id: 31,
+        slug: "evakuator-na-shassi-isuzu-fsr-34ul-ncun-s-kmu-palfinger-rk-13500t",
+        categoryId: 6,
+
+        images: {
+            image: mainTruckImage31,
+        },
+
+        gallery: [
+            {
+                image: mainTruckImage31,
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Эвакуатор на шасси ISUZU FSR-34UL-NCUN с КМУ PALFINGER РК 13500Т",
+
+            category: "Автоэвакуаторы",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "ISUZU FSR-34UL-NCUN",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "8400",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2500",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3420",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "4860",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4х2",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "1420",
+                    },
+                    {
+                        title: "Вылет стрелы, м",
+                        value: "8",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "ЭВАКУАТОР ISUZU FSR-34UL-NCUN",
+
+                    items: [
+                        {
+                            title: "КОМПЛЕКТАЦИЯ АВТОЭВАКУАТОРА",
+                            value: "платформа прямого типа; траверса складная гидравлическая «Palfinger», г/п 3500 кг с гидробалансиром и ротатором; колесные захваты (4 шт.); полноценная трехслойная окраска; проблесковый маячок (2 шт.); крепежные ремни (2 шт.); фара рабочего света (2 шт.); диодные контурные огни; ящик стальной инструментальный; защитный короб задних фонарей; задние аутригеры; стропы синтетические – 4 шт.",
+                        },
+                        {
+                            title: "ХАРАКТЕРИСТИКИ КМУ",
+                            value: "",
+                        },
+                        {
+                            title: "Подъемный момент, тм",
+                            value: "12,1",
+                        },
+                        {
+                            title: "Максимальный вылет, м",
+                            value: "8,0",
+                        },
+                        {
+                            title: "Г/п на максимальном вылете, кг",
+                            value: "1520",
+                        },
+                        {
+                            title: "Максимальная грузоподъёмность, кг",
+                            value: "5200",
+                        },
+                        {
+                            title: "Ширина аутригеров, м",
+                            value: "5,6",
+                        },
+                        {
+                            title: "Вес, кг",
+                            value: "1420",
+                        },
+                        {
+                            title: "Угол поворота, град",
+                            value: "200",
+                        },
+                        {
+                            title: "Базовое шасси ISUZU FSR-34UL-NCUN",
+                            value: "",
+                        },
+                        {
+                            title: "Модель автомобиля по ОТТС",
+                            value: "4389VA",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм: длина",
+                            value: "8400",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм: ширина",
+                            value: "2500",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм: высота",
+                            value: "3420",
+                        },
+                        {
+                            title: "База автомобиля, мм",
+                            value: "4860",
+                        },
+                        {
+                            title: "Колесная формула автомобиля",
+                            value: "4х2",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                getPk: "Get a quotation",
+                more: "More details",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "Tow Truck on ISUZU FSR-34UL-NCUN Chassis with PALFINGER PK 13500T Crane",
+
+            category: "Tow Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "ISUZU FSR-34UL-NCUN",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "8400",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2500",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3420",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "4860",
+                    },
+                    {
+                        title: "Wheel arrangement",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "1420",
+                    },
+                    {
+                        title: "Boom reach, m",
+                        value: "8",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "ISUZU FSR-34UL-NCUN TOW TRUCK",
+
+                    items: [
+                        {
+                            title: "TOW TRUCK EQUIPMENT",
+                            value: "straight-type platform; folding hydraulic «Palfinger» crossbeam, lifting capacity 3500 kg, with hydraulic balancer and rotator; wheel grabs (4 pcs.); full three-layer paint coating; flashing beacons (2 pcs.); fastening straps (2 pcs.); work lights (2 pcs.); LED contour lights; steel tool box; rear light protective box; rear outriggers; synthetic slings – 4 pcs.",
+                        },
+                        {
+                            title: "CRANE-MANIPULATOR SPECIFICATIONS",
+                            value: "",
+                        },
+                        {
+                            title: "Lifting moment, tm",
+                            value: "12.1",
+                        },
+                        {
+                            title: "Maximum reach, m",
+                            value: "8.0",
+                        },
+                        {
+                            title: "Lifting capacity at maximum reach, kg",
+                            value: "1520",
+                        },
+                        {
+                            title: "Maximum lifting capacity, kg",
+                            value: "5200",
+                        },
+                        {
+                            title: "Outrigger width, m",
+                            value: "5.6",
+                        },
+                        {
+                            title: "Weight, kg",
+                            value: "1420",
+                        },
+                        {
+                            title: "Rotation angle, degrees",
+                            value: "200",
+                        },
+                        {
+                            title: "ISUZU FSR-34UL-NCUN base chassis",
+                            value: "",
+                        },
+                        {
+                            title: "Vehicle model according to OTTS",
+                            value: "4389VA",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm: length",
+                            value: "8400",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm: width",
+                            value: "2500",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm: height",
+                            value: "3420",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "4860",
+                        },
+                        {
+                            title: "Vehicle wheel arrangement",
+                            value: "4x2",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                getPk: "Tijorat taklifini olish",
+                more: "Batafsil",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "PALFINGER PK 13500T KUM bilan ISUZU FSR-34UL-NCUN shassisidagi evakuator",
+
+            category: "Avtovakuatorlar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "ISUZU FSR-34UL-NCUN",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "8400",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2500",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3420",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "4860",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "1420",
+                    },
+                    {
+                        title: "Strela chiqishi, m",
+                        value: "8",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle: "ISUZU FSR-34UL-NCUN EVAKUATORI",
+
+                    items: [
+                        {
+                            title: "EVAKUATOR KOMPLEKTATSIYASI",
+                            value: "to‘g‘ri turdagi platforma; gidravlik yig‘iladigan «Palfinger» traversa, yuk ko‘tarish qobiliyati 3500 kg, gidrobalansir va rotator bilan; g‘ildirak ushlagichlari (4 dona); to‘liq uch qatlamli bo‘yoq qoplamasi; miltillovchi mayoqchalar (2 dona); mahkamlash tasmalari (2 dona); ish chiroqlari (2 dona); diodli kontur chiroqlari; po‘lat asboblar qutisi; orqa fonarlar uchun himoya qutisi; orqa tayanchlar; sintetik stroplar – 4 dona.",
+                        },
+                        {
+                            title: "KRAN-MANIPULYATOR XUSUSIYATLARI",
+                            value: "",
+                        },
+                        {
+                            title: "Ko‘tarish momenti, tm",
+                            value: "12,1",
+                        },
+                        {
+                            title: "Maksimal chiqish masofasi, m",
+                            value: "8,0",
+                        },
+                        {
+                            title: "Maksimal chiqishda yuk ko‘tarish qobiliyati, kg",
+                            value: "1520",
+                        },
+                        {
+                            title: "Maksimal yuk ko‘tarish qobiliyati, kg",
+                            value: "5200",
+                        },
+                        {
+                            title: "Tayanchlar kengligi, m",
+                            value: "5,6",
+                        },
+                        {
+                            title: "Og‘irligi, kg",
+                            value: "1420",
+                        },
+                        {
+                            title: "Burilish burchagi, daraja",
+                            value: "200",
+                        },
+                        {
+                            title: "ISUZU FSR-34UL-NCUN asosiy shassisi",
+                            value: "",
+                        },
+                        {
+                            title: "OTTS bo‘yicha avtomobil modeli",
+                            value: "4389VA",
+                        },
+                        {
+                            title: "Avtomobil gabarit o‘lchamlari, mm: uzunligi",
+                            value: "8400",
+                        },
+                        {
+                            title: "Avtomobil gabarit o‘lchamlari, mm: kengligi",
+                            value: "2500",
+                        },
+                        {
+                            title: "Avtomobil gabarit o‘lchamlari, mm: balandligi",
+                            value: "3420",
+                        },
+                        {
+                            title: "Avtomobil bazasi, mm",
+                            value: "4860",
+                        },
+                        {
+                            title: "Avtomobil g‘ildirak formulasi",
+                            value: "4x2",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 32,
+        slug: "izotermicheskiy-furgon-kamaz-43089",
+        categoryId: 7,
+
+        images: {
+            image: mainTruckImage32,
+        },
+
+        gallery: [
+            {
+                image: mainTruckImage32,
+            },
+            {
+                image: galleryOf1TruckImage32,
+            },
+            {
+                image: galleryOf2TruckImage32,
+            },
+            {
+                image: galleryOf3TruckImage32,
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            discount:
+                "Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "Изотермический фургон КАМАЗ 43089",
+
+            category: "Автофургоны",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "КАМАЗ 43089",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISF3.8S5154, 154 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "9670",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2400",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3580",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "5275",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "9500",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "4780…5250",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "4250…4720",
+                    },
+                    {
+                        title: "Объем фургона, м³",
+                        value: "24…46",
+                    },
+                    {
+                        title: "Длина фургона, м",
+                        value: "5200…7500",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Изотермический фургон КАМАЗ 43089",
+
+                    items: [
+                        {
+                            title: "Тип надстройки",
+                            value: "Изотермический фургон",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISF3.8S5154, 154 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ступенчатая",
+                        },
+                        {
+                            title: "Длина автомобиля, мм",
+                            value: "7290…9670",
+                        },
+                        {
+                            title: "Ширина автомобиля, мм",
+                            value: "2400…2600",
+                        },
+                        {
+                            title: "Высота автомобиля, мм",
+                            value: "3480…3930",
+                        },
+                        {
+                            title: "Колёсная база, мм",
+                            value: "3845…5275",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "4780…5250",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "9500",
+                        },
+                        {
+                            title: "Грузоподъёмность, кг",
+                            value: "4720…4250",
+                        },
+                        {
+                            title: "Объём фургона, м³",
+                            value: "24…46",
+                        },
+                        {
+                            title: "Длина фургона, мм",
+                            value: "5200…7500",
+                        },
+                        {
+                            title: "Ширина фургона, мм",
+                            value: "2400…2600",
+                        },
+                        {
+                            title: "Высота фургона, мм",
+                            value: "2400…2850",
+                        },
+                        {
+                            title: "Фургон",
+                            value: "Из сэндвич-панелей, склеенных под давлением с использованием высококачественных клеев. Несущими элементами являются сэндвич-панели.",
+                        },
+                        {
+                            title: "Утеплитель",
+                            value: "Экструдированный пенополистирол",
+                        },
+                        {
+                            title: "Сэндвич-панель: боковые стенки, передняя стенка, крыша, двери",
+                            value: "Трёхслойные. Состав: наружное покрытие — влагостойкая фанера / утеплитель 40…100 мм / внутреннее покрытие — оцинкованный металл.",
+                        },
+                        {
+                            title: "Сэндвич-панель: пол",
+                            value: "Трёхслойные. Состав: наружное покрытие — оцинкованный металл / утеплитель 50…100 мм + силовые поперечины с элементами крепления / внутреннее покрытие — влагостойкая фанера 18…24 мм.",
+                        },
+                        {
+                            title: "Оснащение",
+                            value: "Боковое ограждение алюминиевое откидное, выдвижная оцинкованная лестница, задний противоподкатный брус, пластиковые крылья, брызговики, боковые влагозащитные габаритные огни, сварной портал из оцинкованной стали 3 мм, фурнитура оцинкованная. Внутри угол оцинкованный с отбортовкой 250 мм, светодиодные светильники — 2 шт.",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            discount:
+                "10% discount (up to RUB 500,000) under the state preferential leasing program",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "KAMAZ 43089 Insulated Van",
+
+            category: "Van Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "KAMAZ 43089",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISF3.8S5154, 154 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "9670",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2400",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3580",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "5275",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "9500",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "4780…5250",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "4250…4720",
+                    },
+                    {
+                        title: "Van volume, m³",
+                        value: "24…46",
+                    },
+                    {
+                        title: "Van length, m",
+                        value: "5200…7500",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "KAMAZ 43089 Insulated Van",
+
+                    items: [
+                        {
+                            title: "Superstructure type",
+                            value: "Insulated van",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISF3.8S5154, 154 hp",
+                        },
+                        {
+                            title: "Gearbox",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Vehicle length, mm",
+                            value: "7290…9670",
+                        },
+                        {
+                            title: "Vehicle width, mm",
+                            value: "2400…2600",
+                        },
+                        {
+                            title: "Vehicle height, mm",
+                            value: "3480…3930",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3845…5275",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "4780…5250",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "9500",
+                        },
+                        {
+                            title: "Payload capacity, kg",
+                            value: "4720…4250",
+                        },
+                        {
+                            title: "Van volume, m³",
+                            value: "24…46",
+                        },
+                        {
+                            title: "Van length, mm",
+                            value: "5200…7500",
+                        },
+                        {
+                            title: "Van width, mm",
+                            value: "2400…2600",
+                        },
+                        {
+                            title: "Van height, mm",
+                            value: "2400…2850",
+                        },
+                        {
+                            title: "Van",
+                            value: "Made of sandwich panels glued under pressure using high-quality adhesives. The sandwich panels are the load-bearing elements.",
+                        },
+                        {
+                            title: "Insulation",
+                            value: "Extruded polystyrene foam",
+                        },
+                        {
+                            title: "Sandwich panel: side walls, front wall, roof, doors",
+                            value: "Three-layer construction. Composition: outer layer — moisture-resistant plywood / insulation 40…100 mm / inner layer — galvanized metal.",
+                        },
+                        {
+                            title: "Sandwich panel: floor",
+                            value: "Three-layer construction. Composition: outer layer — galvanized metal / insulation 50…100 mm + reinforced cross members with fastening elements / inner layer — moisture-resistant plywood 18…24 mm.",
+                        },
+                        {
+                            title: "Equipment",
+                            value: "Folding aluminum side guard, retractable galvanized ladder, rear underride protection beam, plastic fenders, mudguards, side moisture-resistant marker lights, welded portal made of 3 mm galvanized steel, galvanized fittings. Inside: galvanized corner profile with a 250 mm flange, LED lights — 2 pcs.",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            discount:
+                "Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "KAMAZ 43089 izotermik furgoni",
+
+            category: "Avtofurgonlar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "KAMAZ 43089",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "9670",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2400",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3580",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "5275",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "9500",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "4780…5250",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "4250…4720",
+                    },
+                    {
+                        title: "Furgon hajmi, m³",
+                        value: "24…46",
+                    },
+                    {
+                        title: "Furgon uzunligi, m",
+                        value: "5200…7500",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle: "KAMAZ 43089 izotermik furgoni",
+
+                    items: [
+                        {
+                            title: "Ustqurma turi",
+                            value: "Izotermik furgon",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "Avtomobil uzunligi, mm",
+                            value: "7290…9670",
+                        },
+                        {
+                            title: "Avtomobil kengligi, mm",
+                            value: "2400…2600",
+                        },
+                        {
+                            title: "Avtomobil balandligi, mm",
+                            value: "3480…3930",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3845…5275",
+                        },
+                        {
+                            title: "Jihozlangan massa, kg",
+                            value: "4780…5250",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "9500",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "4720…4250",
+                        },
+                        {
+                            title: "Furgon hajmi, m³",
+                            value: "24…46",
+                        },
+                        {
+                            title: "Furgon uzunligi, mm",
+                            value: "5200…7500",
+                        },
+                        {
+                            title: "Furgon kengligi, mm",
+                            value: "2400…2600",
+                        },
+                        {
+                            title: "Furgon balandligi, mm",
+                            value: "2400…2850",
+                        },
+                        {
+                            title: "Furgon",
+                            value: "Yuqori sifatli yelimlardan foydalanib, bosim ostida yopishtirilgan sendvich-panellardan tayyorlangan. Yuk ko‘taruvchi elementlar sendvich-panellardan iborat.",
+                        },
+                        {
+                            title: "Issiqlik izolyatsiyasi",
+                            value: "Ekstrudirovka qilingan penopolistirol",
+                        },
+                        {
+                            title: "Sendvich-panel: yon devorlar, old devor, tom, eshiklar",
+                            value: "Uch qatlamli. Tarkibi: tashqi qoplama — namlikka chidamli fanera / issiqlik izolyatsiyasi 40…100 mm / ichki qoplama — galvanizatsiyalangan metall.",
+                        },
+                        {
+                            title: "Sendvich-panel: pol",
+                            value: "Uch qatlamli. Tarkibi: tashqi qoplama — galvanizatsiyalangan metall / issiqlik izolyatsiyasi 50…100 mm + mahkamlash elementlari bilan kuchaytiruvchi ko‘ndalang balkalar / ichki qoplama — namlikka chidamli fanera 18…24 mm.",
+                        },
+                        {
+                            title: "Jihozlanishi",
+                            value: "Bukiladigan alyuminiy yon to‘sig‘i, suriladigan galvanizatsiyalangan narvon, orqa urilishdan himoyalovchi brus, plastik qanotlar, loy sachrashidan himoyalovchi fartuklar, yon namlikdan himoyalangan gabarit chiroqlari, 3 mm galvanizatsiyalangan po‘latdan payvandlangan portal, galvanizatsiyalangan furnitura. Ichki qismida 250 mm qayrilmali galvanizatsiyalangan burchak profil va 2 dona LED chiroq mavjud.",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: false,
+        recommended: false,
+        id: 33,
+        slug: "izotermicheskiy-furgon-kamaz-43082",
+        categoryId: 7,
+
+        images: {
+            image: mainTruckImage33,
+        },
+
+        gallery: [
+            { image: mainTruckImage33 },
+            { image: galleryOf1TruckImage33 },
+            { image: galleryOf2TruckImage33 },
+            { image: galleryOf3TruckImage33 },
+            { image: galleryOf4TruckImage33 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+            discount:
+                "Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+            truckType: "Изотермический фургон КАМАЗ 43082",
+            category: "Автофургоны",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "КАМАЗ 43082" },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISF3.8S5168, 168 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "8815",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2600",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3625",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "4700…6000",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "11990",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "5850…6180",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "6140",
+                    },
+                    {
+                        title: "Объем фургона, м³",
+                        value: "39…56",
+                    },
+                    {
+                        title: "Длина фургона, м",
+                        value: "6700…8500",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Изотермический фургон КАМАЗ 43082",
+                    items: [
+                        {
+                            title: "Тип надстройки",
+                            value: "Изотермический фургон",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISF3.8S5168, 168 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ступенчатая",
+                        },
+                        {
+                            title: "Длина автомобиля, мм",
+                            value: "8815…10615",
+                        },
+                        {
+                            title: "Ширина автомобиля, мм",
+                            value: "2600",
+                        },
+                        {
+                            title: "Высота автомобиля, мм",
+                            value: "3625…3965",
+                        },
+                        {
+                            title: "Колёсная база, мм",
+                            value: "4700…6000",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "5850…6180",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "11990",
+                        },
+                        {
+                            title: "Грузоподъёмность, кг",
+                            value: "6140…5810",
+                        },
+                        {
+                            title: "Объём фургона, м³",
+                            value: "39…56",
+                        },
+                        {
+                            title: "Длина фургона, мм",
+                            value: "6700…8500",
+                        },
+                        {
+                            title: "Ширина фургона, мм",
+                            value: "2600",
+                        },
+                        {
+                            title: "Высота фургона, мм",
+                            value: "2500…2850",
+                        },
+                        {
+                            title: "Фургон",
+                            value: "Из сэндвич-панелей склеенных под давлением с использованием высококачественных клеев. Несущими элементами являются сэндвич-панели;",
+                        },
+                        {
+                            title: "Утеплитель",
+                            value: "Экструдированный пенополистирол",
+                        },
+                        {
+                            title: "Сэндвич-панель: боковые стенки, передняя стенка, крыша, двери",
+                            value: "Трёхслойные. Состав: наружное покрытие влагостойкая фанера / утеплитель 50…100 мм / внутреннее покрытие оцинкованный металл.",
+                        },
+                        {
+                            title: "Сэндвич-панель: пол",
+                            value: "Трёхслойные. Состав: наружное покрытие оцинкованный металл/утеплитель 50…100 мм. + силовые поперечины с элементами крепления / внутреннее покрытие влагостойкая фанера 18…24 мм.",
+                        },
+                        {
+                            title: "Оснащение",
+                            value: "Боковое ограждение алюминиевое откидное, выдвижная оцинкованная лестница, задний противоподткатный брус, пластиковые крылья, брызговики, боковые влагозащитные габаритные огни, сварной портал из оцинкованной стали 3мм, фурнитура оцинкованная. Внутри угол оцинкованный с отбортовкой 250 мм, светодиодные светильники 2 шт",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+            discount:
+                "10% discount (up to RUB 500,000) under the state preferential leasing program",
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+            truckType: "KAMAZ 43082 Insulated Van",
+            category: "Van Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "KAMAZ 43082",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISF3.8S5168, 168 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "8815",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2600",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3625",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "4700…6000",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "11990",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "5850…6180",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "6140",
+                    },
+                    {
+                        title: "Van volume, m³",
+                        value: "39…56",
+                    },
+                    {
+                        title: "Van length, m",
+                        value: "6700…8500",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "KAMAZ 43082 Insulated Van",
+                    items: [
+                        {
+                            title: "Superstructure type",
+                            value: "Insulated van",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISF3.8S5168, 168 hp",
+                        },
+                        {
+                            title: "Gearbox",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Vehicle length, mm",
+                            value: "8815…10615",
+                        },
+                        {
+                            title: "Vehicle width, mm",
+                            value: "2600",
+                        },
+                        {
+                            title: "Vehicle height, mm",
+                            value: "3625…3965",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "4700…6000",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "5850…6180",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "11990",
+                        },
+                        {
+                            title: "Payload capacity, kg",
+                            value: "6140…5810",
+                        },
+                        {
+                            title: "Van volume, m³",
+                            value: "39…56",
+                        },
+                        {
+                            title: "Van length, mm",
+                            value: "6700…8500",
+                        },
+                        {
+                            title: "Van width, mm",
+                            value: "2600",
+                        },
+                        {
+                            title: "Van height, mm",
+                            value: "2500…2850",
+                        },
+                        {
+                            title: "Van",
+                            value: "Made of sandwich panels glued under pressure using high-quality adhesives. The sandwich panels are the load-bearing elements.",
+                        },
+                        {
+                            title: "Insulation",
+                            value: "Extruded polystyrene foam",
+                        },
+                        {
+                            title: "Sandwich panel: side walls, front wall, roof, doors",
+                            value: "Three-layer construction. Composition: outer layer — moisture-resistant plywood / insulation 50…100 mm / inner layer — galvanized metal.",
+                        },
+                        {
+                            title: "Sandwich panel: floor",
+                            value: "Three-layer construction. Composition: outer layer — galvanized metal / insulation 50…100 mm + reinforced cross members with fastening elements / inner layer — moisture-resistant plywood 18…24 mm.",
+                        },
+                        {
+                            title: "Equipment",
+                            value: "Folding aluminum side guard, retractable galvanized ladder, rear underride protection beam, plastic fenders, mudguards, side moisture-resistant marker lights, welded portal made of 3 mm galvanized steel, galvanized fittings. Inside: galvanized corner profile with a 250 mm flange, 2 LED lights.",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+            discount:
+                "Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+            truckType: "KAMAZ 43082 izotermik furgoni",
+            category: "Avtofurgonlar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "KAMAZ 43082",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISF3.8S5168, 168 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "8815",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2600",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3625",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "4700…6000",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "11990",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "5850…6180",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "6140",
+                    },
+                    {
+                        title: "Furgon hajmi, m³",
+                        value: "39…56",
+                    },
+                    {
+                        title: "Furgon uzunligi, m",
+                        value: "6700…8500",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle: "KAMAZ 43082 izotermik furgoni",
+                    items: [
+                        {
+                            title: "Ustqurma turi",
+                            value: "Izotermik furgon",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISF3.8S5168, 168 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "Avtomobil uzunligi, mm",
+                            value: "8815…10615",
+                        },
+                        {
+                            title: "Avtomobil kengligi, mm",
+                            value: "2600",
+                        },
+                        {
+                            title: "Avtomobil balandligi, mm",
+                            value: "3625…3965",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "4700…6000",
+                        },
+                        {
+                            title: "Jihozlangan massa, kg",
+                            value: "5850…6180",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "11990",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "6140…5810",
+                        },
+                        {
+                            title: "Furgon hajmi, m³",
+                            value: "39…56",
+                        },
+                        {
+                            title: "Furgon uzunligi, mm",
+                            value: "6700…8500",
+                        },
+                        {
+                            title: "Furgon kengligi, mm",
+                            value: "2600",
+                        },
+                        {
+                            title: "Furgon balandligi, mm",
+                            value: "2500…2850",
+                        },
+                        {
+                            title: "Furgon",
+                            value: "Yuqori sifatli yelimlardan foydalanib, bosim ostida yopishtirilgan sendvich-panellardan tayyorlangan. Yuk ko‘taruvchi elementlar sendvich-panellardan iborat.",
+                        },
+                        {
+                            title: "Issiqlik izolyatsiyasi",
+                            value: "Ekstrudirovka qilingan penopolistirol",
+                        },
+                        {
+                            title: "Sendvich-panel: yon devorlar, old devor, tom, eshiklar",
+                            value: "Uch qatlamli. Tarkibi: tashqi qoplama — namlikka chidamli fanera / issiqlik izolyatsiyasi 50…100 mm / ichki qoplama — galvanizatsiyalangan metall.",
+                        },
+                        {
+                            title: "Sendvich-panel: pol",
+                            value: "Uch qatlamli. Tarkibi: tashqi qoplama — galvanizatsiyalangan metall / issiqlik izolyatsiyasi 50…100 mm + mahkamlash elementlari bilan kuchaytiruvchi ko‘ndalang balkalar / ichki qoplama — namlikka chidamli fanera 18…24 mm.",
+                        },
+                        {
+                            title: "Jihozlanishi",
+                            value: "Bukiladigan alyuminiy yon to‘sig‘i, suriladigan galvanizatsiyalangan narvon, orqa urilishdan himoyalovchi brus, plastik qanotlar, loy sachrashidan himoyalovchi fartuklar, yon namlikdan himoyalangan gabarit chiroqlari, 3 mm galvanizatsiyalangan po‘latdan payvandlangan portal, galvanizatsiyalangan furnitura. Ichki qismida 250 mm qayrilmali galvanizatsiyalangan burchak profil va 2 dona LED chiroq mavjud.",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 34,
+        slug: "izotermicheskiy-furgon-shacman-x3000",
+        categoryId: 7,
+
+        images: {
+            image: mainTruckImage34,
+        },
+
+        gallery: [
+            { image: mainTruckImage34 },
+            { image: galleryOf1TruckImage34 },
+            { image: galleryOf2TruckImage34 },
+            { image: galleryOf3TruckImage34 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+            truckType: "Изотермический фургон SHACMAN X3000",
+            category: "Автофургоны",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "SHACMAN X3000" },
+                    {
+                        title: "Двигатель",
+                        value: "WP12.375E50, 375 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 12-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "10505",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2600",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3910",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "1800",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "41000",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "12300",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "28200",
+                    },
+                    {
+                        title: "Объем фургона, м³",
+                        value: "48",
+                    },
+                    {
+                        title: "Длина фургона, м",
+                        value: "8400",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Изотермический фургон SHACMAN X3000",
+                    items: [
+                        {
+                            title: "Тип надстройки",
+                            value: "Изотермический фургон",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "WP12.375E50, 375 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 12-ти ступенчатая",
+                        },
+                        {
+                            title: "Длина автомобиля, мм",
+                            value: "10505",
+                        },
+                        {
+                            title: "Ширина автомобиля, мм",
+                            value: "2600",
+                        },
+                        {
+                            title: "Высота автомобиля, мм",
+                            value: "3910",
+                        },
+                        {
+                            title: "Колёсная база, мм",
+                            value: "1800+3225+1350",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "12300",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "41000",
+                        },
+                        {
+                            title: "Грузоподъёмность, кг",
+                            value: "28200",
+                        },
+                        {
+                            title: "Объём фургона, м³",
+                            value: "48",
+                        },
+                        {
+                            title: "Длина фургона, мм",
+                            value: "8400",
+                        },
+                        {
+                            title: "Ширина фургона, мм",
+                            value: "2600",
+                        },
+                        {
+                            title: "Высота фургона, мм",
+                            value: "2600",
+                        },
+                        {
+                            title: "Фургон",
+                            value: "Из сэндвич-панелей склеенных под давлением с использованием высококачественных клеев. Несущими элементами являются сэндвич-панели;",
+                        },
+                        {
+                            title: "Утеплитель",
+                            value: "Экструдированный пенополистирол",
+                        },
+                        {
+                            title: "Сэндвич-панель: боковые стенки, передняя стенка, крыша, двери",
+                            value: "Трёхслойные. Состав: наружное покрытие плакированый металл белого цвета /утеплитель 60…80 мм/ внутренняя покрытие плакированый металл белого цвета.",
+                        },
+                        {
+                            title: "Сэндвич-панель: пол",
+                            value: "Трёхслойные. Состав: наружное покрытие оцинкованный металл/утеплитель 80 мм. + силовые поперечины с элементами крепления/ внутренняя покрытие влагостойкая фанера 18 мм.",
+                        },
+                        {
+                            title: "Оснащение",
+                            value: "Боковое ограждение алюминиевое откидное, выдвижная оцинкованная лестница, задний противоподткатный брус, пластиковые крылья, брызговики, боковые влагозащитные габаритные огни, сварной портал из оцинкованной стали 3мм, фурнитура оцинкованная. Внутри угол оцинкованный с отбортовкой 250 мм., светодиодные светильники 2 шт",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+            truckType: "SHACMAN X3000 Insulated Van",
+            category: "Van Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "SHACMAN X3000",
+                    },
+                    {
+                        title: "Engine",
+                        value: "WP12.375E50, 375 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "Manual, 12-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "10505",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2600",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3910",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "1800",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "41000",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "12300",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "28200",
+                    },
+                    {
+                        title: "Van volume, m³",
+                        value: "48",
+                    },
+                    {
+                        title: "Van length, m",
+                        value: "8400",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "SHACMAN X3000 Insulated Van",
+                    items: [
+                        {
+                            title: "Superstructure type",
+                            value: "Insulated van",
+                        },
+                        {
+                            title: "Engine",
+                            value: "WP12.375E50, 375 hp",
+                        },
+                        {
+                            title: "Gearbox",
+                            value: "Manual, 12-speed",
+                        },
+                        {
+                            title: "Vehicle length, mm",
+                            value: "10505",
+                        },
+                        {
+                            title: "Vehicle width, mm",
+                            value: "2600",
+                        },
+                        {
+                            title: "Vehicle height, mm",
+                            value: "3910",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "1800+3225+1350",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "12300",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "41000",
+                        },
+                        {
+                            title: "Payload capacity, kg",
+                            value: "28200",
+                        },
+                        {
+                            title: "Van volume, m³",
+                            value: "48",
+                        },
+                        {
+                            title: "Van length, mm",
+                            value: "8400",
+                        },
+                        {
+                            title: "Van width, mm",
+                            value: "2600",
+                        },
+                        {
+                            title: "Van height, mm",
+                            value: "2600",
+                        },
+                        {
+                            title: "Van",
+                            value: "Made of sandwich panels glued under pressure using high-quality adhesives. The sandwich panels are the load-bearing elements.",
+                        },
+                        {
+                            title: "Insulation",
+                            value: "Extruded polystyrene foam",
+                        },
+                        {
+                            title: "Sandwich panel: side walls, front wall, roof, doors",
+                            value: "Three-layer construction. Composition: outer layer — white clad metal / insulation 60…80 mm / inner layer — white clad metal.",
+                        },
+                        {
+                            title: "Sandwich panel: floor",
+                            value: "Three-layer construction. Composition: outer layer — galvanized metal / insulation 80 mm + reinforced cross members with fastening elements / inner layer — moisture-resistant plywood 18 mm.",
+                        },
+                        {
+                            title: "Equipment",
+                            value: "Folding aluminum side guard, retractable galvanized ladder, rear underride protection beam, plastic fenders, mudguards, side moisture-resistant marker lights, welded portal made of 3 mm galvanized steel, galvanized fittings. Inside: galvanized corner profile with a 250 mm flange, 2 LED lights.",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+            truckType: "SHACMAN X3000 izotermik furgoni",
+            category: "Avtofurgonlar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "SHACMAN X3000",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "WP12.375E50, 375 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 12 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "10505",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2600",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3910",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "1800",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "41000",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "12300",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "28200",
+                    },
+                    {
+                        title: "Furgon hajmi, m³",
+                        value: "48",
+                    },
+                    {
+                        title: "Furgon uzunligi, m",
+                        value: "8400",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle: "SHACMAN X3000 izotermik furgoni",
+                    items: [
+                        {
+                            title: "Ustqurma turi",
+                            value: "Izotermik furgon",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "WP12.375E50, 375 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 12 pog‘onali",
+                        },
+                        {
+                            title: "Avtomobil uzunligi, mm",
+                            value: "10505",
+                        },
+                        {
+                            title: "Avtomobil kengligi, mm",
+                            value: "2600",
+                        },
+                        {
+                            title: "Avtomobil balandligi, mm",
+                            value: "3910",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "1800+3225+1350",
+                        },
+                        {
+                            title: "Jihozlangan massa, kg",
+                            value: "12300",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "41000",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "28200",
+                        },
+                        {
+                            title: "Furgon hajmi, m³",
+                            value: "48",
+                        },
+                        {
+                            title: "Furgon uzunligi, mm",
+                            value: "8400",
+                        },
+                        {
+                            title: "Furgon kengligi, mm",
+                            value: "2600",
+                        },
+                        {
+                            title: "Furgon balandligi, mm",
+                            value: "2600",
+                        },
+                        {
+                            title: "Furgon",
+                            value: "Yuqori sifatli yelimlardan foydalanib, bosim ostida yopishtirilgan sendvich-panellardan tayyorlangan. Yuk ko‘taruvchi elementlar sendvich-panellardan iborat.",
+                        },
+                        {
+                            title: "Issiqlik izolyatsiyasi",
+                            value: "Ekstrudirovka qilingan penopolistirol",
+                        },
+                        {
+                            title: "Sendvich-panel: yon devorlar, old devor, tom, eshiklar",
+                            value: "Uch qatlamli. Tarkibi: tashqi qoplama — oq rangli qoplamali metall / issiqlik izolyatsiyasi 60…80 mm / ichki qoplama — oq rangli qoplamali metall.",
+                        },
+                        {
+                            title: "Sendvich-panel: pol",
+                            value: "Uch qatlamli. Tarkibi: tashqi qoplama — galvanizatsiyalangan metall / issiqlik izolyatsiyasi 80 mm + mahkamlash elementlari bilan kuchaytiruvchi ko‘ndalang balkalar / ichki qoplama — namlikka chidamli fanera 18 mm.",
+                        },
+                        {
+                            title: "Jihozlanishi",
+                            value: "Bukiladigan alyuminiy yon to‘sig‘i, suriladigan galvanizatsiyalangan narvon, orqa urilishdan himoyalovchi brus, plastik qanotlar, loy sachrashidan himoyalovchi fartuklar, yon namlikdan himoyalangan gabarit chiroqlari, 3 mm galvanizatsiyalangan po‘latdan payvandlangan portal, galvanizatsiyalangan furnitura. Ichki qismida 250 mm qayrilmali galvanizatsiyalangan burchak profil va 2 dona LED chiroq mavjud.",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 35,
+        slug: "izotermicheskiy-furgon-jac-35",
+        categoryId: 7,
+
+        images: {
+            image: mainTruckImage35,
+        },
+
+        gallery: [
+            { image: mainTruckImage35 },
+            { image: galleryOf1TruckImage35 },
+            { image: galleryOf2TruckImage35 },
+            { image: galleryOf3TruckImage35 },
+            { image: galleryOf4TruckImage35 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+            truckType: "Изотермический фургон JAC 35",
+            category: "Автофургоны",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "JAC 35",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "6208",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2040",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2890",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "3500",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "850",
+                    },
+                    {
+                        title: "Колёсная база, мм",
+                        value: "3140",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "2650",
+                    },
+                    {
+                        title: "Объем фургона, м³",
+                        value: "19",
+                    },
+                    {
+                        title: "Длина фургона, м",
+                        value: "4200",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Изотермический фургон JAC 35",
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "JAC 35",
+                        },
+                        {
+                            title: "Длина автомобиля, мм",
+                            value: "6208",
+                        },
+                        {
+                            title: "Ширина автомобиля, мм",
+                            value: "2040",
+                        },
+                        {
+                            title: "Высота автомобиля, мм",
+                            value: "2890",
+                        },
+                        {
+                            title: "Полная масса, кг",
+                            value: "3500",
+                        },
+                        {
+                            title: "Грузоподъёмность, кг",
+                            value: "850",
+                        },
+                        {
+                            title: "Колёсная база, мм",
+                            value: "3140",
+                        },
+                        {
+                            title: "Колёсная база, мм",
+                            value: "3140",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "2650",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кгг",
+                            value: "3500",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "Масса перевозимого груза, кг",
+                        },
+                        {
+                            title: "Масса перевозимого груза, кг",
+                            value: "Масса перевозимого груза, кг",
+                        },
+                        {
+                            title: "Габаритные размеры фургона, мм",
+                            value: "4200х2200х2100",
+                        },
+                        {
+                            title: "Фургон",
+                            value: "Из сэндвич-панелей склеенных под давлением с использованием высококачественных клеев. Несущими элементами являются сэндвич-панели;",
+                        },
+                        {
+                            title: "Утеплитель",
+                            value: "Экструдированный пенополистирол",
+                        },
+                        {
+                            title: "Сэндвич-панель: передняя, боковые стенки, крыша, двери",
+                            value: "Трёхслойные. Состав: наружное покрытие плакированный металл белого цвета /утеплитель 50 мм/ внутренняя покрытие оцинкованный металл.",
+                        },
+                        {
+                            title: "Сэндвич-панель: пол",
+                            value: "Трёхслойные. Состав: наружное покрытие оцинкованный металл/утеплитель 50 мм.+ силовые поперечины с элементами крепления/ внутренняя покрытие влагостойкая фанера 18 мм.",
+                        },
+                        {
+                            title: "Оснащение",
+                            value: "Боковое ограждение алюминиевое откидное, выдвижная оцинкованная лестница, задний противоподткатный брус, пластиковые крылья, брызговики, боковые влагозащитные габаритные огни, сварной портал из оцинкованной стали 3мм, фурнитура оцинкованная. Внутри угол оцинкованный с отбортовкой 250 мм., светодиодные светильники 2 шт",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+            truckType: "JAC 35 Insulated Van",
+            category: "Van Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "JAC 35",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "6208",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2040",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2890",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "3500",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "850",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3140",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "2650",
+                    },
+                    {
+                        title: "Van volume, m³",
+                        value: "19",
+                    },
+                    {
+                        title: "Van length, m",
+                        value: "4200",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "JAC 35 Insulated Van",
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "JAC 35",
+                        },
+                        {
+                            title: "Vehicle length, mm",
+                            value: "6208",
+                        },
+                        {
+                            title: "Vehicle width, mm",
+                            value: "2040",
+                        },
+                        {
+                            title: "Vehicle height, mm",
+                            value: "2890",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "3500",
+                        },
+                        {
+                            title: "Payload capacity, kg",
+                            value: "850",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3140",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3140",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "2650",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "3500",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "Cargo weight, kg",
+                        },
+                        {
+                            title: "Cargo weight, kg",
+                            value: "Cargo weight, kg",
+                        },
+                        {
+                            title: "Van dimensions, mm",
+                            value: "4200x2200x2100",
+                        },
+                        {
+                            title: "Van",
+                            value: "Made of sandwich panels glued under pressure using high-quality adhesives. The sandwich panels are the load-bearing elements.",
+                        },
+                        {
+                            title: "Insulation",
+                            value: "Extruded polystyrene foam",
+                        },
+                        {
+                            title: "Sandwich panel: front, side walls, roof, doors",
+                            value: "Three-layer construction. Composition: outer layer — white clad metal / insulation 50 mm / inner layer — galvanized metal.",
+                        },
+                        {
+                            title: "Sandwich panel: floor",
+                            value: "Three-layer construction. Composition: outer layer — galvanized metal / insulation 50 mm + reinforced cross members with fastening elements / inner layer — moisture-resistant plywood 18 mm.",
+                        },
+                        {
+                            title: "Equipment",
+                            value: "Folding aluminum side guard, retractable galvanized ladder, rear underride protection beam, plastic fenders, mudguards, side moisture-resistant marker lights, welded portal made of 3 mm galvanized steel, galvanized fittings. Inside: galvanized corner profile with a 250 mm flange, 2 LED lights.",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+            truckType: "JAC 35 izotermik furgoni",
+            category: "Avtofurgonlar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "JAC 35",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "6208",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2040",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2890",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "3500",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "850",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3140",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "2650",
+                    },
+                    {
+                        title: "Furgon hajmi, m³",
+                        value: "19",
+                    },
+                    {
+                        title: "Furgon uzunligi, m",
+                        value: "4200",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle: "JAC 35 izotermik furgoni",
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "JAC 35",
+                        },
+                        {
+                            title: "Avtomobil uzunligi, mm",
+                            value: "6208",
+                        },
+                        {
+                            title: "Avtomobil kengligi, mm",
+                            value: "2040",
+                        },
+                        {
+                            title: "Avtomobil balandligi, mm",
+                            value: "2890",
+                        },
+                        {
+                            title: "To‘liq massa, kg",
+                            value: "3500",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "850",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3140",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3140",
+                        },
+                        {
+                            title: "Jihozlangan massa, kg",
+                            value: "2650",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "3500",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "Tashiladigan yuk massasi, kg",
+                        },
+                        {
+                            title: "Tashiladigan yuk massasi, kg",
+                            value: "Tashiladigan yuk massasi, kg",
+                        },
+                        {
+                            title: "Furgon gabarit o‘lchamlari, mm",
+                            value: "4200x2200x2100",
+                        },
+                        {
+                            title: "Furgon",
+                            value: "Yuqori sifatli yelimlardan foydalanib, bosim ostida yopishtirilgan sendvich-panellardan tayyorlangan. Yuk ko‘taruvchi elementlar sendvich-panellardan iborat.",
+                        },
+                        {
+                            title: "Issiqlik izolyatsiyasi",
+                            value: "Ekstrudirovka qilingan penopolistirol",
+                        },
+                        {
+                            title: "Sendvich-panel: old qism, yon devorlar, tom, eshiklar",
+                            value: "Uch qatlamli. Tarkibi: tashqi qoplama — oq rangli qoplamali metall / issiqlik izolyatsiyasi 50 mm / ichki qoplama — galvanizatsiyalangan metall.",
+                        },
+                        {
+                            title: "Sendvich-panel: pol",
+                            value: "Uch qatlamli. Tarkibi: tashqi qoplama — galvanizatsiyalangan metall / issiqlik izolyatsiyasi 50 mm + mahkamlash elementlari bilan kuchaytiruvchi ko‘ndalang balkalar / ichki qoplama — namlikka chidamli fanera 18 mm.",
+                        },
+                        {
+                            title: "Jihozlanishi",
+                            value: "Bukiladigan alyuminiy yon to‘sig‘i, suriladigan galvanizatsiyalangan narvon, orqa urilishdan himoyalovchi brus, plastik qanotlar, loy sachrashidan himoyalovchi fartuklar, yon namlikdan himoyalangan gabarit chiroqlari, 3 mm galvanizatsiyalangan po‘latdan payvandlangan portal, galvanizatsiyalangan furnitura. Ichki qismida 250 mm qayrilmali galvanizatsiyalangan burchak profil va 2 dona LED chiroq mavjud.",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 36,
+        slug: "izotermicheskiy-furgon-jac-n90",
+        categoryId: 7,
+
+        images: {
+            image: mainTruckImage36,
+        },
+
+        gallery: [
+            { image: mainTruckImage36 },
+            { image: galleryOf1TruckImage36 },
+            { image: galleryOf2TruckImage36 },
+            { image: galleryOf3TruckImage36 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "Изотермический фургон JAC N90",
+            category: "Автофургоны",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "JAC N90" },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISF3.8S5154, 154 л. с.",
+                    },
+                    { title: "КПП", value: "Механическая, 6-ти ступенчатая" },
+                    { title: "Длина автомобиля, мм", value: "8120" },
+                    { title: "Ширина автомобиля, мм", value: "2300" },
+                    { title: "Высота автомобиля, мм", value: "3565" },
+                    { title: "Колесная база, мм", value: "4475" },
+                    { title: "Полная масса, кг", value: "9030" },
+                    { title: "Снаряженная масса, кг", value: "4325…4485" },
+                    { title: "Грузоподъёмность, кг", value: "4680" },
+                    { title: "Объем фургона, м³", value: "24…42" },
+                    { title: "Длина фургона, м", value: "5200…6500" },
+                    { title: "Смотреть все характеристики" },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Изотермический фургон JAC N90",
+
+                    items: [
+                        {
+                            title: "Тип надстройки",
+                            value: "Изотермический фургон",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISF3.8S5154, 154 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ти ступенчатая",
+                        },
+                        {
+                            title: "Длина автомобиля, мм",
+                            value: "6110…8430",
+                        },
+                        {
+                            title: "Ширина автомобиля, мм",
+                            value: "2300…2600",
+                        },
+                        {
+                            title: "Высота автомобиля, мм",
+                            value: "3265…3965",
+                        },
+                        {
+                            title: "Колёсная база, мм",
+                            value: "3845…4475",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "4325…4485",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "9030",
+                        },
+                        {
+                            title: "Грузоподъёмность, кг",
+                            value: "4705…4545",
+                        },
+                        {
+                            title: "Объём фургона, м³",
+                            value: "24…42",
+                        },
+                        {
+                            title: "Длина фургона, мм",
+                            value: "5200…6500",
+                        },
+                        {
+                            title: "Ширина фургона, мм",
+                            value: "2300…2600",
+                        },
+                        {
+                            title: "Высота фургона, мм",
+                            value: "2200…2900",
+                        },
+                        {
+                            title: "Фургон",
+                            value: "Из сэндвич-панелей склеенных под давлением с использованием высококачественных клеев. Несущими элементами являются сэндвич-панели;",
+                        },
+                        {
+                            title: "Утеплитель",
+                            value: "Экструдированный пенополистирол",
+                        },
+                        {
+                            title: "Сэндвич-панель: боковые стенки, передняя стенка, крыша, двери",
+                            value: "Трёхслойные. Состав: наружное покрытие влагостойкая фанера /утеплитель 50…100 мм/ внутренняя покрытие оцинкованный металл.",
+                        },
+                        {
+                            title: "Сэндвич-панель: пол",
+                            value: "Трёхслойные. Состав: наружное покрытие оцинкованный металл/утеплитель 50…100 мм.+ силовые поперечины с элементами крепления/ внутренняя покрытие влагостойкая фанера 18…24 мм.",
+                        },
+                        {
+                            title: "Оснащение",
+                            value: "Боковое ограждение алюминиевое откидное, выдвижная оцинкованная лестница, задний противоподткатный брус, пластиковые крылья, брызговики, боковые влагозащитные габаритные огни, сварной портал из оцинкованной стали 3мм, фурнитура оцинкованная. Внутри угол оцинкованный с отбортовкой 250 мм., светодиодные светильники 2 шт",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "JAC N90 Insulated Van",
+            category: "Van Trucks",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Base chassis", value: "JAC N90" },
+                    { title: "Engine", value: "Cummins ISF3.8S5154, 154 hp" },
+                    { title: "Gearbox", value: "Manual, 6-speed" },
+                    { title: "Vehicle length, mm", value: "8120" },
+                    { title: "Vehicle width, mm", value: "2300" },
+                    { title: "Vehicle height, mm", value: "3565" },
+                    { title: "Wheelbase, mm", value: "4475" },
+                    { title: "Gross vehicle weight, kg", value: "9030" },
+                    { title: "Curb weight, kg", value: "4325…4485" },
+                    { title: "Payload capacity, kg", value: "4680" },
+                    { title: "Van volume, m³", value: "24…42" },
+                    { title: "Van length, m", value: "5200…6500" },
+                    { title: "View all specifications" },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "JAC N90 Insulated Van",
+
+                    items: [
+                        {
+                            title: "Superstructure type",
+                            value: "Insulated van",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISF3.8S5154, 154 hp",
+                        },
+                        {
+                            title: "Gearbox",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Vehicle length, mm",
+                            value: "6110…8430",
+                        },
+                        {
+                            title: "Vehicle width, mm",
+                            value: "2300…2600",
+                        },
+                        {
+                            title: "Vehicle height, mm",
+                            value: "3265…3965",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3845…4475",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "4325…4485",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "9030",
+                        },
+                        {
+                            title: "Payload capacity, kg",
+                            value: "4705…4545",
+                        },
+                        {
+                            title: "Van volume, m³",
+                            value: "24…42",
+                        },
+                        {
+                            title: "Van length, mm",
+                            value: "5200…6500",
+                        },
+                        {
+                            title: "Van width, mm",
+                            value: "2300…2600",
+                        },
+                        {
+                            title: "Van height, mm",
+                            value: "2200…2900",
+                        },
+                        {
+                            title: "Van",
+                            value: "Made of sandwich panels glued under pressure using high-quality adhesives. The sandwich panels are the load-bearing elements.",
+                        },
+                        {
+                            title: "Insulation",
+                            value: "Extruded polystyrene foam",
+                        },
+                        {
+                            title: "Sandwich panel: side walls, front wall, roof, doors",
+                            value: "Three-layer construction. Composition: outer layer — moisture-resistant plywood / insulation 50…100 mm / inner layer — galvanized metal.",
+                        },
+                        {
+                            title: "Sandwich panel: floor",
+                            value: "Three-layer construction. Composition: outer layer — galvanized metal / insulation 50…100 mm + reinforced cross members with fastening elements / inner layer — moisture-resistant plywood 18…24 mm.",
+                        },
+                        {
+                            title: "Equipment",
+                            value: "Folding aluminum side guard, retractable galvanized ladder, rear underride protection beam, plastic fenders, mudguards, side moisture-resistant marker lights, welded portal made of 3 mm galvanized steel, galvanized fittings. Inside: galvanized corner profile with a 250 mm flange, 2 LED lights.",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "JAC N90 izotermik furgoni",
+            category: "Avtofurgonlar",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Asosiy shassi", value: "JAC N90" },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    { title: "Avtomobil uzunligi, mm", value: "8120" },
+                    { title: "Avtomobil kengligi, mm", value: "2300" },
+                    { title: "Avtomobil balandligi, mm", value: "3565" },
+                    { title: "G‘ildirak bazasi, mm", value: "4475" },
+                    { title: "To‘liq massa, kg", value: "9030" },
+                    { title: "Jihozlangan massa, kg", value: "4325…4485" },
+                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "4680" },
+                    { title: "Furgon hajmi, m³", value: "24…42" },
+                    { title: "Furgon uzunligi, m", value: "5200…6500" },
+                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle: "JAC N90 izotermik furgoni",
+
+                    items: [
+                        {
+                            title: "Ustqurma turi",
+                            value: "Izotermik furgon",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "Avtomobil uzunligi, mm",
+                            value: "6110…8430",
+                        },
+                        {
+                            title: "Avtomobil kengligi, mm",
+                            value: "2300…2600",
+                        },
+                        {
+                            title: "Avtomobil balandligi, mm",
+                            value: "3265…3965",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3845…4475",
+                        },
+                        {
+                            title: "Jihozlangan massa, kg",
+                            value: "4325…4485",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "9030",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "4705…4545",
+                        },
+                        {
+                            title: "Furgon hajmi, m³",
+                            value: "24…42",
+                        },
+                        {
+                            title: "Furgon uzunligi, mm",
+                            value: "5200…6500",
+                        },
+                        {
+                            title: "Furgon kengligi, mm",
+                            value: "2300…2600",
+                        },
+                        {
+                            title: "Furgon balandligi, mm",
+                            value: "2200…2900",
+                        },
+                        {
+                            title: "Furgon",
+                            value: "Yuqori sifatli yelimlardan foydalanib, bosim ostida yopishtirilgan sendvich-panellardan tayyorlangan. Yuk ko‘taruvchi elementlar sendvich-panellardan iborat.",
+                        },
+                        {
+                            title: "Issiqlik izolyatsiyasi",
+                            value: "Ekstrudirovka qilingan penopolistirol",
+                        },
+                        {
+                            title: "Sendvich-panel: yon devorlar, old devor, tom, eshiklar",
+                            value: "Uch qatlamli. Tarkibi: tashqi qoplama — namlikka chidamli fanera / issiqlik izolyatsiyasi 50…100 mm / ichki qoplama — galvanizatsiyalangan metall.",
+                        },
+                        {
+                            title: "Sendvich-panel: pol",
+                            value: "Uch qatlamli. Tarkibi: tashqi qoplama — galvanizatsiyalangan metall / issiqlik izolyatsiyasi 50…100 mm + mahkamlash elementlari bilan kuchaytiruvchi ko‘ndalang balkalar / ichki qoplama — namlikka chidamli fanera 18…24 mm.",
+                        },
+                        {
+                            title: "Jihozlanishi",
+                            value: "Bukiladigan alyuminiy yon to‘sig‘i, suriladigan galvanizatsiyalangan narvon, orqa urilishdan himoyalovchi brus, plastik qanotlar, loy sachrashidan himoyalovchi fartuklar, yon namlikdan himoyalangan gabarit chiroqlari, 3 mm galvanizatsiyalangan po‘latdan payvandlangan portal, galvanizatsiyalangan furnitura. Ichki qismida 250 mm qayrilmali galvanizatsiyalangan burchak profil va 2 dona LED chiroq mavjud.",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 37,
+        slug: "izotermicheskiy-furgon-jac-n90",
+        categoryId: 7,
+
+        images: {
+            image: mainTruckImage37,
+        },
+
+        gallery: [
+            { image: mainTruckImage37 },
+            { image: galleryOf1TruckImage37 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "Изотермический фургон JAC N90",
+            category: "Автофургоны",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "JAC N90" },
+                    {
+                        title: "Двигатель",
+                        value: "ISF3.8s4R154 (Евро-5), 156 л. с.",
+                    },
+                    { title: "КПП", value: "LC6T55, механическая" },
+                    { title: "Длина автомобиля, мм", value: "6990" },
+                    { title: "Ширина автомобиля, мм", value: "2116" },
+                    { title: "Высота автомобиля, мм", value: "2300" },
+                    { title: "Колесная база, мм", value: "3845" },
+                    { title: "Полная масса, кг", value: "9030" },
+                    { title: "Снаряженная масса, кг", value: "2820" },
+                    { title: "Грузоподъёмность, кг", value: "5920" },
+                    { title: "Объем фургона, м³", value: "22" },
+                    { title: "Длина фургона, м", value: "5600" },
+                    { title: "Смотреть все характеристики" },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Изотермический фургон JAC N90",
+
+                    items: [
+                        {
+                            title: "Наименование",
+                            value: "Модель N-90",
+                        },
+                        {
+                            title: "Кабина без спального места",
+                            value: "",
+                        },
+                        {
+                            title: "Колёсная формула",
+                            value: "4х2",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "",
+                        },
+                        {
+                            title: "Модель",
+                            value: "ISF3.8s4R154 (Евро-5)",
+                        },
+                        {
+                            title: "Тип",
+                            value: "Common Rail+EGR+POC",
+                        },
+                        {
+                            title: "Объём",
+                            value: "3760",
+                        },
+                        {
+                            title: "Максимальная мощность (л.с.)",
+                            value: "156/2600 (112kw/2600)",
+                        },
+                        {
+                            title: "Трансмиссия",
+                            value: "",
+                        },
+                        {
+                            title: "КПП",
+                            value: "LC6T55, механическая",
+                        },
+                        {
+                            title: "Основные параметры",
+                            value: "",
+                        },
+                        {
+                            title: "Колея (мм)",
+                            value: "1665/1525",
+                        },
+                        {
+                            title: "Снаряженная масса шасси (кг)",
+                            value: "2820",
+                        },
+                        {
+                            title: "Грузоподъемность шасси без учета веса надстройки (кг)",
+                            value: "5130",
+                        },
+                        {
+                            title: "Полная масса (кг)",
+                            value: "7950",
+                        },
+                        {
+                            title: "Максимальная скорость (км/ч)",
+                            value: "90",
+                        },
+                        {
+                            title: "Минимальный дорожный просвет (мм)",
+                            value: "173",
+                        },
+                        {
+                            title: "Шины",
+                            value: "215/75R17.5",
+                        },
+                        {
+                            title: "Рулевой механизм",
+                            value: "Гидроусилитель руля",
+                        },
+                        {
+                            title: "Топливный бак",
+                            value: "100L",
+                        },
+                        {
+                            title: "Аккумуляторные батареи",
+                            value: "120 А.Ч. (2 шт.)24В",
+                        },
+                        {
+                            title: "Тип тормозной системы",
+                            value: "Двухконтурная пневматическая с 4-канальной ABS",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "JAC N90 Insulated Van",
+            category: "Van Trucks",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Base chassis", value: "JAC N90" },
+                    { title: "Engine", value: "ISF3.8s4R154 (Euro-5), 156 hp" },
+                    { title: "Gearbox", value: "LC6T55, manual" },
+                    { title: "Vehicle length, mm", value: "6990" },
+                    { title: "Vehicle width, mm", value: "2116" },
+                    { title: "Vehicle height, mm", value: "2300" },
+                    { title: "Wheelbase, mm", value: "3845" },
+                    { title: "Gross vehicle weight, kg", value: "9030" },
+                    { title: "Curb weight, kg", value: "2820" },
+                    { title: "Payload capacity, kg", value: "5920" },
+                    { title: "Van volume, m³", value: "22" },
+                    { title: "Van length, m", value: "5600" },
+                    { title: "View all specifications" },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "JAC N90 Insulated Van",
+
+                    items: [
+                        {
+                            title: "Name",
+                            value: "N-90 Model",
+                        },
+                        {
+                            title: "Cabin without sleeper",
+                            value: "",
+                        },
+                        {
+                            title: "Wheel formula",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Engine",
+                            value: "",
+                        },
+                        {
+                            title: "Model",
+                            value: "ISF3.8s4R154 (Euro-5)",
+                        },
+                        {
+                            title: "Type",
+                            value: "Common Rail+EGR+POC",
+                        },
+                        {
+                            title: "Displacement",
+                            value: "3760",
+                        },
+                        {
+                            title: "Maximum power (hp)",
+                            value: "156/2600 (112 kW/2600)",
+                        },
+                        {
+                            title: "Transmission",
+                            value: "",
+                        },
+                        {
+                            title: "Gearbox",
+                            value: "LC6T55, manual",
+                        },
+                        {
+                            title: "Main parameters",
+                            value: "",
+                        },
+                        {
+                            title: "Track width (mm)",
+                            value: "1665/1525",
+                        },
+                        {
+                            title: "Chassis curb weight (kg)",
+                            value: "2820",
+                        },
+                        {
+                            title: "Chassis payload without superstructure weight (kg)",
+                            value: "5130",
+                        },
+                        {
+                            title: "Gross vehicle weight (kg)",
+                            value: "7950",
+                        },
+                        {
+                            title: "Maximum speed (km/h)",
+                            value: "90",
+                        },
+                        {
+                            title: "Minimum ground clearance (mm)",
+                            value: "173",
+                        },
+                        {
+                            title: "Tires",
+                            value: "215/75R17.5",
+                        },
+                        {
+                            title: "Steering mechanism",
+                            value: "Power steering",
+                        },
+                        {
+                            title: "Fuel tank",
+                            value: "100L",
+                        },
+                        {
+                            title: "Batteries",
+                            value: "120 Ah (2 pcs.) 24V",
+                        },
+                        {
+                            title: "Brake system type",
+                            value: "Dual-circuit pneumatic system with 4-channel ABS",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "JAC N90 izotermik furgoni",
+            category: "Avtofurgonlar",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Asosiy shassi", value: "JAC N90" },
+                    {
+                        title: "Dvigatel",
+                        value: "ISF3.8s4R154 (Euro-5), 156 ot kuchi",
+                    },
+                    { title: "Uzatmalar qutisi", value: "LC6T55, mexanik" },
+                    { title: "Avtomobil uzunligi, mm", value: "6990" },
+                    { title: "Avtomobil kengligi, mm", value: "2116" },
+                    { title: "Avtomobil balandligi, mm", value: "2300" },
+                    { title: "G‘ildirak bazasi, mm", value: "3845" },
+                    { title: "To‘liq massa, kg", value: "9030" },
+                    { title: "Jihozlangan massa, kg", value: "2820" },
+                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "5920" },
+                    { title: "Furgon hajmi, m³", value: "22" },
+                    { title: "Furgon uzunligi, m", value: "5600" },
+                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle: "JAC N90 izotermik furgoni",
+
+                    items: [
+                        {
+                            title: "Nomi",
+                            value: "N-90 modeli",
+                        },
+                        {
+                            title: "Yotoq joyisiz kabina",
+                            value: "",
+                        },
+                        {
+                            title: "G‘ildirak formulasi",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "",
+                        },
+                        {
+                            title: "Model",
+                            value: "ISF3.8s4R154 (Euro-5)",
+                        },
+                        {
+                            title: "Turi",
+                            value: "Common Rail+EGR+POC",
+                        },
+                        {
+                            title: "Ish hajmi",
+                            value: "3760",
+                        },
+                        {
+                            title: "Maksimal quvvat (ot kuchi)",
+                            value: "156/2600 (112 kW/2600)",
+                        },
+                        {
+                            title: "Transmissiya",
+                            value: "",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "LC6T55, mexanik",
+                        },
+                        {
+                            title: "Asosiy parametrlar",
+                            value: "",
+                        },
+                        {
+                            title: "Koleyasi (mm)",
+                            value: "1665/1525",
+                        },
+                        {
+                            title: "Shassi jihozlangan massasi (kg)",
+                            value: "2820",
+                        },
+                        {
+                            title: "Ustqurma og‘irligi hisobga olinmagan holdagi shassi yuk ko‘tarish qobiliyati (kg)",
+                            value: "5130",
+                        },
+                        {
+                            title: "To‘liq massa (kg)",
+                            value: "7950",
+                        },
+                        {
+                            title: "Maksimal tezlik (km/soat)",
+                            value: "90",
+                        },
+                        {
+                            title: "Minimal yo‘l klirensi (mm)",
+                            value: "173",
+                        },
+                        {
+                            title: "Shinalar",
+                            value: "215/75R17.5",
+                        },
+                        {
+                            title: "Rul mexanizmi",
+                            value: "Rul kuchaytirgichi",
+                        },
+                        {
+                            title: "Yoqilg‘i baki",
+                            value: "100L",
+                        },
+                        {
+                            title: "Akkumulyator batareyalari",
+                            value: "120 A.soat (2 dona) 24V",
+                        },
+                        {
+                            title: "Tormoz tizimi turi",
+                            value: "4 kanalli ABS bilan ikki konturli pnevmatik tizim",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 38,
+        slug: "konteynerovoz-na-shassi-kamaz-65115",
+        categoryId: 8,
+
+        images: {
+            image: mainTruckImage38,
+        },
+
+        gallery: [
+            { image: mainTruckImage38 },
+            { image: galleryOf1TruckImage38 },
+            { image: galleryOf3TruckImage38 },
+            { image: galleryOf4TruckImage38 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+            discount:
+                "Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "Контейнеровоз на шасси КАМАЗ 65115",
+            category: "Контейнеровозы",
+
+            description: {
+                title: "Описание",
+                text: "Контейнеровоз на шасси КАМАЗ 65115 специализированное транспортное средство, предназначенное для перевозки двух стандартных 10-ти футовых контейнера типа — 10' DC, одного 20-ти футового контейнера типов — 1С, 1СС и 1СХ, контейнеров-цистерн, модульных домов и т. д. Состоит из надрамника и универсальной грузовой платформы с замками. Возможно комплектование настилом пола, бортами для повышения универсальности автомобиля.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "КАМАЗ 65115" },
+                    {
+                        title: "Двигатель",
+                        value: "КАМАЗ 740.705-300 или Cummins ISB6.7E5 300 (Е-5), 300 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "ZF 9S1310 TO или КАМАЗ 154, мех.",
+                    },
+                    { title: "Длина автомобиля, мм", value: "8300" },
+                    { title: "Ширина автомобиля, мм", value: "2550" },
+                    { title: "Высота автомобиля, мм", value: "2840" },
+                    { title: "Колесная база, мм", value: "3690+1320" },
+                    { title: "Колесная формула", value: "6x4" },
+                    { title: "Полная масса, кг", value: "25200" },
+                    { title: "Снаряженная масса, кг", value: "7900" },
+                    { title: "Грузоподъёмность, кг", value: "17300" },
+                    { title: "Смотреть все характеристики" },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Контейнеровоз на шасси КАМАЗ 65115",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "КАМАЗ 65115",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Контейнеровоз",
+                        },
+                        {
+                            title: "Двигатель: Модель",
+                            value: "КАМАЗ 740.705-300 или Cummins ISB6.7E5 300 (Е-5), 300 л. с.",
+                        },
+                        {
+                            title: "Объем, л",
+                            value: "11,76 или 6,7",
+                        },
+                        {
+                            title: "Максимальная мощность (л.с./об. мин)",
+                            value: "300 / 2200",
+                        },
+                        {
+                            title: "КПП: Модель, тип",
+                            value: "ZF 9S1310 TO или КАМАЗ 154, механическая",
+                        },
+                        {
+                            title: "Кол-во ступеней",
+                            value: "9 или 10 ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "3690+1320",
+                        },
+                        {
+                            title: "Грузоподъёмность",
+                            value: "17300",
+                        },
+                        {
+                            title: "Снаряженная масса а/м",
+                            value: "7900",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "25200",
+                        },
+                        {
+                            title: "Нагрузка на переднюю ось max, кг",
+                            value: "6200",
+                        },
+                        {
+                            title: "Нагрузка на ведущий мост max, кг",
+                            value: "19000",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм",
+                            value: "8300х2550х2840",
+                        },
+                        {
+                            title: "Надрамник",
+                            value: "Изготовлен из швеллеров либо гнутых профилей с элементами усиления.",
+                        },
+                        {
+                            title: "Контейнеровозная платформа",
+                            value: "С поперечинами спереди и сзади, c замками для крепления контейнера",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+            discount:
+                "10% discount (up to RUB 500,000) under the state preferential leasing program",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "Container Carrier on KAMAZ 65115 Chassis",
+            category: "Container Carriers",
+
+            description: {
+                title: "Description",
+                text: "The container carrier on the KAMAZ 65115 chassis is a specialized vehicle designed for transporting two standard 10-foot containers of the 10' DC type, one 20-foot container of types 1C, 1CC and 1CX, tank containers, modular houses, etc. It consists of a subframe and a universal cargo platform with locks. It can be equipped with a floor deck and side boards to increase the versatility of the vehicle.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Base chassis", value: "KAMAZ 65115" },
+                    {
+                        title: "Engine",
+                        value: "KAMAZ 740.705-300 or Cummins ISB6.7E5 300 (Euro-5), 300 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "ZF 9S1310 TO or KAMAZ 154, manual",
+                    },
+                    { title: "Vehicle length, mm", value: "8300" },
+                    { title: "Vehicle width, mm", value: "2550" },
+                    { title: "Vehicle height, mm", value: "2840" },
+                    { title: "Wheelbase, mm", value: "3690+1320" },
+                    { title: "Wheel formula", value: "6x4" },
+                    { title: "Gross vehicle weight, kg", value: "25200" },
+                    { title: "Curb weight, kg", value: "7900" },
+                    { title: "Payload capacity, kg", value: "17300" },
+                    { title: "View all specifications" },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "Container Carrier on KAMAZ 65115 Chassis",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "KAMAZ 65115",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Container carrier",
+                        },
+                        {
+                            title: "Engine: Model",
+                            value: "KAMAZ 740.705-300 or Cummins ISB6.7E5 300 (Euro-5), 300 hp",
+                        },
+                        {
+                            title: "Displacement, l",
+                            value: "11.76 or 6.7",
+                        },
+                        {
+                            title: "Maximum power (hp/rpm)",
+                            value: "300 / 2200",
+                        },
+                        {
+                            title: "Gearbox: Model, type",
+                            value: "ZF 9S1310 TO or KAMAZ 154, manual",
+                        },
+                        {
+                            title: "Number of gears",
+                            value: "9 or 10-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3690+1320",
+                        },
+                        {
+                            title: "Payload capacity",
+                            value: "17300",
+                        },
+                        {
+                            title: "Vehicle curb weight",
+                            value: "7900",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "25200",
+                        },
+                        {
+                            title: "Maximum front axle load, kg",
+                            value: "6200",
+                        },
+                        {
+                            title: "Maximum drive axle load, kg",
+                            value: "19000",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm",
+                            value: "8300x2550x2840",
+                        },
+                        {
+                            title: "Subframe",
+                            value: "Made of channels or bent profiles with reinforcing elements.",
+                        },
+                        {
+                            title: "Container carrier platform",
+                            value: "With front and rear cross members and locks for securing the container.",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+            discount:
+                "Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "KAMAZ 65115 shassisidagi konteyner tashuvchi",
+            category: "Konteyner tashuvchilar",
+
+            description: {
+                title: "Tavsif",
+                text: "KAMAZ 65115 shassisidagi konteyner tashuvchi — ikkita standart 10 futlik 10' DC turidagi konteynerni, bitta 20 futlik 1C, 1CC va 1CX turidagi konteynerlarni, konteyner-sisternalarni, modulli uylarni va boshqalarni tashish uchun mo‘ljallangan maxsus transport vositasi. U rama usti konstruksiyasi va qulflarga ega universal yuk platformasidan iborat. Avtomobilning universalligini oshirish uchun pol qoplamasi va bortlar bilan jihozlanishi mumkin.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Asosiy shassi", value: "KAMAZ 65115" },
+                    {
+                        title: "Dvigatel",
+                        value: "KAMAZ 740.705-300 yoki Cummins ISB6.7E5 300 (Euro-5), 300 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "ZF 9S1310 TO yoki KAMAZ 154, mexanik",
+                    },
+                    { title: "Avtomobil uzunligi, mm", value: "8300" },
+                    { title: "Avtomobil kengligi, mm", value: "2550" },
+                    { title: "Avtomobil balandligi, mm", value: "2840" },
+                    { title: "G‘ildirak bazasi, mm", value: "3690+1320" },
+                    { title: "G‘ildirak formulasi", value: "6x4" },
+                    { title: "To‘liq massa, kg", value: "25200" },
+                    { title: "Jihozlangan massa, kg", value: "7900" },
+                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "17300" },
+                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "KAMAZ 65115 shassisidagi konteyner tashuvchi",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "KAMAZ 65115",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "Konteyner tashuvchi",
+                        },
+                        {
+                            title: "Dvigatel: Model",
+                            value: "KAMAZ 740.705-300 yoki Cummins ISB6.7E5 300 (Euro-5), 300 ot kuchi",
+                        },
+                        {
+                            title: "Ish hajmi, l",
+                            value: "11.76 yoki 6.7",
+                        },
+                        {
+                            title: "Maksimal quvvat (ot kuchi/aylanish min)",
+                            value: "300 / 2200",
+                        },
+                        {
+                            title: "Uzatmalar qutisi: Model, turi",
+                            value: "ZF 9S1310 TO yoki KAMAZ 154, mexanik",
+                        },
+                        {
+                            title: "Pog‘onalar soni",
+                            value: "9 yoki 10 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3690+1320",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati",
+                            value: "17300",
+                        },
+                        {
+                            title: "Jihozlangan massa",
+                            value: "7900",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "25200",
+                        },
+                        {
+                            title: "Oldingi o‘qqa maksimal yuklama, kg",
+                            value: "6200",
+                        },
+                        {
+                            title: "Yetakchi ko‘prikka maksimal yuklama, kg",
+                            value: "19000",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, mm",
+                            value: "8300x2550x2840",
+                        },
+                        {
+                            title: "Rama usti konstruksiyasi",
+                            value: "Kuchaytiruvchi elementlarga ega shvellerlar yoki bukilgan profillardan tayyorlangan.",
+                        },
+                        {
+                            title: "Konteyner tashuvchi platforma",
+                            value: "Old va orqa ko‘ndalang balkalar hamda konteynerni mahkamlash uchun qulflar bilan jihozlangan.",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 39,
+        slug: "konteynerovoz-na-shassi-gaz-s41r33",
+        categoryId: 8,
+
+        images: {
+            image: mainTruckImage39,
+        },
+
+        gallery: [
+            { image: mainTruckImage39 },
+            { image: galleryOf1TruckImage39 },
+            { image: galleryOf2TruckImage39 },
+            { image: galleryOf3TruckImage39 },
+            { image: galleryOf4TruckImage39 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+            discount:
+                "Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "Контейнеровоз на шасси ГАЗ C41R33",
+            category: "Контейнеровозы",
+
+            description: {
+                title: "Описание",
+                text: "Контейнеровоз на шасси ГАЗ С41R33 специализированное транспортное средство, предназначенное для перевозки специального контейнера. Состоит из надрамника и универсальной грузовой платформы с замками. Возможно комплектование настилом пола, бортами для повышения универсальности автомобиля.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "ГАЗ C41R33" },
+                    {
+                        title: "Двигатель",
+                        value: "ЯМЗ 53445, 4,45 л, 168 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 5 ступенчатая",
+                    },
+                    { title: "Длина автомобиля, мм", value: "7690" },
+                    { title: "Ширина автомобиля, мм", value: "2370" },
+                    { title: "Высота автомобиля, мм", value: "2680" },
+                    { title: "Колесная база, мм", value: "4515" },
+                    { title: "Колесная формула", value: "4x2" },
+                    { title: "Полная масса, кг", value: "8700" },
+                    { title: "Снаряженная масса, кг", value: "4430" },
+                    { title: "Грузоподъёмность, кг", value: "4270" },
+                    { title: "Смотреть все характеристики" },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Контейнеровоз на шасси ГАЗ C41R33",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "ГАЗ C41R33",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Контейнеровоз",
+                        },
+                        {
+                            title: "Двигатель: Модель",
+                            value: "ЯМЗ 53445",
+                        },
+                        {
+                            title: "Объем, л",
+                            value: "4,45",
+                        },
+                        {
+                            title: "Максимальная мощность (л.с./об. мин)",
+                            value: "168 / 2300",
+                        },
+                        {
+                            title: "КПП: Модель, тип",
+                            value: "Механическая",
+                        },
+                        {
+                            title: "Кол-во ступеней",
+                            value: "5 ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "4515",
+                        },
+                        {
+                            title: "Грузоподъёмность",
+                            value: "4270",
+                        },
+                        {
+                            title: "Снаряженная масса а/м",
+                            value: "4430",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "8700",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм",
+                            value: "7690х2370х2680",
+                        },
+                        {
+                            title: "Надрамник",
+                            value: "Изготовлен из швеллеров либо гнутых профилей с элементами усиления.",
+                        },
+                        {
+                            title: "Контейнеровозная платформа",
+                            value: "С поперечинами спереди и сзади, c замками для крепления контейнера",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+            discount:
+                "10% discount (up to RUB 500,000) under the state preferential leasing program",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "Container Carrier on GAZ C41R33 Chassis",
+            category: "Container Carriers",
+
+            description: {
+                title: "Description",
+                text: "The container carrier on the GAZ C41R33 chassis is a specialized vehicle designed for transporting a special container. It consists of a subframe and a universal cargo platform with locks. It can be equipped with a floor deck and side boards to increase the versatility of the vehicle.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Base chassis", value: "GAZ C41R33" },
+                    {
+                        title: "Engine",
+                        value: "YaMZ 53445, 4.45 l, 168 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "Manual, 5-speed",
+                    },
+                    { title: "Vehicle length, mm", value: "7690" },
+                    { title: "Vehicle width, mm", value: "2370" },
+                    { title: "Vehicle height, mm", value: "2680" },
+                    { title: "Wheelbase, mm", value: "4515" },
+                    { title: "Wheel formula", value: "4x2" },
+                    { title: "Gross vehicle weight, kg", value: "8700" },
+                    { title: "Curb weight, kg", value: "4430" },
+                    { title: "Payload capacity, kg", value: "4270" },
+                    { title: "View all specifications" },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "Container Carrier on GAZ C41R33 Chassis",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "GAZ C41R33",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Container carrier",
+                        },
+                        {
+                            title: "Engine: Model",
+                            value: "YaMZ 53445",
+                        },
+                        {
+                            title: "Displacement, l",
+                            value: "4.45",
+                        },
+                        {
+                            title: "Maximum power (hp/rpm)",
+                            value: "168 / 2300",
+                        },
+                        {
+                            title: "Gearbox: Model, type",
+                            value: "Manual",
+                        },
+                        {
+                            title: "Number of gears",
+                            value: "5-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "4515",
+                        },
+                        {
+                            title: "Payload capacity",
+                            value: "4270",
+                        },
+                        {
+                            title: "Vehicle curb weight",
+                            value: "4430",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "8700",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm",
+                            value: "7690x2370x2680",
+                        },
+                        {
+                            title: "Subframe",
+                            value: "Made of channels or bent profiles with reinforcing elements.",
+                        },
+                        {
+                            title: "Container carrier platform",
+                            value: "With front and rear cross members and locks for securing the container.",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+            discount:
+                "Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "GAZ C41R33 shassisidagi konteyner tashuvchi",
+            category: "Konteyner tashuvchilar",
+
+            description: {
+                title: "Tavsif",
+                text: "GAZ C41R33 shassisidagi konteyner tashuvchi — maxsus konteynerni tashish uchun mo‘ljallangan maxsus transport vositasi. U rama usti konstruksiyasi va qulflarga ega universal yuk platformasidan iborat. Avtomobilning universalligini oshirish uchun pol qoplamasi va bortlar bilan jihozlanishi mumkin.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    { title: "Asosiy shassi", value: "GAZ C41R33" },
+                    {
+                        title: "Dvigatel",
+                        value: "YaMZ 53445, 4.45 l, 168 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 5 pog‘onali",
+                    },
+                    { title: "Avtomobil uzunligi, mm", value: "7690" },
+                    { title: "Avtomobil kengligi, mm", value: "2370" },
+                    { title: "Avtomobil balandligi, mm", value: "2680" },
+                    { title: "G‘ildirak bazasi, mm", value: "4515" },
+                    { title: "G‘ildirak formulasi", value: "4x2" },
+                    { title: "To‘liq massa, kg", value: "8700" },
+                    { title: "Jihozlangan massa, kg", value: "4430" },
+                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "4270" },
+                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle: "GAZ C41R33 shassisidagi konteyner tashuvchi",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "GAZ C41R33",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "Konteyner tashuvchi",
+                        },
+                        {
+                            title: "Dvigatel: Model",
+                            value: "YaMZ 53445",
+                        },
+                        {
+                            title: "Ish hajmi, l",
+                            value: "4.45",
+                        },
+                        {
+                            title: "Maksimal quvvat (ot kuchi/aylanish min)",
+                            value: "168 / 2300",
+                        },
+                        {
+                            title: "Uzatmalar qutisi: Model, turi",
+                            value: "Mexanik",
+                        },
+                        {
+                            title: "Pog‘onalar soni",
+                            value: "5 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "4515",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati",
+                            value: "4270",
+                        },
+                        {
+                            title: "Jihozlangan massa",
+                            value: "4430",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "8700",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, mm",
+                            value: "7690x2370x2680",
+                        },
+                        {
+                            title: "Rama usti konstruksiyasi",
+                            value: "Kuchaytiruvchi elementlarga ega shvellerlar yoki bukilgan profillardan tayyorlangan.",
+                        },
+                        {
+                            title: "Konteyner tashuvchi platforma",
+                            value: "Old va orqa ko‘ndalang balkalar hamda konteynerni mahkamlash uchun qulflar bilan jihozlangan.",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: false,
+        recommended: false,
+        id: 40,
+        slug: "kryukovoy-pogruzchik-palfinger-ph-t20pi-na-shassi-isuzu-giga-q",
+        categoryId: 9,
+
+        images: {
+            image: mainTruckImage40,
+        },
+
+        gallery: [{ image: mainTruckImage40 }],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Крюковой погрузчик PALFINGER PH T20Pi на шасси ISUZU GIGA-Q",
+            category: "Крюковые погрузчики",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "ISUZU GIGA-Q" },
+                    { title: "Длина автомобиля, мм", value: "9100" },
+                    { title: "Ширина автомобиля, мм", value: "2550" },
+                    { title: "Высота автомобиля, мм", value: "3020" },
+                    { title: "Колесная формула", value: "6х4" },
+                    { title: "Грузоподъёмность, кг", value: "20000" },
+                    { title: "Смотреть все характеристики" },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Крюковой погрузчик PALFINGER PH T20Pi",
+
+                    items: [
+                        {
+                            title: "Класс погрузчика",
+                            value: "Грузоподъёмность номинальная – 20 т.",
+                        },
+                        {
+                            title: "Габариты в транспортном положении, мм (ДхШхВ)",
+                            value: "6600х1900х2000",
+                        },
+                        {
+                            title: "Время установки груженого кузова с земли на автомобиль, с, не более",
+                            value: "64",
+                        },
+                        {
+                            title: "Время снятия груженого кузова с автомобиля на землю, с, не более",
+                            value: "72",
+                        },
+                        {
+                            title: "Время подъема груженого кузова в самосвальном режиме, с, не более",
+                            value: "58",
+                        },
+                        {
+                            title: "Время опускания порожнего кузова в самосвальном режиме, с, не более",
+                            value: "54",
+                        },
+                        {
+                            title: "Конструктивная масса, кг",
+                            value: "2100",
+                        },
+                        {
+                            title: "Угол подъема кузова, град",
+                            value: "48",
+                        },
+                        {
+                            title: "Длина сменного кузова, мм",
+                            value: "5000...7000",
+                        },
+                        {
+                            title: "Базовое шасси",
+                            value: "ISUZU GIGA-Q",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "PALFINGER PH T20Pi Hook Loader on ISUZU GIGA-Q Chassis",
+            category: "Hook Loaders",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Base chassis", value: "ISUZU GIGA-Q" },
+                    { title: "Vehicle length, mm", value: "9100" },
+                    { title: "Vehicle width, mm", value: "2550" },
+                    { title: "Vehicle height, mm", value: "3020" },
+                    { title: "Wheel formula", value: "6x4" },
+                    { title: "Payload capacity, kg", value: "20000" },
+                    { title: "View all specifications" },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "PALFINGER PH T20Pi Hook Loader",
+
+                    items: [
+                        {
+                            title: "Loader class",
+                            value: "Rated lifting capacity – 20 t.",
+                        },
+                        {
+                            title: "Dimensions in transport position, mm (LxWxH)",
+                            value: "6600x1900x2000",
+                        },
+                        {
+                            title: "Time for installing a loaded body from the ground onto the vehicle, sec., max.",
+                            value: "64",
+                        },
+                        {
+                            title: "Time for removing a loaded body from the vehicle to the ground, sec., max.",
+                            value: "72",
+                        },
+                        {
+                            title: "Time for lifting a loaded body in tipping mode, sec., max.",
+                            value: "58",
+                        },
+                        {
+                            title: "Time for lowering an empty body in tipping mode, sec., max.",
+                            value: "54",
+                        },
+                        {
+                            title: "Structural weight, kg",
+                            value: "2100",
+                        },
+                        {
+                            title: "Body lifting angle, degrees",
+                            value: "48",
+                        },
+                        {
+                            title: "Replaceable body length, mm",
+                            value: "5000...7000",
+                        },
+                        {
+                            title: "Base chassis",
+                            value: "ISUZU GIGA-Q",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "ISUZU GIGA-Q shassisidagi PALFINGER PH T20Pi ilgakli yuklagich",
+            category: "Ilgakli yuklagichlar",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Asosiy shassi", value: "ISUZU GIGA-Q" },
+                    { title: "Avtomobil uzunligi, mm", value: "9100" },
+                    { title: "Avtomobil kengligi, mm", value: "2550" },
+                    { title: "Avtomobil balandligi, mm", value: "3020" },
+                    { title: "G‘ildirak formulasi", value: "6x4" },
+                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "20000" },
+                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle: "PALFINGER PH T20Pi ilgakli yuklagich",
+
+                    items: [
+                        {
+                            title: "Yuklagich klassi",
+                            value: "Nominal yuk ko‘tarish qobiliyati – 20 t.",
+                        },
+                        {
+                            title: "Transport holatidagi gabarit o‘lchamlari, mm (UzunlikxKenglikxBalandlik)",
+                            value: "6600x1900x2000",
+                        },
+                        {
+                            title: "Yuklangan kuzovni yerdan avtomobilga o‘rnatish vaqti, soniya, ko‘pi bilan",
+                            value: "64",
+                        },
+                        {
+                            title: "Yuklangan kuzovni avtomobildan yerga tushirish vaqti, soniya, ko‘pi bilan",
+                            value: "72",
+                        },
+                        {
+                            title: "Yuklangan kuzovni ag‘darish rejimida ko‘tarish vaqti, soniya, ko‘pi bilan",
+                            value: "58",
+                        },
+                        {
+                            title: "Bo‘sh kuzovni ag‘darish rejimida tushirish vaqti, soniya, ko‘pi bilan",
+                            value: "54",
+                        },
+                        {
+                            title: "Konstruktiv massa, kg",
+                            value: "2100",
+                        },
+                        {
+                            title: "Kuzovni ko‘tarish burchagi, gradus",
+                            value: "48",
+                        },
+                        {
+                            title: "Almashtiriladigan kuzov uzunligi, mm",
+                            value: "5000...7000",
+                        },
+                        {
+                            title: "Asosiy shassi",
+                            value: "ISUZU GIGA-Q",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: false,
+        recommended: false,
+        id: 41,
+        slug: "kryukovoy-pogruzchik-palfinger-ph-t05-l3900-sld-na-shassi-isuzu-npr75l-k",
+        categoryId: 9,
+
+        images: {
+            image: mainTruckImage41,
+        },
+
+        gallery: [{ image: mainTruckImage41 }],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Крюковой погрузчик PALFINGER PH T05_L3900 SLD на шасси ISUZU NPR75L-K",
+            category: "Крюковые погрузчики",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "ISUZU NPR75L-K" },
+                    { title: "Длина автомобиля, мм", value: "5850" },
+                    { title: "Ширина автомобиля, мм", value: "2150" },
+                    { title: "Высота автомобиля, мм", value: "2250" },
+                    { title: "Колесная формула", value: "4x2" },
+                    { title: "Грузоподъёмность, кг", value: "5000" },
+                    { title: "Смотреть все характеристики" },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Крюковой погрузчик PALFINGER PH T05_L3900 SLD",
+
+                    items: [
+                        {
+                            title: "Класс погрузчика",
+                            value: "T05, грузоподъёмность номинальная – 5 т.",
+                        },
+                        {
+                            title: "Длина погрузчика",
+                            value: "Монтажная (L) — 3900 мм",
+                        },
+                        {
+                            title: "Рабочая (R)",
+                            value: "3860 мм",
+                        },
+                        {
+                            title: "Мин. внутренняя длина сменного кузова",
+                            value: "3500 мм (с гидравлическими замками кузова)",
+                        },
+                        {
+                            title: "Макс. внутренняя длина сменного кузова",
+                            value: "4750 мм",
+                        },
+                        {
+                            title: "Высота крюка",
+                            value: "900/920 мм (DIN 30722)",
+                        },
+                        {
+                            title: "Базовое шасси",
+                            value: "ISUZU NPR75L-K",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "PALFINGER PH T05_L3900 SLD Hook Loader on ISUZU NPR75L-K Chassis",
+            category: "Hook Loaders",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Base chassis", value: "ISUZU NPR75L-K" },
+                    { title: "Vehicle length, mm", value: "5850" },
+                    { title: "Vehicle width, mm", value: "2150" },
+                    { title: "Vehicle height, mm", value: "2250" },
+                    { title: "Wheel formula", value: "4x2" },
+                    { title: "Payload capacity, kg", value: "5000" },
+                    { title: "View all specifications" },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "PALFINGER PH T05_L3900 SLD Hook Loader",
+
+                    items: [
+                        {
+                            title: "Loader class",
+                            value: "T05, rated lifting capacity – 5 t.",
+                        },
+                        {
+                            title: "Loader length",
+                            value: "Mounting length (L) — 3900 mm",
+                        },
+                        {
+                            title: "Working length (R)",
+                            value: "3860 mm",
+                        },
+                        {
+                            title: "Min. internal length of replaceable body",
+                            value: "3500 mm (with hydraulic body locks)",
+                        },
+                        {
+                            title: "Max. internal length of replaceable body",
+                            value: "4750 mm",
+                        },
+                        {
+                            title: "Hook height",
+                            value: "900/920 mm (DIN 30722)",
+                        },
+                        {
+                            title: "Base chassis",
+                            value: "ISUZU NPR75L-K",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "ISUZU NPR75L-K shassisidagi PALFINGER PH T05_L3900 SLD ilgakli yuklagich",
+            category: "Ilgakli yuklagichlar",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Asosiy shassi", value: "ISUZU NPR75L-K" },
+                    { title: "Avtomobil uzunligi, mm", value: "5850" },
+                    { title: "Avtomobil kengligi, mm", value: "2150" },
+                    { title: "Avtomobil balandligi, mm", value: "2250" },
+                    { title: "G‘ildirak formulasi", value: "4x2" },
+                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "5000" },
+                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "PALFINGER PH T05_L3900 SLD ilgakli yuklagich",
+
+                    items: [
+                        {
+                            title: "Yuklagich klassi",
+                            value: "T05, nominal yuk ko‘tarish qobiliyati – 5 t.",
+                        },
+                        {
+                            title: "Yuklagich uzunligi",
+                            value: "Montaj uzunligi (L) — 3900 mm",
+                        },
+                        {
+                            title: "Ishchi uzunligi (R)",
+                            value: "3860 mm",
+                        },
+                        {
+                            title: "Almashtiriladigan kuzovning minimal ichki uzunligi",
+                            value: "3500 mm (gidravlik kuzov qulflari bilan)",
+                        },
+                        {
+                            title: "Almashtiriladigan kuzovning maksimal ichki uzunligi",
+                            value: "4750 mm",
+                        },
+                        {
+                            title: "Ilgak balandligi",
+                            value: "900/920 mm (DIN 30722)",
+                        },
+                        {
+                            title: "Asosiy shassi",
+                            value: "ISUZU NPR75L-K",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: false,
+        recommended: false,
+        id: 42,
+        slug: "kryukovoy-pogruzchik-palfinger-ph-t05-l3900-sld-na-shassi-hyundai-qt-ex8",
+        categoryId: 9,
+
+        images: {
+            image: mainTruckImage42,
+        },
+
+        gallery: [{ image: mainTruckImage42 }],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Крюковой погрузчик PALFINGER PH T05_L3900 SLD на шасси Hyundai QT EX8",
+            category: "Крюковые погрузчики",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "Hyundai QT EX8" },
+                    { title: "Длина автомобиля, мм", value: "5905" },
+                    { title: "Ширина автомобиля, мм", value: "2150" },
+                    { title: "Высота автомобиля, мм", value: "2300" },
+                    { title: "Колесная формула", value: "4x2" },
+                    { title: "Грузоподъёмность, кг", value: "5000" },
+                    { title: "Смотреть все характеристики" },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Крюковой погрузчик PALFINGER PH T05_L3900 SLD",
+
+                    items: [
+                        {
+                            title: "Класс погрузчика",
+                            value: "T05, грузоподъёмность номинальная – 5 т.",
+                        },
+                        {
+                            title: "Длина погрузчика",
+                            value: "Монтажная (L) — 3900 мм",
+                        },
+                        {
+                            title: "Рабочая (R)",
+                            value: "3860 мм",
+                        },
+                        {
+                            title: "Мин. внутренняя длина сменного кузова",
+                            value: "3500 мм (с гидравлическими замками кузова)",
+                        },
+                        {
+                            title: "Макс. внутренняя длина сменного кузова",
+                            value: "4750 мм",
+                        },
+                        {
+                            title: "Высота крюка",
+                            value: "900/920 мм (DIN 30722)",
+                        },
+                        {
+                            title: "Базовое шасси",
+                            value: "Hyundai QT EX8",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "PALFINGER PH T05_L3900 SLD Hook Loader on Hyundai QT EX8 Chassis",
+            category: "Hook Loaders",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Base chassis", value: "Hyundai QT EX8" },
+                    { title: "Vehicle length, mm", value: "5905" },
+                    { title: "Vehicle width, mm", value: "2150" },
+                    { title: "Vehicle height, mm", value: "2300" },
+                    { title: "Wheel formula", value: "4x2" },
+                    { title: "Payload capacity, kg", value: "5000" },
+                    { title: "View all specifications" },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "PALFINGER PH T05_L3900 SLD Hook Loader",
+
+                    items: [
+                        {
+                            title: "Loader class",
+                            value: "T05, rated lifting capacity – 5 t.",
+                        },
+                        {
+                            title: "Loader length",
+                            value: "Mounting length (L) — 3900 mm",
+                        },
+                        {
+                            title: "Working length (R)",
+                            value: "3860 mm",
+                        },
+                        {
+                            title: "Min. internal length of replaceable body",
+                            value: "3500 mm (with hydraulic body locks)",
+                        },
+                        {
+                            title: "Max. internal length of replaceable body",
+                            value: "4750 mm",
+                        },
+                        {
+                            title: "Hook height",
+                            value: "900/920 mm (DIN 30722)",
+                        },
+                        {
+                            title: "Base chassis",
+                            value: "Hyundai QT EX8",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "Hyundai QT EX8 shassisidagi PALFINGER PH T05_L3900 SLD ilgakli yuklagich",
+            category: "Ilgakli yuklagichlar",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Asosiy shassi", value: "Hyundai QT EX8" },
+                    { title: "Avtomobil uzunligi, mm", value: "5905" },
+                    { title: "Avtomobil kengligi, mm", value: "2150" },
+                    { title: "Avtomobil balandligi, mm", value: "2300" },
+                    { title: "G‘ildirak formulasi", value: "4x2" },
+                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "5000" },
+                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "PALFINGER PH T05_L3900 SLD ilgakli yuklagich",
+
+                    items: [
+                        {
+                            title: "Yuklagich klassi",
+                            value: "T05, nominal yuk ko‘tarish qobiliyati – 5 t.",
+                        },
+                        {
+                            title: "Yuklagich uzunligi",
+                            value: "Montaj uzunligi (L) — 3900 mm",
+                        },
+                        {
+                            title: "Ishchi uzunligi (R)",
+                            value: "3860 mm",
+                        },
+                        {
+                            title: "Almashtiriladigan kuzovning minimal ichki uzunligi",
+                            value: "3500 mm (gidravlik kuzov qulflari bilan)",
+                        },
+                        {
+                            title: "Almashtiriladigan kuzovning maksimal ichki uzunligi",
+                            value: "4750 mm",
+                        },
+                        {
+                            title: "Ilgak balandligi",
+                            value: "900/920 mm (DIN 30722)",
+                        },
+                        {
+                            title: "Asosiy shassi",
+                            value: "Hyundai QT EX8",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+
+    // samosvaly
+    {
+        available: true,
+        recommended: false,
+        id: 43,
+        slug: "samosval-na-shassi-kompas-9",
+        categoryId: 10,
+
+        images: {
+            image: mainTruckImage43,
+        },
+
+        gallery: [
+            { image: mainTruckImage43 },
+            { image: galleryOf1TruckImage43 },
+            { image: galleryOf2TruckImage43 },
+            { image: galleryOf3TruckImage43 },
+            { image: galleryOf4TruckImage43 },
+            { image: galleryOf5TruckImage43 },
+            { image: galleryOf6TruckImage43 },
+            { image: galleryOf7TruckImage43 },
+            { image: galleryOf8TruckImage43 },
+            { image: galleryOf9TruckImage43 },
+            { image: galleryOf10TruckImage43 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+            discount:
+                "Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType: "Самосвал на шасси КОМПАС 9",
+            category: "Самосвалы",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Базовое шасси", value: "КОМПАС 9" },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISF3.8S5154, 154 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    { title: "Длина автомобиля, мм", value: "6670" },
+                    { title: "Ширина автомобиля, мм", value: "2550" },
+                    { title: "Высота автомобиля, мм", value: "2310" },
+                    { title: "Колесная база, мм", value: "3845" },
+                    { title: "Колесная формула", value: "4х2" },
+                    { title: "Длина платформы, м", value: "4600" },
+                    { title: "Полная масса, кг", value: "9500" },
+                    { title: "Снаряженная масса, кг", value: "4900" },
+                    { title: "Грузоподъёмность, кг", value: "4600" },
+                    { title: "Объем кузова, м3", value: "12" },
+                    { title: "Высота бортов, мм", value: "1300" },
+                    { title: "Смотреть все характеристики" },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Самосвал на шасси КОМПАС 9",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "КОМПАС 9",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Самосвальная бортовая платформа, прямоугольного сечения",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISF3.8S5154, 154 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "3845",
+                        },
+                        {
+                            title: "Колесная формула автомобиля",
+                            value: "4х2",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "4900",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "9500",
+                        },
+                        {
+                            title: "Масса перевозимого груза, кг",
+                            value: "4600",
+                        },
+                        {
+                            title: "Материал изготовления платформы",
+                            value: "Низколегированная Сталь 09Г2С",
+                        },
+                        {
+                            title: "Основание платформы",
+                            value: "Состоит из продольных и поперечных балок, боковых, передней и задней обвязок, опорных шарниров для подъема кузова. Толщина днища – 3 мм.",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "С верхней навеской, толщина панелей бортов – 2 мм.",
+                        },
+                        {
+                            title: "Направление разгрузки",
+                            value: "Назад или трехсторонняя",
+                        },
+                        {
+                            title: "Подъём платформы, град",
+                            value: "",
+                        },
+                        {
+                            title: "При задней разгрузке",
+                            value: "45",
+                        },
+                        {
+                            title: "При боковой разгрузке",
+                            value: "45",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм",
+                            value: "",
+                        },
+                        {
+                            title: "Длина",
+                            value: "6670",
+                        },
+                        {
+                            title: "Ширина",
+                            value: "2550",
+                        },
+                        {
+                            title: "Высота",
+                            value: "2370",
+                        },
+                        {
+                            title: "Габаритные размеры бортовой платформы, мм",
+                            value: "",
+                        },
+                        {
+                            title: "Длина",
+                            value: "4600",
+                        },
+                        {
+                            title: "Ширина",
+                            value: "2550",
+                        },
+                        {
+                            title: "Высота",
+                            value: "1300",
+                        },
+                        {
+                            title: "Объём кузова, м3",
+                            value: "12",
+                        },
+                        {
+                            title: "Погрузочная высота, мм",
+                            value: "1160",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+            discount:
+                "10% discount (up to RUB 500,000) under the state preferential leasing program",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType: "Dump Truck on KOMPAS 9 Chassis",
+            category: "Dump Trucks",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Base chassis", value: "KOMPAS 9" },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISF3.8S5154, 154 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "Manual, 6-speed",
+                    },
+                    { title: "Vehicle length, mm", value: "6670" },
+                    { title: "Vehicle width, mm", value: "2550" },
+                    { title: "Vehicle height, mm", value: "2310" },
+                    { title: "Wheelbase, mm", value: "3845" },
+                    { title: "Wheel formula", value: "4x2" },
+                    { title: "Platform length, m", value: "4600" },
+                    { title: "Gross vehicle weight, kg", value: "9500" },
+                    { title: "Curb weight, kg", value: "4900" },
+                    { title: "Payload capacity, kg", value: "4600" },
+                    { title: "Body volume, m3", value: "12" },
+                    { title: "Sideboard height, mm", value: "1300" },
+                    { title: "View all specifications" },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle: "Dump Truck on KOMPAS 9 Chassis",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "KOMPAS 9",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Dump-side platform with rectangular cross-section",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISF3.8S5154, 154 hp",
+                        },
+                        {
+                            title: "Gearbox",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Vehicle wheel formula",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "4900",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "9500",
+                        },
+                        {
+                            title: "Payload weight, kg",
+                            value: "4600",
+                        },
+                        {
+                            title: "Platform material",
+                            value: "Low-alloy steel 09G2S",
+                        },
+                        {
+                            title: "Platform base",
+                            value: "Consists of longitudinal and transverse beams, side, front and rear frames, and support hinges for lifting the body. Bottom thickness – 3 mm.",
+                        },
+                        {
+                            title: "Platform sides",
+                            value: "With upper hinges, side panel thickness – 2 mm.",
+                        },
+                        {
+                            title: "Unloading direction",
+                            value: "Rear or three-way unloading",
+                        },
+                        {
+                            title: "Platform lifting angle, degrees",
+                            value: "",
+                        },
+                        {
+                            title: "Rear unloading",
+                            value: "45",
+                        },
+                        {
+                            title: "Side unloading",
+                            value: "45",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm",
+                            value: "",
+                        },
+                        {
+                            title: "Length",
+                            value: "6670",
+                        },
+                        {
+                            title: "Width",
+                            value: "2550",
+                        },
+                        {
+                            title: "Height",
+                            value: "2370",
+                        },
+                        {
+                            title: "Dump platform dimensions, mm",
+                            value: "",
+                        },
+                        {
+                            title: "Length",
+                            value: "4600",
+                        },
+                        {
+                            title: "Width",
+                            value: "2550",
+                        },
+                        {
+                            title: "Height",
+                            value: "1300",
+                        },
+                        {
+                            title: "Body volume, m3",
+                            value: "12",
+                        },
+                        {
+                            title: "Loading height, mm",
+                            value: "1160",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+            discount:
+                "Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType: "KOMPAS 9 shassisidagi samosval",
+            category: "Samosvallar",
+
+            specifications: {
+                truckInfo: [
+                    { title: "Asosiy shassi", value: "KOMPAS 9" },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    { title: "Avtomobil uzunligi, mm", value: "6670" },
+                    { title: "Avtomobil kengligi, mm", value: "2550" },
+                    { title: "Avtomobil balandligi, mm", value: "2310" },
+                    { title: "G‘ildirak bazasi, mm", value: "3845" },
+                    { title: "G‘ildirak formulasi", value: "4x2" },
+                    { title: "Platforma uzunligi, m", value: "4600" },
+                    { title: "To‘liq massa, kg", value: "9500" },
+                    { title: "Jihozlangan massa, kg", value: "4900" },
+                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "4600" },
+                    { title: "Kuzov hajmi, m3", value: "12" },
+                    { title: "Bort balandligi, mm", value: "1300" },
+                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle: "KOMPAS 9 shassisidagi samosval",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "KOMPAS 9",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "To‘g‘ri to‘rtburchak kesimli samosval bortli platformasi",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Avtomobilning g‘ildirak formulasi",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Jihozlangan massa, kg",
+                            value: "4900",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "9500",
+                        },
+                        {
+                            title: "Tashiladigan yuk massasi, kg",
+                            value: "4600",
+                        },
+                        {
+                            title: "Platforma materiali",
+                            value: "Kam legirlangan 09G2S po‘lat",
+                        },
+                        {
+                            title: "Platforma asosi",
+                            value: "Bo‘ylama va ko‘ndalang balkalar, yon, old va orqa bog‘lamalar hamda kuzovni ko‘tarish uchun tayanch sharnirlaridan iborat. Tub qalinligi – 3 mm.",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Yuqori osma mexanizm bilan, bort panellari qalinligi – 2 mm.",
+                        },
+                        {
+                            title: "Tushirish yo‘nalishi",
+                            value: "Orqaga yoki uch tomonlama",
+                        },
+                        {
+                            title: "Platformani ko‘tarish burchagi, gradus",
+                            value: "",
+                        },
+                        {
+                            title: "Orqa tomonga tushirishda",
+                            value: "45",
+                        },
+                        {
+                            title: "Yon tomonga tushirishda",
+                            value: "45",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, mm",
+                            value: "",
+                        },
+                        {
+                            title: "Uzunligi",
+                            value: "6670",
+                        },
+                        {
+                            title: "Kengligi",
+                            value: "2550",
+                        },
+                        {
+                            title: "Balandligi",
+                            value: "2370",
+                        },
+                        {
+                            title: "Bortli platformaning gabarit o‘lchamlari, mm",
+                            value: "",
+                        },
+                        {
+                            title: "Uzunligi",
+                            value: "4600",
+                        },
+                        {
+                            title: "Kengligi",
+                            value: "2550",
+                        },
+                        {
+                            title: "Balandligi",
+                            value: "1300",
+                        },
+                        {
+                            title: "Kuzov hajmi, m3",
+                            value: "12",
+                        },
+                        {
+                            title: "Yuklash balandligi, mm",
+                            value: "1160",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 44,
+        slug: "samosval-zernovoz-na-shassi-kamaz-6520-3072-53-model-4388g6",
+        categoryId: 10,
+
+        images: {
+            image: mainTruckImage44,
+        },
+
+        gallery: [
+            { image: mainTruckImage44 },
+            { image: galleryOf1TruckImage44 },
+            { image: galleryOf2TruckImage44 },
+            { image: galleryOf3TruckImage44 },
+            { image: galleryOf4TruckImage44 },
+            { image: galleryOf5TruckImage44 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+            discount:
+                "Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Самосвал-зерновоз на шасси КАМАЗ 6520-3072-53 (модель 4388G6)",
+            category: "Самосвалы",
+
+            description: {
+                title: "Описание",
+                text: "Самосвал на шасси КАМАЗ 6520-3072-53 предназначен для транспортирования и разгрузки при помощи гидравлически наклоняемого кузова различных навалочных и сыпучих грузов. Состоит из самосвальной платформы, установленной на шасси, гидроцилиндра, гилравлического насоса, маслобака и т.д. Различают самосвалы с задней разгрузкой, как правило для транспортирования грузов строительного назначения (песок, щебень и т. д.), и двух- трёхсторонней разгрузкой, как правило для транспортирования грузов сельскохозяйственного назначения. Возможно изготовление самосвала с КМУ.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "КАМАЗ 6520-3072-53",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "КАМАЗ 6520-3072-53",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 16-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "10660",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2265",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "4600",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4х2",
+                    },
+                    {
+                        title: "Длина платформы, м",
+                        value: "6500",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "33100",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "15025",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "18075",
+                    },
+                    {
+                        title: "Высота бортов, мм",
+                        value: "2000",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Самосвал-зерновоз на шасси КАМАЗ 6520-3072-53 (модель 4388G6)",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "КАМАЗ 6520-3072-53",
+                        },
+                        {
+                            title: "Длина автомобиля, мм",
+                            value: "10660",
+                        },
+                        {
+                            title: "Ширина автомобиля, мм",
+                            value: "2550",
+                        },
+                        {
+                            title: "Высота автомобиля, мм",
+                            value: "2265",
+                        },
+                        {
+                            title: "Грузоподъёмность, кг",
+                            value: "18075",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Самосвал на шасси КАМАЗ 6520-3072-53 (модель 4388G6)",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "КАМАЗ 6520-3072-53",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Самосвальная бортовая платформа, прямоугольного сечения",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "КАМАЗ 6520-3072-53",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 16-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "4600",
+                        },
+                        {
+                            title: "Колесная формула автомобиля",
+                            value: "4х2",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "15025",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "33100",
+                        },
+                        {
+                            title: "Масса перевозимого груза, кг",
+                            value: "18075",
+                        },
+                        {
+                            title: "Материал изготовления платформы",
+                            value: "Низколегированная Сталь 09Г2С",
+                        },
+                        {
+                            title: "Основание платформы",
+                            value: "Состоит из продольных и поперечных балок, боковых, передней и задней обвязок, опорных шарниров для подъема кузова. Толщина днища – 3 мм.",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "Передний, задний, правый борта глухие. Левый: верхняя часть (1100 мм) глухая, нижняя часть (900 мм) с нижней навеской, подъём-опускание гидроцилиндром. Толщина панелей бортов – 2 мм. Балкон на заднем борту, полог.",
+                        },
+                        {
+                            title: "Направление разгрузки",
+                            value: "Налево",
+                        },
+                        {
+                            title: "Подъём платформы, град",
+                            value: "",
+                        },
+                        {
+                            title: "При боковой разгрузке",
+                            value: "40",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм",
+                            value: "",
+                        },
+                        {
+                            title: "Длина",
+                            value: "6315",
+                        },
+                        {
+                            title: "Ширина",
+                            value: "10660",
+                        },
+                        {
+                            title: "Высота",
+                            value: "3865",
+                        },
+                        {
+                            title: "Габаритные размеры бортовой платформы, мм",
+                            value: "",
+                        },
+                        {
+                            title: "Длина",
+                            value: "6500",
+                        },
+                        {
+                            title: "Ширина",
+                            value: "2550",
+                        },
+                        {
+                            title: "Высота",
+                            value: "2000",
+                        },
+                        {
+                            title: "Погрузочная высота, мм",
+                            value: "1380",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+            discount:
+                "10% discount (up to RUB 500,000) under the state preferential leasing program",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "Grain Dump Truck on KAMAZ 6520-3072-53 Chassis (Model 4388G6)",
+            category: "Dump Trucks",
+
+            description: {
+                title: "Description",
+                text: "The dump truck on the KAMAZ 6520-3072-53 chassis is designed for transporting and unloading various bulk and loose cargo using a hydraulically tilting body. It consists of a dump platform mounted on the chassis, a hydraulic cylinder, hydraulic pump, oil tank, etc. Dump trucks are available with rear unloading, typically used for transporting construction materials such as sand and crushed stone, as well as two- or three-way unloading, typically used for transporting agricultural cargo. The dump truck can also be manufactured with a crane-manipulator unit.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "KAMAZ 6520-3072-53",
+                    },
+                    {
+                        title: "Engine",
+                        value: "KAMAZ 6520-3072-53",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "Manual, 16-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "10660",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2265",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "4600",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platform length, m",
+                        value: "6500",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "33100",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "15025",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "18075",
+                    },
+                    {
+                        title: "Sideboard height, mm",
+                        value: "2000",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Grain Dump Truck on KAMAZ 6520-3072-53 Chassis (Model 4388G6)",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "KAMAZ 6520-3072-53",
+                        },
+                        {
+                            title: "Vehicle length, mm",
+                            value: "10660",
+                        },
+                        {
+                            title: "Vehicle width, mm",
+                            value: "2550",
+                        },
+                        {
+                            title: "Vehicle height, mm",
+                            value: "2265",
+                        },
+                        {
+                            title: "Payload capacity, kg",
+                            value: "18075",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Dump Truck on KAMAZ 6520-3072-53 Chassis (Model 4388G6)",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "KAMAZ 6520-3072-53",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Dump-side platform with rectangular cross-section",
+                        },
+                        {
+                            title: "Engine",
+                            value: "KAMAZ 6520-3072-53",
+                        },
+                        {
+                            title: "Gearbox",
+                            value: "Manual, 16-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "4600",
+                        },
+                        {
+                            title: "Vehicle wheel formula",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "15025",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "33100",
+                        },
+                        {
+                            title: "Payload weight, kg",
+                            value: "18075",
+                        },
+                        {
+                            title: "Platform material",
+                            value: "Low-alloy steel 09G2S",
+                        },
+                        {
+                            title: "Platform base",
+                            value: "Consists of longitudinal and transverse beams, side, front and rear frames, and support hinges for lifting the body. Bottom thickness – 3 mm.",
+                        },
+                        {
+                            title: "Platform sides",
+                            value: "The front, rear and right sides are solid. The left side has a solid upper section (1100 mm) and a lower section (900 mm) with bottom hinges and hydraulic cylinder lifting/lowering. Side panel thickness – 2 mm. Rear side balcony and tarpaulin.",
+                        },
+                        {
+                            title: "Unloading direction",
+                            value: "Left",
+                        },
+                        {
+                            title: "Platform lifting angle, degrees",
+                            value: "",
+                        },
+                        {
+                            title: "Side unloading",
+                            value: "40",
+                        },
+                        {
+                            title: "Vehicle dimensions, mm",
+                            value: "",
+                        },
+                        {
+                            title: "Length",
+                            value: "6315",
+                        },
+                        {
+                            title: "Width",
+                            value: "10660",
+                        },
+                        {
+                            title: "Height",
+                            value: "3865",
+                        },
+                        {
+                            title: "Dump platform dimensions, mm",
+                            value: "",
+                        },
+                        {
+                            title: "Length",
+                            value: "6500",
+                        },
+                        {
+                            title: "Width",
+                            value: "2550",
+                        },
+                        {
+                            title: "Height",
+                            value: "2000",
+                        },
+                        {
+                            title: "Loading height, mm",
+                            value: "1380",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+            discount:
+                "Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "KAMAZ 6520-3072-53 shassisidagi don tashuvchi samosval (4388G6 modeli)",
+            category: "Samosvallar",
+
+            description: {
+                title: "Tavsif",
+                text: "KAMAZ 6520-3072-53 shassisidagi samosval gidravlik ko‘tariladigan kuzov yordamida turli xil sochiluvchan yuklarni tashish va tushirish uchun mo‘ljallangan. U shassiga o‘rnatilgan samosval platformasi, gidravlik silindr, gidravlik nasos, moy baki va boshqa qismlardan iborat. Samosvallar odatda qum, shag‘al kabi qurilish materiallarini tashish uchun orqaga tushirish tizimiga, qishloq xo‘jaligi yuklarini tashish uchun esa ikki yoki uch tomonlama tushirish tizimiga ega bo‘ladi. Samosvalni kran-manipulyator qurilmasi bilan ham ishlab chiqarish mumkin.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "KAMAZ 6520-3072-53",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "KAMAZ 6520-3072-53",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 16 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "10660",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2265",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "4600",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platforma uzunligi, m",
+                        value: "6500",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "33100",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "15025",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "18075",
+                    },
+                    {
+                        title: "Bort balandligi, mm",
+                        value: "2000",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Texnik xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "KAMAZ 6520-3072-53 shassisidagi don tashuvchi samosval (4388G6 modeli)",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "KAMAZ 6520-3072-53",
+                        },
+                        {
+                            title: "Avtomobil uzunligi, mm",
+                            value: "10660",
+                        },
+                        {
+                            title: "Avtomobil kengligi, mm",
+                            value: "2550",
+                        },
+                        {
+                            title: "Avtomobil balandligi, mm",
+                            value: "2265",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "18075",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "KAMAZ 6520-3072-53 shassisidagi samosval (4388G6 modeli)",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "KAMAZ 6520-3072-53",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "To‘g‘ri to‘rtburchak kesimli samosval bortli platformasi",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "KAMAZ 6520-3072-53",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 16 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "4600",
+                        },
+                        {
+                            title: "Avtomobilning g‘ildirak formulasi",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Jihozlangan massa, kg",
+                            value: "15025",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "33100",
+                        },
+                        {
+                            title: "Tashiladigan yuk massasi, kg",
+                            value: "18075",
+                        },
+                        {
+                            title: "Platforma materiali",
+                            value: "Kam legirlangan 09G2S po‘lat",
+                        },
+                        {
+                            title: "Platforma asosi",
+                            value: "Bo‘ylama va ko‘ndalang balkalar, yon, old va orqa bog‘lamalar hamda kuzovni ko‘tarish uchun tayanch sharnirlaridan iborat. Tub qalinligi – 3 mm.",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Old, orqa va o‘ng bortlar yopiq. Chap bortning yuqori qismi (1100 mm) yopiq, pastki qismi (900 mm) pastki osma mexanizm bilan jihozlangan va gidravlik silindr yordamida ko‘tarilib-tushiriladi. Bort panellari qalinligi – 2 mm. Orqa bortda balkon va tent mavjud.",
+                        },
+                        {
+                            title: "Tushirish yo‘nalishi",
+                            value: "Chap tomonga",
+                        },
+                        {
+                            title: "Platformani ko‘tarish burchagi, gradus",
+                            value: "",
+                        },
+                        {
+                            title: "Yon tomonga tushirishda",
+                            value: "40",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, mm",
+                            value: "",
+                        },
+                        {
+                            title: "Uzunligi",
+                            value: "6315",
+                        },
+                        {
+                            title: "Kengligi",
+                            value: "10660",
+                        },
+                        {
+                            title: "Balandligi",
+                            value: "3865",
+                        },
+                        {
+                            title: "Bortli platformaning gabarit o‘lchamlari, mm",
+                            value: "",
+                        },
+                        {
+                            title: "Uzunligi",
+                            value: "6500",
+                        },
+                        {
+                            title: "Kengligi",
+                            value: "2550",
+                        },
+                        {
+                            title: "Balandligi",
+                            value: "2000",
+                        },
+                        {
+                            title: "Yuklash balandligi, mm",
+                            value: "1380",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 45,
+        slug: "samosval-na-shassi-jac-n90n-model-538914-vysokiy-bort",
+        categoryId: 10,
+
+        images: {
+            image: mainTruckImage45,
+        },
+
+        gallery: [
+            {
+                image: mainTruckImage45,
+            },
+            {
+                image: galleryOf1TruckImage45,
+            },
+            {
+                image: galleryOf2TruckImage45,
+            },
+            {
+                image: galleryOf3TruckImage45,
+            },
+            {
+                image: galleryOf4TruckImage45,
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Самосвал на шасси JAC N90N (модель 538914), высокий борт",
+
+            category: "Самосвалы",
+
+            description: {
+                title: "Описание",
+                text: "Самосвал на шасси JAC N90N предназначен для транспортирования и разгрузки при помощи гидравлически наклоняемого кузова различных навалочных и сыпучих грузов. Состоит из самосвальной платформы, установленной на шасси, гидроцилиндра, гилравлического насоса, маслобака и т.д. Различают самосвалы с задней разгрузкой, как правило для транспортирования грузов строительного назначения (песок, щебень и т. д.), и двух- трёхсторонней разгрузкой, как правило для транспортирования грузов сельскохозяйственного назначения. Возможно изготовление самосвала с КМУ",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "JAC N90N",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISF3.8S5154, 154 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "6670",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2310",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "3845",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4х2",
+                    },
+                    {
+                        title: "Длина платформы, м",
+                        value: "4600",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "9030",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "4900",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "4130",
+                    },
+                    {
+                        title: "Объем кузова, м3",
+                        value: "12",
+                    },
+                    {
+                        title: "Высота бортов, мм",
+                        value: "1300",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Самосвал на шасси JAC N90N (модель 538914)",
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "JAC N90N",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Самосвальная бортовая платформа, прямоугольного сечения",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISF3.8S5154, 154 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "3845",
+                        },
+                        {
+                            title: "Колесная формула автомобиля",
+                            value: "4х2",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "4900",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "9030",
+                        },
+                        {
+                            title: "Масса перевозимого груза, кг",
+                            value: "4130",
+                        },
+                        {
+                            title: "Материал изготовления платформы",
+                            value: "Низколегированная Сталь 09Г2С",
+                        },
+                        {
+                            title: "Основание платформы",
+                            value: "Состоит из продольных и поперечных балок, боковых, передней и задней обвязок, опорных шарниров для подъема кузова. Толщина днища – 3 мм",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "С верхней навеской, толщина панелей бортов – 2 мм.",
+                        },
+                        {
+                            title: "Направление разгрузки",
+                            value: "Назад или трехсторонняя",
+                        },
+                        {
+                            title: "Подъём платформы, град",
+                            value: "",
+                        },
+                        {
+                            title: "- при задней разгрузке",
+                            value: "45",
+                        },
+                        {
+                            title: "- при боковой разгрузке",
+                            value: "45",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм:",
+                            value: "",
+                        },
+                        {
+                            title: "- длина",
+                            value: "6670",
+                        },
+                        {
+                            title: "- ширина",
+                            value: "2550",
+                        },
+                        {
+                            title: "- высота",
+                            value: "2370",
+                        },
+                        {
+                            title: "Габаритные размеры бортовой платформы, мм",
+                            value: "",
+                        },
+                        {
+                            title: "- длина",
+                            value: "4600",
+                        },
+                        {
+                            title: "- ширина",
+                            value: "2550",
+                        },
+                        {
+                            title: "- высота",
+                            value: "1300",
+                        },
+                        {
+                            title: "Объём кузова, м3",
+                            value: "12",
+                        },
+                        {
+                            title: "Погрузочная высота, мм:",
+                            value: "1160",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price on request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "Dump truck on JAC N90N chassis (model 538914), high sides",
+
+            category: "Dump Trucks",
+
+            description: {
+                title: "Description",
+                text: "The dump truck on the JAC N90N chassis is designed for transporting and unloading various bulk and loose materials using a hydraulically tilting body. It consists of a dump platform mounted on the chassis, a hydraulic cylinder, hydraulic pump, oil tank, etc. Dump trucks with rear unloading are generally used for transporting construction materials (sand, crushed stone, etc.), while trucks with two- or three-way unloading are generally used for transporting agricultural materials. It is possible to manufacture the dump truck with a crane-manipulator unit.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "JAC N90N",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISF3.8S5154, 154 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "6670",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2310",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platform length, m",
+                        value: "4600",
+                    },
+                    {
+                        title: "Gross weight, kg",
+                        value: "9030",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "4900",
+                    },
+                    {
+                        title: "Payload, kg",
+                        value: "4130",
+                    },
+                    {
+                        title: "Body volume, m3",
+                        value: "12",
+                    },
+                    {
+                        title: "Sideboard height, mm",
+                        value: "1300",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Dump truck on JAC N90N chassis (model 538914)",
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "JAC N90N",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Dump truck sideboard platform, rectangular cross-section",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISF3.8S5154, 154 hp",
+                        },
+                        {
+                            title: "Gearbox",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Vehicle wheel formula",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "4900",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "9030",
+                        },
+                        {
+                            title: "Payload, kg",
+                            value: "4130",
+                        },
+                        {
+                            title: "Platform material",
+                            value: "Low-alloy steel 09G2S",
+                        },
+                        {
+                            title: "Platform base",
+                            value: "Consists of longitudinal and transverse beams, side, front and rear frames, and support hinges for lifting the body. Bottom thickness – 3 mm",
+                        },
+                        {
+                            title: "Platform sides",
+                            value: "With upper mounting, side panel thickness – 2 mm.",
+                        },
+                        {
+                            title: "Unloading direction",
+                            value: "Rear or three-way",
+                        },
+                        {
+                            title: "Platform lifting angle, degrees",
+                            value: "",
+                        },
+                        {
+                            title: "- rear unloading",
+                            value: "45",
+                        },
+                        {
+                            title: "- side unloading",
+                            value: "45",
+                        },
+                        {
+                            title: "Vehicle overall dimensions, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- length",
+                            value: "6670",
+                        },
+                        {
+                            title: "- width",
+                            value: "2550",
+                        },
+                        {
+                            title: "- height",
+                            value: "2370",
+                        },
+                        {
+                            title: "Dump platform overall dimensions, mm",
+                            value: "",
+                        },
+                        {
+                            title: "- length",
+                            value: "4600",
+                        },
+                        {
+                            title: "- width",
+                            value: "2550",
+                        },
+                        {
+                            title: "- height",
+                            value: "1300",
+                        },
+                        {
+                            title: "Body volume, m3",
+                            value: "12",
+                        },
+                        {
+                            title: "Loading height, mm:",
+                            value: "1160",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narxi so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "JAC N90N shassisidagi samosval (538914 modeli), baland bortli",
+
+            category: "Samosvallar",
+
+            description: {
+                title: "Tavsif",
+                text: "JAC N90N shassisidagi samosval gidravlik ko‘tariladigan kuzov yordamida turli xil sochiluvchan va to‘kiluvchan yuklarni tashish va tushirish uchun mo‘ljallangan. U shassiga o‘rnatilgan samosval platformasi, gidravlik silindr, gidravlik nasos, moy baki va boshqa qismlardan iborat. Orqaga tushirishga ega samosvallar, odatda, qurilish materiallarini (qum, shag‘al va boshqalar) tashish uchun, ikki yoki uch tomonlama tushirishga ega samosvallar esa, odatda, qishloq xo‘jaligi yuklarini tashish uchun ishlatiladi. Samosvalni kran-manipulyator qurilmasi bilan ishlab chiqarish ham mumkin.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Bazaviy shassi",
+                        value: "JAC N90N",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "6670",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2310",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platforma uzunligi, m",
+                        value: "4600",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "9030",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "4900",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "4130",
+                    },
+                    {
+                        title: "Kuzov hajmi, m3",
+                        value: "12",
+                    },
+                    {
+                        title: "Bort balandligi, mm",
+                        value: "1300",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "JAC N90N shassisidagi samosval (538914 modeli)",
+                    items: [
+                        {
+                            title: "Bazaviy shassi",
+                            value: "JAC N90N",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "To‘g‘ri to‘rtburchak kesimli bortli samosval platformasi",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Avtomobil g‘ildirak formulasi",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Jihozlangan massa, kg",
+                            value: "4900",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "9030",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "4130",
+                        },
+                        {
+                            title: "Platforma materiali",
+                            value: "Kam legirlangan 09G2S po‘lati",
+                        },
+                        {
+                            title: "Platforma asosi",
+                            value: "Uzunlamasına va ko‘ndalang balkalar, yon, old va orqa bog‘lamalar hamda kuzovni ko‘tarish uchun tayanch sharnirlaridan iborat. Tub qalinligi – 3 mm",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Yuqori osma bilan, bort panellari qalinligi – 2 mm.",
+                        },
+                        {
+                            title: "Tushirish yo‘nalishi",
+                            value: "Orqaga yoki uch tomonlama",
+                        },
+                        {
+                            title: "Platformani ko‘tarish burchagi, daraja",
+                            value: "",
+                        },
+                        {
+                            title: "- orqaga tushirishda",
+                            value: "45",
+                        },
+                        {
+                            title: "- yon tomonga tushirishda",
+                            value: "45",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- uzunligi",
+                            value: "6670",
+                        },
+                        {
+                            title: "- kengligi",
+                            value: "2550",
+                        },
+                        {
+                            title: "- balandligi",
+                            value: "2370",
+                        },
+                        {
+                            title: "Bortli platformaning gabarit o‘lchamlari, mm",
+                            value: "",
+                        },
+                        {
+                            title: "- uzunligi",
+                            value: "4600",
+                        },
+                        {
+                            title: "- kengligi",
+                            value: "2550",
+                        },
+                        {
+                            title: "- balandligi",
+                            value: "1300",
+                        },
+                        {
+                            title: "Kuzov hajmi, m3",
+                            value: "12",
+                        },
+                        {
+                            title: "Yuklash balandligi, mm:",
+                            value: "1160",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 46,
+        slug: "samosval-na-shassi-jac-n120s-model-538924-vysokiy-bort",
+        categoryId: 10,
+
+        images: {
+            image: mainTruckImage46,
+        },
+
+        gallery: [
+            {
+                image: mainTruckImage46,
+            },
+            {
+                image: galleryOf1TruckImage46,
+            },
+            {
+                image: galleryOf2TruckImage46,
+            },
+            {
+                image: galleryOf3TruckImage46,
+            },
+            {
+                image: galleryOf4TruckImage46,
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Самосвал на шасси JAC N120S (модель 538924), высокий борт",
+
+            category: "Самосвалы",
+
+            description: {
+                title: "Описание",
+                text: "Самосвал на шасси JAC N120S предназначен для транспортирования и разгрузки при помощи гидравлически наклоняемого кузова различных навалочных и сыпучих грузов. Состоит из самосвальной платформы, установленной на шасси, гидроцилиндра, гилравлического насоса, маслобака и т.д. Различают самосвалы с задней разгрузкой, как правило для транспортирования грузов строительного назначения (песок, щебень и т. д.), и двух- трёхсторонней разгрузкой, как правило для транспортирования грузов сельскохозяйственного назначения. Возможно изготовление самосвала с КМУ",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "JAC N120S",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISF3.8S5168, 168 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "7350",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2720",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "3845",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4х2",
+                    },
+                    {
+                        title: "Длина платформы, м",
+                        value: "5000",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "11980",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "5600",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "6380",
+                    },
+                    {
+                        title: "Объем кузова, м3",
+                        value: "15",
+                    },
+                    {
+                        title: "Высота бортов, мм",
+                        value: "1540",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle: "Самосвал на шасси JAC N120S (модель 538924)",
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "JAC N120S",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Самосвальная бортовая платформа, прямоугольного сечения",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISF3.8S5168, 168 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "3845",
+                        },
+                        {
+                            title: "Колесная формула автомобиля",
+                            value: "4х2",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "5600",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "11980",
+                        },
+                        {
+                            title: "Масса перевозимого груза, кг",
+                            value: "6380",
+                        },
+                        {
+                            title: "Материал изготовления платформы",
+                            value: "Низколегированная Сталь 09Г2С",
+                        },
+                        {
+                            title: "Основание платформы",
+                            value: "Состоит из продольных и поперечных балок, боковых, передней и задней обвязок, опорных шарниров для подъема кузова. Толщина днища – 3 мм",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "С верхней навеской, толщина панелей бортов – 2 мм.",
+                        },
+                        {
+                            title: "Направление разгрузки",
+                            value: "Назад или трехсторонняя",
+                        },
+                        {
+                            title: "Подъём платформы, град",
+                            value: "",
+                        },
+                        {
+                            title: "- при задней разгрузке",
+                            value: "45",
+                        },
+                        {
+                            title: "- при боковой разгрузке",
+                            value: "45",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм:",
+                            value: "",
+                        },
+                        {
+                            title: "- длина",
+                            value: "7350",
+                        },
+                        {
+                            title: "- ширина",
+                            value: "2550",
+                        },
+                        {
+                            title: "- высота",
+                            value: "2720",
+                        },
+                        {
+                            title: "Габаритные размеры бортовой платформы, мм",
+                            value: "",
+                        },
+                        {
+                            title: "- длина",
+                            value: "5000",
+                        },
+                        {
+                            title: "- ширина",
+                            value: "2550",
+                        },
+                        {
+                            title: "- высота",
+                            value: "1540",
+                        },
+                        {
+                            title: "Объём кузова. м3",
+                            value: "15",
+                        },
+                        {
+                            title: "Погрузочная высота, мм:",
+                            value: "1240",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price on request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "Dump truck on JAC N120S chassis (model 538924), high sides",
+
+            category: "Dump Trucks",
+
+            description: {
+                title: "Description",
+                text: "The dump truck on the JAC N120S chassis is designed for transporting and unloading various bulk and loose materials using a hydraulically tilting body. It consists of a dump platform mounted on the chassis, a hydraulic cylinder, hydraulic pump, oil tank, etc. Dump trucks with rear unloading are generally used for transporting construction materials (sand, crushed stone, etc.), while trucks with two- or three-way unloading are generally used for transporting agricultural materials. It is possible to manufacture the dump truck with a crane-manipulator unit.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "JAC N120S",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISF3.8S5168, 168 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "7350",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2720",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platform length, m",
+                        value: "5000",
+                    },
+                    {
+                        title: "Gross weight, kg",
+                        value: "11980",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "5600",
+                    },
+                    {
+                        title: "Payload, kg",
+                        value: "6380",
+                    },
+                    {
+                        title: "Body volume, m3",
+                        value: "15",
+                    },
+                    {
+                        title: "Sideboard height, mm",
+                        value: "1540",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Dump truck on JAC N120S chassis (model 538924)",
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "JAC N120S",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Dump truck sideboard platform, rectangular cross-section",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISF3.8S5168, 168 hp",
+                        },
+                        {
+                            title: "Gearbox",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Vehicle wheel formula",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "5600",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "11980",
+                        },
+                        {
+                            title: "Payload, kg",
+                            value: "6380",
+                        },
+                        {
+                            title: "Platform material",
+                            value: "Low-alloy steel 09G2S",
+                        },
+                        {
+                            title: "Platform base",
+                            value: "Consists of longitudinal and transverse beams, side, front and rear frames, and support hinges for lifting the body. Bottom thickness – 3 mm",
+                        },
+                        {
+                            title: "Platform sides",
+                            value: "With upper mounting, side panel thickness – 2 mm.",
+                        },
+                        {
+                            title: "Unloading direction",
+                            value: "Rear or three-way",
+                        },
+                        {
+                            title: "Platform lifting angle, degrees",
+                            value: "",
+                        },
+                        {
+                            title: "- rear unloading",
+                            value: "45",
+                        },
+                        {
+                            title: "- side unloading",
+                            value: "45",
+                        },
+                        {
+                            title: "Vehicle overall dimensions, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- length",
+                            value: "7350",
+                        },
+                        {
+                            title: "- width",
+                            value: "2550",
+                        },
+                        {
+                            title: "- height",
+                            value: "2720",
+                        },
+                        {
+                            title: "Dump platform overall dimensions, mm",
+                            value: "",
+                        },
+                        {
+                            title: "- length",
+                            value: "5000",
+                        },
+                        {
+                            title: "- width",
+                            value: "2550",
+                        },
+                        {
+                            title: "- height",
+                            value: "1540",
+                        },
+                        {
+                            title: "Body volume, m3",
+                            value: "15",
+                        },
+                        {
+                            title: "Loading height, mm:",
+                            value: "1240",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narxi so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "JAC N120S shassisidagi samosval (538924 modeli), baland bortli",
+
+            category: "Samosvallar",
+
+            description: {
+                title: "Tavsif",
+                text: "JAC N120S shassisidagi samosval gidravlik ko‘tariladigan kuzov yordamida turli xil sochiluvchan va to‘kiluvchan yuklarni tashish va tushirish uchun mo‘ljallangan. U shassiga o‘rnatilgan samosval platformasi, gidravlik silindr, gidravlik nasos, moy baki va boshqa qismlardan iborat. Orqaga tushirishga ega samosvallar, odatda, qurilish materiallarini (qum, shag‘al va boshqalar) tashish uchun, ikki yoki uch tomonlama tushirishga ega samosvallar esa, odatda, qishloq xo‘jaligi yuklarini tashish uchun ishlatiladi. Samosvalni kran-manipulyator qurilmasi bilan ishlab chiqarish ham mumkin.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Bazaviy shassi",
+                        value: "JAC N120S",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISF3.8S5168, 168 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "7350",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2720",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platforma uzunligi, m",
+                        value: "5000",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "11980",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "5600",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "6380",
+                    },
+                    {
+                        title: "Kuzov hajmi, m3",
+                        value: "15",
+                    },
+                    {
+                        title: "Bort balandligi, mm",
+                        value: "1540",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "JAC N120S shassisidagi samosval (538924 modeli)",
+                    items: [
+                        {
+                            title: "Bazaviy shassi",
+                            value: "JAC N120S",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "To‘g‘ri to‘rtburchak kesimli bortli samosval platformasi",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISF3.8S5168, 168 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Avtomobil g‘ildirak formulasi",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Jihozlangan massa, kg",
+                            value: "5600",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "11980",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "6380",
+                        },
+                        {
+                            title: "Platforma materiali",
+                            value: "Kam legirlangan 09G2S po‘lati",
+                        },
+                        {
+                            title: "Platforma asosi",
+                            value: "Uzunlamasına va ko‘ndalang balkalar, yon, old va orqa bog‘lamalar hamda kuzovni ko‘tarish uchun tayanch sharnirlaridan iborat. Tub qalinligi – 3 mm",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Yuqori osma bilan, bort panellari qalinligi – 2 mm.",
+                        },
+                        {
+                            title: "Tushirish yo‘nalishi",
+                            value: "Orqaga yoki uch tomonlama",
+                        },
+                        {
+                            title: "Platformani ko‘tarish burchagi, daraja",
+                            value: "",
+                        },
+                        {
+                            title: "- orqaga tushirishda",
+                            value: "45",
+                        },
+                        {
+                            title: "- yon tomonga tushirishda",
+                            value: "45",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- uzunligi",
+                            value: "7350",
+                        },
+                        {
+                            title: "- kengligi",
+                            value: "2550",
+                        },
+                        {
+                            title: "- balandligi",
+                            value: "2720",
+                        },
+                        {
+                            title: "Bortli platformaning gabarit o‘lchamlari, mm",
+                            value: "",
+                        },
+                        {
+                            title: "- uzunligi",
+                            value: "5000",
+                        },
+                        {
+                            title: "- kengligi",
+                            value: "2550",
+                        },
+                        {
+                            title: "- balandligi",
+                            value: "1540",
+                        },
+                        {
+                            title: "Kuzov hajmi, m3",
+                            value: "15",
+                        },
+                        {
+                            title: "Yuklash balandligi, mm:",
+                            value: "1240",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 47,
+        slug: "samosval-na-shassi-jac-n120s-model-538924-bort-h-750-mm",
+        categoryId: 10,
+
+        images: {
+            image: mainTruckImage47,
+        },
+
+        gallery: [
+            {
+                image: mainTruckImage47,
+            },
+            {
+                image: galleryOf1TruckImage47,
+            },
+            {
+                image: galleryOf2TruckImage47,
+            },
+            {
+                image: galleryOf3TruckImage47,
+            },
+            {
+                image: galleryOf4TruckImage47,
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Самосвал на шасси JAC N120S (модель 538924), борт h=750 мм",
+
+            category: "Самосвалы",
+
+            description: {
+                title: "Описание",
+                text: "Самосвал на шасси JAC N120S предназначен для транспортирования и разгрузки при помощи гидравлически наклоняемого кузова различных навалочных и сыпучих грузов. Состоит из самосвальной платформы, установленной на шасси, гидроцилиндра, гилравлического насоса, маслобака и т.д. Различают самосвалы с задней разгрузкой, как правило для транспортирования грузов строительного назначения (песок, щебень и т. д.), и двух- трёхсторонней разгрузкой, как правило для транспортирования грузов сельскохозяйственного назначения. Возможно изготовление самосвала с КМУ",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "JAC N120",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISF3.8S5168, 168 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "7350",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2540",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "3845",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4х2",
+                    },
+                    {
+                        title: "Длина платформы, м",
+                        value: "5000",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "11980",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "3845",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "5930",
+                    },
+                    {
+                        title: "Высота бортов, мм",
+                        value: "750",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Самосвал на шасси JAC N120S (модель 538924), борт h=750 мм",
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "JAC N120S",
+                        },
+                        {
+                            title: "Длина автомобиля, мм",
+                            value: "7350",
+                        },
+                        {
+                            title: "Ширина автомобиля, мм",
+                            value: "2550",
+                        },
+                        {
+                            title: "Высота автомобиля, мм",
+                            value: "2540",
+                        },
+                        {
+                            title: "Грузоподъёмность, кг",
+                            value: "5930",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle: "Самосвал на шасси JAC N120S (модель 538924)",
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "JAC N120S",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Самосвальная бортовая платформа, прямоугольного сечения",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISF3.8S5168, 168 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "3845",
+                        },
+                        {
+                            title: "Колесная формула автомобиля 4х2",
+                            value: "4х2",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "3845",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "11980",
+                        },
+                        {
+                            title: "Масса перевозимого груза, кг",
+                            value: "5930",
+                        },
+                        {
+                            title: "Материал изготовления платформы",
+                            value: "Низколегированная Сталь 09Г2С",
+                        },
+                        {
+                            title: "Основание платформы",
+                            value: "Состоит из продольных и поперечных балок, боковых, передней и задней обвязок, опорных шарниров для подъема кузова. Толщина днища – 3 мм.",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "С верхней навеской, толщина панелей бортов – 2 мм.",
+                        },
+                        {
+                            title: "Направление разгрузки",
+                            value: "Назад или трехсторонняя",
+                        },
+                        {
+                            title: "Подъём платформы, град",
+                            value: "",
+                        },
+                        {
+                            title: "- при задней разгрузке",
+                            value: "45",
+                        },
+                        {
+                            title: "- при боковой разгрузке",
+                            value: "45",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм:",
+                            value: "",
+                        },
+                        {
+                            title: "- длина",
+                            value: "6870",
+                        },
+                        {
+                            title: "- ширина",
+                            value: "2550",
+                        },
+                        {
+                            title: "- высота",
+                            value: "2540",
+                        },
+                        {
+                            title: "Габаритные размеры бортовой платформы, мм",
+                            value: "",
+                        },
+                        {
+                            title: "- длина",
+                            value: "5000",
+                        },
+                        {
+                            title: "- ширина",
+                            value: "2550",
+                        },
+                        {
+                            title: "- высота",
+                            value: "750",
+                        },
+                        {
+                            title: "Погрузочная высота, мм:",
+                            value: "1240",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price on request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "Dump truck on JAC N120S chassis (model 538924), side height h=750 mm",
+
+            category: "Dump Trucks",
+
+            description: {
+                title: "Description",
+                text: "The dump truck on the JAC N120S chassis is designed for transporting and unloading various bulk and loose materials using a hydraulically tilting body. It consists of a dump platform mounted on the chassis, a hydraulic cylinder, hydraulic pump, oil tank, etc. Dump trucks with rear unloading are generally used for transporting construction materials (sand, crushed stone, etc.), while trucks with two- or three-way unloading are generally used for transporting agricultural materials. It is possible to manufacture the dump truck with a crane-manipulator unit.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "JAC N120",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISF3.8S5168, 168 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "7350",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2540",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platform length, m",
+                        value: "5000",
+                    },
+                    {
+                        title: "Gross weight, kg",
+                        value: "11980",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "3845",
+                    },
+                    {
+                        title: "Payload, kg",
+                        value: "5930",
+                    },
+                    {
+                        title: "Sideboard height, mm",
+                        value: "750",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Dump truck on JAC N120S chassis (model 538924), side height h=750 mm",
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "JAC N120S",
+                        },
+                        {
+                            title: "Vehicle length, mm",
+                            value: "7350",
+                        },
+                        {
+                            title: "Vehicle width, mm",
+                            value: "2550",
+                        },
+                        {
+                            title: "Vehicle height, mm",
+                            value: "2540",
+                        },
+                        {
+                            title: "Payload, kg",
+                            value: "5930",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle:
+                        "Dump truck on JAC N120S chassis (model 538924)",
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "JAC N120S",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Dump truck sideboard platform, rectangular cross-section",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISF3.8S5168, 168 hp",
+                        },
+                        {
+                            title: "Gearbox",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Vehicle wheel formula 4x2",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "3845",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "11980",
+                        },
+                        {
+                            title: "Payload, kg",
+                            value: "5930",
+                        },
+                        {
+                            title: "Platform material",
+                            value: "Low-alloy steel 09G2S",
+                        },
+                        {
+                            title: "Platform base",
+                            value: "Consists of longitudinal and transverse beams, side, front and rear frames, and support hinges for lifting the body. Bottom thickness – 3 mm.",
+                        },
+                        {
+                            title: "Platform sides",
+                            value: "With upper mounting, side panel thickness – 2 mm.",
+                        },
+                        {
+                            title: "Unloading direction",
+                            value: "Rear or three-way",
+                        },
+                        {
+                            title: "Platform lifting angle, degrees",
+                            value: "",
+                        },
+                        {
+                            title: "- rear unloading",
+                            value: "45",
+                        },
+                        {
+                            title: "- side unloading",
+                            value: "45",
+                        },
+                        {
+                            title: "Vehicle overall dimensions, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- length",
+                            value: "6870",
+                        },
+                        {
+                            title: "- width",
+                            value: "2550",
+                        },
+                        {
+                            title: "- height",
+                            value: "2540",
+                        },
+                        {
+                            title: "Dump platform overall dimensions, mm",
+                            value: "",
+                        },
+                        {
+                            title: "- length",
+                            value: "5000",
+                        },
+                        {
+                            title: "- width",
+                            value: "2550",
+                        },
+                        {
+                            title: "- height",
+                            value: "750",
+                        },
+                        {
+                            title: "Loading height, mm:",
+                            value: "1240",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narxi so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "JAC N120S shassisidagi samosval (538924 modeli), bort balandligi h=750 mm",
+
+            category: "Samosvallar",
+
+            description: {
+                title: "Tavsif",
+                text: "JAC N120S shassisidagi samosval gidravlik ko‘tariladigan kuzov yordamida turli xil sochiluvchan va to‘kiluvchan yuklarni tashish va tushirish uchun mo‘ljallangan. U shassiga o‘rnatilgan samosval platformasi, gidravlik silindr, gidravlik nasos, moy baki va boshqa qismlardan iborat. Orqaga tushirishga ega samosvallar, odatda, qurilish materiallarini (qum, shag‘al va boshqalar) tashish uchun, ikki yoki uch tomonlama tushirishga ega samosvallar esa, odatda, qishloq xo‘jaligi yuklarini tashish uchun ishlatiladi. Samosvalni kran-manipulyator qurilmasi bilan ishlab chiqarish ham mumkin.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Bazaviy shassi",
+                        value: "JAC N120",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISF3.8S5168, 168 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "7350",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2540",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platforma uzunligi, m",
+                        value: "5000",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "11980",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "3845",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "5930",
+                    },
+                    {
+                        title: "Bort balandligi, mm",
+                        value: "750",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "JAC N120S shassisidagi samosval (538924 modeli), bort balandligi h=750 mm",
+                    items: [
+                        {
+                            title: "Bazaviy shassi",
+                            value: "JAC N120S",
+                        },
+                        {
+                            title: "Avtomobil uzunligi, mm",
+                            value: "7350",
+                        },
+                        {
+                            title: "Avtomobil kengligi, mm",
+                            value: "2550",
+                        },
+                        {
+                            title: "Avtomobil balandligi, mm",
+                            value: "2540",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "5930",
+                        },
+                    ],
+                },
+                {
+                    sectionTitle:
+                        "JAC N120S shassisidagi samosval (538924 modeli)",
+                    items: [
+                        {
+                            title: "Bazaviy shassi",
+                            value: "JAC N120S",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "To‘g‘ri to‘rtburchak kesimli bortli samosval platformasi",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISF3.8S5168, 168 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Avtomobil g‘ildirak formulasi 4x2",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Jihozlangan massa, kg",
+                            value: "3845",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "11980",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "5930",
+                        },
+                        {
+                            title: "Platforma materiali",
+                            value: "Kam legirlangan 09G2S po‘lati",
+                        },
+                        {
+                            title: "Platforma asosi",
+                            value: "Uzunlamasına va ko‘ndalang balkalar, yon, old va orqa bog‘lamalar hamda kuzovni ko‘tarish uchun tayanch sharnirlaridan iborat. Tub qalinligi – 3 mm.",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Yuqori osma bilan, bort panellari qalinligi – 2 mm.",
+                        },
+                        {
+                            title: "Tushirish yo‘nalishi",
+                            value: "Orqaga yoki uch tomonlama",
+                        },
+                        {
+                            title: "Platformani ko‘tarish burchagi, daraja",
+                            value: "",
+                        },
+                        {
+                            title: "- orqaga tushirishda",
+                            value: "45",
+                        },
+                        {
+                            title: "- yon tomonga tushirishda",
+                            value: "45",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- uzunligi",
+                            value: "6870",
+                        },
+                        {
+                            title: "- kengligi",
+                            value: "2550",
+                        },
+                        {
+                            title: "- balandligi",
+                            value: "2540",
+                        },
+                        {
+                            title: "Bortli platformaning gabarit o‘lchamlari, mm",
+                            value: "",
+                        },
+                        {
+                            title: "- uzunligi",
+                            value: "5000",
+                        },
+                        {
+                            title: "- kengligi",
+                            value: "2550",
+                        },
+                        {
+                            title: "- balandligi",
+                            value: "750",
+                        },
+                        {
+                            title: "Yuklash balandligi, mm:",
+                            value: "1240",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: false,
+        id: 48,
+        slug: "samosval-na-shassi-jac-n90n-model-538914-bort-h-750-mm",
+        categoryId: 10,
+
+        images: {
+            image: mainTruckImage48,
+        },
+
+        gallery: [
+            {
+                image: mainTruckImage48,
+            },
+            {
+                image: galleryOf1TruckImage48,
+            },
+            {
+                image: galleryOf2TruckImage48,
+            },
+            {
+                image: galleryOf3TruckImage48,
+            },
+            {
+                image: galleryOf4TruckImage48,
+            },
+            {
+                image: galleryOf5TruckImage48,
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Самосвал на шасси JAC N90N (модель 538914), борт h=750 мм",
+
+            category: "Самосвалы",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "JAC N90",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "Cummins ISF3.8S5154, 154 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "7270",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2365",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "3845",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4х2",
+                    },
+                    {
+                        title: "Длина платформы, м",
+                        value: "5200",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "9030",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "4550",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "4480",
+                    },
+                    {
+                        title: "Высота бортов, мм",
+                        value: "750",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Самосвал на шасси JAC N90N (модель 538914), борт h=750 мм",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "JAC N90N",
+                        },
+                        {
+                            title: "Длина автомобиля, мм",
+                            value: "7270",
+                        },
+                        {
+                            title: "Ширина автомобиля, мм",
+                            value: "2550",
+                        },
+                        {
+                            title: "Высота автомобиля, мм",
+                            value: "2365",
+                        },
+                        {
+                            title: "Грузоподъёмность, кг",
+                            value: "4480",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle: "Самосвал на шасси HINO 300 (модель 438954)",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "JAC N90N",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Самосвальная бортовая платформа, прямоугольного сечения",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "Cummins ISF3.8S5154, 154 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "3845",
+                        },
+                        {
+                            title: "Колесная формула автомобиля 4х2",
+                            value: "4х2",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "4550",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "9030",
+                        },
+                        {
+                            title: "Масса перевозимого груза, кг",
+                            value: "4480",
+                        },
+                        {
+                            title: "Материал изготовления платформы",
+                            value: "Низколегированная Сталь 09Г2С",
+                        },
+                        {
+                            title: "Основание платформы",
+                            value: "Состоит из продольных и поперечных балок, боковых, передней и задней обвязок, опорных шарниров для подъема кузова. Толщина днища – 3 мм.",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "С верхней навеской, толщина панелей бортов – 2 мм.",
+                        },
+                        {
+                            title: "Направление разгрузки",
+                            value: "Назад или трехсторонняя",
+                        },
+                        {
+                            title: "Подъём платформы, град",
+                            value: "",
+                        },
+                        {
+                            title: "- при задней разгрузке",
+                            value: "45",
+                        },
+                        {
+                            title: "- при боковой разгрузке",
+                            value: "45",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм:",
+                            value: "",
+                        },
+                        {
+                            title: "- длина",
+                            value: "7270",
+                        },
+                        {
+                            title: "- ширина",
+                            value: "2550",
+                        },
+                        {
+                            title: "- высота",
+                            value: "2365",
+                        },
+                        {
+                            title: "Габаритные размеры бортовой платформы, мм",
+                            value: "",
+                        },
+                        {
+                            title: "- длина",
+                            value: "5200",
+                        },
+                        {
+                            title: "- ширина",
+                            value: "2550",
+                        },
+                        {
+                            title: "- высота",
+                            value: "750",
+                        },
+                        {
+                            title: "Погрузочная высота, мм:",
+                            value: "1160",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price on request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "Dump truck on JAC N90N chassis (model 538914), side height h=750 mm",
+
+            category: "Dump Trucks",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "JAC N90",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISF3.8S5154, 154 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "7270",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2365",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platform length, m",
+                        value: "5200",
+                    },
+                    {
+                        title: "Gross weight, kg",
+                        value: "9030",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "4550",
+                    },
+                    {
+                        title: "Payload, kg",
+                        value: "4480",
+                    },
+                    {
+                        title: "Sideboard height, mm",
+                        value: "750",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Dump truck on JAC N90N chassis (model 538914), side height h=750 mm",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "JAC N90N",
+                        },
+                        {
+                            title: "Vehicle length, mm",
+                            value: "7270",
+                        },
+                        {
+                            title: "Vehicle width, mm",
+                            value: "2550",
+                        },
+                        {
+                            title: "Vehicle height, mm",
+                            value: "2365",
+                        },
+                        {
+                            title: "Payload, kg",
+                            value: "4480",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Dump truck on HINO 300 chassis (model 438954)",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "JAC N90N",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Dump truck sideboard platform, rectangular cross-section",
+                        },
+                        {
+                            title: "Engine",
+                            value: "Cummins ISF3.8S5154, 154 hp",
+                        },
+                        {
+                            title: "Gearbox",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Vehicle wheel formula 4x2",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "4550",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "9030",
+                        },
+                        {
+                            title: "Payload, kg",
+                            value: "4480",
+                        },
+                        {
+                            title: "Platform material",
+                            value: "Low-alloy steel 09G2S",
+                        },
+                        {
+                            title: "Platform base",
+                            value: "Consists of longitudinal and transverse beams, side, front and rear frames, and support hinges for lifting the body. Bottom thickness – 3 mm.",
+                        },
+                        {
+                            title: "Platform sides",
+                            value: "With upper mounting, side panel thickness – 2 mm.",
+                        },
+                        {
+                            title: "Unloading direction",
+                            value: "Rear or three-way",
+                        },
+                        {
+                            title: "Platform lifting angle, degrees",
+                            value: "",
+                        },
+                        {
+                            title: "- rear unloading",
+                            value: "45",
+                        },
+                        {
+                            title: "- side unloading",
+                            value: "45",
+                        },
+                        {
+                            title: "Vehicle overall dimensions, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- length",
+                            value: "7270",
+                        },
+                        {
+                            title: "- width",
+                            value: "2550",
+                        },
+                        {
+                            title: "- height",
+                            value: "2365",
+                        },
+                        {
+                            title: "Dump platform overall dimensions, mm",
+                            value: "",
+                        },
+                        {
+                            title: "- length",
+                            value: "5200",
+                        },
+                        {
+                            title: "- width",
+                            value: "2550",
+                        },
+                        {
+                            title: "- height",
+                            value: "750",
+                        },
+                        {
+                            title: "Loading height, mm:",
+                            value: "1160",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narxi so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "JAC N90N shassisidagi samosval (538914 modeli), bort balandligi h=750 mm",
+
+            category: "Samosvallar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Bazaviy shassi",
+                        value: "JAC N90",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "7270",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2365",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Platforma uzunligi, m",
+                        value: "5200",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "9030",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "4550",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "4480",
+                    },
+                    {
+                        title: "Bort balandligi, mm",
+                        value: "750",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "JAC N90N shassisidagi samosval (538914 modeli), bort balandligi h=750 mm",
+
+                    items: [
+                        {
+                            title: "Bazaviy shassi",
+                            value: "JAC N90N",
+                        },
+                        {
+                            title: "Avtomobil uzunligi, mm",
+                            value: "7270",
+                        },
+                        {
+                            title: "Avtomobil kengligi, mm",
+                            value: "2550",
+                        },
+                        {
+                            title: "Avtomobil balandligi, mm",
+                            value: "2365",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "4480",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "HINO 300 shassisidagi samosval (438954 modeli)",
+
+                    items: [
+                        {
+                            title: "Bazaviy shassi",
+                            value: "JAC N90N",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "To‘g‘ri to‘rtburchak kesimli bortli samosval platformasi",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "Cummins ISF3.8S5154, 154 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3845",
+                        },
+                        {
+                            title: "Avtomobil g‘ildirak formulasi 4x2",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Jihozlangan massa, kg",
+                            value: "4550",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "9030",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "4480",
+                        },
+                        {
+                            title: "Platforma materiali",
+                            value: "Kam legirlangan 09G2S po‘lati",
+                        },
+                        {
+                            title: "Platforma asosi",
+                            value: "Uzunlamasına va ko‘ndalang balkalar, yon, old va orqa bog‘lamalar hamda kuzovni ko‘tarish uchun tayanch sharnirlaridan iborat. Tub qalinligi – 3 mm.",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Yuqori osma bilan, bort panellari qalinligi – 2 mm.",
+                        },
+                        {
+                            title: "Tushirish yo‘nalishi",
+                            value: "Orqaga yoki uch tomonlama",
+                        },
+                        {
+                            title: "Platformani ko‘tarish burchagi, daraja",
+                            value: "",
+                        },
+                        {
+                            title: "- orqaga tushirishda",
+                            value: "45",
+                        },
+                        {
+                            title: "- yon tomonga tushirishda",
+                            value: "45",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- uzunligi",
+                            value: "7270",
+                        },
+                        {
+                            title: "- kengligi",
+                            value: "2550",
+                        },
+                        {
+                            title: "- balandligi",
+                            value: "2365",
+                        },
+                        {
+                            title: "Bortli platformaning gabarit o‘lchamlari, mm",
+                            value: "",
+                        },
+                        {
+                            title: "- uzunligi",
+                            value: "5200",
+                        },
+                        {
+                            title: "- kengligi",
+                            value: "2550",
+                        },
+                        {
+                            title: "- balandligi",
+                            value: "750",
+                        },
+                        {
+                            title: "Yuklash balandligi, mm:",
+                            value: "1160",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: false,
+        recommended: false,
+        id: 49,
+        slug: "samosval-na-shassi-isuzu-nqr90l-h-model-4389u4-4389uc-bort-h-1400-mm",
+        categoryId: 10,
+
+        images: {
+            image: mainTruckImage49,
+        },
+
+        gallery: [
+            {
+                image: mainTruckImage49,
+            },
+            {
+                image: galleryOf1TruckImage49,
+            },
+            {
+                image: galleryOf2TruckImage49,
+            },
+            {
+                image: galleryOf3TruckImage49,
+            },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                addToCart: "Добавить в корзину",
+                more: "Получить КП",
+                getPk: "Получить КП",
+                iNeedThis: "Мне нужен такой же",
+            },
+
+            truckType:
+                "Самосвал на шасси ISUZU NQR90L-H (модель 4389U4, 4389UC), борт h=1400 мм",
+
+            category: "Самосвалы",
+
+            description: {
+                title: "Описание",
+                text: "Самосвал на шасси ISUZU NQR90L-H предназначен для транспортирования и разгрузки при помощи гидравлически наклоняемого кузова различных навалочных и сыпучих грузов. Состоит из самосвальной платформы, установленной на шасси, гидроцилиндра, гилравлического насоса, маслобака и т.д. Различают самосвалы с задней разгрузкой, как правило для транспортирования грузов строительного назначения (песок, щебень и т. д.), и двух- трёхсторонней разгрузкой, как правило для транспортирования грузов сельскохозяйственного назначения. Возможно изготовление самосвала с КМУ.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "ISUZU NQR90L-H",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "6040",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2200",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2265",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "4850",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Самосвал на шасси ISUZU NQR90L-H (модель 4389U4, 4389UC), борт h=1400 мм",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "ISUZU NQR90L-H",
+                        },
+                        {
+                            title: "Длина автомобиля, мм",
+                            value: "6040",
+                        },
+                        {
+                            title: "Ширина автомобиля, мм",
+                            value: "2200",
+                        },
+                        {
+                            title: "Высота автомобиля, мм",
+                            value: "2265",
+                        },
+                        {
+                            title: "Грузоподъёмность, кг",
+                            value: "4850",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Самосвал на шасси ISUZU NQR90L-H (модель 4389U4, 4389UC), борт h=1400 мм",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "ISUZU NQR90L-H",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Самосвальная бортовая платформа, прямоугольного сечения",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "ISUZU 4HK1 (4HK1E5CC), 190 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 6-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "3365",
+                        },
+                        {
+                            title: "Колесная формула автомобиля 4х2",
+                            value: "4х2",
+                        },
+                        {
+                            title: "Снаряженная масса, кг",
+                            value: "4650",
+                        },
+                        {
+                            title: "Полная масса автомобиля, кг",
+                            value: "9500",
+                        },
+                        {
+                            title: "Масса перевозимого груза, кг",
+                            value: "4850",
+                        },
+                        {
+                            title: "Материал изготовления платформы",
+                            value: "Низколегированная Сталь 09Г2С",
+                        },
+                        {
+                            title: "Основание платформы",
+                            value: "Состоит из продольных и поперечных балок, боковых, передней и задней обвязок, опорных шарниров для подъема кузова. Толщина днища – 3 мм.",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "С верхней навеской, толщина панелей бортов – 2 мм.",
+                        },
+                        {
+                            title: "Направление разгрузки",
+                            value: "Назад или трехсторонняя",
+                        },
+                        {
+                            title: "Подъём платформы, град",
+                            value: "",
+                        },
+                        {
+                            title: "- при задней разгрузке",
+                            value: "45",
+                        },
+                        {
+                            title: "- при боковой разгрузке",
+                            value: "45",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, мм:",
+                            value: "",
+                        },
+                        {
+                            title: "- длина",
+                            value: "6040",
+                        },
+                        {
+                            title: "- ширина",
+                            value: "2200",
+                        },
+                        {
+                            title: "- высота",
+                            value: "2265",
+                        },
+                        {
+                            title: "Габаритные размеры бортовой платформы, мм",
+                            value: "",
+                        },
+                        {
+                            title: "- длина",
+                            value: "4350",
+                        },
+                        {
+                            title: "- ширина",
+                            value: "2200",
+                        },
+                        {
+                            title: "- высота",
+                            value: "1400",
+                        },
+                        {
+                            title: "Погрузочная высота, мм:",
+                            value: "1160",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price on request",
+
+            buttons: {
+                addToCart: "Add to cart",
+                more: "Get a quotation",
+                getPk: "Get a quotation",
+                iNeedThis: "I need one like this",
+            },
+
+            truckType:
+                "Dump truck on ISUZU NQR90L-H chassis (models 4389U4, 4389UC), side height h=1400 mm",
+
+            category: "Dump Trucks",
+
+            description: {
+                title: "Description",
+                text: "The dump truck on the ISUZU NQR90L-H chassis is designed for transporting and unloading various bulk and loose cargo using a hydraulically tilting body. It consists of a dump platform mounted on the chassis, hydraulic cylinder, hydraulic pump, oil tank, etc. Dump trucks are available with rear unloading, generally for transporting construction materials such as sand and crushed stone, and with two- or three-way unloading, generally for transporting agricultural cargo. A dump truck with a crane-manipulator unit (CMU) can also be manufactured.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "ISUZU NQR90L-H",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "6040",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2200",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2265",
+                    },
+                    {
+                        title: "Payload, kg",
+                        value: "4850",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Dump truck on ISUZU NQR90L-H chassis (models 4389U4, 4389UC), side height h=1400 mm",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "ISUZU NQR90L-H",
+                        },
+                        {
+                            title: "Vehicle length, mm",
+                            value: "6040",
+                        },
+                        {
+                            title: "Vehicle width, mm",
+                            value: "2200",
+                        },
+                        {
+                            title: "Vehicle height, mm",
+                            value: "2265",
+                        },
+                        {
+                            title: "Payload, kg",
+                            value: "4850",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Dump truck on ISUZU NQR90L-H chassis (models 4389U4, 4389UC), side height h=1400 mm",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "ISUZU NQR90L-H",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Dump truck sideboard platform, rectangular cross-section",
+                        },
+                        {
+                            title: "Engine",
+                            value: "ISUZU 4HK1 (4HK1E5CC), 190 hp",
+                        },
+                        {
+                            title: "Gearbox",
+                            value: "Manual, 6-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "3365",
+                        },
+                        {
+                            title: "Vehicle wheel formula 4x2",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "4650",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "9500",
+                        },
+                        {
+                            title: "Payload, kg",
+                            value: "4850",
+                        },
+                        {
+                            title: "Platform material",
+                            value: "Low-alloy steel 09G2S",
+                        },
+                        {
+                            title: "Platform base",
+                            value: "Consists of longitudinal and transverse beams, side, front and rear frames, and support hinges for lifting the body. Bottom thickness – 3 mm.",
+                        },
+                        {
+                            title: "Platform sides",
+                            value: "With upper mounting, side panel thickness – 2 mm.",
+                        },
+                        {
+                            title: "Unloading direction",
+                            value: "Rear or three-way",
+                        },
+                        {
+                            title: "Platform lifting angle, degrees",
+                            value: "",
+                        },
+                        {
+                            title: "- rear unloading",
+                            value: "45",
+                        },
+                        {
+                            title: "- side unloading",
+                            value: "45",
+                        },
+                        {
+                            title: "Vehicle overall dimensions, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- length",
+                            value: "6040",
+                        },
+                        {
+                            title: "- width",
+                            value: "2200",
+                        },
+                        {
+                            title: "- height",
+                            value: "2265",
+                        },
+                        {
+                            title: "Dump platform overall dimensions, mm",
+                            value: "",
+                        },
+                        {
+                            title: "- length",
+                            value: "4350",
+                        },
+                        {
+                            title: "- width",
+                            value: "2200",
+                        },
+                        {
+                            title: "- height",
+                            value: "1400",
+                        },
+                        {
+                            title: "Loading height, mm:",
+                            value: "1160",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narxi so‘rov bo‘yicha",
+
+            buttons: {
+                addToCart: "Savatga qo‘shish",
+                more: "Tijorat taklifini olish",
+                getPk: "Tijorat taklifini olish",
+                iNeedThis: "Menga shunday kerak",
+            },
+
+            truckType:
+                "ISUZU NQR90L-H shassisidagi samosval (4389U4, 4389UC modellari), bort balandligi h=1400 mm",
+
+            category: "Samosvallar",
+
+            description: {
+                title: "Tavsif",
+                text: "ISUZU NQR90L-H shassisidagi samosval turli xil uyum va sochiluvchan yuklarni gidravlik tarzda qiyshaytiriladigan kuzov yordamida tashish va tushirish uchun mo‘ljallangan. U shassiga o‘rnatilgan samosval platformasi, gidrotsilindr, gidravlik nasos, moy baki va boshqa qismlardan tashkil topadi. Samosvallar odatda qum, shag‘al va boshqa qurilish materiallarini tashish uchun orqaga tushirish tizimiga, shuningdek qishloq xo‘jaligi yuklarini tashish uchun ikki yoki uch tomonlama tushirish tizimiga ega bo‘lishi mumkin. Kran-manipulyator qurilmasi (KMU) bilan samosval ham ishlab chiqarilishi mumkin.",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Bazaviy shassi",
+                        value: "ISUZU NQR90L-H",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "6040",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2200",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2265",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "4850",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlari",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "ISUZU NQR90L-H shassisidagi samosval (4389U4, 4389UC modellari), bort balandligi h=1400 mm",
+
+                    items: [
+                        {
+                            title: "Bazaviy shassi",
+                            value: "ISUZU NQR90L-H",
+                        },
+                        {
+                            title: "Avtomobil uzunligi, mm",
+                            value: "6040",
+                        },
+                        {
+                            title: "Avtomobil kengligi, mm",
+                            value: "2200",
+                        },
+                        {
+                            title: "Avtomobil balandligi, mm",
+                            value: "2265",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "4850",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "ISUZU NQR90L-H shassisidagi samosval (4389U4, 4389UC modellari), bort balandligi h=1400 mm",
+
+                    items: [
+                        {
+                            title: "Bazaviy shassi",
+                            value: "ISUZU NQR90L-H",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "To‘g‘ri to‘rtburchak kesimli bortli samosval platformasi",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "ISUZU 4HK1 (4HK1E5CC), 190 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 6 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "3365",
+                        },
+                        {
+                            title: "Avtomobil g‘ildirak formulasi 4x2",
+                            value: "4x2",
+                        },
+                        {
+                            title: "Jihozlangan massa, kg",
+                            value: "4650",
+                        },
+                        {
+                            title: "Avtomobilning to‘liq massasi, kg",
+                            value: "9500",
+                        },
+                        {
+                            title: "Yuk ko‘tarish qobiliyati, kg",
+                            value: "4850",
+                        },
+                        {
+                            title: "Platforma materiali",
+                            value: "Kam legirlangan 09G2S po‘lati",
+                        },
+                        {
+                            title: "Platforma asosi",
+                            value: "Uzunlamasına va ko‘ndalang balkalar, yon, old va orqa bog‘lamalar hamda kuzovni ko‘tarish uchun tayanch sharnirlaridan iborat. Tub qalinligi – 3 mm.",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Yuqori osma bilan, bort panellari qalinligi – 2 mm.",
+                        },
+                        {
+                            title: "Tushirish yo‘nalishi",
+                            value: "Orqaga yoki uch tomonlama",
+                        },
+                        {
+                            title: "Platformani ko‘tarish burchagi, daraja",
+                            value: "",
+                        },
+                        {
+                            title: "- orqaga tushirishda",
+                            value: "45",
+                        },
+                        {
+                            title: "- yon tomonga tushirishda",
+                            value: "45",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, mm:",
+                            value: "",
+                        },
+                        {
+                            title: "- uzunligi",
+                            value: "6040",
+                        },
+                        {
+                            title: "- kengligi",
+                            value: "2200",
+                        },
+                        {
+                            title: "- balandligi",
+                            value: "2265",
+                        },
+                        {
+                            title: "Bortli platformaning gabarit o‘lchamlari, mm",
+                            value: "",
+                        },
+                        {
+                            title: "- uzunligi",
+                            value: "4350",
+                        },
+                        {
+                            title: "- kengligi",
+                            value: "2200",
+                        },
+                        {
+                            title: "- balandligi",
+                            value: "1400",
+                        },
+                        {
+                            title: "Yuklash balandligi, mm:",
+                            value: "1160",
                         },
                     ],
                 },
