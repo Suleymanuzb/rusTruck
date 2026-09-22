@@ -5,9 +5,24 @@ import { useParams, Link } from "react-router-dom";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import Trucks from "./Trucks";
 import { icons } from "../../assets/icons/icons";
+import SortDown from "./SortDown";
+import { useState } from "react";
 const { IconLine, IconTable, SearchIcon } = icons;
 
 const FilteredCatalog = () => {
+    const [isLine, setIsLine] = useState(false);
+    const [isTable, setIsTable] = useState(true);
+
+    const handleTable = () => {
+        setIsTable(true);
+        setIsLine(false);
+    };
+
+    const handleLine = () => {
+        setIsTable(false);
+        setIsLine(true);
+    };
+
     const { t } = useTranslation();
     const { i18n } = useTranslation();
 
@@ -18,38 +33,73 @@ const FilteredCatalog = () => {
     });
     const selectedCategory = categories.find((item) => item.slug === category);
 
+
     const matchingTrucks = trucks.filter(
         (truck) => truck.categoryId === selectedCategory?.id,
     );
-    console.log("MMMM", matchingTrucks);
 
     return (
         <div className='bg-gray-100'>
             <Container>
                 <Breadcrumbs />
+
                 <div className='flex items-center justify-between mb-5'>
                     <div className='flex items-center gap-6 '>
-                        {/* how many */}
+                        <h1 className='text-3xl font-medium'>
+                            {selectedCategory.name}
+                        </h1>
+
+                        <span>
+                            {matchingTrucks.length}
+                            <span className='ml-1'>
+                                {matchingTrucks.length === 1
+                                    ? t(
+                                          "header.megaMenu.categories.products.product",
+                                      )
+                                    : matchingTrucks.length >= 2 &&
+                                        matchingTrucks.length <= 4
+                                      ? t(
+                                            "header.megaMenu.categories.products.producta",
+                                        )
+                                      : t(
+                                            "header.megaMenu.categories.products.products",
+                                        )}
+                            </span>
+                        </span>
                     </div>
 
                     <div className='flex items-centers gap-40'>
-                        {/* <p>Сортировка: По бренду</p> */}
+                        <SortDown />
 
-                        <div className='flex gap-4 items-center'>
-                            <span className='hover:text-black text-[#A2A2A2] transform duration-300'>
-                                <IconLine />
-                            </span>
-                            <span>
-                                <IconTable className='hover:text-black text-[#A2A2A2] transform duration-300' />
-                            </span>
+                        <div className='flex gap-1 items-center'>
+                            <div
+                                onClick={handleLine}
+                                className={`p-2 rounded-full ${isLine ? "bg-[#fec400]" : ""}`}
+                            >
+                                <span
+                                    className={`hover:text-black text-[#A2A2A2] transform duration-300 cursor-pointer ${isLine ? "text-black" : "text-[#A2A2A2]"}`}
+                                >
+                                    <IconLine />
+                                </span>
+                            </div>
+
+                            <div
+                                onClick={handleTable}
+                                className={`p-2 rounded-full ${isTable ? "bg-[#fec400]" : "bg-none"}`}
+                            >
+                                <span>
+                                    <IconTable
+                                        className={`hover:text-black text-[#A2A2A2] transform duration-300 cursor-pointer ${isTable ? "text-black" : ""}`}
+                                    />
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div className='grid grid-cols-[300px_1fr] gap-6'>
-                    <form className='bg-white py-5 px-6 overflow-y-auto border max-h-120'>
+                    <form className='bg-white py-5 px-6 overflow-y-auto max-h-120 sticky'>
                         <p className='mb-4 font-medium leading-[1.1]'>Марка</p>
-
                         <div className='relative'>
                             <input
                                 type='text'
@@ -70,11 +120,24 @@ const FilteredCatalog = () => {
                     </form>
 
                     {/*Trucks Part  */}
-                    <Trucks
-                        matchingTrucks={matchingTrucks}
-                        i18n={i18n}
-                        category={category}
-                    />
+                    <div className='flex flex-col gap-5'>
+                        <Trucks
+                            matchingTrucks={matchingTrucks}
+                            i18n={i18n}
+                            category={category}
+                            isLine={isLine}
+                            isTable={isTable}
+                        />
+
+                        <div>
+                            <div
+                                className='catalog__bottom-seo-text'
+                                dangerouslySetInnerHTML={{
+                                    __html: selectedCategory?.seoText || "",
+                                }}
+                            ></div>
+                        </div>
+                    </div>
                     {/*Trucks Part  */}
                 </div>
             </Container>

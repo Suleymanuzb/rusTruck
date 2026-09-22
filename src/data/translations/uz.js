@@ -27,6 +27,11 @@ const uz = {
                 title: "Kategoriyalar",
                 recommendedProducts: "Tavsiya etiladigan mahsulotlar",
 
+                products: {
+                    product: "tovar",
+                    products: "tovarlar",
+                },
+
                 types: [
                     {
                         id: 1,

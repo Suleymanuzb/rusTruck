@@ -1,5 +1,3 @@
-import { p } from "motion/react-client";
-
 const ru = {
     language: "ru",
 
@@ -29,11 +27,229 @@ const ru = {
                 title: "Категории",
                 recommendedProducts: "Рекомендуемая продукция",
 
+                products: {
+                    product: "товар",
+                    producta: "товарa",
+                    products: "товаров",
+                },
+
                 types: [
                     {
                         id: 1,
                         name: "Шторные автомобили",
                         slug: "шторные-автомобили",
+                        seoText: `
+    <div class="text-[18px] leading-[1.5]">
+
+        <p>
+            Шторный грузовик сочетает удобство загрузки и надежность на дороге.
+            Мощные двигатели и современная техника делают управление безопасным и комфортным.
+            Компания «РусТрак» предлагает шторные автомобили, готовые к любым задачам.
+            Надёжная конструкция и качественные материалы обеспечивают долгий срок службы машин.
+            Выбор подходящей машины поможет справиться с самыми разными задачами.
+            Каждая модель создаётся с учётом потребностей владельцев, сочетая практичность и долговечность.
+        </p>
+
+        <h2 class="text-[22px] mt-5 mb-3">
+            Ассортимент
+        </h2>
+
+        <p>
+            Мы предлагаем широкий ассортимент коммерческих автомобилей, отвечающих современным стандартам качества.
+            В нашем каталоге представлена шторная машина в различных исполнениях и марках,
+            что позволяет подобрать технику под любые задачи эксплуатации.
+        </p>
+
+        <p>Марки:</p>
+
+        <ul class="list-none pl-0">
+            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
+                ГАЗ
+            </li>
+
+            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
+                Валдай
+            </li>
+
+            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
+                КАМАЗ
+            </li>
+
+            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
+                Компас
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                JAC
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                МАЗ
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                FAW
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                FOTON
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                DAEWOO
+            </li>
+        </ul>
+
+        <p>
+            Размеры и тоннаж автомобилей зависят от выбранного шасси:
+            от компактных моделей грузоподъёмностью 3 тонны до мощных машин,
+            рассчитанных на перевозку до 30 тонн. Такой диапазон позволяет подобрать
+            оптимальное решение для любых логистических и коммерческих задач,
+            обеспечивая надёжность и долговечность техники.
+        </p>
+
+        <h2 class="text-[22px] mt-5 mb-3">
+            Особенности шторных автомобилей
+        </h2>
+
+        <ul class="list-none pl-0">
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Оцинкованные стойки на болтовых соединениях — при повреждении их можно быстро заменить без сложного ремонта,
+                что снижает затраты и сокращает простои.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Алюминиевые направляющие с резиновым уплотнителем — шторно бортовой автомобиль получает надёжную герметизацию,
+                защищающую груз от влаги и пыли при эксплуатации в любых условиях.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Профиль Hossen — усиленный конструктивный элемент, который повышает жёсткость и долговечность всей надстройки.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Откидные борта на 180° — позволяют легко загружать и разгружать груз с любой стороны, экономя время на маршруте.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Сдвижная штора в обе стороны — гибкость эксплуатации: доступ к грузу возможен с любой стороны платформы.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Алюминиевая передняя стенка — лёгкая и прочная, она снижает общий вес конструкции и повышает устойчивость к коррозии.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Сдвижная крыша — обеспечивает удобный доступ сверху, что особенно важно при погрузке негабаритных грузов в шторно бортовой фургон.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Тент крыши с крестообразным усилителем — выдерживает дополнительные нагрузки и сохраняет форму даже при длительной эксплуатации.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Двунаправленное усиление бокового тента — повышает надёжность при перевозке тяжёлых и хрупких грузов.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Скрытые петли крепления груза — безопасная фиксация без выступающих элементов, что делает платформу аккуратной и удобной.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Складная лестница — быстрый и безопасный доступ к кузову без дополнительных приспособлений.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Три варианта крепления надстройки к подрамнику — шторный фургон адаптируется к разным условиям монтажа,
+                обеспечивая универсальность для различных задач и типов шасси.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Сдвижные центральные стойки — позволяют оптимально использовать пространство и упрощают работу с крупногабаритными грузами.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Алюминиевые ворота со скрытой запорной арматурой — надёжная защита груза и эстетичный внешний вид без лишних деталей.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Противозаливной козырёк — дополнительная защита от осадков и грязи, повышающая сохранность перевозимого груза.
+            </li>
+
+        </ul>
+
+        <h2 class="text-[22px] mt-5 mb-3">
+            Сферы применения
+        </h2>
+
+        <p>
+            Шторный грузовик от компании «РусТрак» находят широкое применение
+            в строительных компаниях, логистических и транспортных организациях,
+            обеспечивая безопасную и удобную доставку материалов. Они используются
+            для коммерческой доставки товаров, в торговых и оптовых компаниях,
+            а также при перевозке негабаритных и тяжёлых грузов.
+            Надёжная конструкция и качественная защита груза делают их удобными
+            для длительных маршрутов и работы в любых погодных условиях,
+            обеспечивая эффективность перевозок и сохранность имущества.
+        </p>
+
+        <h2 class="text-[22px] mt-5 mb-3">
+            Преимущества работы с компанией «РусТрак»
+        </h2>
+
+        <ul class="list-none pl-0">
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Большой выбор техники<br>
+                У нас представлены шторные и другие коммерческие автомобили различных марок и типов,
+                что позволяет подобрать технику под любые задачи.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Профессиональная поддержка<br>
+                Наши специалисты помогают подобрать технику с учётом задач клиента и особенностей бизнеса.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Сертификация и контроль качества<br>
+                Все грузовики проходят строгую проверку и сертифицированы, что гарантирует безопасность эксплуатации.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Гарантийное и послегарантийное обслуживание<br>
+                Компания обеспечивает поддержку после покупки, включая техническое обслуживание и консультации.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Удобство покупки<br>
+                Предоставляются прозрачные условия приобретения, различные формы оплаты и индивидуальные предложения для клиентов.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Опыт и репутация<br>
+                «РусТрак» имеет многолетний опыт работы на рынке коммерческих автомобилей,
+                что подтверждает высокий профессионализм и доверие клиентов.
+            </li>
+
+        </ul>
+
+        <h2 class="text-[22px] mt-5 mb-3">
+            Техника, созданная для надежности и комфорта
+        </h2>
+
+        <p>
+            Купить шторный грузовик — выгодное решение, позволяющее оптимизировать логистику
+            и сократить затраты на эксплуатацию. Выбирая технику, которая соответствует
+            вашим требованиям и стандартам качества, вы получаете надёжный автомобиль,
+            полностью готовый к эксплуатации. Компания «РусТрак» поможет подобрать модель,
+            идеально подходящую для ваших нужд. Ознакомьтесь с характеристиками и возможностями
+            каждой машины. Сделайте выбор в пользу надёжности, комфорта и долговечности вашей техники.
+            Для оформления заказа свяжитесь с нами любым удобным способом и получите консультацию специалистов.
+        </p>
+
+    </div>
+                                `,
                     },
                     {
                         id: 2,
@@ -172,6 +388,27 @@ const ru = {
                     },
                 ],
             },
+        },
+    },
+
+    filteredPage: {
+        intro: {
+            sortText: "Сортировка:",
+
+            sortDown: [
+                "По популярности",
+                "Сначала новые",
+                "В наличии",
+                "По возрастанию цены",
+                "По бренду",
+            ],
+        },
+
+        trucksInLine: {
+            brand: "Марка",
+            capacityOfTruck: "Габариты ТС",
+            capacityNumber: Math.floor(Math.random() * 1000000),
+            capacityOfLoad: "Грузоподъёмность, кг",
         },
     },
 

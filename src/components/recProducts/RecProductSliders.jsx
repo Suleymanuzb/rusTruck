@@ -162,7 +162,7 @@ const RecProductSliders = forwardRef((props, ref) => {
             </Swiper>
 
             {isOpen && (
-                <div className='border modal fixed z-10 w-80 md:min-w-120 bg-white top-[55%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-lg px-6 pt-8 pb-6'>
+                <div className=' modal fixed z-10 w-80 md:min-w-120 bg-white top-[55%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-lg px-6 pt-8 pb-6'>
                     <div
                         onClick={handleCloseModal}
                         className='absolute top-1 right-1'

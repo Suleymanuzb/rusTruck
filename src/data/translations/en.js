@@ -27,6 +27,11 @@ const en = {
                 title: "Categories",
                 recommendedProducts: "Recommended products",
 
+                products: {
+                    product: "product",
+                    products: "products",
+                },
+
                 types: [
                     {
                         id: 1,

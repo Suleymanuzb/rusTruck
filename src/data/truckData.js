@@ -272,6 +272,7 @@ const trucks = [
         id: 1,
         slug: "kran-manipulyator-sollers-tr80-47-s-kmu-hktc-3014-model-4389a8",
         categoryId: 2,
+        brand: "SOLLERS",
 
         images: {
             image: mainTruckImage1,
@@ -916,6 +917,7 @@ const trucks = [
         id: 2,
         slug: "toplivozapravshchik-sadko-9-s41a13-s-atz-4-5-m3-dvukhsektsionnaya",
         categoryId: 3,
+        brand: "ГАЗ",
 
         images: {
             image: mainTruckImage15,
@@ -1966,12 +1968,11 @@ const trucks = [
     {
         available: true,
         recommended: false,
-
         id: 3,
+        categoryId: 11,
+        brand: "КАМАЗ",
 
         slug: "shtornyy-gruzovik-kamaz-4308-dopog-ekhii-model-4388n2-10",
-
-        categoryId: 11,
 
         images: {
             image: mainTruckImage3,
@@ -2477,6 +2478,7 @@ const trucks = [
         id: 4,
         slug: "kran-manipulyator-kamaz-43118-s-kmu-inman-it-200",
         categoryId: 2,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage4,
@@ -3029,6 +3031,7 @@ const trucks = [
         id: 5,
         slug: "avtotoplivozapravshchik-na-shassi-gaz-c41r13-model-4389jy",
         categoryId: 3,
+        brand: "ГАЗ",
 
         images: {
             image: mainTruckImage2,
@@ -4245,6 +4248,7 @@ const trucks = [
         id: 6,
         slug: "shtornyy-gruzovik-kamaz-kompas-43082-model-5389r1",
         categoryId: 1,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage6,
@@ -4680,6 +4684,7 @@ const trucks = [
         id: 7,
         slug: "kran-manipulyator-maz-6312s5-8535-012-s-kmu-inman-it-150-model-4389n8",
         categoryId: 2,
+        brand: "МАЗ",
 
         images: {
             image: mainTruckImage7,
@@ -5256,6 +5261,7 @@ const trucks = [
         id: 8,
         slug: "kran-manipulyator-maz-631228-s-kmu-palfinger-spk-23500",
         categoryId: 2,
+        brand: "МАЗ",
 
         images: {
             image: mainTruckImage8,
@@ -5808,6 +5814,7 @@ const trucks = [
         id: 9,
         slug: "kran-manipulyator-maz-631228-s-kmu-inman-it-150",
         categoryId: 2,
+        brand: "МАЗ",
 
         images: {
             image: mainTruckImage9,
@@ -6375,6 +6382,7 @@ const trucks = [
         id: 10,
         slug: "kran-manipulyator-kamaz-43118-c-kmu-inman-im150n-model-4388s2-10",
         categoryId: 2,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage10,
@@ -6938,11 +6946,12 @@ const trucks = [
 
     // shtorniye
     {
-        available: true,
+        available: false,
         recommended: false,
         id: 11,
         slug: "shtornyy-gruzovik-maz-438121-model-5389d5",
         categoryId: 1,
+        brand: "МАЗ",
 
         images: {
             image: mainTruckImage11,
@@ -6966,9 +6975,10 @@ const trucks = [
             category: "Шторные автомобили",
 
             buttons: {
+                addToCart: "В корзину",
                 more: "Подробнее",
-                getPk: "Получить КП",
-                addToCart: "Добавить в корзину",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне нужен такой же",
             },
 
             specifications: {
@@ -7099,9 +7109,10 @@ const trucks = [
             category: "Curtain-Sided Trucks",
 
             buttons: {
-                more: "More details",
-                getPk: "Get a quotation",
                 addToCart: "Add to cart",
+                more: "Details",
+                getPk: "Get a quote",
+                iNeedThis: "I need one like this",
             },
 
             specifications: {
@@ -7232,9 +7243,10 @@ const trucks = [
             category: "Tentli yuk avtomobillari",
 
             buttons: {
-                more: "Batafsil",
-                getPk: "Tijorat taklifini olish",
                 addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                getPk: "Narxni olish",
+                iNeedThis: "Menga shunday kerak",
             },
 
             specifications: {
@@ -7363,6 +7375,7 @@ const trucks = [
         id: 12,
         slug: "shtornyy-gruzovik-maz-631228-524-010-model-4389m2",
         categoryId: 1,
+        brand: "МАЗ",
 
         images: {
             image: mainTruckImage12,
@@ -7792,6 +7805,7 @@ const trucks = [
         id: 13,
         slug: "shtornyy-gruzovik-kamaz-4308",
         categoryId: 1,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage13,
@@ -8215,6 +8229,7 @@ const trucks = [
         id: 14,
         slug: "shtornyy-gruzovik-kamaz-65657",
         categoryId: 1,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage14,
@@ -8641,6 +8656,7 @@ const trucks = [
         id: 15,
         slug: "avtotoplivozapravshchik-jac-n90-atz-6-0-dvukhsektsionnaya",
         categoryId: 3,
+        brand: "JAC",
 
         images: {
             image: mainTruckImage5,
@@ -9646,6 +9662,7 @@ const trucks = [
         id: 16,
         slug: "toplivozapravshchik-valday-18-fb6r31-10000-litrov-dvukhsektsionnaya",
         categoryId: 3,
+        brand: "Валдай",
 
         images: {
             image: mainTruckImage16,
@@ -10791,6 +10808,7 @@ const trucks = [
         id: 17,
         slug: "avtotoplivozapravshchik-valday-12-atz-6",
         categoryId: 3,
+        brand: "Валдай",
 
         images: {
             image: mainTruckImage17,
@@ -11983,6 +12001,7 @@ const trucks = [
         id: 18,
         slug: "toplivozapravshchik-valday-12-atz-8",
         categoryId: 3,
+        brand: "Валдай",
 
         images: {
             image: mainTruckImage18,
@@ -13069,6 +13088,7 @@ const trucks = [
         id: 19,
         slug: "avtogidropodyemnik-palfinger-p-180t-na-shassi-gaz-c41r33",
         categoryId: 4,
+        brand: "ГАЗ",
 
         images: {
             image: mainTruckImage19,
@@ -13446,6 +13466,7 @@ const trucks = [
         id: 20,
         slug: "avtogidropodyemniki-palfinger-p-240a-na-shassi-hd-78",
         categoryId: 4,
+        brand: "Hyundai",
 
         images: {
             image: mainTruckImage20,
@@ -13604,6 +13625,7 @@ const trucks = [
         id: 21,
         slug: "avtogidropodyemnik-palfinger-p-200a-na-shassi-isuzu-nmr-85h",
         categoryId: 4,
+        brand: "ISUZU",
 
         images: {
             image: mainTruckImage21,
@@ -13788,6 +13810,7 @@ const trucks = [
         id: 22,
         slug: "avtogidropodyemnik-hansin-hs-320a-na-baze-shassi-fuso-canter",
         categoryId: 4,
+        brand: "FUSO",
 
         images: {
             image: mainTruckImage22,
@@ -13972,6 +13995,7 @@ const trucks = [
         id: 23,
         slug: "pishchevaya-tsisterna-kamaz-43089",
         categoryId: 5,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage23,
@@ -14512,6 +14536,7 @@ const trucks = [
         id: 24,
         slug: "gazon-next-s-pishchevoy-tsisternoy-4-2-kuba",
         categoryId: 5,
+        brand: "ГАЗ",
 
         images: {
             image: mainTruckImage24,
@@ -14994,6 +15019,7 @@ const trucks = [
         id: 25,
         slug: "pishchevaya-tsisterna-jac-n90",
         categoryId: 5,
+        brand: "JAC",
 
         images: {
             image: mainTruckImage25,
@@ -15525,6 +15551,7 @@ const trucks = [
         id: 26,
         slug: "vakuumnaya-avtotsisterna-na-shassi-jac-n90",
         categoryId: 5,
+        brand: "JAC",
 
         images: {
             image: mainTruckImage26,
@@ -15941,6 +15968,7 @@ const trucks = [
         id: 27,
         slug: "vakuumnoe-oborudovanie-ko-522-na-shassi-jac-n-90",
         categoryId: 5,
+        brand: "JAC",
 
         images: {
             image: mainTruckImage27,
@@ -16337,6 +16365,7 @@ const trucks = [
         id: 28,
         slug: "pishchevaya-tsisterna-isuzu-npr-75-lk",
         categoryId: 5,
+        brand: "ISUZU",
 
         images: {
             image: mainTruckImage28,
@@ -16814,6 +16843,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 29,
         slug: "vakuumnoe-oborudovanie-ko-522-na-shassi-hyundai-mighty-ex8",
         categoryId: 5,
+        brand: "Hyundai",
 
         images: {
             image: mainTruckImage29,
@@ -17156,6 +17186,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 30,
         slug: "evakuator-na-shassi-kamaz-4308-s-kmu-palfinger-rk-13500t",
         categoryId: 6,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage30,
@@ -17647,6 +17678,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 31,
         slug: "evakuator-na-shassi-isuzu-fsr-34ul-ncun-s-kmu-palfinger-rk-13500t",
         categoryId: 6,
+        brand: "ISUZU",
 
         images: {
             image: mainTruckImage31,
@@ -18057,6 +18089,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 32,
         slug: "izotermicheskiy-furgon-kamaz-43089",
         categoryId: 7,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage32,
@@ -18566,6 +18599,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 33,
         slug: "izotermicheskiy-furgon-kamaz-43082",
         categoryId: 7,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage33,
@@ -19050,6 +19084,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 34,
         slug: "izotermicheskiy-furgon-shacman-x3000",
         categoryId: 7,
+        brand: "SHACMAN",
 
         images: {
             image: mainTruckImage34,
@@ -19527,6 +19562,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 35,
         slug: "izotermicheskiy-furgon-jac-35",
         categoryId: 7,
+        brand: "JAC",
 
         images: {
             image: mainTruckImage35,
@@ -19972,6 +20008,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 36,
         slug: "izotermicheskiy-furgon-jac-n90",
         categoryId: 7,
+        brand: "JAC",
 
         images: {
             image: mainTruckImage36,
@@ -20356,6 +20393,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 37,
         slug: "izotermicheskiy-furgon-jac-n90",
         categoryId: 7,
+        brand: "JAC",
 
         images: {
             image: mainTruckImage37,
@@ -20771,6 +20809,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 38,
         slug: "konteynerovoz-na-shassi-kamaz-65115",
         categoryId: 8,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage38,
@@ -21147,6 +21186,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 39,
         slug: "konteynerovoz-na-shassi-gaz-s41r33",
         categoryId: 8,
+        brand: "ГАЗ",
 
         images: {
             image: mainTruckImage39,
@@ -21499,6 +21539,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 40,
         slug: "kryukovoy-pogruzchik-palfinger-ph-t20pi-na-shassi-isuzu-giga-q",
         categoryId: 9,
+        brand: "ISUZU",
 
         images: {
             image: mainTruckImage40,
@@ -21745,6 +21786,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 41,
         slug: "kryukovoy-pogruzchik-palfinger-ph-t05-l3900-sld-na-shassi-isuzu-npr75l-k",
         categoryId: 9,
+        brand: "ISUZU",
 
         images: {
             image: mainTruckImage41,
@@ -21958,6 +22000,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 42,
         slug: "kryukovoy-pogruzchik-palfinger-ph-t05-l3900-sld-na-shassi-hyundai-qt-ex8",
         categoryId: 9,
+        brand: "Hyundai",
 
         images: {
             image: mainTruckImage42,
@@ -22173,6 +22216,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 43,
         slug: "samosval-na-shassi-kompas-9",
         categoryId: 10,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage43,
@@ -22669,6 +22713,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 44,
         slug: "samosval-zernovoz-na-shassi-kamaz-6520-3072-53-model-4388g6",
         categoryId: 10,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage44,
@@ -23343,6 +23388,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 45,
         slug: "samosval-na-shassi-jac-n90n-model-538914-vysokiy-bort",
         categoryId: 10,
+        brand: "JAC",
 
         images: {
             image: mainTruckImage45,
@@ -23962,6 +24008,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 46,
         slug: "samosval-na-shassi-jac-n120s-model-538924-vysokiy-bort",
         categoryId: 10,
+        brand: "JAC",
 
         images: {
             image: mainTruckImage46,
@@ -24581,6 +24628,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 47,
         slug: "samosval-na-shassi-jac-n120s-model-538924-bort-h-750-mm",
         categoryId: 10,
+        brand: "JAC",
 
         images: {
             image: mainTruckImage47,
@@ -25254,6 +25302,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 48,
         slug: "samosval-na-shassi-jac-n90n-model-538914-bort-h-750-mm",
         categoryId: 10,
+        brand: "JAC",
 
         images: {
             image: mainTruckImage48,
@@ -25924,6 +25973,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 49,
         slug: "samosval-na-shassi-isuzu-nqr90l-h-model-4389u4-4389uc-bort-h-1400-mm",
         categoryId: 10,
+        brand: "ISUZU",
 
         images: {
             image: mainTruckImage49,
@@ -26510,6 +26560,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 50,
         slug: "bortovoy-avtomobil-kamaz-4308-3083-69-dopog-ex-ii",
         categoryId: 11,
+        brand: "КАМАЗ",
 
         images: {
             image: mainTruckImage50,
@@ -27103,6 +27154,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 51,
         slug: "kran-manipulyator-jac-n200l-c-kmu-inman-im150n-dopog-ex-ii",
         categoryId: 11,
+        brand: "JAC",
 
         images: {
             image: mainTruckImage51,
@@ -27750,6 +27802,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 52,
         slug: "kran-manipulyator-daewoo-cl8cf-c-kmu-palfinger-pk-8500-dopog-ex-ii",
         categoryId: 11,
+        brand: "DAEWOO",
 
         images: {
             image: mainTruckImage52,
@@ -28402,6 +28455,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 53,
         slug: "dopog-tr80-47-s-kmu-hktc-3014",
         categoryId: 11,
+        brand: "SOLLERS",
 
         images: {
             image: "https://image.made-in-china.com/202f0j00ivDlRSudAqrB/XCMG-Official-Second-Hand-Sq16sk4q-16ton-Truck-Mounted-Crane-Used-with-Telescopic-Boom.webp",
@@ -28716,6 +28770,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 54,
         slug: "dopog-tr80-47-hktc-3014-pro",
         categoryId: 11,
+        brand: "SOLLERS",
 
         images: {
             image: "https://img.oemoffhighway.com/files/base/acbm/ooh/image/2016/11/IMG_2529.58332db7a9427.png?auto=format%2Ccompress&fit=max&q=70&rect=0%2C96%2C1920%2C1080&w=1200",
@@ -29027,6 +29082,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 55,
         slug: "dopog-43118-s-kmu-inman-it-150",
         categoryId: 11,
+        brand: "КАМАЗ",
 
         images: {
             image: "https://amttagristorage.blob.core.windows.net/blogimages/assets/chris_boyd_O2g8_H_Cg_DN_8o_unsplash_0d435d9cba.jpg",
@@ -29336,6 +29392,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
         id: 56,
         slug: "dopog-65115-s-ks-55713",
         categoryId: 11,
+        brand: "КАМАЗ",
 
         images: {
             image: "https://media.base44.com/images/public/6954ca678e2c3f407fbdd60d/19da4f0fe_ChatGPTImageJan25202607_50_50AM.jpg",
@@ -29642,13 +29699,13 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             ],
         },
     },
-
     {
         available: true,
         recommended: true,
         id: 57,
         slug: "dopog-65115-s-ks-55729-1k-3",
         categoryId: 11,
+        brand: "КАМАЗ",
 
         images: {
             image: "https://www.kamazik.ru/upload/iblock/983/9830d26a5fedfa06b8fc9e96a51833b9.jpg",
@@ -30009,1333 +30066,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             ],
         },
     },
-
-    /*
-    {
-        available: true,
-        recommended: false,
-        id: 53,
-        slug: "kran-manipulyator-sollers-tr80-47-s-kmu-hktc-3014",
-        categoryId: 11,
-
-        images: {
-            image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80",
-        },
-
-        gallery: [
-            {
-                image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80",
-            },
-            {
-                image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=80",
-            },
-            {
-                image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80",
-            },
-
-            {
-                image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80",
-            },
-        ],
-
-        ru: {
-            price: "Цена по запросу",
-
-            buttons: {
-                addToCart: "Добавить в корзину",
-                more: "Получить КП",
-                getPk: "Получить КП",
-                iNeedThis: "Мне нужно это",
-            },
-
-            truckType:
-                "Кран-манипулятор SOLLERS TR80-47 с КМУ HKTC 3014 (модель 4389A8)",
-            category: "Краны-манипуляторы",
-
-            specifications: {
-                truckInfo: [
-                    { title: "Базовое шасси", value: "SOLLERS TR80-47" },
-                    {
-                        title: "Двигатель",
-                        value: "Cummins D4.0EVID170, 163 л. с.",
-                    },
-                    { title: "КПП", value: "Механическая, 6-ти ступенчатая" },
-                    { title: "Колесная формула", value: "4x2" },
-                    { title: "Полная масса, кг", value: "7980" },
-                    { title: "Грузоподъёмность, кг", value: "1580" },
-                    { title: "Грузоподъёмность КМУ, тонн", value: "3,2" },
-                ],
-            },
-
-            charectiristicsTitle: "Характеристики",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "Кран-манипулятор SOLLERS TR80-47 с КМУ HKTC 3014",
-                    items: [
-                        {
-                            title: "Тип надстройки",
-                            value: "Бортовая платформа + КМУ HKTC 3014",
-                        },
-                        {
-                            title: "Двигатель: Модель",
-                            value: "Cummins D4.0EVID170",
-                        },
-                        { title: "Мощность двигателя", value: "163 л. с." },
-                        {
-                            title: "Коробка передач",
-                            value: "Механическая, 6-ступенчатая",
-                        },
-                    ],
-                },
-            ],
-        },
-
-        en: {
-            price: "Price upon request",
-
-            buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
-                iNeedThis: "I need one like this",
-            },
-
-            truckType:
-                "SOLLERS TR80-47 Crane-Manipulator Truck with HKTC 3014 CMU (Model 4389A8)",
-            category: "Crane-Manipulator Trucks",
-
-            specifications: {
-                truckInfo: [
-                    { title: "Base chassis", value: "SOLLERS TR80-47" },
-                    { title: "Engine", value: "Cummins D4.0EVID170, 163 hp" },
-                    { title: "Transmission", value: "Manual, 6-speed" },
-                    { title: "Wheel formula", value: "4x2" },
-                    { title: "Gross vehicle weight, kg", value: "7980" },
-                    { title: "Payload capacity, kg", value: "1580" },
-                    { title: "CMU lifting capacity, tons", value: "3.2" },
-                ],
-            },
-
-            charectiristicsTitle: "Specifications",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "SOLLERS TR80-47 Crane-Manipulator Truck with HKTC 3014 CMU",
-                    items: [
-                        {
-                            title: "Superstructure type",
-                            value: "Flatbed platform + HKTC 3014 CMU",
-                        },
-                        {
-                            title: "Engine: Model",
-                            value: "Cummins D4.0EVID170",
-                        },
-                        { title: "Engine power", value: "163 hp" },
-                        { title: "Transmission", value: "Manual, 6-speed" },
-                    ],
-                },
-            ],
-        },
-
-        uz: {
-            price: "Narxi so‘rov bo‘yicha",
-
-            buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
-                getPk: "Tijorat taklifini olish",
-                iNeedThis: "Menga shunday kerak",
-            },
-
-            truckType:
-                "SOLLERS TR80-47 kran-manipulyatori HKTC 3014 KMU bilan (4389A8 modeli)",
-            category: "Kran-manipulyatorlar",
-
-            specifications: {
-                truckInfo: [
-                    { title: "Bazaviy shassi", value: "SOLLERS TR80-47" },
-                    {
-                        title: "Dvigatel",
-                        value: "Cummins D4.0EVID170, 163 ot kuchi",
-                    },
-                    {
-                        title: "Uzatmalar qutisi",
-                        value: "Mexanik, 6 pog‘onali",
-                    },
-                    { title: "G‘ildirak formulasi", value: "4x2" },
-                    { title: "To‘liq massa, kg", value: "7980" },
-                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "1580" },
-                    {
-                        title: "KMU yuk ko‘tarish qobiliyati, tonna",
-                        value: "3.2",
-                    },
-                ],
-            },
-
-            charectiristicsTitle: "Xususiyatlari",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "SOLLERS TR80-47 kran-manipulyatori HKTC 3014 KMU bilan",
-                    items: [
-                        {
-                            title: "Ustqurma turi",
-                            value: "Bortli platforma + HKTC 3014 KMU",
-                        },
-                        {
-                            title: "Dvigatel: Model",
-                            value: "Cummins D4.0EVID170",
-                        },
-                        { title: "Dvigatel quvvati", value: "163 ot kuchi" },
-                        {
-                            title: "Uzatmalar qutisi",
-                            value: "Mexanik, 6 pog‘onali",
-                        },
-                    ],
-                },
-            ],
-        },
-    },
-
-    {
-        available: true,
-        recommended: false,
-        id: 54,
-        slug: "kran-manipulyator-sollers-tr80-47-s-kmu-hktc-3014",
-        categoryId: 11,
-
-        images: {
-            image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80",
-        },
-
-        gallery: [
-            {
-                image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80",
-            },
-            {
-                image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80",
-            },
-
-            {
-                image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=80",
-            },
-            {
-                image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80",
-            },
-        ],
-
-        ru: {
-            price: "Цена по запросу",
-
-            buttons: {
-                addToCart: "Добавить в корзину",
-                more: "Получить КП",
-                getPk: "Получить КП",
-                iNeedThis: "Мне нужно это",
-            },
-
-            truckType:
-                "Кран-манипулятор SOLLERS TR80-47 с КМУ HKTC 3014 (модель 4389A8)",
-            category: "Краны-манипуляторы",
-
-            description: {
-                title: "Описание",
-                text: "Кран-манипулятор на базе шасси SOLLERS TR80-47 представляет собой высокоэффективное универсальное транспортное средство, предназначенное для погрузочно-разгрузочных работ и транспортировки различных строительных, промышленных и габаритных грузов. Комплектуется надежной крано-манипуляторной установкой HKTC 3014, обеспечивающей точность позиционирования груза на вылете стрелы, а бортовая платформа позволяет безопасно перевозить материалы в городских и межрегиональных условиях.",
-            },
-
-            specifications: {
-                truckInfo: [
-                    { title: "Базовое шасси", value: "SOLLERS TR80-47" },
-                    {
-                        title: "Двигатель",
-                        value: "Cummins D4.0EVID170, 163 л. с.",
-                    },
-                    { title: "КПП", value: "Механическая, 6-ти ступенчатая" },
-                    { title: "Колесная формула", value: "4x2" },
-                    { title: "Полная масса, кг", value: "7980" },
-                    { title: "Грузоподъёмность, кг", value: "1580" },
-                    { title: "Грузоподъёмность КМУ, тонн", value: "3,2" },
-                    { title: "Вылет стрелы КМУ, м", value: "7,8" },
-                ],
-            },
-
-            charectiristicsTitle: "Характеристики",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "Кран-манипулятор SOLLERS TR80-47 с КМУ HKTC 3014",
-                    items: [
-                        {
-                            title: "Тип надстройки",
-                            value: "Бортовая платформа + КМУ HKTC 3014",
-                        },
-                        {
-                            title: "Двигатель: Модель",
-                            value: "Cummins D4.0EVID170 (дизельный)",
-                        },
-                        {
-                            title: "Мощность двигателя",
-                            value: "163 л. с. / 120 кВт",
-                        },
-                        {
-                            title: "Коробка передач",
-                            value: "Механическая, 6-ступенчатая",
-                        },
-                        {
-                            title: "Материал бортов",
-                            value: "Анодированный алюминиевый профиль",
-                        },
-                        {
-                            title: "Настил пола",
-                            value: "Влагостойкая ламинированная фанера с антискользящим покрытием",
-                        },
-                        {
-                            title: "Безопасность",
-                            value: "Защитные ограждения, задний противоподкатный брус, такелажные петли",
-                        },
-                    ],
-                },
-            ],
-        },
-
-        en: {
-            price: "Price upon request",
-
-            buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
-                iNeedThis: "I need one like this",
-            },
-
-            truckType:
-                "SOLLERS TR80-47 Crane-Manipulator Truck with HKTC 3014 CMU (Model 4389A8)",
-            category: "Crane-Manipulator Trucks",
-
-            description: {
-                title: "Description",
-                text: "The crane-manipulator truck based on the SOLLERS TR80-47 chassis is a highly efficient universal vehicle designed for loading, unloading, and transporting various construction, industrial, and oversized cargo. Equipped with a reliable HKTC 3014 crane-manipulator unit, it ensures precise cargo positioning at boom reach, while the flatbed platform allows safe transport in urban and regional environments.",
-            },
-
-            specifications: {
-                truckInfo: [
-                    { title: "Base chassis", value: "SOLLERS TR80-47" },
-                    { title: "Engine", value: "Cummins D4.0EVID170, 163 hp" },
-                    { title: "Transmission", value: "Manual, 6-speed" },
-                    { title: "Wheel formula", value: "4x2" },
-                    { title: "Gross vehicle weight, kg", value: "7980" },
-                    { title: "Payload capacity, kg", value: "1580" },
-                    { title: "CMU lifting capacity, tons", value: "3.2" },
-                    { title: "Boom reach, m", value: "7.8" },
-                ],
-            },
-
-            charectiristicsTitle: "Specifications",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "SOLLERS TR80-47 Crane-Manipulator Truck with HKTC 3014 CMU",
-                    items: [
-                        {
-                            title: "Superstructure type",
-                            value: "Flatbed platform + HKTC 3014 CMU",
-                        },
-                        {
-                            title: "Engine: Model",
-                            value: "Cummins D4.0EVID170 (diesel)",
-                        },
-                        { title: "Engine power", value: "163 hp / 120 kW" },
-                        { title: "Transmission", value: "Manual, 6-speed" },
-                        {
-                            title: "Side material",
-                            value: "Anodized aluminum profile",
-                        },
-                        {
-                            title: "Floor decking",
-                            value: "Moisture-resistant laminated plywood with anti-slip coating",
-                        },
-                        {
-                            title: "Safety features",
-                            value: "Protective guards, rear underrun protection, lashing loops",
-                        },
-                    ],
-                },
-            ],
-        },
-
-        uz: {
-            price: "Narxi so‘rov bo‘yicha",
-
-            buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
-                getPk: "Tijorat taklifini olish",
-                iNeedThis: "Menga shunday kerak",
-            },
-
-            truckType:
-                "SOLLERS TR80-47 kran-manipulyatori HKTC 3014 KMU bilan (4389A8 modeli)",
-            category: "Kran-manipulyatorlar",
-
-            description: {
-                title: "Tavsif",
-                text: "SOLLERS TR80-47 shassisi bazasidagi kran-manipulyator turli xil qurilish, sanoat va gabarit yuklarni ortish-tushirish va tashish uchun mo'ljallangan yuqori samarali universal transport vositasidir. Ishonchli HKTC 3014 kran-manipulyator qurilmasi bilan jihozlangan bo'lib, strelka chiqishida yukni aniq joylashtirishni ta'minlaydi, bortli platforma esa shahar va huduslararo sharoitlarda materiallarni xavfsiz tashish imkonini beradi.",
-            },
-
-            specifications: {
-                truckInfo: [
-                    { title: "Bazaviy shassi", value: "SOLLERS TR80-47" },
-                    {
-                        title: "Dvigatel",
-                        value: "Cummins D4.0EVID170, 163 ot kuchi",
-                    },
-                    {
-                        title: "Uzatmalar qutisi",
-                        value: "Mexanik, 6 pog‘onali",
-                    },
-                    { title: "G‘ildirak formulasi", value: "4x2" },
-                    { title: "To‘liq massa, kg", value: "7980" },
-                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "1580" },
-                    {
-                        title: "KMU yuk ko‘tarish qobiliyati, tonna",
-                        value: "3.2",
-                    },
-                    { title: "Strelka chiqishi, m", value: "7.8" },
-                ],
-            },
-
-            charectiristicsTitle: "Xususiyatlari",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "SOLLERS TR80-47 kran-manipulyatori HKTC 3014 KMU bilan",
-                    items: [
-                        {
-                            title: "Ustqurma turi",
-                            value: "Bortli platforma + HKTC 3014 KMU",
-                        },
-                        {
-                            title: "Dvigatel: Model",
-                            value: "Cummins D4.0EVID170 (dizel)",
-                        },
-                        {
-                            title: "Dvigatel quvvati",
-                            value: "163 ot kuchi / 120 kVt",
-                        },
-                        {
-                            title: "Uzatmalar qutisi",
-                            value: "Mexanik, 6 pog‘onali",
-                        },
-                        {
-                            title: "Bortlar materiali",
-                            value: "Anodlangan alyuminiy profil",
-                        },
-                        {
-                            title: "Pol qoplamasi",
-                            value: "Sirpanmaydigan qoplamali namlikka chidamli laminatlangan fanera",
-                        },
-                        {
-                            title: "Xavfsizlik",
-                            value: "Himoya to'siqlari, orqa himoya brusi, yuk mahkamlash halqalari",
-                        },
-                    ],
-                },
-            ],
-        },
-    },
-    {
-        available: true,
-        recommended: true,
-        id: 55,
-        slug: "kran-manipulyator-kamaz-43118-s-kmu-inman-it-150",
-        categoryId: 11,
-
-        images: {
-            image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=80",
-        },
-        gallery: [
-            {
-                image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1200&q=80",
-            },
-            {
-                image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80",
-            },
-            {
-                image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=80",
-            },
-        ],
-        ru: {
-            price: "12 500 000 руб.",
-
-            buttons: {
-                addToCart: "Добавить в корзину",
-                more: "Получить КП",
-                getPk: "Получить КП",
-                iNeedThis: "Мне нужно это",
-            },
-
-            truckType:
-                "Кран-манипулятор КАМАЗ 43118 с КМУ INMAN IT 150 (модель 43118-30)",
-            category: "Краны-манипуляторы",
-
-            description: {
-                title: "Описание",
-                text: "Полноприводный кран-манипулятор на шасси КАМАЗ 43118 (колесная формула 6х6) с тросовой КМУ INMAN IT 150 предназначен для выполнения тяжелых погрузочно-разгрузочных и строительно-монтажных работ в условиях бездорожья и труднодоступной местности. Высокая проходимость шасси и надежная гидроманипуляторная установка делают его незаменимым помощником в нефтегазовой, строительной и энергетической отраслях.",
-            },
-
-            specifications: {
-                truckInfo: [
-                    { title: "Базовое шасси", value: "КАМАЗ 43118" },
-                    {
-                        title: "Двигатель",
-                        value: "КАМАЗ 740.705-300 (Евро-5), 300 л. с.",
-                    },
-                    { title: "КПП", value: "Механическая, 9-ти ступенчатая" },
-                    { title: "Колесная формула", value: "6x6" },
-                    { title: "Полная масса, кг", value: "21600" },
-                    { title: "Грузоподъёмность, кг", value: "10500" },
-                    { title: "Грузоподъёмность КМУ, тонн", value: "6,0" },
-                    { title: "Вылет стрелы КМУ, м", value: "19,0" },
-                ],
-            },
-
-            charectiristicsTitle: "Характеристики",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "Кран-манипулятор КАМАЗ 43118 с КМУ INMAN IT 150",
-                    items: [
-                        {
-                            title: "Тип надстройки",
-                            value: "Бортовая платформа повышенной вместимости + тросовый КМУ INMAN IT 150",
-                        },
-                        {
-                            title: "Двигатель: Модель",
-                            value: "КАМАЗ 740.705-300, дизельный с турбонаддувом",
-                        },
-                        {
-                            title: "Мощность двигателя",
-                            value: "300 л. с. / 220 кВт",
-                        },
-                        {
-                            title: "Коробка передач",
-                            value: "ZF 9S1310, механическая, 9-ступенчатая",
-                        },
-                        {
-                            title: "Материал бортов",
-                            value: "Стальной профилированный лист с антикоррозийным покрытием",
-                        },
-                        {
-                            title: "Настил пола",
-                            value: "Усиленная влагостойкая фанера с противоскользящим слоем",
-                        },
-                        {
-                            title: "Проходимость",
-                            value: "Постоянный полный привод 6х6, межколесные и межосевые блокировки",
-                        },
-                    ],
-                },
-            ],
-        },
-
-        en: {
-            price: "12,500,000 RUB",
-
-            buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
-                iNeedThis: "I need one like this",
-            },
-
-            truckType:
-                "KAMAZ 43118 Crane-Manipulator Truck with INMAN IT 150 CMU (Model 43118-30)",
-            category: "Crane-Manipulator Trucks",
-
-            description: {
-                title: "Description",
-                text: "The all-wheel-drive crane-manipulator truck based on the KAMAZ 43118 chassis (6x6 wheel formula) with an INMAN IT 150 cable CMU is designed for heavy loading, unloading, and construction-installation works in off-road and harsh terrain conditions. High chassis cross-country capability and a reliable hydraulic manipulator unit make it an essential asset in the oil and gas, construction, and energy sectors.",
-            },
-
-            specifications: {
-                truckInfo: [
-                    { title: "Base chassis", value: "KAMAZ 43118" },
-                    {
-                        title: "Engine",
-                        value: "KAMAZ 740.705-300 (Euro-5), 300 hp",
-                    },
-                    { title: "Transmission", value: "Manual, 9-speed" },
-                    { title: "Wheel formula", value: "6x6" },
-                    { title: "Gross vehicle weight, kg", value: "21600" },
-                    { title: "Payload capacity, kg", value: "10500" },
-                    { title: "CMU lifting capacity, tons", value: "6.0" },
-                    { title: "Boom reach, m", value: "19.0" },
-                ],
-            },
-
-            charectiristicsTitle: "Specifications",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "KAMAZ 43118 Crane-Manipulator Truck with INMAN IT 150 CMU",
-                    items: [
-                        {
-                            title: "Superstructure type",
-                            value: "High-capacity flatbed platform + INMAN IT 150 cable CMU",
-                        },
-                        {
-                            title: "Engine: Model",
-                            value: "KAMAZ 740.705-300, turbocharged diesel",
-                        },
-                        { title: "Engine power", value: "300 hp / 220 kW" },
-                        {
-                            title: "Transmission",
-                            value: "ZF 9S1310, manual, 9-speed",
-                        },
-                        {
-                            title: "Side material",
-                            value: "Profiled steel sheet with anti-corrosion coating",
-                        },
-                        {
-                            title: "Floor decking",
-                            value: "Reinforced moisture-resistant plywood with anti-slip layer",
-                        },
-                        {
-                            title: "Off-road capability",
-                            value: "Permanent 6x6 all-wheel drive, inter-wheel and inter-axle locks",
-                        },
-                    ],
-                },
-            ],
-        },
-
-        uz: {
-            price: "12 500 000 rub.",
-
-            buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
-                getPk: "Tijorat taklifini olish",
-                iNeedThis: "Menga shunday kerak",
-            },
-
-            truckType:
-                "KAMAZ 43118 kran-manipulyatori INMAN IT 150 KMU bilan (43118-30 modeli)",
-            category: "Kran-manipulyatorlar",
-
-            description: {
-                title: "Tavsif",
-                text: "INMAN IT 150 trosli KMUga ega KAMAZ 43118 shassisi (6x6 g'ildirak formulasi) bazasidagi to'liq privodli kran-manipulyator yo'lsizlik va qiyin sharoitlarda og'ir ortish-tushirish va qurilish-montaj ishlarini bajarish uchun mo'ljallangan. Shassining yuqori o'tkazuvchanligi va ishonchli gidravlik manipulyator uni neft-gaz, qurilish va energetika sohalarida ajralmas yordamchiga aylantiradi.",
-            },
-
-            specifications: {
-                truckInfo: [
-                    { title: "Bazaviy shassi", value: "KAMAZ 43118" },
-                    {
-                        title: "Dvigatel",
-                        value: "KAMAZ 740.705-300 (Yevro-5), 300 ot kuchi",
-                    },
-                    {
-                        title: "Uzatmalar qutisi",
-                        value: "Mexanik, 9 pog‘onali",
-                    },
-                    { title: "G‘ildirak formulasi", value: "6x6" },
-                    { title: "To‘liq massa, kg", value: "21600" },
-                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "10500" },
-                    {
-                        title: "KMU yuk ko‘tarish qobiliyati, tonna",
-                        value: "6.0",
-                    },
-                    { title: "Strelka chiqishi, m", value: "19.0" },
-                ],
-            },
-
-            charectiristicsTitle: "Xususiyatlari",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "KAMAZ 43118 kran-manipulyatori INMAN IT 150 KMU bilan",
-                    items: [
-                        {
-                            title: "Ustqurma turi",
-                            value: "Kengaytirilgan bortli platforma + INMAN IT 150 trosli KMU",
-                        },
-                        {
-                            title: "Dvigatel: Model",
-                            value: "KAMAZ 740.705-300, turبوdizel",
-                        },
-                        {
-                            title: "Dvigatel quvvati",
-                            value: "300 ot kuchi / 220 kVt",
-                        },
-                        {
-                            title: "Uzatmalar qutisi",
-                            value: "ZF 9S1310, mexanik, 9 pog‘onali",
-                        },
-                        {
-                            title: "Bortlar materiali",
-                            value: "Korroziyaga qarshi qoplamali profilli po'lat list",
-                        },
-                        {
-                            title: "Pol qoplamasi",
-                            value: "Sirpanmaydigan qatlamli kuchaytirilgan namlikka chidamli fanera",
-                        },
-                        {
-                            title: "O'tkazuvchanlik",
-                            value: "Doimiy 6x6 to'liq privod, g'ildiraklararo va o'qlararo blokirovkalar",
-                        },
-                    ],
-                },
-            ],
-        },
-    },
-    {
-        available: true,
-        recommended: false,
-        id: 56,
-        slug: "avtokranshchik-kamaz-65115-s-kranom-ks-55713",
-
-        categoryId: 11,
-
-        images: {
-            image: "https://www.k2com.ru/upload/iblock/3cf/0n61tv2cxprrjz0i9sc829oc3ox4kwh1.jpeg",
-        },
-
-        gallery: [
-            {
-                image: "https://kamaz.avtofurgon.ru/upload/iblock/021/6fsjq15fukj0sejffvl4u0y16cjjom5o.webp",
-            },
-            {
-                image: "https://kamaz.avtofurgon.ru/upload/resize_cache/iblock/7b3/1200_900_0/m8ub1u7qijdciqrixex8ms81z5a8mtg7.webp",
-            },
-            {
-                image: "https://www.al63.ru/goods/296839866-avtokran_25_t_klintsy_x_55713_1k_4v_na_shassi_kamaz_65115_6_kh_4",
-            },
-        ],
-
-        ru: {
-            price: "18 900 000 руб.",
-
-            buttons: {
-                addToCart: "Добавить в корзину",
-                more: "Получить КП",
-                getPk: "Получить КП",
-                iNeedThis: "Мне нужно это",
-            },
-
-            truckType: "Автокран КАМАЗ 65115 с крановой установкой КС-55713",
-            category: "Краны-манипуляторы",
-
-            description: {
-                title: "Описание",
-                text: "Автокран на шасси КАМАЗ 65115 с крановой установкой КС-55713 предназначен для выполнения погрузочно-разгрузочных, строительных и монтажных работ на промышленных и строительных объектах. Усиленное шасси, надежная силовая установка и телескопическая стрела обеспечивают высокую производительность при работе с тяжелыми грузами.",
-            },
-
-            specifications: {
-                truckInfo: [
-                    { title: "Базовое шасси", value: "КАМАЗ 65115" },
-                    {
-                        title: "Двигатель",
-                        value: "КАМАЗ 740.62-280, дизельный, 280 л. с.",
-                    },
-                    {
-                        title: "КПП",
-                        value: "Механическая, 9-ти ступенчатая",
-                    },
-                    { title: "Колесная формула", value: "6x4" },
-                    { title: "Полная масса, кг", value: "25200" },
-                    { title: "Грузоподъёмность, кг", value: "15000" },
-                    {
-                        title: "Грузоподъёмность крана, тонн",
-                        value: "16,0",
-                    },
-                    {
-                        title: "Длина стрелы, м",
-                        value: "21,7",
-                    },
-                ],
-            },
-
-            charectiristicsTitle: "Характеристики",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "Автокран КАМАЗ 65115 с крановой установкой КС-55713",
-
-                    items: [
-                        {
-                            title: "Тип надстройки",
-                            value: "Автокрановая установка КС-55713 на шасси КАМАЗ 65115",
-                        },
-                        {
-                            title: "Двигатель: Модель",
-                            value: "КАМАЗ 740.62-280, дизельный с турбонаддувом",
-                        },
-                        {
-                            title: "Мощность двигателя",
-                            value: "280 л. с. / 206 кВт",
-                        },
-                        {
-                            title: "Коробка передач",
-                            value: "ZF 9S1310, механическая, 9-ступенчатая",
-                        },
-                        {
-                            title: "Грузовой момент",
-                            value: "48 тм",
-                        },
-                        {
-                            title: "Максимальный вылет стрелы",
-                            value: "19,7 м",
-                        },
-                        {
-                            title: "Опорный контур",
-                            value: "Передние и задние выносные опоры с гидравлическим приводом",
-                        },
-                        {
-                            title: "Проходимость",
-                            value: "Колесная формула 6х4, усиленное шасси для строительных площадок",
-                        },
-                    ],
-                },
-            ],
-        },
-
-        en: {
-            price: "18,900,000 RUB",
-
-            buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
-                iNeedThis: "I need one like this",
-            },
-
-            truckType: "KAMAZ 65115 Mobile Crane with KS-55713 Crane Unit",
-            category: "Crane-Manipulator Trucks",
-
-            description: {
-                title: "Description",
-                text: "The mobile crane based on the KAMAZ 65115 chassis and equipped with a KS-55713 crane unit is designed for loading, unloading, construction, and installation operations at industrial and construction sites. The reinforced chassis, reliable powertrain, and telescopic boom provide high productivity when handling heavy loads.",
-            },
-
-            specifications: {
-                truckInfo: [
-                    { title: "Base chassis", value: "KAMAZ 65115" },
-                    {
-                        title: "Engine",
-                        value: "KAMAZ 740.62-280, diesel, 280 hp",
-                    },
-                    {
-                        title: "Transmission",
-                        value: "Manual, 9-speed",
-                    },
-                    { title: "Wheel formula", value: "6x4" },
-                    { title: "Gross vehicle weight, kg", value: "25200" },
-                    { title: "Payload capacity, kg", value: "15000" },
-                    {
-                        title: "Crane lifting capacity, tons",
-                        value: "16.0",
-                    },
-                    {
-                        title: "Boom length, m",
-                        value: "21.7",
-                    },
-                ],
-            },
-
-            charectiristicsTitle: "Specifications",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "KAMAZ 65115 Mobile Crane with KS-55713 Crane Unit",
-
-                    items: [
-                        {
-                            title: "Superstructure type",
-                            value: "KS-55713 mobile crane unit mounted on a KAMAZ 65115 chassis",
-                        },
-                        {
-                            title: "Engine: Model",
-                            value: "KAMAZ 740.62-280, turbocharged diesel",
-                        },
-                        {
-                            title: "Engine power",
-                            value: "280 hp / 206 kW",
-                        },
-                        {
-                            title: "Transmission",
-                            value: "ZF 9S1310, manual, 9-speed",
-                        },
-                        {
-                            title: "Load moment",
-                            value: "48 tm",
-                        },
-                        {
-                            title: "Maximum boom reach",
-                            value: "19.7 m",
-                        },
-                        {
-                            title: "Outrigger system",
-                            value: "Front and rear hydraulic outriggers",
-                        },
-                        {
-                            title: "Off-road capability",
-                            value: "6x4 wheel formula with reinforced chassis for construction sites",
-                        },
-                    ],
-                },
-            ],
-        },
-
-        uz: {
-            price: "18 900 000 rub.",
-
-            buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
-                getPk: "Tijorat taklifini olish",
-                iNeedThis: "Menga shunday kerak",
-            },
-
-            truckType: "KS-55713 kran qurilmasiga ega KAMAZ 65115 avtokran",
-            category: "Kran-manipulyatorlar",
-
-            description: {
-                title: "Tavsif",
-                text: "KS-55713 kran qurilmasi bilan jihozlangan KAMAZ 65115 shassisidagi avtokran sanoat va qurilish obyektlarida yuklash-tushirish, qurilish hamda montaj ishlarini bajarish uchun mo‘ljallangan. Kuchaytirilgan shassi, ishonchli dvigatel va teleskopik strelka og‘ir yuklar bilan ishlashda yuqori unumdorlikni ta’minlaydi.",
-            },
-
-            specifications: {
-                truckInfo: [
-                    { title: "Bazaviy shassi", value: "KAMAZ 65115" },
-                    {
-                        title: "Dvigatel",
-                        value: "KAMAZ 740.62-280, dizel, 280 ot kuchi",
-                    },
-                    {
-                        title: "Uzatmalar qutisi",
-                        value: "Mexanik, 9 pog‘onali",
-                    },
-                    { title: "G‘ildirak formulasi", value: "6x4" },
-                    { title: "To‘liq massa, kg", value: "25200" },
-                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "15000" },
-                    {
-                        title: "Kran yuk ko‘tarish qobiliyati, tonna",
-                        value: "16.0",
-                    },
-                    {
-                        title: "Strelka uzunligi, m",
-                        value: "21.7",
-                    },
-                ],
-            },
-
-            charectiristicsTitle: "Xususiyatlari",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "KS-55713 kran qurilmasiga ega KAMAZ 65115 avtokran",
-
-                    items: [
-                        {
-                            title: "Ustqurma turi",
-                            value: "KAMAZ 65115 shassisiga o‘rnatilgan KS-55713 avtokran qurilmasi",
-                        },
-                        {
-                            title: "Dvigatel: Model",
-                            value: "KAMAZ 740.62-280, turbokompressorli dizel",
-                        },
-                        {
-                            title: "Dvigatel quvvati",
-                            value: "280 ot kuchi / 206 kVt",
-                        },
-                        {
-                            title: "Uzatmalar qutisi",
-                            value: "ZF 9S1310, mexanik, 9 pog‘onali",
-                        },
-                        {
-                            title: "Yuk momenti",
-                            value: "48 tm",
-                        },
-                        {
-                            title: "Strelkaning maksimal chiqishi",
-                            value: "19.7 m",
-                        },
-                        {
-                            title: "Tayanch tizimi",
-                            value: "Old va orqa gidravlik tayanchlar",
-                        },
-                        {
-                            title: "O‘tkazuvchanlik",
-                            value: "6x4 g‘ildirak formulasi, qurilish maydonlari uchun kuchaytirilgan shassi",
-                        },
-                    ],
-                },
-            ],
-        },
-    },
-    {
-        available: true,
-        recommended: true,
-        id: 57,
-        slug: "avtokran-kamaz-65115-s-ks-55729-1k-3",
-
-        categoryId: 11,
-
-        images: {
-            image: "https://kamaz.avtofurgon.ru/upload/iblock/7b3/m8ub1u7qijdciqrixex8ms81z5a8mtg7.webp",
-        },
-
-        gallery: [
-            {
-                image: "https://kamaz.avtofurgon.ru/upload/resize_cache/iblock/7b3/1200_900_0/m8ub1u7qijdciqrixex8ms81z5a8mtg7.webp",
-            },
-            {
-                image: "https://kamaz.avtofurgon.ru/upload/iblock/3cf/0n61tv2cxprrjz0i9sc829oc3ox4kwh1.jpeg",
-            },
-            {
-                image: "https://kamaz.avtofurgon.ru/upload/iblock/021/6fsjq15fukj0sejffvl4u0y16cjjom5o.webp",
-            },
-        ],
-
-        ru: {
-            price: "19 797 428 руб.",
-
-            buttons: {
-                addToCart: "Добавить в корзину",
-                more: "Получить КП",
-                getPk: "Получить КП",
-                iNeedThis: "Мне нужно это",
-            },
-
-            truckType: "Автокран КАМАЗ 65115 с КС-55729-1К-3",
-            category: "Краны-манипуляторы",
-
-            description: {
-                title: "Описание",
-                text: "Автомобильный кран КС-55729-1К-3 на шасси КАМАЗ 65115 предназначен для выполнения строительных, монтажных и погрузочно-разгрузочных работ. Надежное шасси 6х4 и четырехсекционная телескопическая стрела позволяют эффективно работать с тяжелыми грузами на строительных и промышленных объектах. Крановая установка сочетает высокую грузоподъёмность и большой рабочий радиус.",
-            },
-
-            specifications: {
-                truckInfo: [
-                    {
-                        title: "Базовое шасси",
-                        value: "КАМАЗ 65115-3968-48",
-                    },
-                    {
-                        title: "Двигатель",
-                        value: "КАМАЗ 667.511-300, дизельный, 300 л. с.",
-                    },
-                    {
-                        title: "КПП",
-                        value: "ZF КАМА 1310 TO, механическая, 9-ступенчатая",
-                    },
-                    {
-                        title: "Колесная формула",
-                        value: "6x4",
-                    },
-                    {
-                        title: "Полная масса, кг",
-                        value: "25200",
-                    },
-                    {
-                        title: "Грузоподъёмность крана, тонн",
-                        value: "32",
-                    },
-                    {
-                        title: "Максимальный грузовой момент, тм",
-                        value: "102,5",
-                    },
-                    {
-                        title: "Длина стрелы, м",
-                        value: "10,1 - 33",
-                    },
-                ],
-            },
-
-            charectiristicsTitle: "Характеристики",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "Автокран КАМАЗ 65115 с крановой установкой КС-55729-1К-3",
-
-                    items: [
-                        {
-                            title: "Тип надстройки",
-                            value: "Крановая установка КС-55729-1К-3 на шасси КАМАЗ 65115",
-                        },
-                        {
-                            title: "Базовое шасси",
-                            value: "КАМАЗ 65115-3968-48, колесная формула 6х4",
-                        },
-                        {
-                            title: "Двигатель",
-                            value: "КАМАЗ 667.511-300, дизельный",
-                        },
-                        {
-                            title: "Мощность двигателя",
-                            value: "300 л. с.",
-                        },
-                        {
-                            title: "Коробка передач",
-                            value: "ZF КАМА 1310 TO, механическая, 9-ступенчатая",
-                        },
-                        {
-                            title: "Максимальная грузоподъёмность",
-                            value: "32 т при минимальном вылете",
-                        },
-                        {
-                            title: "Максимальный грузовой момент",
-                            value: "102,5 тм",
-                        },
-                        {
-                            title: "Профиль стрелы",
-                            value: "Овоидный, четырехсекционный",
-                        },
-                        {
-                            title: "Длина основной стрелы",
-                            value: "10,1 - 33 м",
-                        },
-                        {
-                            title: "Дополнительный удлинитель",
-                            value: "9 м, с возможностью установки под углом 0°, 20° или 40°",
-                        },
-                    ],
-                },
-            ],
-        },
-
-        en: {
-            price: "19,797,428 RUB",
-
-            buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
-                iNeedThis: "I need one like this",
-            },
-
-            truckType: "KAMAZ 65115 Mobile Crane with KS-55729-1K-3",
-            category: "Crane-Manipulator Trucks",
-
-            description: {
-                title: "Description",
-                text: "The KS-55729-1K-3 mobile crane mounted on a KAMAZ 65115 chassis is designed for construction, installation, loading, and unloading operations. The reliable 6x4 chassis and four-section telescopic boom provide efficient handling of heavy loads at construction and industrial sites. The crane combines high lifting capacity with an extended working radius.",
-            },
-
-            specifications: {
-                truckInfo: [
-                    {
-                        title: "Base chassis",
-                        value: "KAMAZ 65115-3968-48",
-                    },
-                    {
-                        title: "Engine",
-                        value: "KAMAZ 667.511-300, diesel, 300 hp",
-                    },
-                    {
-                        title: "Transmission",
-                        value: "ZF KAMA 1310 TO, manual, 9-speed",
-                    },
-                    {
-                        title: "Wheel formula",
-                        value: "6x4",
-                    },
-                    {
-                        title: "Gross vehicle weight, kg",
-                        value: "25200",
-                    },
-                    {
-                        title: "Crane lifting capacity, tons",
-                        value: "32",
-                    },
-                    {
-                        title: "Maximum load moment, tm",
-                        value: "102.5",
-                    },
-                    {
-                        title: "Boom length, m",
-                        value: "10.1 - 33",
-                    },
-                ],
-            },
-
-            charectiristicsTitle: "Specifications",
-
-            characteristics: [
-                {
-                    sectionTitle: "KAMAZ 65115 Mobile Crane with KS-55729-1K-3",
-
-                    items: [
-                        {
-                            title: "Superstructure type",
-                            value: "KS-55729-1K-3 crane unit mounted on a KAMAZ 65115 chassis",
-                        },
-                        {
-                            title: "Base chassis",
-                            value: "KAMAZ 65115-3968-48, 6x4 wheel formula",
-                        },
-                        {
-                            title: "Engine",
-                            value: "KAMAZ 667.511-300, diesel",
-                        },
-                        {
-                            title: "Engine power",
-                            value: "300 hp",
-                        },
-                        {
-                            title: "Transmission",
-                            value: "ZF KAMA 1310 TO, manual, 9-speed",
-                        },
-                        {
-                            title: "Maximum lifting capacity",
-                            value: "32 tons at minimum outreach",
-                        },
-                        {
-                            title: "Maximum load moment",
-                            value: "102.5 tm",
-                        },
-                        {
-                            title: "Boom profile",
-                            value: "Oval, four-section telescopic boom",
-                        },
-                        {
-                            title: "Main boom length",
-                            value: "10.1 - 33 m",
-                        },
-                        {
-                            title: "Additional jib",
-                            value: "9 m, adjustable to 0°, 20°, or 40°",
-                        },
-                    ],
-                },
-            ],
-        },
-
-        uz: {
-            price: "19 797 428 rub.",
-
-            buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
-                getPk: "Tijorat taklifini olish",
-                iNeedThis: "Menga shunday kerak",
-            },
-
-            truckType:
-                "KS-55729-1K-3 kran qurilmasiga ega KAMAZ 65115 avtokran",
-            category: "Kran-manipulyatorlar",
-
-            description: {
-                title: "Tavsif",
-                text: "KAMAZ 65115 shassisiga o‘rnatilgan KS-55729-1K-3 avtokran qurilish, montaj, yuklash va tushirish ishlarini bajarish uchun mo‘ljallangan. Ishonchli 6x4 shassi va to‘rt seksiyali teleskopik strelka qurilish hamda sanoat obyektlarida og‘ir yuklar bilan samarali ishlash imkonini beradi. Kran qurilmasi yuqori yuk ko‘tarish qobiliyati va katta ish radiusini birlashtiradi.",
-            },
-
-            specifications: {
-                truckInfo: [
-                    {
-                        title: "Bazaviy shassi",
-                        value: "KAMAZ 65115-3968-48",
-                    },
-                    {
-                        title: "Dvigatel",
-                        value: "KAMAZ 667.511-300, dizel, 300 ot kuchi",
-                    },
-                    {
-                        title: "Uzatmalar qutisi",
-                        value: "ZF KAMA 1310 TO, mexanik, 9 pog‘onali",
-                    },
-                    {
-                        title: "G‘ildirak formulasi",
-                        value: "6x4",
-                    },
-                    {
-                        title: "To‘liq massa, kg",
-                        value: "25200",
-                    },
-                    {
-                        title: "Kran yuk ko‘tarish qobiliyati, tonna",
-                        value: "32",
-                    },
-                    {
-                        title: "Maksimal yuk momenti, tm",
-                        value: "102.5",
-                    },
-                    {
-                        title: "Strelka uzunligi, m",
-                        value: "10.1 - 33",
-                    },
-                ],
-            },
-
-            charectiristicsTitle: "Xususiyatlari",
-
-            characteristics: [
-                {
-                    sectionTitle:
-                        "KS-55729-1K-3 kran qurilmasiga ega KAMAZ 65115 avtokran",
-
-                    items: [
-                        {
-                            title: "Ustqurma turi",
-                            value: "KAMAZ 65115 shassisiga o‘rnatilgan KS-55729-1K-3 kran qurilmasi",
-                        },
-                        {
-                            title: "Bazaviy shassi",
-                            value: "KAMAZ 65115-3968-48, 6x4 g‘ildirak formulasi",
-                        },
-                        {
-                            title: "Dvigatel",
-                            value: "KAMAZ 667.511-300, dizel",
-                        },
-                        {
-                            title: "Dvigatel quvvati",
-                            value: "300 ot kuchi",
-                        },
-                        {
-                            title: "Uzatmalar qutisi",
-                            value: "ZF KAMA 1310 TO, mexanik, 9 pog‘onali",
-                        },
-                        {
-                            title: "Maksimal yuk ko‘tarish qobiliyati",
-                            value: "Minimal chiqishda 32 tonna",
-                        },
-                        {
-                            title: "Maksimal yuk momenti",
-                            value: "102.5 tm",
-                        },
-                        {
-                            title: "Strelka profili",
-                            value: "Oval shaklli, to‘rt seksiyali teleskopik strelka",
-                        },
-                        {
-                            title: "Asosiy strelka uzunligi",
-                            value: "10.1 - 33 m",
-                        },
-                        {
-                            title: "Qo‘shimcha uzaytirgich",
-                            value: "9 m, 0°, 20° yoki 40° burchak ostida o‘rnatish mumkin",
-                        },
-                    ],
-                },
-            ],
-        },
-    },
-    */
 ];
 
 export default trucks;
