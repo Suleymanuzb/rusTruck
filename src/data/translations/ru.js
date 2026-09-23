@@ -38,8 +38,40 @@ const ru = {
                         id: 1,
                         name: "Шторные автомобили",
                         slug: "шторные-автомобили",
+
+                        brandsOfTrucks: {
+                            title: "Марка",
+
+                            brands: [
+                                "ГАЗ",
+                                "КАМАЗ",
+                                "JAC",
+                                "DAEWOO",
+                                "FOTON",
+                                "DONG FENG",
+                                "МАЗ",
+                            ],
+                        },
+
+                        GrossLoad: {
+                            title: "Полная масса, тонн",
+                            grossCapacities: [
+                                {
+                                    cap: "до 12",
+                                },
+                                {
+                                    cap: "до 20",
+                                },
+                                {
+                                    cap: "до 5,5",
+                                },
+                                {
+                                    cap: "свыше 20",
+                                },
+                            ],
+                        },
                         seoText: `
-    <div class="text-[18px] leading-[1.5]">
+    <div class="text-[18px] leading-normal">
 
         <p>
             Шторный грузовик сочетает удобство загрузки и надежность на дороге.
@@ -1409,6 +1441,10 @@ const ru = {
             title: "Успешно",
             text: "Когда товар снова будет доступен для заказа, мы отправим Вам письмо-уведомление на почту",
             button: "Закрыть",
+        },
+
+        filterSideBar: {
+            showMore: "Показать товары",
         },
     },
 
