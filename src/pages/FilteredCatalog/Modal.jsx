@@ -168,7 +168,7 @@ const ModalIsAvailable = ({ open, onClose, truck, truckCurrentLang }) => {
                     <div className='mt-7  w-full flex items-center justify-center'>
                         <button
                             type='submit'
-                            className='bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded leading-none  md:py-3 w-full'
+                            className='bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded leading-none py-3 w-full'
                         >
                             {t("truckDetailsForm.button")}
                         </button>

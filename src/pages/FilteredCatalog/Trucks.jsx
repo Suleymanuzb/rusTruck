@@ -43,7 +43,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                 to={`/catalog/${category}/${truck.id}`}
                             >
                                 <div
-                                    className={`border ${isLine ? "max-[665px]:w-full! max-[630px]:w-hull w-62 h-65 relative" : "w-full h-full"}`}
+                                    className={`${isLine ? "max-[665px]:w-full! max-[630px]:w-hull w-62 h-65 relative" : "w-full h-full"}`}
                                 >
                                     <img
                                         src={truck.images.image}
@@ -90,12 +90,12 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                         >
                             <div>
                                 <p
-                                    className={`${isLine ? "text-sm" : "text-lg"} mb-4 leading-[130%] line-clamp-2`}
+                                    className={`${isLine ? "text-sm" : "font-medium text-[16px] sm:text-lg"} mb-4 leading-[130%] line-clamp-2`}
                                 >
                                     {truckCurrentLang?.truckType}
                                 </p>
                                 <h5
-                                    className={`text-normal lg:text-[22px] font-medium mb-3 ${isLine ? "hidden" : ""}`}
+                                    className={`text-normal lg:text-[22px] font-medium mb-3 ${isLine ? "hidden" : "whitespace-nowrap max-[420px]:text-[14px] text-[20px] sm:text-sm md:text-lg lg:text-xl"}`}
                                 >
                                     {truckCurrentLang?.price}
                                 </h5>
@@ -152,7 +152,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                             {truckCurrentLang?.price}
                                         </h5>
                                     </div>
-                                    <div className="max-[665px]:w-full">
+                                    <div className='max-[665px]:w-full'>
                                         <Link
                                             to={`/catalog/${category}/${truck.id}`}
                                             className='inline-block max-[665px]:w-full  px-8 min-[1200px]:px-12! text-sm whitespace-nowrap bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135] rounded-md leading-none py-3.5 text-center mb-4.5'
@@ -184,7 +184,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                 <Link
                                     to={`/catalog/${category}/${truck.id}`}
                                     variant='btn_big'
-                                    className='text-sm py-2 text-center px-2 whitespace-nowrap bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135] rounded-md leading-none md:py-4 w-full'
+                                    className='text-sm text-center max-[550px]:py-3 max-[550px]:px-1 px-2 whitespace-nowrap bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135] rounded-md leading-none py-4 w-full'
                                 >
                                     {truckCurrentLang?.buttons.more}
                                 </Link>
@@ -225,7 +225,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                 <div className='flex items-center justify-center'>
                                     <Button
                                         onClick={() => setModalOpen(true)}
-                                        className={`flex items-center justify-center py-2 gap-2 bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none md:py-4 whitespace-nowrap w-full px-3`}
+                                        className={`flex text-base items-center max-[400px]:text-[10px] max-[530px]:py-3 max-[530px]:text-sm justify-center gap-2 bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none py-4 whitespace-nowrap w-full px-3`}
                                     >
                                         {truckCurrentLang?.buttons?.iNeedThis}
                                         <IconMessage className='max-[1024px]:hidden shrink-0' />
