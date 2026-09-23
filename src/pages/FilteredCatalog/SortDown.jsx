@@ -34,7 +34,7 @@ const SortDown = () => {
             }}
             trigger={["click"]}
         >
-            <a onClick={(e) => e.preventDefault()}>
+            <a className="mt-1.25" onClick={(e) => e.preventDefault()}>
                 <Space>{t("filteredPage.intro.sortText")} </Space>
             </a>
         </Dropdown>

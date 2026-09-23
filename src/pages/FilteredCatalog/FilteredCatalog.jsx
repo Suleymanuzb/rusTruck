@@ -43,7 +43,7 @@ const FilteredCatalog = () => {
             <Container>
                 <Breadcrumbs />
 
-                <div className='flex items-center justify-between mb-5'>
+                <div className='flex justify-between flex-col lg:flex-row lg:items-center mb-5'>
                     <div className='flex items-center gap-6 '>
                         <h1 className='text-3xl font-medium'>
                             {selectedCategory.name}
@@ -68,36 +68,40 @@ const FilteredCatalog = () => {
                         </span>
                     </div>
 
-                    <div className='flex items-centers gap-40'>
-                        <SortDown />
+                    <div className='flex items-center justify-between'>
+                        <div className=''>sort</div>
 
-                        <div className='flex gap-1 items-center'>
-                            <div
-                                onClick={handleLine}
-                                className={`p-2 rounded-full ${isLine ? "bg-[#fec400]" : ""}`}
-                            >
-                                <span
-                                    className={`hover:text-black text-[#A2A2A2] transform duration-300 cursor-pointer ${isLine ? "text-black" : "text-[#A2A2A2]"}`}
+                        <div className=' flex items-centers gap-3 lg:gap-40 self-end'>
+                            <SortDown />
+
+                            <div className='flex gap-1 items-center'>
+                                <div
+                                    onClick={handleLine}
+                                    className={`p-2 rounded-full ${isLine ? "bg-[#fec400]" : ""}`}
                                 >
-                                    <IconLine />
-                                </span>
-                            </div>
+                                    <span
+                                        className={`hover:text-black text-[#A2A2A2] transform duration-300 cursor-pointer ${isLine ? "text-black" : "text-[#A2A2A2]"}`}
+                                    >
+                                        <IconLine />
+                                    </span>
+                                </div>
 
-                            <div
-                                onClick={handleTable}
-                                className={`p-2 rounded-full ${isTable ? "bg-[#fec400]" : "bg-none"}`}
-                            >
-                                <span>
-                                    <IconTable
-                                        className={`hover:text-black text-[#A2A2A2] transform duration-300 cursor-pointer ${isTable ? "text-black" : ""}`}
-                                    />
-                                </span>
+                                <div
+                                    onClick={handleTable}
+                                    className={`p-2 rounded-full ${isTable ? "bg-[#fec400]" : "bg-none"}`}
+                                >
+                                    <span>
+                                        <IconTable
+                                            className={`hover:text-black text-[#A2A2A2] transform duration-300 cursor-pointer ${isTable ? "text-black" : ""}`}
+                                        />
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className='grid grid-cols-[300px_1fr] gap-6'>
+                <div className='grid lg:grid-cols-[300px_1fr]   gap-6'>
                     <Form selectedCategory={selectedCategory} />
 
                     {/*Trucks Part  */}

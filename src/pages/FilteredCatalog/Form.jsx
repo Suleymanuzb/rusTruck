@@ -7,17 +7,17 @@ const Form = ({ selectedCategory }) => {
     const { t } = useTranslation();
 
     return (
-        <form className='bg-white py-5 px-4 overflow-y-auto max-h-160 top-25 sticky'>
+        <form className='hidden lg:block bg-white py-5 px-4 overflow-y-auto max-h-160 top-25 sticky'>
             <p className='mb-4 font-medium leading-[1.1]'>
                 {selectedCategory.brandsOfTrucks.title}
             </p>
             <div className='relative'>
                 <input
                     type='text'
-                    className='outline-none border border-[#a2a2a2] rounded focus:border-[#fec80b] focus:shadow-[0_0_4px_#fec80b] transform duration-300 placeholder:text-gray-400 py-2 pl-3 pr-10'
+                    className='outline-none border border-[#a2a2a2] rounded focus:border-[#fec80b] focus:shadow-[0_0_4px_#fec80b] transform duration-300 placeholder:text-gray-400 py-2 pl-3 pr-10 w-full'
                     placeholder='Найти'
                 />
-                <span className='absolute right-[20%] top-[15%]'>
+                <span className='absolute right-[4%] top-[15%]'>
                     <SearchIcon />
                 </span>
             </div>
@@ -74,7 +74,7 @@ const Form = ({ selectedCategory }) => {
                     variant='btn_big'
                     className='w-full py-3! text-normal outline-none'
                 >
-                    {t("truckDetailsForm.filterSideBar.showMore")}
+                    {t("filteredPage.filterSideBar.showMore")}
                 </Button>
             </div>
         </form>

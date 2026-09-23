@@ -1,3 +1,5 @@
+import { notification } from "antd";
+
 const ru = {
     language: "ru",
 
@@ -436,11 +438,19 @@ const ru = {
             ],
         },
 
+        truckProducts: {
+            notificationButton: "Уведомить о поступлении",
+        },
+
         trucksInLine: {
             brand: "Марка",
             capacityOfTruck: "Габариты ТС",
             capacityNumber: Math.floor(Math.random() * 1000000),
             capacityOfLoad: "Грузоподъёмность, кг",
+        },
+
+        filterSideBar: {
+            showMore: "Показать товары",
         },
     },
 
@@ -1441,10 +1451,6 @@ const ru = {
             title: "Успешно",
             text: "Когда товар снова будет доступен для заказа, мы отправим Вам письмо-уведомление на почту",
             button: "Закрыть",
-        },
-
-        filterSideBar: {
-            showMore: "Показать товары",
         },
     },
 

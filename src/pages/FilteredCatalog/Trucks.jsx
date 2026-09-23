@@ -27,7 +27,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
 
     return (
         <div
-            className={`gap-5 ${isLine ? "grid grid-cols-1" : "grid grid-cols-3"}`}
+            className={`gap-5 ${isLine ? "grid grid-cols-1" : "grid grid-cols-2 md:grid-cols-3 min-[928px]:grid-cols-4 min-[1024px]:grid-cols-2! min-[1036px]:grid-cols-3!"}`}
         >
             {matchingTrucks.map((truck) => {
                 const truckCurrentLang = truck?.[i18n.language];
@@ -35,7 +35,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                 return (
                     <div
                         key={truck.id}
-                        className={`bg-white w-auto ${isLine ? "col-span-1 flex gap-4 items-center" : ""}`}
+                        className={`bg-white w-full border ${isLine ? "col-span-1 flex gap-4 items-center " : ""}`}
                     >
                         <div className={`relative`}>
                             <Link
@@ -84,8 +84,9 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                             </Link>
                         </div>
 
+                        {/* here texts sites */}
                         <div
-                            className={`mb-10 px-3 py-4 ${isLine ? "flex w-full justify-between " : ""}`}
+                            className={`mb-10 px-3 py-4 ${isLine ? "flex gap-10 w-full justify-between " : ""}`}
                         >
                             <div>
                                 <p
@@ -94,7 +95,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                     {truckCurrentLang?.truckType}
                                 </p>
                                 <h5
-                                    className={`text-[22px] font-medium mb-3 ${isLine ? "hidden" : ""}`}
+                                    className={`text-normal lg:text-[22px] font-medium mb-3 ${isLine ? "hidden" : ""}`}
                                 >
                                     {truckCurrentLang?.price}
                                 </h5>
@@ -144,22 +145,64 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
 
                             {/* isLine div */}
                             {isLine && truck.available && (
-                                <div className='flex flex-col items-center mt-4'>
+                                <div className=' flex flex-col items-center mt-4'>
                                     <div>
-                                        <h5 className='text-[22px] font-medium mb-3'>
+                                        <h5 className='whitespace-nowrap max-[930px]:text-lg text-[22px] font-medium mb-3'>
                                             {truckCurrentLang?.price}
                                         </h5>
                                     </div>
-                                    <div className=' w-full'>
+                                    <div>
                                         <Link
                                             to={`/catalog/${category}/${truck.id}`}
-                                            variant='btn_big'
-                                            className=' block text-sm px-4! whitespace-nowrap bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135] rounded-md leading-none  md:py-3.5 text-center mb-4.5'
+                                            className='inline-block px-4 md:px-8 min-[1200px]:px-12! text-sm py-2 whitespace-nowrap bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135] rounded-md leading-none md:py-3.5 text-center mb-4.5'
                                         >
                                             {truckCurrentLang?.buttons.more}
                                         </Link>
                                     </div>
                                     <div>
+                                        <Button
+                                            onClick={() =>
+                                                setModalFullOpen(() =>
+                                                    setModalFullOpen(true),
+                                                )
+                                            }
+                                            className='hidden md:flex gap-3 px-0 md:px-4 min-[1200px]:px-8! text-sm py-2 whitespace-nowrap bg-gray-200 transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135] rounded-md leading-none md:py-3.5 text-center mb-4.5'
+                                        >
+                                            {truckCurrentLang?.buttons.getPk}
+
+                                            <DownloadIcon className='w-3 h-3.5' />
+                                        </Button>
+                                    </div>
+                                </div>
+                            )}
+                            {/* isLine div */}
+
+                            <div
+                                className={`flex items-center gap-2 max-[768px]:flex-col max-[1024px]:flex-col max-[1036px]:flex-row max-[1250px]:flex-col max-[1250px]:gap-3 ${!truck.available ? "hidden" : ""} ${isLine ? "hidden" : ""}`}
+                            >
+                                <Link
+                                    to={`/catalog/${category}/${truck.id}`}
+                                    variant='btn_big'
+                                    className='text-sm py-2 text-center px-2 whitespace-nowrap bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135] rounded-md leading-none md:py-4 w-full'
+                                >
+                                    {truckCurrentLang?.buttons.more}
+                                </Link>
+
+                                <div className='w-full flex items-center gap-2 max-[450px]:flex-col  max-[768px]:flex-row  max-[768px]:justify-center max-[1036px]:self-center max-[1250px]:self-start'>
+                                    <div className='flex items-center gap-2'>
+                                        <button>
+                                            <KorzinkaIcon />
+                                        </button>
+                                        <button
+                                            onClick={() => setLiked(truck.id)}
+                                        >
+                                            <IconHeartBgWhite
+                                                className={`w-6 h-6 cursor-pointer ${liked === truck.id ? "text-[#fec400]" : "text-white"}`}
+                                            />
+                                        </button>
+                                    </div>
+
+                                    <div className='self-center md:self-start'>
                                         <button
                                             onClick={() =>
                                                 setModalFullOpen(() =>
@@ -174,50 +217,30 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                         </button>
                                     </div>
                                 </div>
-                            )}
-                            {/* isLine div */}
-
-                            <div
-                                className={`flex items-center gap-2 ${!truck.available ? "hidden" : ""} ${isLine ? "hidden" : ""}`}
-                            >
-                                <Link
-                                    to={`/catalog/${category}/${truck.id}`}
-                                    variant='btn_big'
-                                    className='text-sm px-4! whitespace-nowrap bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none md:px-8 md:py-4'
-                                >
-                                    {truckCurrentLang?.buttons.more}
-                                </Link>
-
-                                <button>
-                                    <KorzinkaIcon />
-                                </button>
-                                <button onClick={() => setLiked(truck.id)}>
-                                    <IconHeartBgWhite
-                                        className={`w-6 h-6 cursor-pointer ${liked === truck.id ? "text-[#fec400]" : "text-white"}`}
-                                    />
-                                </button>
-
-                                <button
-                                    onClick={() =>
-                                        setModalFullOpen(() =>
-                                            setModalFullOpen(true),
-                                        )
-                                    }
-                                    className='flex gap-1.5 whitespace-nowrap text-[13px] text-gray-500 cursor-pointer'
-                                >
-                                    {truckCurrentLang?.buttons.getPk}
-
-                                    <DownloadIcon className='w-3 h-3.5 ' />
-                                </button>
                             </div>
 
-                            {!truck.available && (
+                            {/*  */}
+                            {isTable && !truck.available && (
+                                <div className='flex items-center justify-center'>
+                                    <Button
+                                        onClick={() => setModalOpen(true)}
+                                        className={`flex items-center justify-center py-2 gap-2 bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none md:py-4 whitespace-nowrap w-full px-3`}
+                                    >
+                                        {truckCurrentLang?.buttons?.iNeedThis}
+                                        <IconMessage className='max-[1024px]:hidden shrink-0' />
+                                    </Button>
+                                </div>
+                            )}
+
+                            {isLine && !truck.available && (
                                 <div className='flex items-center justify-center'>
                                     <button
                                         onClick={() => setModalOpen(true)}
-                                        className={`flex items-center justify-center gap-2 bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none md:py-4 whitespace-nowrap w-full`}
+                                        className={`flex items-center justify-center gap-2 py-2 bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none md:py-4 whitespace-nowrap w-full px-3`}
                                     >
-                                        {truckCurrentLang?.buttons?.iNeedThis}
+                                        {t(
+                                            "filteredPage.truckProducts.notificationButton",
+                                        )}
                                         <IconMessage className='max-[1024px]:hidden shrink-0' />
                                     </button>
                                 </div>
