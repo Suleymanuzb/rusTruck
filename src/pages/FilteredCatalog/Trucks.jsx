@@ -35,15 +35,15 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                 return (
                     <div
                         key={truck.id}
-                        className={`bg-white w-full border ${isLine ? "col-span-1 flex gap-4 items-center " : ""}`}
+                        className={`bg-white w-full ${isLine ? "col-span-1 flex max-[665px]:flex-col max-[400px]:gap-1 gap-4 items-center" : ""}`}
                     >
-                        <div className={`relative`}>
+                        <div className={`relative max-[665px]:w-full`}>
                             <Link
                                 className='bg-black'
                                 to={`/catalog/${category}/${truck.id}`}
                             >
                                 <div
-                                    className={`${isLine ? "w-62 h-65 relative" : "w-full h-full"}`}
+                                    className={`border ${isLine ? "max-[665px]:w-full! max-[630px]:w-hull w-62 h-65 relative" : "w-full h-full"}`}
                                 >
                                     <img
                                         src={truck.images.image}
@@ -86,7 +86,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
 
                         {/* here texts sites */}
                         <div
-                            className={`mb-10 px-3 py-4 ${isLine ? "flex gap-10 w-full justify-between " : ""}`}
+                            className={`mb-10 px-3 py-4 ${isLine ? "flex max-[580px]:flex-col flex-row gap-10 w-full justify-between " : ""}`}
                         >
                             <div>
                                 <p
@@ -100,6 +100,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                     {truckCurrentLang?.price}
                                 </h5>
 
+                                {/* three GRAY TEXTS brand, grosscapacity gabarit */}
                                 {isLine && (
                                     <div>
                                         <div className='flex justify-between text-gray-400 text-sm '>
@@ -147,14 +148,14 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                             {isLine && truck.available && (
                                 <div className=' flex flex-col items-center mt-4'>
                                     <div>
-                                        <h5 className='whitespace-nowrap max-[930px]:text-lg text-[22px] font-medium mb-3'>
+                                        <h5 className='max-[500px]text-[10px] whitespace-nowrap text-sm  md:text-lg xl:text-[22px] font-medium mb-3'>
                                             {truckCurrentLang?.price}
                                         </h5>
                                     </div>
-                                    <div>
+                                    <div className="max-[665px]:w-full">
                                         <Link
                                             to={`/catalog/${category}/${truck.id}`}
-                                            className='inline-block px-4 md:px-8 min-[1200px]:px-12! text-sm py-2 whitespace-nowrap bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135] rounded-md leading-none md:py-3.5 text-center mb-4.5'
+                                            className='inline-block max-[665px]:w-full  px-8 min-[1200px]:px-12! text-sm whitespace-nowrap bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135] rounded-md leading-none py-3.5 text-center mb-4.5'
                                         >
                                             {truckCurrentLang?.buttons.more}
                                         </Link>
@@ -236,12 +237,12 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                 <div className='flex items-center justify-center'>
                                     <button
                                         onClick={() => setModalOpen(true)}
-                                        className={`flex items-center justify-center gap-2 py-2 bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none md:py-4 whitespace-nowrap w-full px-3`}
+                                        className={`flex items-center justify-center gap-2 py-2 bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135]  rounded-md leading-none md:py-4 min-[1100px]:whitespace-nowrap w-full px-2`}
                                     >
                                         {t(
                                             "filteredPage.truckProducts.notificationButton",
                                         )}
-                                        <IconMessage className='max-[1024px]:hidden shrink-0' />
+                                        <IconMessage className='max-[1096px]:hidden' />
                                     </button>
                                 </div>
                             )}
