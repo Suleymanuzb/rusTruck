@@ -111,7 +111,7 @@ const News = () => {
                 <div
                     ref={newsGridRef}
                     data-aos='fade-up'
-                    className={`scroll-mt-25 md:scroll-mt-37 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-5 transition-opacity duration-300`}
+                    className={`scroll-mt-42 min-[500px]:scroll-mt-35  md:scroll-mt-18.5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-5 transition-opacity duration-300`}
                 >
                     {paginatedNews.map((item, index) => {
                         const truckNewsLanguage = item?.[i18next.language];
