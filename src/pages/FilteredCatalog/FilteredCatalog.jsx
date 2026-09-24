@@ -238,6 +238,36 @@ const FilteredCatalog = () => {
                         </div>
                     </div>
 
+                    <div className='mb-8'>
+                        <h1 className='text-lg font-medium mb-4'>
+                            {selectedCategory.lengthOfPlatform.title}
+                        </h1>
+
+                        <div>
+                            {selectedCategory.lengthOfPlatform.lengths.map(
+                                (item, i) => {
+                                    return (
+                                        <div
+                                            key={i}
+                                            className='flex flex-col p-1'
+                                        >
+                                            <label className='flex items-center cursor-pointer gap-3'>
+                                                <div className='relative flex items-center'>
+                                                    <input
+                                                        className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
+                                                        type='checkbox'
+                                                    />
+                                                    <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
+                                                </div>
+                                                <span>{item.option}</span>
+                                            </label>
+                                        </div>
+                                    );
+                                },
+                            )}
+                        </div>
+                    </div>
+
                     <div>
                         <Button
                             type='button'

@@ -1,5 +1,3 @@
-import { notification } from "antd";
-
 const ru = {
     language: "ru",
 
@@ -289,6 +287,272 @@ const ru = {
                         id: 2,
                         name: "Краны-манипуляторы",
                         slug: "краны-манипуляторы",
+                        brandsOfTrucks: {
+                            title: "Марка",
+
+                            brands: [
+                                "ГАЗ",
+                                "КАМАЗ",
+                                "JAC",
+                                "DAEWOO",
+                                "FAW",
+                                "FOTON",
+                                "DONG FENG",
+                                "SHACMAN",
+                                "SOLLERS",
+                                "YANSHI",
+                                "Валдай",
+                                "МАЗ",
+                            ],
+                        },
+                        GrossLoad: {
+                            title: "Полная масса, тонн",
+                            grossCapacities: [
+                                {
+                                    cap: "до 12",
+                                },
+                                {
+                                    cap: "до 20",
+                                },
+
+                                {
+                                    cap: "свыше 20",
+                                },
+                            ],
+                        },
+
+                        lengthOfPlatform: {
+                            title: "Длина платформы, м",
+
+                            lengths: [
+                                {
+                                    option: "3500",
+                                },
+                                {
+                                    option: "4400",
+                                },
+                                {
+                                    option: "5200",
+                                },
+                                {
+                                    option: "5500",
+                                },
+                                {
+                                    option: "6135",
+                                },
+                                {
+                                    option: "6195",
+                                },
+                                {
+                                    option: "6200",
+                                },
+                                {
+                                    option: "6400",
+                                },
+                                {
+                                    option: "6500",
+                                },
+                                {
+                                    option: "6700",
+                                },
+                                {
+                                    option: "6800",
+                                },
+                                {
+                                    option: "7000",
+                                },
+                                {
+                                    option: "7200",
+                                },
+                                {
+                                    option: "8200",
+                                },
+                            ],
+                        },
+                        seoText: `
+    <div class="text-[18px] leading-normal">
+
+        <p>
+           Грузоподъёмная техника обеспечивает удобство при работе с тяжёлыми материалами. Автомобиль с краном манипулятором помогает выполнять погрузку и перевозку без лишних усилий. Такая техника отличается маневренностью и точной работой. Компания «РусТрак» предлагает модели, рассчитанные на разные условия. Качество сборки, надёжность механизмов и продуманная конструкция позволяют технике долго служить без сбоев. Такой транспорт дарит ощущение надёжности и уверенно помогает справляться со сложными задачами.
+        </p>
+
+        <h2 class="font-medium text-[22px] mt-5 mb-3">
+            Ассортимент
+        </h2>
+
+        <p>
+            Компания «РусТрак» предлагает широкий выбор моделей для разных типов работ и условий эксплуатации, подбирая технику с оптимальной мощностью и характеристиками, чтобы она эффективно справлялась с поставленными задачами. Мы осуществляем монтаж кранов‑манипуляторов ведущих производителей:
+        </p>
+
+        <p>Марки:</p>
+
+        <ul class="list-none pl-0">
+            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
+                ИНМАН
+            </li>
+
+            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
+                HKTC
+            </li>
+
+            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
+                XCMG
+            </li>
+
+            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
+                ПАЛФИНГЕР
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                HANGIL
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                DY
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                FAW
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                UNIC
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                FASSI
+            </li>
+            <li class="relative pl-[25px] mb-[10px] text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                SOOSAN
+            </li>
+        </ul>
+
+      
+
+        <h2 class="text-[22px] mt-5 mb-3">
+           В зависимости от задач можно выбрать подходящий тип КМУ:
+        </h2>
+
+        <ul class="list-none pl-0">
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+               Тросовый — стрела оснащена тросом, что делает возможной и удобной работу ниже уровня земли. В транспортном положении она не складывается за кабиной, что особенно полезно при выполнении специфических задач.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Шарнирно‑сочленённый (крюковой) — вместо троса используется крюк. Конструкция складывается за кабиной в транспортном положении, благодаря чему техника становится компактной и удобной при перемещении.
+            </li>
+
+        <h2 class="text-[22px] mt-5 mb-3">
+            Сферы применения
+        </h2>
+
+        <p>
+            Шторный грузовик от компании «РусТрак» находят широкое применение
+            в строительных компаниях, логистических и транспортных организациях,
+            обеспечивая безопасную и удобную доставку материалов. Они используются
+            для коммерческой доставки товаров, в торговых и оптовых компаниях,
+            а также при перевозке негабаритных и тяжёлых грузов.
+            Надёжная конструкция и качественная защита груза делают их удобными
+            для длительных маршрутов и работы в любых погодных условиях,
+            обеспечивая эффективность перевозок и сохранность имущества.
+        </p>
+
+        <h2 class="font-bold text-[22px] mt-5 mb-3">
+            Конструктивные особенности крана-манипулятора
+        </h2>
+
+        <ul class="list-none pl-0">
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Большой выбор техники<br>
+              Прочный профиль Hossen — надёжная основа, благодаря которой грузовая машина с краном манипулятором сохраняет устойчивость и долговечность.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+              Основание из открытых профилей — оптимальное решение для высокой прочности и стабильности при эксплуатации.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Сертификация и контроль качества<br>
+              Усиленная монтажная плита задних опор — гарантирует надёжность при работе с тяжёлыми грузами.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+               Откидные борта на 180° — удобная загрузка и разгрузка с любой стороны, благодаря чему бортовая машина с КМУ работает быстрее и эффективнее.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+               Надёжное крепление КМУ — установка через широкую монтажную плиту и фиксация на шпильках обеспечивает безопасность и долгий срок службы.
+            </li>
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+               Износостойкий настил пола из транспортной фанеры — все швы тщательно герметизированы, что защищает от влаги и продлевает срок эксплуатации.
+            </li>
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+        Защита кабины — предотвращает случайные повреждения, сохраняя целостность при эксплуатации и делая грузовой автомобиль с КМУ более безопасным.
+            </li>
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+        Сдвижная крыша — удобный доступ и дополнительная защита перевозимых материалов.
+            </li>
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                        Окрас платформы в цвет крана — единый стиль и аккуратный внешний вид техники.
+            </li>
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                      Противосдвиговые пластины на раме — надёжное соединение надстройки с рамой, усиление конструкции с обеих сторон.
+            </li>
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                     Скрытые петли крепления груза — безопасная фиксация и эстетичный внешний вид без лишних деталей.
+            </li>
+
+        </ul>
+
+        <h2 class="font-bold text-[22px] mt-5 mb-3">
+            Сферы применения
+        </h2>
+
+        <p>
+          Кран манипулятор цена которого остаётся доступной при высоком качестве техники, находит широкое применение в самых разных сферах. Он эффективно используется на строительных площадках для подъёма и транспортировки стройматериалов, в коммунальном хозяйстве при обслуживании инфраструктуры и перевозке оборудования, а также в логистике и складских операциях для разгрузки и погрузки контейнеров и крупногабаритных грузов. Благодаря универсальности и маневренности техника подходит для работы в условиях ограниченного пространства, на городских улицах и промышленных территориях, обеспечивая высокую производительность и сокращение времени на выполнение задач.
+        </p>
+
+          <h2 class="font-bold text-[22px] mt-5 mb-3">
+           Преимущества работы с компанией «РусТрак»
+
+        </h2>
+
+         <ul class="list-none pl-0">
+
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+                Широкий выбор техники – большой ассортимент кранов-манипуляторов и грузовых автомобилей различных марок и конфигураций.
+            </li>
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+               Качество и надёжность – техника проверена на прочность и долговечность, соответствует высоким стандартам эксплуатации.
+            </li>
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+               Профессиональная поддержка – специалисты помогают подобрать оптимальное решение под конкретные задачи и условия работы.
+            </li>
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+               Сервис и обслуживание – компания обеспечивает техническую поддержку и консультации на всех этапах эксплуатации.
+            </li>
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+               Оперативная доставка – любая машина с краном манипулятором быстро поставляется в регионы.
+            </li>
+            <li class="relative pl-[25px] mb-[10px] before:content-['♦'] before:absolute before:left-0 before:top-[2px] before:text-[#fec80b] before:text-[16px]">
+               Индивидуальный подход – учитываются потребности каждого клиента, предлагаются оптимальные комплектации и дополнительные опции.
+            </li>
+              </ul>
+
+               <h2 class="font-bold text-[22px] mt-5 mb-3">
+           Надёжная техника для любых задач
+
+        </h2>
+
+          <p>
+         Купить кран манипулятор – выгодное решение для тех, кто ценит практичность и экономию времени. Мы поможем подобрать технику под ваши задачи и условия работы. Компания «РусТрак» обеспечивает большой выбор и качественное обслуживание. Сделайте уверенный шаг к повышению эффективности своих процессов. Получите профессиональную консультацию и оперативное сопровождение. Для оформления заказа свяжитесь с нами любым удобным способом.
+        </p>
+
+    </div>
+                                `,
                     },
                     {
                         id: 3,
