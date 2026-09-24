@@ -2,12 +2,14 @@ import { useTranslation } from "react-i18next";
 import { icons } from "../../assets/icons/icons";
 const { SearchIcon, CheckIcon } = icons;
 import Button from "../../components/Button/Button";
+import "./range.css";
+import LiftingCapacity from "./Ranges/LiftingCapacity";
 
 const Form = ({ selectedCategory }) => {
     const { t } = useTranslation();
 
     return (
-        <form className='hidden lg:block bg-white py-5 px-4 overflow-y-scroll overflow-x-scroll max-h-160 top-7 sticky scrollbar-thin'>
+        <form className='hidden lg:block bg-white py-5 px-4 overflow-y-scroll max-h-160 top-7 sticky scrollbar-thin'>
             <p className='mb-4 font-medium leading-[1.1]'>
                 {selectedCategory.brandsOfTrucks.title}
             </p>
@@ -68,6 +70,40 @@ const Form = ({ selectedCategory }) => {
                     )}
                 </div>
             </div>
+
+            {/* Length of Platforms */}
+            <div className='mb-8'>
+                <h1 className='text-lg font-medium mb-4'>
+                    {selectedCategory?.lengthOfPlatform?.title}
+                </h1>
+
+                <div>
+                    {selectedCategory?.lengthOfPlatform?.lengths.map(
+                        (item, i) => {
+                            return (
+                                <div key={i} className='flex flex-col p-1'>
+                                    <label className='flex items-center cursor-pointer gap-3'>
+                                        <div className='relative flex items-center'>
+                                            <input
+                                                className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
+                                                type='checkbox'
+                                            />
+                                            <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
+                                        </div>
+                                        <span>{item.option}</span>
+                                    </label>
+                                </div>
+                            );
+                        },
+                    )}
+                </div>
+            </div>
+
+            {/* range capacity slider */}
+            {selectedCategory.id === 2 && (
+                <LiftingCapacity selectedCategory={selectedCategory} />
+            )}
+            {/* ! */}
 
             <div>
                 <Button

@@ -369,6 +369,14 @@ const ru = {
                                 },
                             ],
                         },
+
+                        loaderCapacity: "Грузоподъёмность КМУ, тонн",
+
+                        rangeSliderTexts: {
+                            from: "от",
+                            upTo: "до",
+                        },
+
                         seoText: `
     <div class="text-[18px] leading-normal">
 

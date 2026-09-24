@@ -5,9 +5,10 @@ import { useParams, Link } from "react-router-dom";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import Trucks from "./Trucks";
 import { icons } from "../../assets/icons/icons";
-import SortDown from "./SortDown";
 import { useEffect, useState } from "react";
 import Form from "./Form";
+import Head from "./Head";
+
 const {
     IconLine,
     IconTable,
@@ -18,6 +19,7 @@ const {
     RefreshIcon,
 } = icons;
 import Button from "../../components/Button/Button";
+import LiftingCapacity from "./Ranges/LiftingCapacity";
 
 const FilteredCatalog = () => {
     const [isLine, setIsLine] = useState(false);
@@ -61,73 +63,22 @@ const FilteredCatalog = () => {
     }, [isFilter]);
 
     return (
-        <div className='bg-gray-100 relative'>
+        <div className='bg-gray-100 relative pb-40'>
             <Container>
                 <Breadcrumbs />
 
-                <div className='flex justify-between flex-col lg:flex-row lg:items-center mb-5'>
-                    <div className='flex flex-col gap-1 md:flex-row md:items-center md:gap-6 '>
-                        <h1 className='text-3xl font-medium'>
-                            {selectedCategory.name}
-                        </h1>
+                {/* Category SORT TABLE LINE */}
+                <Head
+                    matchingTrucks={matchingTrucks}
+                    selectedCategory={selectedCategory}
+                    handleTable={handleTable}
+                    handleLine={handleLine}
+                    setIsFilter={setIsFilter}
+                    isLine={isLine}
+                    isTable={isTable}
+                />
 
-                        <span>
-                            {matchingTrucks.length}
-                            <span className='ml-1'>
-                                {matchingTrucks.length === 1
-                                    ? t(
-                                          "header.megaMenu.categories.products.product",
-                                      )
-                                    : matchingTrucks.length >= 2 &&
-                                        matchingTrucks.length <= 4
-                                      ? t(
-                                            "header.megaMenu.categories.products.producta",
-                                        )
-                                      : t(
-                                            "header.megaMenu.categories.products.products",
-                                        )}
-                            </span>
-                        </span>
-                    </div>
-
-                    <div className='flex items-center justify-between relative'>
-                        <div
-                            onClick={() => setIsFilter((prev) => !prev)}
-                            className='flex border w-7.5 h-7.5 rounded bg-black  items-center justify-center lg:hidden'
-                        >
-                            <SettingsIcon />
-                        </div>
-
-                        <div className=' flex items-centers gap-3 lg:gap-40 self-end'>
-                            <SortDown />
-
-                            <div className='flex gap-1 items-center'>
-                                <div
-                                    onClick={handleLine}
-                                    className={`p-2 rounded-full ${isLine ? "bg-[#fec400]" : ""}`}
-                                >
-                                    <span
-                                        className={`hover:text-black text-[#A2A2A2] transform duration-300 cursor-pointer ${isLine ? "text-black" : "text-[#A2A2A2]"}`}
-                                    >
-                                        <IconLine />
-                                    </span>
-                                </div>
-
-                                <div
-                                    onClick={handleTable}
-                                    className={`p-2 rounded-full ${isTable ? "bg-[#fec400]" : "bg-none"}`}
-                                >
-                                    <span>
-                                        <IconTable
-                                            className={`hover:text-black text-[#A2A2A2] transform duration-300 cursor-pointer ${isTable ? "text-black" : ""}`}
-                                        />
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                {/* LEFT RIGHT */}
                 <div className='grid lg:grid-cols-[300px_1fr] gap-6'>
                     <Form selectedCategory={selectedCategory} />
 
@@ -157,7 +108,7 @@ const FilteredCatalog = () => {
             <div
                 className={`fixed top-0 flex flex-col h-dvh  bg-white transition-transform duration-500 z-999 w-full ${isFilter ? "translate-x-0" : "-translate-x-full"}`}
             >
-                <div className='shrink-0  flex items-center justify-between bg-black text-white py-4.5 pl-6 pr-2'>
+                <div className='shrink-0 flex items-center justify-between bg-black text-white py-4.5 pl-6 pr-2'>
                     <div>{t("filteredPage.filterResponsive.title")}</div>
                     <div onClick={() => setIsFilter((prev) => !prev)}>
                         <IconClose className='w-8 h-8 cursor-pointer' />
@@ -176,7 +127,7 @@ const FilteredCatalog = () => {
                     </div>
 
                     <p className='mb-4 font-medium leading-[1.1]'>
-                        {selectedCategory.brandsOfTrucks.title}
+                        {selectedCategory?.brandsOfTrucks?.title}
                     </p>
                     <div className='relative'>
                         <input
@@ -190,31 +141,36 @@ const FilteredCatalog = () => {
                     </div>
 
                     <div className='mt-6 mb-8'>
-                        {selectedCategory.brandsOfTrucks.brands.map((item) => {
-                            return (
-                                <div key={item} className='flex flex-col p-1'>
-                                    <label className='flex items-center cursor-pointer gap-3'>
-                                        <div className='relative flex items-center'>
-                                            <input
-                                                className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
-                                                type='checkbox'
-                                            />
-                                            <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
-                                        </div>
-                                        <span>{item}</span>
-                                    </label>
-                                </div>
-                            );
-                        })}
+                        {selectedCategory?.brandsOfTrucks?.brands.map(
+                            (item) => {
+                                return (
+                                    <div
+                                        key={item}
+                                        className='flex flex-col p-1'
+                                    >
+                                        <label className='flex items-center cursor-pointer gap-3'>
+                                            <div className='relative flex items-center'>
+                                                <input
+                                                    className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
+                                                    type='checkbox'
+                                                />
+                                                <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
+                                            </div>
+                                            <span>{item}</span>
+                                        </label>
+                                    </div>
+                                );
+                            },
+                        )}
                     </div>
 
                     <div className='mb-8'>
                         <h1 className='text-lg font-medium mb-4'>
-                            {selectedCategory.GrossLoad.title}
+                            {selectedCategory?.GrossLoad?.title}
                         </h1>
 
                         <div>
-                            {selectedCategory.GrossLoad.grossCapacities.map(
+                            {selectedCategory?.GrossLoad?.grossCapacities?.map(
                                 (item, i) => {
                                     return (
                                         <div
@@ -229,7 +185,7 @@ const FilteredCatalog = () => {
                                                     />
                                                     <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
                                                 </div>
-                                                <span>{item.cap}</span>
+                                                <span>{item?.cap}</span>
                                             </label>
                                         </div>
                                     );
@@ -238,13 +194,14 @@ const FilteredCatalog = () => {
                         </div>
                     </div>
 
+                    {/* lengthOfPlatform */}
                     <div className='mb-8'>
                         <h1 className='text-lg font-medium mb-4'>
-                            {selectedCategory.lengthOfPlatform.title}
+                            {selectedCategory?.lengthOfPlatform?.title}
                         </h1>
 
                         <div>
-                            {selectedCategory.lengthOfPlatform.lengths.map(
+                            {selectedCategory?.lengthOfPlatform?.lengths.map(
                                 (item, i) => {
                                     return (
                                         <div
@@ -267,6 +224,10 @@ const FilteredCatalog = () => {
                             )}
                         </div>
                     </div>
+
+                    {selectedCategory.id === 2 && (
+                        <LiftingCapacity selectedCategory={selectedCategory} />
+                    )}
 
                     <div>
                         <Button

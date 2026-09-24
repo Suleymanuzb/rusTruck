@@ -1,0 +1,49 @@
+.my-slider .ant-slider-rail {
+  height: 4px;
+  background: #e5e5e5;
+}
+
+.my-slider .ant-slider-track {
+  height: 4px;
+  background: #fec80b !important;
+}
+
+.my-slider .ant-slider-track:hover {
+  height: 4px !important;
+  background: #fec80b;
+}
+
+.my-slider .ant-slider-handle:hover::after {
+  box-shadow: 0 0 0 2px #fec80b;
+}
+
+.my-slider .ant-slider-handle::after {
+  background: #fec80b;
+  border: 2px solid #fec80b;
+  box-shadow: 0 0 0 2px #fec80b;
+}
+
+.my-slider .ant-slider-handle:hover::after {
+  background: #fec80b;
+}
+
+.my-slider .ant-slider-handle:hover::after {
+  background: #fec80b;
+  border: 2px solid #fec80b;
+  box-shadow: 0 0 0 2px #fec80b;
+}
+
+
+.my-slider .ant-slider-handle::after {
+  box-shadow: 0 0 0 2px #fec80b !important;
+}
+
+.my-slider .ant-slider-handle:hover::after {
+  background: #fec80b;
+  border: 2px solid #fec80b;
+  box-shadow: 0 0 0 2px #fec80b;
+}
+
+.my-slider .ant-slider-track:hover .ant-slider-track-1:hover {
+  background: #fec80b;
+}
