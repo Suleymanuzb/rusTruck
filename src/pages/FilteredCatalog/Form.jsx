@@ -7,10 +7,11 @@ const Form = ({ selectedCategory }) => {
     const { t } = useTranslation();
 
     return (
-        <form className='hidden lg:block bg-white py-5 px-4 overflow-y-auto max-h-160 top-25 sticky'>
+        <form className='hidden lg:block bg-white py-5 px-4 overflow-y-scroll overflow-x-scroll max-h-160 top-7 sticky scrollbar-thin'>
             <p className='mb-4 font-medium leading-[1.1]'>
                 {selectedCategory.brandsOfTrucks.title}
             </p>
+
             <div className='relative'>
                 <input
                     type='text'

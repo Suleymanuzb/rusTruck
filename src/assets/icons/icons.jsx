@@ -1849,4 +1849,37 @@ export const icons = {
             />
         </svg>
     ),
+    SettingsIcon: (props) => (
+        <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='1em'
+            height='1em'
+            viewBox='0 0 24 24'
+            {...props}
+        >
+            <path fill='none' d='M0 0h24v24H0z' />
+            <path
+                fill='#fec400'
+                d='M13.878 8.75H4a.75.75 0 0 1 0-1.5h9.878a2.251 2.251 0 0 1 4.244 0H20a.75.75 0 0 1 0 1.5h-1.878a2.251 2.251 0 0 1-4.244 0m6.122 8a.75.75 0 0 0 0-1.5h-9.878a2.251 2.251 0 0 0-4.244 0H4a.75.75 0 0 0 0 1.5h1.878a2.25 2.25 0 0 0 4.244 0z'
+            />
+        </svg>
+    ),
+    RefreshIcon: (props) => (
+        <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='1em'
+            height='1em'
+            viewBox='0 0 24 24'
+            {...props}
+        >
+            <path fill='none' d='M0 0h24v24H0z' />
+            <g fill='none' stroke='#fec400' strokeLinecap='round'>
+                <path d='M6.446 10.512a5.75 5.75 0 0 0 8.429 6.468m2.679-3.492A5.75 5.75 0 0 0 9.125 7.02' />
+                <path
+                    strokeLinejoin='round'
+                    d='m3.75 12.5 2.5-2.5 2.5 2.5m6.5-1 2.5 2.5 2.5-2.5'
+                />
+            </g>
+        </svg>
+    ),
 };

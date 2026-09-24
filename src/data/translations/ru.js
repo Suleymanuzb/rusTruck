@@ -452,6 +452,11 @@ const ru = {
         filterSideBar: {
             showMore: "Показать товары",
         },
+
+        filterResponsive: {
+            title: "Фильтры",
+            reset: "сбросить",
+        },
     },
 
     hero: {
