@@ -62,7 +62,7 @@ const MegaMenu = ({ openMenu, setOpenMenu }) => {
     }, [location.pathname, setOpenMenu]);
 
     return (
-        <div className='fixed overflow-y-auto left-0 top-36.5 bottom-0 z-10 w-screen bg-gray-200 pt-4'>
+        <div className='fixed overflow-y-auto left-0 top-25 sm:top-16 lg:top-19.5 bottom-0 z-10 w-screen bg-gray-200 pt-4'>
             <Container>
                 <div className='flex flex-col justify-between max-[576px]:min-h-[calc(100vh-12.125rem)] '>
                     <div className='min-[576px]:grid min-[576px]:grid-cols-2 gap-y-5 md:grid-cols-20'>
