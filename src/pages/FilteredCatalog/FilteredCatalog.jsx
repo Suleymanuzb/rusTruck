@@ -6,7 +6,7 @@ import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import Trucks from "./Trucks";
 import { icons } from "../../assets/icons/icons";
 import SortDown from "./SortDown";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Form from "./Form";
 const {
     IconLine,
@@ -47,6 +47,14 @@ const FilteredCatalog = () => {
     const matchingTrucks = trucks.filter(
         (truck) => truck.categoryId === selectedCategory?.id,
     );
+
+    useEffect(() => {
+        if (isFilter) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "";
+        }
+    }, [isFilter]);
 
     return (
         <div className='bg-gray-100 relative'>

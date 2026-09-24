@@ -61,6 +61,14 @@ const MegaMenu = ({ openMenu, setOpenMenu }) => {
         }
     }, [location.pathname, setOpenMenu]);
 
+    useEffect(() => {
+        if (openMenu) {
+            document.body.style.overflow = " hidden";
+        } else {
+            document.body.style.overflow = "";
+        }
+    }, [openMenu]);
+
     return (
         <div className='fixed overflow-y-auto h-screen! left-0 top-31 sm:top-32 lg:top-36 bottom-0 z-10 w-screen bg-gray-200 pt-4'>
             <Container>
