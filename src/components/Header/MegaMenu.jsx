@@ -62,23 +62,27 @@ const MegaMenu = ({ openMenu, setOpenMenu }) => {
     }, [location.pathname, setOpenMenu]);
 
     useEffect(() => {
-        if (openMenu) {
+        if (openMenu === "catalog") {
             document.body.style.overflow = " hidden";
         } else {
             document.body.style.overflow = "";
         }
+
+        return () => {
+            document.body.style.overflow = "";
+        };
     }, [openMenu]);
 
     return (
-        <div className='fixed overflow-y-auto h-screen! left-0 top-31 sm:top-32 lg:top-36 bottom-0 z-10 w-screen bg-gray-200 pt-4'>
+        <div className='fixed overflow-y-auto h-full overscroll-contain left-0 top-31 sm:top-32 lg:top-36 bottom-0 z-10 w-screen bg-gray-200 pt-4'>
             <Container>
                 <div className='flex flex-col justify-between max-[576px]:min-h-[calc(100vh-12.125rem)] '>
-                    <div className='min-[576px]:grid min-[576px]:grid-cols-2 gap-y-5 md:grid-cols-20'>
+                    <div className='max-[500px]:gap-y-1! min-[576px]:grid min-[576px]:grid-cols-2 gap-y-5 md:grid-cols-20'>
                         <div
                             onClick={handleCategories}
                             className='md:col-span-6'
                         >
-                            <h1 className='text-[1.6rem] leading-normal mb-4 font-bold text-black'>
+                            <h1 className='text-[1.6rem] leading-normal min-[500px]:mb-4 font-bold text-black'>
                                 {t("header.megaMenu.categories.title")}
                                 <motion.span
                                     animate={{
@@ -118,7 +122,7 @@ const MegaMenu = ({ openMenu, setOpenMenu }) => {
                         </div>
 
                         <div onClick={handleAboutUs} className='md:col-span-6'>
-                            <h1 className='text-[1.6rem] leading-normal mb-4 font-bold text-black '>
+                            <h1 className='text-[1.6rem] leading-normal min-[500px]:mb-4 font-bold text-black '>
                                 {t("header.megaMenu.aboutUs.title")}
                                 <motion.span
                                     animate={{
@@ -162,7 +166,7 @@ const MegaMenu = ({ openMenu, setOpenMenu }) => {
                                 onClick={handleMedia}
                                 className='md:col-span-4'
                             >
-                                <h1 className='text-[1.6rem] leading-normal mb-4 font-bold text-black '>
+                                <h1 className='text-[1.6rem] leading-normal min-[500px]:mb-4 font-bold text-black '>
                                     {t("header.megaMenu.media.title")}
                                     <motion.span
                                         animate={{
@@ -207,7 +211,7 @@ const MegaMenu = ({ openMenu, setOpenMenu }) => {
                                         return (
                                             <li
                                                 key={link.path}
-                                                className='font-bold text-[1.6rem] leading-normal transition-all duration-300 hover:text-[#ffd43a] cursor-pointer mb-6'
+                                                className='font-bold text-[1.6rem] leading-normal transition-all duration-300 hover:text-[#ffd43a] cursor-pointer min-[500px]:mb-6'
                                             >
                                                 <Link
                                                     onClick={(e) => {

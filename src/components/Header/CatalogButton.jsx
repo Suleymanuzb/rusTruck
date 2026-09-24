@@ -44,6 +44,7 @@ const CatalogButton = ({ openMenu, setOpenMenu, isSticky }) => {
                     overflow-hidden
                     whitespace-nowrap
                     cursor-pointer
+                    outline-none
                 '
                 onClick={() => {
                     setOpenMenu(isOpen ? null : "catalog");

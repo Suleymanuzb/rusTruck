@@ -54,6 +54,10 @@ const FilteredCatalog = () => {
         } else {
             document.body.style.overflow = "";
         }
+
+        return () => {
+            document.body.style.overflow = "";
+        };
     }, [isFilter]);
 
     return (
@@ -151,9 +155,9 @@ const FilteredCatalog = () => {
             </Container>
 
             <div
-                className={`absolute -top-31.5 flex flex-col h-screen bg-white transition-transform duration-500 z-999 w-full ${isFilter ? "translate-x-0" : "-translate-x-full"}`}
+                className={`fixed top-0 flex flex-col h-dvh  bg-white transition-transform duration-500 z-999 w-full ${isFilter ? "translate-x-0" : "-translate-x-full"}`}
             >
-                <div className='shrink-0 flex items-center justify-between bg-black text-white py-4.5 pl-6 pr-2'>
+                <div className='shrink-0  flex items-center justify-between bg-black text-white py-4.5 pl-6 pr-2'>
                     <div>{t("filteredPage.filterResponsive.title")}</div>
                     <div onClick={() => setIsFilter((prev) => !prev)}>
                         <IconClose className='w-8 h-8 cursor-pointer' />
