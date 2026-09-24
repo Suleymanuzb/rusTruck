@@ -111,7 +111,7 @@ const News = () => {
                 <div
                     ref={newsGridRef}
                     data-aos='fade-up'
-                    className={`scroll-mt-37 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-5 transition-opacity duration-300`}
+                    className={`scroll-mt-25 md:scroll-mt-37 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-5 transition-opacity duration-300`}
                 >
                     {paginatedNews.map((item, index) => {
                         const truckNewsLanguage = item?.[i18next.language];
@@ -136,7 +136,7 @@ const News = () => {
 
                                         <Link
                                             to={item.slug}
-                                            className='font-medium leading-[120%]'
+                                            className='max-[400px]:line-clamp-1 max-[550px]:text-[10px] max-[550px]:font-medium font-bold leading-[120%]'
                                         >
                                             {truckNewsLanguage.mainTitle}
                                         </Link>

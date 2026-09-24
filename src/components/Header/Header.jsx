@@ -134,7 +134,10 @@ const Header = () => {
                             />
                             {isSticky && (
                                 <div className='flex flex-col leading-none lg:hidden'>
-                                    <Link className='font-extrabold mb-0.5'>
+                                    <Link
+                                        to={"/"}
+                                        className='font-extrabold mb-0.5'
+                                    >
                                         РУСТРАК
                                     </Link>
                                     <Link to={"tel: 8 800-511-05-25"}>
