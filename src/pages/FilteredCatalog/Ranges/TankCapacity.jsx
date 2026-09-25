@@ -12,7 +12,7 @@ const TankCapacity = ({ selectedCategory }) => {
                 range
                 className='my-slider'
                 min={0}
-                max={1000}
+                max={10000}
                 value={rangeValues}
                 onChange={setRangeValues}
             />

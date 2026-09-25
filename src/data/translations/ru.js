@@ -40,8 +40,6 @@ const ru = {
                         slug: "шторные-автомобили",
 
                         brandsOfTrucks: {
-                            title: "Марка",
-
                             brands: [
                                 "ГАЗ",
                                 "КАМАЗ",
@@ -288,8 +286,6 @@ const ru = {
                         name: "Краны-манипуляторы",
                         slug: "краны-манипуляторы",
                         brandsOfTrucks: {
-                            title: "Марка",
-
                             brands: [
                                 "ГАЗ",
                                 "КАМАЗ",
@@ -572,8 +568,6 @@ const ru = {
                             upTo: "до",
                         },
                         brandsOfTrucks: {
-                            title: "Марка",
-
                             brands: [
                                 "ГАЗ",
                                 "JAC",
@@ -670,41 +664,1074 @@ const ru = {
                         id: 4,
                         name: "Автогидроподъёмники",
                         slug: "автогидроподъёмники",
+                        brandsOfTrucks: {
+                            brands: ["ГАЗ"],
+                        },
+
+                        WheelFormula: {
+                            title: "Колесная формула",
+
+                            wheelFormulaSizes: [
+                                {
+                                    size: "4x2",
+                                },
+                            ],
+                        },
+
+                        seoText: `
+<div class="text-lg leading-normal">
+    <p>
+        Машины для работы на высоте становятся всё более технологичными и удобными. Купить автогидроподъемник — выгодное решение для повышения эффективности и безопасности работ. Такая техника обеспечивает точное выполнение задач и минимизирует риски. Компания «РусТрак» предлагает надёжные модели для разных условий эксплуатации. Продуманная конструкция гарантирует устойчивость и точность движения. Дополнительные функции делают управление проще и повышают удобство работы.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Ассортимент
+    </h2>
+
+    <p>
+        Компания «РусТрак» предлагает технику разных типов и назначения, подходящую для любых задач. В наличии есть машины проверенных марок:
+    </p>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            ГАЗ
+        </li>
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            ISUZU
+        </li>
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            FUSO
+        </li>
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            PALFINGER
+        </li>
+    </ul>
+
+    <p>
+        Вся техника сертифицирована и соответствует строгим стандартам качества, что гарантирует безопасность и долгий срок эксплуатации. Компания соблюдает международные нормы и российские требования, а каждая единица проходит проверку перед поставкой клиенту. Это позволяет клиентам быть уверенными в надежности и эффективности приобретаемого оборудования.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Особенности автогидроподъемников
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Регулируемая высота подъёма<br>
+            Позволяет точно поднимать людей и грузы на нужную высоту, повышая безопасность и удобство работы.
+        </li>
+
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Гидравлическая система управления<br>
+            Обеспечивает плавное и точное движение стрелы, снижая риск резких рывков и повреждений.
+        </li>
+
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Стабилизационные опоры<br>
+            Гарантируют устойчивость техники даже на неровной поверхности, предотвращая опрокидывание.
+        </li>
+
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Компактные размеры шасси<br>
+            Упрощают маневрирование в ограниченном пространстве и транспортировку оборудования.
+        </li>
+
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Эргономичное управление<br>
+            Панель управления продумана для удобства оператора, сокращая время обучения и снижая усталость.
+        </li>
+
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Надёжная конструкция стрелы и платформы<br>
+            Обеспечивает долговечность эксплуатации и высокую устойчивость при работе с грузом.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Сферы применения
+    </h2>
+
+    <p>
+        Купить автогидроподъемник будет надёжным решением для повышения безопасности и эффективности работ. Такие машины применяются для обслуживания линий электропередач, монтажа и ремонта наружной рекламы, установки освещения и видеонаблюдения, а также для строительных и отделочных работ. Техника востребована в коммунальном хозяйстве, при обслуживании зданий и сооружений, на складах и промышленных объектах. Универсальность и надежность ускоряют процессы, повышают безопасность и снижают трудозатраты. Автогидроподъемники обеспечивают точное и эффективное выполнение задач в любых условиях. Использование такой техники становится оптимальным решением для организаций любого масштаба.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Преимущества работы с компанией «РусТрак»
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Широкий ассортимент техники<br>
+            Компания предлагает разнообразные модели автогидроподъемников, подходящие для разных задач и условий эксплуатации.
+        </li>
+
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Профессиональная консультация<br>
+            Специалисты помогают выбрать оптимальное оборудование с учётом высоты подъёма, грузоподъёмности и специфики работы.
+        </li>
+
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Гарантия качества<br>
+            Все машины проходят проверку и соответствуют стандартам безопасности, что обеспечивает надёжную и долговечную эксплуатацию.
+        </li>
+
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Удобство покупки<br>
+            Компания предлагает гибкие условия приобретения, включая доставку и оформление документов, что экономит время клиентов.
+        </li>
+
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Поддержка и обслуживание<br>
+            После покупки доступны сервисные услуги и консультации по эксплуатации, что продлевает срок службы техники.
+        </li>
+
+        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Индивидуальный подход<br>
+            Каждому клиенту подбираются решения, учитывающие конкретные задачи и бюджет, что повышает эффективность использования техники.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Техника, которая облегчает работу на высоте
+    </h2>
+
+    <p>
+        Купить автогидроподъемник — шаг к повышению эффективности и безопасности работы. Мы поможем с выбором техники, учитывая ваши задачи и требования. Компания «РусТрак» предоставляет широкий ассортимент моделей и консультации специалистов. Изучите характеристики и подберите подходящую модель. Действуйте активно, чтобы обеспечить удобство и продуктивность работы. Для оформления заказа свяжитесь с нами любым удобным способом, и мы поможем выбрать оптимальное решение.
+    </p>
+</div>
+`,
                     },
                     {
                         id: 5,
                         name: "Автоцистерны",
                         slug: "автоцистерны",
+                        brands: ["ГАЗ", "КАМАЗ", "JAC"],
+
+                        typesOfTanks: {
+                            title: "Тип автоцистерны",
+
+                            tanks: [
+                                {
+                                    tank: "Вакуумная автоцистерна",
+                                },
+                                {
+                                    tank: "Пищевая автоцистерна",
+                                },
+                            ],
+                        },
+
+                        TankCapacity: {
+                            title: "Объем цистерны, л.",
+                            from: "от",
+                            upTo: "до",
+                        },
+
+                        seoText: `
+<div class="text-lg leading-[1.5]">
+    <p>
+        Техника для обслуживания жидких и вязких сред требует точности и продуманного подхода. Вакуумная автоцистерна обеспечивает аккуратное обращение с рабочими средами и поддерживает стабильность технологических операций. Её конструкция направлена на удобное управление и безопасность персонала. Компания «РусТрак» предлагает решения, соответствующие строгим требованиям и особенностям отрасли. Модели отличаются прочностью и способностью сохранять рабочие характеристики при длительной эксплуатации. Такой подход укрепляет доверие к технике и снижает вероятность непредвидённых остановок.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Ассортимент
+    </h2>
+
+    <p>
+        Мы предлагаем модели автоцистерн, доступные в разных исполнениях и модификациях. В нашем каталоге представлен большой выбор техники, среди которой каждый сможет найти подходящий вариант для своих нужд.
+    </p>
+
+    <p>Марка:</p>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            ГАЗ
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            КАМАЗ
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            JAC
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            ISUZU
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            HYUNDAI
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            HINO
+        </li>
+    </ul>
+
+    <p>Тип автоцистерны:</p>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Вакуумная автоцистерна
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Пищевая автоцистерна
+        </li>
+    </ul>
+
+    <p>
+        Все модели проходят обязательную сертификацию и соответствуют российским и международным стандартам качества. Это обеспечивает надёжность, безопасность эксплуатации и долговечность техники, а также даёт уверенность в соответствии оборудования заявленным требованиям.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Особенности автоцистерн
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Создание вакуума – обеспечивает эффективный сбор и транспортировку жидких и вязких веществ без разливов и потерь.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Прочность конструкции – корпус и комплектующие выполнены из материалов, устойчивых к коррозии и механическим нагрузкам.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Система управления – позволяет точно контролировать процесс закачки и откачки жидкостей, упрощая работу оператора.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Универсальность применения – техника может использоваться в различных отраслях благодаря адаптируемым параметрам и модификациям.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Обслуживание и ремонт – продуманная конструкция упрощает доступ к ключевым узлам для профилактики и ремонта.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Безопасность эксплуатации – встроенные системы защиты предотвращают аварийные ситуации и обеспечивают безопасную работу с опасными средами.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Сферы применения
+    </h2>
+
+    <p>
+        Автоцистерна вакуумная используется в самых разных сферах, где важны безопасная и эффективная транспортировка и хранение жидких и вязких веществ. Она применяется в промышленности для перемещения технологических жидкостей, в коммунальной сфере для откачки сточных вод и обслуживания городских систем, а также в пищевой отрасли для перевозки жидких продуктов и сырья. Надёжность и прочность конструкции делают её востребованной в строительстве и сельском хозяйстве, где требуется аккуратная работа с жидкостями при различных условиях эксплуатации. Такая автоцистерна помогает оптимизировать процессы, повышает эффективность работы и обеспечивает безопасность персонала.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Преимущества работы с компанией «РусТрак»
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Широкий ассортимент техники – в наличии различные модели вакуумных автоцистерн, адаптированные под конкретные задачи и условия эксплуатации.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Надёжность оборудования – все автоцистерны проходят строгий контроль качества и обеспечивают безопасную и стабильную работу.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Индивидуальный подбор решений – специалисты помогают выбрать модель с оптимальными характеристиками и комплектацией под ваши потребности.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Поддержка на всех этапах – консультации при выборе, сопровождение при заказе и техническая поддержка после покупки.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Доставка и сервис – компания обеспечивает оперативную поставку и качественное обслуживание техники в Нижнем Новгороде и регионе.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Прозрачные условия сотрудничества – честные цены, подробные спецификации и официальная документация для каждого заказа.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Комфорт и безопасность при транспортировке жидкостей
+    </h2>
+
+    <p>
+        Автоцистерна, купить которую не только выгодно, но и удобно, обеспечит надёжную и безопасную работу при транспортировке и хранении различных жидкостей. Выберите модель, соответствующую вашим требованиям и условиям эксплуатации. Компания «РусТрак» готова предоставить консультацию и помочь с подбором техники. Ознакомьтесь с техническими характеристиками и доступными опциями. Сделайте шаг к повышению эффективности и безопасности ваших процессов. Оформите заказ на нашем сайте или свяжитесь с нами любым удобным способом.
+    </p>
+</div>
+`,
                     },
                     {
                         id: 6,
                         name: "Автомобили-эвакуаторы",
                         slug: "автомобили-эвакуаторы",
+                        brandsOfTrucks: {
+                            brands: ["ГАЗ"],
+                        },
+
+                        typesOfFlatbedPlatforms: {
+                            title: "Тип бортовой платформы",
+
+                            flatbeds: [{ flatbed: "Прямого типа" }],
+                        },
+
+                        WheelFormula: {
+                            title: "Колесная формула",
+
+                            wheelFormulaSizes: [
+                                {
+                                    size: "4x2",
+                                },
+                            ],
+                        },
+
+                        lengthOfPlatform: {
+                            title: "Длина платформы, м",
+
+                            lengths: [
+                                {
+                                    option: "4600",
+                                },
+                            ],
+                        },
+
+                        seoText: `
+<div class="text-lg leading-[1.5]">
+    <p>
+        Автомобильная техника развивается стремительными темпами, предлагая водителям новые возможности и удобства. Купить автоэвакуатор становится разумным решением для расширения возможностей бизнеса и повышения мобильности. Сфера перевозки автомобилей требует надежного оборудования и точного планирования. Компания «РусТрак» предлагает специализированную технику, которая отвечает высоким стандартам безопасности. Внедрение современных решений позволяет сократить время выполнения задач и повысить качество обслуживания. Надежное оборудование сочетает функциональность с долговечностью и простотой эксплуатации.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Ассортимент
+    </h2>
+
+    <p>
+        В наличии представлена надежная техника, рассчитанная на разные условия эксплуатации и задачи. Модели подбираются с учетом требований к грузоподъемности, маневренности и техническим характеристикам, что обеспечивает удобство и стабильность работы.
+    </p>
+
+    <h3>
+        Доступные варианты на базе:
+    </h3>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            КАМАЗ
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            ISUZU
+        </li>
+    </ul>
+
+    <p>
+        Каждая позиция отличается качественной сборкой и продуманной конструкцией, что положительно сказывается на сроке службы и удобстве эксплуатации. Такой выбор позволяет подобрать подходящее решение под конкретные условия.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Особенности автоэвакуаторов
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Надежность конструкции — эвакуатор для автомобиля рассчитан на интенсивную эксплуатацию и стабильную работу при высоких нагрузках.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Высокая грузоподъемность — позволяет безопасно перевозить различные транспортные средства без снижения эффективности.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Удобство управления — продуманная компоновка упрощает работу оператора и снижает утомляемость.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Долговечность узлов и агрегатов — качественные материалы и сборка увеличивают срок службы техники.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Безопасность при погрузке — технические решения обеспечивают устойчивость и контроль при выполнении работ.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Универсальность применения — эвакуаторы на шасси КАМАЗ и ISUZU подходят для выполнения разных задач в любых условиях эксплуатации.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Сферы применения
+    </h2>
+
+    <p>
+        Эвакатор с КМУ широко применяется для перевозки легковых транспортных средств на различные расстояния и для решения сложных задач на дороге. Конструкция и технические возможности обеспечивают безопасную погрузку и стабильное перемещение без риска повреждений, а удобство управления позволяет легко маневрировать даже в плотном городском движении.
+    </p>
+
+    <p>
+        Эвакуационный автомобиль эффективно используется для эвакуации неисправных автомобилей после поломок и дорожно-транспортных происшествий. Надежность узлов и прочность конструкции позволяют выполнять задачи на трассах и в условиях ограниченного пространства без потери эффективности.
+    </p>
+
+    <p>
+        Дополнительно возможна эксплуатация при работе с коммерческим транспортом и на площадках с ограниченным пространством. Универсальность конструкции делает такие автомобили подходящими для регулярной и интенсивной эксплуатации в разных условиях.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Преимущества работы с компанией «РусТрак»
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Наличие всех необходимых сертификатов — техника соответствует установленным требованиям и нормативам.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Контроль качества на каждом этапе — проверка оборудования перед передачей заказчику.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Гарантийное и послегарантийное обслуживание — техническая поддержка в процессе эксплуатации.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Удобный процесс покупки — сопровождение сделки и помощь с оформлением документов.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Практический опыт работы — понимание особенностей техники и условий эксплуатации.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Конкурентная цена — возможность приобрести недорогой автоэвакуатор без ущерба для качества.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Доверие со стороны клиентов — стабильная работа и подтвержденное качество поставляемой техники.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Современные решения для перевозки
+    </h2>
+
+    <p>
+        Купить эвакуатор с КМУ — практичное решение для расширения возможностей транспортировки и облегчения работы на дорогах. Такой транспорт открывает новые горизонты и упрощает выполнение сложных задач. Компания «РусТрак» предлагает проверенную технику с гарантией качества и долгим сроком службы. Позаботьтесь о безопасности и эффективности своих перевозок. Сделайте работу более удобной и надежной с современным оборудованием. Для оформления заказа свяжитесь с нами любым удобным способом, и мы поможем подобрать оптимальное решение.
+    </p>
+</div>
+`,
                     },
                     {
                         id: 7,
                         name: "Изотермические фургоны",
                         slug: "изотермические-фургоны",
+                        brandsOfTrucks: {
+                            brands: [
+                                "ГАЗ",
+                                "КАМАЗ",
+                                "JAC",
+                                "FAW",
+                                "FOTON",
+                                "DONG FENG",
+                                "МАЗ",
+                            ],
+                        },
+
+                        lengthOfPlatform: {
+                            title: "Длина платформы, м",
+
+                            lengths: [
+                                {
+                                    option: "4200",
+                                },
+                                {
+                                    option: "4500...7500",
+                                },
+                                {
+                                    option: "4800",
+                                },
+                                {
+                                    option: "5200...7400",
+                                },
+                                {
+                                    option: "5500...7500",
+                                },
+                                {
+                                    option: "6200...7500",
+                                },
+                                {
+                                    option: "6700...7400",
+                                },
+                                {
+                                    option: "7000",
+                                },
+                                {
+                                    option: "8000",
+                                },
+                                {
+                                    option: "8400",
+                                },
+                            ],
+                        },
+
+                        seoText: `
+<div class="text-lg leading-[1.5]">
+    <p>
+        Автомобильная техника продолжает развиваться, открывая новые возможности для бизнеса и промышленности. Многие компании стремятся купить бортовые автомобили для повышения эффективности транспортировки грузов. Выбор подходящей модели требует внимательного изучения характеристик и эксплуатационных качеств. Компания «РусТрак» предлагает широкий ассортимент грузовых машин, отвечающих современным требованиям надежности. Техническая поддержка и сервисное обслуживание играют важную роль в долгосрочной эксплуатации транспорта. Инвестиции в качественную технику помогают оптимизировать расходы и ускорить логистические процессы.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Ассортимент
+    </h2>
+
+    <p>
+        Компания «РусТрак» предлагает широкий выбор бортовых автомобилей, позволяя подобрать технику под любые задачи и бюджет. В нашем каталоге представлены надежные и проверенные модели от ведущих производителей:
+    </p>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            KAMAZ
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            JAC
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            DAEWOO
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            FAW
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            ISUZU
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            FOTON
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            HYUNDAI
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            HINO
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            FUSO
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            DONG FENG
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            МАЗ
+        </li>
+    </ul>
+
+    <p>
+        Каждая марка обладает своими преимуществами, а специалисты «РусТрак» помогут выбрать оптимальный вариант для вашего бизнеса. Независимо от выбранной модели, вы получите высокое качество, гарантию и полное сервисное сопровождение.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Особенности бортовых автомобилей
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Надежность и долговечность — техника выдерживает большие нагрузки и интенсивную эксплуатацию без снижения производительности.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Разнообразие моделей — широкий выбор марок и модификаций позволяет подобрать автомобиль под любые задачи и бюджет.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Высокая грузоподъемность — каждая грузовая бортовая платформа спроектирована для эффективной транспортировки грузов различного объема и веса.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Современные технологии — машины оснащены современными двигателями и системами безопасности, что повышает комфорт и экономичность.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Гарантийное обслуживание — «РусТрак» обеспечивает поддержку и сервисное сопровождение на весь срок эксплуатации.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Дополнительные опции и комплектации — возможность адаптировать автомобиль под специфические требования бизнеса.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Экономичность и эффективность — оптимальное соотношение цены, затрат на обслуживание и эксплуатационных характеристик.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Сферы применения
+    </h2>
+
+    <p>
+        Бортовые автомобили находят широкое применение в сфере грузоперевозок, обеспечивая быструю и безопасную доставку различных товаров. Многие компании стремятся купить бортовой грузовик, чтобы транспортировать строительные материалы, промышленное оборудование и другие тяжелые грузы, где важна надежность техники и стабильная работа в любых условиях.
+    </p>
+
+    <p>
+        Кроме того, такой автомобиль с бортовой платформой активно используется в сельском хозяйстве для перевозки сельскохозяйственной продукции, кормов и техники. Компактные и маневренные модели позволяют работать на узких дорогах и сельских участках, облегчая логистику и снижая время на транспортировку.
+    </p>
+
+    <p>
+        В промышленном и коммерческом секторе бортовые машины помогают организовать оперативные поставки продукции, ускоряют работу предприятий и повышают эффективность бизнеса. Возможность адаптировать технику под конкретные задачи делает её универсальным решением для компаний различного профиля.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Преимущества работы с компанией «РусТрак»
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Широкий выбор техники — разнообразие марок и моделей позволяет подобрать бортовой грузовик цена которого не только выгодна, но и соответствует потребностям под любые задачи и бюджет.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Профессиональная консультация — специалисты помогут выбрать оптимальную модель, учитывая потребности вашего бизнеса.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Гарантия качества — все автомобили проходят проверку и поставляются с официальной гарантией производителя.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Сервисное сопровождение — полная поддержка на всех этапах эксплуатации: от обслуживания до ремонта.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Индивидуальный подход — подбор дополнительных опций и комплектаций под конкретные задачи и отрасли.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Удобные условия покупки — гибкие схемы оплаты и помощь в оформлении документов делают процесс покупки простым и прозрачным.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Надежность и ответственность — компания обеспечивает своевременную поставку и долгосрочное сотрудничество с клиентами.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Надежные машины для больших задач
+    </h2>
+
+    <p>
+        Новый бортовой автомобиль станет надежным помощником в любых транспортных задачах. Компания «РусТрак» предлагает широкий выбор техники с гарантией качества и поддержкой специалистов. Мы поможем подобрать подходящую модель и оформить покупку без лишних сложностей. Обновите автопарк и повысьте эффективность работы вашей компании. Воспользуйтесь дополнительными опциями и сервисными пакетами для долгой и бесперебойной эксплуатации. Для оформления заказа свяжитесь с нами любым удобным способом, и мы обеспечим быстрый и удобный процесс покупки.
+    </p>
+</div>
+`,
                     },
                     {
                         id: 8,
                         name: "Контейнеровозы",
                         slug: "контейнеровозы",
+                        brandsOfTrucks: {
+                            brands: ["ГАЗ", "КАМАЗ"],
+                        },
+                        WheelFormula: {
+                            title: "Колесная формула",
+
+                            wheelFormulaSizes: [
+                                {
+                                    size: "4x2",
+                                },
+                                {
+                                    size: "6x4",
+                                },
+                            ],
+                        },
+
+                        seoText: `
+<div class="text-lg leading-[1.5]">
+    <p>
+        Транспортировка грузов обеспечивает быструю и надежную доставку между городами и регионами. Купить контейнеровоз для увеличения мобильности и объема перевозок помогает компаниям справляться с большими объемами работы. Компания «РусТрак» предлагает широкий выбор грузовых автомобилей для разных задач и условий работы. Использование современных машин ускоряет доставку и повышает безопасность грузов. Техника для перевозки контейнеров позволяет перевозить разнообразные грузы с высокой эффективностью. Передовые технологии в автомобильной логистике делают перевозки более удобными и надежными.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Ассортимент
+    </h2>
+
+    <p>
+        Компания «РусТрак» предлагает разнообразные авто контейнеровозы, подходящие для разных задач и условий эксплуатации. В нашем предложении представлены марки, известные надежностью, высокой грузоподъемностью и актуальными технологиями:
+    </p>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            ГАЗ
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            КАМАЗ
+        </li>
+    </ul>
+
+    <p>
+        Каждая модель оснащена всем необходимым для безопасной и быстрой транспортировки грузов. Мы уделяем внимание качеству техники и удобству эксплуатации, чтобы перевозки проходили максимально эффективно.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Особенности контейнеровозов
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Высокая грузоподъемность — позволяют перевозить большие объемы грузов за одну поездку, снижая количество рейсов и экономя время.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Надежность конструкции — прочная рама и шасси обеспечивают стабильную работу даже при сложных дорожных условиях.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Универсальность применения — подходят для перевозки разных типов контейнеров и грузов, что делает их удобными для разнообразных задач.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Маневренность и мобильность — возможность работы на узких улицах и в городских условиях, где крупная техника менее эффективна.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Современные технологии и безопасность — передовые тормозные системы, подвеска и электроника повышают безопасность перевозок и комфорт водителя.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Экономичность эксплуатации — контейнеровоз, цена которого сочетает доступность и эффективность, позволяет сократить расходы на эксплуатацию.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Сферы применения
+    </h2>
+
+    <p>
+        Контейнерные автомобили широко используются для перевозки различных грузов на дальние и средние расстояния. Они идеально подходят для доставки продукции между городами, что особенно важно для компаний, которым требуется оперативная и безопасная транспортировка.
+    </p>
+
+    <p>
+        Кроме того, такие машины активно применяются на промышленных и строительных площадках, где необходимо перемещать контейнеры с оборудованием или материалами. Надежность шасси и высокая грузоподъемность делают их удобными для работы в условиях повышенной нагрузки.
+    </p>
+
+    <p>
+        Грузовой автомобиль контейнеровоз также востребован в логистических компаниях и у поставщиков товаров для розничной торговли. Благодаря мобильности и универсальности он позволяет быстро реагировать на изменения в планах доставки и обеспечивать своевременную поставку продукции.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Преимущества работы с компанией «РусТрак»
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Надежная техника — все автомобили контейнеровозы проходят строгий контроль качества и проверку перед поставкой, что гарантирует их долгую и стабильную работу.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Разнообразие моделей — широкий выбор машин позволяет подобрать контейнеровоз под любые задачи и условия эксплуатации.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Профессиональная поддержка — специалисты компании консультируют на каждом этапе, помогая выбрать оптимальное решение для перевозок.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Быстрая доставка и сервис — техника поставляется в кратчайшие сроки, а сервисное обслуживание обеспечивает бесперебойную работу.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Прозрачные условия сотрудничества — понятные условия покупки, гарантия и сопровождение сделки делают сотрудничество удобным и безопасным.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Современные решения для мобильной логистики
+    </h2>
+
+    <p>
+        Купить авто контейнеровоз — выгодное решение для ускорения и упрощения перевозок грузов. Выбирайте надежные машины для быстрой и безопасной доставки. Компания «РусТрак» предлагает разнообразные контейнеровозы для любых задач. Начните действовать и оптимизируйте логистику перевозок. Используйте технологические решения, чтобы сэкономить время и силы. Для оформления заказа свяжитесь с нами любым удобным способом, и наши специалисты помогут подобрать оптимальное решение.
+    </p>
+</div>
+`,
                     },
                     {
                         id: 9,
                         name: "Крюковые погрузчики",
                         slug: "крюковые-погрузчики",
+                        WheelFormula: {
+                            title: "Колесная формула",
+
+                            wheelFormulaSizes: [
+                                {
+                                    size: "4x2",
+                                },
+                                {
+                                    size: "6x4",
+                                },
+                            ],
+                        },
+                        seoText: `
+<div class="text-lg leading-[1.5]">
+    <p>
+        Транспортная логистика оказывает значительное влияние на развитие промышленности и торговли. Для эффективной работы портов и складов используют крюковой погрузчик, способный справляться с тяжелыми грузами. Новые технические решения в этой сфере повышают скорость и безопасность операций. Компания «РусТрак» внедряет инновационные подходы, оптимизируя процессы перевозки и хранения. Автоматизация и цифровые системы контроля позволяют снизить человеческий фактор и ускорить обработку грузов. Применение современных механизмов значительно увеличивает производительность и снижает издержки.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Ассортимент
+    </h2>
+
+    <p>
+        Мы предлагаем только качественную и сертифицированную технику, которая соответствует всем стандартам безопасности и надежности. Каждая единица оборудования проходит строгий контроль и готова к интенсивной эксплуатации, что гарантирует долгий срок службы и эффективность работы. Среди представленных марок:
+    </p>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            ISUZU
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            HYUNDAI
+        </li>
+    </ul>
+
+    <p>
+        Все модели оснащены современными системами управления и проверенными механизмами, что делает их удобными и безопасными в эксплуатации. Выбор техники позволяет подобрать оптимальное решение под любые задачи и условия работы, обеспечивая стабильность и производительность на высоком уровне.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Особенности крюковых погрузчиков
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Мощные подъемные механизмы – крюковые мультилифты позволяют легко справляться с тяжелыми и крупногабаритными грузами.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Надёжная конструкция шасси – обеспечивает стабильность и долговечность даже при интенсивной эксплуатации.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Гибкость и маневренность – техника легко работает в ограниченном пространстве, на узких складах и стройплощадках.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Система автоматической защиты – предотвращает перегрузку и защищает механизмы от поломок.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Энергоэффективность – оптимизированный расход топлива снижает эксплуатационные затраты.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Удобство обслуживания – простая конструкция узлов и лёгкий доступ к сервисным точкам ускоряют ремонт и техобслуживание.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Адаптивность к условиям работы – техника готова к эксплуатации при разных климатических и дорожных условиях.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Сферы применения
+    </h2>
+
+    <p>
+        Погрузчик с крюком активно используется в портах и на терминалах для быстрой погрузки и разгрузки контейнеров и крупногабаритных грузов. Техника позволяет эффективно перемещать тяжелые материалы между складами и транспортными средствами, ускоряя обработку грузов и снижая нагрузку на персонал.
+    </p>
+
+    <p>
+        На строительных площадках такие машины помогают транспортировать строительные блоки, металлоконструкции и другие тяжёлые материалы, обеспечивая точность и безопасность при подъёме и перемещении. Их универсальность позволяет работать в ограниченном пространстве и на неровной местности, что особенно важно для крупных объектов и многоэтажного строительства.
+    </p>
+
+    <p>
+        В промышленности техника применяется для перемещения сырья, готовой продукции и крупногабаритного оборудования внутри производственных цехов и складских помещений. Использование современных механизмов повышает скорость операций и минимизирует риск повреждения грузов, что делает логистические процессы более стабильными и предсказуемыми.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Преимущества работы с компанией «РусТрак»
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Широкий выбор техники – компания предлагает разнообразные модели погрузчиков и специализированного оборудования, что позволяет подобрать решение под любые задачи.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Качественная сертифицированная техника – крюковой погрузчик проходит строгий контроль качества и полностью соответствует стандартам безопасности и надежности.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Профессиональная поддержка – специалисты компании готовы помочь с выбором, настройкой и эксплуатацией оборудования.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Сервисное обслуживание и запчасти – оперативный ремонт и наличие оригинальных запчастей минимизируют простои техники.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Индивидуальные решения – компания подбирает технику и условия работы с учетом особенностей бизнеса каждого клиента.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Опыт и репутация – «РусТрак» имеет многолетний опыт на рынке и зарекомендовал себя как надежный партнер в сфере транспортной логистики.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Оптимизация затрат – выгодные условия поставки и обслуживания помогают снизить расходы на эксплуатацию оборудования.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Надёжные решения для грузоперевозок
+    </h2>
+
+    <p>
+        Погрузчик с крюком демонстрирует высокую эффективность при работе с тяжелыми грузами и ускоряет логистические процессы. Инвестиции в современную технику помогают повысить производительность и снизить затраты. Компания «РусТрак» предлагает широкий спектр решений для транспортной логистики и обслуживания оборудования. Оцените возможности автоматизации и внедрите новые технологии в свой бизнес. Следите за обновлениями и совершенствуйте процессы хранения и перевозки грузов. Для оформления заказа свяжитесь с нами любым удобным способом, и наши специалисты помогут подобрать оптимальное решение.
+    </p>
+</div>
+                                 `,
                     },
                     {
                         id: 10,
                         name: "Самосвалы",
                         slug: "самосвалы",
+                        brandsOfTrucks: {
+                            brands: ["КАМАЗ", "JAC"],
+                        },
+                        WheelFormula: {
+                            title: "Колесная формула",
+
+                            wheelFormulaSizes: [
+                                {
+                                    size: "4x2",
+                                },
+                            ],
+                        },
+
+                        lengthOfPlatform: {
+                            title: "Длина платформы, м",
+
+                            lengths: [
+                                {
+                                    option: "4600",
+                                },
+                                {
+                                    option: "5000",
+                                },
+                                {
+                                    option: "5200",
+                                },
+                                {
+                                    option: "6500",
+                                },
+                            ],
+                        },
+
+                        seoText: `
+<div class="text-lg leading-normal">
+    <p>
+        Грузовые перевозки являются важным элементом экономического развития и промышленной логистики. Решение купить новый самосвал позволяет повысить эффективность перевозки материалов и сократить расходы на обслуживание машин. При выборе подходящей модели мы всегда поможем подобрать автомобиль для работы в различных дорожных условиях. Компания «РусТрак» предлагает разнообразные модели с современными техническими характеристиками. Надёжные машины поддерживают стабильную перевозку грузов на производственные площадки. Обновление парка позволяет выполнять более сложные задачи и увеличивать объём перевозок.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Ассортимент
+    </h2>
+
+    <p>
+        Компания «РусТрак» предлагает технику для перевозки сыпучих и строительных материалов. Каталог самосвалов объединяет модели различной грузоподъёмности и конфигурации для работы в разных условиях эксплуатации.
+    </p>
+
+    <p>
+        Доступные варианты шасси:
+    </p>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            КАМАЗ
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            JAC
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            ГАЗ
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            ВАЛДАЙ
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            КОМПАС
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            DONG FENG
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            SOLLERS
+        </li>
+    </ul>
+
+    <p>
+        Модели отличаются техническими характеристиками и возможностями для выполнения различных задач. Такой подход обеспечивает безопасную и эффективную транспортировку грузов, объединяя надёжность оборудования с практичностью использования.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Особенности самосвалов
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Разная грузоподъёмность – позволяет перевозить как небольшие, так и крупные объёмы сыпучих материалов, подбирая модель под конкретные задачи.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Адаптация к дорожным условиям – техника легко справляется с грунтовыми, городскими и строительными дорогами.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Разнообразие конфигураций кузова – возможность выбрать машину с оптимальной платформой для специфических грузов делает решение купить самосвал более точным под задачи.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Экономичное расходование топлива – современные двигатели снижают затраты на эксплуатацию при интенсивной работе.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Надёжность и долговечность – прочные шасси и качественные комплектующие обеспечивают долгий срок службы техники.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Простота обслуживания – доступные запчасти и удобная конструкция облегчают техническое обслуживание и ремонт.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Сферы применения
+    </h2>
+
+    <p>
+        Купить авто самосвал актуально для строительства, где техника используется для перевозки сыпучих материалов, щебня и грунта на строительные площадки. Она обеспечивает быструю и эффективную доставку грузов, сокращая время на логистику.
+    </p>
+
+    <p>
+        В городских условиях такой транспорт перевозит строительные и бытовые отходы, участвует в расчистке территорий после снегопадов и доставке материалов для благоустройства улиц и дворов. Машины справляются с различными дорожными условиями и задачами.
+    </p>
+
+    <p>
+        В сельской и лесной отрасли самосвалы перевозят урожай, корм, древесину и удобрения, обеспечивая надёжную доставку грузов на большие расстояния. На промышленных и логистических объектах автомобили применяются для перемещения материалов между площадками, повышая эффективность работы.
+    </p>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Преимущества работы с компанией «РусТрак»
+    </h2>
+
+    <ul class="list-none pl-0">
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Широкий выбор техники – каталог самосвалов включает модели различной грузоподъёмности и конфигурации, подходящие для любых задач и условий эксплуатации.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Консультации и подбор – специалисты помогают выбрать самосвал с учётом конкретных требований и условий работы.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Гарантия качества – компания предлагает только проверенные модели с надёжными шасси и комплектующими.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Выгодные условия покупки – специалисты предоставляют полную информацию о покупке и помогают рассчитать стоимость грузового самосвала для каждой модели.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Оперативная доставка – техника поставляется в кратчайшие сроки, обеспечивая бесперебойную работу предприятий.
+        </li>
+        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+            Опыт и репутация – многолетний опыт позволяет решать задачи любой сложности и поддерживать доверие клиентов.
+        </li>
+    </ul>
+
+    <h2 class="text-[22px] mt-5 mb-3">
+        Надёжная техника для любых условий
+    </h2>
+
+    <p>
+        Купить новый самосвал цена которого выгодна, позволит повысить эффективность перевозки грузов и сократить затраты. Машины обеспечивают стабильную эксплуатацию в разных условиях и подходят для самых разнообразных задач. Компания «РусТрак» предлагает модели с различной грузоподъёмностью и конфигурацией. Ознакомьтесь с каталогом и выберите подходящую технику для своих нужд. Наши специалисты помогут подобрать оптимальный вариант и ответят на все вопросы по поставке и эксплуатации. Для оформления заказа свяжитесь с нами любым удобным способом и обеспечьте стабильную работу своих проектов.
+    </p>
+</div>
+                                 `,
                     },
                     {
                         id: 11,
                         name: "Автомобили ДОПОГ категории EXII",
                         slug: "автомобили-допог-категории-exii",
+                        brandsOfTrucks: {
+                            brands: ["КАМАЗ", "JAC", "DAEWOO"],
+                        },
+
+                        typesOfFlatbedPlatforms: {
+                            title: "Тип бортовой платформы",
+
+                            flatbeds: [{ flatbed: "168" }],
+                        },
+                        GrossLoad: {
+                            title: "Полная масса, тонн",
+                            grossCapacities: [
+                                {
+                                    cap: "до 12",
+                                },
+                                {
+                                    cap: "до 20",
+                                },
+                            ],
+                        },
+
+                        lengthOfPlatform: {
+                            title: "Длина платформы, м",
+
+                            lengths: [
+                                {
+                                    option: "5,2...6,2",
+                                },
+                                {
+                                    option: "6,2",
+                                },
+                                {
+                                    option: "6,6",
+                                },
+                                {
+                                    option: "8,2",
+                                },
+                            ],
+                        },
+
+                        loaderCapacity: "Грузоподъёмность КМУ, тонн",
+
+                        rangeSliderTexts: {
+                            from: "от",
+                            upTo: "до",
+                        },
                     },
                 ],
             },

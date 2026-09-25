@@ -155,7 +155,7 @@ const FilteredCatalog = () => {
                                         key={item}
                                         className='flex flex-col p-1'
                                     >
-                                        <label className='flex items-center cursor-pointer gap-3'>
+                                        <label className='flex items-center cursor-pointer gap-2'>
                                             <div className='relative flex items-center'>
                                                 <input
                                                     className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
@@ -171,6 +171,67 @@ const FilteredCatalog = () => {
                         )}
                     </div>
 
+                    {/* Тип бортовой платформы */}
+                    {selectedCategory?.typesOfFlatbedPlatforms && (
+                        <div className='mb-8'>
+                            <h1 className='text-lg font-medium mb-2'>
+                                {selectedCategory.typesOfFlatbedPlatforms.title}
+                            </h1>
+
+                            {selectedCategory?.typesOfFlatbedPlatforms?.flatbeds.map(
+                                (item, i) => {
+                                    return (
+                                        <div
+                                            key={i}
+                                            className='flex flex-col p-1'
+                                        >
+                                            <label className='flex items-center cursor-pointer gap-2'>
+                                                <div className='relative flex items-center'>
+                                                    <input
+                                                        className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
+                                                        type='checkbox'
+                                                    />
+                                                    <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
+                                                </div>
+                                                <span>{item.flatbed}</span>
+                                            </label>
+                                        </div>
+                                    );
+                                },
+                            )}
+                        </div>
+                    )}
+
+                    {selectedCategory.WheelFormula && (
+                        <div className='mb-8'>
+                            <h1 className='text-lg font-medium mb-2'>
+                                {selectedCategory?.WheelFormula.title}
+                            </h1>
+
+                            {selectedCategory?.WheelFormula.wheelFormulaSizes.map(
+                                (item, i) => {
+                                    return (
+                                        <div
+                                            key={i}
+                                            className='flex flex-col p-1'
+                                        >
+                                            <label className='flex items-center cursor-pointer gap-2'>
+                                                <div className='relative flex items-center'>
+                                                    <input
+                                                        className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
+                                                        type='checkbox'
+                                                    />
+                                                    <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
+                                                </div>
+                                                <span>{item.size}</span>
+                                            </label>
+                                        </div>
+                                    );
+                                },
+                            )}
+                        </div>
+                    )}
+
                     <div className='mb-8'>
                         <h1 className='text-lg font-medium mb-4'>
                             {selectedCategory?.GrossLoad?.title}
@@ -184,7 +245,7 @@ const FilteredCatalog = () => {
                                             key={i}
                                             className='flex flex-col p-1'
                                         >
-                                            <label className='flex items-center cursor-pointer gap-3'>
+                                            <label className='flex items-center cursor-pointer gap-2'>
                                                 <div className='relative flex items-center'>
                                                     <input
                                                         className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
@@ -203,7 +264,7 @@ const FilteredCatalog = () => {
 
                     {/* lengthOfPlatform */}
                     <div className='mb-8'>
-                        <h1 className='text-lg font-medium mb-4'>
+                        <h1 className='text-lg font-medium mb-2'>
                             {selectedCategory?.lengthOfPlatform?.title}
                         </h1>
 
@@ -215,7 +276,7 @@ const FilteredCatalog = () => {
                                             key={i}
                                             className='flex flex-col p-1'
                                         >
-                                            <label className='flex items-center cursor-pointer gap-3'>
+                                            <label className='flex items-center cursor-pointer gap-2'>
                                                 <div className='relative flex items-center'>
                                                     <input
                                                         className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
@@ -232,12 +293,36 @@ const FilteredCatalog = () => {
                         </div>
                     </div>
 
-                    {selectedCategory.id === 2 && (
-                        <LiftingCapacity selectedCategory={selectedCategory} />
-                    )}
+                    <div className='mb-8'>
+                        {selectedCategory?.typesOfTanks?.tanks?.map(
+                            (item, i) => {
+                                return (
+                                    <div key={i} className='flex flex-col p-1'>
+                                        <label className='flex items-center cursor-pointer gap-2'>
+                                            <div className='relative flex items-center'>
+                                                <input
+                                                    className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
+                                                    type='checkbox'
+                                                />
+                                                <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
+                                            </div>
+                                            <span>{item.tank}</span>
+                                        </label>
+                                    </div>
+                                );
+                            },
+                        )}
+                    </div>
+
+                    {selectedCategory.id === 2 ||
+                        (selectedCategory.id === 11 && (
+                            <LiftingCapacity
+                                selectedCategory={selectedCategory}
+                            />
+                        ))}
 
                     {/* Tank Capacity */}
-                    {selectedCategory.id === 3 && (
+                    {selectedCategory.TankCapacity && (
                         <TankCapacity selectedCategory={selectedCategory} />
                     )}
 
