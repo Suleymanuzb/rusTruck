@@ -1,0 +1,69 @@
+import { Slider, Switch } from "antd";
+import { useState } from "react";
+
+const PriceRange = ({ selectedCategory }) => {
+    const [rangeValues, setRangeValues] = useState([0, 10000]);
+
+    return (
+        <div className='mb-8'>
+            <h1 className='text-lg font-medium'>
+                {selectedCategory.priceRange.title || "Цена"}
+            </h1>
+
+            <Slider
+                className='my-slider'
+                range
+                defaultValue={[20, 50]}
+                value={rangeValues}
+                onChange={setRangeValues}
+                min={0}
+                max={10000}
+            />
+
+            <div className='flex items-center gap-2'>
+                <div className='p-3 border border-[#a2a2a2] w-32 rounded flex items-center gap-1.5'>
+                    <label htmlFor='priceRange1' className='opacity-30'>
+                        {selectedCategory.priceRange.from}
+                    </label>
+                    <input
+                        className='outline-none appearance-none w-full [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none'
+                        type='number'
+                        value={rangeValues[0]}
+                        min={0}
+                        max={10000}
+                        id='priceRange1'
+                        onChange={(e) => {
+                            const value =
+                                e.target.value === ""
+                                    ? ""
+                                    : Number(e.target.value);
+                            setRangeValues((prev) => [value, prev[1]]);
+                        }}
+                    />
+                </div>
+                <div className='p-3 border border-[#a2a2a2] w-32 rounded flex items-center gap-1.5'>
+                    <label htmlFor='priceRange2' className='opacity-30'>
+                        {selectedCategory.priceRange.upTo}
+                    </label>
+                    <input
+                        className='outline-none appearance-none w-full [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none'
+                        type='number'
+                        value={rangeValues[1]}
+                        min={0}
+                        max={10000}
+                        id='priceRange2'
+                        onChange={(e) => {
+                            const value =
+                                e.target.value === ""
+                                    ? ""
+                                    : Number(e.target.value);
+                            setRangeValues((prev) => [prev[0], value]);
+                        }}
+                    />
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default PriceRange;

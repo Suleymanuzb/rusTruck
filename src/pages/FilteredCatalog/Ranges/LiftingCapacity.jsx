@@ -24,7 +24,7 @@ const LiftingCapacity = ({ selectedCategory }) => {
             <div className='flex items-center gap-2'>
                 <div className='border border-[#a2a2a2] rounded w-32 flex items-center gap-2 p-3'>
                     <label htmlFor='' className='opacity-40'>
-                        {selectedCategory.rangeSliderTexts.from}
+                        {selectedCategory?.rangeSliderTexts?.from}
                     </label>
 
                     {/* "от" (Min) Input Box */}

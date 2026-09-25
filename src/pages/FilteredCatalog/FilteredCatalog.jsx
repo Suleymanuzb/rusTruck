@@ -20,6 +20,8 @@ const {
 } = icons;
 import Button from "../../components/Button/Button";
 import LiftingCapacity from "./Ranges/LiftingCapacity";
+import PriceRange from "./Ranges/PriceRange";
+import TankCapacity from "./Ranges/TankCapacity";
 
 const FilteredCatalog = () => {
     const [isLine, setIsLine] = useState(false);
@@ -126,6 +128,11 @@ const FilteredCatalog = () => {
                         </span>
                     </div>
 
+                    {/* price range */}
+                    {selectedCategory.id === 3 && (
+                        <PriceRange selectedCategory={selectedCategory} />
+                    )}
+
                     <p className='mb-4 font-medium leading-[1.1]'>
                         {selectedCategory?.brandsOfTrucks?.title}
                     </p>
@@ -227,6 +234,11 @@ const FilteredCatalog = () => {
 
                     {selectedCategory.id === 2 && (
                         <LiftingCapacity selectedCategory={selectedCategory} />
+                    )}
+
+                    {/* Tank Capacity */}
+                    {selectedCategory.id === 3 && (
+                        <TankCapacity selectedCategory={selectedCategory} />
                     )}
 
                     <div>

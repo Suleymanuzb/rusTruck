@@ -4,12 +4,19 @@ const { SearchIcon, CheckIcon } = icons;
 import Button from "../../components/Button/Button";
 import "./range.css";
 import LiftingCapacity from "./Ranges/LiftingCapacity";
+import TankCapacity from "./Ranges/TankCapacity";
+import PriceRange from "./Ranges/PriceRange";
 
 const Form = ({ selectedCategory }) => {
     const { t } = useTranslation();
 
     return (
         <form className='hidden lg:block bg-white py-5 px-4 overflow-y-scroll max-h-160 top-7 sticky scrollbar-thin'>
+            {/* price range */}
+            {selectedCategory.id === 3 && (
+                <PriceRange selectedCategory={selectedCategory} />
+            )}
+
             <p className='mb-4 font-medium leading-[1.1]'>
                 {selectedCategory.brandsOfTrucks.title}
             </p>
@@ -104,6 +111,11 @@ const Form = ({ selectedCategory }) => {
                 <LiftingCapacity selectedCategory={selectedCategory} />
             )}
             {/* ! */}
+
+            {/* Tank Capacity */}
+            {selectedCategory.id === 3 && (
+                <TankCapacity selectedCategory={selectedCategory} />
+            )}
 
             <div>
                 <Button
