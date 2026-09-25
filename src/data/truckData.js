@@ -10837,10 +10837,10 @@ const trucks = [
             discount: "",
 
             buttons: {
-                addToCart: "Добавить в корзину",
-                getOffer: "Получить КП",
-                getPk: "Получить КП",
-                download: "Скачать спецификацию",
+                addToCart: "В корзину",
+                more: "Подробнее",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне это нужно",
             },
 
             truckType: "Автотопливозаправщик Валдай 12 АТЗ 6",
@@ -11226,8 +11226,9 @@ const trucks = [
 
             buttons: {
                 addToCart: "Add to cart",
-                getOffer: "Get a quote",
-                download: "Download specification",
+                more: "More details",
+                getPk: "Get PK",
+                iNeedThis: "I need this",
             },
 
             truckType: "Valdai 12 ATZ 6 Fuel Tanker",
@@ -11613,8 +11614,9 @@ const trucks = [
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                getOffer: "Tijorat taklifini olish",
-                download: "Spetsifikatsiyani yuklab olish",
+                more: "Batafsil",
+                getPk: "PK olish",
+                iNeedThis: "Menga kerak",
             },
 
             truckType: "Valdai 12 ATZ 6 avtoyoqilg‘i quyish mashinasi",
@@ -12031,10 +12033,10 @@ const trucks = [
             discount: "",
 
             buttons: {
-                addToCart: "Добавить в корзину",
-                getOffer: "Получить КП",
-                getPk: "Получить КП",
-                download: "Скачать спецификацию",
+                addToCart: "В корзину",
+                more: "Подробнее",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне это нужно",
             },
 
             truckType: "Топливозаправщик Валдай 12 АТЗ 8",
@@ -12387,9 +12389,9 @@ const trucks = [
 
             buttons: {
                 addToCart: "Add to cart",
-                getOffer: "Get a quote",
-                getPk: "Get a quote",
-                download: "Download specification",
+                more: "More details",
+                getPk: "Get PK",
+                iNeedThis: "I need this",
             },
 
             truckType: "Valdai 12 ATZ 8 Fuel Tanker",
@@ -12736,9 +12738,9 @@ const trucks = [
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                getOffer: "Tijorat taklifini olish",
-                getPk: "Tijorat taklifini olish",
-                download: "Spetsifikatsiyani yuklab olish",
+                more: "Batafsil",
+                getPk: "PK olish",
+                iNeedThis: "Menga kerak",
             },
 
             truckType: "Valdai 12 ATZ 8 avtoyoqilg‘i quyish mashinasi",

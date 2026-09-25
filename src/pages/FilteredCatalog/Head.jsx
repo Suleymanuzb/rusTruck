@@ -17,7 +17,7 @@ const Head = ({
     return (
         <div className='flex justify-between flex-col lg:flex-row lg:items-center mb-5'>
             <div className='flex flex-col gap-1 md:flex-row md:items-center md:gap-6 '>
-                <h1 className='text-3xl font-medium'>
+                <h1 className='text-xl md:text-2xl lg:text-3xl font-medium'>
                     {selectedCategory.name}
                 </h1>
 
