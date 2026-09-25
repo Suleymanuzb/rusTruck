@@ -566,6 +566,31 @@ const ru = {
                         id: 3,
                         name: "Автотопливозаправщики",
                         slug: "автотопливозаправщики",
+                        brandsOfTrucks: {
+                            title: "Марка",
+
+                            brands: [
+                                "ГАЗ",
+                                "JAC",
+                                "JAC",
+                                "FOTON",
+                                "SOLLERS",
+                                "DONG FENG",
+                                "YANSHI",
+                                "Валдай",
+                            ],
+                        },
+                        GrossLoad: {
+                            title: "Полная масса, тонн",
+                            grossCapacities: [
+                                {
+                                    cap: "до 12",
+                                },
+                            ],
+                        },
+                        TankCapacity: {
+                            title: "Объем цистерны, л.",
+                        },
                     },
                     {
                         id: 4,
