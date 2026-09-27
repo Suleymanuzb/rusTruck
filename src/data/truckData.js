@@ -866,9 +866,10 @@ const trucks = [
                 "*Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
 
             buttons: {
+                addToCart: "Добавить в корзину",
                 more: "Подробнее",
                 getPk: "Получить КП",
-                addToCart: "Добавить в корзину",
+                iNeedThis: "Мне это нужно",
             },
 
             truckType:
@@ -891,12 +892,24 @@ const trucks = [
                         value: "Механическая, 5-ступенчатая",
                     },
                     {
-                        title: "Габариты ТС, Д×Ш×В (мм)",
-                        value: "6530×2290×3220",
+                        title: "Длина автомобиля, мм",
+                        value: "6530",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2290",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3220",
                     },
                     {
                         title: "Колесная база, мм",
                         value: "3770",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4х4",
                     },
                     {
                         title: "Полная масса, кг",
@@ -907,7 +920,7 @@ const trucks = [
                         value: "4500",
                     },
                     {
-                        title: "Количество отсеков",
+                        title: "Количество отсеков, шт.",
                         value: "2",
                     },
                     {
@@ -1024,7 +1037,7 @@ const trucks = [
                         },
                         {
                             title: "Быстроразъемные соединения (БРС)",
-                            value: "Ду -75",
+                            value: "Ду-75",
                         },
                     ],
                 },
@@ -1143,8 +1156,10 @@ const trucks = [
                     title: "Описание",
                     text: "Автотопливозаправщик Садко 9 на шасси ГАЗ С41А13 предназначен для транспортировки, хранения и выдачи светлых нефтепродуктов. Двухсекционная цистерна объемом 4,5 м³ обеспечивает возможность разделения топлива по секциям, а шасси с колесной формулой 4х4 гарантирует высокую проходимость и устойчивость в любых дорожных и климатических условиях. Компания «РусТрак» предлагает профессиональные решения для тех, кому необходима надежная, безопасная и эффективная техника для работы с топливом.",
                 },
+
                 {
                     title: "Преимущества автотопливозаправщика",
+
                     titles: [
                         {
                             text: "Надежное шасси ГАЗ С41А13 обеспечивает отличную проходимость и стабильность на пересеченной местности.",
@@ -1165,10 +1180,13 @@ const trucks = [
                             text: "Конструкция топливозаправщика обеспечивает удобство обслуживания и эксплуатации за счет площадки обслуживания, лестницы с противоскользящими ступенями и раздаточного узла с рукавами.",
                         },
                     ],
+
                     text: "Каждое из перечисленных преимуществ позволяет выполнять заправку техники быстро, безопасно и без потерь топлива. Надежность шасси, прочность цистерны и качество насосного оборудования обеспечивают стабильную работу автопарка в любых условиях эксплуатации.",
                 },
+
                 {
                     title: "Области применения",
+
                     titles: [
                         {
                             text: "Строительные, дорожные и промышленные организации.",
@@ -1186,10 +1204,13 @@ const trucks = [
                             text: "Обслуживание корпоративных и муниципальных автопарков специализированной техники.",
                         },
                     ],
+
                     text: "Топливозаправщик на базе ГАЗ обеспечивает автономную выдачу топлива непосредственно на месте эксплуатации техники. Автономная заправка повышает производственную эффективность предприятий, снижает простои автопарка и обеспечивает полный контроль расхода топлива на удаленных и труднодоступных объектах.",
                 },
+
                 {
                     title: "Стабильная эксплуатация в любых условиях",
+
                     text: "Купить Садко 9 АТЗ позволяет обеспечить надежную транспортировку, хранение и выдачу топлива на предприятии. Двухсекционная цистерна объемом 4,5 м³ дает возможность разделять топливо по видам, минимизировать потери и повышать точность выдачи. Автотопливозаправщик м3 сокращает время на заправку техники, снижает эксплуатационные затраты и упрощает организацию рабочих процессов. Компания «РусТрак» предлагает полный комплекс услуг по подбору техники, гарантийному и постгарантийному обслуживанию, обеспечивая долгосрочную и стабильную эксплуатацию оборудования. Для оформления заказа свяжитесь с нами любым удобным способом.",
                 },
             ],
@@ -1204,9 +1225,10 @@ const trucks = [
                 "*10% discount (no more than RUB 500,000) under the state-subsidized leasing program",
 
             buttons: {
+                addToCart: "Add to cart",
                 more: "More details",
                 getPk: "Get a quotation",
-                addToCart: "Add to cart",
+                iNeedThis: "I need this",
             },
 
             truckType:
@@ -1229,12 +1251,24 @@ const trucks = [
                         value: "Manual, 5-speed",
                     },
                     {
-                        title: "Vehicle dimensions, L×W×H (mm)",
-                        value: "6530×2290×3220",
+                        title: "Vehicle length, mm",
+                        value: "6530",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2290",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3220",
                     },
                     {
                         title: "Wheelbase, mm",
                         value: "3770",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x4",
                     },
                     {
                         title: "Gross vehicle weight, kg",
@@ -1245,7 +1279,7 @@ const trucks = [
                         value: "4500",
                     },
                     {
-                        title: "Number of compartments",
+                        title: "Number of compartments, pcs.",
                         value: "2",
                     },
                     {
@@ -1480,8 +1514,10 @@ const trucks = [
                     title: "Description",
                     text: "The Sadko 9 fuel tanker on the GAZ C41A13 chassis is designed for the transportation, storage, and dispensing of light petroleum products. The two-section tank with a capacity of 4.5 m³ allows fuel to be separated between sections, while the 4x4 chassis provides high off-road capability and stability in various road and climatic conditions. RusTrak offers professional solutions for those who need reliable, safe, and efficient equipment for working with fuel.",
                 },
+
                 {
                     title: "Advantages of the Fuel Tanker",
+
                     titles: [
                         {
                             text: "The reliable GAZ C41A13 chassis provides excellent off-road capability and stability on rough terrain.",
@@ -1502,10 +1538,13 @@ const trucks = [
                             text: "The fuel tanker design ensures convenient maintenance and operation thanks to the service platform, ladder with anti-slip steps, and dispensing unit with hoses.",
                         },
                     ],
+
                     text: "Each of these advantages allows equipment to be refueled quickly, safely, and without fuel losses. The reliability of the chassis, strength of the tank, and quality of the pumping equipment ensure stable operation of the vehicle fleet under various operating conditions.",
                 },
+
                 {
                     title: "Applications",
+
                     titles: [
                         {
                             text: "Construction, road, and industrial organizations.",
@@ -1523,10 +1562,13 @@ const trucks = [
                             text: "Servicing corporate and municipal fleets of specialized equipment.",
                         },
                     ],
+
                     text: "The GAZ-based fuel tanker provides autonomous fuel dispensing directly at the equipment's place of operation. Autonomous refueling increases the production efficiency of enterprises, reduces vehicle fleet downtime, and provides full control over fuel consumption at remote and hard-to-reach facilities.",
                 },
+
                 {
                     title: "Stable Operation in All Conditions",
+
                     text: "Purchasing the Sadko 9 fuel tanker provides reliable transportation, storage, and dispensing of fuel at an enterprise. The two-section tank with a capacity of 4.5 m³ allows fuel to be separated by type, minimizing losses and increasing dispensing accuracy. The fuel tanker reduces the time required to refuel equipment, lowers operating costs, and simplifies the organization of work processes. RusTrak offers a full range of services for equipment selection, warranty and post-warranty maintenance, ensuring long-term and stable operation of the equipment. To place an order, contact us in any convenient way.",
                 },
             ],
@@ -1538,9 +1580,10 @@ const trucks = [
             price: "8 800 000 rubl",
 
             buttons: {
+                addToCart: "Savatga qo‘shish",
                 more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
-                addToCart: "Savatga qo‘shish",
+                iNeedThis: "Menga kerak",
             },
 
             truckType:
@@ -1566,12 +1609,24 @@ const trucks = [
                         value: "Mexanik, 5 pog‘onali",
                     },
                     {
-                        title: "Avtomobil gabarit o‘lchamlari, U×K×B (mm)",
-                        value: "6530×2290×3220",
+                        title: "Avtomobil uzunligi, mm",
+                        value: "6530",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2290",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3220",
                     },
                     {
                         title: "G‘ildirak bazasi, mm",
                         value: "3770",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x4",
                     },
                     {
                         title: "To‘liq massa, kg",
@@ -1582,7 +1637,7 @@ const trucks = [
                         value: "4500",
                     },
                     {
-                        title: "Bo‘limlar soni",
+                        title: "Bo‘limlar soni, dona",
                         value: "2",
                     },
                     {
@@ -1816,10 +1871,13 @@ const trucks = [
             extraDesc: [
                 {
                     title: "Tavsif",
+
                     text: "GAZ C41A13 shassisidagi Sadko 9 avtobenzin tashuvchi avtomobil yorqin neft mahsulotlarini tashish, saqlash va tarqatish uchun mo‘ljallangan. Sig‘imi 4,5 m³ bo‘lgan ikki seksiyali sisterna yoqilg‘ini seksiyalar bo‘yicha ajratish imkonini beradi, 4x4 g‘ildirak formulali shassi esa turli yo‘l va iqlim sharoitlarida yuqori o‘tuvchanlik va barqarorlikni ta’minlaydi. «RusTrak» kompaniyasi yoqilg‘i bilan ishlash uchun ishonchli, xavfsiz va samarali texnikaga muhtoj bo‘lgan mijozlar uchun professional yechimlarni taklif etadi.",
                 },
+
                 {
                     title: "Avtobenzin tashuvchining afzalliklari",
+
                     titles: [
                         {
                             text: "Ishonchli GAZ C41A13 shassisi notekis hududlarda yuqori o‘tuvchanlik va barqarorlikni ta’minlaydi.",
@@ -1840,10 +1898,13 @@ const trucks = [
                             text: "Avtobenzin tashuvchi konstruksiyasi xizmat ko‘rsatish platformasi, sirpanishga qarshi zinapoyalar va shlanglarga ega tarqatish qurilmasi tufayli texnik xizmat ko‘rsatish va foydalanishda qulaylikni ta’minlaydi.",
                         },
                     ],
+
                     text: "Ko‘rsatilgan afzalliklarning har biri texnikani tez, xavfsiz va yoqilg‘i yo‘qotishlarisiz to‘ldirish imkonini beradi. Shassining ishonchliligi, sisternaning mustahkamligi va nasos uskunalarining sifati turli ekspluatatsiya sharoitlarida avtoparkning barqaror ishlashini ta’minlaydi.",
                 },
+
                 {
                     title: "Qo‘llanilish sohalari",
+
                     titles: [
                         {
                             text: "Qurilish, yo‘l va sanoat tashkilotlari.",
@@ -1861,10 +1922,13 @@ const trucks = [
                             text: "Ixtisoslashtirilgan texnikalardan iborat korporativ va kommunal avtoparklarga xizmat ko‘rsatish.",
                         },
                     ],
+
                     text: "GAZ bazasidagi avtobenzin tashuvchi texnika ishlayotgan joyning o‘zida avtonom yoqilg‘i tarqatishni ta’minlaydi. Avtonom yoqilg‘i quyish korxonalarning ishlab chiqarish samaradorligini oshiradi, avtoparkning bekor turib qolishini kamaytiradi va uzoq hamda borish qiyin bo‘lgan obyektlarda yoqilg‘i sarfini to‘liq nazorat qilish imkonini beradi.",
                 },
+
                 {
                     title: "Har qanday sharoitda barqaror ekspluatatsiya",
+
                     text: "Sadko 9 avtobenzin tashuvchisini sotib olish korxonada yoqilg‘ini ishonchli tashish, saqlash va tarqatishni ta’minlash imkonini beradi. Sig‘imi 4,5 m³ bo‘lgan ikki seksiyali sisterna yoqilg‘ini turlari bo‘yicha ajratish, yo‘qotishlarni kamaytirish va tarqatish aniqligini oshirish imkonini beradi. Avtobenzin tashuvchi texnikani yoqilg‘i bilan ta’minlash vaqtini qisqartiradi, ekspluatatsiya xarajatlarini kamaytiradi va ish jarayonlarini tashkil etishni soddalashtiradi. «RusTrak» kompaniyasi texnikani tanlash, kafolatli va kafolatdan keyingi xizmat ko‘rsatish bo‘yicha to‘liq xizmatlar majmuasini taklif etadi va uskunalarning uzoq muddatli hamda barqaror ekspluatatsiyasini ta’minlaydi. Buyurtma berish uchun biz bilan o‘zingizga qulay usulda bog‘laning.",
                 },
             ],

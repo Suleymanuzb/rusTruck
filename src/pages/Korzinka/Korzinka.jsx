@@ -1,64 +1,21 @@
 import Container from "../../components/Container/Container";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
-import { useCartStore } from "../../store/cartStore";
-import trucks from "../../data/truckData";
+import AddedCartToKorzina from "./AddedToKorzinka";
 import { useTranslation } from "react-i18next";
 
 const Korzinka = () => {
-    const cart = useCartStore((state) => state.cart);
-    console.log("CART:", cart);
-    const { i18n, t } = useTranslation();
-
+    const { t } = useTranslation();
     return (
-        <Container>
-            <Breadcrumbs />
+        <div className='bg-[#f9f9f9]  pb-16'>
+            <Container>
+                <Breadcrumbs />
+                <h1 className='mb-8 text-3xl font-medium'>
+                    {t("korzinka.title")}
+                </h1>
 
-            <div>
-                {cart.map((truckId) => {
-                    const trucksInCart = trucks.find(
-                        (each) => each.id === truckId,
-                    );
-
-                    const product = trucksInCart?.[i18n.language];
-
-                    return (
-                        <div className='flex' key={truckId}>
-                            <div>
-                                <img
-                                    src={trucksInCart.images.image}
-                                    alt='truck'
-                                    className='aspect-square object-cover'
-                                />
-                            </div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <h3>{product.truckType}</h3>
-                                        <div className='flex justify-between text-gray-400 text-sm '>
-                                            <p>
-                                                {t(
-                                                    "filteredPage.trucksInLine.capacityOfTruck",
-                                                )}
-                                            </p>
-                                            <p className='border-b border-dotted  border-gray-400 flex-1 mb-1.75 '></p>
-                                            <p>
-                                                {Math.floor(
-                                                    Math.random() * 100,
-                                                )}
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        {/* <h3>{product.truckType}</h3> */}
-                                    </div>
-                                </div>
-                                <div></div>
-                            </div>
-                        </div>
-                    );
-                })}
-            </div>
-        </Container>
+                <AddedCartToKorzina />
+            </Container>
+        </div>
     );
 };
 

@@ -35,6 +35,44 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
             {matchingTrucks.map((truck) => {
                 const truckCurrentLang = truck?.[i18n.language];
 
+                const truckInfo = truckCurrentLang?.specifications.truckInfo;
+                const length = truckInfo?.find((item) =>
+                    [
+                        "Длина автомобиля, мм",
+                        "Vehicle length, mm",
+                        "Avtomobil uzunligi, mm",
+                    ].includes(item.title),
+                )?.value;
+
+                const width = truckInfo?.find((item) =>
+                    [
+                        "Ширина автомобиля, мм",
+                        "Vehicle width, mm",
+                        "Avtomobil kengligi, mm",
+                    ].includes(item.title),
+                )?.value;
+
+                const height = truckInfo?.find((item) =>
+                    [
+                        "Высота автомобиля, мм",
+                        "Vehicle height, mm",
+                        "Avtomobil balandligi, mm",
+                    ].includes(item.title),
+                )?.value;
+
+                const dimensionsValue =
+                    length && width && height
+                        ? `${length} * ${width} * ${height} мм`
+                        : "";
+
+                const mass = truckInfo?.find((item) =>
+                    [
+                        "Грузоподъёмность, кг",
+                        "Payload capacity, kg",
+                        "Yuk ko‘tarish qobiliyati, kg",
+                    ].includes(item.title),
+                )?.value;
+
                 return (
                     <div
                         key={truck.id}
@@ -121,13 +159,10 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                                 {t(
                                                     "filteredPage.trucksInLine.capacityOfTruck",
                                                 )}
+                                                :
                                             </p>
                                             <p className='border-b border-dotted  border-gray-400 flex-1 mb-1.75 '></p>
-                                            <p>
-                                                {Math.floor(
-                                                    Math.random() * 100,
-                                                )}
-                                            </p>
+                                            <p>{dimensionsValue}</p>
                                         </div>
 
                                         <div className='flex justify-between text-gray-400 text-sm '>
@@ -137,11 +172,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                                 )}
                                             </p>
                                             <p className='border-b border-dotted  border-gray-400 flex-1 mb-1.75 '></p>
-                                            <p>
-                                                {Math.floor(
-                                                    Math.random() * 100,
-                                                )}
-                                            </p>
+                                            <p>{mass}</p>
                                         </div>
                                     </div>
                                 )}
