@@ -307,7 +307,6 @@ const trucks = [
                         title: "Базовое шасси",
                         value: "SOLLERS TR80-47",
                     },
-
                     {
                         title: "Двигатель",
                         value: "Cummins D4.0EVID170, 163 л. с.",
@@ -317,24 +316,20 @@ const trucks = [
                         value: "Механическая, 6-ти ступенчатая",
                     },
                     {
-                        title: "Длина автомобиля, мм",
-                        value: "8990",
-                    },
-                    {
-                        title: "Ширина автомобиля, мм",
-                        value: "2400",
-                    },
-                    {
-                        title: "Высота автомобиля, мм",
-                        value: "3330",
+                        title: "Габариты ТС, мм",
+                        value: "8990 × 2400 × 3330",
                     },
                     {
                         title: "Колесная база, мм",
                         value: "5200",
                     },
                     {
-                        title: "Длина платформы, м",
+                        title: "Длина платформы, мм",
                         value: "6200",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "8000",
                     },
                     {
                         title: "Снаряженная масса, кг",
@@ -497,62 +492,46 @@ const trucks = [
                         title: "Base chassis",
                         value: "SOLLERS TR80-47",
                     },
-
                     {
                         title: "Engine",
                         value: "Cummins D4.0EVID170, 163 hp",
                     },
-
                     {
                         title: "Transmission",
                         value: "Manual, 6-speed",
                     },
-
                     {
-                        title: "Vehicle length, mm",
-                        value: "8990",
+                        title: "Vehicle dimensions, L×W×H (mm)",
+                        value: "8990 × 2400 × 3330",
                     },
-
-                    {
-                        title: "Vehicle width, mm",
-                        value: "2400",
-                    },
-
-                    {
-                        title: "Vehicle height, mm",
-                        value: "3330",
-                    },
-
                     {
                         title: "Wheelbase, mm",
                         value: "5200",
                     },
-
                     {
                         title: "Platform length, mm",
                         value: "6200",
                     },
-
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "8000",
+                    },
                     {
                         title: "Curb weight, kg",
                         value: "6420",
                     },
-
                     {
                         title: "Payload capacity, kg",
                         value: "1580",
                     },
-
                     {
                         title: "Crane capacity, tons",
                         value: "3.2",
                     },
-
                     {
                         title: "Boom reach, m",
                         value: "9.8",
                     },
-
                     {
                         title: "View all specifications",
                     },
@@ -569,62 +548,50 @@ const trucks = [
                             title: "Base chassis",
                             value: "SOLLERS TR80-47",
                         },
-
                         {
                             title: "Configuration type",
                             value: "Flatbed platform with crane-manipulator unit",
                         },
-
                         {
                             title: "Engine",
                             value: "Cummins D4.0EVID170, 163 hp",
                         },
-
                         {
                             title: "Transmission",
                             value: "Manual, 6-speed",
                         },
-
                         {
                             title: "Wheelbase, mm",
                             value: "4700",
                         },
-
                         {
                             title: "Overall vehicle dimensions, L×W×H (mm)",
                             value: "8990×2400×3330",
                         },
-
                         {
                             title: "Gross vehicle weight, kg",
                             value: "8000",
                         },
-
                         {
                             title: "Curb weight, kg",
                             value: "6420",
                         },
-
                         {
                             title: "Flatbed platform dimensions, L×W×H (mm)",
                             value: "6200×2400×600",
                         },
-
                         {
                             title: "Flatbed platform base",
                             value: "Welded frame construction made of open profiles. Consists of longitudinal members and cross beams, with edging and front wall made of HOSSEN profile. Galvanized cargo securing loops are installed in the platform edging profile (they do not reduce the loading width of the platform), 5 pieces on each side.",
                         },
-
                         {
                             title: "Floor",
                             value: "Moisture-resistant plywood with anti-slip coating.",
                         },
-
                         {
                             title: "Platform sideboards",
                             value: "Steel galvanized or aluminum sideboards, fold-down type, with 2 sections per side, height 600 mm. Sideboard opening angle – 180°. Quick-release folding-type posts, 2 per side, with aluminum locks.",
                         },
-
                         {
                             title: "Other equipment",
                             value: "Plastic fenders and mudguards. Side moisture-resistant marker lights. Side protection made of aluminum profiles on folding galvanized brackets. Rear protective device. Step for access to the platform.",
@@ -641,47 +608,38 @@ const trucks = [
                             title: "Maximum load moment, tm",
                             value: "8.6",
                         },
-
                         {
                             title: "Lifting capacity at minimum reach, kg",
                             value: "3200",
                         },
-
                         {
                             title: "Minimum working radius, m",
                             value: "2.5",
                         },
-
                         {
                             title: "Lifting capacity at maximum reach, kg",
                             value: "700",
                         },
-
                         {
                             title: "Maximum boom reach, m",
                             value: "9.8",
                         },
-
                         {
                             title: "Boom / number of sections",
                             value: "Hexagonal / 4 sections",
                         },
-
                         {
                             title: "Column rotation angle around its axis, degrees",
                             value: "360°, continuous",
                         },
-
                         {
                             title: "Front outriggers, m",
                             value: "Span 4.1",
                         },
-
                         {
                             title: "Rear outriggers, m",
                             value: "Available",
                         },
-
                         {
                             title: "Crane-manipulator unit weight, kg",
                             value: "1450",
@@ -717,62 +675,46 @@ const trucks = [
                         title: "Asosiy shassi",
                         value: "SOLLERS TR80-47",
                     },
-
                     {
                         title: "Dvigatel",
                         value: "Cummins D4.0EVID170, 163 ot kuchi",
                     },
-
                     {
                         title: "Uzatmalar qutisi",
                         value: "Mexanik, 6 pog‘onali",
                     },
-
                     {
-                        title: "Avtomobil uzunligi, mm",
-                        value: "8990",
+                        title: "Avtomobil gabarit o‘lchamlari, U×K×B (mm)",
+                        value: "8990 × 2400 × 3330",
                     },
-
-                    {
-                        title: "Avtomobil kengligi, mm",
-                        value: "2400",
-                    },
-
-                    {
-                        title: "Avtomobil balandligi, mm",
-                        value: "3330",
-                    },
-
                     {
                         title: "G‘ildirak bazasi, mm",
                         value: "5200",
                     },
-
                     {
                         title: "Platforma uzunligi, mm",
                         value: "6200",
                     },
-
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "8000",
+                    },
                     {
                         title: "Bo‘sh avtomobil massasi, kg",
                         value: "6420",
                     },
-
                     {
                         title: "Yuk ko‘tarish qobiliyati, kg",
                         value: "1580",
                     },
-
                     {
                         title: "Kran-manipulyator yuk ko‘tarish qobiliyati, tonna",
                         value: "3,2",
                     },
-
                     {
                         title: "Strela chiqish masofasi, m",
                         value: "9,8",
                     },
-
                     {
                         title: "Barcha texnik xususiyatlarni ko‘rish",
                     },
@@ -789,62 +731,50 @@ const trucks = [
                             title: "Asosiy shassi",
                             value: "SOLLERS TR80-47",
                         },
-
                         {
                             title: "Komplektatsiya turi",
                             value: "Bortli platforma va kran-manipulyator",
                         },
-
                         {
                             title: "Dvigatel",
                             value: "Cummins D4.0EVID170, 163 ot kuchi",
                         },
-
                         {
                             title: "Uzatmalar qutisi",
                             value: "Mexanik, 6 pog‘onali",
                         },
-
                         {
                             title: "G‘ildirak bazasi, mm",
                             value: "4700",
                         },
-
                         {
                             title: "Avtomobilning gabarit o‘lchamlari, U×K×B (mm)",
                             value: "8990×2400×3330",
                         },
-
                         {
                             title: "To‘liq massa, kg",
                             value: "8000",
                         },
-
                         {
                             title: "Bo‘sh avtomobil massasi, kg",
                             value: "6420",
                         },
-
                         {
                             title: "Bortli platformaning gabarit o‘lchamlari, U×K×B (mm)",
                             value: "6200×2400×600",
                         },
-
                         {
                             title: "Bortli platforma asosi",
                             value: "Ochiq profillardan tayyorlangan payvandlangan rama konstruksiyasi. Bo‘ylama lonjeronlar va ko‘ndalang balkalardan, shuningdek HOSSEN profilidan tayyorlangan chegara va old devordan tashkil topgan. Platformaning chegara profiliga galvanizatsiyalangan yuk mahkamlash halqalari o‘rnatilgan (ular platformaning yuklash kengligini kamaytirmaydi), har bir tomonda 5 tadan.",
                         },
-
                         {
                             title: "Pol",
                             value: "Sirpanishga qarshi qoplamali namlikka chidamli fanera.",
                         },
-
                         {
                             title: "Platforma bortlari",
                             value: "Po‘latdan galvanizatsiyalangan yoki alyuminiy bortlar, bukiladigan, har bir tomonda 2 ta seksiya, balandligi 600 mm. Bortlarning ochilish burchagi — 180°. Har bir tomonda 2 tadan tez yechiladigan bukiladigan turdagi ustunlar, alyuminiy qulflar bilan.",
                         },
-
                         {
                             title: "Boshqa jihozlar",
                             value: "Plastik qanotlar va loy sachratkichlar. Yon namlikdan himoyalangan gabarit chiroqlari. Bukiladigan galvanizatsiyalangan kronshteynlardagi alyuminiy profillardan tayyorlangan yon himoya. Orqa himoya qurilmasi. Platformaga chiqish uchun zina.",
@@ -861,47 +791,38 @@ const trucks = [
                             title: "Maksimal yuk momenti, tm",
                             value: "8,6",
                         },
-
                         {
                             title: "Minimal chiqish masofasidagi yuk ko‘tarish qobiliyati, kg",
                             value: "3200",
                         },
-
                         {
                             title: "Minimal ish radiusi, m",
                             value: "2,5",
                         },
-
                         {
                             title: "Maksimal chiqish masofasidagi yuk ko‘tarish qobiliyati, kg",
                             value: "700",
                         },
-
                         {
                             title: "Strelaning maksimal chiqish masofasi, m",
                             value: "9,8",
                         },
-
                         {
                             title: "Strela / seksiyalar soni",
                             value: "Geksagonal / 4 seksiya",
                         },
-
                         {
                             title: "Kolonnaning o‘z o‘qi atrofida aylanish burchagi, daraja",
                             value: "360°, cheksiz",
                         },
-
                         {
                             title: "Oldingi tayanchlar, m",
                             value: "Oraliq 4,1",
                         },
-
                         {
                             title: "Orqa tayanchlar, m",
                             value: "Mavjud",
                         },
-
                         {
                             title: "Kran-manipulyator qurilmasining massasi, kg",
                             value: "1450",
@@ -966,20 +887,12 @@ const trucks = [
                         value: "ЯМЗ-53443, 168,9 л. с.",
                     },
                     {
-                        title: "Коробка передач",
+                        title: "КПП",
                         value: "Механическая, 5-ступенчатая",
                     },
                     {
-                        title: "Длина, мм",
-                        value: "6530",
-                    },
-                    {
-                        title: "Ширина, мм",
-                        value: "2290",
-                    },
-                    {
-                        title: "Высота, мм",
-                        value: "3220",
+                        title: "Габариты ТС, Д×Ш×В (мм)",
+                        value: "6530×2290×3220",
                     },
                     {
                         title: "Колесная база, мм",
@@ -996,6 +909,9 @@ const trucks = [
                     {
                         title: "Количество отсеков",
                         value: "2",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
                     },
                 ],
             },
@@ -1242,7 +1158,6 @@ const trucks = [
                         {
                             text: "Система учета и фильтрации топлива гарантирует точность выдачи и чистоту продукта.",
                         },
-
                         {
                             text: "Полный набор мер безопасности включает экологический короб, дыхательные устройства, огнепреградители и полное соответствие требованиям ДОПОГ.",
                         },
@@ -1314,23 +1229,15 @@ const trucks = [
                         value: "Manual, 5-speed",
                     },
                     {
-                        title: "Length, mm",
-                        value: "6530",
-                    },
-                    {
-                        title: "Width, mm",
-                        value: "2290",
-                    },
-                    {
-                        title: "Height, mm",
-                        value: "3220",
+                        title: "Vehicle dimensions, L×W×H (mm)",
+                        value: "6530×2290×3220",
                     },
                     {
                         title: "Wheelbase, mm",
                         value: "3770",
                     },
                     {
-                        title: "Gross weight, kg",
+                        title: "Gross vehicle weight, kg",
                         value: "9000",
                     },
                     {
@@ -1340,6 +1247,9 @@ const trucks = [
                     {
                         title: "Number of compartments",
                         value: "2",
+                    },
+                    {
+                        title: "View all specifications",
                     },
                 ],
             },
@@ -1656,16 +1566,8 @@ const trucks = [
                         value: "Mexanik, 5 pog‘onali",
                     },
                     {
-                        title: "Uzunligi, mm",
-                        value: "6530",
-                    },
-                    {
-                        title: "Kengligi, mm",
-                        value: "2290",
-                    },
-                    {
-                        title: "Balandligi, mm",
-                        value: "3220",
+                        title: "Avtomobil gabarit o‘lchamlari, U×K×B (mm)",
+                        value: "6530×2290×3220",
                     },
                     {
                         title: "G‘ildirak bazasi, mm",
@@ -1682,6 +1584,9 @@ const trucks = [
                     {
                         title: "Bo‘limlar soni",
                         value: "2",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
                     },
                 ],
             },
@@ -2006,62 +1911,42 @@ const trucks = [
                         title: "Базовое шасси",
                         value: "КАМАЗ 4308-3083-69(G5)",
                     },
-
                     {
                         title: "Двигатель",
                         value: "Cummins ISB6.7 E5 250, 250 л. с.",
                     },
-
                     {
                         title: "КПП",
                         value: "Механическая, 9-ступенчатая",
                     },
-
                     {
-                        title: "Длина автомобиля, мм",
-                        value: "8970",
+                        title: "Габариты ТС, Д×Ш×В (мм)",
+                        value: "8970×2550×3580",
                     },
-
-                    {
-                        title: "Ширина автомобиля, мм",
-                        value: "2550",
-                    },
-
-                    {
-                        title: "Высота автомобиля, мм",
-                        value: "3580",
-                    },
-
                     {
                         title: "Колесная база, мм",
                         value: "4700",
                     },
-
                     {
                         title: "Колесная формула",
                         value: "4x2",
                     },
-
                     {
                         title: "Длина платформы, м",
                         value: "6,6",
                     },
-
                     {
                         title: "Полная масса, кг",
                         value: "11980",
                     },
-
                     {
                         title: "Снаряженная масса, кг",
                         value: "7350",
                     },
-
                     {
                         title: "Грузоподъёмность, кг",
                         value: "4630",
                     },
-
                     {
                         title: "Смотреть все характеристики",
                     },
@@ -2069,6 +1954,7 @@ const trucks = [
             },
 
             charectiristicsTitle: "Характеристики",
+
             characteristics: [
                 {
                     sectionTitle:
@@ -2146,7 +2032,6 @@ const trucks = [
 
             description: {
                 title: "Description",
-
                 text: "",
             },
 
@@ -2162,62 +2047,42 @@ const trucks = [
                         title: "Base chassis",
                         value: "KAMAZ 4308-3083-69(G5)",
                     },
-
                     {
                         title: "Engine",
                         value: "Cummins ISB6.7 E5 250, 250 hp",
                     },
-
                     {
                         title: "Transmission",
                         value: "Manual, 9-speed",
                     },
-
                     {
-                        title: "Vehicle length, mm",
-                        value: "8970",
+                        title: "Vehicle dimensions, L×W×H (mm)",
+                        value: "8970×2550×3580",
                     },
-
-                    {
-                        title: "Vehicle width, mm",
-                        value: "2550",
-                    },
-
-                    {
-                        title: "Vehicle height, mm",
-                        value: "3580",
-                    },
-
                     {
                         title: "Wheelbase, mm",
                         value: "4700",
                     },
-
                     {
                         title: "Wheel formula",
                         value: "4x2",
                     },
-
                     {
                         title: "Platform length, m",
                         value: "6.6",
                     },
-
                     {
                         title: "Gross vehicle weight, kg",
                         value: "11980",
                     },
-
                     {
                         title: "Curb weight, kg",
                         value: "7350",
                     },
-
                     {
                         title: "Payload capacity, kg",
                         value: "4630",
                     },
-
                     {
                         title: "View all specifications",
                     },
@@ -2234,67 +2099,54 @@ const trucks = [
                             title: "Base chassis",
                             value: "KAMAZ 4308-3083-69(G5)",
                         },
-
                         {
                             title: "Engine",
                             value: "Cummins ISB6.7 E5 250, 250 hp",
                         },
-
                         {
                             title: "Transmission",
                             value: "Manual, 9-speed ZF9",
                         },
-
                         {
                             title: "Wheelbase, mm",
                             value: "4700",
                         },
-
                         {
                             title: "Superstructure dimensions, mm",
                             value: "6600×2550×2500",
                         },
-
                         {
                             title: "Flatbed platform base",
                             value: "Welded frame construction made of open profiles. Consists of longitudinal members and cross beams, with edging and front wall made of HOSSEN profile. Galvanized cargo securing loops are installed in the platform edging profile (they do not reduce the loading width of the platform), 6 pieces on each side.",
                         },
-
                         {
                             title: "Floor",
                             value: "21 mm moisture-resistant plywood with anti-slip coating, 2 mm corrugated aluminum sheet",
                         },
-
                         {
                             title: "Platform sideboards",
                             value: "Aluminum fold-down sideboards, 2 sections per side, height 400 mm. Opening angle – 180°. Sliding posts, 2 per side, with aluminum locks.",
                         },
-
                         {
                             title: "Front wall",
                             value: "Made of aluminum profile across the entire height of the superstructure",
                         },
-
                         {
                             title: "Frame",
                             value: "Steel, height 2850 mm. Separate curtain sliding mechanism with aluminum roller guides for the roof and side curtains. Roof sliding hook with mounting bracket on the right rear frame post. Wooden slats arranged in four rows. Removable roof crossbar above the rear doors allows loading without height restrictions. Aluminum rain deflector above the rear doors. Front and rear posts are galvanized.",
                         },
-
                         {
                             title: "Rear doors",
                             value: "Hinged doors made of aluminum profile with concealed hardware. Can be secured in the open position.",
                         },
-
                         {
                             title: "Curtain",
                             value: "Fabric curtain with a weight of 650 g/m². Reinforced roof curtain corners. Horizontal curtain tensioners (ratchets) at the rear on both sides. Vertical curtain tensioners (tension lock with strap and hook) with a spacing of 0.5 m. Removable front bar of the side curtain for easier sliding of the curtain toward the rear.",
                         },
-
                         {
                             title: "Other equipment",
                             value: "Side moisture-resistant marker lights. Rear underride protection beam from the base chassis. Lighting and reflective equipment in accordance with vehicle operating requirements. Galvanized retractable ladder. Handrail for access to the platform. Cab roof deflector.",
                         },
-
                         {
                             title: "Equipment according to ADR EXII requirements",
                             value: "Remote battery master switch with a duplicate button in the cabin, IP65 protection class. Sand box. Grounding chain secured with 200 mm contact with the ground. C24-75 flashing beacon – 2 pcs. Fire extinguisher holder – 2 pcs. OP-6 fire extinguisher – 2 pcs. Curtain fabric complies with ADR EXII requirements. Metal protective screens (fenders). Speed limitation device “Nadezhny Kontrol”, type 80 (certificate of conformity No. EAES RU C-RU.AD07.B.05403/22, valid from 31.12.2022 to 30.12.2026). SHtrikh tachograph, “MAK-1” model.",
@@ -2314,7 +2166,6 @@ const trucks = [
 
             description: {
                 title: "Tavsif",
-
                 text: "",
             },
 
@@ -2330,62 +2181,42 @@ const trucks = [
                         title: "Asosiy shassi",
                         value: "KAMAZ 4308-3083-69(G5)",
                     },
-
                     {
                         title: "Dvigatel",
                         value: "Cummins ISB6.7 E5 250, 250 ot kuchi",
                     },
-
                     {
                         title: "Uzatmalar qutisi",
                         value: "Mexanik, 9 pog‘onali",
                     },
-
                     {
-                        title: "Avtomobil uzunligi, mm",
-                        value: "8970",
+                        title: "Avtomobil gabarit o‘lchamlari, U×K×B (mm)",
+                        value: "8970×2550×3580",
                     },
-
-                    {
-                        title: "Avtomobil kengligi, mm",
-                        value: "2550",
-                    },
-
-                    {
-                        title: "Avtomobil balandligi, mm",
-                        value: "3580",
-                    },
-
                     {
                         title: "G‘ildirak bazasi, mm",
                         value: "4700",
                     },
-
                     {
                         title: "G‘ildirak formulasi",
                         value: "4x2",
                     },
-
                     {
                         title: "Platforma uzunligi, m",
                         value: "6,6",
                     },
-
                     {
                         title: "To‘liq massa, kg",
                         value: "11980",
                     },
-
                     {
                         title: "Bo‘sh massa, kg",
                         value: "7350",
                     },
-
                     {
                         title: "Yuk ko‘tarish qobiliyati, kg",
                         value: "4630",
                     },
-
                     {
                         title: "Barcha texnik xususiyatlarni ko‘rish",
                     },
@@ -2402,67 +2233,54 @@ const trucks = [
                             title: "Asosiy shassi",
                             value: "KAMAZ 4308-3083-69(G5)",
                         },
-
                         {
                             title: "Dvigatel",
                             value: "Cummins ISB6.7 E5 250, 250 ot kuchi",
                         },
-
                         {
                             title: "Uzatmalar qutisi",
                             value: "Mexanik, 9 pog‘onali ZF9",
                         },
-
                         {
                             title: "G‘ildirak bazasi, mm",
                             value: "4700",
                         },
-
                         {
                             title: "Ustqurmaning gabarit o‘lchamlari, mm",
                             value: "6600×2550×2500",
                         },
-
                         {
                             title: "Bortli platforma asosi",
                             value: "Ochiq profillardan tayyorlangan payvandlangan rama konstruksiyasi. Bo‘ylama lonjeronlar va ko‘ndalang balkalardan, shuningdek HOSSEN profilidan tayyorlangan chegara va old devordan tashkil topgan. Platformaning chegara profiliga galvanizatsiyalangan yuk mahkamlash halqalari o‘rnatilgan (ular platformaning yuklash kengligini kamaytirmaydi), har bir tomonda 6 tadan.",
                         },
-
                         {
                             title: "Pol",
                             value: "21 mm qalinlikdagi sirpanishga qarshi qoplamali namlikka chidamli fanera, 2 mm qalinlikdagi riflangan alyuminiy list",
                         },
-
                         {
                             title: "Platforma bortlari",
                             value: "Alyuminiy bukiladigan bortlar, har bir tomonda 2 ta seksiya, balandligi 400 mm. Ochilish burchagi — 180°. Har bir tomonda 2 tadan suriluvchi ustunlar, alyuminiy qulflar bilan.",
                         },
-
                         {
                             title: "Old devor",
                             value: "Ustqurmaning butun balandligi bo‘ylab alyuminiy profildan tayyorlangan",
                         },
-
                         {
                             title: "Karkas",
                             value: "Po‘latdan, balandligi 2850 mm. Tom va yon tentlarni alohida surish mexanizmi alyuminiy rolikli yo‘naltirgichlar bilan jihozlangan. Tomni surish uchun ilgak karkasning o‘ng orqa ustunidagi mahkamlash kronshteyniga ega. To‘rt qator qilib o‘rnatilgan yog‘och taxtalardan iborat obreshyotka. Orqa eshiklar ustidagi olinadigan tom ko‘ndalang balkasi balandlik bo‘yicha cheklovlarsiz yuklash imkonini beradi. Orqa eshiklar ustida alyuminiy suv qaytaruvchi soyabon mavjud. Old va orqa ustunlar galvanizatsiyalangan.",
                         },
-
                         {
                             title: "Orqa eshiklar",
                             value: "Yashirin furnitura bilan alyuminiy profildan tayyorlangan ikki tavaqali eshiklar. Ochiq holatda mahkamlash imkoniyati mavjud.",
                         },
-
                         {
                             title: "Tent",
                             value: "650 g/m² solishtirma og‘irlikdagi matodan tayyorlangan tent. Tom tentining burchaklari kuchaytirilgan. Orqa qismda har ikki tomonda gorizontal tent tortgichlari (ratshetlar) mavjud. Vertikal tent tortgichlari (tasma va ilgakli tortish qulfi) 0,5 m qadam bilan o‘rnatilgan. Yon tentni orqaga osonroq surish uchun olinadigan oldingi yon parda shtangasi mavjud.",
                         },
-
                         {
                             title: "Boshqa jihozlar",
                             value: "Yon namlikdan himoyalangan gabarit chiroqlari. Asosiy shassidan orqa podkatga qarshi himoya balkasi. Avtomobildan foydalanish talablariga muvofiq yorug‘lik signalizatsiyasi va yorug‘lik qaytaruvchi lenta. Galvanizatsiyalangan suriluvchi narvon. Platformaga chiqish uchun tutqich. Kabina uchun aerodinamik deflektor.",
                         },
-
                         {
                             title: "ADR EXII talablariga muvofiq jihozlar",
                             value: "IP65 himoya darajasiga ega akkumulyator batareyasining masofadan boshqariladigan massa o‘chirgichi va kabinadagi takroriy tugma. Qum qutisi. Yer bilan 200 mm kontaktni ta’minlaydigan yerga ulash zanjiri. C24-75 miltillovchi mayoqcha — 2 dona. O‘t o‘chirgich qutisi — 2 dona. OP-6 o‘t o‘chirgichi — 2 dona. Tent matosi ADR EXII talablariga javob beradi. Metall himoya ekranlari (qanot osti himoyalari). “Nadezhny Kontrol” tezlikni cheklash qurilmasi, 80-tur (muvofiqlik sertifikati № EAES RU C-RU.AD07.B.05403/22, 31.12.2022 dan 30.12.2026 gacha amal qiladi). SHtrix taxografi, “MAK-1” modeli.",
@@ -2490,6 +2308,7 @@ const trucks = [
             { image: galleryOf3TruckImage4 },
             { image: galleryOf4TruckImage4 },
         ],
+
         ru: {
             price: "Цена по запросу",
 
@@ -2534,7 +2353,7 @@ const trucks = [
                         value: "3690",
                     },
                     {
-                        title: "Длина платформы, м",
+                        title: "Длина платформы, мм",
                         value: "5500",
                     },
                     {
@@ -2564,6 +2383,7 @@ const trucks = [
             },
 
             charectiristicsTitle: "Характеристики",
+
             characteristics: [
                 {
                     sectionTitle:
@@ -2626,7 +2446,6 @@ const trucks = [
                             title: "Прочее оборудование",
                             value: "Пластиковые крылья, брызговики. Боковые влагозащитные габаритные огни. Боковая защита из алюминиевых профилей на откидных оцинкованных кронштейнах. Заднее защитное устройство. Ступень для подъёма на платформу.",
                         },
-
                         {
                             title: "Максимальный грузовой момент, тм",
                             value: "21,0",
@@ -2713,7 +2532,7 @@ const trucks = [
                         value: "3690",
                     },
                     {
-                        title: "Platform length, m",
+                        title: "Platform length, mm",
                         value: "5500",
                     },
                     {
@@ -2804,7 +2623,6 @@ const trucks = [
                             title: "Other equipment",
                             value: "Plastic fenders and mudguards. Side moisture-resistant marker lights. Side protection made of aluminum profiles on folding galvanized brackets. Rear protective device. Step for access to the platform.",
                         },
-
                         {
                             title: "Maximum load moment, tm",
                             value: "21.0",
@@ -2891,7 +2709,7 @@ const trucks = [
                         value: "3690",
                     },
                     {
-                        title: "Platforma uzunligi, m",
+                        title: "Platforma uzunligi, mm",
                         value: "5500",
                     },
                     {
@@ -2982,7 +2800,6 @@ const trucks = [
                             title: "Boshqa jihozlar",
                             value: "Plastik qanotlar va loy sachratkichlar. Yon namlikdan himoyalangan gabarit chiroqlari. Bukiladigan galvanizatsiyalangan kronshteynlardagi alyuminiy profillardan tayyorlangan yon himoya. Orqa himoya qurilmasi. Platformaga chiqish uchun zina.",
                         },
-
                         {
                             title: "Maksimal yuk momenti, tm",
                             value: "21,0",
@@ -3102,11 +2919,19 @@ const trucks = [
                         value: "8700",
                     },
                     {
-                        title: "Объем цистерны, л.",
+                        title: "Снаряженная масса, кг",
+                        value: "4200",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
                         value: "5300",
                     },
                     {
-                        title: "Количество отсеков, шт.:",
+                        title: "Объем цистерны, л",
+                        value: "5300",
+                    },
+                    {
+                        title: "Количество отсеков, шт.",
                         value: "2",
                     },
                     {
@@ -3116,6 +2941,7 @@ const trucks = [
             },
 
             charectiristicsTitle: "Характеристики",
+
             characteristics: [
                 {
                     sectionTitle:
@@ -3183,6 +3009,7 @@ const trucks = [
                         },
                     ],
                 },
+
                 {
                     sectionTitle: "Цистерна:",
 
@@ -3225,6 +3052,7 @@ const trucks = [
                         },
                     ],
                 },
+
                 {
                     sectionTitle: "Коммуникации",
 
@@ -3247,6 +3075,7 @@ const trucks = [
                         },
                     ],
                 },
+
                 {
                     sectionTitle: "Насосное оборудование:",
 
@@ -3257,7 +3086,7 @@ const trucks = [
                         },
                         {
                             title: "Насос",
-                            value: "Насос	СШН-50/600П Шиберного типа, Производительность 600 л/мин, максимальная высота самовсасывания 6,0 м.",
+                            value: "Насос СШН-50/600П Шиберного типа, Производительность 600 л/мин, максимальная высота самовсасывания 6,0 м.",
                         },
                         {
                             title: "Фильтр",
@@ -3265,6 +3094,7 @@ const trucks = [
                         },
                     ],
                 },
+
                 {
                     sectionTitle: "Узел выдачи топлива:",
 
@@ -3295,6 +3125,7 @@ const trucks = [
                         },
                     ],
                 },
+
                 {
                     sectionTitle: "Комплектация:",
 
@@ -3348,6 +3179,7 @@ const trucks = [
                         },
                     ],
                 },
+
                 {
                     sectionTitle: "Окраска:",
 
@@ -3495,6 +3327,14 @@ const trucks = [
                     {
                         title: "Gross vehicle weight, kg",
                         value: "8700",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "4200",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "5300",
                     },
                     {
                         title: "Tank capacity, L",
@@ -3895,6 +3735,14 @@ const trucks = [
                     {
                         title: "To‘liq massa, kg",
                         value: "8700",
+                    },
+                    {
+                        title: "Bo‘sh massa, kg",
+                        value: "4200",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "5300",
                     },
                     {
                         title: "Sisterna hajmi, l",
@@ -4314,7 +4162,7 @@ const trucks = [
                         value: "6000",
                     },
                     {
-                        title: "Длина платформы, м",
+                        title: "Длина платформы, мм",
                         value: "8500",
                     },
                     {
@@ -4340,6 +4188,7 @@ const trucks = [
             },
 
             charectiristicsTitle: "Характеристики",
+
             characteristics: [
                 {
                     sectionTitle: "Шторный грузовик КАМАЗ КОМПАС 43082",
@@ -4451,7 +4300,7 @@ const trucks = [
                         value: "6000",
                     },
                     {
-                        title: "Platform length, m",
+                        title: "Platform length, mm",
                         value: "8500",
                     },
                     {
@@ -4588,7 +4437,7 @@ const trucks = [
                         value: "6000",
                     },
                     {
-                        title: "Platforma uzunligi, m",
+                        title: "Platforma uzunligi, mm",
                         value: "8500",
                     },
                     {
@@ -4742,7 +4591,7 @@ const trucks = [
                         value: "4600+1400",
                     },
                     {
-                        title: "Длина платформы, м",
+                        title: "Длина платформы, мм",
                         value: "6700",
                     },
                     {
@@ -4929,7 +4778,7 @@ const trucks = [
                         value: "4600+1400",
                     },
                     {
-                        title: "Platform length, m",
+                        title: "Platform length, mm",
                         value: "6700",
                     },
                     {
@@ -5114,7 +4963,7 @@ const trucks = [
                         value: "4600+1400",
                     },
                     {
-                        title: "Platforma uzunligi, m",
+                        title: "Platforma uzunligi, mm",
                         value: "6700",
                     },
                     {
@@ -5155,7 +5004,7 @@ const trucks = [
                         },
                         {
                             title: "Ustqurma turi",
-                            value: "Bortli platforma va kran-manipulyator",
+                            value: "Bortli platforma s kran-manipulyator",
                         },
                         {
                             title: "Dvigatel",
@@ -5319,7 +5168,7 @@ const trucks = [
                         value: "4600+1400",
                     },
                     {
-                        title: "Длина платформы, м",
+                        title: "Длина платформы, мм",
                         value: "6200",
                     },
                     {
@@ -5498,7 +5347,7 @@ const trucks = [
                         value: "4600+1400",
                     },
                     {
-                        title: "Platform length, m",
+                        title: "Platform length, mm",
                         value: "6200",
                     },
                     {
@@ -5675,7 +5524,7 @@ const trucks = [
                         value: "4600+1400",
                     },
                     {
-                        title: "Platforma uzunligi, m",
+                        title: "Platforma uzunligi, mm",
                         value: "6200",
                     },
                     {
@@ -5871,7 +5720,7 @@ const trucks = [
                         value: "4400+1400 мм или 4600+1400",
                     },
                     {
-                        title: "Длина платформы, м",
+                        title: "Длина платформы, мм",
                         value: "6700",
                     },
                     {
@@ -6054,7 +5903,7 @@ const trucks = [
                         value: "4400+1400 mm or 4600+1400",
                     },
                     {
-                        title: "Platform length, m",
+                        title: "Platform length, mm",
                         value: "6700",
                     },
                     {
@@ -6237,7 +6086,7 @@ const trucks = [
                         value: "4400+1400 mm yoki 4600+1400",
                     },
                     {
-                        title: "Platforma uzunligi, m",
+                        title: "Platforma uzunligi, mm",
                         value: "6700",
                     },
                     {
@@ -6439,7 +6288,7 @@ const trucks = [
                         value: "4600+1320",
                     },
                     {
-                        title: "Длина платформы, м",
+                        title: "Длина платформы, мм",
                         value: "7000",
                     },
                     {
@@ -6622,7 +6471,7 @@ const trucks = [
                         value: "4600+1320",
                     },
                     {
-                        title: "Platform length, m",
+                        title: "Platform length, mm",
                         value: "7000",
                     },
                     {
@@ -6805,7 +6654,7 @@ const trucks = [
                         value: "4600+1320",
                     },
                     {
-                        title: "Platforma uzunligi, m",
+                        title: "Platforma uzunligi, mm",
                         value: "7000",
                     },
                     {
@@ -7012,7 +6861,7 @@ const trucks = [
                         value: "5200",
                     },
                     {
-                        title: "Длина платформы, м",
+                        title: "Длина платформы, мм",
                         value: "7500",
                     },
                     {
@@ -7146,7 +6995,7 @@ const trucks = [
                         value: "5200",
                     },
                     {
-                        title: "Platform length, m",
+                        title: "Platform length, mm",
                         value: "7500",
                     },
                     {
@@ -7280,7 +7129,7 @@ const trucks = [
                         value: "5200",
                     },
                     {
-                        title: "Platforma uzunligi, m",
+                        title: "Platforma uzunligi, mm",
                         value: "7500",
                     },
                     {
@@ -7431,7 +7280,7 @@ const trucks = [
                         value: "4600+1400",
                     },
                     {
-                        title: "Длина платформы, м",
+                        title: "Длина платформы, мм",
                         value: "7500",
                     },
                     {
@@ -7568,7 +7417,7 @@ const trucks = [
                         value: "4600+1400",
                     },
                     {
-                        title: "Platform length, m",
+                        title: "Platform length, mm",
                         value: "7500",
                     },
                     {
@@ -7706,7 +7555,7 @@ const trucks = [
                         value: "4600+1400",
                     },
                     {
-                        title: "Platforma uzunligi, m",
+                        title: "Platforma uzunligi, mm",
                         value: "7500",
                     },
                     {
@@ -7864,7 +7713,7 @@ const trucks = [
                         value: "4780",
                     },
                     {
-                        title: "Длина платформы, м",
+                        title: "Длина платформы, мм",
                         value: "8500",
                     },
                     {
@@ -7999,7 +7848,7 @@ const trucks = [
                         value: "4780",
                     },
                     {
-                        title: "Platform length, m",
+                        title: "Platform length, mm",
                         value: "8500",
                     },
                     {
@@ -8134,7 +7983,7 @@ const trucks = [
                         value: "4780",
                     },
                     {
-                        title: "Platforma uzunligi, m",
+                        title: "Platforma uzunligi, mm",
                         value: "8500",
                     },
                     {
@@ -8288,7 +8137,7 @@ const trucks = [
                         value: "5150+1350",
                     },
                     {
-                        title: "Длина платформы, м",
+                        title: "Длина платформы, мм",
                         value: "8300",
                     },
                     {
@@ -8423,7 +8272,7 @@ const trucks = [
                         value: "5150+1350",
                     },
                     {
-                        title: "Platform length, m",
+                        title: "Platform length, mm",
                         value: "8300",
                     },
                     {
@@ -8558,7 +8407,7 @@ const trucks = [
                         value: "5150+1350",
                     },
                     {
-                        title: "Platforma uzunligi, m",
+                        title: "Platforma uzunligi, mm",
                         value: "8300",
                     },
                     {
@@ -8724,11 +8573,11 @@ const trucks = [
                         value: "9030",
                     },
                     {
-                        title: "Объем цистерны, л.",
+                        title: "Объем цистерны, л",
                         value: "6000",
                     },
                     {
-                        title: "Количество отсеков, шт.:",
+                        title: "Количество отсеков, шт.",
                         value: "2",
                     },
                     {
@@ -8738,6 +8587,7 @@ const trucks = [
             },
 
             charectiristicsTitle: "Характеристики",
+
             characteristics: [
                 {
                     sectionTitle: "Автотопливозаправщик на шасси JAC N-90S",
@@ -8906,8 +8756,10 @@ const trucks = [
                     description: "Описание",
                     text: "Техника для работы с топливом требует высокой надежности и безопасности. Двухсекционный бензовоз JAC N90 обеспечивает точную и безопасную доставку топлива в любых условиях. Эффективность машины определяется качеством конструкции и эксплуатационной поддержкой. Компания «РусТрак» предлагает современные модели с полным сопровождением клиентов. Надежные автомобили снижают риски и повышают безопасность при работе с топливом. Продуманная конструкция и сервисная поддержка позволяют поддерживать технику в идеальном состоянии.",
                 },
+
                 advantages: {
                     title: "Преимущества автотопливозаправщика JAC N90",
+
                     items: [
                         {
                             title: "Надежная конструкция шасси",
@@ -8950,11 +8802,14 @@ const trucks = [
                             text: "кабина и цистерна окрашены по ТУ с нанесением надписей «Огнеопасно» и знаков 3 класса, обеспечивая визуальное предупреждение и долговечность покрытия.",
                         },
                     ],
+
                     summary:
                         "Бензовоз JAC N90 сочетает прочность конструкции, высокую точность оборудования и полный комплекс систем безопасности. Каждая деталь продумана для удобства работы, надежной эксплуатации и точного учета топлива. Надежность и функциональность техники позволяют безопасно и эффективно управлять процессом заправки топлива в любых условиях.",
                 },
+
                 applications: {
                     title: "Области применения",
+
                     items: [
                         {
                             title: "Промышленные объекты",
@@ -8981,9 +8836,11 @@ const trucks = [
                             text: "заправка тракторов, комбайнов и другой техники без необходимости транспортировки топлива на большие расстояния.",
                         },
                     ],
+
                     summary:
                         "Двухсекционный АТЗ JAC N90 демонстрирует универсальность и адаптивность к различным условиям эксплуатации. Возможность безопасной и точной выдачи топлива делает технику эффективным решением для объектов с повышенными требованиями к безопасности и надежности.",
                 },
+
                 conclusion: {
                     title: "Техника, на которую можно положиться",
                     text: "Купить JAC N90 двухсекционный автотопливозаправщик — выгодное решение для надежной и безопасной работы с топливом. Он сочетает прочную конструкцию и высокую точность эксплуатации. Компания «РусТрак» обеспечивает полное сопровождение и поддержку при покупке. Не откладывайте выбор современной техники, чтобы повысить эффективность работы. Обеспечьте безопасность и удобство при эксплуатации в любых условиях. Для оформления заказа свяжитесь с нами любым удобным способом и получите профессиональную консультацию.",
@@ -9044,7 +8901,7 @@ const trucks = [
                         value: "9030",
                     },
                     {
-                        title: "Tank capacity, l",
+                        title: "Tank capacity, L",
                         value: "6000",
                     },
                     {
@@ -9056,6 +8913,8 @@ const trucks = [
                     },
                 ],
             },
+
+            charectiristicsTitle: "Specifications",
 
             characteristics: [
                 {
@@ -9723,11 +9582,11 @@ const trucks = [
                         value: "18000",
                     },
                     {
-                        title: "Объем цистерны, л.",
+                        title: "Объем цистерны, л",
                         value: "10000",
                     },
                     {
-                        title: "Количество отсеков, шт.:",
+                        title: "Количество отсеков, шт.",
                         value: "2",
                     },
                     {
@@ -10100,7 +9959,7 @@ const trucks = [
                         value: "18000",
                     },
                     {
-                        title: "Tank capacity, l",
+                        title: "Tank capacity, L",
                         value: "10000",
                     },
                     {
@@ -10224,7 +10083,7 @@ const trucks = [
                     items: [
                         {
                             title: "Material. Nominal bore diameter, mm:",
-                            value: "AMg5M, DN 80",
+                            value: "AMG5M, DN 80",
                         },
                         {
                             title: "Shut-off equipment:",
@@ -10602,7 +10461,7 @@ const trucks = [
                     items: [
                         {
                             title: "Material. Shartli o‘tish diametri, mm:",
-                            value: "AMg5M, DN 80",
+                            value: "AMG5M, DN 80",
                         },
                         {
                             title: "Yopish uskunalari:",
@@ -10796,6 +10655,7 @@ const trucks = [
                     text: "Valdai 18 yoqilg‘i tashuvchisi turli sharoitlarda ishonchli ishlashni ta’minlaydi. «RusTrak» kompaniyasining to‘liq servis xizmati va texnik ko‘magi barqaror ekspluatatsiya, uskunalardan xavfsiz foydalanish va uzoq muddatli samaradorlikni ta’minlaydi. Buyurtma berish uchun biz bilan o‘zingizga qulay usulda bog‘laning.",
                 },
             ],
+
             videoPart: {
                 title: "Video sharhi",
                 src: "https://vk.com/video_ext.php?oid=-198670867&id=456239083&hash=66e88383a817688e",
@@ -10881,7 +10741,7 @@ const trucks = [
                         value: "11990",
                     },
                     {
-                        title: "Объем цистерны, л.",
+                        title: "Объем цистерны, л",
                         value: "6000",
                     },
                     {
@@ -11269,11 +11129,11 @@ const trucks = [
                         value: "11990",
                     },
                     {
-                        title: "Tank capacity, l.",
+                        title: "Tank capacity, L",
                         value: "6000",
                     },
                     {
-                        title: "Number of compartments",
+                        title: "Number of compartments, pcs.",
                         value: "2",
                     },
                     {
@@ -11657,11 +11517,11 @@ const trucks = [
                         value: "11990",
                     },
                     {
-                        title: "Sisterna hajmi, l.",
+                        title: "Sisterna hajmi, l",
                         value: "6000",
                     },
                     {
-                        title: "Seksiyalar soni",
+                        title: "Seksiyalar soni, dona",
                         value: "2",
                     },
                     {
@@ -12077,12 +11937,15 @@ const trucks = [
                         value: "11990",
                     },
                     {
-                        title: "Объем цистерны, л.",
+                        title: "Объем цистерны, л",
                         value: "8000",
                     },
                     {
                         title: "Количество отсеков, шт.",
                         value: "2",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
                     },
                 ],
             },
@@ -12114,7 +11977,6 @@ const trucks = [
                             title: "Дистанционный выключатель массы",
                             value: "2шт. (в районе АКБ и дублирование в кабине) в соответствии с требованиями ДОПОГ",
                         },
-
                         {
                             title: "Общая номинальная вместимость цистерны, л.",
                             value: "8000",
@@ -12183,7 +12045,6 @@ const trucks = [
                             title: "Устройство дыхательное",
                             value: "УД-2 80 с огнепреградителем, на каждый отсек",
                         },
-
                         {
                             title: "Материал Диаметр условного прохода, мм.",
                             value: "АМГ5М, Ду – 80.",
@@ -12204,7 +12065,6 @@ const trucks = [
                             title: "Быстроразъемные соединения (БРС): Тип: Производитель: Ду, мм:",
                             value: "Elaflex, Ду -75",
                         },
-
                         {
                             title: "Привод насоса",
                             value: "От двигателя шасси через коробку отбора мощности при помощи карданной передачи",
@@ -12217,7 +12077,6 @@ const trucks = [
                             title: "Фильтр, шт.: Тип: Марка:",
                             value: "Фильтрующий элемент фильтра изготовлен из металлической сетки полутомпаковой 0,8Н (ГОСТ 66130). Сетка зафиксирована на каркасе проволокой.",
                         },
-
                         {
                             title: "Расположение",
                             value: "сзади",
@@ -12238,7 +12097,6 @@ const trucks = [
                             title: "Кран раздаточный",
                             value: "Кран раздаточный АКТ с автоматическим и ручным прекращением выдачи рабочей жидкости марки АКТ25 или аналог. Держатель для пистолета.",
                         },
-
                         {
                             title: "Огнетушители, шт.: Тип:",
                             value: "ОП-6, 2 шт.",
@@ -12299,7 +12157,6 @@ const trucks = [
                             title: "Заднее защитное устройство (ЗЗУ)",
                             value: "да",
                         },
-
                         {
                             title: "Окраска цистерны",
                             value: "По ТУ завода изготовителя РАЛ - 2009",
@@ -12432,12 +12289,15 @@ const trucks = [
                         value: "11990",
                     },
                     {
-                        title: "Tank capacity, l",
+                        title: "Tank capacity, L",
                         value: "8000",
                     },
                     {
                         title: "Number of compartments, pcs.",
                         value: "2",
+                    },
+                    {
+                        title: "View all specifications",
                     },
                 ],
             },
@@ -12788,6 +12648,9 @@ const trucks = [
                         title: "Bo‘limlar soni, dona",
                         value: "2",
                     },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
                 ],
             },
 
@@ -13132,6 +12995,14 @@ const trucks = [
                         value: "Механическая, 5-ти ступенчатая",
                     },
                     {
+                        title: "Длина автомобиля, мм",
+                        value: "8680",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2420",
+                    },
+                    {
                         title: "Высота автомобиля, мм",
                         value: "3667",
                     },
@@ -13252,6 +13123,14 @@ const trucks = [
                         value: "Manual, 5-speed",
                     },
                     {
+                        title: "Vehicle length, mm",
+                        value: "8680",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2420",
+                    },
+                    {
                         title: "Vehicle height, mm",
                         value: "3667",
                     },
@@ -13370,6 +13249,14 @@ const trucks = [
                     {
                         title: "Uzatmalar qutisi",
                         value: "Mexanik, 5 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "8680",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2420",
                     },
                     {
                         title: "Avtomobil balandligi, mm",
@@ -15082,6 +14969,10 @@ const trucks = [
                         value: "9030",
                     },
                     {
+                        title: "Снаряженная масса, кг",
+                        value: "5750",
+                    },
+                    {
                         title: "Объем цистерны, л",
                         value: "6000",
                     },
@@ -15254,6 +15145,10 @@ const trucks = [
                         value: "9030",
                     },
                     {
+                        title: "Curb weight, kg",
+                        value: "5750",
+                    },
+                    {
                         title: "Tank volume, l",
                         value: "6000",
                     },
@@ -15424,6 +15319,10 @@ const trucks = [
                     {
                         title: "To‘liq massa, kg",
                         value: "9030",
+                    },
+                    {
+                        title: "Bo‘sh massa, kg",
+                        value: "5750",
                     },
                     {
                         title: "Sisterna hajmi, l",
@@ -15623,10 +15522,6 @@ const trucks = [
                         value: "5000",
                     },
                     {
-                        title: "Количество отсеков, шт.",
-                        value: "2",
-                    },
-                    {
                         title: "Смотреть все характеристики",
                     },
                 ],
@@ -15753,10 +15648,6 @@ const trucks = [
                     {
                         title: "Tank volume, l",
                         value: "5000",
-                    },
-                    {
-                        title: "Number of compartments",
-                        value: "2",
                     },
                     {
                         title: "View all specifications",
@@ -15887,10 +15778,6 @@ const trucks = [
                         value: "5000",
                     },
                     {
-                        title: "Bo‘limlar soni",
-                        value: "2",
-                    },
-                    {
                         title: "Barcha texnik xususiyatlarni ko‘rish",
                     },
                 ],
@@ -16019,7 +15906,7 @@ const trucks = [
                     },
                     {
                         title: "Колесная база, мм",
-                        value: "3845",
+                        value: "3850",
                     },
                     {
                         title: "Полная масса, кг",
@@ -16028,10 +15915,6 @@ const trucks = [
                     {
                         title: "Объем цистерны, л",
                         value: "4300",
-                    },
-                    {
-                        title: "Количество отсеков, шт.",
-                        value: "1",
                     },
                     {
                         title: "Смотреть все характеристики",
@@ -16148,7 +16031,7 @@ const trucks = [
                     },
                     {
                         title: "Wheelbase, mm",
-                        value: "3845",
+                        value: "3850",
                     },
                     {
                         title: "Gross vehicle weight, kg",
@@ -16157,10 +16040,6 @@ const trucks = [
                     {
                         title: "Tank volume, l",
                         value: "4300",
-                    },
-                    {
-                        title: "Number of compartments",
-                        value: "1",
                     },
                     {
                         title: "View all specifications",
@@ -16276,7 +16155,7 @@ const trucks = [
                     },
                     {
                         title: "G‘ildirak bazasi, mm",
-                        value: "3845",
+                        value: "3850",
                     },
                     {
                         title: "To‘liq massa, kg",
@@ -16285,10 +16164,6 @@ const trucks = [
                     {
                         title: "Sisterna hajmi, l",
                         value: "4300",
-                    },
-                    {
-                        title: "Bo‘limlar soni",
-                        value: "1",
                     },
                     {
                         title: "Barcha texnik xususiyatlarni ko‘rish",
@@ -16422,6 +16297,10 @@ const trucks = [
                     {
                         title: "Колесная база, мм",
                         value: "3815",
+                    },
+                    {
+                        title: "Объем цистерны, л",
+                        value: "4200",
                     },
                     {
                         title: "Смотреть все характеристики",
@@ -16579,6 +16458,10 @@ The tanker is thermally insulated, making it convenient to operate in difficult 
                         value: "3815",
                     },
                     {
+                        title: "Tank volume, L",
+                        value: "4200",
+                    },
+                    {
                         title: "View all specifications",
                     },
                 ],
@@ -16731,6 +16614,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "G‘ildirak bazasi, mm",
                         value: "3815",
+                    },
+                    {
+                        title: "Sisterna hajmi, l",
+                        value: "4200",
                     },
                     {
                         title: "Barcha texnik xususiyatlarni ko‘rish",
@@ -16900,6 +16787,26 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "3850",
                     },
                     {
+                        title: "Вместимость цистерны, м³",
+                        value: "4,3",
+                    },
+                    {
+                        title: "Глубина очищаемой ямы, м",
+                        value: "4",
+                    },
+                    {
+                        title: "Производительность вакуум-насоса КО-510, м³/ч",
+                        value: "360",
+                    },
+                    {
+                        title: "Максимальное разрежение в цистерне, МПа",
+                        value: "0,08",
+                    },
+                    {
+                        title: "Время наполнения цистерны, мин",
+                        value: "6",
+                    },
+                    {
                         title: "Смотреть все характеристики",
                     },
                 ],
@@ -17008,6 +16915,26 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "3850",
                     },
                     {
+                        title: "Tank capacity, m³",
+                        value: "4.3",
+                    },
+                    {
+                        title: "Pit cleaning depth, m",
+                        value: "4",
+                    },
+                    {
+                        title: "KO-510 vacuum pump capacity, m³/h",
+                        value: "360",
+                    },
+                    {
+                        title: "Maximum vacuum in the tank, MPa",
+                        value: "0.08",
+                    },
+                    {
+                        title: "Tank filling time, min",
+                        value: "6",
+                    },
+                    {
                         title: "View all specifications",
                     },
                 ],
@@ -17114,6 +17041,26 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "G‘ildirak bazasi, mm",
                         value: "3850",
+                    },
+                    {
+                        title: "Sisterna sig‘imi, m³",
+                        value: "4,3",
+                    },
+                    {
+                        title: "Tozalanadigan chuqurlik, m",
+                        value: "4",
+                    },
+                    {
+                        title: "KO-510 vakuum nasosi unumdorligi, m³/soat",
+                        value: "360",
+                    },
+                    {
+                        title: "Sisternadagi maksimal vakuum, MPa",
+                        value: "0,08",
+                    },
+                    {
+                        title: "Sisternani to‘ldirish vaqti, daqiqa",
+                        value: "6",
                     },
                     {
                         title: "Barcha texnik xususiyatlarni ko‘rish",
@@ -17257,7 +17204,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4х2",
                     },
                     {
-                        title: "Длина платформы, м",
+                        title: "Длина платформы, мм",
                         value: "4600",
                     },
                     {
@@ -17273,8 +17220,16 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "5,2",
                     },
                     {
+                        title: "Подъемный момент, тм",
+                        value: "12,1",
+                    },
+                    {
                         title: "Вылет стрелы, м",
                         value: "8",
+                    },
+                    {
+                        title: "Грузоподъёмность на максимальном вылете, кг",
+                        value: "1520",
                     },
                     {
                         title: "Смотреть все характеристики",
@@ -17415,7 +17370,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platform length, m",
+                        title: "Platform length, mm",
                         value: "4600",
                     },
                     {
@@ -17431,8 +17386,16 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "5.2",
                     },
                     {
+                        title: "Lifting moment, tm",
+                        value: "12.1",
+                    },
+                    {
                         title: "Boom reach, m",
                         value: "8",
+                    },
+                    {
+                        title: "Lifting capacity at maximum reach, kg",
+                        value: "1520",
                     },
                     {
                         title: "View all specifications",
@@ -17573,7 +17536,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platforma uzunligi, m",
+                        title: "Platforma uzunligi, mm",
                         value: "4600",
                     },
                     {
@@ -17589,8 +17552,16 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "5,2",
                     },
                     {
+                        title: "Ko‘tarish momenti, tm",
+                        value: "12,1",
+                    },
+                    {
                         title: "Strela chiqishi, m",
                         value: "8",
+                    },
+                    {
+                        title: "Maksimal chiqishda yuk ko‘tarish qobiliyati, kg",
+                        value: "1520",
                     },
                     {
                         title: "Barcha texnik xususiyatlarni ko‘rish",
@@ -17734,12 +17705,20 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4х2",
                     },
                     {
-                        title: "Полная масса, кг",
-                        value: "1420",
+                        title: "Грузоподъёмность КМУ, тонн",
+                        value: "5,2",
+                    },
+                    {
+                        title: "Подъемный момент, тм",
+                        value: "12,1",
                     },
                     {
                         title: "Вылет стрелы, м",
                         value: "8",
+                    },
+                    {
+                        title: "Грузоподъёмность на максимальном вылете, кг",
+                        value: "1520",
                     },
                     {
                         title: "Смотреть все характеристики",
@@ -17865,12 +17844,20 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Gross vehicle weight, kg",
-                        value: "1420",
+                        title: "Crane lifting capacity, tons",
+                        value: "5.2",
+                    },
+                    {
+                        title: "Lifting moment, tm",
+                        value: "12.1",
                     },
                     {
                         title: "Boom reach, m",
                         value: "8",
+                    },
+                    {
+                        title: "Lifting capacity at maximum reach, kg",
+                        value: "1520",
                     },
                     {
                         title: "View all specifications",
@@ -17996,12 +17983,20 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "To‘liq massa, kg",
-                        value: "1420",
+                        title: "KUM yuk ko‘tarish qobiliyati, tonna",
+                        value: "5,2",
+                    },
+                    {
+                        title: "Ko‘tarish momenti, tm",
+                        value: "12,1",
                     },
                     {
                         title: "Strela chiqishi, m",
                         value: "8",
+                    },
+                    {
+                        title: "Maksimal chiqishda yuk ko‘tarish qobiliyati, kg",
+                        value: "1520",
                     },
                     {
                         title: "Barcha texnik xususiyatlarni ko‘rish",
@@ -18176,7 +18171,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "24…46",
                     },
                     {
-                        title: "Длина фургона, м",
+                        title: "Длина фургона, мм",
                         value: "5200…7500",
                     },
                     {
@@ -18337,7 +18332,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "24…46",
                     },
                     {
-                        title: "Van length, m",
+                        title: "Van length, mm",
                         value: "5200…7500",
                     },
                     {
@@ -18498,7 +18493,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "24…46",
                     },
                     {
-                        title: "Furgon uzunligi, m",
+                        title: "Furgon uzunligi, mm",
                         value: "5200…7500",
                     },
                     {
@@ -18672,7 +18667,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "39…56",
                     },
                     {
-                        title: "Длина фургона, м",
+                        title: "Длина фургона, мм",
                         value: "6700…8500",
                     },
                     {
@@ -18828,7 +18823,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "39…56",
                     },
                     {
-                        title: "Van length, m",
+                        title: "Van length, mm",
                         value: "6700…8500",
                     },
                     {
@@ -18984,7 +18979,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "39…56",
                     },
                     {
-                        title: "Furgon uzunligi, m",
+                        title: "Furgon uzunligi, mm",
                         value: "6700…8500",
                     },
                     {
@@ -19112,7 +19107,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Базовое шасси", value: "SHACMAN X3000" },
+                    {
+                        title: "Базовое шасси",
+                        value: "SHACMAN X3000",
+                    },
                     {
                         title: "Двигатель",
                         value: "WP12.375E50, 375 л. с.",
@@ -19135,7 +19133,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     },
                     {
                         title: "Колесная база, мм",
-                        value: "1800",
+                        value: "1800+3225+1350",
                     },
                     {
                         title: "Полная масса, кг",
@@ -19154,7 +19152,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "48",
                     },
                     {
-                        title: "Длина фургона, м",
+                        title: "Длина фургона, мм",
                         value: "8400",
                     },
                     {
@@ -19289,7 +19287,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     },
                     {
                         title: "Wheelbase, mm",
-                        value: "1800",
+                        value: "1800+3225+1350",
                     },
                     {
                         title: "Gross vehicle weight, kg",
@@ -19308,7 +19306,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "48",
                     },
                     {
-                        title: "Van length, m",
+                        title: "Van length, mm",
                         value: "8400",
                     },
                     {
@@ -19443,7 +19441,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     },
                     {
                         title: "G‘ildirak bazasi, mm",
-                        value: "1800",
+                        value: "1800+3225+1350",
                     },
                     {
                         title: "To‘liq massa, kg",
@@ -19462,7 +19460,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "48",
                     },
                     {
-                        title: "Furgon uzunligi, m",
+                        title: "Furgon uzunligi, mm",
                         value: "8400",
                     },
                     {
@@ -19608,27 +19606,27 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "2890",
                     },
                     {
-                        title: "Полная масса, кг",
-                        value: "3500",
-                    },
-                    {
-                        title: "Грузоподъёмность, кг",
-                        value: "850",
-                    },
-                    {
                         title: "Колёсная база, мм",
                         value: "3140",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "3500",
                     },
                     {
                         title: "Снаряженная масса, кг",
                         value: "2650",
                     },
                     {
+                        title: "Грузоподъёмность, кг",
+                        value: "850",
+                    },
+                    {
                         title: "Объем фургона, м³",
                         value: "19",
                     },
                     {
-                        title: "Длина фургона, м",
+                        title: "Длина фургона, мм",
                         value: "4200",
                     },
                     {
@@ -19750,27 +19748,27 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "2890",
                     },
                     {
-                        title: "Gross vehicle weight, kg",
-                        value: "3500",
-                    },
-                    {
-                        title: "Payload capacity, kg",
-                        value: "850",
-                    },
-                    {
                         title: "Wheelbase, mm",
                         value: "3140",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "3500",
                     },
                     {
                         title: "Curb weight, kg",
                         value: "2650",
                     },
                     {
+                        title: "Payload capacity, kg",
+                        value: "850",
+                    },
+                    {
                         title: "Van volume, m³",
                         value: "19",
                     },
                     {
-                        title: "Van length, m",
+                        title: "Van length, mm",
                         value: "4200",
                     },
                     {
@@ -19892,27 +19890,27 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "2890",
                     },
                     {
-                        title: "To‘liq massa, kg",
-                        value: "3500",
-                    },
-                    {
-                        title: "Yuk ko‘tarish qobiliyati, kg",
-                        value: "850",
-                    },
-                    {
                         title: "G‘ildirak bazasi, mm",
                         value: "3140",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "3500",
                     },
                     {
                         title: "Jihozlangan massa, kg",
                         value: "2650",
                     },
                     {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "850",
+                    },
+                    {
                         title: "Furgon hajmi, m³",
                         value: "19",
                     },
                     {
-                        title: "Furgon uzunligi, m",
+                        title: "Furgon uzunligi, mm",
                         value: "4200",
                     },
                     {
@@ -20038,22 +20036,57 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Базовое шасси", value: "JAC N90" },
+                    {
+                        title: "Базовое шасси",
+                        value: "JAC N90",
+                    },
                     {
                         title: "Двигатель",
                         value: "Cummins ISF3.8S5154, 154 л. с.",
                     },
-                    { title: "КПП", value: "Механическая, 6-ти ступенчатая" },
-                    { title: "Длина автомобиля, мм", value: "8120" },
-                    { title: "Ширина автомобиля, мм", value: "2300" },
-                    { title: "Высота автомобиля, мм", value: "3565" },
-                    { title: "Колесная база, мм", value: "4475" },
-                    { title: "Полная масса, кг", value: "9030" },
-                    { title: "Снаряженная масса, кг", value: "4325…4485" },
-                    { title: "Грузоподъёмность, кг", value: "4680" },
-                    { title: "Объем фургона, м³", value: "24…42" },
-                    { title: "Длина фургона, м", value: "5200…6500" },
-                    { title: "Смотреть все характеристики" },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "8120",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2300",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3565",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "4475",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "9030",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "4325…4485",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "4680",
+                    },
+                    {
+                        title: "Объем фургона, м³",
+                        value: "24…42",
+                    },
+                    {
+                        title: "Длина фургона, мм",
+                        value: "5200…6500",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
                 ],
             },
 
@@ -20160,19 +20193,57 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Base chassis", value: "JAC N90" },
-                    { title: "Engine", value: "Cummins ISF3.8S5154, 154 hp" },
-                    { title: "Gearbox", value: "Manual, 6-speed" },
-                    { title: "Vehicle length, mm", value: "8120" },
-                    { title: "Vehicle width, mm", value: "2300" },
-                    { title: "Vehicle height, mm", value: "3565" },
-                    { title: "Wheelbase, mm", value: "4475" },
-                    { title: "Gross vehicle weight, kg", value: "9030" },
-                    { title: "Curb weight, kg", value: "4325…4485" },
-                    { title: "Payload capacity, kg", value: "4680" },
-                    { title: "Van volume, m³", value: "24…42" },
-                    { title: "Van length, m", value: "5200…6500" },
-                    { title: "View all specifications" },
+                    {
+                        title: "Base chassis",
+                        value: "JAC N90",
+                    },
+                    {
+                        title: "Engine",
+                        value: "Cummins ISF3.8S5154, 154 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "Manual, 6-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "8120",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2300",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3565",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "4475",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "9030",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "4325…4485",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "4680",
+                    },
+                    {
+                        title: "Van volume, m³",
+                        value: "24…42",
+                    },
+                    {
+                        title: "Van length, mm",
+                        value: "5200…6500",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
                 ],
             },
 
@@ -20279,7 +20350,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Asosiy shassi", value: "JAC N90" },
+                    {
+                        title: "Asosiy shassi",
+                        value: "JAC N90",
+                    },
                     {
                         title: "Dvigatel",
                         value: "Cummins ISF3.8S5154, 154 ot kuchi",
@@ -20288,16 +20362,45 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         title: "Uzatmalar qutisi",
                         value: "Mexanik, 6 pog‘onali",
                     },
-                    { title: "Avtomobil uzunligi, mm", value: "8120" },
-                    { title: "Avtomobil kengligi, mm", value: "2300" },
-                    { title: "Avtomobil balandligi, mm", value: "3565" },
-                    { title: "G‘ildirak bazasi, mm", value: "4475" },
-                    { title: "To‘liq massa, kg", value: "9030" },
-                    { title: "Jihozlangan massa, kg", value: "4325…4485" },
-                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "4680" },
-                    { title: "Furgon hajmi, m³", value: "24…42" },
-                    { title: "Furgon uzunligi, m", value: "5200…6500" },
-                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "8120",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2300",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3565",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "4475",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "9030",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "4325…4485",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "4680",
+                    },
+                    {
+                        title: "Furgon hajmi, m³",
+                        value: "24…42",
+                    },
+                    {
+                        title: "Furgon uzunligi, mm",
+                        value: "5200…6500",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
                 ],
             },
 
@@ -20435,7 +20538,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     { title: "Снаряженная масса, кг", value: "2820" },
                     { title: "Грузоподъёмность, кг", value: "5920" },
                     { title: "Объем фургона, м³", value: "22" },
-                    { title: "Длина фургона, м", value: "5600" },
+                    { title: "Длина фургона, мм", value: "5600" },
                     { title: "Смотреть все характеристики" },
                 ],
             },
@@ -20447,54 +20550,21 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     sectionTitle: "Изотермический фургон JAC N90",
 
                     items: [
-                        {
-                            title: "Наименование",
-                            value: "Модель N-90",
-                        },
-                        {
-                            title: "Кабина без спального места",
-                            value: "",
-                        },
-                        {
-                            title: "Колёсная формула",
-                            value: "4х2",
-                        },
-                        {
-                            title: "Двигатель",
-                            value: "",
-                        },
-                        {
-                            title: "Модель",
-                            value: "ISF3.8s4R154 (Евро-5)",
-                        },
-                        {
-                            title: "Тип",
-                            value: "Common Rail+EGR+POC",
-                        },
-                        {
-                            title: "Объём",
-                            value: "3760",
-                        },
+                        { title: "Наименование", value: "Модель N-90" },
+                        { title: "Кабина без спального места", value: "" },
+                        { title: "Колёсная формула", value: "4х2" },
+                        { title: "Двигатель", value: "" },
+                        { title: "Модель", value: "ISF3.8s4R154 (Евро-5)" },
+                        { title: "Тип", value: "Common Rail+EGR+POC" },
+                        { title: "Объём", value: "3760" },
                         {
                             title: "Максимальная мощность (л.с.)",
                             value: "156/2600 (112kw/2600)",
                         },
-                        {
-                            title: "Трансмиссия",
-                            value: "",
-                        },
-                        {
-                            title: "КПП",
-                            value: "LC6T55, механическая",
-                        },
-                        {
-                            title: "Основные параметры",
-                            value: "",
-                        },
-                        {
-                            title: "Колея (мм)",
-                            value: "1665/1525",
-                        },
+                        { title: "Трансмиссия", value: "" },
+                        { title: "КПП", value: "LC6T55, механическая" },
+                        { title: "Основные параметры", value: "" },
+                        { title: "Колея (мм)", value: "1665/1525" },
                         {
                             title: "Снаряженная масса шасси (кг)",
                             value: "2820",
@@ -20503,30 +20573,18 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                             title: "Грузоподъемность шасси без учета веса надстройки (кг)",
                             value: "5130",
                         },
-                        {
-                            title: "Полная масса (кг)",
-                            value: "7950",
-                        },
-                        {
-                            title: "Максимальная скорость (км/ч)",
-                            value: "90",
-                        },
+                        { title: "Полная масса (кг)", value: "7950" },
+                        { title: "Максимальная скорость (км/ч)", value: "90" },
                         {
                             title: "Минимальный дорожный просвет (мм)",
                             value: "173",
                         },
-                        {
-                            title: "Шины",
-                            value: "215/75R17.5",
-                        },
+                        { title: "Шины", value: "215/75R17.5" },
                         {
                             title: "Рулевой механизм",
                             value: "Гидроусилитель руля",
                         },
-                        {
-                            title: "Топливный бак",
-                            value: "100L",
-                        },
+                        { title: "Топливный бак", value: "100L" },
                         {
                             title: "Аккумуляторные батареи",
                             value: "120 А.Ч. (2 шт.)24В",
@@ -20556,7 +20614,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             specifications: {
                 truckInfo: [
                     { title: "Base chassis", value: "JAC N90" },
-                    { title: "Engine", value: "ISF3.8s4R154 (Euro-5), 156 hp" },
+                    {
+                        title: "Engine",
+                        value: "ISF3.8s4R154 (Euro-5), 156 hp",
+                    },
                     { title: "Gearbox", value: "LC6T55, manual" },
                     { title: "Vehicle length, mm", value: "6990" },
                     { title: "Vehicle width, mm", value: "2116" },
@@ -20566,7 +20627,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     { title: "Curb weight, kg", value: "2820" },
                     { title: "Payload capacity, kg", value: "5920" },
                     { title: "Van volume, m³", value: "22" },
-                    { title: "Van length, m", value: "5600" },
+                    { title: "Van length, mm", value: "5600" },
                     { title: "View all specifications" },
                 ],
             },
@@ -20578,86 +20639,38 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     sectionTitle: "JAC N90 Insulated Van",
 
                     items: [
-                        {
-                            title: "Name",
-                            value: "N-90 Model",
-                        },
-                        {
-                            title: "Cabin without sleeper",
-                            value: "",
-                        },
-                        {
-                            title: "Wheel formula",
-                            value: "4x2",
-                        },
-                        {
-                            title: "Engine",
-                            value: "",
-                        },
-                        {
-                            title: "Model",
-                            value: "ISF3.8s4R154 (Euro-5)",
-                        },
-                        {
-                            title: "Type",
-                            value: "Common Rail+EGR+POC",
-                        },
-                        {
-                            title: "Displacement",
-                            value: "3760",
-                        },
+                        { title: "Name", value: "N-90 Model" },
+                        { title: "Cabin without sleeper", value: "" },
+                        { title: "Wheel formula", value: "4x2" },
+                        { title: "Engine", value: "" },
+                        { title: "Model", value: "ISF3.8s4R154 (Euro-5)" },
+                        { title: "Type", value: "Common Rail+EGR+POC" },
+                        { title: "Displacement", value: "3760" },
                         {
                             title: "Maximum power (hp)",
                             value: "156/2600 (112 kW/2600)",
                         },
-                        {
-                            title: "Transmission",
-                            value: "",
-                        },
-                        {
-                            title: "Gearbox",
-                            value: "LC6T55, manual",
-                        },
-                        {
-                            title: "Main parameters",
-                            value: "",
-                        },
-                        {
-                            title: "Track width (mm)",
-                            value: "1665/1525",
-                        },
-                        {
-                            title: "Chassis curb weight (kg)",
-                            value: "2820",
-                        },
+                        { title: "Transmission", value: "" },
+                        { title: "Gearbox", value: "LC6T55, manual" },
+                        { title: "Main parameters", value: "" },
+                        { title: "Track width (mm)", value: "1665/1525" },
+                        { title: "Chassis curb weight (kg)", value: "2820" },
                         {
                             title: "Chassis payload without superstructure weight (kg)",
                             value: "5130",
                         },
-                        {
-                            title: "Gross vehicle weight (kg)",
-                            value: "7950",
-                        },
-                        {
-                            title: "Maximum speed (km/h)",
-                            value: "90",
-                        },
+                        { title: "Gross vehicle weight (kg)", value: "7950" },
+                        { title: "Maximum speed (km/h)", value: "90" },
                         {
                             title: "Minimum ground clearance (mm)",
                             value: "173",
                         },
-                        {
-                            title: "Tires",
-                            value: "215/75R17.5",
-                        },
+                        { title: "Tires", value: "215/75R17.5" },
                         {
                             title: "Steering mechanism",
                             value: "Power steering",
                         },
-                        {
-                            title: "Fuel tank",
-                            value: "100L",
-                        },
+                        { title: "Fuel tank", value: "100L" },
                         {
                             title: "Batteries",
                             value: "120 Ah (2 pcs.) 24V",
@@ -20700,7 +20713,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     { title: "Jihozlangan massa, kg", value: "2820" },
                     { title: "Yuk ko‘tarish qobiliyati, kg", value: "5920" },
                     { title: "Furgon hajmi, m³", value: "22" },
-                    { title: "Furgon uzunligi, m", value: "5600" },
+                    { title: "Furgon uzunligi, mm", value: "5600" },
                     { title: "Barcha texnik xususiyatlarni ko‘rish" },
                 ],
             },
@@ -20712,54 +20725,21 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     sectionTitle: "JAC N90 izotermik furgoni",
 
                     items: [
-                        {
-                            title: "Nomi",
-                            value: "N-90 modeli",
-                        },
-                        {
-                            title: "Yotoq joyisiz kabina",
-                            value: "",
-                        },
-                        {
-                            title: "G‘ildirak formulasi",
-                            value: "4x2",
-                        },
-                        {
-                            title: "Dvigatel",
-                            value: "",
-                        },
-                        {
-                            title: "Model",
-                            value: "ISF3.8s4R154 (Euro-5)",
-                        },
-                        {
-                            title: "Turi",
-                            value: "Common Rail+EGR+POC",
-                        },
-                        {
-                            title: "Ish hajmi",
-                            value: "3760",
-                        },
+                        { title: "Nomi", value: "N-90 modeli" },
+                        { title: "Yotoq joyisiz kabina", value: "" },
+                        { title: "G‘ildirak formulasi", value: "4x2" },
+                        { title: "Dvigatel", value: "" },
+                        { title: "Model", value: "ISF3.8s4R154 (Euro-5)" },
+                        { title: "Turi", value: "Common Rail+EGR+POC" },
+                        { title: "Ish hajmi", value: "3760" },
                         {
                             title: "Maksimal quvvat (ot kuchi)",
                             value: "156/2600 (112 kW/2600)",
                         },
-                        {
-                            title: "Transmissiya",
-                            value: "",
-                        },
-                        {
-                            title: "Uzatmalar qutisi",
-                            value: "LC6T55, mexanik",
-                        },
-                        {
-                            title: "Asosiy parametrlar",
-                            value: "",
-                        },
-                        {
-                            title: "Koleyasi (mm)",
-                            value: "1665/1525",
-                        },
+                        { title: "Transmissiya", value: "" },
+                        { title: "Uzatmalar qutisi", value: "LC6T55, mexanik" },
+                        { title: "Asosiy parametrlar", value: "" },
+                        { title: "Koleyasi (mm)", value: "1665/1525" },
                         {
                             title: "Shassi jihozlangan massasi (kg)",
                             value: "2820",
@@ -20768,30 +20748,18 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                             title: "Ustqurma og‘irligi hisobga olinmagan holdagi shassi yuk ko‘tarish qobiliyati (kg)",
                             value: "5130",
                         },
-                        {
-                            title: "To‘liq massa (kg)",
-                            value: "7950",
-                        },
-                        {
-                            title: "Maksimal tezlik (km/soat)",
-                            value: "90",
-                        },
+                        { title: "To‘liq massa (kg)", value: "7950" },
+                        { title: "Maksimal tezlik (km/soat)", value: "90" },
                         {
                             title: "Minimal yo‘l klirensi (mm)",
                             value: "173",
                         },
-                        {
-                            title: "Shinalar",
-                            value: "215/75R17.5",
-                        },
+                        { title: "Shinalar", value: "215/75R17.5" },
                         {
                             title: "Rul mexanizmi",
                             value: "Rul kuchaytirgichi",
                         },
-                        {
-                            title: "Yoqilg‘i baki",
-                            value: "100L",
-                        },
+                        { title: "Yoqilg‘i baki", value: "100L" },
                         {
                             title: "Akkumulyator batareyalari",
                             value: "120 A.soat (2 dona) 24V",
@@ -20831,7 +20799,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужен такой же",
             },
@@ -20846,7 +20814,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Базовое шасси", value: "КАМАЗ 65115" },
+                    {
+                        title: "Базовое шасси",
+                        value: "КАМАЗ 65115",
+                    },
                     {
                         title: "Двигатель",
                         value: "КАМАЗ 740.705-300 или Cummins ISB6.7E5 300 (Е-5), 300 л. с.",
@@ -20855,15 +20826,41 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         title: "КПП",
                         value: "ZF 9S1310 TO или КАМАЗ 154, мех.",
                     },
-                    { title: "Длина автомобиля, мм", value: "8300" },
-                    { title: "Ширина автомобиля, мм", value: "2550" },
-                    { title: "Высота автомобиля, мм", value: "2840" },
-                    { title: "Колесная база, мм", value: "3690+1320" },
-                    { title: "Колесная формула", value: "6x4" },
-                    { title: "Полная масса, кг", value: "25200" },
-                    { title: "Снаряженная масса, кг", value: "7900" },
-                    { title: "Грузоподъёмность, кг", value: "17300" },
-                    { title: "Смотреть все характеристики" },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "8300",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2840",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "3690+1320",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "25200",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "7900",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "17300",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
                 ],
             },
 
@@ -20950,7 +20947,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -20965,7 +20962,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Base chassis", value: "KAMAZ 65115" },
+                    {
+                        title: "Base chassis",
+                        value: "KAMAZ 65115",
+                    },
                     {
                         title: "Engine",
                         value: "KAMAZ 740.705-300 or Cummins ISB6.7E5 300 (Euro-5), 300 hp",
@@ -20974,15 +20974,41 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         title: "Gearbox",
                         value: "ZF 9S1310 TO or KAMAZ 154, manual",
                     },
-                    { title: "Vehicle length, mm", value: "8300" },
-                    { title: "Vehicle width, mm", value: "2550" },
-                    { title: "Vehicle height, mm", value: "2840" },
-                    { title: "Wheelbase, mm", value: "3690+1320" },
-                    { title: "Wheel formula", value: "6x4" },
-                    { title: "Gross vehicle weight, kg", value: "25200" },
-                    { title: "Curb weight, kg", value: "7900" },
-                    { title: "Payload capacity, kg", value: "17300" },
-                    { title: "View all specifications" },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "8300",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2840",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3690+1320",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "25200",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "7900",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "17300",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
                 ],
             },
 
@@ -21069,7 +21095,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -21084,7 +21110,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Asosiy shassi", value: "KAMAZ 65115" },
+                    {
+                        title: "Asosiy shassi",
+                        value: "KAMAZ 65115",
+                    },
                     {
                         title: "Dvigatel",
                         value: "KAMAZ 740.705-300 yoki Cummins ISB6.7E5 300 (Euro-5), 300 ot kuchi",
@@ -21093,15 +21122,41 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         title: "Uzatmalar qutisi",
                         value: "ZF 9S1310 TO yoki KAMAZ 154, mexanik",
                     },
-                    { title: "Avtomobil uzunligi, mm", value: "8300" },
-                    { title: "Avtomobil kengligi, mm", value: "2550" },
-                    { title: "Avtomobil balandligi, mm", value: "2840" },
-                    { title: "G‘ildirak bazasi, mm", value: "3690+1320" },
-                    { title: "G‘ildirak formulasi", value: "6x4" },
-                    { title: "To‘liq massa, kg", value: "25200" },
-                    { title: "Jihozlangan massa, kg", value: "7900" },
-                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "17300" },
-                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "8300",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2840",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3690+1320",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "6x4",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "25200",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "7900",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "17300",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
                 ],
             },
 
@@ -21209,7 +21264,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужен такой же",
             },
@@ -21224,7 +21279,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Базовое шасси", value: "ГАЗ C41R33" },
+                    {
+                        title: "Базовое шасси",
+                        value: "ГАЗ C41R33",
+                    },
                     {
                         title: "Двигатель",
                         value: "ЯМЗ 53445, 4,45 л, 168 л. с.",
@@ -21233,15 +21291,41 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         title: "КПП",
                         value: "Механическая, 5 ступенчатая",
                     },
-                    { title: "Длина автомобиля, мм", value: "7690" },
-                    { title: "Ширина автомобиля, мм", value: "2370" },
-                    { title: "Высота автомобиля, мм", value: "2680" },
-                    { title: "Колесная база, мм", value: "4515" },
-                    { title: "Колесная формула", value: "4x2" },
-                    { title: "Полная масса, кг", value: "8700" },
-                    { title: "Снаряженная масса, кг", value: "4430" },
-                    { title: "Грузоподъёмность, кг", value: "4270" },
-                    { title: "Смотреть все характеристики" },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "7690",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2370",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2680",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "4515",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "8700",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "4430",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "4270",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
                 ],
             },
 
@@ -21320,7 +21404,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -21335,7 +21419,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Base chassis", value: "GAZ C41R33" },
+                    {
+                        title: "Base chassis",
+                        value: "GAZ C41R33",
+                    },
                     {
                         title: "Engine",
                         value: "YaMZ 53445, 4.45 l, 168 hp",
@@ -21344,15 +21431,41 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         title: "Gearbox",
                         value: "Manual, 5-speed",
                     },
-                    { title: "Vehicle length, mm", value: "7690" },
-                    { title: "Vehicle width, mm", value: "2370" },
-                    { title: "Vehicle height, mm", value: "2680" },
-                    { title: "Wheelbase, mm", value: "4515" },
-                    { title: "Wheel formula", value: "4x2" },
-                    { title: "Gross vehicle weight, kg", value: "8700" },
-                    { title: "Curb weight, kg", value: "4430" },
-                    { title: "Payload capacity, kg", value: "4270" },
-                    { title: "View all specifications" },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "7690",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2370",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2680",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "4515",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "8700",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "4430",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "4270",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
                 ],
             },
 
@@ -21431,7 +21544,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -21446,7 +21559,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Asosiy shassi", value: "GAZ C41R33" },
+                    {
+                        title: "Asosiy shassi",
+                        value: "GAZ C41R33",
+                    },
                     {
                         title: "Dvigatel",
                         value: "YaMZ 53445, 4.45 l, 168 ot kuchi",
@@ -21455,15 +21571,41 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         title: "Uzatmalar qutisi",
                         value: "Mexanik, 5 pog‘onali",
                     },
-                    { title: "Avtomobil uzunligi, mm", value: "7690" },
-                    { title: "Avtomobil kengligi, mm", value: "2370" },
-                    { title: "Avtomobil balandligi, mm", value: "2680" },
-                    { title: "G‘ildirak bazasi, mm", value: "4515" },
-                    { title: "G‘ildirak formulasi", value: "4x2" },
-                    { title: "To‘liq massa, kg", value: "8700" },
-                    { title: "Jihozlangan massa, kg", value: "4430" },
-                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "4270" },
-                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "7690",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2370",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2680",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "4515",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "8700",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "4430",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "4270",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
                 ],
             },
 
@@ -21554,7 +21696,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужен такой же",
             },
@@ -21565,13 +21707,45 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Базовое шасси", value: "ISUZU GIGA-Q" },
-                    { title: "Длина автомобиля, мм", value: "9100" },
-                    { title: "Ширина автомобиля, мм", value: "2550" },
-                    { title: "Высота автомобиля, мм", value: "3020" },
-                    { title: "Колесная формула", value: "6х4" },
-                    { title: "Грузоподъёмность, кг", value: "20000" },
-                    { title: "Смотреть все характеристики" },
+                    {
+                        title: "Базовое шасси",
+                        value: "ISUZU GIGA-Q",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "9100",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3020",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "6х4",
+                    },
+                    {
+                        title: "Номинальная грузоподъёмность, т",
+                        value: "20",
+                    },
+                    {
+                        title: "Конструктивная масса, кг",
+                        value: "2100",
+                    },
+                    {
+                        title: "Угол подъема кузова, град",
+                        value: "48",
+                    },
+                    {
+                        title: "Длина сменного кузова, мм",
+                        value: "5000...7000",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
                 ],
             },
 
@@ -21632,7 +21806,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -21642,13 +21816,45 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Base chassis", value: "ISUZU GIGA-Q" },
-                    { title: "Vehicle length, mm", value: "9100" },
-                    { title: "Vehicle width, mm", value: "2550" },
-                    { title: "Vehicle height, mm", value: "3020" },
-                    { title: "Wheel formula", value: "6x4" },
-                    { title: "Payload capacity, kg", value: "20000" },
-                    { title: "View all specifications" },
+                    {
+                        title: "Base chassis",
+                        value: "ISUZU GIGA-Q",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "9100",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3020",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Rated lifting capacity, t",
+                        value: "20",
+                    },
+                    {
+                        title: "Structural weight, kg",
+                        value: "2100",
+                    },
+                    {
+                        title: "Body lifting angle, degrees",
+                        value: "48",
+                    },
+                    {
+                        title: "Replaceable body length, mm",
+                        value: "5000...7000",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
                 ],
             },
 
@@ -21709,7 +21915,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -21720,13 +21926,45 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Asosiy shassi", value: "ISUZU GIGA-Q" },
-                    { title: "Avtomobil uzunligi, mm", value: "9100" },
-                    { title: "Avtomobil kengligi, mm", value: "2550" },
-                    { title: "Avtomobil balandligi, mm", value: "3020" },
-                    { title: "G‘ildirak formulasi", value: "6x4" },
-                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "20000" },
-                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                    {
+                        title: "Asosiy shassi",
+                        value: "ISUZU GIGA-Q",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "9100",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3020",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "6x4",
+                    },
+                    {
+                        title: "Nominal yuk ko‘tarish qobiliyati, t",
+                        value: "20",
+                    },
+                    {
+                        title: "Konstruktiv massa, kg",
+                        value: "2100",
+                    },
+                    {
+                        title: "Kuzovni ko‘tarish burchagi, gradus",
+                        value: "48",
+                    },
+                    {
+                        title: "Almashtiriladigan kuzov uzunligi, mm",
+                        value: "5000...7000",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
                 ],
             },
 
@@ -21801,7 +22039,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужен такой же",
             },
@@ -21812,13 +22050,49 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Базовое шасси", value: "ISUZU NPR75L-K" },
-                    { title: "Длина автомобиля, мм", value: "5850" },
-                    { title: "Ширина автомобиля, мм", value: "2150" },
-                    { title: "Высота автомобиля, мм", value: "2250" },
-                    { title: "Колесная формула", value: "4x2" },
-                    { title: "Грузоподъёмность, кг", value: "5000" },
-                    { title: "Смотреть все характеристики" },
+                    {
+                        title: "Базовое шасси",
+                        value: "ISUZU NPR75L-K",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "5850",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2150",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2250",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Номинальная грузоподъёмность погрузчика, т",
+                        value: "5",
+                    },
+                    {
+                        title: "Монтажная длина погрузчика, мм",
+                        value: "3900",
+                    },
+                    {
+                        title: "Рабочая длина погрузчика, мм",
+                        value: "3860",
+                    },
+                    {
+                        title: "Макс. внутренняя длина сменного кузова, мм",
+                        value: "4750",
+                    },
+                    {
+                        title: "Высота крюка, мм",
+                        value: "900/920",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
                 ],
             },
 
@@ -21868,7 +22142,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -21879,13 +22153,49 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Base chassis", value: "ISUZU NPR75L-K" },
-                    { title: "Vehicle length, mm", value: "5850" },
-                    { title: "Vehicle width, mm", value: "2150" },
-                    { title: "Vehicle height, mm", value: "2250" },
-                    { title: "Wheel formula", value: "4x2" },
-                    { title: "Payload capacity, kg", value: "5000" },
-                    { title: "View all specifications" },
+                    {
+                        title: "Base chassis",
+                        value: "ISUZU NPR75L-K",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "5850",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2150",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2250",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Loader rated lifting capacity, t",
+                        value: "5",
+                    },
+                    {
+                        title: "Loader mounting length, mm",
+                        value: "3900",
+                    },
+                    {
+                        title: "Loader working length, mm",
+                        value: "3860",
+                    },
+                    {
+                        title: "Max. internal length of replaceable body, mm",
+                        value: "4750",
+                    },
+                    {
+                        title: "Hook height, mm",
+                        value: "900/920",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
                 ],
             },
 
@@ -21934,7 +22244,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -21945,13 +22255,49 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Asosiy shassi", value: "ISUZU NPR75L-K" },
-                    { title: "Avtomobil uzunligi, mm", value: "5850" },
-                    { title: "Avtomobil kengligi, mm", value: "2150" },
-                    { title: "Avtomobil balandligi, mm", value: "2250" },
-                    { title: "G‘ildirak formulasi", value: "4x2" },
-                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "5000" },
-                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                    {
+                        title: "Asosiy shassi",
+                        value: "ISUZU NPR75L-K",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "5850",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2150",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2250",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Yuklagichning nominal yuk ko‘tarish qobiliyati, t",
+                        value: "5",
+                    },
+                    {
+                        title: "Yuklagichning montaj uzunligi, mm",
+                        value: "3900",
+                    },
+                    {
+                        title: "Yuklagichning ishchi uzunligi, mm",
+                        value: "3860",
+                    },
+                    {
+                        title: "Almashtiriladigan kuzovning maksimal ichki uzunligi, mm",
+                        value: "4750",
+                    },
+                    {
+                        title: "Ilgak balandligi, mm",
+                        value: "900/920",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
                 ],
             },
 
@@ -22015,7 +22361,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужен такой же",
             },
@@ -22026,13 +22372,49 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Базовое шасси", value: "Hyundai QT EX8" },
-                    { title: "Длина автомобиля, мм", value: "5905" },
-                    { title: "Ширина автомобиля, мм", value: "2150" },
-                    { title: "Высота автомобиля, мм", value: "2300" },
-                    { title: "Колесная формула", value: "4x2" },
-                    { title: "Грузоподъёмность, кг", value: "5000" },
-                    { title: "Смотреть все характеристики" },
+                    {
+                        title: "Базовое шасси",
+                        value: "Hyundai QT EX8",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "5905",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2150",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2300",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Номинальная грузоподъёмность погрузчика, т",
+                        value: "5",
+                    },
+                    {
+                        title: "Монтажная длина погрузчика, мм",
+                        value: "3900",
+                    },
+                    {
+                        title: "Рабочая длина погрузчика, мм",
+                        value: "3860",
+                    },
+                    {
+                        title: "Макс. внутренняя длина сменного кузова, мм",
+                        value: "4750",
+                    },
+                    {
+                        title: "Высота крюка, мм",
+                        value: "900/920",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
                 ],
             },
 
@@ -22082,7 +22464,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -22093,13 +22475,49 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Base chassis", value: "Hyundai QT EX8" },
-                    { title: "Vehicle length, mm", value: "5905" },
-                    { title: "Vehicle width, mm", value: "2150" },
-                    { title: "Vehicle height, mm", value: "2300" },
-                    { title: "Wheel formula", value: "4x2" },
-                    { title: "Payload capacity, kg", value: "5000" },
-                    { title: "View all specifications" },
+                    {
+                        title: "Base chassis",
+                        value: "Hyundai QT EX8",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "5905",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2150",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2300",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Loader rated lifting capacity, t",
+                        value: "5",
+                    },
+                    {
+                        title: "Loader mounting length, mm",
+                        value: "3900",
+                    },
+                    {
+                        title: "Loader working length, mm",
+                        value: "3860",
+                    },
+                    {
+                        title: "Max. internal length of replaceable body, mm",
+                        value: "4750",
+                    },
+                    {
+                        title: "Hook height, mm",
+                        value: "900/920",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
                 ],
             },
 
@@ -22148,7 +22566,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -22159,13 +22577,49 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Asosiy shassi", value: "Hyundai QT EX8" },
-                    { title: "Avtomobil uzunligi, mm", value: "5905" },
-                    { title: "Avtomobil kengligi, mm", value: "2150" },
-                    { title: "Avtomobil balandligi, mm", value: "2300" },
-                    { title: "G‘ildirak formulasi", value: "4x2" },
-                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "5000" },
-                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                    {
+                        title: "Asosiy shassi",
+                        value: "Hyundai QT EX8",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "5905",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2150",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2300",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Yuklagichning nominal yuk ko‘tarish qobiliyati, t",
+                        value: "5",
+                    },
+                    {
+                        title: "Yuklagichning montaj uzunligi, mm",
+                        value: "3900",
+                    },
+                    {
+                        title: "Yuklagichning ishchi uzunligi, mm",
+                        value: "3860",
+                    },
+                    {
+                        title: "Almashtiriladigan kuzovning maksimal ichki uzunligi, mm",
+                        value: "4750",
+                    },
+                    {
+                        title: "Ilgak balandligi, mm",
+                        value: "900/920",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
                 ],
             },
 
@@ -22210,7 +22664,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             ],
         },
     },
-
     // samosvaly
     {
         available: true,
@@ -22245,7 +22698,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужен такой же",
             },
@@ -22255,7 +22708,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Базовое шасси", value: "КОМПАС 9" },
+                    {
+                        title: "Базовое шасси",
+                        value: "КОМПАС 9",
+                    },
                     {
                         title: "Двигатель",
                         value: "Cummins ISF3.8S5154, 154 л. с.",
@@ -22264,18 +22720,57 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         title: "КПП",
                         value: "Механическая, 6-ти ступенчатая",
                     },
-                    { title: "Длина автомобиля, мм", value: "6670" },
-                    { title: "Ширина автомобиля, мм", value: "2550" },
-                    { title: "Высота автомобиля, мм", value: "2310" },
-                    { title: "Колесная база, мм", value: "3845" },
-                    { title: "Колесная формула", value: "4х2" },
-                    { title: "Длина платформы, м", value: "4600" },
-                    { title: "Полная масса, кг", value: "9500" },
-                    { title: "Снаряженная масса, кг", value: "4900" },
-                    { title: "Грузоподъёмность, кг", value: "4600" },
-                    { title: "Объем кузова, м3", value: "12" },
-                    { title: "Высота бортов, мм", value: "1300" },
-                    { title: "Смотреть все характеристики" },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "6670",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "2370",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "3845",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4х2",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "9500",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "4900",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "4600",
+                    },
+                    {
+                        title: "Длина платформы, мм",
+                        value: "4600",
+                    },
+                    {
+                        title: "Объём кузова, м³",
+                        value: "12",
+                    },
+                    {
+                        title: "Высота бортов, мм",
+                        value: "1300",
+                    },
+                    {
+                        title: "Угол подъема платформы, град",
+                        value: "45",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
                 ],
             },
 
@@ -22402,7 +22897,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -22412,7 +22907,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Base chassis", value: "KOMPAS 9" },
+                    {
+                        title: "Base chassis",
+                        value: "KOMPAS 9",
+                    },
                     {
                         title: "Engine",
                         value: "Cummins ISF3.8S5154, 154 hp",
@@ -22421,18 +22919,57 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         title: "Gearbox",
                         value: "Manual, 6-speed",
                     },
-                    { title: "Vehicle length, mm", value: "6670" },
-                    { title: "Vehicle width, mm", value: "2550" },
-                    { title: "Vehicle height, mm", value: "2310" },
-                    { title: "Wheelbase, mm", value: "3845" },
-                    { title: "Wheel formula", value: "4x2" },
-                    { title: "Platform length, m", value: "4600" },
-                    { title: "Gross vehicle weight, kg", value: "9500" },
-                    { title: "Curb weight, kg", value: "4900" },
-                    { title: "Payload capacity, kg", value: "4600" },
-                    { title: "Body volume, m3", value: "12" },
-                    { title: "Sideboard height, mm", value: "1300" },
-                    { title: "View all specifications" },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "6670",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "2370",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "9500",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "4900",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "4600",
+                    },
+                    {
+                        title: "Platform length, mm",
+                        value: "4600",
+                    },
+                    {
+                        title: "Body volume, m³",
+                        value: "12",
+                    },
+                    {
+                        title: "Sideboard height, mm",
+                        value: "1300",
+                    },
+                    {
+                        title: "Platform lifting angle, degrees",
+                        value: "45",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
                 ],
             },
 
@@ -22559,7 +23096,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -22569,7 +23106,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             specifications: {
                 truckInfo: [
-                    { title: "Asosiy shassi", value: "KOMPAS 9" },
+                    {
+                        title: "Asosiy shassi",
+                        value: "KOMPAS 9",
+                    },
                     {
                         title: "Dvigatel",
                         value: "Cummins ISF3.8S5154, 154 ot kuchi",
@@ -22578,18 +23118,57 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         title: "Uzatmalar qutisi",
                         value: "Mexanik, 6 pog‘onali",
                     },
-                    { title: "Avtomobil uzunligi, mm", value: "6670" },
-                    { title: "Avtomobil kengligi, mm", value: "2550" },
-                    { title: "Avtomobil balandligi, mm", value: "2310" },
-                    { title: "G‘ildirak bazasi, mm", value: "3845" },
-                    { title: "G‘ildirak formulasi", value: "4x2" },
-                    { title: "Platforma uzunligi, m", value: "4600" },
-                    { title: "To‘liq massa, kg", value: "9500" },
-                    { title: "Jihozlangan massa, kg", value: "4900" },
-                    { title: "Yuk ko‘tarish qobiliyati, kg", value: "4600" },
-                    { title: "Kuzov hajmi, m3", value: "12" },
-                    { title: "Bort balandligi, mm", value: "1300" },
-                    { title: "Barcha texnik xususiyatlarni ko‘rish" },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "6670",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "2370",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3845",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "9500",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "4900",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "4600",
+                    },
+                    {
+                        title: "Platforma uzunligi, mm",
+                        value: "4600",
+                    },
+                    {
+                        title: "Kuzov hajmi, m³",
+                        value: "12",
+                    },
+                    {
+                        title: "Bort balandligi, mm",
+                        value: "1300",
+                    },
+                    {
+                        title: "Platformani ko‘tarish burchagi, gradus",
+                        value: "45",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
                 ],
             },
 
@@ -22737,7 +23316,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужен такой же",
             },
@@ -22748,17 +23327,13 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             description: {
                 title: "Описание",
-                text: "Самосвал на шасси КАМАЗ 6520-3072-53 предназначен для транспортирования и разгрузки при помощи гидравлически наклоняемого кузова различных навалочных и сыпучих грузов. Состоит из самосвальной платформы, установленной на шасси, гидроцилиндра, гилравлического насоса, маслобака и т.д. Различают самосвалы с задней разгрузкой, как правило для транспортирования грузов строительного назначения (песок, щебень и т. д.), и двух- трёхсторонней разгрузкой, как правило для транспортирования грузов сельскохозяйственного назначения. Возможно изготовление самосвала с КМУ.",
+                text: "Самосвал на шасси КАМАЗ 6520-3072-53 предназначен для транспортирования и разгрузки при помощи гидравлически наклоняемого кузова различных навалочных и сыпучих грузов. Состоит из самосвальной платформы, установленной на шасси, гидроцилиндра, гидравлического насоса, маслобака и т.д. Различают самосвалы с задней разгрузкой, как правило для транспортирования грузов строительного назначения (песок, щебень и т. д.), и двух- трёхсторонней разгрузкой, как правило для транспортирования грузов сельскохозяйственного назначения. Возможно изготовление самосвала с КМУ.",
             },
 
             specifications: {
                 truckInfo: [
                     {
                         title: "Базовое шасси",
-                        value: "КАМАЗ 6520-3072-53",
-                    },
-                    {
-                        title: "Двигатель",
                         value: "КАМАЗ 6520-3072-53",
                     },
                     {
@@ -22786,10 +23361,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4х2",
                     },
                     {
-                        title: "Длина платформы, м",
-                        value: "6500",
-                    },
-                    {
                         title: "Полная масса, кг",
                         value: "33100",
                     },
@@ -22802,8 +23373,20 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "18075",
                     },
                     {
+                        title: "Длина платформы, мм",
+                        value: "6500",
+                    },
+                    {
                         title: "Высота бортов, мм",
                         value: "2000",
+                    },
+                    {
+                        title: "Угол подъема платформы при боковой разгрузке, град",
+                        value: "40",
+                    },
+                    {
+                        title: "Погрузочная высота, мм",
+                        value: "1380",
                     },
                     {
                         title: "Смотреть все характеристики",
@@ -22955,7 +23538,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -22973,10 +23556,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                 truckInfo: [
                     {
                         title: "Base chassis",
-                        value: "KAMAZ 6520-3072-53",
-                    },
-                    {
-                        title: "Engine",
                         value: "KAMAZ 6520-3072-53",
                     },
                     {
@@ -23004,10 +23583,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platform length, m",
-                        value: "6500",
-                    },
-                    {
                         title: "Gross vehicle weight, kg",
                         value: "33100",
                     },
@@ -23020,8 +23595,20 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "18075",
                     },
                     {
+                        title: "Platform length, mm",
+                        value: "6500",
+                    },
+                    {
                         title: "Sideboard height, mm",
                         value: "2000",
+                    },
+                    {
+                        title: "Platform lifting angle for side unloading, degrees",
+                        value: "40",
+                    },
+                    {
+                        title: "Loading height, mm",
+                        value: "1380",
                     },
                     {
                         title: "View all specifications",
@@ -23173,7 +23760,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -23191,10 +23778,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                 truckInfo: [
                     {
                         title: "Asosiy shassi",
-                        value: "KAMAZ 6520-3072-53",
-                    },
-                    {
-                        title: "Dvigatel",
                         value: "KAMAZ 6520-3072-53",
                     },
                     {
@@ -23222,10 +23805,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platforma uzunligi, m",
-                        value: "6500",
-                    },
-                    {
                         title: "To‘liq massa, kg",
                         value: "33100",
                     },
@@ -23238,8 +23817,20 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "18075",
                     },
                     {
+                        title: "Platforma uzunligi, mm",
+                        value: "6500",
+                    },
+                    {
                         title: "Bort balandligi, mm",
                         value: "2000",
+                    },
+                    {
+                        title: "Yon tomonga tushirishda platformani ko‘tarish burchagi, gradus",
+                        value: "40",
+                    },
+                    {
+                        title: "Yuklash balandligi, mm",
+                        value: "1380",
                     },
                     {
                         title: "Barcha texnik xususiyatlarni ko‘rish",
@@ -23419,7 +24010,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужен такой же",
             },
@@ -23431,7 +24022,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             description: {
                 title: "Описание",
-                text: "Самосвал на шасси JAC N90N предназначен для транспортирования и разгрузки при помощи гидравлически наклоняемого кузова различных навалочных и сыпучих грузов. Состоит из самосвальной платформы, установленной на шасси, гидроцилиндра, гилравлического насоса, маслобака и т.д. Различают самосвалы с задней разгрузкой, как правило для транспортирования грузов строительного назначения (песок, щебень и т. д.), и двух- трёхсторонней разгрузкой, как правило для транспортирования грузов сельскохозяйственного назначения. Возможно изготовление самосвала с КМУ",
+                text: "Самосвал на шасси JAC N90N предназначен для транспортирования и разгрузки при помощи гидравлически наклоняемого кузова различных навалочных и сыпучих грузов. Состоит из самосвальной платформы, установленной на шасси, гидроцилиндра, гидравлического насоса, маслобака и т.д. Различают самосвалы с задней разгрузкой, как правило для транспортирования грузов строительного назначения (песок, щебень и т. д.), и двух- трёхсторонней разгрузкой, как правило для транспортирования грузов сельскохозяйственного назначения. Возможно изготовление самосвала с КМУ",
             },
 
             specifications: {
@@ -23458,7 +24049,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     },
                     {
                         title: "Высота автомобиля, мм",
-                        value: "2310",
+                        value: "2370",
                     },
                     {
                         title: "Колесная база, мм",
@@ -23467,10 +24058,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Колесная формула",
                         value: "4х2",
-                    },
-                    {
-                        title: "Длина платформы, м",
-                        value: "4600",
                     },
                     {
                         title: "Полная масса, кг",
@@ -23485,12 +24072,27 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4130",
                     },
                     {
-                        title: "Объем кузова, м3",
+                        title: "Длина платформы, мм",
+                        value: "4600",
+                    },
+                    {
+                        title: "Объём кузова, м3",
                         value: "12",
                     },
                     {
                         title: "Высота бортов, мм",
                         value: "1300",
+                    },
+                    {
+                        title: "Угол подъема платформы, град",
+                        value: "45",
+                    },
+                    {
+                        title: "Погрузочная высота, мм",
+                        value: "1160",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
                     },
                 ],
             },
@@ -23615,7 +24217,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -23654,7 +24256,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     },
                     {
                         title: "Vehicle height, mm",
-                        value: "2310",
+                        value: "2370",
                     },
                     {
                         title: "Wheelbase, mm",
@@ -23665,11 +24267,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platform length, m",
-                        value: "4600",
-                    },
-                    {
-                        title: "Gross weight, kg",
+                        title: "Gross vehicle weight, kg",
                         value: "9030",
                     },
                     {
@@ -23677,8 +24275,12 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4900",
                     },
                     {
-                        title: "Payload, kg",
+                        title: "Payload capacity, kg",
                         value: "4130",
+                    },
+                    {
+                        title: "Platform length, mm",
+                        value: "4600",
                     },
                     {
                         title: "Body volume, m3",
@@ -23687,6 +24289,17 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Sideboard height, mm",
                         value: "1300",
+                    },
+                    {
+                        title: "Platform lifting angle, degrees",
+                        value: "45",
+                    },
+                    {
+                        title: "Loading height, mm",
+                        value: "1160",
+                    },
+                    {
+                        title: "View all specifications",
                     },
                 ],
             },
@@ -23812,7 +24425,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -23830,7 +24443,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             specifications: {
                 truckInfo: [
                     {
-                        title: "Bazaviy shassi",
+                        title: "Asosiy shassi",
                         value: "JAC N90N",
                     },
                     {
@@ -23851,7 +24464,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     },
                     {
                         title: "Avtomobil balandligi, mm",
-                        value: "2310",
+                        value: "2370",
                     },
                     {
                         title: "G‘ildirak bazasi, mm",
@@ -23860,10 +24473,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "G‘ildirak formulasi",
                         value: "4x2",
-                    },
-                    {
-                        title: "Platforma uzunligi, m",
-                        value: "4600",
                     },
                     {
                         title: "To‘liq massa, kg",
@@ -23878,12 +24487,27 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4130",
                     },
                     {
+                        title: "Platforma uzunligi, mm",
+                        value: "4600",
+                    },
+                    {
                         title: "Kuzov hajmi, m3",
                         value: "12",
                     },
                     {
                         title: "Bort balandligi, mm",
                         value: "1300",
+                    },
+                    {
+                        title: "Platformani ko‘tarish burchagi, gradus",
+                        value: "45",
+                    },
+                    {
+                        title: "Yuklash balandligi, mm",
+                        value: "1160",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
                     },
                 ],
             },
@@ -24039,7 +24663,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужен такой же",
             },
@@ -24089,10 +24713,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4х2",
                     },
                     {
-                        title: "Длина платформы, м",
-                        value: "5000",
-                    },
-                    {
                         title: "Полная масса, кг",
                         value: "11980",
                     },
@@ -24105,12 +24725,27 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "6380",
                     },
                     {
-                        title: "Объем кузова, м3",
+                        title: "Длина платформы, мм",
+                        value: "5000",
+                    },
+                    {
+                        title: "Объём кузова, м3",
                         value: "15",
                     },
                     {
                         title: "Высота бортов, мм",
                         value: "1540",
+                    },
+                    {
+                        title: "Угол подъема платформы, град",
+                        value: "45",
+                    },
+                    {
+                        title: "Погрузочная высота, мм",
+                        value: "1240",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
                     },
                 ],
             },
@@ -24235,7 +24870,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -24285,11 +24920,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platform length, m",
-                        value: "5000",
-                    },
-                    {
-                        title: "Gross weight, kg",
+                        title: "Gross vehicle weight, kg",
                         value: "11980",
                     },
                     {
@@ -24297,8 +24928,12 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "5600",
                     },
                     {
-                        title: "Payload, kg",
+                        title: "Payload capacity, kg",
                         value: "6380",
+                    },
+                    {
+                        title: "Platform length, mm",
+                        value: "5000",
                     },
                     {
                         title: "Body volume, m3",
@@ -24307,6 +24942,17 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Sideboard height, mm",
                         value: "1540",
+                    },
+                    {
+                        title: "Platform lifting angle, degrees",
+                        value: "45",
+                    },
+                    {
+                        title: "Loading height, mm",
+                        value: "1240",
+                    },
+                    {
+                        title: "View all specifications",
                     },
                 ],
             },
@@ -24432,7 +25078,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -24450,7 +25096,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             specifications: {
                 truckInfo: [
                     {
-                        title: "Bazaviy shassi",
+                        title: "Asosiy shassi",
                         value: "JAC N120S",
                     },
                     {
@@ -24482,10 +25128,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platforma uzunligi, m",
-                        value: "5000",
-                    },
-                    {
                         title: "To‘liq massa, kg",
                         value: "11980",
                     },
@@ -24498,12 +25140,27 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "6380",
                     },
                     {
+                        title: "Platforma uzunligi, mm",
+                        value: "5000",
+                    },
+                    {
                         title: "Kuzov hajmi, m3",
                         value: "15",
                     },
                     {
                         title: "Bort balandligi, mm",
                         value: "1540",
+                    },
+                    {
+                        title: "Platformani ko‘tarish burchagi, gradus",
+                        value: "45",
+                    },
+                    {
+                        title: "Yuklash balandligi, mm",
+                        value: "1240",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
                     },
                 ],
             },
@@ -24659,7 +25316,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужен такой же",
             },
@@ -24709,10 +25366,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4х2",
                     },
                     {
-                        title: "Длина платформы, м",
-                        value: "5000",
-                    },
-                    {
                         title: "Полная масса, кг",
                         value: "11980",
                     },
@@ -24725,8 +25378,19 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "5930",
                     },
                     {
+                        title: "Длина платформы, мм",
+                        value: "5000",
+                    },
+                    {
                         title: "Высота бортов, мм",
                         value: "750",
+                    },
+                    {
+                        title: "Угол подъема платформы, град",
+                        value: "45",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
                     },
                 ],
             },
@@ -24873,7 +25537,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -24923,10 +25587,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platform length, m",
-                        value: "5000",
-                    },
-                    {
                         title: "Gross weight, kg",
                         value: "11980",
                     },
@@ -24939,8 +25599,19 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "5930",
                     },
                     {
+                        title: "Platform length, mm",
+                        value: "5000",
+                    },
+                    {
                         title: "Sideboard height, mm",
                         value: "750",
+                    },
+                    {
+                        title: "Platform lifting angle, degrees",
+                        value: "45",
+                    },
+                    {
+                        title: "View all specifications",
                     },
                 ],
             },
@@ -25088,7 +25759,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -25138,10 +25809,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platforma uzunligi, m",
-                        value: "5000",
-                    },
-                    {
                         title: "To‘liq massa, kg",
                         value: "11980",
                     },
@@ -25154,8 +25821,19 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "5930",
                     },
                     {
+                        title: "Platforma uzunligi, mm",
+                        value: "5000",
+                    },
+                    {
                         title: "Bort balandligi, mm",
                         value: "750",
+                    },
+                    {
+                        title: "Platformani ko‘tarish burchagi, daraja",
+                        value: "45",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
                     },
                 ],
             },
@@ -25336,7 +26014,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужен такой же",
             },
@@ -25350,7 +26028,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                 truckInfo: [
                     {
                         title: "Базовое шасси",
-                        value: "JAC N90",
+                        value: "JAC N90N",
                     },
                     {
                         title: "Двигатель",
@@ -25381,10 +26059,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4х2",
                     },
                     {
-                        title: "Длина платформы, м",
-                        value: "5200",
-                    },
-                    {
                         title: "Полная масса, кг",
                         value: "9030",
                     },
@@ -25397,8 +26071,19 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4480",
                     },
                     {
+                        title: "Длина платформы, мм",
+                        value: "5200",
+                    },
+                    {
                         title: "Высота бортов, мм",
                         value: "750",
+                    },
+                    {
+                        title: "Угол подъема платформы, град",
+                        value: "45",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
                     },
                 ],
             },
@@ -25435,7 +26120,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                 },
 
                 {
-                    sectionTitle: "Самосвал на шасси HINO 300 (модель 438954)",
+                    sectionTitle: "Самосвал на шасси JAC N90N (модель 538914)",
 
                     items: [
                         {
@@ -25548,7 +26233,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -25562,7 +26247,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                 truckInfo: [
                     {
                         title: "Base chassis",
-                        value: "JAC N90",
+                        value: "JAC N90N",
                     },
                     {
                         title: "Engine",
@@ -25593,10 +26278,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platform length, m",
-                        value: "5200",
-                    },
-                    {
                         title: "Gross weight, kg",
                         value: "9030",
                     },
@@ -25609,8 +26290,19 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4480",
                     },
                     {
+                        title: "Platform length, mm",
+                        value: "5200",
+                    },
+                    {
                         title: "Sideboard height, mm",
                         value: "750",
+                    },
+                    {
+                        title: "Platform lifting angle, degrees",
+                        value: "45",
+                    },
+                    {
+                        title: "View all specifications",
                     },
                 ],
             },
@@ -25648,7 +26340,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
                 {
                     sectionTitle:
-                        "Dump truck on HINO 300 chassis (model 438954)",
+                        "Dump truck on JAC N90N chassis (model 538914)",
 
                     items: [
                         {
@@ -25761,7 +26453,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -25775,7 +26467,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                 truckInfo: [
                     {
                         title: "Bazaviy shassi",
-                        value: "JAC N90",
+                        value: "JAC N90N",
                     },
                     {
                         title: "Dvigatel",
@@ -25806,10 +26498,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platforma uzunligi, m",
-                        value: "5200",
-                    },
-                    {
                         title: "To‘liq massa, kg",
                         value: "9030",
                     },
@@ -25822,8 +26510,19 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4480",
                     },
                     {
+                        title: "Platforma uzunligi, mm",
+                        value: "5200",
+                    },
+                    {
                         title: "Bort balandligi, mm",
                         value: "750",
+                    },
+                    {
+                        title: "Platformani ko‘tarish burchagi, daraja",
+                        value: "45",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
                     },
                 ],
             },
@@ -25861,7 +26560,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
                 {
                     sectionTitle:
-                        "HINO 300 shassisidagi samosval (438954 modeli)",
+                        "JAC N90N shassisidagi samosval (538914 modeli)",
 
                     items: [
                         {
@@ -26001,7 +26700,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужен такой же",
             },
@@ -26023,6 +26722,14 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "ISUZU NQR90L-H",
                     },
                     {
+                        title: "Двигатель",
+                        value: "ISUZU 4HK1 (4HK1E5CC), 190 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 6-ти ступенчатая",
+                    },
+                    {
                         title: "Длина автомобиля, мм",
                         value: "6040",
                     },
@@ -26035,8 +26742,39 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "2265",
                     },
                     {
+                        title: "Колесная база, мм",
+                        value: "3365",
+                    },
+                    {
+                        title: "Колесная формула",
+                        value: "4х2",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "9500",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "4650",
+                    },
+                    {
                         title: "Грузоподъёмность, кг",
                         value: "4850",
+                    },
+                    {
+                        title: "Длина платформы, мм",
+                        value: "4350",
+                    },
+                    {
+                        title: "Высота бортов, мм",
+                        value: "1400",
+                    },
+                    {
+                        title: "Угол подъема платформы, град",
+                        value: "45",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
                     },
                 ],
             },
@@ -26187,7 +26925,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -26209,6 +26947,14 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "ISUZU NQR90L-H",
                     },
                     {
+                        title: "Engine",
+                        value: "ISUZU 4HK1 (4HK1E5CC), 190 hp",
+                    },
+                    {
+                        title: "Gearbox",
+                        value: "Manual, 6-speed",
+                    },
+                    {
                         title: "Vehicle length, mm",
                         value: "6040",
                     },
@@ -26221,8 +26967,39 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "2265",
                     },
                     {
+                        title: "Wheelbase, mm",
+                        value: "3365",
+                    },
+                    {
+                        title: "Wheel formula",
+                        value: "4x2",
+                    },
+                    {
+                        title: "Gross weight, kg",
+                        value: "9500",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "4650",
+                    },
+                    {
                         title: "Payload, kg",
                         value: "4850",
+                    },
+                    {
+                        title: "Platform length, mm",
+                        value: "4350",
+                    },
+                    {
+                        title: "Sideboard height, mm",
+                        value: "1400",
+                    },
+                    {
+                        title: "Platform lifting angle, degrees",
+                        value: "45",
+                    },
+                    {
+                        title: "View all specifications",
                     },
                 ],
             },
@@ -26373,7 +27150,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -26395,6 +27172,14 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "ISUZU NQR90L-H",
                     },
                     {
+                        title: "Dvigatel",
+                        value: "ISUZU 4HK1 (4HK1E5CC), 190 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 6 pog‘onali",
+                    },
+                    {
                         title: "Avtomobil uzunligi, mm",
                         value: "6040",
                     },
@@ -26407,8 +27192,39 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "2265",
                     },
                     {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "3365",
+                    },
+                    {
+                        title: "G‘ildirak formulasi",
+                        value: "4x2",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "9500",
+                    },
+                    {
+                        title: "Jihozlangan massa, kg",
+                        value: "4650",
+                    },
+                    {
                         title: "Yuk ko‘tarish qobiliyati, kg",
                         value: "4850",
+                    },
+                    {
+                        title: "Platforma uzunligi, mm",
+                        value: "4350",
+                    },
+                    {
+                        title: "Bort balandligi, mm",
+                        value: "1400",
+                    },
+                    {
+                        title: "Platformani ko‘tarish burchagi, daraja",
+                        value: "45",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
                     },
                 ],
             },
@@ -26614,10 +27430,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "Механическая, 6-ти ступенчатая",
                     },
                     {
-                        title: "Тип бортовой платформы",
-                        value: "168",
-                    },
-                    {
                         title: "Длина автомобиля, мм",
                         value: "8450",
                     },
@@ -26638,10 +27450,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4х2",
                     },
                     {
-                        title: "Длина платформы, м",
-                        value: "5,2…6,2",
-                    },
-                    {
                         title: "Полная масса, кг",
                         value: "9500",
                     },
@@ -26652,6 +27460,26 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Грузоподъёмность, кг",
                         value: "5150",
+                    },
+                    {
+                        title: "Тип бортовой платформы",
+                        value: "168",
+                    },
+                    {
+                        title: "Длина бортовой платформы, мм",
+                        value: "5200…6200",
+                    },
+                    {
+                        title: "Ширина бортовой платформы, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота бортовой платформы, мм",
+                        value: "400",
+                    },
+                    {
+                        title: "Просмотреть все характеристики",
+                        value: "",
                     },
                 ],
             },
@@ -26803,10 +27631,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "Manual, 6-speed",
                     },
                     {
-                        title: "Flatbed platform type",
-                        value: "168",
-                    },
-                    {
                         title: "Vehicle length, mm",
                         value: "8450",
                     },
@@ -26827,10 +27651,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platform length, m",
-                        value: "5.2…6.2",
-                    },
-                    {
                         title: "Gross vehicle weight, kg",
                         value: "9500",
                     },
@@ -26841,6 +27661,26 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Payload capacity, kg",
                         value: "5150",
+                    },
+                    {
+                        title: "Flatbed platform type",
+                        value: "168",
+                    },
+                    {
+                        title: "Flatbed platform length, mm",
+                        value: "5200…6200",
+                    },
+                    {
+                        title: "Flatbed platform width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Flatbed platform height, mm",
+                        value: "400",
+                    },
+                    {
+                        title: "View all specifications",
+                        value: "",
                     },
                 ],
             },
@@ -26992,10 +27832,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "Mexanik, 6 pog‘onali",
                     },
                     {
-                        title: "Bortli platforma turi",
-                        value: "168",
-                    },
-                    {
                         title: "Avtomobil uzunligi, mm",
                         value: "8450",
                     },
@@ -27016,10 +27852,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platforma uzunligi, m",
-                        value: "5,2…6,2",
-                    },
-                    {
                         title: "To‘liq massa, kg",
                         value: "9500",
                     },
@@ -27030,6 +27862,26 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Yuk ko‘tarish qobiliyati, kg",
                         value: "5150",
+                    },
+                    {
+                        title: "Bortli platforma turi",
+                        value: "168",
+                    },
+                    {
+                        title: "Bortli platforma uzunligi, mm",
+                        value: "5200…6200",
+                    },
+                    {
+                        title: "Bortli platforma kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Bortli platforma balandligi, mm",
+                        value: "400",
+                    },
+                    {
+                        title: "Barcha xususiyatlarni ko‘rish",
+                        value: "",
                     },
                 ],
             },
@@ -27176,7 +28028,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужно это",
             },
@@ -27220,10 +28072,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4х2",
                     },
                     {
-                        title: "Длина платформы, м",
-                        value: "6,2",
-                    },
-                    {
                         title: "Полная масса, кг",
                         value: "19980",
                     },
@@ -27236,6 +28084,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "8480",
                     },
                     {
+                        title: "Длина платформы, мм",
+                        value: "6200",
+                    },
+                    {
                         title: "Грузоподъёмность КМУ, тонн",
                         value: "6,1",
                     },
@@ -27246,6 +28098,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Высота подъема, м",
                         value: "9,5",
+                    },
+                    {
+                        title: "Просмотреть все характеристики",
+                        value: "",
                     },
                 ],
             },
@@ -27385,7 +28241,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -27429,10 +28285,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platform length, m",
-                        value: "6.2",
-                    },
-                    {
                         title: "Gross vehicle weight, kg",
                         value: "19980",
                     },
@@ -27445,6 +28297,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "8480",
                     },
                     {
+                        title: "Platform length, mm",
+                        value: "6200",
+                    },
+                    {
                         title: "CMU lifting capacity, tons",
                         value: "6.1",
                     },
@@ -27455,6 +28311,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Lifting height, m",
                         value: "9.5",
+                    },
+                    {
+                        title: "View all specifications",
+                        value: "",
                     },
                 ],
             },
@@ -27594,7 +28454,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -27638,10 +28498,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "4x2",
                     },
                     {
-                        title: "Platforma uzunligi, m",
-                        value: "6.2",
-                    },
-                    {
                         title: "To‘liq massa, kg",
                         value: "19980",
                     },
@@ -27654,6 +28510,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "8480",
                     },
                     {
+                        title: "Platforma uzunligi, mm",
+                        value: "6200",
+                    },
+                    {
                         title: "KMU yuk ko‘tarish qobiliyati, tonna",
                         value: "6.1",
                     },
@@ -27664,6 +28524,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Ko‘tarish balandligi, m",
                         value: "9.5",
+                    },
+                    {
+                        title: "Barcha xususiyatlarni ko‘rish",
+                        value: "",
                     },
                 ],
             },
@@ -27786,11 +28650,11 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                             value: "420°",
                         },
                         {
-                            title: "Old аутригерлар",
+                            title: "Old аутригерlar",
                             value: "Qamrovi 5.0 m",
                         },
                         {
-                            title: "Orqa аутригерлар",
+                            title: "Orqa аутriгерlar",
                             value: "-",
                         },
                     ],
@@ -27833,7 +28697,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 iNeedThis: "Мне нужно это",
             },
@@ -27877,10 +28741,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "6х4",
                     },
                     {
-                        title: "Длина платформы, м",
-                        value: "8,2",
-                    },
-                    {
                         title: "Полная масса, кг",
                         value: "30100",
                     },
@@ -27893,12 +28753,20 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "17700",
                     },
                     {
+                        title: "Длина платформы, мм",
+                        value: "8200",
+                    },
+                    {
                         title: "Грузоподъёмность КМУ, тонн",
                         value: "3,3",
                     },
                     {
                         title: "Вылет стрелы, м",
                         value: "5,6",
+                    },
+                    {
+                        title: "Посмотреть все характеристики",
+                        value: "",
                     },
                 ],
             },
@@ -28040,7 +28908,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "Get a quotation",
+                more: "Details",
                 getPk: "Get a quotation",
                 iNeedThis: "I need one like this",
             },
@@ -28084,10 +28952,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "6x4",
                     },
                     {
-                        title: "Platform length, m",
-                        value: "8.2",
-                    },
-                    {
                         title: "Gross vehicle weight, kg",
                         value: "30100",
                     },
@@ -28100,12 +28964,20 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "17700",
                     },
                     {
+                        title: "Platform length, mm",
+                        value: "8200",
+                    },
+                    {
                         title: "CMU lifting capacity, tons",
                         value: "3.3",
                     },
                     {
                         title: "Boom reach, m",
                         value: "5.6",
+                    },
+                    {
+                        title: "View all specifications",
+                        value: "",
                     },
                 ],
             },
@@ -28247,7 +29119,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -28291,10 +29163,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "6x4",
                     },
                     {
-                        title: "Platforma uzunligi, m",
-                        value: "8.2",
-                    },
-                    {
                         title: "To‘liq massa, kg",
                         value: "30100",
                     },
@@ -28307,12 +29175,20 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "17700",
                     },
                     {
+                        title: "Platforma uzunligi, mm",
+                        value: "8200",
+                    },
+                    {
                         title: "KMU yuk ko‘tarish qobiliyati, tonna",
                         value: "3.3",
                     },
                     {
                         title: "Strelka chiqishi, m",
                         value: "5.6",
+                    },
+                    {
+                        title: "Barcha xususiyatlarni ko‘rish",
+                        value: "",
                     },
                 ],
             },
@@ -28531,6 +29407,18 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         title: "Управление",
                         value: "Гидравлическое",
                     },
+                    {
+                        title: "Тип стрелы",
+                        value: "Телескопическая",
+                    },
+                    {
+                        title: "Опоры",
+                        value: "Гидравлические выносные опоры",
+                    },
+                    {
+                        title: "Посмотреть все характеристики",
+                        value: "",
+                    },
                 ],
             },
 
@@ -28587,8 +29475,8 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "More details",
-                getPk: "Get PK",
+                more: "Details",
+                getPk: "Get a quotation",
                 iNeedThis: "I need this",
             },
 
@@ -28622,6 +29510,18 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Control",
                         value: "Hydraulic",
+                    },
+                    {
+                        title: "Boom type",
+                        value: "Telescopic",
+                    },
+                    {
+                        title: "Outriggers",
+                        value: "Hydraulic stabilizing outriggers",
+                    },
+                    {
+                        title: "View all specifications",
+                        value: "",
                     },
                 ],
             },
@@ -28680,7 +29580,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             buttons: {
                 addToCart: "Savatga qo‘shish",
                 more: "Batafsil",
-                getPk: "PK olish",
+                getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga kerak",
             },
 
@@ -28714,6 +29614,18 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Boshqaruv",
                         value: "Gidravlik",
+                    },
+                    {
+                        title: "Strela turi",
+                        value: "Teleskopik",
+                    },
+                    {
+                        title: "Tayanchlar",
+                        value: "Gidravlik tayanchlar",
+                    },
+                    {
+                        title: "Barcha xususiyatlarni ko‘rish",
+                        value: "",
                     },
                 ],
             },
@@ -28836,12 +29748,28 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "Кран-манипулятор",
                     },
                     {
+                        title: "Тип кузова",
+                        value: "Бортовая платформа",
+                    },
+                    {
                         title: "Назначение",
                         value: "Строительство и логистика",
                     },
                     {
                         title: "Тип стрелы",
                         value: "Телескопическая",
+                    },
+                    {
+                        title: "Опоры",
+                        value: "Гидравлические",
+                    },
+                    {
+                        title: "Управление",
+                        value: "Гидравлическое",
+                    },
+                    {
+                        title: "Посмотреть все характеристики",
+                        value: "",
                     },
                 ],
             },
@@ -28899,8 +29827,8 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "More details",
-                getPk: "Get PK",
+                more: "Details",
+                getPk: "Get a quotation",
                 iNeedThis: "I need this",
             },
 
@@ -28928,12 +29856,28 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "Crane-manipulator truck",
                     },
                     {
+                        title: "Body type",
+                        value: "Flatbed platform",
+                    },
+                    {
                         title: "Application",
                         value: "Construction and logistics",
                     },
                     {
                         title: "Boom type",
                         value: "Telescopic",
+                    },
+                    {
+                        title: "Outriggers",
+                        value: "Hydraulic",
+                    },
+                    {
+                        title: "Control",
+                        value: "Hydraulic",
+                    },
+                    {
+                        title: "View all specifications",
+                        value: "",
                     },
                 ],
             },
@@ -28992,7 +29936,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             buttons: {
                 addToCart: "Savatga qo‘shish",
                 more: "Batafsil",
-                getPk: "PK olish",
+                getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga kerak",
             },
 
@@ -29020,12 +29964,28 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "Kran-manipulyatorli yuk avtomobili",
                     },
                     {
+                        title: "Kuzov turi",
+                        value: "Bortli platforma",
+                    },
+                    {
                         title: "Vazifasi",
                         value: "Qurilish va logistika",
                     },
                     {
                         title: "Strela turi",
                         value: "Teleskopik",
+                    },
+                    {
+                        title: "Tayanchlar",
+                        value: "Gidravlik",
+                    },
+                    {
+                        title: "Boshqaruv",
+                        value: "Gidravlik",
+                    },
+                    {
+                        title: "Barcha xususiyatlarni ko‘rish",
+                        value: "",
                     },
                 ],
             },
@@ -29103,7 +30063,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             {
                 image: "https://www.kamazik.ru/upload/iblock/983/9830d26a5fedfa06b8fc9e96a51833b9.jpg",
             },
-
             {
                 image: "https://kvlg.ru/sites/default/files/img/avtopark/manipulyator-hero.webp",
             },
@@ -29150,8 +30109,24 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "Грузовой автомобиль с КМУ",
                     },
                     {
+                        title: "Тип платформы",
+                        value: "Бортовая грузовая платформа",
+                    },
+                    {
                         title: "Назначение",
                         value: "Транспортировка и погрузка грузов",
+                    },
+                    {
+                        title: "Управление КМУ",
+                        value: "Гидравлическое",
+                    },
+                    {
+                        title: "Опоры",
+                        value: "Выносные стабилизирующие опоры",
+                    },
+                    {
+                        title: "Посмотреть все характеристики",
+                        value: "",
                     },
                 ],
             },
@@ -29209,8 +30184,8 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "More details",
-                getPk: "Get PK",
+                more: "Details",
+                getPk: "Get a quotation",
                 iNeedThis: "I need this",
             },
 
@@ -29242,8 +30217,24 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "Cargo truck with crane-manipulator",
                     },
                     {
+                        title: "Platform type",
+                        value: "Flatbed cargo platform",
+                    },
+                    {
                         title: "Application",
                         value: "Cargo transportation and loading",
+                    },
+                    {
+                        title: "Crane control",
+                        value: "Hydraulic",
+                    },
+                    {
+                        title: "Outriggers",
+                        value: "Hydraulic stabilizing outriggers",
+                    },
+                    {
+                        title: "View all specifications",
+                        value: "",
                     },
                 ],
             },
@@ -29302,7 +30293,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             buttons: {
                 addToCart: "Savatga qo‘shish",
                 more: "Batafsil",
-                getPk: "PK olish",
+                getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga kerak",
             },
 
@@ -29334,8 +30325,24 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "Kran-manipulyatorli yuk avtomobili",
                     },
                     {
+                        title: "Platforma turi",
+                        value: "Bortli yuk platformasi",
+                    },
+                    {
                         title: "Vazifasi",
                         value: "Yuk tashish va ortish",
+                    },
+                    {
+                        title: "Kran boshqaruvi",
+                        value: "Gidravlik",
+                    },
+                    {
+                        title: "Tayanchlar",
+                        value: "Gidravlik tayanchlar",
+                    },
+                    {
+                        title: "Barcha xususiyatlarni ko‘rish",
+                        value: "",
                     },
                 ],
             },
@@ -29419,7 +30426,6 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             {
                 image: "https://img.archiexpo.com/pt/images_ae/photo-mg/155527-19684205.jpg",
             },
-
             {
                 image: "https://amttagristorage.blob.core.windows.net/blogimages/assets/chris_boyd_O2g8_H_Cg_DN_8o_unsplash_0d435d9cba.jpg",
             },
@@ -29463,8 +30469,28 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "Автокран",
                     },
                     {
+                        title: "Тип шасси",
+                        value: "Грузовое автомобильное шасси",
+                    },
+                    {
+                        title: "Стрела",
+                        value: "Телескопическая",
+                    },
+                    {
+                        title: "Опоры",
+                        value: "Гидравлические",
+                    },
+                    {
+                        title: "Крановая система",
+                        value: "Полноповоротная",
+                    },
+                    {
                         title: "Назначение",
-                        value: "Строительные и монтажные работы",
+                        value: "Строительные, монтажные и погрузочные работы",
+                    },
+                    {
+                        title: "Посмотреть все характеристики",
+                        value: "",
                     },
                 ],
             },
@@ -29522,8 +30548,8 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "More details",
-                getPk: "Get PK",
+                more: "Details",
+                getPk: "Get a quotation",
                 iNeedThis: "I need this",
             },
 
@@ -29555,8 +30581,28 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "Mobile crane",
                     },
                     {
+                        title: "Chassis type",
+                        value: "Heavy-duty truck chassis",
+                    },
+                    {
+                        title: "Boom",
+                        value: "Telescopic",
+                    },
+                    {
+                        title: "Outriggers",
+                        value: "Hydraulic",
+                    },
+                    {
+                        title: "Crane system",
+                        value: "Full-slewing",
+                    },
+                    {
                         title: "Application",
-                        value: "Construction and installation operations",
+                        value: "Construction, installation and loading operations",
+                    },
+                    {
+                        title: "View all specifications",
+                        value: "",
                     },
                 ],
             },
@@ -29615,7 +30661,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             buttons: {
                 addToCart: "Savatga qo‘shish",
                 more: "Batafsil",
-                getPk: "PK olish",
+                getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga kerak",
             },
 
@@ -29647,8 +30693,28 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         value: "Avtokran",
                     },
                     {
+                        title: "Shassi turi",
+                        value: "Og‘ir yuk avtomobili shassisi",
+                    },
+                    {
+                        title: "Strela",
+                        value: "Teleskopik",
+                    },
+                    {
+                        title: "Tayanchlar",
+                        value: "Gidravlik",
+                    },
+                    {
+                        title: "Kran tizimi",
+                        value: "To‘liq aylanadigan",
+                    },
+                    {
                         title: "Vazifasi",
-                        value: "Qurilish va montaj ishlari",
+                        value: "Qurilish, montaj va yuklash ishlari",
+                    },
+                    {
+                        title: "Barcha xususiyatlarni ko‘rish",
+                        value: "",
                     },
                 ],
             },
@@ -29784,6 +30850,18 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                         title: "Длина стрелы",
                         value: "10,1–33 м",
                     },
+                    {
+                        title: "Профиль стрелы",
+                        value: "Овальный, четырехсекционный",
+                    },
+                    {
+                        title: "Дополнительный гусек",
+                        value: "9 м",
+                    },
+                    {
+                        title: "Посмотреть все характеристики",
+                        value: "",
+                    },
                 ],
             },
 
@@ -29848,8 +30926,8 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Add to cart",
-                more: "More details",
-                getPk: "Get PK",
+                more: "Details",
+                getPk: "Get a quotation",
                 iNeedThis: "I need this",
             },
 
@@ -29895,6 +30973,18 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Boom length",
                         value: "10.1–33 m",
+                    },
+                    {
+                        title: "Boom profile",
+                        value: "Oval, four-section",
+                    },
+                    {
+                        title: "Additional jib",
+                        value: "9 m",
+                    },
+                    {
+                        title: "View all specifications",
+                        value: "",
                     },
                 ],
             },
@@ -29961,7 +31051,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             buttons: {
                 addToCart: "Savatga qo‘shish",
                 more: "Batafsil",
-                getPk: "PK olish",
+                getPk: "Tijorat taklifini olish",
                 iNeedThis: "Menga kerak",
             },
 
@@ -30008,6 +31098,18 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                     {
                         title: "Strela uzunligi",
                         value: "10,1–33 m",
+                    },
+                    {
+                        title: "Strela profili",
+                        value: "Oval, to‘rt seksiyali",
+                    },
+                    {
+                        title: "Qo‘shimcha gusyok",
+                        value: "9 m",
+                    },
+                    {
+                        title: "Barcha xususiyatlarni ko‘rish",
+                        value: "",
                     },
                 ],
             },

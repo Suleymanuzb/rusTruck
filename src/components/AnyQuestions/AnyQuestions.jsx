@@ -107,7 +107,7 @@ const AnyQuestions = ({ disableAnimation }) => {
                         </button>
                     </form>
 
-                    <p className='mt-6 whitespace-nowrap text-[12px] md:text-lg'>
+                    <p className='mt-6 text-[12px] md:text-lg'>
                         <Trans
                             i18nKey='anyQuestions.agreement'
                             components={{

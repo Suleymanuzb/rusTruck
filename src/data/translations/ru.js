@@ -2873,6 +2873,7 @@ const ru = {
         vacancies: "Вакансии",
         certificate: "Сертификаты",
         leasing: "Кредит и лизинг",
+        korzinka: "Корзина",
     },
 };
 

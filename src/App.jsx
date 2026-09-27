@@ -27,6 +27,7 @@ import Reviews from "./pages/Reviews/Reviews";
 import Vacancies from "./pages/vacancy/Vacancies";
 import Certificate from "./pages/Certificate/Certificate";
 import Loan from "./pages/Loan/Loan";
+import Korzinka from "./pages/Korzinka/Korzinka";
 
 const App = () => {
     useEffect(() => {
@@ -104,6 +105,7 @@ const App = () => {
                     <Route path='vacancies' element={<Vacancies />} />
                     <Route path='certificate' element={<Certificate />} />
                     <Route path='leasing' element={<Loan />} />
+                    <Route path='korzinka' element={<Korzinka />} />
 
                     <Route path='*' element={<NotFound />} />
                 </Route>

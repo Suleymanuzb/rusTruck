@@ -5,6 +5,7 @@ import { useState } from "react";
 import ModalIsAvailable from "./Modal";
 import { useTranslation } from "react-i18next";
 import ModalFull from "./ModalFull";
+import { useCartStore } from "../../store/cartStore";
 
 const {
     IconLine,
@@ -24,6 +25,8 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
 
     const [liked, setLiked] = useState(null);
     const [hoveredHeart, setHoveredHeart] = useState(null);
+
+    const addToCart = useCartStore((state) => state.addToCart);
 
     return (
         <div
@@ -191,14 +194,17 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
 
                                 <div className='w-full flex items-center gap-2 max-[450px]:flex-col  max-[768px]:flex-row  max-[768px]:justify-center max-[1036px]:self-center max-[1250px]:self-start'>
                                     <div className='flex items-center gap-2'>
-                                        <button>
-                                            <KorzinkaIcon />
+                                        <button
+                                            onClick={() => addToCart(truck.id)}
+                                        >
+                                            <KorzinkaIcon className='cursor-pointer transition-all duration-150 hover:scale-110 active:scale-90 active:opacity-60' />
                                         </button>
+
                                         <button
                                             onClick={() => setLiked(truck.id)}
                                         >
                                             <IconHeartBgWhite
-                                                className={`w-6 h-6 cursor-pointer ${liked === truck.id ? "text-[#fec400]" : "text-white"}`}
+                                                className={`w-6 h-6 cursor-pointer transition-all duration-150 hover:scale-110 active:scale-90  ${liked === truck.id ? "text-[#fec400]" : "text-white"}`}
                                             />
                                         </button>
                                     </div>
@@ -210,7 +216,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                                     setModalFullOpen(true),
                                                 )
                                             }
-                                            className='flex gap-1.5 whitespace-nowrap text-[13px] text-gray-500 cursor-pointer'
+                                            className='flex gap-1.5 whitespace-nowrap text-[13px] text-gray-500 cursor-pointer transition-all active:scale-90 active:opacity-60'
                                         >
                                             {truckCurrentLang?.buttons.getPk}
 
