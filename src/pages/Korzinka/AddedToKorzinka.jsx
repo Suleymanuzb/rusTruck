@@ -8,12 +8,15 @@ import trucks from "../../data/truckData";
 
 import ModalFull from "./ModalFull";
 import { Link } from "react-router-dom";
+import { div } from "motion/react-client";
 
 const AddedCartToKorzina = () => {
     const [isOpen, setIsOpen] = useState(false);
     const cart = useCartStore((state) => state.cart);
     const { i18n, t } = useTranslation();
     const noCarts = cart.length === 0;
+
+    const removeFromCart = useCartStore((state) => state.removeFromCart);
 
     return noCarts ? (
         <div>
@@ -91,95 +94,148 @@ const AddedCartToKorzina = () => {
                     currentPrice !== "Narx so‘rov bo‘yicha";
 
                 return (
-                    <div className='flex gap-7.5 shadow pr-4' key={truckId}>
-                        <div>
-                            <img
-                                src={trucksInCart.images.image}
-                                alt='truck'
-                                className='w-62.25 h-35 object-cover'
-                            />
-                        </div>
+                    <div>
+                        <div
+                            className='flex gap-0 sm:gap-4 lg:gap-7.5 shadow pr-4  max-[1024px]:h-34'
+                            key={truckId}
+                        >
+                            <div className=''>
+                                <img
+                                    src={trucksInCart.images.image}
+                                    alt='truck'
+                                    className='min-w-40 w-75.25 h-full! object-cover'
+                                />
+                            </div>
 
-                        <div className='flex gap-7 justify-between w-full'>
-                            <div className='flex gap-15 w-full'>
-                                <div className='w-[75%]'>
-                                    <div className='mb-8'>
-                                        <h3 className='text-base mt-1'>
-                                            {product.truckType}
-                                        </h3>
+                            <div className='flex gap-7 justify-between w-full'>
+                                <div className='flex max-[1200px]:p-4 max-[1200px]:flex-col w-full min-[1200px]:gap-15'>
+                                    <div className='w-[75%]'>
+                                        <div className='mb-3.5 lg:mb-8'>
+                                            <h3 className='text-[12px] md:text-base mt-1 line-clamp-2 max-[768px]:mb-2'>
+                                                {product.truckType}
+                                            </h3>
+                                            {isPriceAvailable && (
+                                                <h1 className='text-sm mb-1 font-medium md:hidden'>
+                                                    {currentPrice}
+                                                </h1>
+                                            )}
+                                        </div>
+
+                                        <div className='hidden lg:block'>
+                                            {dimensionsValue && (
+                                                <div className='flex max-[1200px]:gap-2 min-[1200px]:justify-between text-gray-400 text-sm '>
+                                                    <p>
+                                                        {t(
+                                                            "filteredPage.trucksInLine.capacityOfTruck",
+                                                        )}
+                                                        :
+                                                    </p>
+                                                    <p className='border-b border-dotted  border-gray-400 min-[1200px]:flex-1 mb-1.75 '></p>
+                                                    <p>{dimensionsValue}</p>
+                                                </div>
+                                            )}
+
+                                            {mass && (
+                                                <div className='flex max-[1200px]:gap-2 min-[1200px]:justify-between text-gray-400 text-sm '>
+                                                    <p>
+                                                        {t(
+                                                            "filteredPage.trucksInLine.capacityOfLoad",
+                                                        )}
+                                                    </p>
+                                                    <p className='border-b border-dotted  border-gray-400 min-[1200px]:flex-1 mb-1.5 '></p>
+                                                    <p>{mass}</p>
+                                                </div>
+                                            )}
+                                        </div>
                                     </div>
 
-                                    <div>
-                                        {dimensionsValue && (
-                                            <div className='flex justify-between text-gray-400 text-sm '>
-                                                <p>
-                                                    {t(
-                                                        "filteredPage.trucksInLine.capacityOfTruck",
-                                                    )}
-                                                    :
-                                                </p>
-                                                <p className='border-b border-dotted  border-gray-400 flex-1 mb-1.75 '></p>
-                                                <p>{dimensionsValue}</p>
+                                    <div className='self-center max-[1200px]:mt-1.5 max-[1200px]:self-start flex-1  min-[1200px]:mb-4 hidden md:block'>
+                                        <div className='flex items-center rounded border border-[#ebebeb] w-20 lg:w-30'>
+                                            <div className='flex items-center justify-center max-[1024px]:w-6.25 max-[1024px]:h-6.25 w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'>
+                                                -
                                             </div>
-                                        )}
-
-                                        {mass && (
-                                            <div className='flex justify-between text-gray-400 text-sm '>
-                                                <p>
-                                                    {t(
-                                                        "filteredPage.trucksInLine.capacityOfLoad",
-                                                    )}
-                                                </p>
-                                                <p className='border-b border-dotted  border-gray-400 flex-1 mb-1.5 '></p>
-                                                <p>{mass}</p>
+                                            <div className='relative flex items-center justify-center max-[1024px]:w-6.25 max-[1024px]:h-6.25 w-9.25 h-9.25 py-1.25 px-1 before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:h-5 before:border-l before:border-[#a2a2a2] after:content-[""] after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2 after:h-5 after:border-r after:border-[#a2a2a2]'>
+                                                5
                                             </div>
-                                        )}
+                                            <div className='flex items-center justify-center max-[1024px]:w-6.25 max-[1024px]:h-6.25 w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'>
+                                                +
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div className='self-center  flex-1'>
+                                <div className='md:flex flex-col items-center justify-center hidden'>
+                                    {isPriceAvailable && (
+                                        <h1 className='text-xl mb-1 font-medium hidden md:block'>
+                                            {currentPrice}
+                                        </h1>
+                                    )}
+                                    <Button
+                                        onClick={() =>
+                                            setIsOpen((prev) => !prev)
+                                        }
+                                        className='whitespace-nowrap bg-[#FEC80B] text-black hover:bg-[#FFD43A] active:bg-[#E9C135] px-5 lg:px-8 py-2 rounded flex items-center gap-1.5'
+                                    >
+                                        {product.buttons.getPk}
+                                        <span>
+                                            <DownloadIcon className='text-black mt-0.5' />
+                                        </span>
+                                    </Button>
+                                    <p
+                                        onClick={() =>
+                                            removeFromCart(trucksInCart.id)
+                                        }
+                                        className='flex items-center gap-1.5 text-center mt-2 cursor-pointer'
+                                    >
+                                        {t("korzinka.delete")}{" "}
+                                        <span>
+                                            <DeleteIcon />
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            {isOpen && (
+                                <ModalFull onClose={() => setIsOpen(!isOpen)} />
+                            )}
+                        </div>
+
+                        <div className='block md:hidden py-4 px-2 flex items-center justify-between'>
+                            <div>
+                                <div className='self-center max-[1200px]:mt-1.5 max-[1200px]:self-start flex-1  min-[1200px]:mb-4'>
                                     <div className='flex items-center rounded border border-[#ebebeb] w-30'>
-                                        <div className='flex items-center justify-center w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'>
+                                        <div className='flex items-center justify-center h-6.25 w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'>
                                             -
                                         </div>
-                                        <div className='relative flex items-center justify-center w-9.25 h-9.25 py-1.25 px-1 before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:h-5 before:border-l before:border-[#a2a2a2] after:content-[""] after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2 after:h-5 after:border-r after:border-[#a2a2a2]'>
+                                        <div className='relative flex items-center justify-center h-6.25 w-9.25 h-9.25 py-1.25 px-1 before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:h-5 before:border-l before:border-[#a2a2a2] after:content-[""] after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2 after:h-5 after:border-r after:border-[#a2a2a2]'>
                                             5
                                         </div>
-                                        <div className='flex items-center justify-center w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'>
+                                        <div className='flex items-center justify-center h-6.25 w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'>
                                             +
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className='flex flex-col items-center justify-center'>
-                                {isPriceAvailable && (
-                                    <h1 className='text-xl mb-1 font-medium'>
-                                        {currentPrice}
-                                    </h1>
-                                )}
+                            <div className='flex gap-2'>
                                 <Button
                                     onClick={() => setIsOpen((prev) => !prev)}
-                                    variant='btn_big_more'
-                                    className='flex cursor-pointer gap-2 whitespace-nowrap '
+                                    className='whitespace-nowrap bg-[#FEC80B] text-black hover:bg-[#FFD43A] active:bg-[#E9C135] px-5 lg:px-8 py-2 rounded flex items-center gap-1.5'
                                 >
                                     {product.buttons.getPk}
-                                    <span>
-                                        <DownloadIcon className='text-black mt-0.5' />
-                                    </span>
                                 </Button>
-                                <p className='flex items-center gap-1.5 text-center mt-2 cursor-pointer'>
-                                    {t("korzinka.delete")}{" "}
+                                <p
+                                    onClick={() =>
+                                        removeFromCart(trucksInCart.id)
+                                    }
+                                    className='flex items-center gap-1.5 text-center mt-2 cursor-pointer'
+                                >
                                     <span>
-                                        <DeleteIcon />
+                                        <DeleteIcon className='w-8 h-8 text-[#A2A2A2]' />
                                     </span>
                                 </p>
                             </div>
                         </div>
-
-                        {isOpen && (
-                            <ModalFull onClose={() => setIsOpen(!isOpen)} />
-                        )}
                     </div>
                 );
             })}

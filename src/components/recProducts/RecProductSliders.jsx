@@ -131,7 +131,7 @@ const RecProductSliders = forwardRef((props, ref) => {
 
                                 <div className='bg-white px-0.5 py-2 min-[500px]:px-3 sm:py-4'>
                                     <div>
-                                        <a className='md:text-center xl:text-start mb-4 line-clamp-2 text-[14px]  min-[1200px]:text-lg w-full'>
+                                        <a className='md:text-center xl:text-start mb-4 line-clamp-2 text-[14px] min-[1200px]:text-lg w-full'>
                                             {truck[language]?.truckType}
                                         </a>
                                         <p className='text-center md:text-start font-medium leading-[1.18] mb-3 md:text-xl'>
@@ -139,12 +139,13 @@ const RecProductSliders = forwardRef((props, ref) => {
                                         </p>
                                     </div>
                                     <div className='max-[1360px]:flex max-[1360px]:items-center max-[1360px]:flex-col min-[1360px]:flex min-[1360px]:items-center min-[1360px]:gap-3 '>
-                                        <Button
+                                        <Link
+                                            to={`/catalog/${category.slug}/${truck.id}`}
                                             variant='btn_big'
-                                            className='w-full max-[1360px]:mb-3 py-2.5 font-normal text-sm'
+                                            className='w-full max-[1360px]:mb-3 py-2.5 font-normal text-sm bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135] rounded-md leading-none md:py-4 text-center'
                                         >
                                             {truck?.[language]?.buttons?.more}
-                                        </Button>
+                                        </Link>
                                         <Button
                                             onClick={handleOpenModal}
                                             className='hidden md:flex gap-2.5 cursor-pointer  whitespace-nowrap'
