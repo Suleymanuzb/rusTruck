@@ -32,7 +32,7 @@ const RusTruck = ({ to = "/", className = "", isAnimated = true }) => {
     return (
         <Link
             to={to}
-            className={`flex items-center shrink-0 py-1 ${className}`}
+            className={`flex items-center shrink-0 py-1 ${className} outline-none`}
         >
             <div
                 ref={logoRef}

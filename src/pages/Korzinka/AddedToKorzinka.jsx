@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useCartStore } from "../../store/cartStore";
 import { useTranslation } from "react-i18next";
 import { icons } from "../../assets/icons/icons";
@@ -8,6 +7,7 @@ import trucks from "../../data/truckData";
 
 import ModalFull from "./ModalFull";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const AddedCartToKorzina = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +16,7 @@ const AddedCartToKorzina = () => {
     const noCarts = cart.length === 0;
 
     const removeFromCart = useCartStore((state) => state.removeFromCart);
+    const increaseQuantity = useCartStore((state) => state.increaseQuantity);
 
     return noCarts ? (
         <div>
@@ -43,8 +44,10 @@ const AddedCartToKorzina = () => {
         </div>
     ) : (
         <div className='flex flex-col gap-6'>
-            {cart.map((truckId) => {
-                const trucksInCart = trucks.find((each) => each.id === truckId);
+            {cart.map((cartItem, i) => {
+                const trucksInCart = trucks.find(
+                    (each) => each.id === cartItem.id,
+                );
 
                 const product = trucksInCart?.[i18n.language];
 
@@ -86,23 +89,20 @@ const AddedCartToKorzina = () => {
                     ].includes(item.title),
                 )?.value;
 
-                const currentPrice = product.price;
+                const currentPrice = product?.price;
                 const isPriceAvailable =
                     currentPrice !== "Цена по запросу" &&
                     currentPrice !== "Price upon request" &&
                     currentPrice !== "Narx so‘rov bo‘yicha";
 
                 return (
-                    <div>
-                        <div
-                            className='flex gap-0 sm:gap-4 lg:gap-7.5 shadow pr-4  max-[1024px]:h-34'
-                            key={truckId}
-                        >
+                    <div key={i}>
+                        <div className='flex gap-0 sm:gap-4 lg:gap-7.5 shadow pr-4  max-[1024px]:h-34'>
                             <div className=''>
                                 <img
                                     src={trucksInCart.images.image}
                                     alt='truck'
-                                    className='min-w-40 w-75.25 h-full! object-cover'
+                                    className='min-[400px]:min-w-40 w-75.25 h-full! object-cover'
                                 />
                             </div>
 
@@ -110,8 +110,8 @@ const AddedCartToKorzina = () => {
                                 <div className='flex max-[1200px]:p-4 max-[1200px]:flex-col w-full min-[1200px]:gap-15'>
                                     <div className='w-[75%]'>
                                         <div className='mb-3.5 lg:mb-8'>
-                                            <h3 className='text-[12px] md:text-base mt-1 sm:line-clamp-2 max-[768px]:mb-2'>
-                                                {product.truckType}
+                                            <h3 className='max-[400px]:text-[10px] text-[12px] md:text-base mt-1 sm:line-clamp-2 max-[768px]:mb-2'>
+                                                {product?.truckType}
                                             </h3>
                                             {isPriceAvailable && (
                                                 <h1 className='text-sm mb-1 font-medium md:hidden'>
@@ -150,13 +150,25 @@ const AddedCartToKorzina = () => {
 
                                     <div className='self-center max-[1200px]:mt-1.5 max-[1200px]:self-start flex-1  min-[1200px]:mb-4 hidden md:block'>
                                         <div className='flex items-center rounded border border-[#ebebeb] w-20 lg:w-30'>
-                                            <div className='flex items-center justify-center max-[1024px]:w-6.25 max-[1024px]:h-6.25 w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'>
+                                            <div
+                                                onClick={() =>
+                                                    removeFromCart(cartItem.id)
+                                                }
+                                                className='flex items-center justify-center max-[1024px]:w-6.25 max-[1024px]:h-6.25 w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'
+                                            >
                                                 -
                                             </div>
                                             <div className='relative flex items-center justify-center max-[1024px]:w-6.25 max-[1024px]:h-6.25 w-9.25 h-9.25 py-1.25 px-1 before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:h-5 before:border-l before:border-[#a2a2a2] after:content-[""] after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2 after:h-5 after:border-r after:border-[#a2a2a2]'>
-                                                5
+                                                {cartItem.quantity}
                                             </div>
-                                            <div className='flex items-center justify-center max-[1024px]:w-6.25 max-[1024px]:h-6.25 w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'>
+                                            <div
+                                                onClick={() =>
+                                                    increaseQuantity(
+                                                        cartItem.id,
+                                                    )
+                                                }
+                                                className='flex items-center justify-center max-[1024px]:w-6.25 max-[1024px]:h-6.25 w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'
+                                            >
                                                 +
                                             </div>
                                         </div>
@@ -175,7 +187,7 @@ const AddedCartToKorzina = () => {
                                         }
                                         className='whitespace-nowrap bg-[#FEC80B] text-black hover:bg-[#FFD43A] active:bg-[#E9C135] px-5 lg:px-8 py-2 rounded flex items-center gap-1.5'
                                     >
-                                        {product.buttons.getPk}
+                                        {product?.buttons?.getPk}
                                         <span>
                                             <DownloadIcon className='text-black mt-0.5' />
                                         </span>
@@ -219,7 +231,7 @@ const AddedCartToKorzina = () => {
                             <div className='flex gap-2'>
                                 <Button
                                     onClick={() => setIsOpen((prev) => !prev)}
-                                    className='whitespace-nowrap bg-[#FEC80B] text-black hover:bg-[#FFD43A] active:bg-[#E9C135] px-5 lg:px-8 py-2 rounded flex items-center gap-1.5'
+                                    className='whitespace-nowrap max-[400px]:px-1.5 max-[400px]:py-1 max-[400px]:text-[12px] bg-[#FEC80B] text-black hover:bg-[#FFD43A] active:bg-[#E9C135] px-5 lg:px-8 py-2 rounded flex items-center gap-1.5'
                                 >
                                     {product.buttons.getPk}
                                 </Button>

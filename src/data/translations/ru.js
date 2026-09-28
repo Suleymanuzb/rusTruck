@@ -2867,6 +2867,14 @@ const ru = {
         toCatalog: "Открыть каталог",
     },
 
+    favourites: {
+        title: "Избранное",
+
+        all: "Все",
+        available: " В наличии",
+        notInSale: " Нет в продаже",
+    },
+
     breadcrumbs: {
         home: "Главная",
         catalog: "Каталог",
@@ -2884,6 +2892,7 @@ const ru = {
         certificate: "Сертификаты",
         leasing: "Кредит и лизинг",
         korzinka: "Корзина",
+        favourites: "Избранное",
     },
 };
 
