@@ -8,7 +8,6 @@ import trucks from "../../data/truckData";
 
 import ModalFull from "./ModalFull";
 import { Link } from "react-router-dom";
-import { div } from "motion/react-client";
 
 const AddedCartToKorzina = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -111,7 +110,7 @@ const AddedCartToKorzina = () => {
                                 <div className='flex max-[1200px]:p-4 max-[1200px]:flex-col w-full min-[1200px]:gap-15'>
                                     <div className='w-[75%]'>
                                         <div className='mb-3.5 lg:mb-8'>
-                                            <h3 className='text-[12px] md:text-base mt-1 line-clamp-2 max-[768px]:mb-2'>
+                                            <h3 className='text-[12px] md:text-base mt-1 sm:line-clamp-2 max-[768px]:mb-2'>
                                                 {product.truckType}
                                             </h3>
                                             {isPriceAvailable && (
