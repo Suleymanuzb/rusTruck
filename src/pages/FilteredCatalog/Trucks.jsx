@@ -6,16 +6,9 @@ import ModalIsAvailable from "./Modal";
 import { useTranslation } from "react-i18next";
 import ModalFull from "./ModalFull";
 import { useCartStore } from "../../store/cartStore";
+import { useFavouriteStore } from "../../store/favouritesStore";
 
-const {
-    IconLine,
-    IconTable,
-    SearchIcon,
-    KorzinkaIcon,
-    IconHeartBgWhite,
-    DownloadIcon,
-    IconMessage,
-} = icons;
+const { KorzinkaIcon, IconHeartBgWhite, DownloadIcon, IconMessage } = icons;
 
 const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
     const { t } = useTranslation();
@@ -28,11 +21,17 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
 
     const addToCart = useCartStore((state) => state.addToCart);
 
+    const { addToFavourites, favourites } = useFavouriteStore();
+
     return (
         <div
             className={`gap-5 ${isLine ? "grid grid-cols-1" : "grid grid-cols-2 md:grid-cols-3 min-[928px]:grid-cols-4 min-[1024px]:grid-cols-2! min-[1036px]:grid-cols-3!"}`}
         >
             {matchingTrucks.map((truck) => {
+                const isLiked = favourites.some(
+                    (apple) => apple.id === truck.id,
+                );
+
                 const truckCurrentLang = truck?.[i18n.language];
 
                 const truckInfo = truckCurrentLang?.specifications.truckInfo;
@@ -92,26 +91,6 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                         className={`${isLine ? "w-full h-full" : "aspect-9/7.5"}  object-cover ${!truck.available ? "opacity-30" : ""}`}
                                     />
 
-                                    <div
-                                        onMouseEnter={() =>
-                                            setHoveredHeart(truck.id)
-                                        }
-                                        onMouseLeave={() =>
-                                            setHoveredHeart(null)
-                                        }
-                                        className='absolute top-[3%] right-[3%] z-35'
-                                    >
-                                        <IconHeartBgWhite
-                                            className={`w-6 h-6 `}
-                                            heartColor={
-                                                liked === truck.id ||
-                                                hoveredHeart === truck.id
-                                                    ? "#fec400"
-                                                    : "transparent"
-                                            }
-                                        />
-                                    </div>
-
                                     {!truck.available && (
                                         <div className='absolute z-30 inset-0 flex items-center justify-center'>
                                             <span
@@ -123,6 +102,25 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                     )}
                                 </div>
                             </Link>
+                            <div className='absolute top-[3%] right-[3%] z-35'>
+                                <button
+                                    onClick={() => {
+                                        addToFavourites(truck);
+                                    }}
+                                >
+                                    {isLiked ? (
+                                        <IconHeartBgWhite
+                                            heartColor='#fec400'
+                                            className='w-6 h-6 cursor-pointer transition-all duration-150 hover:scale-110 active:scale-90'
+                                        />
+                                    ) : (
+                                        <IconHeartBgWhite
+                                            heartColor='transparent'
+                                            className='w-6 h-6 cursor-pointer transition-all duration-150 hover:scale-110 active:scale-90'
+                                        />
+                                    )}
+                                </button>
+                            </div>
                         </div>
 
                         {/* here texts sites */}
@@ -229,14 +227,6 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                             onClick={() => addToCart(truck.id)}
                                         >
                                             <KorzinkaIcon className='cursor-pointer transition-all duration-150 hover:scale-110 active:scale-90 active:opacity-60' />
-                                        </button>
-
-                                        <button
-                                            onClick={() => setLiked(truck.id)}
-                                        >
-                                            <IconHeartBgWhite
-                                                className={`w-6 h-6 cursor-pointer transition-all duration-150 hover:scale-110 active:scale-90  ${liked === truck.id ? "text-[#fec400]" : "text-white"}`}
-                                            />
                                         </button>
                                     </div>
 

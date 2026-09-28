@@ -178,7 +178,7 @@ const Header = () => {
                         <div className='flex items-center gap-4'>
                             <SearchInput className='hidden lg:block' />
 
-                            <div className='flex items-center gap-2.5'>
+                            <div className='flex items-center gap-4.5'>
                                 <Korzinka to='/korzinka' />
                                 <Favourites to='/favourites' />
                                 <LanguageDropdown className='hidden sm:flex w-10 h-10' />
