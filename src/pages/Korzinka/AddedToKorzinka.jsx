@@ -211,7 +211,7 @@ const AddedCartToKorzina = () => {
                             )}
                         </div>
 
-                        <div className='block md:hidden py-4 px-2 flex items-center justify-between'>
+                        <div className='flex py-4 px-2  items-center md:hidden  justify-between'>
                             <div>
                                 <div className='self-center max-[1200px]:mt-1.5 max-[1200px]:self-start flex-1  min-[1200px]:mb-4'>
                                     <div className='flex items-center rounded border border-[#ebebeb] w-30'>
