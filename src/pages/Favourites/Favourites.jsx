@@ -8,6 +8,7 @@ import trucks from "../../data/truckData";
 import { Link } from "react-router-dom";
 import { icons } from "../../assets/icons/icons";
 import Button from "../../components/Button/Button";
+
 const {
     IconLine,
     IconTable,
@@ -83,7 +84,9 @@ const Favourites = () => {
         returnObjects: true,
     });
 
-    const favourites = useFavouriteStore((state) => state.favourites);
+    const { favourites } = useFavouriteStore();
+    console.log("FAVOURITES PAGE:", favourites);
+    const { addToFavourites, addToCart } = useFavouriteStore();
 
     console.log("FAVOURITES PAGE:", favourites);
 
@@ -133,14 +136,29 @@ const Favourites = () => {
 
             {/* favorite carts */}
             <div className='grid grid-cols-4 gap-7'>
-                {favourites.map((t, i) => {
+          {favourites.map((t, i) => {
+                  
                     const trucksFavourited = trucks.find(
                         (each) => each.id === t.id,
                     );
 
                     const category = categories.find(
-                        (item) => item.id === t.id,
+                        (item) => item.id === t.categoryId,
                     );
+
+                    const isLiked = favourites.some(
+                        (apple) => apple.id === t.id,
+                    );
+
+                    console.log("favourites:", favourites);
+
+                    console.log("t:", t);
+
+                    console.log("TRUCK ID:", t.id);
+
+                    console.log("CATEGORIES:", categories);
+
+                    console.log("CATEGORY FOUND:", category);
 
                     return (
                         <div key={i} className='relative h-full'>
@@ -151,6 +169,25 @@ const Favourites = () => {
                                         src={trucksFavourited.images.image}
                                     />
                                 </Link>
+                                <div className='absolute top-[3%] right-[3%] z-35'>
+                                    <button
+                                        onClick={() => {
+                                            addToFavourites(t);
+                                        }}
+                                    >
+                                        {isLiked ? (
+                                            <IconHeartBgWhite
+                                                heartColor='#fec400'
+                                                className='w-6 h-6 cursor-pointer transition-all duration-150 hover:scale-110 active:scale-90'
+                                            />
+                                        ) : (
+                                            <IconHeartBgWhite
+                                                heartColor='transparent'
+                                                className='w-6 h-6 cursor-pointer transition-all duration-150 hover:scale-110 active:scale-90'
+                                            />
+                                        )}
+                                    </button>
+                                </div>
 
                                 <div className='hidden md:absolute top-[1.5%] right-[2%]'>
                                     <span className='text-transparent hover:text-[#fec80b] cursor-pointer'>

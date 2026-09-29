@@ -22,6 +22,8 @@ import Button from "../../components/Button/Button";
 import LiftingCapacity from "./Ranges/LiftingCapacity";
 import PriceRange from "./Ranges/PriceRange";
 import TankCapacity from "./Ranges/TankCapacity";
+import { useCartStore } from "../../store/cartStore";
+import { useFavouriteStore } from "../../store/favouritesStore";
 
 const FilteredCatalog = () => {
     const [isLine, setIsLine] = useState(false);

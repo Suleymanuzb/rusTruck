@@ -2865,6 +2865,21 @@ const ru = {
 
         toHome: "Открыть каталог",
         toCatalog: "Открыть каталог",
+
+        
+        checkoutSection: {
+            title: "Оформить заказ",
+
+            anyQuestionsPart: {
+                leftQuestions: "Остались вопросы?",
+                contactWithUs:
+                    "Свяжитесь с нашим менеджером или оставьте заявку на обратный звонок",
+                numberForStates: "Для регионов: 8 (800) 511-05-25",
+                numberFotLocals: "Нижний Новгород: 8 (831) 225-00-55",
+
+                button: "Заказать звонок",
+            },
+        },
     },
 
     favourites: {

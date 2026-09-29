@@ -196,7 +196,7 @@ const AddedCartToKorzina = () => {
                                         onClick={() =>
                                             removeFromCart(trucksInCart.id)
                                         }
-                                        className='flex items-center gap-1.5 text-center mt-2 cursor-pointer'
+                                        className='flex items-center gap-1.5 text-center mt-2 cursor-pointer! transition-all duration-300 hover:scale-110 active:scale-95'
                                     >
                                         {t("korzinka.delete")}{" "}
                                         <span>
