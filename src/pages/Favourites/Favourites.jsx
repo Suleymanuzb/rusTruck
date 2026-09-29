@@ -149,10 +149,12 @@ const Favourites = () => {
                                 value={"all"}
                                 checked={isFilter === "all"}
                                 onChange={(e) => setIsFilter(e.target.value)}
-                                className={`appearance-none border w-5 h-5 rounded-full ${isFilter ? "checked:border-5 checked:shadow-[0_0_12px_4px_rgba(0,0,0,0.25)]" : ""}`}
+                                className={`appearance-none border w-3 h-3 md:w-5 md:h-5 rounded-full ${isFilter ? "checked:border-2.5 md:checked:border-5 checked:shadow-[0_0_12px_4px_rgba(0,0,0,0.25)]" : ""}`}
                             />
 
-                            <span>{t("favourites.all")}</span>
+                            <span className='text-[15px]'>
+                                {t("favourites.all")}
+                            </span>
                         </label>
                         <label
                             htmlFor='checbox-2'
@@ -165,10 +167,12 @@ const Favourites = () => {
                                 value={"available"}
                                 onChange={(e) => setIsFilter(e.target.value)}
                                 checked={isFilter === "available"}
-                                className={`appearance-none border w-5 h-5 rounded-full ${isFilter ? "checked:border-5 checked:shadow-[0_0_12px_4px_rgba(0,0,0,0.25)]" : ""}`}
+                                className={`appearance-none border w-3 h-3 md:w-5 md:h-5 rounded-full ${isFilter ? "checked:border-2.5 md:checked:border-5 checked:shadow-[0_0_12px_4px_rgba(0,0,0,0.25)]" : ""}`}
                             />
 
-                            <span>{t("favourites.available")}</span>
+                            <span className='text-[15px]'>
+                                {t("favourites.available")}
+                            </span>
                         </label>
                         <label
                             htmlFor='checbox-3'
@@ -181,16 +185,18 @@ const Favourites = () => {
                                 onChange={(e) => setIsFilter(e.target.value)}
                                 value={"notInSale"}
                                 checked={isFilter === "notInSale"}
-                                className={`appearance-none border w-5 h-5 rounded-full ${isFilter ? "checked:border-5 checked:shadow-[0_0_12px_4px_rgba(0,0,0,0.25)]" : ""}`}
+                                className={`appearance-none border w-3 h-3 md:w-5 md:h-5 rounded-full ${isFilter ? "checked:border-2.5 md:checked:border-5 checked:shadow-[0_0_12px_4px_rgba(0,0,0,0.25)]" : ""}`}
                             />
 
-                            <span>{t("favourites.notInSale")}</span>
+                            <span className='text-[15px]'>
+                                {t("favourites.notInSale")}
+                            </span>
                         </label>
                     </div>
                 </div>
 
                 {/* favorite carts */}
-                <div className='grid grid-cols-4 gap-7'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7'>
                     {filteredFavourites.map((t, i) => {
                         const trucksFavourited = trucks.find(
                             (each) => each.id === t.id,
