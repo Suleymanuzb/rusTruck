@@ -152,7 +152,7 @@ const Favourites = () => {
                                 className={`appearance-none border w-3 h-3 md:w-5 md:h-5 rounded-full ${isFilter ? "checked:border-2.5 md:checked:border-5 checked:shadow-[0_0_12px_4px_rgba(0,0,0,0.25)]" : ""}`}
                             />
 
-                            <span className='text-[15px]'>
+                            <span className='text-[12px] sm:text-[15px] md:text-base lg:text-lg xl:text-xl'>
                                 {t("favourites.all")}
                             </span>
                         </label>
@@ -170,7 +170,7 @@ const Favourites = () => {
                                 className={`appearance-none border w-3 h-3 md:w-5 md:h-5 rounded-full ${isFilter ? "checked:border-2.5 md:checked:border-5 checked:shadow-[0_0_12px_4px_rgba(0,0,0,0.25)]" : ""}`}
                             />
 
-                            <span className='text-[15px]'>
+                            <span className='text-[12px] sm:text-[15px] md:text-base lg:text-lg xl:text-xl'>
                                 {t("favourites.available")}
                             </span>
                         </label>
@@ -188,7 +188,7 @@ const Favourites = () => {
                                 className={`appearance-none border w-3 h-3 md:w-5 md:h-5 rounded-full ${isFilter ? "checked:border-2.5 md:checked:border-5 checked:shadow-[0_0_12px_4px_rgba(0,0,0,0.25)]" : ""}`}
                             />
 
-                            <span className='text-[15px]'>
+                            <span className='text-[12px] sm:text-[15px] md:text-base lg:text-lg xl:text-xl'>
                                 {t("favourites.notInSale")}
                             </span>
                         </label>

@@ -215,13 +215,23 @@ const AddedCartToKorzina = () => {
                             <div>
                                 <div className='self-center max-[1200px]:mt-1.5 max-[1200px]:self-start flex-1  min-[1200px]:mb-4'>
                                     <div className='flex items-center rounded border border-[#ebebeb] w-30'>
-                                        <div className='flex items-center justify-center h-6.25 w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'>
+                                        <div
+                                            onClick={() =>
+                                                removeFromCart(cartItem.id)
+                                            }
+                                            className='flex items-center justify-center h-6.25 w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'
+                                        >
                                             -
                                         </div>
                                         <div className='relative flex items-center justify-center h-6.25 w-9.25 h-9.25 py-1.25 px-1 before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:h-5 before:border-l before:border-[#a2a2a2] after:content-[""] after:absolute after:right-0 after:top-1/2 after:-translate-y-1/2 after:h-5 after:border-r after:border-[#a2a2a2]'>
-                                            5
+                                            {cartItem.quantity}
                                         </div>
-                                        <div className='flex items-center justify-center h-6.25 w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'>
+                                        <div
+                                            onClick={() =>
+                                                increaseQuantity(cartItem.id)
+                                            }
+                                            className='flex items-center justify-center h-6.25 w-9.25 h-9.25  py-1.25 px-1 transform duration-300 hover:bg-[#fec400] hover:rounded text-[#a2a2a2] text-xl cursor-pointer'
+                                        >
                                             +
                                         </div>
                                     </div>
