@@ -33,7 +33,7 @@ function App({ gallery, setGallery }) {
                     >
                         <a
                             href={item.image}
-                            data-fancybox
+                            data-fancybox='gallery'
                             data-caption='Рустрак Галерея'
                         >
                             <img

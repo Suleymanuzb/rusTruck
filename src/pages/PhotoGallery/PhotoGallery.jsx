@@ -11,7 +11,7 @@ const PhotoGallery = () => {
 
     const { t } = useTranslation();
     return (
-        <Container className='mb-10'>
+        <Container className='mb-20'>
             <Breadcrumbs />
 
             <div className='flex items-start justify-between '>
