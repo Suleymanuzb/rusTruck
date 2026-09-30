@@ -4,6 +4,7 @@ import App from "./FancyBox";
 import Button from "../../components/Button/Button";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const PhotoGallery = () => {
     const [gallery, setGallery] = useState("Автомобили");
@@ -19,12 +20,14 @@ const PhotoGallery = () => {
                     {t("photoGallery.title")}
                 </h1>
 
-                <Button
-                    variant='btn_big_border'
-                    className='hidden cursor-pointer py-4! lg:flex items-center justify-center whitespace-nowrap'
-                >
-                    {t("photoGallery.watchVideo")}
-                </Button>
+                <Link to={"/video"}>
+                    <Button
+                        variant='btn_big_border'
+                        className='hidden cursor-pointer py-4! lg:flex items-center justify-center whitespace-nowrap'
+                    >
+                        {t("photoGallery.watchVideo")}
+                    </Button>
+                </Link>
             </div>
 
             <div className='flex flex-wrap items-center gap-5 mb-8'>

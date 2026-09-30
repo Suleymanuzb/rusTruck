@@ -10,12 +10,7 @@ const VideoPage = () => {
     const { t } = useTranslation();
 
     const [isPlay, setIsPlay] = useState(null);
-
-    const handlePlay = () => {
-        setIsPlay(!play);
-    };
-
-    console.log(isPlay);
+    // console.log(isPlay);
 
     return (
         <Container>
@@ -41,22 +36,20 @@ const VideoPage = () => {
                 </div>
 
                 {/* videos */}
-                <div className='grid grid-cols-2'>
+                <div className='grid md:grid-cols-2 gap-5 md:gap-10'>
                     {t("videoPage.videos", { returnObjects: true }).map(
                         (item, i) => {
                             return (
-                                <div key={i}>
-                                    <div className='relative w-[560px] h-[315px]'>
+                                <div className=''>
+                                    <div className='relative w-full h-78.75'>
                                         <iframe
-                                            width='560'
-                                            height='315'
                                             src={item.link}
                                             title='YouTube video player'
                                             frameBorder='0'
                                             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
                                             referrerPolicy='strict-origin-when-cross-origin'
                                             allowFullScreen
-                                            className='block relative'
+                                            className='block relative w-full h-full object-cover'
                                         ></iframe>
 
                                         <div
@@ -67,7 +60,7 @@ const VideoPage = () => {
                                         </div>
                                     </div>
                                     <div>
-                                        <h1 className='pt-5 font-medium md:text-xl'>
+                                        <h1 className='pt-2 md:pt-5 font-medium md:text-xl'>
                                             {item.title}
                                         </h1>
                                     </div>
