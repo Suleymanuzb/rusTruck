@@ -2892,6 +2892,70 @@ const en = {
         filters: ["Vehicles", "Production", "About the Company", "Exhibitions"],
     },
 
+    videoPage: {
+        title: "Video Gallery of the RusTruck Special Vehicle Manufacturer",
+        watchPhoto: "View photos",
+
+        videos: [
+            {
+                title: "HKTC Crane Manipulator on a KAMAZ Compass Chassis",
+                link: "https://www.youtube.com/embed/08tNWRWhfo0?si=coVqzhjykWa8JV4J",
+            },
+            {
+                title: "KAMAZ Compass 2022 | Sliding Curtain and Tarpaulin Roof | KAMAZ Truck Review | Flatbed Truck",
+                link: "https://www.youtube.com/embed/rD2Jr1l0kfM?si=8aK-ScrgPUKw-yNK",
+            },
+            {
+                title: "UNIC 374K Crane Manipulator Unit on a FUSO Canter Chassis",
+                link: "https://www.youtube.com/embed/SZFOxY44O_Q?si=ju5jmDU_yA9SImj2",
+            },
+            {
+                title: "Flatbed Tow Truck Based on ISUZU with PALFINGER Manipulator",
+                link: "https://www.youtube.com/embed/40Pt1Oi7r-s?si=lh0D8Kbr2x7FhPqm",
+            },
+            {
+                title: "ISUZU GIGA Grain Dump Truck",
+                link: "https://www.youtube.com/embed/Cw-rxJR_RNg?si=_vFq6cQYUJh7ZiQO",
+            },
+            {
+                title: "Hyundai HD78 with HANSIN Aerial Work Platform",
+                link: "https://www.youtube.com/embed/Zm1lZ53PK2I?si=mNgC2yh9P6EFUAN2",
+            },
+            {
+                title: "5.2 m³ Fuel Tanker Based on ISUZU NPR75 ATZ ELF 7.5",
+                link: "https://www.youtube.com/embed/Zr9zpCgeEIU?si=bV1WZ4iaLWiAZuQL",
+            },
+            {
+                title: "GAZon NEXT Fuel Tanker",
+                link: "https://www.youtube.com/embed/F2C_uBd3l5o?si=kApeKSnnRn5TEccy",
+            },
+            {
+                title: "FUSO Canter Food Tanker",
+                link: "https://www.youtube.com/embed/EhAdt8qwvDw?si=jf2fuz_JVaYALoj1",
+            },
+            {
+                title: "FUSO Canter Food Tanker",
+                link: "https://www.youtube.com/embed/EhAdt8qwvDw?si=jf2fuz_JVaYALoj1",
+            },
+            {
+                title: "ISUZU Flatbed Truck with Sliding Roof and Side Curtains",
+                link: "https://www.youtube.com/embed/7Ekr8KlqKi8?si=-iwzzppf1byimlGU",
+            },
+            {
+                title: "Happy New Year!",
+                link: "https://www.youtube.com/embed/LURhQdc2q8g?si=PrPJBaS2lEghwy5U",
+            },
+            {
+                title: "GAZon NEXT with UNIC Crane Manipulator",
+                link: "https://www.youtube.com/embed/8hv6F9oxtYU?si=G1ZmS9nbGNDqzFCf",
+            },
+            {
+                title: "GAZon NEXT Fuel Tanker (ATZ)",
+                link: "https://www.youtube.com/embed/isfTuPY2JjU?si=YigS5m9jbeqJtgP7",
+            },
+        ],
+    },
+
     breadcrumbs: {
         home: "Home",
         catalog: "Catalog",

@@ -2890,6 +2890,70 @@ const uz = {
         ],
     },
 
+    videoPage: {
+        title: "RusTruck maxsus avtomobillar ishlab chiqaruvchisining video galereyasi",
+        watchPhoto: "Rasmlarni ko‘rish",
+
+        videos: [
+            {
+                title: "KAMAZ Compass shassisidagi HKTC kran-manipulyatori",
+                link: "https://www.youtube.com/embed/08tNWRWhfo0?si=coVqzhjykWa8JV4J",
+            },
+            {
+                title: "KAMAZ Compass 2022 | Suriluvchi parda va tent tomi | KAMAZ yuk mashinasi sharhi | Bortli yuk mashinasi",
+                link: "https://www.youtube.com/embed/rD2Jr1l0kfM?si=8aK-ScrgPUKw-yNK",
+            },
+            {
+                title: "FUSO Canter shassisidagi UNIC 374K kran-manipulyator qurilmasi",
+                link: "https://www.youtube.com/embed/SZFOxY44O_Q?si=ju5jmDU_yA9SImj2",
+            },
+            {
+                title: "PALFINGER manipulyatorli ISUZU bazasidagi to‘g‘ri platformali evakuator",
+                link: "https://www.youtube.com/embed/40Pt1Oi7r-s?si=lh0D8Kbr2x7FhPqm",
+            },
+            {
+                title: "ISUZU GIGA don tashuvchi samosval",
+                link: "https://www.youtube.com/embed/Cw-rxJR_RNg?si=_vFq6cQYUJh7ZiQO",
+            },
+            {
+                title: "HANSIN avto-platformali Hyundai HD78",
+                link: "https://www.youtube.com/embed/Zm1lZ53PK2I?si=mNgC2yh9P6EFUAN2",
+            },
+            {
+                title: "ISUZU NPR75 ATZ ELF 7.5 bazasidagi 5,2 m³ yoqilg‘i tashuvchi sisterna",
+                link: "https://www.youtube.com/embed/Zr9zpCgeEIU?si=bV1WZ4iaLWiAZuQL",
+            },
+            {
+                title: "GAZon NEXT yoqilg‘i tashuvchi avtomobili",
+                link: "https://www.youtube.com/embed/F2C_uBd3l5o?si=kApeKSnnRn5TEccy",
+            },
+            {
+                title: "FUSO Canter oziq-ovqat mahsulotlari uchun sisterna",
+                link: "https://www.youtube.com/embed/EhAdt8qwvDw?si=jf2fuz_JVaYALoj1",
+            },
+            {
+                title: "FUSO Canter oziq-ovqat mahsulotlari uchun sisterna",
+                link: "https://www.youtube.com/embed/EhAdt8qwvDw?si=jf2fuz_JVaYALoj1",
+            },
+            {
+                title: "Suriluvchi tom va yon pardalari bo‘lgan ISUZU bortli yuk mashinasi",
+                link: "https://www.youtube.com/embed/7Ekr8KlqKi8?si=-iwzzppf1byimlGU",
+            },
+            {
+                title: "Yangi yil bilan!",
+                link: "https://www.youtube.com/embed/LURhQdc2q8g?si=PrPJBaS2lEghwy5U",
+            },
+            {
+                title: "UNIC kran-manipulyatorli GAZon NEXT",
+                link: "https://www.youtube.com/embed/8hv6F9oxtYU?si=G1ZmS9nbGNDqzFCf",
+            },
+            {
+                title: "GAZon NEXT yoqilg‘i tashuvchi avtomobili (ATZ)",
+                link: "https://www.youtube.com/embed/isfTuPY2JjU?si=YigS5m9jbeqJtgP7",
+            },
+        ],
+    },
+
     breadcrumbs: {
         home: "Bosh sahifa",
         catalog: "Katalog",

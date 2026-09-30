@@ -2960,6 +2960,52 @@ const ru = {
         ],
     },
 
+    adverts: {
+        title: "Рекламные материалы",
+
+        ads: [
+            {
+                title: "OOO РУСТРАК",
+                text: [
+                    {
+                        text: "Завод-доработчик коммерческого транспорта",
+                        link: "https://rtrf.ru/upload/iblock/dc7/05zscdtqwo09vw8ebd2dob3xwxa9c9wt.pdf",
+                    },
+                ],
+            },
+            {
+                title: "Автотопливозаправщики",
+                text: [
+                    {
+                        text: "Листовка ГАЗ NEXT",
+                        link: "https://rtrf.ru/upload/iblock/a33/aq4p9vkztmdcuz4h0knxnjbyps1hm5mx.pdf",
+                    },
+                    {
+                        text: "Листовка ГАЗ",
+                        link: "https://rtrf.ru/upload/iblock/58c/kw4j96cw2tg7ydn92e81s7a9yrdpqc8s.pdf",
+                    },
+                    {
+                        text: "Листовка FUSO",
+                        link: "https://rtrf.ru/upload/iblock/f48/c0qtzrjnfix9tvmknmvrcf7abaxssyau.pdf",
+                    },
+                ],
+            },
+            {
+                title: "Пищевые цистерны",
+                text: [
+                    {
+                        text: "Листовка ГАЗ NEXT пищевая цистерна",
+                        link: "https://rtrf.ru/upload/iblock/06d/nnn1put7h22qmnw702hiqrci3i986p2t.pdf",
+                    },
+                    {
+                        text: "Листовка FUSO пищевая цистерна",
+                        link: "https://rtrf.ru/upload/iblock/a86/hfopgqh0pfvbej4cahrcl0lftaoixsno.pdf",
+                    },
+                ],
+            },
+        ],
+    },
+
     breadcrumbs: {
         home: "Главная",
         catalog: "Каталог",
@@ -2980,6 +3026,7 @@ const ru = {
         favourites: "Избранное",
         photogallery: "Фотогалерея",
         video: "Видео",
+        promo: "Рекламные материалы",
     },
 };
 
