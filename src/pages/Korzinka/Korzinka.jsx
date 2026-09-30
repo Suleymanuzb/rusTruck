@@ -4,9 +4,12 @@ import AddedCartToKorzina from "./AddedToKorzinka";
 import { useTranslation } from "react-i18next";
 import AnyQuestions from "../../components/AnyQuestions/AnyQuestions";
 import FormSection from "./FormSection";
+import { useCartStore } from "../../store/cartStore";
 
 const Korzinka = () => {
     const { t } = useTranslation();
+    const cart = useCartStore((state) => state.cart);
+
     return (
         <div className='bg-[#f9f9f9]  pb-16'>
             <Container>
@@ -18,9 +21,11 @@ const Korzinka = () => {
                 <AddedCartToKorzina />
             </Container>
 
-            <Container>
-                <FormSection />
-            </Container>
+            {cart.length >= 1 && (
+                <Container>
+                    <FormSection />
+                </Container>
+            )}
 
             <AnyQuestions />
         </div>

@@ -2866,7 +2866,6 @@ const ru = {
         toHome: "Открыть каталог",
         toCatalog: "Открыть каталог",
 
-        
         checkoutSection: {
             title: "Оформить заказ",
 
@@ -2890,6 +2889,13 @@ const ru = {
         notInSale: " Нет в продаже",
     },
 
+    photoGallery: {
+        title: "Фотогалерея производителя автоспецтехники РусТрак",
+        watchVideo: "Смотреть видео",
+
+        filters: ["Автомобили", "Производство", "О компании", "Выставки"],
+    },
+
     breadcrumbs: {
         home: "Главная",
         catalog: "Каталог",
@@ -2908,6 +2914,7 @@ const ru = {
         leasing: "Кредит и лизинг",
         korzinka: "Корзина",
         favourites: "Избранное",
+        photogallery: "Фотогалерея",
     },
 };
 
