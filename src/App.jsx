@@ -30,6 +30,7 @@ import Loan from "./pages/Loan/Loan";
 import Korzinka from "./pages/Korzinka/Korzinka";
 import Favourites from "./pages/Favourites/Favourites";
 import PhotoGallery from "./pages/PhotoGallery/PhotoGallery";
+import VideoPage from "./pages/VideoPage/VideoPage";
 
 const App = () => {
     useEffect(() => {
@@ -110,6 +111,7 @@ const App = () => {
                     <Route path='korzinka' element={<Korzinka />} />
                     <Route path='favourites' element={<Favourites />} />
                     <Route path='photogallery' element={<PhotoGallery />} />
+                    <Route path='video' element={<VideoPage />} />
 
                     <Route path='*' element={<NotFound />} />
                 </Route>

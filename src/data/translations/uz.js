@@ -2878,6 +2878,18 @@ const uz = {
         notInSale: " Sotuvda yo'q",
     },
 
+    photoGallery: {
+        title: "RusTruck maxsus avtomobillar ishlab chiqaruvchisining foto galereyasi",
+        watchVideo: "Videoni ko‘rish",
+
+        filters: [
+            "Avtomobillar",
+            "Ishlab chiqarish",
+            "Kompaniya haqida",
+            "Ko‘rgazmalar",
+        ],
+    },
+
     breadcrumbs: {
         home: "Bosh sahifa",
         catalog: "Katalog",
@@ -2889,14 +2901,14 @@ const uz = {
         success: "Muvaffaqiyatli",
         partners: "Hamkorlar",
         production: "Ishlab chiqarish",
-        suppliers: "Yetkazib beruvchilar va hamkorlarga",
-        reviews:
-            "«RusTrak» MChJ hamkorlarining fikr-mulohazalari va tavsiya xatlari",
-        vacancies: "Bo'sh ish o'rinlari (Vakansiyalar)",
+        suppliers: "Yetkazib beruvchilar va hamkorlar uchun",
+        reviews: "RusTruck MChJ hamkorlarining sharhlari va tavsiyanomalari",
+        vacancies: "Bo‘sh ish o‘rinlari",
         certificate: "Sertifikatlar",
         leasing: "Kredit va lizing",
         korzinka: "Savat",
-        favourites: "Saralanganlar",
+        favourites: "Sevimlilar",
+        photogallery: "Foto galereya",
     },
 };
 

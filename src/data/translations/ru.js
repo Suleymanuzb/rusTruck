@@ -2896,6 +2896,70 @@ const ru = {
         filters: ["Автомобили", "Производство", "О компании", "Выставки"],
     },
 
+    videoPage: {
+        title: "Видеогалерея производителя автоспецтехники РусТрак",
+        watchPhoto: "Смотреть фото",
+
+        videos: [
+            {
+                title: "Кран манипулятор HKTC на шасси Камаз Компас",
+                link: "https://www.youtube.com/embed/08tNWRWhfo0?si=coVqzhjykWa8JV4J",
+            },
+            {
+                title: "КАМАЗ Компас 2022 | Cдвижная Штора и Крыша Тента | Обзор КАМАЗ | Грузовик с Бортом |",
+                link: "https://www.youtube.com/embed/rD2Jr1l0kfM?si=8aK-ScrgPUKw-yNK",
+            },
+            {
+                title: "Крано-манипуляторная установка UNIC374К на шасси FUSO Canter",
+                link: "https://www.youtube.com/embed/SZFOxY44O_Q?si=ju5jmDU_yA9SImj2",
+            },
+            {
+                title: "Эвакуатор с прямой платформой на базе ISUZU с манипулятором PALFINGERr",
+                link: "https://www.youtube.com/embed/40Pt1Oi7r-s?si=lh0D8Kbr2x7FhPqm",
+            },
+            {
+                title: "ISUZU GIGA самосвал зерновоз",
+                link: "https://www.youtube.com/embed/Cw-rxJR_RNg?si=_vFq6cQYUJh7ZiQO",
+            },
+            {
+                title: "Hyundai HD78 с автовышкой АГП HANSIN",
+                link: "https://www.youtube.com/embed/Zm1lZ53PK2I?si=mNgC2yh9P6EFUAN2",
+            },
+            {
+                title: "Топливозаправщик 5,2 м куб на базе ISUZU NPR75 АТЗ ELF 7 5",
+                link: "https://www.youtube.com/embed/Zr9zpCgeEIU?si=bV1WZ4iaLWiAZuQL",
+            },
+            {
+                title: "Автотопливозаправщик ГАЗон NEXT",
+                link: "https://www.youtube.com/embed/F2C_uBd3l5o?si=kApeKSnnRn5TEccy",
+            },
+            {
+                title: "Пищевая цистерна FUSO Canter",
+                link: "https://www.youtube.com/embed/EhAdt8qwvDw?si=jf2fuz_JVaYALoj1",
+            },
+            {
+                title: "Пищевая цистерна FUSO Canter",
+                link: "https://www.youtube.com/embed/EhAdt8qwvDw?si=jf2fuz_JVaYALoj1",
+            },
+            {
+                title: "ISUZU грузовой бортовой со сдвижной крышей и боковыми шторками",
+                link: "https://www.youtube.com/embed/7Ekr8KlqKi8?si=-iwzzppf1byimlGU",
+            },
+            {
+                title: "С наступающим новым годом!",
+                link: "https://www.youtube.com/embed/LURhQdc2q8g?si=PrPJBaS2lEghwy5U",
+            },
+            {
+                title: "ГАЗОН NEXT с краном манипулятором UNIC",
+                link: "https://www.youtube.com/embed/8hv6F9oxtYU?si=G1ZmS9nbGNDqzFCf",
+            },
+            {
+                title: "Автотопливозаправщик (АТЗ) Газон Некст",
+                link: "https://www.youtube.com/embed/isfTuPY2JjU?si=YigS5m9jbeqJtgP7",
+            },
+        ],
+    },
+
     breadcrumbs: {
         home: "Главная",
         catalog: "Каталог",
@@ -2915,6 +2979,7 @@ const ru = {
         korzinka: "Корзина",
         favourites: "Избранное",
         photogallery: "Фотогалерея",
+        video: "Видео",
     },
 };
 

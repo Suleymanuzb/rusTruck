@@ -2877,25 +2877,41 @@ const en = {
         },
     },
 
+    favourites: {
+        title: "Favorites",
+
+        all: "All",
+        available: " In Stock",
+        notInSale: " Not Available",
+    },
+
+    photoGallery: {
+        title: "Photo Gallery of the RusTruck Manufacturer of Special-Purpose Vehicles",
+        watchVideo: "Watch Video",
+
+        filters: ["Vehicles", "Production", "About the Company", "Exhibitions"],
+    },
+
     breadcrumbs: {
         home: "Home",
         catalog: "Catalog",
         news: "News",
-        about: "About us",
+        about: "About Us",
         contacts: "Contacts",
         service: "Service",
         remont: "Repair",
         success: "Success",
         partners: "Partners",
         production: "Production",
-        suppliers: "For suppliers and partners",
+        suppliers: "For Suppliers and Partners",
         reviews:
-            "Reviews and recommendation letters from partners of RusTrak LLC",
+            "Reviews and Letters of Recommendation from RusTruck LLC Partners",
         vacancies: "Vacancies",
         certificate: "Certificates",
-        leasing: "Credit and leasing",
+        leasing: "Credit and Leasing",
         korzinka: "Cart",
         favourites: "Favorites",
+        photogallery: "Photo Gallery",
     },
 };
 
