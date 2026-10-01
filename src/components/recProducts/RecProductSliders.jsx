@@ -18,6 +18,9 @@ const RecProductSliders = forwardRef((props, ref) => {
         returnObjects: true,
     });
 
+    const recommendeds = trucks.filter((item) => item.recommended === true);
+    console.log(recommendeds);
+
     const language = t("language");
 
     const [isOpen, setIsopen] = useState(false);
@@ -104,7 +107,7 @@ const RecProductSliders = forwardRef((props, ref) => {
                     },
                 }}
             >
-                {trucks.map((truck, id) => {
+                {recommendeds.map((truck, id) => {
                     const category = categories.find(
                         (item) => item.id === truck.categoryId,
                     );

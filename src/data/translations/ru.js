@@ -805,7 +805,10 @@ const ru = {
                         id: 5,
                         name: "Автоцистерны",
                         slug: "автоцистерны",
-                        brands: ["ГАЗ", "КАМАЗ", "JAC"],
+
+                        brandsOfTrucks: {
+                            brands: ["ГАЗ", "КАМАЗ", "JAC"],
+                        },
 
                         typesOfTanks: {
                             title: "Тип автоцистерны",

@@ -132,8 +132,8 @@ const ModalRemont = ({
                 onOk={() => setModalOpen(false)}
                 onCancel={() => setModalOpen(false)}
             >
-                <div className='bg-white'>
-                    <h1 className='text-lg text-center sm:text-xl md:text-2xl font-bold mb-4'>
+                <div className='bg-white  min-[550px]:p-7'>
+                    <h1 className='text-[16px] min-[550px]:text-lg text-center sm:text-xl md:text-2xl font-bold mb-4'>
                         {t("remontPage.modalInfo.title")}
                     </h1>
 
