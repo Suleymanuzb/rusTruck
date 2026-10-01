@@ -805,7 +805,6 @@ const ru = {
                         id: 5,
                         name: "Автоцистерны",
                         slug: "автоцистерны",
-
                         brandsOfTrucks: {
                             brands: ["ГАЗ", "КАМАЗ", "JAC"],
                         },

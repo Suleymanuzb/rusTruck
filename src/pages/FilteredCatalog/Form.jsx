@@ -13,7 +13,7 @@ const Form = ({ selectedCategory }) => {
     return (
         <form className='hidden lg:block bg-white py-5 px-4 overflow-y-scroll max-h-160 top-7 sticky scrollbar-thin'>
             {/* price range */}
-            {selectedCategory.id === 3 && (
+            {selectedCategory?.id === 3 && (
                 <PriceRange selectedCategory={selectedCategory} />
             )}
 
@@ -79,7 +79,7 @@ const Form = ({ selectedCategory }) => {
                 </div>
             )}
 
-            {selectedCategory.WheelFormula && (
+            {selectedCategory?.WheelFormula && (
                 <div className='mb-8'>
                     <h1 className='text-lg font-medium mb-2'>
                         {selectedCategory?.WheelFormula.title}
@@ -162,7 +162,7 @@ const Form = ({ selectedCategory }) => {
             </div>
 
             {/* Тип автоцистерны */}
-            {selectedCategory.typesOfTanks && (
+            {selectedCategory?.typesOfTanks && (
                 <div className='mb-8'>
                     <h1 className='text-lg font-medium mb-4'>
                         {selectedCategory?.typesOfTanks?.title}
@@ -192,14 +192,13 @@ const Form = ({ selectedCategory }) => {
             )}
 
             {/* range capacity slider */}
-            {selectedCategory.id === 2 ||
-                (selectedCategory.id === 11 && (
-                    <LiftingCapacity selectedCategory={selectedCategory} />
-                ))}
+            {(selectedCategory?.id === 2 || selectedCategory?.id === 11) && (
+                <LiftingCapacity selectedCategory={selectedCategory} />
+            )}
             {/* ! */}
 
             {/* Tank Capacity */}
-            {selectedCategory.TankCapacity && (
+            {selectedCategory?.TankCapacity && (
                 <TankCapacity selectedCategory={selectedCategory} />
             )}
 

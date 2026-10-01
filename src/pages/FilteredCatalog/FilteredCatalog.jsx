@@ -50,8 +50,8 @@ const FilteredCatalog = () => {
     });
     const selectedCategory = categories.find((item) => item.slug === category);
 
-    const matchingTrucks = trucks.filter(
-        (truck) => truck.categoryId === selectedCategory?.id,
+    const matchingTrucks = trucks?.filter(
+        (truck) => truck?.categoryId === selectedCategory?.id,
     );
 
     useEffect(() => {
@@ -113,7 +113,7 @@ const FilteredCatalog = () => {
                 className={`fixed top-0 flex flex-col h-dvh  bg-white transition-transform duration-500 z-999 w-full ${isFilter ? "translate-x-0" : "-translate-x-full"}`}
             >
                 <div className='shrink-0 flex items-center justify-between bg-black text-white py-4.5 pl-6 pr-2'>
-                    <div>{t("filteredPage.filterResponsive.title")}</div>
+                    <div>{t("filteredPage?.filterResponsive?.title")}</div>
                     <div onClick={() => setIsFilter((prev) => !prev)}>
                         <IconClose className='w-8 h-8 cursor-pointer' />
                     </div>
@@ -126,16 +126,16 @@ const FilteredCatalog = () => {
                         </span>
 
                         <span className='opacity-30'>
-                            {t("filteredPage.filterResponsive.reset")}
+                            {t("filteredPage?.filterResponsive?.reset")}
                         </span>
                     </div>
 
                     {/* price range */}
-                    {selectedCategory.id === 3 && (
+                    {selectedCategory?.id === 3 && (
                         <PriceRange selectedCategory={selectedCategory} />
                     )}
 
-                    <p className='mb-4 font-medium leading-[1.1]'>
+                    <p className='mb-4 font-medium leading-[1?.1]'>
                         {selectedCategory?.brandsOfTrucks?.title}
                     </p>
                     <div className='relative'>
@@ -150,7 +150,7 @@ const FilteredCatalog = () => {
                     </div>
 
                     <div className='mt-6 mb-8'>
-                        {selectedCategory?.brandsOfTrucks?.brands.map(
+                        {selectedCategory?.brandsOfTrucks?.brands?.map(
                             (item) => {
                                 return (
                                     <div
@@ -177,10 +177,13 @@ const FilteredCatalog = () => {
                     {selectedCategory?.typesOfFlatbedPlatforms && (
                         <div className='mb-8'>
                             <h1 className='text-lg font-medium mb-2'>
-                                {selectedCategory.typesOfFlatbedPlatforms.title}
+                                {
+                                    selectedCategory?.typesOfFlatbedPlatforms
+                                        ?.title
+                                }
                             </h1>
 
-                            {selectedCategory?.typesOfFlatbedPlatforms?.flatbeds.map(
+                            {selectedCategory?.typesOfFlatbedPlatforms?.flatbeds?.map(
                                 (item, i) => {
                                     return (
                                         <div
@@ -195,7 +198,7 @@ const FilteredCatalog = () => {
                                                     />
                                                     <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
                                                 </div>
-                                                <span>{item.flatbed}</span>
+                                                <span>{item?.flatbed}</span>
                                             </label>
                                         </div>
                                     );
@@ -204,13 +207,13 @@ const FilteredCatalog = () => {
                         </div>
                     )}
 
-                    {selectedCategory.WheelFormula && (
+                    {selectedCategory?.WheelFormula && (
                         <div className='mb-8'>
                             <h1 className='text-lg font-medium mb-2'>
-                                {selectedCategory?.WheelFormula.title}
+                                {selectedCategory?.WheelFormula?.title}
                             </h1>
 
-                            {selectedCategory?.WheelFormula.wheelFormulaSizes.map(
+                            {selectedCategory?.WheelFormula?.wheelFormulaSizes?.map(
                                 (item, i) => {
                                     return (
                                         <div
@@ -225,7 +228,7 @@ const FilteredCatalog = () => {
                                                     />
                                                     <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
                                                 </div>
-                                                <span>{item.size}</span>
+                                                <span>{item?.size}</span>
                                             </label>
                                         </div>
                                     );
@@ -271,7 +274,7 @@ const FilteredCatalog = () => {
                         </h1>
 
                         <div>
-                            {selectedCategory?.lengthOfPlatform?.lengths.map(
+                            {selectedCategory?.lengthOfPlatform?.lengths?.map(
                                 (item, i) => {
                                     return (
                                         <div
@@ -286,7 +289,7 @@ const FilteredCatalog = () => {
                                                     />
                                                     <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
                                                 </div>
-                                                <span>{item.option}</span>
+                                                <span>{item?.option}</span>
                                             </label>
                                         </div>
                                     );
@@ -308,7 +311,7 @@ const FilteredCatalog = () => {
                                                 />
                                                 <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
                                             </div>
-                                            <span>{item.tank}</span>
+                                            <span>{item?.tank}</span>
                                         </label>
                                     </div>
                                 );
@@ -316,15 +319,13 @@ const FilteredCatalog = () => {
                         )}
                     </div>
 
-                    {selectedCategory.id === 2 ||
-                        (selectedCategory.id === 11 && (
-                            <LiftingCapacity
-                                selectedCategory={selectedCategory}
-                            />
-                        ))}
+                    {(selectedCategory?.id === 2 ||
+                        selectedCategory?.id === 11) && (
+                        <LiftingCapacity selectedCategory={selectedCategory} />
+                    )}
 
                     {/* Tank Capacity */}
-                    {selectedCategory.TankCapacity && (
+                    {selectedCategory?.TankCapacity && (
                         <TankCapacity selectedCategory={selectedCategory} />
                     )}
 
@@ -334,7 +335,7 @@ const FilteredCatalog = () => {
                             variant='btn_big'
                             className='w-full py-3! text-normal outline-none'
                         >
-                            {t("filteredPage.filterSideBar.showMore")}
+                            {t("filteredPage?.filterSideBar?.showMore")}
                         </Button>
                     </div>
                 </form>

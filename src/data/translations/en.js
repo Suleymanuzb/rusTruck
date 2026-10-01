@@ -2,16 +2,16 @@ const en = {
     language: "en",
 
     header: {
-        production: "production and sale of special vehicles",
+        production: "manufacturing and sales of special-purpose vehicles",
         workingTime: "Working hours",
-        workingTimeOpened: "Mon-Fri: from 8:00 to 18:00",
+        workingTimeOpened: "Mon-Fri: 8:00 AM to 6:00 PM",
         workingTimeWeekend: "Sat-Sun: Closed",
-        adress: "Nizhny Novgorod, Torfyanaya st., 35",
+        adress: "Nizhny Novgorod, 35 Torfyanaya St.",
         forStates: "For regions:",
         numberForStates: " 8 (800)-511-05-25",
         forLocals: "Nizhny Novgorod:",
         numberFotLocals: " 8 (831) 235-26-16",
-        gispText: "IN THE REGISTER OF RUSSIAN INDUSTRIAL PRODUCTS",
+        gispText: "REGISTERED IN THE RUSSIAN INDUSTRIAL PRODUCTS REGISTER",
 
         navigation: {
             about: "About us",
@@ -29,15 +29,15 @@ const en = {
 
                 products: {
                     product: "product",
-                    producta: "product",
+                    producta: "products",
                     products: "products",
                 },
 
                 types: [
                     {
                         id: 1,
-                        name: "Curtainsider trucks",
-                        slug: "curtainsider-trucks",
+                        name: "Curtain-side trucks",
+                        slug: "шторные-автомобили",
 
                         brandsOfTrucks: {
                             brands: [
@@ -72,22 +72,22 @@ const en = {
     <div class="text-[18px] leading-normal">
 
         <p>
-            A curtainsider truck combines loading convenience and reliability on the road.
-            Powerful engines and modern equipment make driving safe and comfortable.
-            "RusTrak" company offers curtainsider trucks ready for any task.
-            Reliable construction and high-quality materials ensure a long service life of vehicles.
-            Choosing the right vehicle will help handle a wide variety of tasks.
-            Each model is created taking into account the needs of owners, combining practicality and durability.
+            Shtornyy truck sochetaet utobstvo zagruzki and reliability on toroge.
+            Moshchnye engines and modern equipment delayut control bezopasnym and komfortnym.
+            company «RusTruck» offers shtornye vehicles, gfromovye to any zadacham.
+            reliable construction and kachestvennye materials provide tolgiy service life vehicles.
+            selection podkhodyashchey vehicles pomozhet spravitsya with samymi raznymi zadachami.
+            each model sozdayotsya with uchyotom pfromrebnostey vladeltsev, sochetaya praktichnost and tolgovechnost.
         </p>
 
         <h2 class="text-[22px] mt-5 mb-3">
-            Assortment
+            Product range
         </h2>
 
         <p>
-            We offer a wide range of commercial vehicles that meet modern quality standards.
-            Our catalog features curtainsider trucks in various designs and brands,
-            allowing you to choose equipment for any operational needs.
+            we offer wide range commercial vehicles, fromvechayushchikh sovremennym standards quality.
+            in our kataloge predstavlena shtornaya vehicle in different ispolneniyakh and markakh,
+            that allows potobrat equipment for any tasks operation.
         </p>
 
         <p>Brands:</p>
@@ -98,7 +98,7 @@ const en = {
             </li>
 
             <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Valdai
+                Valday
             </li>
 
             <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
@@ -131,80 +131,80 @@ const en = {
         </ul>
 
         <p>
-            The size and tonnage of trucks depend on the selected chassis:
-            from compact models with a load capacity of 3 tons to powerful vehicles
-            designed to carry up to 30 tons. This range allows you to select
-            the optimal solution for any logistical and commercial challenges,
-            ensuring equipment reliability and durability.
+            Razmery and tonnazh vehicles zavisyat from vybrannogo chassis:
+            from kompaktnykh models gruzopodyomnostyu 3 tonny to moshchnykh vehicles,
+            rasschitannykh on perevozku to 30 tons. such diapazon allows potobrat
+            optimalnoe solution for any logisticheskikh and commercial tasks,
+            providing reliability and tolgovechnost equipment.
         </p>
 
         <h2 class="text-[22px] mt-5 mb-3">
-            Features of Curtainsider Trucks
+            Features shtornykh vehicles
         </h2>
 
         <ul class="list-none pl-0">
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Galvanized bolted posts — can be quickly replaced if damaged without complex repairs,
-                which reduces costs and minimizes downtime.
+                Otsinkovannye stoyki on boltovykh soedineniyakh — when povrezhdenii ikh mozhno quickly zamenit without slozhnogo remonta,
+                that reduces costs and reduces prostoi.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Aluminum guides with rubber seals — the curtainsider flatbed vehicle gains reliable sealing,
-                protecting cargo from moisture and dust under any operating conditions.
+                Alyuminievye napravlyayushchie with rezinovym uplfromnitelem — shtorno flatbed vehicle poluchaet nadyozhnuyu germetizatsiyu,
+                zashchishchayushchuyu cargo from moisture and dust when operation in any conditions.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Hossen profile — a reinforced structural element that increases the rigidity and durability of the entire superstructure.
+                Profil Hossen — reinforced konstruktivnyy element, kfromoryy increases zhyostkost and tolgovechnost vsey nadstroyki.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                180° folding sides — allow for easy loading and unloading from any side, saving time on route.
+                Otkidnye sides on 180° — allow legko zagruzhat and razgruzhat cargo with lyuboy storony, ekonomya time on marshrute.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Sliding curtain on both sides — operational flexibility: access to cargo is available from any side of the platform.
+                Sdvizhnaya shtora in obe storony — gibkost operation: tostup to gruzu vozmozhen with lyuboy storony platforms.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Aluminum front wall — lightweight and durable, it reduces overall structural weight and increases corrosion resistance.
+                Alyuminievaya perednyaya wall — lyogkaya and durable, ona reduces obshchiy weight construction and increases stability to corrosion.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Sliding roof — provides convenient top access, which is especially important when loading oversized cargo into a curtainsider van.
+                Sdvizhnaya roof — provides utobnyy tostup sverkhu, that osobenno vazhno when pogruzke oversized cargo in shtorno flatbed furgon.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Roof tarpaulin with cross reinforcement — withstands additional loads and retains its shape even during prolonged use.
+                Tent kryshi with krestoobraznym usilitelem — vyderzhivaet topolnitelnye loads and sokhranyaet formu dazhe when dlitelnoy operation.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Bi-directional side curtain reinforcement — enhances reliability when transporting heavy and fragile loads.
+                Dvunapravlennoe usilenie bokovogo tenta — increases reliability when perevozke heavy and khrupkikh cargo.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Hidden cargo tie-down rings — safe fixation without protruding elements, making the platform neat and convenient.
+                Skrytye petli mounting cargo — bezopasnaya fiksatsiya without vystupayushchikh elementov, that delaet platformu akkuratnoy and utobnoy.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Foldable ladder — fast and safe access to the truck body without additional devices.
+                Skladnaya ladder — bystryy and safe tostup to kuzovu without topolnitelnykh prisposobleniy.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Three options for securing the superstructure to the subframe — the curtainsider van adapts to various installation conditions,
-                providing versatility for different tasks and chassis types.
+                Tri varianta mounting nadstroyki to podramniku — shtornyy furgon adaptiruetsya to raznym usloviyam montazha,
+                providing versatility for different tasks and tipov chassis.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Sliding central posts — allow optimal use of space and simplify handling of bulky cargo.
+                Sdvizhnye tsentralnye stoyki — allow optimalno ispolzovat space and uproshchayut rabfromu with krupnogabaritnymi gruzami.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Aluminum rear doors with hidden locking hardware — reliable cargo protection and an aesthetic appearance without extra parts.
+                Alyuminievye vorfroma so skrytoy zapornoy armaturoy — reliable protection cargo and estetichnyy vneshniy vid without lishnikh detaley.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Water spray protection visor — additional protection against precipitation and dirt, enhancing cargo safety.
+                Prfromivozalivnoy kozyryok — topolnitelnaya protection from osadkov and gryazi, povyshayushchaya preservation perevozimogo cargo.
             </li>
 
         </ul>
@@ -214,68 +214,68 @@ const en = {
         </h2>
 
         <p>
-            Curtainsider trucks from "RusTrak" are widely used
-            in construction companies, logistics, and transport organizations,
-            ensuring safe and convenient delivery of materials. They are used
-            for commercial delivery of goods, in retail and wholesale companies,
-            as well as in transporting oversized and heavy cargo.
-            Reliable construction and quality cargo protection make them convenient
-            for long routes and operation in any weather conditions,
-            ensuring transport efficiency and safety of property.
+            Shtornyy truck from company «RusTruck» nakhodyat shirokoe primenenie
+            in construction kompaniyakh, logisticheskikh and transportnykh organizatsiyakh,
+            providing safe and utobnuyu tostavku materials. Oni are used
+            for kommercheskoy tostavki products, in torgovykh and optovykh kompaniyakh,
+            and also when perevozke oversized and heavy cargo.
+            reliable construction and kachestvennaya protection cargo delayut ikh utobnymi
+            for dlitelnykh marshrutov and rabfromy in any pogodnykh conditions,
+            providing efficiency transportation and preservation imushchestva.
         </p>
 
         <h2 class="text-[22px] mt-5 mb-3">
-            Advantages of Working with "RusTrak"
+            Advantages of working with «RusTruck»
         </h2>
 
         <ul class="list-none pl-0">
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Large Selection of Equipment<br>
-                We offer curtainsider and other commercial vehicles of various brands and types,
-                allowing you to choose equipment for any tasks.
+                large selection equipment<br>
+                U nas are presented shtornye and drugie kommercheskie vehicles different marok and tipov,
+                that allows potobrat equipment for any tasks.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Professional Support<br>
-                Our specialists help select vehicles based on client goals and business specifics.
+                professional support<br>
+                our specialists help potobrat equipment with uchyotom tasks customer and osobennostey business.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Certification and Quality Control<br>
-                All trucks undergo strict inspection and are certified, guaranteeing safe operation.
+                certification and control quality<br>
+                all trucks prokhodyat stroguyu inspection and are certified, that guarantees safety operation.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Warranty and Post-Warranty Service<br>
-                The company provides post-purchase support, including maintenance and technical advice.
+                Garantiynoe and poslegarantiynoe maintenance<br>
+                company provides podderzhku posle purchase, vklyuchaya tekhnicheskoe maintenance and consultations.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Purchase Convenience<br>
-                Transparent purchasing terms, various payment methods, and individual offers for clients are provided.
+                Utobstvo purchase<br>
+                Pretostavlyayutsya prozrachnye conditions priobreteniya, razlichnye formy oplaty and individualnye predlozheniya for customers.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Experience and Reputation<br>
-                "RusTrak" has years of experience in the commercial vehicle market,
-                confirming high professionalism and client trust.
+                experience and reputation<br>
+                «RusTruck» imeet mnogoletniy experience rabfromy on rynke commercial vehicles,
+                that podtverzhdaet vysokiy professionalizm and toverie customers.
             </li>
 
         </ul>
 
         <h2 class="text-[22px] mt-5 mb-3">
-            Equipment Built for Reliability and Comfort
+            Equipment designed for reliability and comfort
         </h2>
 
         <p>
-            Buying a curtainsider truck is a profitable decision to optimize logistics
-            and reduce operating costs. By choosing equipment that meets
-            your requirements and quality standards, you get a reliable vehicle,
-            fully ready for operation. "RusTrak" will help you choose a model
-            perfectly suited to your needs. Check out the specifications and capabilities
-            of each vehicle. Make a choice in favor of reliability, comfort, and durability of your equipment.
-            To place an order, contact us in any convenient way and get a specialist consultation.
+            buy shtornyy truck — cost-effective solution, pozvolyayushchee optimizirovat logistiku
+            and sokratit costs on operation. Vybiraya equipment, kfromoraya sofromvetstvuet
+            vashim requirements and standards quality, vy poluchaete reliable vehicle,
+            polnostyu gfromovyy to operation. company «RusTruck» pomozhet potobrat model,
+            idealno podkhodyashchuyu for vashikh nuzhd. Oznakomtes with kharakteristikami and vozmozhnostyami
+            kazhtoy vehicles. Sdelayte selection in polzu nadyozhnosti, komforta and tolgovechnosti vashey equipment.
+            for processing order contact with us any utobnym way and poluchite konsultatsiyu spetsialistov.
         </p>
 
     </div>
@@ -283,8 +283,8 @@ const en = {
                     },
                     {
                         id: 2,
-                        name: "Crane Manipulators",
-                        slug: "crane-manipulators",
+                        name: "Truck-mounted cranes",
+                        slug: "краны-манипуляторы",
                         brandsOfTrucks: {
                             brands: [
                                 "GAZ",
@@ -297,7 +297,7 @@ const en = {
                                 "SHACMAN",
                                 "SOLLERS",
                                 "YANSHI",
-                                "Valdai",
+                                "Valday",
                                 "MAZ",
                             ],
                         },
@@ -366,7 +366,7 @@ const en = {
                             ],
                         },
 
-                        loaderCapacity: "Lifting capacity of CMU, tons",
+                        loaderCapacity: "Truck-mounted crane capacity, tons",
 
                         rangeSliderTexts: {
                             from: "from",
@@ -377,15 +377,15 @@ const en = {
     <div class="text-[18px] leading-normal">
 
         <p>
-           Lifting equipment provides convenience when working with heavy materials. A truck with a crane manipulator helps perform loading and transport without unnecessary effort. Such equipment features maneuverability and precise operation. "RusTrak" company offers models designed for various conditions. Assembly quality, mechanism reliability, and well-thought-out design allow equipment to serve for a long time without failures. Such transport gives a sense of security and confidently helps handle difficult tasks.
+           Gruzopodyomnaya equipment provides utobstvo when rabfrome with tyazhyolymi materialami. vehicle with crane manipulyatorom pomogaet vypolnyat pogruzku and perevozku without lishnikh usiliy. such equipment fromlichaetsya manevrennostyu and tochnoy rabfromoy. company «RusTruck» offers models, rasschitannye on raznye conditions. quality sborki, reliability mekhanizmov and produmannaya construction allow tekhnike tolgo sluzhit without sboev. such transport darit oshchushchenie nadyozhnosti and uverenno pomogaet spravlyatsya so slozhnymi zadachami.
         </p>
 
         <h2 class="font-medium text-[22px] mt-5 mb-3">
-            Assortment
+            Product range
         </h2>
 
         <p>
-            "RusTrak" company offers a wide selection of models for different types of work and operating conditions, selecting equipment with optimal power and characteristics so that it copes effectively with assigned tasks. We mount crane manipulators from leading manufacturers:
+            company «RusTruck» offers wide selection models for different tipov rabfrom and conditions operation, podbiraya equipment with optimalnoy moshchnostyu and kharakteristikami, chtoby ona efficiently spravlyalas with postavlennymi zadachami. we osushchestvlyaem montazh kranov‑manipulyatorov vedushchikh proizvoditeley:
         </p>
 
         <p>Brands:</p>
@@ -434,17 +434,17 @@ const en = {
       
 
         <h2 class="text-[22px] mt-5 mb-3">
-           Depending on the tasks, you can choose the appropriate CMU type:
+           in zavisimosti from tasks mozhno choose podkhodyashchiy tip truck-mounted crane:
         </h2>
 
         <ul class="list-none pl-0">
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Cable type — the boom is equipped with a cable, making work below ground level possible and convenient. In transport position, it does not fold behind the cab, which is especially useful when performing specific tasks.
+               Trosovyy — boom osnashchena trosom, that delaet vozmozhnoy and utobnoy rabfromu nizhe urovnya zemli. in transportnom polozhenii ona ne skladyvaetsya za kabinoy, that osobenno polezno when vypolnenii spetsificheskikh tasks.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Articulated type (hook) — a hook is used instead of a cable. The structure folds behind the cab in transport position, making the equipment compact and easy to move.
+                Sharnirno‑sochlenyonnyy (kryukovoy) — vmesto trosa is used kryuk. construction skladyvaetsya za kabinoy in transportnom polozhenii, blagodarya chemu equipment stanovitsya kompaktnoy and utobnoy when peremeshchenii.
             </li>
 
         <h2 class="text-[22px] mt-5 mb-3">
@@ -452,107 +452,107 @@ const en = {
         </h2>
 
         <p>
-            Curtainsider trucks from "RusTrak" find wide application
-            in construction companies, logistics, and transport organizations,
-            ensuring safe and convenient delivery of materials. They are used
-            for commercial delivery of goods, in trading and wholesale companies,
-            as well as when transporting oversized and heavy loads.
-            Reliable construction and high-quality cargo protection make them convenient
-            for long routes and operation in any weather conditions,
-            ensuring shipping efficiency and property protection.
+            Shtornyy truck from company «RusTruck» nakhodyat shirokoe primenenie
+            in construction kompaniyakh, logisticheskikh and transportnykh organizatsiyakh,
+            providing safe and utobnuyu tostavku materials. Oni are used
+            for kommercheskoy tostavki products, in torgovykh and optovykh kompaniyakh,
+            and also when perevozke oversized and heavy cargo.
+            reliable construction and kachestvennaya protection cargo delayut ikh utobnymi
+            for dlitelnykh marshrutov and rabfromy in any pogodnykh conditions,
+            providing efficiency transportation and preservation imushchestva.
         </p>
 
         <h2 class="font-bold text-[22px] mt-5 mb-3">
-            Design Features of the Crane Manipulator
+            Konstruktivnye osobennosti crane-manipulyatora
         </h2>
 
         <ul class="list-none pl-0">
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Large selection of equipment<br>
-              Durable Hossen profile — a reliable foundation thanks to which the cargo truck with a crane manipulator maintains stability and durability.
+                large selection equipment<br>
+              durable profil Hossen — reliable osnova, blagodarya kfromoroy gruzovaya vehicle with crane manipulyatorom sokhranyaet stability and tolgovechnost.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-              Base made of open profiles — an optimal solution for high strength and stability during operation.
+              Osnovanie iz fromkrytykh profiley — optimalnoe solution for vysokoy prochnosti and stabilnosti when operation.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Certification and quality control<br>
-              Reinforced mounting plate for rear outriggers — guarantees reliability when handling heavy loads.
+                certification and control quality<br>
+              Usilennaya montazhnaya plita zadnikh opor — guarantees reliability when rabfrome with tyazhyolymi gruzami.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               180° folding sides — convenient loading and unloading from any side, making the flatbed truck with CMU work faster and more efficiently.
+               Otkidnye sides on 180° — utobnaya zagruzka and unloading with lyuboy storony, blagodarya chemu bortovaya vehicle with truck-mounted crane rabfromaet bystree and effektivnee.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Reliable CMU mounting — installation through a wide mounting plate and fixation on studs ensures safety and long service life.
+               Nadyozhnoe mounting truck-mounted crane — ustanovka cherez shirokuyu montazhnuyu plitu and fiksatsiya on shpilkakh provides safety and tolgiy service life.
             </li>
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Wear-resistant floor coating made of transport plywood — all seams are thoroughly sealed, protecting from moisture and extending service life.
+               Iznosostoykiy flooring pola iz transportnoy fanery — all shvy tshchatelno germetizirovany, that protects from moisture and prodlevaet service life operation.
             </li>
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-        Cab protection — prevents accidental damage, preserving integrity during operation and making the cargo truck with CMU safer.
+        protection kabiny — predfromvrashchaet sluchaynye povrezhdeniya, sokhranyaya tselostnost when operation and delaya cargo vehicle with truck-mounted crane more bezopasnym.
             </li>
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-        Sliding roof — convenient access and additional protection for transported materials.
+        Sdvizhnaya roof — utobnyy tostup and topolnitelnaya protection perevozimykh materials.
             </li>
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                        Platform painting in crane color — unified style and neat vehicle appearance.
+                        Okras platforms in tsvet crane — edinyy stil and akkuratnyy vneshniy vid equipment.
             </li>
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                      Anti-shift plates on the frame — reliable connection of the superstructure with the frame, reinforcing the structure on both sides.
+                      Prfromivosdvigovye plastiny on rame — nadyozhnoe soedinenie nadstroyki with ramoy, usilenie construction with obeikh storon.
             </li>
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                     Hidden cargo tie-down rings — safe fixation and aesthetic appearance without unnecessary details.
+                     Skrytye petli mounting cargo — bezopasnaya fiksatsiya and estetichnyy vneshniy vid without lishnikh detaley.
             </li>
 
         </ul>
 
         <h2 class="font-bold text-[22px] mt-5 mb-3">
-            Fields of Application
+            Applications
         </h2>
 
         <p>
-          The crane manipulator, the price of which remains affordable with high equipment quality, finds wide application in various fields. It is effectively used on construction sites for lifting and transporting building materials, in municipal utilities when servicing infrastructure and transporting equipment, as well as in logistics and warehouse operations for unloading and loading containers and oversized cargo. Thanks to its versatility and maneuverability, the equipment is suitable for working in confined spaces, on city streets, and industrial sites, providing high productivity and reducing task completion time.
+          crane manipulyator price kfromorogo ostayotsya tostupnoy when vysokom kachestve equipment, nakhodit shirokoe primenenie in samykh different sferakh. On efficiently is used on construction sites for podyoma and transportation stroymaterialov, in kommunalnom khozyaystve when obsluzhivanii infrastruktury and perevozke oborutovaniya, and also in logistike and skladskikh operatsiyakh for unloading and loading containers and oversized cargo. Blagodarya universalnosti and manevrennosti equipment podkhodit for rabfromy in conditions ogranichennogo prostranstva, on urban ulitsakh and industrial territoriyakh, providing vysokuyu performance and reduction vremeni on vypolnenie tasks.
         </p>
 
           <h2 class="font-bold text-[22px] mt-5 mb-3">
-           Advantages of Working with "RusTrak"
+           Advantages of working with «RusTruck»
 
         </h2>
 
          <ul class="list-none pl-0">
 
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Wide selection of equipment – a large assortment of crane manipulators and cargo trucks of various brands and configurations.
+                wide selection equipment – large range kranov-manipulyatorov and gruzovykh vehicles different marok and konfiguratsiy.
             </li>
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Quality and reliability – equipment is tested for strength and durability, meeting high operational standards.
+               quality and reliability – equipment proverena on prochnost and tolgovechnost, sofromvetstvuet vysokim standards operation.
             </li>
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Professional support – specialists help choose the optimal solution for specific tasks and operating conditions.
+               professional support – specialists help potobrat optimalnoe solution for konkretnye tasks and conditions rabfromy.
             </li>
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Service and maintenance – the company provides technical support and consultations at all stages of operation.
+               Service and maintenance – company provides tekhnicheskuyu podderzhku and consultations on vsekh etapakh operation.
             </li>
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Prompt delivery – any truck with a crane manipulator is quickly delivered to regions.
+               prompt tostavka – lyubaya vehicle with crane manipulyatorom quickly is delivered in regiony.
             </li>
             <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Individual approach – needs of each client are considered, offering optimal configurations and additional options.
+               individual podkhod – uchityvayutsya pfromrebnosti kazhtogo customer, predlagayutsya optimalnye configurations and topolnitelnye optsii.
             </li>
               </ul>
 
                <h2 class="font-bold text-[22px] mt-5 mb-3">
-           Reliable Equipment for Any Tasks
+           Reliable equipment for any task
 
         </h2>
 
           <p>
-         Buying a crane manipulator is a beneficial solution for those who value practicality and saving time. We will help select equipment for your tasks and working conditions. "RusTrak" company provides a large selection and quality service. Take a confident step towards increasing the efficiency of your processes. Get professional consultation and prompt support. To place an order, contact us in any convenient way.
+         buy crane manipulyator – cost-effective solution for tekh, kto tsenit praktichnost and ekonomiyu vremeni. we will help potobrat equipment for vashi tasks and conditions rabfromy. company «RusTruck» provides large selection and kachestvennoe maintenance. Sdelayte uverennyy shag to povysheniyu efficiency svoikh protsessov. Poluchite professionalnuyu konsultatsiyu and operativnoe soprovozhdenie. for processing order contact with us any utobnym way.
         </p>
 
     </div>
@@ -560,8 +560,8 @@ const en = {
                     },
                     {
                         id: 3,
-                        name: "Fuel Tankers",
-                        slug: "fuel-tankers",
+                        name: "Fuel tanker trucks",
+                        slug: "автотопливозаправщики",
                         priceRange: {
                             title: "Price",
                             from: "from",
@@ -575,7 +575,7 @@ const en = {
                                 "SOLLERS",
                                 "DONG FENG",
                                 "YANSHI",
-                                "Valdai",
+                                "Valday",
                             ],
                         },
                         GrossLoad: {
@@ -588,18 +588,18 @@ const en = {
                         },
 
                         TankCapacity: {
-                            title: "Tank volume, l.",
+                            title: "Tank capacity, L",
                             from: "from",
                             upTo: "to",
                         },
 
                         seoText: `
-<div class="text-[18px] leading-normal">
-    <div class="[&>h2]:text-[22px] [&>h2]:mt-5 [&>h2]:mb-12.5">
-        <p class="mb-4">Reliable fuel supply simplifies work on any facility. Buying a fuel tanker is an opportunity to refuel equipment directly on site, saving time and reducing costs. The equipment is outfitted with durable tanks and modern pumps for accurate fuel metering. "RusTrak" company offers models suitable for various tasks and volumes. Choosing the right fuel tanker depends on work intensity and operating conditions. Using proven refueling systems guarantees safety and uninterrupted operation across all sites.</p>
+<div class="text-[18px] leading-[1.5]">
+    <div class="[&>h2]:text-[22px] [&>h2]:mt-[20px] [&>h2]:mb-[3.125rem]">
+        <p class="mb-4">Nadyozhnoe snabzhenie fuel uproshchaet rabfromu on any obektakh. buy avtfromoplivozapravshchik — ability zapravlyat equipment pryamo on meste, ekonomya time and snizhaya expenses. Oborutovanie osnashcheno prochnymi tsisternami and sovremennymi pumps for tochnogo ucheta topliva. company «RusTruck» offers models, kfromorye podkhodyat for different tasks and obyomov. selection podkhodyashchego avtozapravshchika zavisit from intensivnosti rabfromy and conditions operation. use proverennykh sistem refueling guarantees safety and bespereboynuyu rabfromu on vsekh obektakh.</p>
         
-        <h2 class="text-[22px] mt-5 mb-3">Assortment</h2>
-        <p class="mb-4">"RusTrak" offers a variety of equipment, where each fuel tanker model is adapted for different tasks and work volumes. Our catalog features vehicles from leading brands:</p>
+        <h2 class="text-[22px] mt-5 mb-3">Product range</h2>
+        <p class="mb-4">company «RusTruck» offers raznoobraznuyu equipment, where each model ATZ adaptirovana for razlichnye tasks and obyomy rabfromy. in our kataloge are presented vehicles vedushchikh marok:</p>
         
         <ul class="list-none pl-0 mb-4 [&>li]:relative [&>li]:pl-6.25 [&>li]:mb-2.5 [&>li]:text-[18px] [&>li]:before:content-['♦'] [&>li]:before:absolute [&>li]:before:left-0 [&>li]:before:text-[#fec80b] [&>li]:before:text-[16px] [&>li]:before:top-0.5">
             <li>GAZ</li>
@@ -609,61 +609,61 @@ const en = {
             <li>FOTON</li>
         </ul>
         
-        <p class="mb-4">Available tank capacity options:</p>
+        <p class="mb-4">Available options vmestimosti tsistern:</p>
         
         <ul class="list-none pl-0 mb-4 [&>li]:relative [&>li]:pl-6.25 [&>li]:mb-2.5 [&>li]:text-[18px] [&>li]:before:content-['♦'] [&>li]:before:absolute [&>li]:before:left-0 [&>li]:before:text-[#fec80b] [&>li]:before:text-[16px] [&>li]:before:top-0.5">
-            <li>5,200 liters (5 m³)</li>
-            <li>6,000 liters (6 tons)</li>
-            <li>8,000 liters (8 m³)</li>
-            <li>10,000 liters (10 m³)</li>
-            <li>12,000 liters (12 m³)</li>
+            <li>5 200 liters (5 m³)</li>
+            <li>6 000 liters (6 tons)</li>
+            <li>8 000 liters (8 m³)</li>
+            <li>10 000 liters (10 m³)</li>
+            <li>12 000 liters (12 m³)</li>
         </ul>
         
-        <p class="mb-4">All models are certified and comply with modern quality and safety standards, ensuring reliability, durability, and confidence in smooth operation.</p>
+        <p class="mb-4">all models are certified and sofromvetstvuyut sovremennym standards quality and safety, that guarantees reliability, tolgovechnost and uverennost in bespereboynoy rabfrome.</p>
         
-        <h2 class="text-[22px] mt-5 mb-3">Features of Fuel Tankers</h2>
+        <h2 class="text-[22px] mt-5 mb-3">Features avtfromoplivozapravshchikov</h2>
         <ul class="list-none pl-0 mb-4 [&>li]:relative [&>li]:pl-6.25 [&>li]:mb-2.5 [&>li]:text-[18px] [&>li]:before:content-['♦'] [&>li]:before:absolute [&>li]:before:left-0 [&>li]:before:text-[#fec80b] [&>li]:before:text-[16px] [&>li]:before:top-0.5">
-            <li>Operational flexibility – the mobile fuel tanker is equipped with two fuel compartments, allowing work with different types of fuel at once.</li>
-            <li>Reliability and durability – the tank is made of durable 09G2S steel with a thickness of 3 mm.</li>
-            <li>Minimal maintenance costs – aluminum lines are lightweight, corrosion-resistant, and do not require complex care.</li>
-            <li>Additional road protection – aluminum side guard reduces the risk of damage during motion.</li>
-            <li>Quick component access – foldable aluminum ladder facilitates maintenance.</li>
-            <li>Time savings during refueling – fuel servicing trucks are equipped with a rotary vane pump with a capacity of 600 l/min, providing high working speed.</li>
-            <li>Connection convenience – two 3-meter suction hoses allow organizing refueling in any conditions.</li>
-            <li>Downtime reduction – Elaflex Du-75 quick-connect couplings guarantee reliability and speed up processes.</li>
-            <li>Working comfort – the fuel dispensing unit cover is equipped with gas lifts for convenient and safe use.</li>
-            <li>Manhole protection – the POL tank truck is equipped with a guard along the entire length, facilitating maintenance and improving safety.</li>
-            <li>Distance refueling – a 10-meter Du-25 dispensing hose ensures convenience during refueling.</li>
-            <li>Pressure stability – the UD-33 breather valve guarantees safe fuel storage.</li>
-            <li>Full power system control – the mobile refueler is equipped with three master switches, allowing power disconnect from any side and inside the cab.</li>
-            <li>Operational simplicity – bottom valve controls are concentrated at the dispensing unit, making the process fast and reliable.</li>
-            <li>Static electricity protection – a 10-meter grounding rod ensures safety when working with flammable fuel.</li>
+            <li>Gibkost operation – avtomobilnyy toplivozapravshchik osnashchyon dvumya toplivnymi fromsekami, that allows rabfromat srazu with raznymi vidami goryuchego.</li>
+            <li>reliability and tolgovechnost – tank vypolnena iz prochnoy stali 09G2with tolshchinoy 3 mm.</li>
+            <li>Minimalnye costs on maintenance – alyuminievye kommunikatsii legkie, ustoychivye to corrosion and ne trebuyut slozhnogo ukhoda.</li>
+            <li>Dopolnitelnaya protection on toroge – bokovoe ustroystvo iz alyuminiya reduces risk povrezhdeniy when movement.</li>
+            <li>Bystryy tostup to uzlam – skladnaya alyuminievaya ladder oblegchaet maintenance.</li>
+            <li>savings vremeni when zapravke – toplivozapravochnye vehicles osnashcheny shibernym nasosom with proizvoditelnostyu 600 l/min, that provides vysokuyu skorost rabfromy.</li>
+            <li>Utobstvo podklyucheniya – dva vsasyvayushchikh rukava dlinoy po 3 metra allow organizovat zapravku in any conditions.</li>
+            <li>reduction prostoev – bystrorazemnye soedineniya Elaflex Du-75 guarantee reliability and uskoryayut processes.</li>
+            <li>Komfort when rabfrome – kryshka uzla vydachi topliva osnashchena gazliftami for utobnogo and bezopasnogo use.</li>
+            <li>protection gorlovin – avtotsisterna for GSM osnashchena ograzhdeniem po vsey dline, that oblegchaet maintenance and increases safety.</li>
+            <li>Rabfroma on rasstoyanii – razdatochnyy rukav Du-25 dlinoy 10 metrov provides utobstvo when zapravke.</li>
+            <li>Stabilnost davleniya – dykhatelnoe ustroystvo UD-33 guarantees bezopasnoe khranenie topliva.</li>
+            <li>Polnyy control electrical system – mobilnyy zapravshchik oborutovan tremya vyklyuchatelyami massy, pozvolyayushchimi obestochit mashinu with lyuboy storony and iz kabiny.</li>
+            <li>Prostfroma operatsiy – control tonnymi klapanami sosredfromocheno in uzle vydachi, that delaet process bystrym and nadezhnym.</li>
+            <li>protection from static elektrichestva – shtyr grounding dlinoy 10 metrov provides safety when rabfrome with goryuchim.</li>
         </ul>
         
-        <h2 class="text-[22px] mt-5 mb-3">Fields of Application</h2>
-        <p class="mb-4">Buying a fuel tanker is advantageous for any field requiring rapid refueling of vehicles and special machinery. It is indispensable on construction sites where equipment must work without downtime, as well as in agriculture for servicing tractors and combines. In industry and production facilities, it ensures smooth fleet operation. Refueling systems are actively used by utility and road services, as well as transport companies where saving time and resources is crucial. In addition, fuel tankers are suitable for organizing mobile filling stations at remote sites and events. Their versatility makes the fuel supply process simpler, safer, and more efficient.</p>
+        <h2 class="text-[22px] mt-5 mb-3">Applications</h2>
+        <p class="mb-4">buy avtfromoplivozapravshchik cost-effective for any sfer deyatelnosti, where trebuetsya prompt refueling vehicles and spetsmashin. On nezamenim on construction sites, where oborutovanie tolzhno rabfromat without prostoev, and also in agricultural khozyaystve for maintenance traktorov and kombaynov. in industry and on production obektakh on provides bespereboynuyu rabfromu avtoparka. systems refueling aktivno are used kommunalnymi and torozhnymi sluzhbami, and also transportnymi kompaniyami, kfromorym vazhno save time and resursy. Krome togo, avtozapravshchiki podkhodyat for organizatsii mobilnykh zapravochnykh stantsiy on udalyonnykh obektakh and meropriyatiyakh. Ikh versatility delaet process snabzheniya fuel proshche, bezopasnee and effektivnee.</p>
         
-        <h2 class="text-[22px] mt-5 mb-3">Advantages of Working with "RusTrak"</h2>
+        <h2 class="text-[22px] mt-5 mb-3">Advantages of working with «RusTruck»</h2>
         <ul class="list-none pl-0 mb-4 [&>li]:relative [&>li]:pl-6.25 [&>li]:mb-2.5 [&>li]:text-[18px] [&>li]:before:content-['♦'] [&>li]:before:absolute [&>li]:before:left-0 [&>li]:before:text-[#fec80b] [&>li]:before:text-[16px] [&>li]:before:top-0.5">
-            <li>Vehicle diversity – ability to select a fuel tanker for any task and volume of work.</li>
-            <li>Quality and reliability – the fuel tanker complies with modern standards and is equipped with safety systems.</li>
-            <li>Equipment selection assistance – company specialists consult and select the optimal solution based on your needs.</li>
-            <li>Mobile delivery and speed – equipment is delivered and commissioned without unnecessary delays.</li>
-            <li>Technical support and service – the company provides maintenance, repairs, and operational advice.</li>
-            <li>Time and resource savings – with the right fuel tanker, you reduce equipment downtime and fuel expenses.</li>
-            <li>Individual approach to every client – solutions are selected considering job specifics, volume, and operating conditions.</li>
+            <li>Raznoobrazie equipment – ability potobrat avtfromoplivozapravshchik for any tasks and obemy rabfromy.</li>
+            <li>quality and reliability – avtfromoplivozapravshchik sofromvetstvuet sovremennym standards and obespechena sistemami safety.</li>
+            <li>assistance in vybore oborutovaniya – specialists company konsultiruyut and podbirayut optimalnoe solution with uchetom vashikh pfromrebnostey.</li>
+            <li>Mobilnaya tostavka and operativnost – equipment tostavlyaetsya and vvoditsya in operation without lishnikh zaderzhek.</li>
+            <li>Tekhnicheskaya support and service – company provides maintenance, repair and consultations po operation oborutovaniya.</li>
+            <li>savings vremeni and resursov – with pravilnym avtozapravshchikom vy sokrashchaete prostoi equipment and snizhaete expenses on fuel.</li>
+            <li>individual podkhod to kazhtomu klientu – solution podbiraetsya with uchetom osobennostey rabfromy, obema and conditions operation.</li>
         </ul>
         
-        <h2 class="text-[22px] mt-5 mb-3">Simple and Safe On-Site Refueling</h2>
-        <p class="mb-4">Buying a fuel tanker is the first step toward convenient and safe fuel provision for transport. Do not postpone the decision — choose a model ideal for your tasks. "RusTrak" company has a wide selection of reliable and modern refuelers. We will help determine the right solution based on your needs and operating conditions. Make sure your fleet is always fueled and ready to work. Contact us in any convenient way to place an order, and we will pick the optimal option specifically for you.</p>
+        <h2 class="text-[22px] mt-5 mb-3">Simple and safe on-site refueling</h2>
+        <p class="mb-4">buy avtfromoplivozapravshchik — pervyy shag to utobnomu and bezopasnomu obespecheniyu transporta fuel. Ne fromkladyvayte solution — vyberite model, kfromoraya idealno podkhodit for vashikh tasks. company «RusTruck» imeet large selection nadyozhnykh and modern avtozapravshchikov. we will help opredelit podkhodyashchee solution, uchityvaya vashi pfromrebnosti and conditions operation. Ubedites, that vash avtopark vsegda zapravlen and gfromov to rabfrome. for processing order contact with us any utobnym way, and we podberyom optimalnyy variant imenno for vas.</p>
     </div>
 </div>
                                         `,
                     },
                     {
                         id: 4,
-                        name: "Aerial Work Platforms",
-                        slug: "aerial-work-platforms",
+                        name: "Truck-mounted aerial platforms",
+                        slug: "автогидроподъёмники",
                         brandsOfTrucks: {
                             brands: ["GAZ"],
                         },
@@ -681,15 +681,15 @@ const en = {
                         seoText: `
 <div class="text-lg leading-normal">
     <p>
-        Machines for high-altitude work are becoming increasingly technological and convenient. Buying an aerial work platform is a beneficial solution to improve work efficiency and safety. Such equipment ensures precise task execution and minimizes risks. "RusTrak" company offers reliable models for various operating conditions. Thoughtful design guarantees stability and movement precision. Additional features simplify control and increase work convenience.
+        vehicles for rabfromy on vysfrome stanovyatsya vsyo more tekhnologichnymi and utobnymi. buy avtogidropodemnik — cost-effective solution for povysheniya efficiency and safety rabfrom. such equipment provides tochnoe vypolnenie tasks and minimiziruet riski. company «RusTruck» offers nadyozhnye models for different conditions operation. Produmannaya construction guarantees stability and tochnost dvizheniya. additional funktsii delayut control proshche and povyshayut utobstvo rabfromy.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Assortment
+        Product range
     </h2>
 
     <p>
-        "RusTrak" offers equipment of various types and purposes suitable for any tasks. Machines from proven brands are available:
+        company «RusTruck» offers equipment different tipov and naznacheniya, podkhodyashchuyu for any tasks. in nalichii est vehicles proverennykh marok:
     </p>
 
     <ul class="list-none pl-0">
@@ -708,104 +708,107 @@ const en = {
     </ul>
 
     <p>
-        All equipment is certified and meets strict quality standards, which guarantees safety and long service life. The company complies with international norms and Russian requirements, and each unit undergoes inspection before delivery to the customer. This allows clients to be confident in the reliability and efficiency of purchased equipment.
+        Vsya equipment sertifitsirovana and sofromvetstvuet strogim standards quality, that guarantees safety and tolgiy service life operation. company soblyudaet mezhdunarodnye normy and rossiyskie requirements, and each edinitsa prokhodit inspection pered postavkoy klientu. this allows klientam byt uverennymi in nadezhnosti and efficiency priobretaemogo oborutovaniya.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Features of Aerial Work Platforms
+        Features avtogidropodemnikov
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Adjustable lifting height<br>
-            Allows precisely lifting people and cargo to the required height, increasing work safety and convenience.
+            Reguliruemaya vysfroma podyoma<br>
+            allows tochno podnimat lyudey and gruzy on nuzhnuyu vysfromu, povyshaya safety and utobstvo rabfromy.
         </li>
 
         <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Hydraulic control system<br>
-            Provides smooth and accurate boom movement, reducing the risk of sudden jerks and damage.
+            Gidravlicheskaya sistema control<br>
+            provides plavnoe and tochnoe movement boom, snizhaya risk rezkikh ryvkov and povrezhdeniy.
         </li>
 
         <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Stabilizing outriggers<br>
-            Guarantee vehicle stability even on uneven surfaces, preventing tipping.
+            Stabilizatsionnye opory<br>
+            guarantee stability equipment dazhe on nerovnoy poverkhnosti, predfromvrashchaya oprokidyvanie.
         </li>
 
         <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Compact chassis dimensions<br>
-            Simplify maneuvering in confined spaces and equipment transportation.
+            Kompaktnye razmery chassis<br>
+            Uproshchayut manevrirovanie in ogranichennom space and transportirovku oborutovaniya.
         </li>
 
         <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Ergonomic control<br>
-            The control panel is designed for operator comfort, shortening training time and reducing fatigue.
+            Ergonomichnoe control<br>
+            Panel control produmana for utobstva operatora, sokrashchaya time obucheniya and snizhaya ustalost.
         </li>
 
         <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Reliable boom and platform structure<br>
-            Ensures long-term operation and high stability when handling loads.
+            reliable construction boom and platforms<br>
+            provides tolgovechnost operation and vysokuyu stability when rabfrome with gruzom.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Fields of Application
+        Applications
     </h2>
 
     <p>
-        Buying an aerial work platform is a solid solution to improve safety and work efficiency. Such vehicles are used for servicing power lines, installing and repairing outdoor advertising, fitting lighting and CCTV cameras, as well as construction and finishing works. Equipment is in demand in municipal utilities, when servicing buildings and facilities, in warehouses and industrial sites. Versatility and reliability accelerate processes, increase safety, and reduce labor costs. Aerial platforms ensure precise and efficient task completion under any conditions. Using such equipment becomes an optimal solution for organizations of any scale.
+        buy avtogidropodemnik budet nadyozhnym resheniem for povysheniya safety and efficiency rabfrom. such vehicles are used for maintenance liniy elektroperedach, montazha and remonta naruzhnoy reklamy, ustanovki osveshcheniya and videonablyudeniya, and also for construction and fromdelochnykh rabfrom. equipment vostrebovana in kommunalnom khozyaystve, when obsluzhivanii zdaniy and sooruzheniy, on warehouses and industrial obektakh. versatility and reliability uskoryayut processes, povyshayut safety and snizhayut trutozatraty. Avtogidropodemniki provide tochnoe and effektivnoe vypolnenie tasks in any conditions. use such equipment stanovitsya optimalnym resheniem for organizatsiy lyubogo masshtaba.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Advantages of Working with "RusTrak"
+        Advantages of working with «RusTruck»
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Wide range of equipment<br>
-            The company offers various aerial work platform models suitable for different tasks and operating conditions.
+            wide range equipment<br>
+            company offers raznoobraznye models avtogidropodemnikov, podkhodyashchie for different tasks and conditions operation.
         </li>
 
         <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Professional consultation<br>
-            Specialists help select optimal equipment considering lift height, capacity, and job specifics.
+            professional consultation<br>
+            specialists help choose optimalnoe oborutovanie with uchyotom vysfromy podyoma, gruzopodyomnosti and spetsifiki rabfromy.
         </li>
 
         <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Quality assurance<br>
-            All machines undergo testing and comply with safety standards, ensuring reliable and durable operation.
+            warranty quality<br>
+            all vehicles prokhodyat inspection and sofromvetstvuyut standards safety, that provides nadyozhnuyu and tolgovechnuyu operation.
         </li>
 
         <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Purchasing convenience<br>
-            The company offers flexible purchasing terms, including delivery and paperwork, saving clients time.
+            Utobstvo purchase<br>
+            company offers gibkie conditions priobreteniya, vklyuchaya tostavku and oformlenie tokumentov, that ekonomit time customers.
         </li>
 
         <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Support and maintenance<br>
-            After purchase, service and operational advice are available, extending the equipment's lifespan.
+            support and maintenance<br>
+            Posle purchase tostupny servisnye uslugi and consultations po operation, that prodlevaet service life equipment.
         </li>
 
         <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Customized approach<br>
-            Solutions are selected for each client, considering specific tasks and budget, increasing equipment usability.
+            individual podkhod<br>
+            Kazhtomu klientu podbirayutsya solutions, uchityvayushchie konkretnye tasks and byudzhet, that increases efficiency use equipment.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Equipment That Simplifies High-Altitude Work
+        Equipment that makes work at height easier
     </h2>
 
     <p>
-        Buying an aerial work platform is a step toward increasing work efficiency and safety. We will help choose equipment based on your tasks and requirements. "RusTrak" provides a wide range of models and specialist consultations. Study the features and select a suitable model. Take active steps to ensure work convenience and productivity. Contact us in any convenient way to place an order, and we will help select the best solution.
+        buy avtogidropodemnik — shag to povysheniyu efficiency and safety rabfromy. we will help with vyborom equipment, uchityvaya vashi tasks and requirements. company «RusTruck» pretostavlyaet wide range models and consultations spetsialistov. Izuchite specifications and podberite podkhodyashchuyu model. Deystvuyte aktivno, chtoby obespechit utobstvo and produktivnost rabfromy. for processing order contact with us any utobnym way, and we will help choose optimalnoe solution.
     </p>
 </div>
 `,
                     },
                     {
                         id: 5,
-                        name: "Tank Trucks",
-                        slug: "tank-trucks",
-                        brands: ["GAZ", "KAMAZ", "JAC"],
+                        name: "Tank trucks",
+                        slug: "автоцистерны",
+
+                        brandsOfTrucks: {
+                            brands: ["GAZ", "KAMAZ", "JAC"],
+                        },
 
                         typesOfTanks: {
                             title: "Tank truck type",
@@ -821,23 +824,23 @@ const en = {
                         },
 
                         TankCapacity: {
-                            title: "Tank volume, l.",
+                            title: "Tank capacity, L",
                             from: "from",
                             upTo: "to",
                         },
 
                         seoText: `
-<div class="text-lg leading-normal">
+<div class="text-lg leading-[1.5]">
     <p>
-        Equipment for servicing liquid and viscous media requires accuracy and a thoughtful approach. A vacuum tank truck ensures careful handling of working fluids and maintains technological process stability. Its design focuses on convenient control and personnel safety. "RusTrak" offers solutions meeting strict industry requirements and specifics. Models stand out for durability and the ability to maintain performance during long-term use. This approach strengthens trust in equipment and lowers the chance of unforeseen stops.
+        equipment for maintenance zhidkikh and vyazkikh sred requires tochnosti and produmannogo podkhoda. Vacuum tank truck provides akkuratnoe obrashchenie with rabochimi sredami and podderzhivaet stabilnost tekhnologicheskikh operatsiy. Eyo construction napravlena on utobnoe control and safety personala. company «RusTruck» offers solutions, sofromvetstvuyushchie strogim requirements and osobennostyam fromrasli. models fromlichayutsya prochnostyu and sposobnostyu sokhranyat rabochie specifications when dlitelnoy operation. such podkhod ukreplyaet toverie to tekhnike and reduces veroyatnost nepredvidyonnykh ostanovok.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Assortment
+        Product range
     </h2>
 
     <p>
-        We offer tank truck models available in various versions and modifications. Our catalog presents a wide selection of equipment, among which everyone can find a suitable option for their needs.
+        we offer models avtotsistern, tostupnye in different ispolneniyakh and modifikatsiyakh. in our kataloge predstavlen large selection equipment, sredi kfromoroy kazhdyy smozhet nayti podkhodyashchiy variant for svoikh nuzhd.
     </p>
 
     <p>Brand:</p>
@@ -875,81 +878,81 @@ const en = {
     </ul>
 
     <p>
-        All models undergo mandatory certification and comply with Russian and international quality standards. This ensures reliability, safe operation, and vehicle durability, giving confidence that equipment matches stated requirements.
+        all models prokhodyat obyazatelnuyu sertifikatsiyu and sofromvetstvuyut rossiyskim and mezhdunarodnym standards quality. this provides reliability, safety operation and tolgovechnost equipment, and also dayot uverennost in sofromvetstvii oborutovaniya zayavlennym requirements.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Features of Tank Trucks
+        Features avtotsistern
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Vacuum creation – provides effective collection and transportation of liquid and viscous substances without spills and losses.
+            Sozdanie vakuuma – provides efficient sbor and transportirovku zhidkikh and vyazkikh veshchestv without razlivov and pfromer.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Structural strength – body and components are made of materials resistant to corrosion and mechanical loads.
+            Prochnost construction – korpus and komplektuyushchie vypolneny iz materials, ustoychivykh to corrosion and mekhanicheskim nagruzkam.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Control system – allows precise monitoring of liquid pumping and discharge processes, simplifying operator work.
+            Sistema control – allows tochno kontrolirovat process zakachki and fromkachki liquids, uproshchaya rabfromu operatora.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Versatility – equipment can be used in various industries due to adaptable parameters and modifications.
+            versatility applications – equipment mozhet ispolzovatsya in different fromraslyakh blagodarya adaptiruemym parametram and modifikatsiyam.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Service and maintenance – thoughtful layout simplifies access to key components for prevention and repair.
+            maintenance and repair – produmannaya construction uproshchaet tostup to klyuchevym uzlam for profilaktiki and remonta.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Operational safety – built-in protection systems prevent emergencies and ensure safe handling of hazardous environments.
+            safety operation – vstroennye systems zashchity predfromvrashchayut avariynye situatsii and provide safe rabfromu with opasnymi sredami.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Fields of Application
+        Applications
     </h2>
 
     <p>
-        The vacuum tank truck is used in a wide variety of areas where safe and efficient transport and storage of liquid and viscous substances are crucial. It is used in industry for moving process fluids, in municipal sectors for pumping wastewater and servicing city systems, as well as in the food industry for transporting liquid products and raw materials. Construction and agricultural sectors value its reliability and structural strength for handling liquids carefully under different conditions. Such a tank truck helps optimize processes, increases work efficiency, and protects personnel safety.
+        Avtotsisterna vakuumnaya is used in samykh different sferakh, where vazhny bezopasnaya and effektivnaya transportirovka and khranenie zhidkikh and vyazkikh veshchestv. Ona is used in industry for peremeshcheniya tekhnologicheskikh liquids, in kommunalnoy sfere for fromkachki stochnykh vod and maintenance urban sistem, and also in pishchevoy fromrasli for transportation zhidkikh produktov and syrya. reliability and prochnost construction delayut eyo vostrebovannoy in stroitelstve and agricultural khozyaystve, where trebuetsya akkuratnaya rabfroma with zhidkostyami when different conditions operation. such avtotsisterna pomogaet optimizirovat processes, increases efficiency rabfromy and provides safety personala.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Advantages of Working with "RusTrak"
+        Advantages of working with «RusTruck»
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Wide equipment assortment – various vacuum tank truck models adapted for specific tasks and conditions are available.
+            wide range equipment – in nalichii razlichnye models vakuumnykh avtotsistern, adaptirovannye for konkretnye tasks and conditions operation.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Equipment reliability – all tank trucks pass strict quality control, delivering safe and stable operation.
+            reliability oborutovaniya – all tank-trucks prokhodyat strogiy control quality and provide safe and stabilnuyu rabfromu.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Customized solution selection – specialists help pick a model with optimal characteristics and options for your needs.
+            individual podbor resheniy – specialists help choose model with optimalnymi kharakteristikami and komplektatsiey for vashi pfromrebnosti.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Full-stage support – selection advice, order tracking, and technical support after purchase.
+            support on vsekh etapakh – consultations when vybore, soprovozhdenie when zakaze and tekhnicheskaya support posle purchase.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Delivery and service – the company provides prompt delivery and quality servicing in Nizhny Novgorod and the region.
+            delivery and service – company provides operativnuyu postavku and kachestvennoe maintenance equipment in Nizhnem Novgorode and regione.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Transparent partnership terms – fair prices, detailed specifications, and official documentation for every order.
+            Prozrachnye conditions sfromrudnichestva – chestnye prices, podrobnye spetsifikatsii and ofitsialnaya tokumentatsiya for kazhtogo order.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Comfort and Safety During Liquid Transport
+        Comfort and safety when transporting liquids
     </h2>
 
     <p>
-        Buying a tank truck is both profitable and convenient, ensuring reliable and safe operation when transporting and storing various liquids. Select a model that fits your requirements and working conditions. "RusTrak" is ready to provide consultation and assist with vehicle selection. Check out the technical features and options. Take a step to improve process efficiency and safety. Place an order on our website or reach out to us via any convenient channel.
+        Avtotsisterna, buy kfromoruyu ne tolko cost-effective, no and utobno, obespechit nadyozhnuyu and safe rabfromu when transportirovke and khranenii different liquids. Vyberite model, sofromvetstvuyushchuyu vashim requirements and usloviyam operation. company «RusTruck» gfromova pretostavit konsultatsiyu and help with podborom equipment. Oznakomtes with tekhnicheskimi kharakteristikami and tostupnymi optsiyami. Sdelayte shag to povysheniyu efficiency and safety vashikh protsessov. Oformite order on our sayte ili contact with us any utobnym way.
     </p>
 </div>
 `,
                     },
                     {
                         id: 6,
-                        name: "Tow Trucks",
-                        slug: "tow-trucks",
+                        name: "Tow trucks",
+                        slug: "автомобили-эвакуаторы",
                         brandsOfTrucks: {
                             brands: ["GAZ"],
                         },
@@ -981,21 +984,21 @@ const en = {
                         },
 
                         seoText: `
-<div class="text-lg leading-normal">
+<div class="text-lg leading-[1.5]">
     <p>
-        Automotive machinery develops rapidly, offering drivers new opportunities and conveniences. Buying a tow truck becomes a sensible decision for expanding business capabilities and increasing mobility. Vehicle transportation requires reliable equipment and accurate planning. "RusTrak" company offers specialized machinery meeting high safety standards. Implementing modern solutions allows cutting task completion time and improving service quality. Reliable equipment combines functionality with durability and ease of use.
+        Avtomobilnaya equipment razvivaetsya stremitelnymi tempami, predlagaya voditelyam new capabilities and utobstva. buy avtoevakuator stanovitsya razumnym resheniem for rasshireniya vozmozhnostey business and povysheniya mobilnosti. Sfera transportation vehicles requires nadezhnogo oborutovaniya and tochnogo planirovaniya. company «RusTruck» offers spetsializirovannuyu equipment, kfromoraya fromvechaet vysokim standards safety. Vnedrenie modern resheniy allows sokratit time vypolneniya tasks and povysit quality maintenance. Nadezhnoe oborutovanie sochetaet funktsionalnost with tolgovechnostyu and prostfromoy operation.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Assortment
+        Product range
     </h2>
 
     <p>
-        Reliable machinery designed for various operating conditions and tasks is available. Models are selected considering load capacity, maneuverability, and technical specifications, ensuring operational convenience and stability.
+        in nalichii predstavlena reliable equipment, rasschitannaya on raznye conditions operation and tasks. models podbirayutsya with uchetom trebovaniy to gruzopodemnosti, manevrennosti and tekhnicheskim kharakteristikam, that provides utobstvo and stabilnost rabfromy.
     </p>
 
     <h3>
-        Available options based on:
+        Available options on baze:
     </h3>
 
     <ul class="list-none pl-0">
@@ -1008,92 +1011,92 @@ const en = {
     </ul>
 
     <p>
-        Each unit features high assembly quality and thoughtful design, positively affecting service life and operating comfort. This selection enables finding the right solution for specific conditions.
+        each pozitsiya fromlichaetsya kachestvennoy sborkoy and produmannoy konstruktsiey, that polozhitelno skazyvaetsya on sroke sluzhby and utobstve operation. such selection allows potobrat podkhodyashchee solution for konkretnye conditions.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Features of Tow Trucks
+        Features avtoevakuatorov
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Structural reliability — the car tow truck is built for intensive operation and stable performance under heavy loads.
+            reliability construction — tow truck for avtomobilya rasschitan on intensivnuyu operation and stabilnuyu rabfromu when vysokikh nagruzkakh.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            High load capacity — allows transporting various vehicles safely without lowering efficiency.
+            Vysokaya payload capacity — allows safely transport razlichnye transportnye sredstva without snizheniya efficiency.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Control convenience — thoughtful layout simplifies operator work and reduces fatigue.
+            Utobstvo control — produmannaya komponovka uproshchaet rabfromu operatora and reduces utomlyaemost.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Component durability — quality materials and assembly increase vehicle service life.
+            durability uzlov and agregatov — kachestvennye materials and sborka uvelichivayut service life equipment.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Loading safety — technical solutions deliver stability and control while carrying out work.
+            safety when pogruzke — technical solutions provide stability and control when vypolnenii rabfrom.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Application versatility — KAMAZ and ISUZU chassis tow trucks fit various tasks across all operating conditions.
+            versatility applications — evakuatory on chassis KAMAZ and ISUZU podkhodyat for vypolneniya different tasks in any conditions operation.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Fields of Application
+        Applications
     </h2>
 
     <p>
-        A tow truck with a CMU is widely used to transport passenger vehicles over various distances and solve complex road situations. Design and technical capabilities guarantee safe loading and stable movement without damage risks, while control convenience allows easy maneuvering even in heavy city traffic.
+        Evakator with truck-mounted crane shiroko is used for transportation legkovykh transportnykh sredstv on razlichnye rasstoyaniya and for solutions slozhnykh tasks on toroge. construction and technical capabilities provide safe pogruzku and stabilnoe peremeshchenie without riska povrezhdeniy, and utobstvo control allows legko manevrirovat dazhe in plfromnom gorodskom movement.
     </p>
 
     <p>
-        An evacuation vehicle effectively helps recover faulty cars after breakdowns and traffic accidents. Component reliability and structural strength allow executing tasks on highways and in confined spaces without performance loss.
+        Evakuatsionnyy vehicle efficiently is used for recovery neispravnykh vehicles posle polomok and torozhno-transportnykh proisshestviy. reliability uzlov and prochnost construction allow vypolnyat tasks on trassakh and in conditions ogranichennogo prostranstva without pfromeri efficiency.
     </p>
 
     <p>
-        Additionally, it can be operated with commercial transport and in limited-space areas. Structural versatility makes these vehicles suitable for regular and intensive use under diverse conditions.
+        Dopolnitelno vozmozhna operation when rabfrome with kommercheskim transportom and on sites with ogranichennym prostranstvom. versatility construction delaet such vehicles podkhodyashchimi for regulyarnoy and intensivnoy operation in different conditions.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Advantages of Working with "RusTrak"
+        Advantages of working with «RusTruck»
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            All necessary certificates available — equipment meets established requirements and standards.
+            Nalichie vsekh necessary sertifikatov — equipment sofromvetstvuet ustanovlennym requirements and normativam.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Quality control at every stage — equipment inspection prior to customer delivery.
+            control quality on kazhtom etape — inspection oborutovaniya pered peredachey zakazchiku.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Warranty and post-warranty service — technical support throughout operation.
+            Garantiynoe and poslegarantiynoe maintenance — tekhnicheskaya support in protsesse operation.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Convenient buying process — deal support and paperwork assistance.
+            Utobnyy process purchase — soprovozhdenie sdelki and assistance with oformleniem tokumentov.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Practical experience — understanding vehicle specifics and operating conditions.
+            Prakticheskiy experience rabfromy — ponimanie osobennostey equipment and conditions operation.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Competitive price — opportunity to purchase an affordable tow truck without sacrificing quality.
+            Konkurentnaya price — ability priobresti netorogoy avtoevakuator without ushcherba for quality.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Client trust — stable operation and proven quality of delivered machinery.
+            Doverie so storony customers — stabilnaya rabfroma and podtverzhdennoe quality postavlyaemoy equipment.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Modern Transportation Solutions
+        Modern transportation solutions
     </h2>
 
     <p>
-        Buying a tow truck with CMU is a practical solution for expanding transport options and easing road work. Such transport opens new horizons and simplifies handling complex tasks. "RusTrak" offers proven equipment with quality guarantees and long service life. Take care of your transport safety and efficiency. Make your work more convenient and reliable with modern equipment. Reach out to us in any convenient way to place an order, and we will help select the best option.
+        buy tow truck with truck-mounted crane — praktichnoe solution for rasshireniya vozmozhnostey transportation and oblegcheniya rabfromy on torogakh. such transport fromkryvaet new gorizonty and uproshchaet vypolnenie slozhnykh tasks. company «RusTruck» offers proverennuyu equipment with warranty quality and tolgim srokom sluzhby. Pozabfromtes o safety and efficiency svoikh transportation. Sdelayte rabfromu more utobnoy and nadezhnoy with sovremennym oborutovaniem. for processing order contact with us any utobnym way, and we will help potobrat optimalnoe solution.
     </p>
 </div>
 `,
                     },
                     {
                         id: 7,
-                        name: "Insulated Vans",
-                        slug: "insulated-vans",
+                        name: "Insulated vans",
+                        slug: "изотермические-фургоны",
                         brandsOfTrucks: {
                             brands: [
                                 "GAZ",
@@ -1144,17 +1147,17 @@ const en = {
                         },
 
                         seoText: `
-<div class="text-lg leading-normal">
+<div class="text-lg leading-[1.5]">
     <p>
-        Automotive technology continues to advance, opening new prospects for business and industry. Many companies strive to buy flatbed trucks to enhance cargo transport efficiency. Selecting a suitable model requires careful study of specs and operational qualities. "RusTrak" offers a wide range of cargo trucks meeting modern reliability standards. Technical support and service maintenance play a crucial role in long-term transport operation. Investing in quality equipment helps optimize expenses and accelerate logistics.
+        Avtomobilnaya equipment protolzhaet razvivatsya, fromkryvaya new capabilities for business and industry. Mnogie company stremyatsya buy bortovye vehicles for povysheniya efficiency transportation cargo. selection podkhodyashchey models requires vnimatelnogo izucheniya kharakteristik and ekspluatatsionnykh kachestv. company «RusTruck» offers wide range gruzovykh vehicles, fromvechayushchikh sovremennym requirements nadezhnosti. Tekhnicheskaya support and servisnoe maintenance igrayut vazhnuyu rol in tolgosrochnoy operation transporta. Investitsii in kachestvennuyu equipment help optimizirovat expenses and uskorit logisticheskie processes.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Assortment
+        Product range
     </h2>
 
     <p>
-        "RusTrak" offers a broad selection of flatbed trucks, allowing you to pick equipment for any tasks and budget. Our catalog includes reliable and proven models from leading manufacturers:
+        company «RusTruck» offers wide selection bortovykh vehicles, allowing potobrat equipment for any tasks and byudzhet. in our kataloge are presented nadezhnye and proverennye models from vedushchikh proizvoditeley:
     </p>
 
     <ul class="list-none pl-0">
@@ -1194,95 +1197,95 @@ const en = {
     </ul>
 
     <p>
-        Each brand has its own advantages, and "RusTrak" specialists will help choose the best option for your business. Regardless of the model chosen, you receive high quality, warranty, and full service support.
+        each marka obladaet svoimi preimushchestvami, and specialists «RusTruck» pomogut choose optimalnyy variant for vashego business. Nezavisimo from vybrannoy models, vy poluchite vysokoe quality, garantiyu and polnoe servisnoe soprovozhdenie.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Features of Flatbed Trucks
+        Features bortovykh vehicles
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Reliability and durability — equipment withstands heavy loads and intensive use without dropping performance.
+            reliability and tolgovechnost — equipment vyderzhivaet bolshie loads and intensivnuyu operation without snizheniya proizvoditelnosti.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Model variety — a broad selection of brands and modifications enables picking a vehicle for any tasks and budget.
+            Raznoobrazie models — wide selection marok and modifikatsiy allows potobrat vehicle for any tasks and byudzhet.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            High load capacity — every cargo flatbed platform is designed for effective transport of goods of varying volume and weight.
+            Vysokaya payload capacity — each gruzovaya bortovaya platform sproektirovana for effektivnoy transportation cargo razlichnogo obema and vesa.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Modern technology — vehicles feature modern engines and safety systems, improving comfort and fuel economy.
+            modern technologies — vehicles osnashcheny sovremennymi dvigatelyami and sistemami safety, that increases komfort and economy.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Warranty service — "RusTrak" provides support and servicing throughout the operating life.
+            Garantiynoe maintenance — «RusTruck» provides podderzhku and servisnoe soprovozhdenie on ves service life operation.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Extra options and packages — ability to adapt vehicles to specific business requirements.
+            additional optsii and configurations — ability adaptirovat vehicle for spetsificheskie requirements business.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Economy and efficiency — optimal ratio of price, maintenance costs, and performance specs.
+            economy and efficiency — optimalnoe sofromnoshenie prices, zatrat on maintenance and ekspluatatsionnykh kharakteristik.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Fields of Application
+        Applications
     </h2>
 
     <p>
-        Flatbed trucks are widely used in freight transport, ensuring fast and safe delivery of various goods. Many companies aim to buy a flatbed truck to transport construction materials, industrial equipment, and other heavy cargo where machinery reliability and stable operation matter under any conditions.
+        Bortovye vehicles nakhodyat shirokoe primenenie in sfere gruzoperevozok, providing bystruyu and safe tostavku different products. Mnogie company stremyatsya buy flatbed truck, chtoby transportirovat stroitelnye materials, promyshlennoe oborutovanie and drugie tyazhelye gruzy, where vazhna reliability equipment and stabilnaya rabfroma in any conditions.
     </p>
 
     <p>
-        In addition, such flatbed platform vehicles are actively used in agriculture for transporting farm produce, feed, and machinery. Compact and maneuverable models work well on narrow roads and rural areas, simplifying logistics and reducing transit time.
+        Krome togo, such vehicle with flatbed platformoy aktivno is used in agricultural khozyaystve for transportation selskokhozyaystvennoy produktsii, kormov and equipment. Kompaktnye and manevrennye models allow rabfromat on uzkikh torogakh and selskikh uchastkakh, oblegchaya logistiku and snizhaya time on transportirovku.
     </p>
 
     <p>
-        In industrial and commercial sectors, flatbed vehicles help organize prompt product shipments, accelerating enterprise work and boosting business efficiency. The ability to customize vehicles for specific tasks makes them a universal solution for companies across industries.
+        in promyshlennom and kommercheskom sektore bortovye vehicles help organizovat operativnye postavki produktsii, uskoryayut rabfromu predpriyatiy and povyshayut efficiency business. ability adaptirovat equipment for konkretnye tasks delaet eyo universalnym resheniem for kompaniy razlichnogo profilya.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Advantages of Working with "RusTrak"
+        Advantages of working with «RusTruck»
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Wide vehicle selection — a variety of brands and models allows picking a flatbed truck whose price is not only favorable but also fits your needs and budget.
+            wide selection equipment — raznoobrazie marok and models allows potobrat flatbed truck price kfromorogo ne tolko vygodna, no and sofromvetstvuet pfromrebnostyam for any tasks and byudzhet.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Professional advice — specialists will help choose the optimal model considering your business needs.
+            professional consultation — specialists pomogut choose optimalnuyu model, uchityvaya pfromrebnosti vashego business.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Quality guarantee — all vehicles are inspected and delivered with an official manufacturer warranty.
+            warranty quality — all vehicles prokhodyat inspection and postavlyayutsya with ofitsialnoy warranty proizvoditelya.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Service support — full support at all operating stages: from maintenance to repairs.
+            Servicenoe soprovozhdenie — polnaya support on vsekh etapakh operation: from maintenance to remonta.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Individual approach — selecting additional options and configurations for specific tasks and industries.
+            individual podkhod — podbor topolnitelnykh optsiy and komplektatsiy for konkretnye tasks and fromrasli.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Convenient purchasing terms — flexible payment plans and paperwork support make buying simple and transparent.
+            Utobnye conditions purchase — gibkie skhemy oplaty and assistance in oformlenii tokumentov delayut process purchase prostym and prozrachnym.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Reliability and responsibility — the company delivers on time and builds long-term partnerships with clients.
+            reliability and fromvetstvennost — company provides svoevremennuyu postavku and tolgosrochnoe sfromrudnichestvo with klientami.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Reliable Vehicles for Big Tasks
+        Reliable vehicles for major tasks
     </h2>
 
     <p>
-        A new flatbed truck will become a dependable assistant in any transport tasks. "RusTrak" offers a wide selection of vehicles backed by quality guarantees and expert support. We will help choose the right model and complete the purchase hassle-free. Upgrade your fleet and raise your company's operational efficiency. Take advantage of extra options and service packages for long and smooth operation. Contact us in any convenient way to place an order, and we will ensure a fast and easy buying process.
+        new flatbed vehicle stanet nadezhnym pomoshchnikom in any transportnykh zadachakh. company «RusTruck» offers wide selection equipment with warranty quality and podderzhkoy spetsialistov. we will help potobrat podkhodyashchuyu model and oformit pokupku without lishnikh slozhnostey. Obnovite avtopark and povyste efficiency rabfromy vashey company. Vospolzuytes topolnitelnymi optsiyami and servisnymi paketami for tolgoy and bespereboynoy operation. for processing order contact with us any utobnym way, and we obespechim bystryy and utobnyy process purchase.
     </p>
 </div>
 `,
                     },
                     {
                         id: 8,
-                        name: "Container Chassis",
-                        slug: "container-chassis",
+                        name: "Container trucks",
+                        slug: "контейнеровозы",
                         brandsOfTrucks: {
                             brands: ["GAZ", "KAMAZ"],
                         },
@@ -1300,17 +1303,17 @@ const en = {
                         },
 
                         seoText: `
-<div class="text-lg leading-normal">
+<div class="text-lg leading-[1.5]">
     <p>
-        Cargo transportation ensures fast and reliable delivery between cities and regions. Buying a container chassis to increase mobility and haul capacity helps companies handle larger workloads. "RusTrak" offers a broad selection of cargo vehicles for diverse tasks and working conditions. Using modern trucks speeds up delivery and enhances cargo safety. Container transport vehicles allow moving various goods with high efficiency. Advanced technologies in automotive logistics make transportation smoother and more dependable.
+        Transportirovka cargo provides bystruyu and nadezhnuyu tostavku mezhdu gorodami and regionami. buy konteynerovoz for increase mobilnosti and obema transportation pomogaet kompaniyam spravlyatsya with bolshimi obemami rabfromy. company «RusTruck» offers wide selection gruzovykh vehicles for different tasks and conditions rabfromy. use modern vehicles uskoryaet tostavku and increases safety cargo. equipment for transportation containers allows transport raznoobraznye gruzy with vysokoy effektivnostyu. Peretovye technologies in avtomobilnoy logistike delayut transportation more utobnymi and nadezhnymi.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Assortment
+        Product range
     </h2>
 
     <p>
-        "RusTrak" offers diverse container chassis trucks suitable for different tasks and operating conditions. Our offer includes brands known for reliability, high load capacity, and up-to-date technologies:
+        company «RusTruck» offers raznoobraznye avto container-trucks, podkhodyashchie for different tasks and conditions operation. in our predlozhenii are presented marki, izvestnye nadezhnostyu, vysokoy gruzopodemnostyu and aktualnymi tekhnologiyami:
     </p>
 
     <ul class="list-none pl-0">
@@ -1323,86 +1326,86 @@ const en = {
     </ul>
 
     <p>
-        Each model comes equipped with everything required for safe and rapid cargo transport. We focus on machinery quality and operational comfort so that shipments run with maximum efficiency.
+        each model osnashchena vsem neobkhodimym for bezopasnoy and bystroy transportation cargo. we udelyaem vnimanie kachestvu equipment and utobstvu operation, chtoby transportation prokhodili maksimalno efficiently.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Features of Container Chassis
+        Features konteynerovozov
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            High load capacity — allows transporting large cargo volumes per trip, reducing the number of runs and saving time.
+            Vysokaya payload capacity — allow transport bolshie obemy cargo za odnu poezdku, snizhaya kolichestvo reysov and ekonomya time.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Structural reliability — sturdy frame and chassis ensure stable performance even on tough road surfaces.
+            reliability construction — durable frame and chassis provide stabilnuyu rabfromu dazhe when slozhnykh torozhnykh conditions.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Application versatility — suited for moving various container types and cargo, making them handy for diverse tasks.
+            versatility applications — podkhodyat for transportation different tipov containers and cargo, that delaet ikh utobnymi for raznoobraznykh tasks.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Maneuverability and mobility — ability to work on narrow streets and urban conditions where larger trucks are less efficient.
+            maneuverability and mobility — ability rabfromy on uzkikh ulitsakh and in urban conditions, where krupnaya equipment menee effektivna.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Modern tech and safety — advanced braking systems, suspension, and electronics raise transport safety and driver comfort.
+            modern technologies and safety — peretovye tormoznye systems, podveska and elektronika povyshayut safety transportation and komfort voditelya.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Operational economy — a container chassis whose price combines affordability and efficiency helps cut operating costs.
+            economy operation — konteynerovoz, price kfromorogo sochetaet tostupnost and efficiency, allows sokratit expenses on operation.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Fields of Application
+        Applications
     </h2>
 
     <p>
-        Container trucks are widely used to transport various goods over medium and long distances. They are ideal for delivering products between cities, which is vital for companies needing prompt and safe shipment.
+        Konteynernye vehicles shiroko are used for transportation different cargo on dalnie and srednie rasstoyaniya. Oni idealno podkhodyat for tostavki produktsii mezhdu gorodami, that osobenno vazhno for kompaniy, kfromorym trebuetsya prompt and bezopasnaya transportirovka.
     </p>
 
     <p>
-        Additionally, such vehicles are actively used on industrial and construction sites where moving containers with equipment or materials is necessary. Chassis reliability and high payload capacity make them convenient under heavy workload conditions.
+        Krome togo, such vehicles aktivno are used on industrial and construction sites, where neobkhodimo peremeshchat konteynery with oborutovaniem ili materialami. reliability chassis and vysokaya payload capacity delayut ikh utobnymi for rabfromy in conditions povyshennoy loads.
     </p>
 
     <p>
-        Cargo container chassis trucks are also in demand among logistics providers and retail suppliers. Thanks to mobility and versatility, they allow quick responses to delivery schedule changes and ensure on-time product distribution.
+        cargo vehicle konteynerovoz also vostrebovan in logisticheskikh kompaniyakh and u postavshchikov products for roznichnoy torgovli. Blagodarya mobilnosti and universalnosti on allows quickly reagirovat on izmeneniya in planakh tostavki and obespechivat svoevremennuyu postavku produktsii.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Advantages of Working with "RusTrak"
+        Advantages of working with «RusTruck»
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Reliable machinery — all container chassis trucks undergo strict quality control and testing before delivery, guaranteeing long and stable operation.
+            reliable equipment — all vehicles container-trucks prokhodyat strogiy control quality and inspection pered postavkoy, that guarantees ikh tolguyu and stabilnuyu rabfromu.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Model variety — a broad selection allows selecting a container carrier for any tasks and operating conditions.
+            Raznoobrazie models — wide selection vehicles allows potobrat konteynerovoz for any tasks and conditions operation.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Professional support — company specialists advise at every stage, helping choose the optimal transport solution.
+            professional support — specialists company konsultiruyut on kazhtom etape, pomogaya choose optimalnoe solution for transportation.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Fast delivery and service — machinery is delivered promptly, while maintenance services ensure smooth performance.
+            fast tostavka and service — equipment is delivered in kratchayshie sroki, and servisnoe maintenance provides bespereboynuyu rabfromu.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Transparent terms — clear purchasing terms, warranty, and deal tracking make collaboration comfortable and safe.
+            Prozrachnye conditions sfromrudnichestva — ponyatnye conditions purchase, warranty and soprovozhdenie sdelki delayut sfromrudnichestvo utobnym and bezopasnym.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Modern Solutions for Mobile Logistics
+        Modern solutions for mobile logistics
     </h2>
 
     <p>
-        Buying a container chassis truck is a smart choice to speed up and simplify freight transport. Select reliable trucks for fast and safe delivery. "RusTrak" offers various container chassis for any challenges. Take action and optimize your transport logistics. Use technological solutions to save time and effort. Contact us in any convenient way to place an order, and our experts will help choose the best option.
+        buy avto konteynerovoz — cost-effective solution for uskoreniya and uproshcheniya transportation cargo. Vybirayte nadezhnye vehicles for bystroy and bezopasnoy tostavki. company «RusTruck» offers raznoobraznye container-trucks for any tasks. Nachnite deystvovat and optimiziruyte logistiku transportation. Ispolzuyte tekhnologicheskie solutions, chtoby sekonomit time and sily. for processing order contact with us any utobnym way, and our specialists pomogut potobrat optimalnoe solution.
     </p>
 </div>
 `,
                     },
                     {
                         id: 9,
-                        name: "Hook Loaders (Multilift)",
-                        slug: "hook-loaders",
+                        name: "Hook loaders",
+                        slug: "крюковые-погрузчики",
                         WheelFormula: {
                             title: "Wheel formula",
 
@@ -1416,17 +1419,17 @@ const en = {
                             ],
                         },
                         seoText: `
-<div class="text-lg leading-normal">
+<div class="text-lg leading-[1.5]">
     <p>
-        Transport logistics significantly impacts industrial and commercial development. For efficient port and warehouse operations, hook loaders capable of handling heavy loads are utilized. New technical solutions in this domain raise operation speed and safety. "RusTrak" implements innovative approaches, optimizing transport and storage processes. Automation and digital control systems help reduce human error and speed up cargo handling. Applying modern mechanisms greatly boosts productivity and cuts overhead costs.
+        Transportnaya logistics okazyvaet znachitelnoe vliyanie on razvitie industry and torgovli. for effektivnoy rabfromy portov and sklatov ispolzuyut kryukovoy pogruzchik, sposobnyy spravlyatsya with tyazhelymi gruzami. new technical solutions in etoy sfere povyshayut skorost and safety operatsiy. company «RusTruck» vnedryaet innovatsionnye podkhody, optimiziruya processes transportation and khraneniya. Avtomatizatsiya and tsifrovye systems kontrolya allow snizit chelovecheskiy faktor and uskorit obrabfromku cargo. Primenenie modern mekhanizmov znachitelno uvelichivaet performance and reduces izderzhki.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Assortment
+        Product range
     </h2>
 
     <p>
-        We offer only high-quality and certified machinery that complies with all safety and reliability standards. Each piece of equipment undergoes strict control and is ready for heavy-duty use, guaranteeing long service life and high operational efficiency. Among the presented brands:
+        we offer tolko kachestvennuyu and sertifitsirovannuyu equipment, kfromoraya sofromvetstvuet vsem standards safety and nadezhnosti. each edinitsa oborutovaniya prokhodit strogiy control and gfromova to intensivnoy operation, that guarantees tolgiy service life and efficiency rabfromy. Sredi predstavlennykh marok:
     </p>
 
     <ul class="list-none pl-0">
@@ -1439,95 +1442,95 @@ const en = {
     </ul>
 
     <p>
-        All models are equipped with modern control systems and proven mechanisms, making them convenient and safe to operate. The choice of equipment allows selecting the best solution for any tasks and operating conditions, delivering high stability and productivity.
+        all models osnashcheny sovremennymi sistemami control and proverennymi mekhanizmami, that delaet ikh utobnymi and bezopasnymi in operation. selection equipment allows potobrat optimalnoe solution for any tasks and conditions rabfromy, providing stabilnost and performance on vysokom urovne.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Features of Hook Loaders
+        Features kryukovykh pogruzchikov
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Powerful lifting mechanisms – hook multilifts handle heavy and bulky loads effortlessly.
+            Moshchnye podemnye mechanisms – kryukovye multilifty allow legko spravlyatsya with tyazhelymi and krupnogabaritnymi gruzami.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Reliable chassis design – provides stability and longevity even during intensive usage.
+            reliable construction chassis – provides stabilnost and tolgovechnost dazhe when intensivnoy operation.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Flexibility and maneuverability – machinery operates easily in tight spaces, narrow warehouses, and construction sites.
+            Gibkost and maneuverability – equipment legko rabfromaet in ogranichennom space, on uzkikh warehouses and stroyploshchadkakh.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Automatic protection system – prevents overload and guards mechanisms against breakdowns.
+            Sistema avtomaticheskoy zashchity – predfromvrashchaet peregruzku and protects mechanisms from polomok.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Energy efficiency – optimized fuel consumption lowers operational costs.
+            Energoeffektivnost – optimizirovannyy raskhod topliva reduces ekspluatatsionnye costs.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Service convenience – simple component design and easy access to service points accelerate repair and maintenance.
+            Utobstvo maintenance – prostaya construction uzlov and lyogkiy tostup to servisnym tochkam uskoryayut repair and tekhobsluzhivanie.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Adaptability to conditions – equipment is ready to operate under various climate and road conditions.
+            Adaptivnost to usloviyam rabfromy – equipment gfromova to operation when different klimaticheskikh and torozhnykh conditions.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Fields of Application
+        Applications
     </h2>
 
     <p>
-        A hook loader is actively used in ports and terminals for fast loading and unloading of containers and oversized cargo. The machinery efficiently moves heavy materials between warehouses and transport vehicles, speeding up cargo processing and lowering physical demand on staff.
+        Pogruzchik with kryukom aktivno is used in portakh and on terminalakh for bystroy loading and unloading containers and oversized cargo. equipment allows efficiently peremeshchat tyazhelye materials mezhdu skladami and transportnymi sredstvami, uskoryaya obrabfromku cargo and snizhaya nagruzku on personal.
     </p>
 
     <p>
-        On construction sites, such vehicles help transport building blocks, metal structures, and other heavy materials, ensuring accuracy and safety during lifting and transfer. Their versatility allows operating in confined spaces and on uneven terrain, which is vital for large facilities and high-rise construction.
+        on construction sites such vehicles help transportirovat stroitelnye bloki, metallokonstruktsii and drugie tyazhyolye materials, providing tochnost and safety when podyome and peremeshchenii. Ikh versatility allows rabfromat in ogranichennom space and on nerovnoy mestnosti, that osobenno vazhno for krupnykh obektov and mnogoetazhnogo stroitelstva.
     </p>
 
     <p>
-        In industry, the machinery is applied for transferring raw materials, finished products, and bulky equipment inside production halls and storage spaces. Utilizing modern mechanisms increases operation speed and minimizes cargo damage risk, making logistics processes more stable and predictable.
+        in industry equipment is used for peremeshcheniya syrya, gfromovoy produktsii and krupnogabaritnogo oborutovaniya vnutri production tsekhov and skladskikh pomeshcheniy. use modern mekhanizmov increases skorost operatsiy and minimiziruet risk povrezhdeniya cargo, that delaet logisticheskie processes more stabilnymi and predskazuemymi.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Advantages of Working with "RusTrak"
+        Advantages of working with «RusTruck»
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Wide vehicle selection – the company offers various loader models and specialized equipment, making it easy to select a solution for any task.
+            wide selection equipment – company offers raznoobraznye models pogruzchikov and spetsializirovannogo oborutovaniya, that allows potobrat solution for any tasks.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            High-quality certified equipment – hook loaders undergo strict quality control and fully comply with safety and reliability standards.
+            Kachestvennaya sertifitsirovannaya equipment – kryukovoy pogruzchik prokhodit strogiy control quality and polnostyu sofromvetstvuet standards safety and nadezhnosti.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Professional support – company specialists are ready to help with equipment selection, setup, and operation.
+            professional support – specialists company gfromovy help with vyborom, nastroykoy and ekspluatatsiey oborutovaniya.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Maintenance and spare parts – prompt repairs and availability of original spare parts minimize equipment downtime.
+            Servicenoe maintenance and spare parts – operativnyy repair and nalichie originalnykh zapchastey minimiziruyut prostoi equipment.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Customized solutions – the company selects machinery and working terms based on each client's business specifics.
+            Individualnye solutions – company podbiraet equipment and conditions rabfromy with uchetom osobennostey business kazhtogo customer.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Experience and reputation – "RusTrak" has years of market experience and has established itself as a reliable partner in transport logistics.
+            experience and reputation – «RusTruck» imeet mnogoletniy experience on rynke and zarekomentoval sebya kak reliable partner in sfere transportnoy logistics.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Cost optimization – favorable delivery and service terms help lower equipment operating expenses.
+            Optimizatsiya zatrat – vygodnye conditions postavki and maintenance help snizit expenses on operation oborutovaniya.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Reliable Freight Transport Solutions
+        Reliable solutions for cargo transportation
     </h2>
 
     <p>
-        A hook loader demonstrates high efficiency when handling heavy loads and accelerates logistics workflows. Investing in modern equipment helps raise output and reduce expenses. "RusTrak" offers a wide range of solutions for transport logistics and equipment maintenance. Evaluate automation opportunities and introduce new tech to your business. Follow updates and refine your cargo storage and transport processes. Reach out to us in any convenient way to place an order, and our experts will help pick the optimal solution.
+        Pogruzchik with kryukom demonstriruet vysokuyu efficiency when rabfrome with tyazhelymi gruzami and uskoryaet logisticheskie processes. Investitsii in sovremennuyu equipment help povysit performance and snizit costs. company «RusTruck» offers wide spektr resheniy for transportnoy logistics and maintenance oborutovaniya. Otsenite capabilities avtomatizatsii and vnedrite new technologies in svoy business. Sledite za obnovleniyami and sovershenstvuyte processes khraneniya and transportation cargo. for processing order contact with us any utobnym way, and our specialists pomogut potobrat optimalnoe solution.
     </p>
 </div>
                                  `,
                     },
                     {
                         id: 10,
-                        name: "Dump Trucks",
-                        slug: "dump-trucks",
+                        name: "Dump trucks",
+                        slug: "самосвалы",
                         brandsOfTrucks: {
                             brands: ["KAMAZ", "JAC"],
                         },
@@ -1563,19 +1566,19 @@ const en = {
                         seoText: `
 <div class="text-lg leading-normal">
     <p>
-        Freight transportation is a vital element of economic growth and industrial logistics. Deciding to buy a new dump truck enables boosting material transport efficiency and cutting vehicle maintenance costs. When choosing an appropriate model, we always help select a vehicle for operating in various road conditions. "RusTrak" offers a variety of models with modern technical specifications. Reliable trucks maintain steady material haulage to production sites. Fleet renewal enables handling more complex tasks and increasing cargo volumes.
+        Gruzovye transportation yavlyayutsya vazhnym elementom ekonomicheskogo razvitiya and promyshlennoy logistics. solution buy new samosval allows povysit efficiency transportation materials and sokratit expenses on maintenance vehicles. when vybore podkhodyashchey models we vsegda will help potobrat vehicle for rabfromy in different torozhnykh conditions. company «RusTruck» offers raznoobraznye models with sovremennymi tekhnicheskimi kharakteristikami. Nadyozhnye vehicles podderzhivayut stabilnuyu perevozku cargo on proizvodstvennye ploshchadki. Obnovlenie parka allows vypolnyat more slozhnye tasks and uvelichivat capacity transportation.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Assortment
+        Product range
     </h2>
 
     <p>
-        "RusTrak" offers machinery for carrying bulk and construction materials. The dump truck catalog brings together models of various load capacities and configurations for operating under different conditions.
+        company «RusTruck» offers equipment for transportation sypuchikh and construction materials. Katalog samosvalov obedinyaet models razlichnoy gruzopodyomnosti and konfiguratsii for rabfromy in different conditions operation.
     </p>
 
     <p>
-        Available chassis options:
+        Available options chassis:
     </p>
 
     <ul class="list-none pl-0">
@@ -1589,7 +1592,7 @@ const en = {
             GAZ
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            VALDAI
+            VALDAY
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
             KOMPAS
@@ -1603,89 +1606,89 @@ const en = {
     </ul>
 
     <p>
-        Models differ in technical capabilities for executing various tasks. This approach ensures safe and effective material transportation, combining equipment reliability with practical usability.
+        models fromlichayutsya tekhnicheskimi kharakteristikami and vozmozhnostyami for vypolneniya different tasks. such podkhod provides safe and effektivnuyu transportirovku cargo, obedinyaya reliability oborutovaniya with praktichnostyu use.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Features of Dump Trucks
+        Features samosvalov
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Various payload capacities – allows transporting small and large bulk material volumes, picking models tailored to specific tasks.
+            Raznaya payload capacity – allows transport kak nebolshie, tak and krupnye obyomy sypuchikh materials, podbiraya model for konkretnye tasks.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Road condition adaptation – equipment copes easily with dirt, urban, and construction site roads.
+            Adaptatsiya to torozhnym usloviyam – equipment legko spravlyaetsya with gruntovymi, gorodskimi and stroitelnymi torogami.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Body configuration variety – option to select a truck with an optimal platform for specific loads makes buying a dump truck a precise decision.
+            Raznoobrazie konfiguratsiy kuzova – ability choose mashinu with optimalnoy platformoy for spetsificheskikh cargo delaet solution buy samosval more tochnym for tasks.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Economical fuel consumption – modern engines reduce running costs during heavy work.
+            Ekonomichnoe raskhotovanie topliva – modern engines snizhayut costs on operation when intensivnoy rabfrome.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Reliability and durability – sturdy chassis and quality components guarantee a long service life.
+            reliability and tolgovechnost – prochnye chassis and kachestvennye komplektuyushchie provide tolgiy service life equipment.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Maintenance simplicity – accessible spare parts and convenient design ease servicing and repairs.
+            Prostfroma maintenance – tostupnye spare parts and utobnaya construction oblegchayut tekhnicheskoe maintenance and repair.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Fields of Application
+        Applications
     </h2>
 
     <p>
-        Buying a dump truck is highly relevant for construction, where machinery is used to transport bulk materials, crushed stone, and soil to building sites. It delivers fast and effective cargo dispatch, cutting down logistics time.
+        buy avto samosval aktualno for stroitelstva, where equipment is used for transportation sypuchikh materials, shchebnya and grunta on stroitelnye ploshchadki. Ona provides bystruyu and effektivnuyu tostavku cargo, sokrashchaya time on logistiku.
     </p>
 
     <p>
-        In urban settings, such transport moves construction and domestic waste, participates in site clearing after snowfalls, and delivers materials for street and yard landscaping. The trucks easily manage diverse road conditions and tasks.
+        in urban conditions such transport perevozit stroitelnye and bytovye fromkhody, uchastvuet in raschistke territoriy posle snegopatov and tostavke materials for blagoustroystva ulits and dvorov. vehicles spravlyayutsya with razlichnymi torozhnymi usloviyami and zadachami.
     </p>
 
     <p>
-        In agricultural and forestry sectors, dump trucks carry crops, feed, timber, and fertilizers, providing dependable long-distance transit. At industrial and logistics sites, vehicles move materials between locations, driving up operational performance.
+        in selskoy and lesnoy fromrasli dump-trucks perevozyat urozhay, korm, drevesinu and utobreniya, providing nadyozhnuyu tostavku cargo on bolshie rasstoyaniya. on industrial and logisticheskikh obektakh vehicles are used for peremeshcheniya materials mezhdu ploshchadkami, povyshaya efficiency rabfromy.
     </p>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Advantages of Working with "RusTrak"
+        Advantages of working with «RusTruck»
     </h2>
 
     <ul class="list-none pl-0">
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Wide equipment selection – the dump truck catalog includes models of varying capacities and setups, suitable for any tasks and operating environments.
+            wide selection equipment – katalog samosvalov vklyuchaet models razlichnoy gruzopodyomnosti and konfiguratsii, podkhodyashchie for any tasks and conditions operation.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Consultations and selection – experts assist in picking a dump truck considering specific requirements and working conditions.
+            consultations and podbor – specialists help choose samosval with uchyotom konkretnykh trebovaniy and conditions rabfromy.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Quality warranty – the company offers only proven models with reliable chassis and components.
+            warranty quality – company offers tolko proverennye models with nadyozhnymi chassis and komplektuyushchimi.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Favorable purchase terms – specialists provide complete buying details and help calculate cargo dump truck costs for every model.
+            Vygodnye conditions purchase – specialists pretostavlyayut polnuyu informatsiyu o pokupke and help rasschitat stoimost gruzovogo samosvala for kazhtoy models.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Prompt delivery – vehicles are delivered in the shortest time, ensuring uninterrupted enterprise operations.
+            prompt tostavka – equipment is delivered in kratchayshie sroki, providing bespereboynuyu rabfromu predpriyatiy.
         </li>
         <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Experience and reputation – years of experience allow solving tasks of any complexity and maintaining customer trust.
+            experience and reputation – mnogoletniy experience allows reshat tasks lyuboy slozhnosti and podderzhivat toverie customers.
         </li>
     </ul>
 
     <h2 class="text-[22px] mt-5 mb-3">
-        Reliable Machinery for Any Conditions
+        Reliable equipment for any conditions
     </h2>
 
     <p>
-        Buying a new dump truck at a favorable price will boost cargo transportation efficiency and reduce expenses. Vehicles ensure stable operation under diverse conditions and fit a wide variety of tasks. "RusTrak" offers models with different payload capacities and setups. Explore the catalog and choose suitable machinery for your needs. Our experts will help select the best option and answer all questions regarding delivery and operation. Reach out to us in any convenient way to place an order and ensure stable project execution.
+        buy new samosval price kfromorogo vygodna, pozvolit povysit efficiency transportation cargo and sokratit costs. vehicles provide stabilnuyu operation in different conditions and podkhodyat for samykh raznoobraznykh tasks. company «RusTruck» offers models with razlichnoy gruzopodyomnostyu and konfiguratsiey. Oznakomtes with katalogom and vyberite podkhodyashchuyu equipment for svoikh nuzhd. our specialists pomogut potobrat optimalnyy variant and fromvetyat on all voprosy po postavke and operation. for processing order contact with us any utobnym way and obespechte stabilnuyu rabfromu svoikh proektov.
     </p>
 </div>
                                  `,
                     },
                     {
                         id: 11,
-                        name: "ADR Category EXII Vehicles",
-                        slug: "adr-category-exii-vehicles",
+                        name: "ADR EXII category vehicles",
+                        slug: "автомобили-допог-категории-exii",
                         brandsOfTrucks: {
                             brands: ["KAMAZ", "JAC", "DAEWOO"],
                         },
@@ -1712,21 +1715,21 @@ const en = {
 
                             lengths: [
                                 {
-                                    option: "5.2...6.2",
+                                    option: "5,2...6,2",
                                 },
                                 {
-                                    option: "6.2",
+                                    option: "6,2",
                                 },
                                 {
-                                    option: "6.6",
+                                    option: "6,6",
                                 },
                                 {
-                                    option: "8.2",
+                                    option: "8,2",
                                 },
                             ],
                         },
 
-                        loaderCapacity: "Lifting capacity of CMU, tons",
+                        loaderCapacity: "Truck-mounted crane capacity, tons",
 
                         rangeSliderTexts: {
                             from: "from",
@@ -1740,7 +1743,7 @@ const en = {
                 title: "About us",
                 links: [
                     {
-                        name: "About RusTrak LLC",
+                        name: "About RusTruck LLC",
                         path: "/about",
                     },
                     {
@@ -1752,7 +1755,7 @@ const en = {
                         path: "/partners",
                     },
                     {
-                        name: "Production",
+                        name: "Manufacturing",
                         path: "/production",
                     },
                     {
@@ -1772,7 +1775,7 @@ const en = {
                         path: "/vacancies",
                     },
                     {
-                        name: "Credit and leasing",
+                        name: "Loans and leasing",
                         path: "/leasing",
                     },
                 ],
@@ -1786,11 +1789,11 @@ const en = {
                         path: "/photogallery",
                     },
                     {
-                        name: "Video",
+                        name: "Videos",
                         path: "/video",
                     },
                     {
-                        name: "Promotional materials",
+                        name: "Advertising materials",
                         path: "/promo",
                     },
                     {

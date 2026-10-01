@@ -37,8 +37,7 @@ const uz = {
                     {
                         id: 1,
                         name: "Chodirli avtomobillar",
-                        slug: "chodirli-avtomobillar",
-
+                        slug: "шторные-автомобили",
                         brandsOfTrucks: {
                             brands: [
                                 "GAZ",
@@ -279,7 +278,7 @@ const uz = {
                     {
                         id: 2,
                         name: "Kran-manipulyatorlar",
-                        slug: "кран-манипуляторлар",
+                        slug: "краны-манипуляторы",
                         brandsOfTrucks: {
                             brands: [
                                 "GAZ",
@@ -553,7 +552,7 @@ const uz = {
                     {
                         id: 3,
                         name: "Avtoyoqilg'i quyuvchilar",
-                        slug: "автоyoqilgi-quyuvchilar",
+                        slug: "автотопливозаправщики",
                         priceRange: {
                             title: "Narx",
                             from: "dan",
@@ -655,7 +654,7 @@ const uz = {
                     {
                         id: 4,
                         name: "Avtogidroko'targichlar",
-                        slug: "автоgidrokotargichlar",
+                        slug: "автогидроподъёмники",
                         brandsOfTrucks: {
                             brands: ["GAZ"],
                         },
@@ -796,7 +795,7 @@ const uz = {
                     {
                         id: 5,
                         name: "Avtosisternalar",
-                        slug: "автоsisternalar",
+                        slug: "автоцистерны",
                         brands: ["GAZ", "KAMAZ", "JAC"],
 
                         typesOfTanks: {
@@ -941,7 +940,7 @@ const uz = {
                     {
                         id: 6,
                         name: "Avtomobil-evakuatorlar",
-                        slug: "автоmobil-evakuatorlar",
+                        slug: "автомобили-эвакуаторы",
                         brandsOfTrucks: {
                             brands: ["GAZ"],
                         },
@@ -1085,7 +1084,7 @@ const uz = {
                     {
                         id: 7,
                         name: "Izotermik furgonlar",
-                        slug: "izotermik-furgonlar",
+                        slug: "изотермические-фургоны",
                         brandsOfTrucks: {
                             brands: [
                                 "GAZ",
@@ -1274,7 +1273,7 @@ const uz = {
                     {
                         id: 8,
                         name: "Konteyner tashuvchilar",
-                        slug: "konteyner-tashuvchilar",
+                        slug: "контейнеровозы",
                         brandsOfTrucks: {
                             brands: ["GAZ", "KAMAZ"],
                         },
@@ -1394,7 +1393,7 @@ const uz = {
                     {
                         id: 9,
                         name: "Ilmoqli yuklagichlar (Multilift)",
-                        slug: "ilmoqli-yuklagichlar",
+                        slug: "крюковые-погрузчики",
                         WheelFormula: {
                             title: "G'ildirak formulasi",
 
@@ -1519,7 +1518,7 @@ const uz = {
                     {
                         id: 10,
                         name: "Ag'darma yukmashinalar (Samosvallar)",
-                        slug: "samosvallar",
+                        slug: "самосвалы",
                         brandsOfTrucks: {
                             brands: ["KAMAZ", "JAC"],
                         },
@@ -1677,7 +1676,7 @@ const uz = {
                     {
                         id: 11,
                         name: "EXII toifasidagi DOPOG avtomobillari",
-                        slug: "dopog-exii-avtomobillari",
+                        slug: "автомобили-допог-категории-exii",
                         brandsOfTrucks: {
                             brands: ["KAMAZ", "JAC", "DAEWOO"],
                         },
