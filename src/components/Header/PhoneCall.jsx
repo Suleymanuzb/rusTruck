@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { icons } from "../../assets/icons/icons";
 const { PhoneIcon } = icons;
 
-const PhoneCall = ({ className = "", IconClassname = "" }) => {
+const PhoneCall = ({ onClick, className = "", IconClassname = "" }) => {
     const { t } = useTranslation();
 
     return (
@@ -20,6 +20,7 @@ const PhoneCall = ({ className = "", IconClassname = "" }) => {
 
             {/*phone icon  */}
             <button
+                onClick={onClick}
                 type='button'
                 className={`${className} md:w-[3.7rem]
         md:h-[3.7rem]

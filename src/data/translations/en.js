@@ -1827,6 +1827,7 @@ const en = {
     },
 
     filteredPage: {
+        notInsale: "Not in Sale",
         intro: {
             sortText: "Sort:",
 

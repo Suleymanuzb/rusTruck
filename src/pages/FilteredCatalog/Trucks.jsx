@@ -22,7 +22,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
 
     return (
         <div
-            className={`gap-5 ${isLine ? "grid grid-cols-1" : "grid grid-cols-2 md:grid-cols-3 min-[928px]:grid-cols-4 min-[1024px]:grid-cols-2! min-[1036px]:grid-cols-3!"}`}
+            className={`flex flex-col gap-5 ${isLine ? "grid grid-cols-1" : "grid grid-cols-2 md:grid-cols-3 min-[928px]:grid-cols-4 min-[1024px]:grid-cols-2! min-[1036px]:grid-cols-3!"}`}
         >
             {matchingTrucks.map((truck) => {
                 const isLiked = favourites.some(
@@ -72,7 +72,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                 return (
                     <div
                         key={truck.id}
-                        className={`bg-white w-full flex flex-col ${isLine ? "col-span-1 flex max-[665px]:flex-col max-[400px]:gap-1 gap-4 items-center" : ""}`}
+                        className={`bg-white w-full ${isLine ? "col-span-1 flex max-[665px]:flex-col max-[400px]:gap-1 gap-4 items-center" : "flex flex-col"}  md:h-full`}
                     >
                         <div className={`relative max-[665px]:w-full`}>
                             <Link
@@ -93,7 +93,7 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                                             <span
                                                 className={`text-xl px-5 py-2 ${isLine ? "whitespace-nowrap text-sm" : "whitespace-normal"}`}
                                             >
-                                                Нет в продаже
+                                                {t("filteredPage.notInsale")}
                                             </span>
                                         </div>
                                     )}
@@ -122,16 +122,16 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
 
                         {/* here texts sites */}
                         <div
-                            className={`px-3 py-4 ${isLine ? "flex  max-[580px]:flex-col flex-row gap-10 w-full justify-between " : ""} flex flex-col items-start`}
+                            className={`lg:mb-4 px-3 py-4 ${isLine ? "flex max-[580px]:flex-col flex-row gap-10 w-full justify-between " : "flex flex-col flex-1"}`}
                         >
                             <div>
                                 <p
-                                    className={`${isLine ? "text-sm" : "font-medium text-[16px] sm:text-lg"} max-[490px]:text-start max-[490px]:text-[12px]   mb-1md:mb-4 leading-[130%] line-clamp-2`}
+                                    className={`${isLine ? "text-sm" : "font-medium text-[16px] sm:text-lg"} max-[490px]:text-center max-[490px]:text-[12px]   mb-1md:mb-4 leading-[130%] line-clamp-2`}
                                 >
                                     {truckCurrentLang?.truckType}
                                 </p>
                                 <h5
-                                    className={`text-normal lg:text-[22px] max-[490px]:text-start font-medium mb-3 ${isLine ? "hidden" : "whitespace-nowrap max-[490px]:text-[12px] sm:text-sm md:text-lg lg:text-xl"}`}
+                                    className={`text-normal lg:text-[22px] max-[490px]:text-center font-medium mb-3 ${isLine ? "hidden" : "whitespace-nowrap max-[490px]:text-[12px] sm:text-sm md:text-lg lg:text-xl"}`}
                                 >
                                     {truckCurrentLang?.price}
                                 </h5>
@@ -208,22 +208,22 @@ const Trucks = ({ matchingTrucks, i18n, category, isLine, isTable }) => {
                             {/* isLine div */}
 
                             <div
-                                className={`mt-auto flex max-[490px]:items-start items-center gap-2 max-[768px]:flex-col max-[1024px]:flex-col max-[1036px]:flex-row max-[1250px]:flex-col max-[1250px]:gap-3 ${!truck.available ? "hidden" : ""} ${isLine ? "hidden" : ""}`}
+                                className={`flex items-center gap-2 max-[768px]:flex-col max-[1024px]:flex-col max-[1036px]:flex-row max-[1250px]:flex-col max-[1250px]:gap-3 ${!truck.available ? "hidden" : ""} ${isLine ? "hidden" : "mt-auto"}`}
                             >
                                 <Link
                                     to={`/catalog/${category}/${truck.id}`}
                                     variant='btn_big'
-                                    className='text-sm text-center max-[490px]:py-2 max-[490px]:text-[12px] max-[490px]:px-4 max-[550px]:py-3 max-[550px]:px-1 whitespace-nowrap bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135] rounded-md leading-none py-3 lg:py-4 px-3 min-[490px]:w-full'
+                                    className='text-sm text-center max-[490px]:py-2 max-[490px]:text-[12px] max-[490px]:px-4 max-[550px]:py-3 max-[550px]:px-1 whitespace-nowrap bg-[#FEC80B] transform duration-300 cursor-pointer hover:bg-[#FFD43A] active:bg-[#E9C135] rounded-md leading-none py-4 min-[490px]:w-full'
                                 >
                                     {truckCurrentLang?.buttons.more}
                                 </Link>
 
-                                <div className=' max-[490px]:text-start min-[490px]:w-full flex max-[490px]:items-start items-center gap-2 max-[360px]:flex-col  max-[768px]:flex-row  max-[768px]:justify-center max-[1036px]:self-center max-[1250px]:self-start'>
-                                    <div className='flex max-[490px]:items-start items-center gap-2'>
+                                <div className='max-[490px]:text-center min-[490px]:w-full flex items-center gap-2 max-[450px]:flex-col  max-[768px]:flex-row  max-[768px]:justify-center max-[1036px]:self-center max-[1250px]:self-start'>
+                                    <div className='flex items-center gap-2'>
                                         <button
                                             onClick={() => addToCart(truck.id)}
                                         >
-                                            <KorzinkaIcon className='max-[490px]:text-start max-[490px]:w-5 max-[490px]:h-5 h-8 w-8 cursor-pointer transition-all duration-150 hover:scale-110 active:scale-90 active:opacity-60' />
+                                            <KorzinkaIcon className='max-[490px]:w-5 max-[490px]:h-5  h-8 w-8 cursor-pointer transition-all duration-150 hover:scale-110 active:scale-90 active:opacity-60' />
                                         </button>
                                     </div>
 

@@ -7,10 +7,11 @@ import useFancybox from "./FancyHook";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import { icons } from "../../assets/icons/icons";
 import AnyQuestions from "../../components/AnyQuestions/AnyQuestions";
-const { IconService, IconWarranty, IconDelivery } = icons;
+const { IconService, IconWarranty, IconDelivery, IconHeartBgWhite } = icons;
 import Modal from "./Modal";
 import { useState } from "react";
 import { useCartStore } from "../../store/cartStore";
+import SimilarProducts from "./SimilarProdcts";
 
 const ProductDetails = () => {
     const [fancyboxRef] = useFancybox();
@@ -18,12 +19,16 @@ const ProductDetails = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const { productId } = useParams();
-    // console.log(productId);
+
+    const currentTruckA = trucks.find((item) => item.id === Number(productId));
+
+    const similarTrucks = trucks.filter(
+        (truck) => truck.categoryId === currentTruckA?.categoryId,
+    );
+
     const { i18n } = useTranslation();
 
     const currentTruck = trucks.find((truck) => truck.id === Number(productId));
-    // console.log(currentTruck);
-
     const product = currentTruck?.[i18n.language];
 
     const addToCart = useCartStore((state) => state.addToCart);
@@ -319,6 +324,11 @@ const ProductDetails = () => {
                 )}
             </Container>
             {isOpen && <Modal onClose={() => setIsOpen(false)} />}
+
+            {/* similar trucks */}
+            <Container>
+                <SimilarProducts similarTrucks={similarTrucks} />
+            </Container>
 
             <AnyQuestions />
         </div>

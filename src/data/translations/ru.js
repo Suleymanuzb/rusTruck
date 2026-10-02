@@ -1826,6 +1826,7 @@ const ru = {
     },
 
     filteredPage: {
+        notInsale: "Нет в продаже",
         intro: {
             sortText: "Сортировка:",
 
@@ -2122,6 +2123,10 @@ const ru = {
         back: "Назад",
         next: "Дальше",
         button: "Покозать ещё",
+
+        similarTrucks: {
+            title: "Похожие грузовики",
+        },
     },
 
     footer: {

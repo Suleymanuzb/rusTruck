@@ -6857,6 +6857,2275 @@ const trucks = [
         },
     },
 
+    // COPY COPY COPY
+    {
+        available: true,
+        recommended: true,
+
+        id: 7,
+        slug: "kran-manipulyator-maz-6312s5-8535-012-s-kmu-inman-it-150-model-4389n8",
+        categoryId: 2,
+        brand: "МАЗ",
+
+        images: {
+            image: mainTruckImage7,
+            drawing: truckDrawing7,
+        },
+
+        gallery: [
+            { image: galleryOf1TruckImage7 },
+            { image: galleryOf2TruckImage7 },
+            { image: galleryOf3TruckImage7 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                more: "Подробнее",
+                getPk: "Получить КП",
+                addToCart: "Добавить в корзину",
+            },
+
+            truckType:
+                "Кран-манипулятор МАЗ 6312С5-8535-012 с КМУ ИНМАН ИТ 150 (модель 4389N8)",
+
+            category: "Краны-манипуляторы",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "МАЗ 6312С5-8535-012",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "ЯМЗ-53603, 300 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая 9-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "10650",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3705",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "4600+1400",
+                    },
+                    {
+                        title: "Длина платформы, мм",
+                        value: "6700",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "33500",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "17880",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "17360",
+                    },
+                    {
+                        title: "Грузоподъёмность КМУ, тонн",
+                        value: "7,05",
+                    },
+                    {
+                        title: "Вылет стрелы, м",
+                        value: "8,05",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Кран-манипулятор МАЗ 6312С5-8535-012 с КМУ ИНМАН ИТ 150",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "МАЗ 6312С5-8535-012",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Бортовая платформа с КМУ",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "ЯМЗ-53603, 300 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая 9-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "4600+1400",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, ДхШхВ (мм)",
+                            value: "10650х2550х3705",
+                        },
+                        {
+                            title: "Полная масса (кг)",
+                            value: "33500",
+                        },
+                        {
+                            title: "Снаряженная масса (кг)",
+                            value: "17880",
+                        },
+                        {
+                            title: "Габаритные размеры бортовой платформы, ДхШхВ (мм)",
+                            value: "6700х2550х600",
+                        },
+                        {
+                            title: "Основание бортовой платформы",
+                            value: "Сварная рамная конструкция из открытых профилей. Состоит из продольных лонжеронов и поперечных балок, окантовочного и передней стенки профиля HOSSEN. Оцинкованные петли крепления груза в окантовочном профиле платформы (не уменьшают погрузочную ширину платформы), 5 шт. с каждой стороны.",
+                        },
+                        {
+                            title: "Пол",
+                            value: "Влагостойкая фанера толщиной 24 мм с противоскользящим покрытием.",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "Стальные оцинкованные или алюминиевые борта, откидывающиеся, количество секций – 2 шт. на сторону, высота 600 мм. Угол открывания бортов – 180О. Быстросъёмные стойки ломающегося типа по 2 на сторону с алюминиевыми замками.",
+                        },
+                        {
+                            title: "Прочее оборудование",
+                            value: "Пластиковые крылья, брызговики. Боковые влагозащитные габаритные огни. Боковая защита из алюминиевых профилей на откидных оцинкованных кронштейнах. Заднее защитное устройство. Ступень для подъёма на платформу.",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Характеристики крано-манипуляторной установки ИНМАН ИТ 150",
+
+                    items: [
+                        {
+                            title: "Максимальный грузовой момент, тм",
+                            value: "15,0",
+                        },
+                        {
+                            title: "Максимальная грузоподъёмность, кг",
+                            value: "7050",
+                        },
+                        {
+                            title: "Минимальный вылет стрелы, м",
+                            value: "4,6",
+                        },
+                        {
+                            title: "Г/п на максимальном вылете, кг",
+                            value: "300",
+                        },
+                        {
+                            title: "Максимальный вылет стрелы, м",
+                            value: "19,0",
+                        },
+                        {
+                            title: "Стрела / количество секций",
+                            value: "Гексагональная / 6 секции",
+                        },
+                        {
+                            title: "Угол подъема стрелы, °",
+                            value: "0 ~ 75",
+                        },
+                        {
+                            title: "Угол поворота колонны, °",
+                            value: "420",
+                        },
+                        {
+                            title: "Передние аутригеры",
+                            value: "Размах 5,631 м",
+                        },
+                        {
+                            title: "Задние аутригеры",
+                            value: "-",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            truckType:
+                "MAZ 6312S5-8535-012 truck crane with INMAN IT 150 crane-manipulator unit (model 4389N8)",
+
+            category: "Truck Cranes",
+
+            buttons: {
+                more: "Details",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "MAZ 6312S5-8535-012",
+                    },
+                    {
+                        title: "Engine",
+                        value: "YaMZ-53603, 300 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 9-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "10650",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3705",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "4600+1400",
+                    },
+                    {
+                        title: "Platform length, mm",
+                        value: "6700",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "33500",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "17880",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "17360",
+                    },
+                    {
+                        title: "Crane capacity, tons",
+                        value: "7.05",
+                    },
+                    {
+                        title: "Boom reach, m",
+                        value: "8.05",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "MAZ 6312S5-8535-012 truck crane with INMAN IT 150 crane-manipulator unit",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "MAZ 6312S5-8535-012",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Flatbed platform with crane-manipulator unit",
+                        },
+                        {
+                            title: "Engine",
+                            value: "YaMZ-53603, 300 hp",
+                        },
+                        {
+                            title: "Transmission",
+                            value: "Manual, 9-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "4600+1400",
+                        },
+                        {
+                            title: "Overall vehicle dimensions, L×W×H (mm)",
+                            value: "10650×2550×3705",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "33500",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "17880",
+                        },
+                        {
+                            title: "Flatbed platform dimensions, L×W×H (mm)",
+                            value: "6700×2550×600",
+                        },
+                        {
+                            title: "Flatbed platform base",
+                            value: "Welded frame construction made of open profiles. It consists of longitudinal members and cross beams, with edging and a front wall made of HOSSEN profile. Galvanized cargo securing loops are installed in the platform edging profile and do not reduce the loading width of the platform, with 5 pieces on each side.",
+                        },
+                        {
+                            title: "Floor",
+                            value: "24 mm thick moisture-resistant plywood with anti-slip coating.",
+                        },
+                        {
+                            title: "Platform sideboards",
+                            value: "Steel galvanized or aluminum fold-down sideboards, 2 sections per side, with a height of 600 mm. Opening angle – 180°. Quick-release folding-type posts, 2 per side, with aluminum locks.",
+                        },
+                        {
+                            title: "Other equipment",
+                            value: "Plastic fenders and mudguards. Side moisture-resistant marker lights. Side protection made of aluminum profiles on folding galvanized brackets. Rear protective device. Step for access to the platform.",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Specifications of the INMAN IT 150 crane-manipulator unit",
+
+                    items: [
+                        {
+                            title: "Maximum load moment, tm",
+                            value: "15.0",
+                        },
+                        {
+                            title: "Maximum lifting capacity, kg",
+                            value: "7050",
+                        },
+                        {
+                            title: "Minimum boom reach, m",
+                            value: "4.6",
+                        },
+                        {
+                            title: "Lifting capacity at maximum reach, kg",
+                            value: "300",
+                        },
+                        {
+                            title: "Maximum boom reach, m",
+                            value: "19.0",
+                        },
+                        {
+                            title: "Boom / number of sections",
+                            value: "Hexagonal / 6 sections",
+                        },
+                        {
+                            title: "Boom lifting angle, °",
+                            value: "0 ~ 75",
+                        },
+                        {
+                            title: "Column rotation angle, °",
+                            value: "420",
+                        },
+                        {
+                            title: "Front outriggers",
+                            value: "Span 5.631 m",
+                        },
+                        {
+                            title: "Rear outriggers",
+                            value: "-",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            truckType:
+                "MAZ 6312S5-8535-012 avtomobili, INMAN IT 150 kran-manipulyatori bilan (4389N8 modeli)",
+
+            category: "Kran-manipulyatorlar",
+
+            buttons: {
+                more: "Batafsil",
+                getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "MAZ 6312S5-8535-012",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "YaMZ-53603, 300 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 9 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "10650",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3705",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "4600+1400",
+                    },
+                    {
+                        title: "Platforma uzunligi, mm",
+                        value: "6700",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "33500",
+                    },
+                    {
+                        title: "Bo‘sh avtomobil massasi, kg",
+                        value: "17880",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "17360",
+                    },
+                    {
+                        title: "Kran yuk ko‘tarish qobiliyati, tonna",
+                        value: "7,05",
+                    },
+                    {
+                        title: "Strela chiqish masofasi, m",
+                        value: "8,05",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "MAZ 6312S5-8535-012 avtomobili, INMAN IT 150 kran-manipulyatori bilan",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "MAZ 6312S5-8535-012",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "Bortli platforma s kran-manipulyator",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "YaMZ-53603, 300 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 9 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "4600+1400",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, U×K×B (mm)",
+                            value: "10650×2550×3705",
+                        },
+                        {
+                            title: "To‘liq massa, kg",
+                            value: "33500",
+                        },
+                        {
+                            title: "Bo‘sh avtomobil massasi, kg",
+                            value: "17880",
+                        },
+                        {
+                            title: "Bortli platformaning gabarit o‘lchamlari, U×K×B (mm)",
+                            value: "6700×2550×600",
+                        },
+                        {
+                            title: "Bortli platforma asosi",
+                            value: "Ochiq profillardan tayyorlangan payvandlangan rama konstruksiyasi. Bo‘ylama lonjeronlar va ko‘ndalang balkalardan, shuningdek HOSSEN profilidan tayyorlangan chegara va old devordan tashkil topgan. Platformaning chegara profiliga galvanizatsiyalangan yuk mahkamlash halqalari o‘rnatilgan, har bir tomonda 5 tadan.",
+                        },
+                        {
+                            title: "Pol",
+                            value: "Qalinligi 24 mm bo‘lgan, sirpanishga qarshi qoplamali namlikka chidamli fanera.",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Po‘latdan galvanizatsiyalangan yoki alyuminiy bukiladigan bortlar, har bir tomonda 2 ta seksiya, balandligi 600 mm. Ochilish burchagi — 180°. Har bir tomonda 2 tadan tez yechiladigan bukiladigan turdagi ustunlar, alyuminiy qulflar bilan.",
+                        },
+                        {
+                            title: "Boshqa jihozlar",
+                            value: "Plastik qanotlar va loy sachratkichlar. Yon namlikdan himoyalangan gabarit chiroqlari. Bukiladigan galvanizatsiyalangan kronshteynlardagi alyuminiy profillardan tayyorlangan yon himoya. Orqa himoya qurilmasi. Platformaga chiqish uchun zina.",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "INMAN IT 150 kran-manipulyator qurilmasining texnik xususiyatlari",
+
+                    items: [
+                        {
+                            title: "Maksimal yuk momenti, tm",
+                            value: "15,0",
+                        },
+                        {
+                            title: "Maksimal yuk ko‘tarish qobiliyati, kg",
+                            value: "7050",
+                        },
+                        {
+                            title: "Strelaning minimal chiqish masofasi, m",
+                            value: "4,6",
+                        },
+                        {
+                            title: "Maksimal chiqish masofasidagi yuk ko‘tarish qobiliyati, kg",
+                            value: "300",
+                        },
+                        {
+                            title: "Strelaning maksimal chiqish masofasi, m",
+                            value: "19,0",
+                        },
+                        {
+                            title: "Strela / seksiyalar soni",
+                            value: "Geksagonal / 6 seksiya",
+                        },
+                        {
+                            title: "Strelani ko‘tarish burchagi, °",
+                            value: "0 ~ 75",
+                        },
+                        {
+                            title: "Kolonnaning aylanish burchagi, °",
+                            value: "420",
+                        },
+                        {
+                            title: "Oldingi tayanchlar",
+                            value: "Oraliq 5,631 m",
+                        },
+                        {
+                            title: "Orqa tayanchlar",
+                            value: "-",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: true,
+
+        id: 8,
+        slug: "kran-manipulyator-maz-631228-s-kmu-palfinger-spk-23500",
+        categoryId: 2,
+        brand: "МАЗ",
+
+        images: {
+            image: mainTruckImage8,
+        },
+
+        gallery: [
+            { image: galleryOf1TruckImage8 },
+            { image: galleryOf2TruckImage8 },
+            { image: galleryOf3TruckImage8 },
+            { image: galleryOf4TruckImage8 },
+            { image: galleryOf5TruckImage8 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                more: "Подробнее",
+                getPk: "Получить КП",
+                addToCart: "Добавить в корзину",
+            },
+
+            truckType: "Кран-манипулятор МАЗ 631228 с КМУ PALFINGER SPK 23500",
+
+            category: "Краны-манипуляторы",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "МАЗ 631228",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "WP 12.430Е50, 423 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 16-ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "10580",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3520",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "4600+1400",
+                    },
+                    {
+                        title: "Длина платформы, мм",
+                        value: "6200",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "33500",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "16000",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "17500",
+                    },
+                    {
+                        title: "Грузоподъёмность КМУ, тонн",
+                        value: "10,0",
+                    },
+                    {
+                        title: "Вылет стрелы, м",
+                        value: "12,3",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Кран-манипулятор МАЗ 631228 с PALFINGER SPK 23500",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "МАЗ-631228-8525-012",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Бортовая платформа с КМУ",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "WP 12.430Е50, 423 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 16-ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "4600+1400",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, ДхШхВ (мм)",
+                            value: "10580х2550х3520",
+                        },
+                        {
+                            title: "Полная масса (кг)",
+                            value: "33500",
+                        },
+                        {
+                            title: "Снаряженная масса (кг)",
+                            value: "16000",
+                        },
+                        {
+                            title: "Габаритные размеры бортовой платформы, ДхШхВ (мм)",
+                            value: "6200х2550х600",
+                        },
+                        {
+                            title: "Основание бортовой платформы",
+                            value: "Сварная рамная конструкция из открытых профилей. Состоит из продольных лонжеронов и поперечных балок, окантовочного и передней стенки профиля HOSSEN. Оцинкованные петли крепления груза в окантовочном профиле платформы (не уменьшают погрузочную ширину платформы), 5 шт. с каждой стороны.",
+                        },
+                        {
+                            title: "Пол",
+                            value: "Влагостойкая фанера с противоскользящим покрытием.",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "Стальные оцинкованные или алюминиевые борта, откидывающиеся, количество секций – 2 шт. на сторону, высота 400 или 600 мм. Угол открывания бортов – 180О. Быстросъёмные стойки ломающегося типа по 1 на сторону с алюминиевыми замками.",
+                        },
+                        {
+                            title: "Прочее оборудование",
+                            value: "Пластиковые крылья, брызговики. Боковые влагозащитные габаритные огни. Боковая защита из алюминиевых профилей на откидных оцинкованных кронштейнах. Заднее защитное устройство. Ступень для подъёма на платформу.",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Характеристики крано-манипуляторной установки PALFINGER SPK 23500",
+
+                    items: [
+                        {
+                            title: "Максимальный грузовой момент, тм",
+                            value: "21,5",
+                        },
+                        {
+                            title: "Максимальная грузоподъёмность, кг",
+                            value: "10000",
+                        },
+                        {
+                            title: "Г/п на максимальном вылете, кг",
+                            value: "1560",
+                        },
+                        {
+                            title: "Максимальный вылет стрелы, м",
+                            value: "12,3",
+                        },
+                        {
+                            title: "Стрела / количество секций",
+                            value: "Гексагональная / 4 секции",
+                        },
+                        {
+                            title: "Угол вращения колонны вокруг своей оси, град",
+                            value: "400°",
+                        },
+                        {
+                            title: "Передние аутригеры",
+                            value: "Наличие",
+                        },
+                        {
+                            title: "Задние аутригеры",
+                            value: "Размах 4,8 м",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            truckType:
+                "MAZ 631228 truck crane with PALFINGER SPK 23500 crane-manipulator unit",
+
+            category: "Truck Cranes",
+
+            buttons: {
+                more: "Details",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "MAZ 631228",
+                    },
+                    {
+                        title: "Engine",
+                        value: "WP 12.430E50, 423 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 16-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "10580",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3520",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "4600+1400",
+                    },
+                    {
+                        title: "Platform length, mm",
+                        value: "6200",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "33500",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "16000",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "17500",
+                    },
+                    {
+                        title: "Crane capacity, tons",
+                        value: "10.0",
+                    },
+                    {
+                        title: "Boom reach, m",
+                        value: "12.3",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "MAZ 631228 truck crane with PALFINGER SPK 23500",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "MAZ-631228-8525-012",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Flatbed platform with crane-manipulator unit",
+                        },
+                        {
+                            title: "Engine",
+                            value: "WP 12.430E50, 423 hp",
+                        },
+                        {
+                            title: "Transmission",
+                            value: "Manual, 16-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "4600+1400",
+                        },
+                        {
+                            title: "Overall vehicle dimensions, L×W×H (mm)",
+                            value: "10580×2550×3520",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "33500",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "16000",
+                        },
+                        {
+                            title: "Flatbed platform dimensions, L×W×H (mm)",
+                            value: "6200×2550×600",
+                        },
+                        {
+                            title: "Flatbed platform base",
+                            value: "Welded frame construction made of open profiles. It consists of longitudinal members and cross beams, with edging and a front wall made of HOSSEN profile. Galvanized cargo securing loops are installed in the platform edging profile and do not reduce the loading width of the platform, with 5 pieces on each side.",
+                        },
+                        {
+                            title: "Floor",
+                            value: "Moisture-resistant plywood with anti-slip coating.",
+                        },
+                        {
+                            title: "Platform sideboards",
+                            value: "Steel galvanized or aluminum fold-down sideboards, 2 sections per side, with a height of 400 or 600 mm. Opening angle – 180°. Quick-release folding-type posts, 1 per side, with aluminum locks.",
+                        },
+                        {
+                            title: "Other equipment",
+                            value: "Plastic fenders and mudguards. Side moisture-resistant marker lights. Side protection made of aluminum profiles on folding galvanized brackets. Rear protective device. Step for access to the platform.",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Specifications of the PALFINGER SPK 23500 crane-manipulator unit",
+
+                    items: [
+                        {
+                            title: "Maximum load moment, tm",
+                            value: "21.5",
+                        },
+                        {
+                            title: "Maximum lifting capacity, kg",
+                            value: "10000",
+                        },
+                        {
+                            title: "Lifting capacity at maximum reach, kg",
+                            value: "1560",
+                        },
+                        {
+                            title: "Maximum boom reach, m",
+                            value: "12.3",
+                        },
+                        {
+                            title: "Boom / number of sections",
+                            value: "Hexagonal / 4 sections",
+                        },
+                        {
+                            title: "Column rotation angle around its axis, degrees",
+                            value: "400°",
+                        },
+                        {
+                            title: "Front outriggers",
+                            value: "Available",
+                        },
+                        {
+                            title: "Rear outriggers",
+                            value: "Span 4.8 m",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            truckType:
+                "MAZ 631228 avtomobili, PALFINGER SPK 23500 kran-manipulyatori bilan",
+
+            category: "Kran-manipulyatorlar",
+
+            buttons: {
+                more: "Batafsil",
+                getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+            },
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "MAZ 631228",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "WP 12.430E50, 423 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 16 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "10580",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3520",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "4600+1400",
+                    },
+                    {
+                        title: "Platforma uzunligi, mm",
+                        value: "6200",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "33500",
+                    },
+                    {
+                        title: "Bo‘sh avtomobil massasi, kg",
+                        value: "16000",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "17500",
+                    },
+                    {
+                        title: "Kran yuk ko‘tarish qobiliyati, tonna",
+                        value: "10,0",
+                    },
+                    {
+                        title: "Strela chiqish masofasi, m",
+                        value: "12,3",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "MAZ 631228 avtomobili, PALFINGER SPK 23500 kran-manipulyatori bilan",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "MAZ-631228-8525-012",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "Bortli platforma va kran-manipulyator",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "WP 12.430E50, 423 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 16 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "4600+1400",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, U×K×B (mm)",
+                            value: "10580×2550×3520",
+                        },
+                        {
+                            title: "To‘liq massa, kg",
+                            value: "33500",
+                        },
+                        {
+                            title: "Bo‘sh avtomobil massasi, kg",
+                            value: "16000",
+                        },
+                        {
+                            title: "Bortli platformaning gabarit o‘lchamlari, U×K×B (mm)",
+                            value: "6200×2550×600",
+                        },
+                        {
+                            title: "Bortli platforma asosi",
+                            value: "Ochiq profillardan tayyorlangan payvandlangan rama konstruksiyasi. Bo‘ylama lonjeronlar va ko‘ndalang balkalardan, shuningdek HOSSEN profilidan tayyorlangan chegara va old devordan tashkil topgan. Platformaning chegara profiliga galvanizatsiyalangan yuk mahkamlash halqalari o‘rnatilgan, har bir tomonda 5 tadan.",
+                        },
+                        {
+                            title: "Pol",
+                            value: "Sirpanishga qarshi qoplamali namlikka chidamli fanera.",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Po‘latdan galvanizatsiyalangan yoki alyuminiy bukiladigan bortlar, har bir tomonda 2 ta seksiya, balandligi 400 yoki 600 mm. Ochilish burchagi — 180°. Har bir tomonda 1 tadan tez yechiladigan bukiladigan turdagi ustunlar, alyuminiy qulflar bilan.",
+                        },
+                        {
+                            title: "Boshqa jihozlar",
+                            value: "Plastik qanotlar va loy sachratkichlar. Yon namlikdan himoyalangan gabarit chiroqlari. Bukiladigan galvanizatsiyalangan kronshteynlardagi alyuminiy profillardan tayyorlangan yon himoya. Orqa himoya qurilmasi. Platformaga chiqish uchun zina.",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "PALFINGER SPK 23500 kran-manipulyator qurilmasining texnik xususiyatlari",
+
+                    items: [
+                        {
+                            title: "Maksimal yuk momenti, tm",
+                            value: "21,5",
+                        },
+                        {
+                            title: "Maksimal yuk ko‘tarish qobiliyati, kg",
+                            value: "10000",
+                        },
+                        {
+                            title: "Maksimal chiqish masofasidagi yuk ko‘tarish qobiliyati, kg",
+                            value: "1560",
+                        },
+                        {
+                            title: "Strelaning maksimal chiqish masofasi, m",
+                            value: "12,3",
+                        },
+                        {
+                            title: "Strela / seksiyalar soni",
+                            value: "Geksagonal / 4 seksiya",
+                        },
+                        {
+                            title: "Kolonnaning o‘z o‘qi atrofida aylanish burchagi, daraja",
+                            value: "400°",
+                        },
+                        {
+                            title: "Oldingi tayanchlar",
+                            value: "Mavjud",
+                        },
+                        {
+                            title: "Orqa tayanchlar",
+                            value: "Oraliq 4,8 m",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: true,
+
+        id: 9,
+        slug: "kran-manipulyator-maz-631228-s-kmu-inman-it-150",
+        categoryId: 2,
+        brand: "МАЗ",
+
+        images: {
+            image: mainTruckImage9,
+        },
+
+        gallery: [
+            { image: galleryOf1TruckImage9 },
+            { image: galleryOf2TruckImage9 },
+            { image: galleryOf3TruckImage9 },
+            { image: galleryOf4TruckImage9 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                more: "Подробнее",
+                getPk: "Получить КП",
+                addToCart: "Добавить в корзину",
+            },
+
+            truckType: "Кран-манипулятор МАЗ 631228 с КМУ ИНМАН ИТ 150",
+
+            category: "Краны-манипуляторы",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "МАЗ 631228",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "WP 12.430Е50, 423 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 12-ти или 16-ти ступ.",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "10540",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3700",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "4400+1400 мм или 4600+1400",
+                    },
+                    {
+                        title: "Длина платформы, мм",
+                        value: "6700",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "33500",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "16140",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "17360",
+                    },
+                    {
+                        title: "Грузоподъёмность КМУ, тонн",
+                        value: "7,05",
+                    },
+                    {
+                        title: "Вылет стрелы, м",
+                        value: "19",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Кран-манипулятор МАЗ 631228 с КМУ ИНМАН ИТ 150",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "МАЗ 631228",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Бортовая платформа с КМУ",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "WP 12.430Е50, 423 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 12-ти или 16-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "4400+1400 мм или 4600+1400",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, ДхШхВ (мм)",
+                            value: "10540х2550х3700",
+                        },
+                        {
+                            title: "Полная масса (кг)",
+                            value: "33500",
+                        },
+                        {
+                            title: "Снаряженная масса (кг)",
+                            value: "16140",
+                        },
+                        {
+                            title: "Габаритные размеры бортовой платформы, ДхШхВ (мм)",
+                            value: "6700х2550х600",
+                        },
+                        {
+                            title: "Основание бортовой платформы",
+                            value: "Сварная рамная конструкция из открытых профилей. Состоит из продольных лонжеронов и поперечных балок, окантовочного и передней стенки профиля HOSSEN. Оцинкованные петли крепления груза в окантовочном профиле платформы (не уменьшают погрузочную ширину платформы), 7 шт. с каждой стороны.",
+                        },
+                        {
+                            title: "Пол",
+                            value: "Влагостойкая фанера с противоскользящим покрытием.",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "Стальные оцинкованные или алюминиевые борта, откидывающиеся, количество секций – 3 шт. на сторону, высота 600 мм. Угол открывания бортов – 180О. Быстросъёмные стойки ломающегося типа по 2 на сторону с алюминиевыми замками.",
+                        },
+                        {
+                            title: "Прочее оборудование",
+                            value: "Пластиковые крылья, брызговики. Боковые влагозащитные габаритные огни. Боковая защита из алюминиевых профилей на откидных оцинкованных кронштейнах. Заднее защитное устройство. Ступень для подъёма на платформу.",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Характеристики крано-манипуляторной установки ИНМАН ИТ 150",
+
+                    items: [
+                        {
+                            title: "Максимальный грузовой момент, тм",
+                            value: "15,0",
+                        },
+                        {
+                            title: "Номинальная грузоподъёмность, кг",
+                            value: "7050",
+                        },
+                        {
+                            title: "Номинальный рабочий радиус, м",
+                            value: "2,0",
+                        },
+                        {
+                            title: "Г/п на максимальном вылете, кг",
+                            value: "300",
+                        },
+                        {
+                            title: "Максимальный вылет стрелы, м",
+                            value: "19,0",
+                        },
+                        {
+                            title: "Стрела",
+                            value: "Гексагональная / 6 секций",
+                        },
+                        {
+                            title: "Угол вращения колонны вокруг своей оси, град",
+                            value: "360° без ограничений",
+                        },
+                        {
+                            title: "Угол подъема стрелы",
+                            value: "0° ~ 75°",
+                        },
+                        {
+                            title: "Опционально",
+                            value: "Установка бура, монтажной корзины",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                more: "Details",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+            },
+
+            truckType:
+                "MAZ 631228 truck crane with INMAN IT 150 crane-manipulator unit",
+
+            category: "Truck Cranes",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "MAZ 631228",
+                    },
+                    {
+                        title: "Engine",
+                        value: "WP 12.430E50, 423 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 12- or 16-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "10540",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3700",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "4400+1400 mm or 4600+1400",
+                    },
+                    {
+                        title: "Platform length, mm",
+                        value: "6700",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "33500",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "16140",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "17360",
+                    },
+                    {
+                        title: "Crane capacity, tons",
+                        value: "7.05",
+                    },
+                    {
+                        title: "Boom reach, m",
+                        value: "19",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "MAZ 631228 truck crane with INMAN IT 150 crane-manipulator unit",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "MAZ 631228",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Flatbed platform with crane-manipulator unit",
+                        },
+                        {
+                            title: "Engine",
+                            value: "WP 12.430E50, 423 hp",
+                        },
+                        {
+                            title: "Transmission",
+                            value: "Manual, 12- or 16-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "4400+1400 mm or 4600+1400",
+                        },
+                        {
+                            title: "Overall vehicle dimensions, L×W×H (mm)",
+                            value: "10540×2550×3700",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "33500",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "16140",
+                        },
+                        {
+                            title: "Flatbed platform dimensions, L×W×H (mm)",
+                            value: "6700×2550×600",
+                        },
+                        {
+                            title: "Flatbed platform base",
+                            value: "Welded frame construction made of open profiles. It consists of longitudinal members and cross beams, with edging and a front wall made of HOSSEN profile. Galvanized cargo securing loops are installed in the platform edging profile and do not reduce the loading width of the platform, with 7 pieces on each side.",
+                        },
+                        {
+                            title: "Floor",
+                            value: "Moisture-resistant plywood with anti-slip coating.",
+                        },
+                        {
+                            title: "Platform sideboards",
+                            value: "Steel galvanized or aluminum fold-down sideboards, 3 sections per side, with a height of 600 mm. Opening angle – 180°. Quick-release folding-type posts, 2 per side, with aluminum locks.",
+                        },
+                        {
+                            title: "Other equipment",
+                            value: "Plastic fenders and mudguards. Side moisture-resistant marker lights. Side protection made of aluminum profiles on folding galvanized brackets. Rear protective device. Step for access to the platform.",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Specifications of the INMAN IT 150 crane-manipulator unit",
+
+                    items: [
+                        {
+                            title: "Maximum load moment, tm",
+                            value: "15.0",
+                        },
+                        {
+                            title: "Rated lifting capacity, kg",
+                            value: "7050",
+                        },
+                        {
+                            title: "Rated working radius, m",
+                            value: "2.0",
+                        },
+                        {
+                            title: "Lifting capacity at maximum reach, kg",
+                            value: "300",
+                        },
+                        {
+                            title: "Maximum boom reach, m",
+                            value: "19.0",
+                        },
+                        {
+                            title: "Boom",
+                            value: "Hexagonal / 6 sections",
+                        },
+                        {
+                            title: "Column rotation angle around its axis",
+                            value: "360° without limitations",
+                        },
+                        {
+                            title: "Boom lifting angle",
+                            value: "0° ~ 75°",
+                        },
+                        {
+                            title: "Optional",
+                            value: "Drill installation, mounting basket",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                more: "Batafsil",
+                getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+            },
+
+            truckType:
+                "MAZ 631228 avtomobili, INMAN IT 150 kran-manipulyatori bilan",
+
+            category: "Kran-manipulyatorlar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "MAZ 631228",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "WP 12.430E50, 423 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 12 yoki 16 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "10540",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3700",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "4400+1400 mm yoki 4600+1400",
+                    },
+                    {
+                        title: "Platforma uzunligi, mm",
+                        value: "6700",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "33500",
+                    },
+                    {
+                        title: "Bo‘sh avtomobil massasi, kg",
+                        value: "16140",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "17360",
+                    },
+                    {
+                        title: "Kran yuk ko‘tarish qobiliyati, tonna",
+                        value: "7,05",
+                    },
+                    {
+                        title: "Strela chiqish masofasi, m",
+                        value: "19",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "MAZ 631228 avtomobili, INMAN IT 150 kran-manipulyatori bilan",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "MAZ 631228",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "Bortli platforma va kran-manipulyator",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "WP 12.430E50, 423 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 12 yoki 16 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "4400+1400 mm yoki 4600+1400",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, U×K×B (mm)",
+                            value: "10540×2550×3700",
+                        },
+                        {
+                            title: "To‘liq massa, kg",
+                            value: "33500",
+                        },
+                        {
+                            title: "Bo‘sh avtomobil massasi, kg",
+                            value: "16140",
+                        },
+                        {
+                            title: "Bortli platformaning gabarit o‘lchamlari, U×K×B (mm)",
+                            value: "6700×2550×600",
+                        },
+                        {
+                            title: "Bortli platforma asosi",
+                            value: "Ochiq profillardan tayyorlangan payvandlangan rama konstruksiyasi. Bo‘ylama lonjeronlar va ko‘ndalang balkalardan, shuningdek HOSSEN profilidan tayyorlangan chegara va old devordan tashkil topgan. Platformaning chegara profiliga galvanizatsiyalangan yuk mahkamlash halqalari o‘rnatilgan, har bir tomonda 7 tadan.",
+                        },
+                        {
+                            title: "Pol",
+                            value: "Sirpanishga qarshi qoplamali namlikka chidamli fanera.",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Po‘latdan galvanizatsiyalangan yoki alyuminiy bukiladigan bortlar, har bir tomonda 3 ta seksiya, balandligi 600 mm. Ochilish burchagi — 180°. Har bir tomonda 2 tadan tez yechiladigan bukiladigan turdagi ustunlar, alyuminiy qulflar bilan.",
+                        },
+                        {
+                            title: "Boshqa jihozlar",
+                            value: "Plastik qanotlar va loy sachratkichlar. Yon namlikdan himoyalangan gabarit chiroqlari. Bukiladigan galvanizatsiyalangan kronshteynlardagi alyuminiy profillardan tayyorlangan yon himoya. Orqa himoya qurilmasi. Platformaga chiqish uchun zina.",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "INMAN IT 150 kran-manipulyator qurilmasining texnik xususiyatlari",
+
+                    items: [
+                        {
+                            title: "Maksimal yuk momenti, tm",
+                            value: "15,0",
+                        },
+                        {
+                            title: "Nominal yuk ko‘tarish qobiliyati, kg",
+                            value: "7050",
+                        },
+                        {
+                            title: "Nominal ish radiusi, m",
+                            value: "2,0",
+                        },
+                        {
+                            title: "Maksimal chiqish masofasidagi yuk ko‘tarish qobiliyati, kg",
+                            value: "300",
+                        },
+                        {
+                            title: "Strelaning maksimal chiqish masofasi, m",
+                            value: "19,0",
+                        },
+                        {
+                            title: "Strela",
+                            value: "Geksagonal / 6 seksiya",
+                        },
+                        {
+                            title: "Kolonnaning o‘z o‘qi atrofida aylanish burchagi",
+                            value: "360° cheklovlarsiz",
+                        },
+                        {
+                            title: "Strelani ko‘tarish burchagi",
+                            value: "0° ~ 75°",
+                        },
+                        {
+                            title: "Ixtiyoriy",
+                            value: "Burg‘u va montaj savatini o‘rnatish",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    {
+        available: true,
+        recommended: true,
+
+        id: 10,
+        slug: "kran-manipulyator-kamaz-43118-c-kmu-inman-im150n-model-4388s2-10",
+        categoryId: 2,
+        brand: "КАМАЗ",
+
+        images: {
+            image: mainTruckImage10,
+            drawing: truckDrawing10,
+        },
+
+        gallery: [
+            { image: galleryOf1TruckImage10 },
+            { image: galleryOf2TruckImage10 },
+        ],
+
+        ru: {
+            price: "Цена по запросу",
+
+            buttons: {
+                more: "Подробнее",
+                getPk: "Получить КП",
+                addToCart: "Добавить в корзину",
+            },
+
+            truckType:
+                "Кран-манипулятор КАМАЗ 43118 с КМУ ИНМАН ИМ150N (модель 4388С2-10)",
+
+            category: "Краны-манипуляторы",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Базовое шасси",
+                        value: "КАМАЗ 43118",
+                    },
+                    {
+                        title: "Двигатель",
+                        value: "КАМАЗ 740.705-300, 300 л. с.",
+                    },
+                    {
+                        title: "КПП",
+                        value: "Механическая, 10-ти ступенчатая",
+                    },
+                    {
+                        title: "Длина автомобиля, мм",
+                        value: "10560",
+                    },
+                    {
+                        title: "Ширина автомобиля, мм",
+                        value: "2550",
+                    },
+                    {
+                        title: "Высота автомобиля, мм",
+                        value: "3630",
+                    },
+                    {
+                        title: "Колесная база, мм",
+                        value: "4600+1320",
+                    },
+                    {
+                        title: "Длина платформы, мм",
+                        value: "7000",
+                    },
+                    {
+                        title: "Полная масса, кг",
+                        value: "22500",
+                    },
+                    {
+                        title: "Снаряженная масса, кг",
+                        value: "12980",
+                    },
+                    {
+                        title: "Грузоподъёмность, кг",
+                        value: "9520",
+                    },
+                    {
+                        title: "Грузоподъёмность КМУ, тонн",
+                        value: "6,1",
+                    },
+                    {
+                        title: "Вылет стрелы, м",
+                        value: "14,3",
+                    },
+                    {
+                        title: "Смотреть все характеристики",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Характеристики",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "Кран-манипулятор КАМАЗ 43118 с КМУ ИНМАН ИМ150N",
+
+                    items: [
+                        {
+                            title: "Базовое шасси",
+                            value: "КАМАЗ 43118",
+                        },
+                        {
+                            title: "Тип надстройки",
+                            value: "Бортовая платформа с КМУ",
+                        },
+                        {
+                            title: "Двигатель",
+                            value: "КАМАЗ 740.705-300, 300 л. с.",
+                        },
+                        {
+                            title: "КПП",
+                            value: "Механическая, 10-ти ступенчатая",
+                        },
+                        {
+                            title: "Колесная база, мм",
+                            value: "4600+1320",
+                        },
+                        {
+                            title: "Габаритные размеры автомобиля, ДхШхВ (мм)",
+                            value: "10560х2550х3630",
+                        },
+                        {
+                            title: "Полная масса (кг)",
+                            value: "22500",
+                        },
+                        {
+                            title: "Снаряженная масса (кг)",
+                            value: "12980",
+                        },
+                        {
+                            title: "Габаритные размеры бортовой платформы, ДхШхВ (мм)",
+                            value: "7000х2550х600",
+                        },
+                        {
+                            title: "Основание бортовой платформы",
+                            value: "Сварная рамная конструкция из открытых профилей. Состоит из продольных лонжеронов и поперечных балок, окантовочного и передней стенки профиля HOSSEN. Оцинкованные петли крепления груза в окантовочном профиле платформы (не уменьшают погрузочную ширину платформы), 5 шт. с каждой стороны.",
+                        },
+                        {
+                            title: "Пол",
+                            value: "Влагостойкая фанера с противоскользящим покрытием толщиной.",
+                        },
+                        {
+                            title: "Борта платформы",
+                            value: "Стальные оцинкованные или алюминиевые борта, откидывающиеся, количество секций – 2 шт. на сторону, высота 600 мм. Угол открывания бортов – 180О. Быстросъёмные стойки ломающегося типа по 1 шт. на сторону с алюминиевыми замками.",
+                        },
+                        {
+                            title: "Прочее оборудование",
+                            value: "Пластиковые крылья, брызговики. Боковые влагозащитные габаритные огни. Боковая защита из алюминиевых профилей на откидных оцинкованных кронштейнах. Заднее защитное устройство. Ступень для подъёма на платформу.",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Характеристики крано-манипуляторной установки ИНМАН ИМ150N",
+
+                    items: [
+                        {
+                            title: "Максимальный грузовой момент, тм",
+                            value: "14,3",
+                        },
+                        {
+                            title: "Номинальная грузоподъёмность, кг",
+                            value: "5750",
+                        },
+                        {
+                            title: "Номинальный рабочий радиус, м",
+                            value: "2,5",
+                        },
+                        {
+                            title: "Г/п на максимальном вылете, кг",
+                            value: "650",
+                        },
+                        {
+                            title: "Максимальный вылет стрелы, м",
+                            value: "14,3",
+                        },
+                        {
+                            title: "Стрела",
+                            value: "Гексагональная / 7 секций",
+                        },
+                        {
+                            title: "Угол вращения колонны вокруг своей оси, град",
+                            value: "420°",
+                        },
+                        {
+                            title: "Передние аутригеры",
+                            value: "Размах 5,00 м",
+                        },
+                        {
+                            title: "Задние аутригеры",
+                            value: "-",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        en: {
+            price: "Price upon request",
+
+            buttons: {
+                more: "Details",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+            },
+
+            truckType:
+                "KAMAZ 43118 truck crane with INMAN IM150N crane-manipulator unit (model 4388C2-10)",
+
+            category: "Truck Cranes",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Base chassis",
+                        value: "KAMAZ 43118",
+                    },
+                    {
+                        title: "Engine",
+                        value: "KAMAZ 740.705-300, 300 hp",
+                    },
+                    {
+                        title: "Transmission",
+                        value: "Manual, 10-speed",
+                    },
+                    {
+                        title: "Vehicle length, mm",
+                        value: "10560",
+                    },
+                    {
+                        title: "Vehicle width, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Vehicle height, mm",
+                        value: "3630",
+                    },
+                    {
+                        title: "Wheelbase, mm",
+                        value: "4600+1320",
+                    },
+                    {
+                        title: "Platform length, mm",
+                        value: "7000",
+                    },
+                    {
+                        title: "Gross vehicle weight, kg",
+                        value: "22500",
+                    },
+                    {
+                        title: "Curb weight, kg",
+                        value: "12980",
+                    },
+                    {
+                        title: "Payload capacity, kg",
+                        value: "9520",
+                    },
+                    {
+                        title: "Crane capacity, tons",
+                        value: "6.1",
+                    },
+                    {
+                        title: "Boom reach, m",
+                        value: "14.3",
+                    },
+                    {
+                        title: "View all specifications",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Specifications",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "KAMAZ 43118 truck crane with INMAN IM150N crane-manipulator unit",
+
+                    items: [
+                        {
+                            title: "Base chassis",
+                            value: "KAMAZ 43118",
+                        },
+                        {
+                            title: "Superstructure type",
+                            value: "Flatbed platform with crane-manipulator unit",
+                        },
+                        {
+                            title: "Engine",
+                            value: "KAMAZ 740.705-300, 300 hp",
+                        },
+                        {
+                            title: "Transmission",
+                            value: "Manual, 10-speed",
+                        },
+                        {
+                            title: "Wheelbase, mm",
+                            value: "4600+1320",
+                        },
+                        {
+                            title: "Overall vehicle dimensions, L×W×H (mm)",
+                            value: "10560×2550×3630",
+                        },
+                        {
+                            title: "Gross vehicle weight, kg",
+                            value: "22500",
+                        },
+                        {
+                            title: "Curb weight, kg",
+                            value: "12980",
+                        },
+                        {
+                            title: "Flatbed platform dimensions, L×W×H (mm)",
+                            value: "7000×2550×600",
+                        },
+                        {
+                            title: "Flatbed platform base",
+                            value: "Welded frame construction made of open profiles. It consists of longitudinal members and cross beams, with edging and a front wall made of HOSSEN profile. Galvanized cargo securing loops are installed in the platform edging profile and do not reduce the loading width of the platform, with 5 pieces on each side.",
+                        },
+                        {
+                            title: "Floor",
+                            value: "Moisture-resistant plywood with anti-slip coating.",
+                        },
+                        {
+                            title: "Platform sideboards",
+                            value: "Steel galvanized or aluminum fold-down sideboards, 2 sections per side, with a height of 600 mm. Opening angle – 180°. Quick-release folding-type posts, 1 per side, with aluminum locks.",
+                        },
+                        {
+                            title: "Other equipment",
+                            value: "Plastic fenders and mudguards. Side moisture-resistant marker lights. Side protection made of aluminum profiles on folding galvanized brackets. Rear protective device. Step for access to the platform.",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "Specifications of the INMAN IM150N crane-manipulator unit",
+
+                    items: [
+                        {
+                            title: "Maximum load moment, tm",
+                            value: "14.3",
+                        },
+                        {
+                            title: "Rated lifting capacity, kg",
+                            value: "5750",
+                        },
+                        {
+                            title: "Rated working radius, m",
+                            value: "2.5",
+                        },
+                        {
+                            title: "Lifting capacity at maximum reach, kg",
+                            value: "650",
+                        },
+                        {
+                            title: "Maximum boom reach, m",
+                            value: "14.3",
+                        },
+                        {
+                            title: "Boom",
+                            value: "Hexagonal / 7 sections",
+                        },
+                        {
+                            title: "Column rotation angle around its axis",
+                            value: "420°",
+                        },
+                        {
+                            title: "Front outriggers",
+                            value: "Span 5.00 m",
+                        },
+                        {
+                            title: "Rear outriggers",
+                            value: "-",
+                        },
+                    ],
+                },
+            ],
+        },
+
+        uz: {
+            price: "Narx so‘rov bo‘yicha",
+
+            buttons: {
+                more: "Batafsil",
+                getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+            },
+
+            truckType:
+                "KAMAZ 43118 avtomobili, INMAN IM150N kran-manipulyatori bilan (4388C2-10 modeli)",
+
+            category: "Kran-manipulyatorlar",
+
+            specifications: {
+                truckInfo: [
+                    {
+                        title: "Asosiy shassi",
+                        value: "KAMAZ 43118",
+                    },
+                    {
+                        title: "Dvigatel",
+                        value: "KAMAZ 740.705-300, 300 ot kuchi",
+                    },
+                    {
+                        title: "Uzatmalar qutisi",
+                        value: "Mexanik, 10 pog‘onali",
+                    },
+                    {
+                        title: "Avtomobil uzunligi, mm",
+                        value: "10560",
+                    },
+                    {
+                        title: "Avtomobil kengligi, mm",
+                        value: "2550",
+                    },
+                    {
+                        title: "Avtomobil balandligi, mm",
+                        value: "3630",
+                    },
+                    {
+                        title: "G‘ildirak bazasi, mm",
+                        value: "4600+1320",
+                    },
+                    {
+                        title: "Platforma uzunligi, mm",
+                        value: "7000",
+                    },
+                    {
+                        title: "To‘liq massa, kg",
+                        value: "22500",
+                    },
+                    {
+                        title: "Bo‘sh avtomobil massasi, kg",
+                        value: "12980",
+                    },
+                    {
+                        title: "Yuk ko‘tarish qobiliyati, kg",
+                        value: "9520",
+                    },
+                    {
+                        title: "Kran yuk ko‘tarish qobiliyati, tonna",
+                        value: "6,1",
+                    },
+                    {
+                        title: "Strela chiqish masofasi, m",
+                        value: "14,3",
+                    },
+                    {
+                        title: "Barcha texnik xususiyatlarni ko‘rish",
+                    },
+                ],
+            },
+
+            charectiristicsTitle: "Xususiyatlar",
+
+            characteristics: [
+                {
+                    sectionTitle:
+                        "KAMAZ 43118 avtomobili, INMAN IM150N kran-manipulyatori bilan",
+
+                    items: [
+                        {
+                            title: "Asosiy shassi",
+                            value: "KAMAZ 43118",
+                        },
+                        {
+                            title: "Ustqurma turi",
+                            value: "Bortli platforma va kran-manipulyator",
+                        },
+                        {
+                            title: "Dvigatel",
+                            value: "KAMAZ 740.705-300, 300 ot kuchi",
+                        },
+                        {
+                            title: "Uzatmalar qutisi",
+                            value: "Mexanik, 10 pog‘onali",
+                        },
+                        {
+                            title: "G‘ildirak bazasi, mm",
+                            value: "4600+1320",
+                        },
+                        {
+                            title: "Avtomobilning gabarit o‘lchamlari, U×K×B (mm)",
+                            value: "10560×2550×3630",
+                        },
+                        {
+                            title: "To‘liq massa, kg",
+                            value: "22500",
+                        },
+                        {
+                            title: "Bo‘sh avtomobil massasi, kg",
+                            value: "12980",
+                        },
+                        {
+                            title: "Bortli platformaning gabarit o‘lchamlari, U×K×B (mm)",
+                            value: "7000×2550×600",
+                        },
+                        {
+                            title: "Bortli platforma asosi",
+                            value: "Ochiq profillardan tayyorlangan payvandlangan rama konstruksiyasi. Bo‘ylama lonjeronlar va ko‘ndalang balkalardan, shuningdek HOSSEN profilidan tayyorlangan chegara va old devordan tashkil topgan. Platformaning chegara profiliga galvanizatsiyalangan yuk mahkamlash halqalari o‘rnatilgan, har bir tomonda 5 tadan.",
+                        },
+                        {
+                            title: "Pol",
+                            value: "Sirpanishga qarshi qoplamali namlikka chidamli fanera.",
+                        },
+                        {
+                            title: "Platforma bortlari",
+                            value: "Po‘latdan galvanizatsiyalangan yoki alyuminiy bukiladigan bortlar, har bir tomonda 2 ta seksiya, balandligi 600 mm. Ochilish burchagi — 180°. Har bir tomonda 1 tadan tez yechiladigan bukiladigan turdagi ustunlar, alyuminiy qulflar bilan.",
+                        },
+                        {
+                            title: "Boshqa jihozlar",
+                            value: "Plastik qanotlar va loy sachratkichlar. Yon namlikdan himoyalangan gabarit chiroqlari. Bukiladigan galvanizatsiyalangan kronshteynlardagi alyuminiy profillardan tayyorlangan yon himoya. Orqa himoya qurilmasi. Platformaga chiqish uchun zina.",
+                        },
+                    ],
+                },
+
+                {
+                    sectionTitle:
+                        "INMAN IM150N kran-manipulyator qurilmasining texnik xususiyatlari",
+
+                    items: [
+                        {
+                            title: "Maksimal yuk momenti, tm",
+                            value: "14,3",
+                        },
+                        {
+                            title: "Nominal yuk ko‘tarish qobiliyati, kg",
+                            value: "5750",
+                        },
+                        {
+                            title: "Nominal ish radiusi, m",
+                            value: "2,5",
+                        },
+                        {
+                            title: "Maksimal chiqish masofasidagi yuk ko‘tarish qobiliyati, kg",
+                            value: "650",
+                        },
+                        {
+                            title: "Strelaning maksimal chiqish masofasi, m",
+                            value: "14,3",
+                        },
+                        {
+                            title: "Strela",
+                            value: "Geksagonal / 7 seksiya",
+                        },
+                        {
+                            title: "Kolonnaning o‘z o‘qi atrofida aylanish burchagi",
+                            value: "420°",
+                        },
+                        {
+                            title: "Oldingi autrigerlar",
+                            value: "Yoyilishi 5,00 m",
+                        },
+                        {
+                            title: "Orqa autrigerlar",
+                            value: "-",
+                        },
+                    ],
+                },
+            ],
+        },
+    },
+    // COPY COPY COPY
+
     // shtorniye
     {
         available: false,

@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { TruckNews } from "../../data/TruckNews";
 import i18next from "i18next";
 import { icons } from "../../assets/icons/icons";
-const { IconArrowRight } = icons;
+const { IconArrowRight, IconHeartBgWhite } = icons;
 import Slider from "./Slider";
 import { Link } from "react-router-dom";
 import Button from "../../components/Button/Button";

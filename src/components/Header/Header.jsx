@@ -17,10 +17,14 @@ import LanguageDropdown from "../Header/LanguageDropdown";
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import PhoneCallOnly from "./PhoneCalIconItself";
+import Modal from "./Modal";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(null);
     const isMenuOpen = openMenu !== null;
+
+    const [isOpen, setIsopen] = useState(false);
+    console.log(isOpen);
 
     const stickyMarker = useRef(null);
     const [isSticky, setIsSticky] = useState(false);
@@ -67,9 +71,14 @@ const Header = () => {
                         <div className='flex items-center max-[648px]:gap-1 max-[1200px]:gap-3 min-[1200px]:gap-10'>
                             <WorkingTime hasDropdown />
                             <PhoneCall
+                                onClick={() => setIsopen(true)}
+                                isOpen={isOpen}
+                                setIsopen={setIsopen}
                                 className='max-[430px]:w-7! max-[430px]:h-7! w-10! h-10!'
                                 IconClassname='max-[430px]:w-4! w-4! md:h-5!'
                             />
+                            <Modal isOpen={isOpen} setIsopen={setIsopen} />
+
                             <LanguageDropdown className='max-[430px]:w-7! max-[430px]:h-7! w-10 h-10 sm:hidden' />
                         </div>
                     </div>

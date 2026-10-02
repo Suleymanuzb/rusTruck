@@ -1815,6 +1815,7 @@ const uz = {
     },
 
     filteredPage: {
+        notInsale: "Sotuvda yoq",
         intro: {
             sortText: "Saralash:",
 
