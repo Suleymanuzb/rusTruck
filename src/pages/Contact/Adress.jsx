@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Container from "../../components/Container/Container";
+import { Link } from "react-router-dom";
 
 const Adress = () => {
     const { t } = useTranslation();
@@ -16,31 +17,34 @@ const Adress = () => {
 
                 <div className='flex flex-col md:flex-row'>
                     <div className='bg-[#fec400] p-5 md:p-8 flex flex-col gap-1'>
-                        <p className='mb-4.5 md:mb-9 md:leading-1.5 text-lg'>
+                        <p className='mb-4.5 md:mb-9 md:leading-1.5 text-lg '>
                             {t("contactsPage.adressSection.adress")}
                         </p>
                         <p className='text-lg font-bold'>
                             {t("contactsPage.adressSection.forLocals")}{" "}
-                            <span className='font-normal'>
+                            <Link className='font-normal' to='tel:88312352517'>
                                 {t(
                                     "contactsPage.adressSection.numberFotLocals",
                                 )}
-                            </span>
+                            </Link>
                         </p>
 
                         <p className='text-lg font-bold'>
                             {t("contactsPage.adressSection.forStates")}{" "}
-                            <span className='font-normal'>
+                            <Link to='tel:88005110525' className='font-normal'>
                                 {t(
                                     "contactsPage.adressSection.numberForStates",
                                 )}
-                            </span>
+                            </Link>
                         </p>
                         <p className='text-lg font-bold'>
                             {t("contactsPage.adressSection.emailText")}{" "}
-                            <span className='font-normal'>
+                            <Link
+                                to='mailTo:info+7603@rtrf.ru'
+                                className='font-normal'
+                            >
                                 {t("contactsPage.adressSection.email")}
-                            </span>
+                            </Link>
                         </p>
 
                         <div className='mt-7.5 md:mt-15'>
@@ -49,9 +53,12 @@ const Adress = () => {
                                     "contactsPage.adressSection.redisterText",
                                 )}{" "}
                             </p>
-                            <span className='font-normal text-lg'>
+                            <Link
+                                to='tel:88312250055'
+                                className='font-normal text-lg'
+                            >
                                 {t("contactsPage.adressSection.registerNumber")}
-                            </span>
+                            </Link>
                         </div>
                     </div>
                     <div className='flex-1'>
