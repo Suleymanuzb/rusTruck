@@ -74,15 +74,14 @@ const ScrollSlider = () => {
 
     return (
         <Container>
-            <section
-                data-aos='flip-down'
-                ref={sectionRef}
-                className='h-[250vh] mt-10 md:my-20'
-            >
+            <section ref={sectionRef} className='h-[250vh] mt-10 md:my-20'>
                 <div className='sticky top-25 h-[calc(100vh-5rem)] gap-10 sm:gap-15 w-full flex flex-col max-[890px]:mt-0 min-[890px]:flex-row min-[890px]:items-start overflow-hidden'>
                     {/* image and circular dots part */}
 
-                    <div className='max-[500px]:w-full max-[890px]:w-[83%] w-[60%] max-[890px]:flex max-[890px]:flex-col max-[890px]:justify-center'>
+                    <div
+                        data-aos='flip-down'
+                        className='max-[500px]:w-full max-[890px]:w-[83%] w-[60%] max-[890px]:flex max-[890px]:flex-col max-[890px]:justify-center'
+                    >
                         <div className='w-1/2 min-[890px]:w-[60%] relative'>
                             <img
                                 className='w-full h-auto block'
@@ -122,7 +121,10 @@ const ScrollSlider = () => {
                     </div>
 
                     {/* svg and growing line part */}
-                    <div className=' relative w-full max-[500px]:flex max-[500px]:justify-end! max-[890px]:flex max-[890px]:flex-col max-[890px]:h-auto max-[890px]:justify-start min-[890px]:w-[30%]'>
+                    <div
+                        data-aos='flip-down'
+                        className=' relative w-full max-[500px]:flex max-[500px]:justify-end! max-[890px]:flex max-[890px]:flex-col max-[890px]:h-auto max-[890px]:justify-start min-[890px]:w-[30%]'
+                    >
                         <div className='relative w-0.5 h-120 max-[890px]:w-full max-[890px]:h-1 bg-transparent rounded-full overflow-visible min-[890px]:absolute min-[890px]:left-0 min-[890px]:top-1/2 min-[890px]:-translate-y-1/2'>
                             {/* Desktop (Vertical) Growing Line */}
                             <div
