@@ -19,7 +19,6 @@ const RecProductSliders = forwardRef((props, ref) => {
     });
 
     const recommendeds = trucks.filter((item) => item.recommended === true);
-    console.log(recommendeds);
 
     const language = t("language");
 

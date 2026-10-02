@@ -3035,6 +3035,14 @@ const ru = {
         video: "Видео",
         promo: "Рекламные материалы",
     },
+
+    categoriesCards: {
+        howMany: {
+            models: "моделей",
+            modeli: "модели",
+            model: "модель",
+        },
+    },
 };
 
 export default ru;

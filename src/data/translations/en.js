@@ -2981,6 +2981,14 @@ const en = {
         favourites: "Favorites",
         photogallery: "Photo Gallery",
     },
+
+    categoriesCards: {
+        howMany: {
+            models: "models",
+            modeli: "models",
+            model: "model",
+        },
+    },
 };
 
 export default en;

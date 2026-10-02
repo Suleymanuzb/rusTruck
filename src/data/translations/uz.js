@@ -2974,6 +2974,14 @@ const uz = {
         favourites: "Sevimlilar",
         photogallery: "Foto galereya",
     },
+
+    categoriesCards: {
+        howMany: {
+            models: "modellar",
+            modeli: "modellar",
+            model: "model",
+        },
+    },
 };
 
 export default uz;

@@ -1,9 +1,17 @@
 import { Link } from "react-router-dom";
 import truckCategories from "../../data/truckCategories";
+import trucks from "../../data/truckData";
+import { useTranslation } from "react-i18next";
 
 const TruckCards = ({ category }) => {
+    const { t } = useTranslation();
+
     const matchingImage = truckCategories.find(
         (item) => item.id === category?.id,
+    );
+
+    const howManyOfThem = trucks.filter(
+        (truck) => truck.categoryId === category.id,
     );
 
     return (
@@ -19,9 +27,10 @@ const TruckCards = ({ category }) => {
                     {category?.name}
                 </span>
                 <div>
-                    <span className='text-[#a2a2a2]'>
-                        {category?.howManyModels}
-                    </span>
+                    <p className='text-base text-[#a2a2a2] pt-1.5'>
+                        {howManyOfThem.length}
+                        <span className='ml-1'>{`${howManyOfThem.length === 1 ? t("categoriesCards.howMany.model") : howManyOfThem.length <= 4 ? t("categoriesCards.howMany.modeli") : howManyOfThem.length <= 5 ? t("categoriesCards.howMany.models") : t("categoriesCards.howMany.models")}`}</span>
+                    </p>
                 </div>
             </div>
             <div className='flex justify-end self-end max-[500px]:w-32 max-[500px]:h-32 max-[1200px]:w-35.75 max-[1200px]:h-35.75'>

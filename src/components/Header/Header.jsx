@@ -24,7 +24,6 @@ const Header = () => {
     const isMenuOpen = openMenu !== null;
 
     const [isOpen, setIsopen] = useState(false);
-    console.log(isOpen);
 
     const stickyMarker = useRef(null);
     const [isSticky, setIsSticky] = useState(false);
