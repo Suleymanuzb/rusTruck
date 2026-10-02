@@ -20,7 +20,7 @@ const Catalog = () => {
         <section>
             <Container>
                 <Breadcrumb />
-                <div className='grid grid-cols-4 gap-7'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7'>
                     {catalogItems.map((category, i) => {
                         return (
                             <TruckCards

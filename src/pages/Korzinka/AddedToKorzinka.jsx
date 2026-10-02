@@ -45,9 +45,21 @@ const AddedCartToKorzina = () => {
     ) : (
         <div className='flex flex-col gap-6'>
             {cart.map((cartItem, i) => {
+                // console.log("cartItem", cartItem);
+
                 const trucksInCart = trucks.find(
                     (each) => each.id === cartItem.id,
                 );
+
+                const categories = t("header.megaMenu.categories.types", {
+                    returnObjects: true,
+                });
+
+                const foundCategories = categories.find(
+                    (category) => category.id === trucksInCart?.categoryId,
+                );
+                console.log(foundCategories.slug);
+                // console.log("truck:", trucksInCart);
 
                 const product = trucksInCart?.[i18n.language];
 
@@ -98,18 +110,23 @@ const AddedCartToKorzina = () => {
                 return (
                     <div key={i}>
                         <div className='flex gap-0 sm:gap-4 lg:gap-7.5 shadow pr-4  max-[1024px]:h-34'>
-                            <div className=''>
+                            <Link
+                                to={`/catalog/${foundCategories.slug}/${trucksInCart.id}`}
+                            >
                                 <img
                                     src={trucksInCart.images.image}
                                     alt='truck'
                                     className='min-[400px]:min-w-40 w-75.25 h-full! object-cover'
                                 />
-                            </div>
+                            </Link>
 
                             <div className='flex gap-7 justify-between w-full'>
                                 <div className='flex max-[1200px]:p-4 max-[1200px]:flex-col w-full min-[1200px]:gap-15'>
                                     <div className='w-[75%]'>
-                                        <div className='mb-3.5 lg:mb-8'>
+                                        <Link
+                                            to={`/catalog/${foundCategories.slug}/${trucksInCart.id}`}
+                                            className='mb-3.5 lg:mb-8'
+                                        >
                                             <h3 className='max-[400px]:text-[10px] text-[12px] md:text-base mt-1 sm:line-clamp-2 max-[768px]:mb-2'>
                                                 {product?.truckType}
                                             </h3>
@@ -118,7 +135,7 @@ const AddedCartToKorzina = () => {
                                                     {currentPrice}
                                                 </h1>
                                             )}
-                                        </div>
+                                        </Link>
 
                                         <div className='hidden lg:block'>
                                             {dimensionsValue && (

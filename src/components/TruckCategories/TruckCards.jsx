@@ -33,7 +33,7 @@ const TruckCards = ({ category }) => {
                     </p>
                 </div>
             </div>
-            <div className='flex justify-end self-end max-[500px]:w-32 max-[500px]:h-32 max-[1200px]:w-35.75 max-[1200px]:h-35.75'>
+            <div className='flex md:justify-end md:self-end max-[500px]:w-32 max-[500px]:h-32 max-[1200px]:w-35.75 max-[1200px]:h-35.75'>
                 <img src={matchingImage?.image} alt={category?.name} />
             </div>
         </Link>
