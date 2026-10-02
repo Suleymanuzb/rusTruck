@@ -61,9 +61,9 @@ const ScrollSlider = () => {
     }, []);
 
     const positions = [
-        "top-[4%] left-[70%] min-[890px]:left-[67%] min-[680px]:left-[66.5%] max-[600px]:left-[71%] min-[600px]:left-[68%] min-[480px]:left-[69.5%] min-[380px]:left-[71%]",
+        "top-[4%] left-[70%] min-[890px]:left-[67%] min-[680px]:left-[66.5%] max-[600px]:left-[71%] min-[600px]:left-[68%] min-[480px]:left-[65.5%] min-[360px]:left-[67%]",
 
-        "top-[25%] left-[91.5%] min-[600px]:left-[91.5%] max-[600px]:left-[93%] min-[500px]:left-[92.5%]  max-[500px]:left-[92%]",
+        "top-[25%] left-[91.5%] min-[600px]:left-[91.5%] max-[600px]:left-[93%] min-[500px]:left-[91.5%]  max-[500px]:left-[92%]",
 
         "top-[45%] left-[98%] min-[1000px]:left-[97.5%] min-[900px]:left-[98%] min-[850px]:left-[98.5%]  min-[600px]:left-[98%] min-[482px]:left-[98.5%] min-[472px]:left-[98%] min-[380px]:left-[98%]",
 
@@ -109,7 +109,9 @@ const ScrollSlider = () => {
                                                         : "bg-white border-[#fec80b]"
                                                 }`}
                                             ></span>
-                                            <span className='text-[8px] '>
+                                            <span
+                                                className={`absolute left-[150%] text-[12px] sm:text-[13px] md:text-[18px] ${isActive ? "text-black" : "opacity-30"}`}
+                                            >
                                                 {item.name}
                                             </span>
                                         </p>
@@ -120,7 +122,7 @@ const ScrollSlider = () => {
                     </div>
 
                     {/* svg and growing line part */}
-                    <div className='relative w-full max-[500px]:flex max-[500px]:justify-end! max-[890px]:flex max-[890px]:flex-col max-[890px]:h-auto max-[890px]:justify-start min-[890px]:w-[30%]'>
+                    <div className=' relative w-full max-[500px]:flex max-[500px]:justify-end! max-[890px]:flex max-[890px]:flex-col max-[890px]:h-auto max-[890px]:justify-start min-[890px]:w-[30%]'>
                         <div className='relative w-0.5 h-120 max-[890px]:w-full max-[890px]:h-1 bg-transparent rounded-full overflow-visible min-[890px]:absolute min-[890px]:left-0 min-[890px]:top-1/2 min-[890px]:-translate-y-1/2'>
                             {/* Desktop (Vertical) Growing Line */}
                             <div
