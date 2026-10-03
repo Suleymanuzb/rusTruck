@@ -44,9 +44,16 @@ const WorkingTime = ({ hasDropdown = false }) => {
                 )}
             </div>
 
-            <span className='hidden md:flex items-center justify-center text-[15px] leading-none text-[#A1A1A1] max-w-40 min-[1140px]:max-w-full'>
-                {t("header.adress")}
-            </span>
+            <p className='hidden md:flex items-center justify-center text-[15px] leading-none text-[#A1A1A1] max-w-40 min-[1140px]:max-w-full'>
+                <a
+                    href='https://www.google.com/maps/search/?api=1&query=г.+Нижний+Новгород,+ул.+Торфяная,+35'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className=' max-[390px]:text-[10px] max-[600px]:text-[12px] text-sm cursor-pointer transition-all duration-200 hover:text-[#fec400] outline-none'
+                >
+                    {t("header.adress")}
+                </a>
+            </p>
         </div>
     );
 };

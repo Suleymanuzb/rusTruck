@@ -2853,7 +2853,7 @@ const uz = {
         title: "Savatcha",
         empty: `Savatchangiz bo‘sh. <br/> Kerakli mahsulotni topish uchun katalog yoki qidiruvdan foydalaning.`,
 
-        toHome: "Katalogni ochish",
+        toHome: "Bosh sahifaga",
         toCatalog: "Katalogni ochish",
 
         checkoutSection: {
@@ -2863,13 +2863,14 @@ const uz = {
                 leftQuestions: "Savollaringiz bormi?",
                 contactWithUs:
                     "Menejerimiz bilan bog‘laning yoki qayta qo‘ng‘iroq qilish uchun so‘rov qoldiring",
-                numberForStates: "Boshqa hududlar uchun: 8 (800) 511-05-25",
+                numberForStates: "Hududlar uchun: 8 (800) 511-05-25",
                 numberFotLocals: "Nijniy Novgorod: 8 (831) 225-00-55",
 
-                button: "Qayta qo‘ng‘iroq qilishni so‘rash",
+                button: "Qayta qo‘ng‘iroq qilish",
             },
         },
     },
+
     favourites: {
         title: "Saralanganlar",
 

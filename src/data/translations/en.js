@@ -2863,7 +2863,7 @@ const en = {
         title: "Cart",
         empty: `Your cart is empty. <br/> Use the catalog or search to find the right product.`,
 
-        toHome: "Open catalog",
+        toHome: "To Home",
         toCatalog: "Open catalog",
 
         checkoutSection: {
@@ -2873,7 +2873,7 @@ const en = {
                 leftQuestions: "Still have questions?",
                 contactWithUs:
                     "Contact our manager or leave a request for a callback",
-                numberForStates: "For other regions: 8 (800) 511-05-25",
+                numberForStates: "For regions: 8 (800) 511-05-25",
                 numberFotLocals: "Nizhny Novgorod: 8 (831) 225-00-55",
 
                 button: "Request a callback",

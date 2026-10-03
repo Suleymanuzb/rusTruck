@@ -110,9 +110,14 @@ const Header = () => {
                         <Container>
                             <div className='flex! items-center justify-between'>
                                 <div className='flex flex-col'>
-                                    <Link className='max-[390px]:text-[10px] max-[600px]:text-[12px] text-sm'>
+                                    <a
+                                        href='https://www.google.com/maps/search/?api=1&query=г.+Нижний+Новгород,+ул.+Торфяная,+35'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='max-[390px]:text-[10px] max-[600px]:text-[12px] text-sm cursor-pointer transition-all duration-200 hover:text-[#fec400] outline-none'
+                                    >
                                         г. Нижний Новгород, ул. Торфяная, 35
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <div className=''>
