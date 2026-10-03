@@ -2986,6 +2986,19 @@ const uz = {
             model: "model",
         },
     },
+
+    search: {
+        title: "Qidiruv",
+
+        notFoundKey: '"__QUERY__" so‘rovida klaviatura tartibi tiklandi.',
+
+        notFound: '"__QUERY__" so‘rovi bo‘yicha hech narsa topilmadi.',
+
+        makeSure:
+            "Brend va model nomi to‘g‘ri yozilganiga ishonch hosil qiling. Yoki kerakli mahsulotni kategoriyalar orqali topishga harakat qiling.",
+
+        button: "Kategoriyalarga o‘tish",
+    },
 };
 
 export default uz;

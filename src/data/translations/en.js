@@ -2984,12 +2984,18 @@ const en = {
         promo: "Promotional Materials",
         search: "Search",
     },
-    categoriesCards: {
-        howMany: {
-            models: "models",
-            modeli: "models",
-            model: "model",
-        },
+    search: {
+        title: "Search",
+
+        notFoundKey:
+            'The keyboard layout was restored in the query "__QUERY__".',
+
+        notFound: 'Nothing was found for the query "__QUERY__".',
+
+        makeSure:
+            "Make sure the brand and model name are spelled correctly. Or try to find the product you need through the categories.",
+
+        button: "Go to categories",
     },
 };
 

@@ -33,6 +33,7 @@ import PhotoGallery from "./pages/PhotoGallery/PhotoGallery";
 import VideoPage from "./pages/VideoPage/VideoPage";
 import Ads from "./pages/Ads/Ads";
 import Search from "./pages/Search/Search";
+import top from "./assets/images/top-icon.svg";
 
 const App = () => {
     useEffect(() => {
@@ -43,6 +44,23 @@ const App = () => {
     // console.log(location);
     const [initialLoading, setInitialLoading] = useState(true);
     const [pageLoading, setPageLoading] = useState(false);
+
+    const [showTopButton, setShowTopButton] = useState(false);
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 500) {
+                setShowTopButton(true);
+            } else {
+                setShowTopButton(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
 
     useEffect(() => {
         const handleLoad = () => {
@@ -76,6 +94,15 @@ const App = () => {
         <>
             {(initialLoading || pageLoading) && <Loader />}
             <ScrollToTop />
+
+            {/* Scroll to top button */}
+
+            <div
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                className={`fixed right-9 bottom-5 z-9999 w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center cursor-pointer transition-opacity duration-500 ${showTopButton ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+            >
+                <img src={top} alt='на вверх' />
+            </div>
 
             <Routes>
                 <Route path='/' element={<Layout />}>

@@ -53,21 +53,57 @@ const Search = () => {
         <div>
             <Container>
                 <Breadcrumbs />
-                <div className='mb-4 md:mb-8'>
-                    <h1 className='text-xl sm:text-2xl lg:text-3xl font-medium'>
-                        {t("search.title")}: <span>«{query}»</span>{" "}
-                        <span>{filteredTrucks.length}</span>
-                    </h1>
-                </div>
+                {filteredTrucks.length >= 1 && (
+                    <div className='mb-4 md:mb-8'>
+                        <h1 className='text-xl sm:text-2xl lg:text-3xl font-medium'>
+                            {t("search.title")}: <span>«{query}»</span>{" "}
+                            <span>{filteredTrucks.length}</span>
+                        </h1>
+                    </div>
+                )}
 
-                <div className='flex items-center justify-center'>
+                <div>
                     {filteredTrucks.length === 0 ? (
-                        <div className='w-100 h-100 my-10'>
-                            <img
-                                className='w-full h-full object-cover'
-                                src={NoItem}
-                                alt='no cart'
-                            />
+                        <div className='flex flex-col  lg:flex-row lg:gap-40 '>
+                            <div>
+                                <div className='flex flex-col gap-4 items-start'>
+                                    <div>
+                                        <h4>
+                                            {t("search.notFoundKey").replace(
+                                                "__QUERY__",
+                                                query,
+                                            )}
+                                        </h4>
+                                    </div>
+
+                                    <h1 className='mt-10 text-xl sm:text-2xl lg:text-3xl font-medium'>
+                                        {t("search.notFound").replace(
+                                            "__QUERY__",
+                                            query,
+                                        )}
+                                    </h1>
+
+                                    <p className='max-w-129 text-start text-base'>
+                                        {t("search.makeSure")}
+                                    </p>
+
+                                    <Link to={"/catalog"}>
+                                        <Button
+                                            variant='btn_big_more'
+                                            className='cursor-pointer'
+                                        >
+                                            {t("search.button")}
+                                        </Button>
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className='w-100 h-100 my-10 flex items-center justify-center self-center'>
+                                <img
+                                    className='w-full h-full object-cover'
+                                    src={NoItem}
+                                    alt='no cart'
+                                />
+                            </div>
                         </div>
                     ) : (
                         <div>
