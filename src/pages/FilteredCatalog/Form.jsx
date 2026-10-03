@@ -7,7 +7,6 @@ import LiftingCapacity from "./Ranges/LiftingCapacity";
 import TankCapacity from "./Ranges/TankCapacity";
 import PriceRange from "./Ranges/PriceRange";
 import { useState } from "react";
-import trucks from "../../data/truckData";
 
 const Form = ({
     selectedCategory,
@@ -19,6 +18,26 @@ const Form = ({
     // console.log(selectedCategory);
 
     const { t } = useTranslation();
+
+    // for brand search input
+    const [localSearch, setLocalSearch] = useState("");
+    console.log(localSearch);
+
+    const searchedBrands =
+        selectedCategory.brandsOfTrucks.brands.filter((item) =>
+            item
+                .trim()
+                .toLowerCase()
+                .includes(localSearch.trim().toLowerCase()),
+        ) || [];
+
+    console.log(searchedBrands);
+    // for brand search input
+
+    const handle = (e) => {
+        setLocalSearch(e.target.value);
+    };
+
     return (
         <form className='hidden lg:block bg-white py-5 px-4 overflow-y-scroll max-h-160 top-7 sticky scrollbar-thin'>
             {/* price range */}
@@ -32,6 +51,8 @@ const Form = ({
 
             <div className='relative'>
                 <input
+                    onChange={(e) => handle(e)}
+                    value={localSearch}
                     type='text'
                     className='outline-none border border-[#a2a2a2] rounded focus:border-[#fec80b] focus:shadow-[0_0_4px_#fec80b] transform duration-300 placeholder:text-gray-400 py-2 pl-3 pr-10 w-full'
                     placeholder='Найти'
@@ -42,7 +63,7 @@ const Form = ({
             </div>
 
             <div className='mt-6 mb-8'>
-                {selectedCategory?.brandsOfTrucks?.brands.map((item) => {
+                {searchedBrands.map((item) => {
                     const isChecked = selectedBrands.includes(item);
 
                     return (

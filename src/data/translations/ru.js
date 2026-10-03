@@ -40,6 +40,7 @@ const ru = {
                         slug: "шторные-автомобили",
 
                         brandsOfTrucks: {
+                            title: "Марка",
                             brands: [
                                 "ГАЗ",
                                 "КАМАЗ",
@@ -286,6 +287,7 @@ const ru = {
                         name: "Краны-манипуляторы",
                         slug: "краны-манипуляторы",
                         brandsOfTrucks: {
+                            title: "Марка",
                             brands: [
                                 "ГАЗ",
                                 "КАМАЗ",
@@ -568,6 +570,7 @@ const ru = {
                             upTo: "до",
                         },
                         brandsOfTrucks: {
+                            title: "Марка",
                             brands: [
                                 "ГАЗ",
                                 "JAC",
@@ -665,6 +668,7 @@ const ru = {
                         name: "Автогидроподъёмники",
                         slug: "автогидроподъёмники",
                         brandsOfTrucks: {
+                            title: "Марка",
                             brands: ["ГАЗ"],
                         },
 
@@ -806,6 +810,7 @@ const ru = {
                         name: "Автоцистерны",
                         slug: "автоцистерны",
                         brandsOfTrucks: {
+                            title: "Марка",
                             brands: ["ГАЗ", "КАМАЗ", "JAC"],
                         },
 
@@ -953,6 +958,7 @@ const ru = {
                         name: "Автомобили-эвакуаторы",
                         slug: "автомобили-эвакуаторы",
                         brandsOfTrucks: {
+                            title: "Марка",
                             brands: ["ГАЗ"],
                         },
 
@@ -1097,6 +1103,7 @@ const ru = {
                         name: "Изотермические фургоны",
                         slug: "изотермические-фургоны",
                         brandsOfTrucks: {
+                            title: "Марка",
                             brands: [
                                 "ГАЗ",
                                 "КАМАЗ",
@@ -1286,6 +1293,7 @@ const ru = {
                         name: "Контейнеровозы",
                         slug: "контейнеровозы",
                         brandsOfTrucks: {
+                            title: "Марка",
                             brands: ["ГАЗ", "КАМАЗ"],
                         },
                         WheelFormula: {
@@ -1531,6 +1539,7 @@ const ru = {
                         name: "Самосвалы",
                         slug: "самосвалы",
                         brandsOfTrucks: {
+                            title: "Марка",
                             brands: ["КАМАЗ", "JAC"],
                         },
                         WheelFormula: {
@@ -1689,6 +1698,7 @@ const ru = {
                         name: "Автомобили ДОПОГ категории EXII",
                         slug: "автомобили-допог-категории-exii",
                         brandsOfTrucks: {
+                            title: "Марка",
                             brands: ["КАМАЗ", "JAC", "DAEWOO"],
                         },
 

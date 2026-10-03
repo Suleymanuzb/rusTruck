@@ -113,10 +113,6 @@ const FilteredCatalog = () => {
         );
     });
 
-    console.log("previewFilteredTrucks length", previewFilteredTrucks.length);
-
-    // filtering based on brand name
-
     return (
         <div className='bg-gray-100 relative pb-40'>
             <Container>
