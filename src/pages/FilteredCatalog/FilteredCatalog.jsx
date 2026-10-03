@@ -66,6 +66,57 @@ const FilteredCatalog = () => {
         };
     }, [isFilter]);
 
+    // filtering based on brand name
+    // 1. Temporary state for the checkboxes while user is clicking them
+    const [tempSelectedBrands, setTempSelectedBrands] = useState([]);
+
+    // 2. Official applied state that actually triggers the truck filter
+    const [appliedBrands, setAppliedBrands] = useState([]);
+
+    // 3. The checkbox click handler updates the TEMPORARY state
+    const handleBrandChange = (brandName) => {
+        if (tempSelectedBrands.includes(brandName)) {
+            setTempSelectedBrands(
+                tempSelectedBrands.filter((each) => each !== brandName),
+            );
+        } else {
+            setTempSelectedBrands([...tempSelectedBrands, brandName]);
+        }
+    };
+
+    // 4. NEW: This function runs ONLY when the user clicks the "Show" button
+    const handleApplyFilters = () => {
+        setAppliedBrands(tempSelectedBrands);
+    };
+
+    const categoryTrucks = trucks.filter(
+        (truck) => truck.categoryId === selectedCategory?.id,
+    );
+
+    // 5. The final truck filter now listens to appliedBrands, not tempSelectedBrands
+    const finalFilteredTrucks = categoryTrucks.filter((truck) => {
+        // If no brands are checked, show all trucks in this category
+        if (appliedBrands.length === 0) return true;
+
+        // otherwise
+        return appliedBrands.includes(truck.brand);
+    });
+
+    const previewFilteredTrucks = categoryTrucks.filter((truck) => {
+        if (tempSelectedBrands.length === 0) return true;
+
+        // Clean up both strings to make them immune to trailing spaces or case issues
+        const truckBrandClean = truck.brand?.trim().toUpperCase();
+
+        return tempSelectedBrands.some(
+            (selected) => selected.trim().toUpperCase() === truckBrandClean,
+        );
+    });
+
+    console.log("previewFilteredTrucks length", previewFilteredTrucks.length);
+
+    // filtering based on brand name
+
     return (
         <div className='bg-gray-100 relative pb-40'>
             <Container>
@@ -84,7 +135,13 @@ const FilteredCatalog = () => {
 
                 {/* LEFT RIGHT */}
                 <div className='grid lg:grid-cols-[300px_1fr] gap-6'>
-                    <Form selectedCategory={selectedCategory} />
+                    <Form
+                        selectedCategory={selectedCategory}
+                        selectedBrands={tempSelectedBrands}
+                        handleBrandChange={handleBrandChange}
+                        handleApplyFilters={handleApplyFilters}
+                        previewCount={previewFilteredTrucks.length}
+                    />
 
                     {/*Trucks Part  */}
                     <div className='flex flex-col gap-5'>
@@ -94,6 +151,7 @@ const FilteredCatalog = () => {
                             category={category}
                             isLine={isLine}
                             isTable={isTable}
+                            finalFilteredTrucks={finalFilteredTrucks}
                         />
 
                         <div>

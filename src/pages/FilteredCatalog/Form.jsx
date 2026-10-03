@@ -6,10 +6,19 @@ import "./range.css";
 import LiftingCapacity from "./Ranges/LiftingCapacity";
 import TankCapacity from "./Ranges/TankCapacity";
 import PriceRange from "./Ranges/PriceRange";
+import { useState } from "react";
+import trucks from "../../data/truckData";
 
-const Form = ({ selectedCategory }) => {
+const Form = ({
+    selectedCategory,
+    selectedBrands,
+    handleBrandChange,
+    handleApplyFilters,
+    previewCount,
+}) => {
+    // console.log(selectedCategory);
+
     const { t } = useTranslation();
-
     return (
         <form className='hidden lg:block bg-white py-5 px-4 overflow-y-scroll max-h-160 top-7 sticky scrollbar-thin'>
             {/* price range */}
@@ -34,11 +43,15 @@ const Form = ({ selectedCategory }) => {
 
             <div className='mt-6 mb-8'>
                 {selectedCategory?.brandsOfTrucks?.brands.map((item) => {
+                    const isChecked = selectedBrands.includes(item);
+
                     return (
                         <div key={item} className='flex flex-col p-1'>
                             <label className='flex items-center cursor-pointer gap-2'>
                                 <div className='relative flex items-center'>
                                     <input
+                                        checked={isChecked}
+                                        onChange={() => handleBrandChange(item)}
                                         className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
                                         type='checkbox'
                                     />
@@ -204,11 +217,13 @@ const Form = ({ selectedCategory }) => {
 
             <div>
                 <Button
+                    onClick={handleApplyFilters}
                     type='button'
                     variant='btn_big'
                     className='w-full py-3! text-normal outline-none'
                 >
-                    {t("filteredPage.filterSideBar.showMore")}
+                    {t("filteredPage.filterSideBar.showMore")}{" "}
+                    <span>({previewCount})</span>
                 </Button>
             </div>
         </form>

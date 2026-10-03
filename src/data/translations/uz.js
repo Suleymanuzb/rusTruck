@@ -2966,13 +2966,16 @@ const uz = {
         partners: "Hamkorlar",
         production: "Ishlab chiqarish",
         suppliers: "Yetkazib beruvchilar va hamkorlar uchun",
-        reviews: "RusTruck MChJ hamkorlarining sharhlari va tavsiyanomalari",
+        reviews: "RUSTRAK MChJ hamkorlarining sharhlari va tavsiyanomalari",
         vacancies: "Bo‘sh ish o‘rinlari",
         certificate: "Sertifikatlar",
         leasing: "Kredit va lizing",
-        korzinka: "Savat",
+        korzinka: "Savatcha",
         favourites: "Sevimlilar",
         photogallery: "Foto galereya",
+        video: "Video",
+        promo: "Reklama materiallari",
+        search: "Qidiruv",
     },
 
     categoriesCards: {

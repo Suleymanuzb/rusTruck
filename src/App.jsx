@@ -32,6 +32,7 @@ import Favourites from "./pages/Favourites/Favourites";
 import PhotoGallery from "./pages/PhotoGallery/PhotoGallery";
 import VideoPage from "./pages/VideoPage/VideoPage";
 import Ads from "./pages/Ads/Ads";
+import Search from "./pages/Search/Search";
 
 const App = () => {
     useEffect(() => {
@@ -114,6 +115,7 @@ const App = () => {
                     <Route path='photogallery' element={<PhotoGallery />} />
                     <Route path='video' element={<VideoPage />} />
                     <Route path='promo' element={<Ads />} />
+                    <Route path='search' element={<Search />} />
 
                     <Route path='*' element={<NotFound />} />
                 </Route>

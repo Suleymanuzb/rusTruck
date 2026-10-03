@@ -4,11 +4,9 @@ import { useNavigate } from "react-router-dom";
 import { icons } from "../../assets/icons/icons";
 const { IconClose } = icons;
 import Button from "../../components/Button/Button";
-import { div } from "motion/react-client";
 
-const ModalFull = ({ onClose }) => {
+const Modal = ({ onClose }) => {
     const { t } = useTranslation();
-
     const modalInputs = t("products.modal.inputs", {
         returnObjects: true,
     });
@@ -26,7 +24,6 @@ const ModalFull = ({ onClose }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
         const newErrors = {};
 
         modalInputs.forEach((item) => {
@@ -44,8 +41,11 @@ const ModalFull = ({ onClose }) => {
         setErrors(newErrors);
 
         if (Object.keys(newErrors).length === 0) {
+            setAgreed(false);
             setErrors({});
-            setAgreed(true);
+            console.log("Form is valid");
+            onClose();
+
             navigate("/success");
         }
     };
@@ -60,9 +60,9 @@ const ModalFull = ({ onClose }) => {
 
     return (
         <div>
-            <div className='fixed inset-0 z-70 bg-black/10 top-10'></div>
+            <div className='fixed inset-0 z-70 bg-black/50'></div>
 
-            <div className=' modal fixed z-100 w-80 md:min-w-120 bg-white top-[55%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-lg px-6 pt-8 pb-6'>
+            <div className='modal fixed z-80 w-80 md:min-w-120 bg-white top-[55%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-lg px-6 pt-8 pb-6'>
                 <div onClick={onClose} className='absolute top-1 right-1'>
                     <span className='text-3xl cursor-pointer'>
                         <IconClose />
@@ -118,7 +118,7 @@ const ModalFull = ({ onClose }) => {
                             );
                         })}
                         <div
-                            className={`flex gap-3 mt-1 ${!errors.agreement ? "mb-20" : "mb-20"}`}
+                            className={`flex gap-3 mt-1 ${!errors.agreement ? "mb-20" : "mb-0"}`}
                         >
                             <input
                                 type='checkbox'
@@ -131,7 +131,7 @@ const ModalFull = ({ onClose }) => {
                                 {t("products.modal.agreement.text")}
                                 <a
                                     href='/upload/privacy_policy.pdf'
-                                    className='text-indigo-600 hover:text-blue-800 ml-1'
+                                    className='text-indigo-600 hover:text-blue-800 ml-1 text-center'
                                 >
                                     {t("products.modal.agreement.link")}
                                 </a>
@@ -148,7 +148,7 @@ const ModalFull = ({ onClose }) => {
                             <Button
                                 type='submit'
                                 variant='btn_big_more'
-                                className='w-full whitespace-nowrap'
+                                className='w-full whitespace-nowrap cursor-pointer'
                             >
                                 {t("products.modal.getPk")}
                             </Button>
@@ -159,5 +159,4 @@ const ModalFull = ({ onClose }) => {
         </div>
     );
 };
-
-export default ModalFull;
+export default Modal;

@@ -296,9 +296,10 @@ const trucks = [
             },
 
             buttons: {
+                addToCart: "В корзину",
                 more: "Подробнее",
-                getPk: "Получить КП",
-                addToCart: "Добавить в корзину",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне это нужно",
             },
 
             specifications: {
@@ -4328,9 +4329,9 @@ const trucks = [
             },
 
             buttons: {
-                more: "More details",
-                getPk: "Get a quotation",
-                addToCart: "Add to cart",
+                more: "Details",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
             },
 
             specifications: {
@@ -9714,9 +9715,9 @@ const trucks = [
             category: "Curtain-Sided Trucks",
 
             buttons: {
-                more: "More details",
-                getPk: "Get a quotation",
-                addToCart: "Add to cart",
+                more: "Details",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
             },
 
             specifications: {
@@ -10145,9 +10146,9 @@ const trucks = [
             category: "Curtain-Sided Trucks",
 
             buttons: {
-                more: "More details",
-                getPk: "Get a quotation",
-                addToCart: "Add to cart",
+                more: "Details",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
             },
 
             specifications: {
@@ -10569,9 +10570,9 @@ const trucks = [
             category: "Curtain-Sided Trucks",
 
             buttons: {
-                more: "More details",
-                getPk: "Get a quotation",
-                addToCart: "Add to cart",
+                more: "Details",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
             },
 
             specifications: {
@@ -15301,11 +15302,10 @@ const trucks = [
                 "*Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
 
             buttons: {
-                addToCart: "Добавить в корзину",
-                more: "Получить КП",
-                getPk: "Получить КП",
-                download: "Скачать спецификацию",
-                iNeedThis: "Мне нужен такой же",
+                addToCart: "В корзину",
+                more: "Подробнее",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне это нужно",
             },
 
             truckType:
@@ -15700,11 +15700,10 @@ const trucks = [
             price: "Цена по запросу",
 
             buttons: {
-                addToCart: "Добавить в корзину",
-                more: "Получить КП",
-                getPk: "Получить КП",
-                download: "Скачать спецификацию",
-                iNeedThis: "Мне нужен такой же",
+                addToCart: "В корзину",
+                more: "Подробнее",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне это нужно",
             },
 
             truckType: "Автогидроподъемник PALFINGER P 240A на шасси HD-78",
@@ -15859,11 +15858,10 @@ const trucks = [
             price: "Цена по запросу",
 
             buttons: {
-                addToCart: "Добавить в корзину",
-                more: "Получить КП",
-                getPk: "Получить КП",
-                download: "Скачать спецификацию",
-                iNeedThis: "Мне нужен такой же",
+                addToCart: "В корзину",
+                more: "Подробнее",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне это нужно",
             },
 
             truckType:
@@ -16044,11 +16042,10 @@ const trucks = [
             price: "Цена по запросу",
 
             buttons: {
-                addToCart: "Добавить в корзину",
-                more: "Получить КП",
-                getPk: "Получить КП",
-                download: "Скачать спецификацию",
-                iNeedThis: "Мне нужен такой же",
+                addToCart: "В корзину",
+                more: "Подробнее",
+                getPk: "Получить ПК",
+                iNeedThis: "Мне это нужно",
             },
 
             truckType:
@@ -16160,7 +16157,7 @@ const trucks = [
             buttons: {
                 getPk: "Tijorat taklifini olish",
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -16238,7 +16235,7 @@ const trucks = [
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
@@ -16413,7 +16410,7 @@ const trucks = [
             buttons: {
                 getPk: "Get a Quote",
                 addToCart: "Add to Cart",
-                more: "Get a Quote",
+                more: "Details",
                 download: "Download specification",
                 iNeedThis: "I need one like this",
             },
@@ -16587,7 +16584,7 @@ const trucks = [
             buttons: {
                 getPk: "Tijorat taklifini olish",
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -16778,7 +16775,7 @@ const trucks = [
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
@@ -16934,7 +16931,7 @@ const trucks = [
             buttons: {
                 getPk: "Get a Quote",
                 addToCart: "Add to Cart",
-                more: "Get a Quote",
+                more: "Details",
                 download: "Download specification",
                 iNeedThis: "I need one like this",
             },
@@ -17089,7 +17086,7 @@ const trucks = [
             buttons: {
                 getPk: "Tijorat taklifini olish",
                 addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
+                more: "Batafsil",
                 download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -17261,7 +17258,7 @@ const trucks = [
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
@@ -17433,9 +17430,9 @@ const trucks = [
                 "*10% discount (up to RUB 500,000) under the state preferential leasing program",
 
             buttons: {
-                addToCart: "Add to Cart",
-                more: "Get a Quote",
                 getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
                 download: "Download specification",
                 iNeedThis: "I need one like this",
             },
@@ -17609,9 +17606,9 @@ const trucks = [
                 "*Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
 
             buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
                 getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
                 download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -17807,7 +17804,7 @@ const trucks = [
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
                 download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
@@ -17934,9 +17931,9 @@ const trucks = [
                 "*10% discount (up to RUB 500,000) under the state preferential leasing program",
 
             buttons: {
-                addToCart: "Add to Cart",
-                more: "Get a Quote",
                 getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
                 download: "Download specification",
                 iNeedThis: "I need one like this",
             },
@@ -18062,9 +18059,9 @@ const trucks = [
                 "*Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
 
             buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
                 getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
                 download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -18203,8 +18200,9 @@ const trucks = [
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
+                download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
             },
 
@@ -18326,9 +18324,9 @@ const trucks = [
                 "*10% discount (up to RUB 500,000) under the state preferential leasing program",
 
             buttons: {
-                addToCart: "Add to Cart",
-                more: "Get a Quote",
                 getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
                 download: "Download specification",
                 iNeedThis: "I need one like this",
             },
@@ -18450,9 +18448,9 @@ const trucks = [
                 "*Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
 
             buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
                 getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
                 download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
@@ -18588,8 +18586,9 @@ const trucks = [
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
+                download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
             },
 
@@ -18746,9 +18745,10 @@ const trucks = [
             price: "Price upon request",
 
             buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
+                download: "Download specification",
                 iNeedThis: "I need one like this",
             },
 
@@ -18904,9 +18904,10 @@ The tanker is thermally insulated, making it convenient to operate in difficult 
             price: "Narx so‘rov bo‘yicha",
 
             buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
                 getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
 
@@ -19082,8 +19083,9 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
+                download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
             },
 
@@ -19210,9 +19212,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             price: "Price upon request",
 
             buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
+                download: "Download specification",
                 iNeedThis: "I need one like this",
             },
 
@@ -19338,9 +19341,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             price: "Narx so‘rov bo‘yicha",
 
             buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
                 getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
 
@@ -19653,10 +19657,11 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                 "10% discount (up to RUB 500,000) under the state preferential leasing program",
 
             buttons: {
-                addToCart: "Add to cart",
-                getPk: "Get a quotation",
-                more: "More details",
-                iNeedThis: "I need one like this",
+                addToCart: "Добавить в корзину",
+                more: "Подробнее",
+                getPk: "Получить КП",
+                download: "Скачать спецификацию",
+                iNeedThis: "Мне нужен такой же",
             },
 
             truckType:
@@ -20001,8 +20006,9 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
+                download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
             },
 
@@ -20139,9 +20145,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             price: "Price upon request",
 
             buttons: {
-                addToCart: "Add to cart",
-                getPk: "Get a quotation",
-                more: "More details",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
+                download: "Download specification",
                 iNeedThis: "I need one like this",
             },
 
@@ -20448,8 +20455,9 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
+                download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
             },
 
@@ -20608,9 +20616,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                 "10% discount (up to RUB 500,000) under the state preferential leasing program",
 
             buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
+                download: "Download specification",
                 iNeedThis: "I need one like this",
             },
 
@@ -20769,9 +20778,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                 "Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
 
             buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
                 getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
 
@@ -20949,8 +20959,9 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                 "Скидка 10% (не более 500 000 руб.) по госпрограмме льготного лизинга",
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
+                download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
             },
             truckType: "Изотермический фургон КАМАЗ 43082",
@@ -21101,9 +21112,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             discount:
                 "10% discount (up to RUB 500,000) under the state preferential leasing program",
             buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
+                download: "Download specification",
                 iNeedThis: "I need one like this",
             },
             truckType: "KAMAZ 43082 Insulated Van",
@@ -21256,12 +21268,15 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             price: "Narx so‘rov bo‘yicha",
             discount:
                 "Davlat imtiyozli lizing dasturi bo‘yicha 10% chegirma (500 000 rubldan oshmagan holda)",
+
             buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
                 getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
+
             truckType: "KAMAZ 43082 izotermik furgoni",
             category: "Avtofurgonlar",
 
@@ -21429,12 +21444,15 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
         ru: {
             price: "Цена по запросу",
+
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
+                download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
             },
+
             truckType: "Изотермический фургон SHACMAN X3000",
             category: "Автофургоны",
 
@@ -21583,12 +21601,15 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
         en: {
             price: "Price upon request",
+
             buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
+                download: "Download specification",
                 iNeedThis: "I need one like this",
             },
+
             truckType: "SHACMAN X3000 Insulated Van",
             category: "Van Trucks",
 
@@ -21737,12 +21758,15 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
         uz: {
             price: "Narx so‘rov bo‘yicha",
+
             buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
                 getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
+
             truckType: "SHACMAN X3000 izotermik furgoni",
             category: "Avtofurgonlar",
 
@@ -21913,8 +21937,9 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             price: "Цена по запросу",
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
+                download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
             },
             truckType: "Изотермический фургон JAC 35",
@@ -22053,12 +22078,15 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
         en: {
             price: "Price upon request",
+
             buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
+                download: "Download specification",
                 iNeedThis: "I need one like this",
             },
+
             truckType: "JAC 35 Insulated Van",
             category: "Van Trucks",
 
@@ -22195,12 +22223,15 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
         uz: {
             price: "Narx so‘rov bo‘yicha",
+
             buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
                 getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
+
             truckType: "JAC 35 izotermik furgoni",
             category: "Avtofurgonlar",
 
@@ -22359,8 +22390,9 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
+                download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
             },
 
@@ -22515,9 +22547,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             price: "Price upon request",
 
             buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
+                download: "Download specification",
                 iNeedThis: "I need one like this",
             },
 
@@ -22672,9 +22705,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             price: "Narx so‘rov bo‘yicha",
 
             buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
                 getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
 
@@ -22847,8 +22881,9 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
 
             buttons: {
                 addToCart: "Добавить в корзину",
-                more: "Получить КП",
+                more: "Подробнее",
                 getPk: "Получить КП",
+                download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
             },
 
@@ -22935,9 +22970,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             price: "Price upon request",
 
             buttons: {
-                addToCart: "Add to cart",
-                more: "Get a quotation",
-                getPk: "Get a quotation",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
+                download: "Download specification",
                 iNeedThis: "I need one like this",
             },
 
@@ -23021,9 +23057,10 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
             price: "Narx so‘rov bo‘yicha",
 
             buttons: {
-                addToCart: "Savatga qo‘shish",
-                more: "Tijorat taklifini olish",
                 getPk: "Tijorat taklifini olish",
+                addToCart: "Savatga qo‘shish",
+                more: "Batafsil",
+                download: "Texnik xususiyatlarni yuklab olish",
                 iNeedThis: "Menga shunday kerak",
             },
 
@@ -23134,6 +23171,7 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                 addToCart: "Добавить в корзину",
                 more: "Подробнее",
                 getPk: "Получить КП",
+                download: "Скачать спецификацию",
                 iNeedThis: "Мне нужен такой же",
             },
 
@@ -29939,10 +29977,11 @@ Sisterna issiqlik izolyatsiyalangan bo‘lib, shu sababli murakkab iqlim sharoit
                 "10% discount (up to RUB 500,000) under the state preferential leasing program",
 
             buttons: {
-                addToCart: "Add to cart",
-                more: "More details",
-                getPk: "Get a quotation",
-                iNeedThis: "I need this",
+                getPk: "Get a Quote",
+                addToCart: "Add to Cart",
+                more: "Details",
+                download: "Download specification",
+                iNeedThis: "I need one like this",
             },
 
             truckType:

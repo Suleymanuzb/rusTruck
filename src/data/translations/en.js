@@ -2973,15 +2973,17 @@ const en = {
         production: "Production",
         suppliers: "For Suppliers and Partners",
         reviews:
-            "Reviews and Letters of Recommendation from RusTruck LLC Partners",
+            "Reviews and Letters of Recommendation from RUSTRAK LLC Partners",
         vacancies: "Vacancies",
         certificate: "Certificates",
         leasing: "Credit and Leasing",
         korzinka: "Cart",
         favourites: "Favorites",
         photogallery: "Photo Gallery",
+        video: "Video",
+        promo: "Promotional Materials",
+        search: "Search",
     },
-
     categoriesCards: {
         howMany: {
             models: "models",

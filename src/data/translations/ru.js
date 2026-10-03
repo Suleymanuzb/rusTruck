@@ -3034,6 +3034,7 @@ const ru = {
         photogallery: "Фотогалерея",
         video: "Видео",
         promo: "Рекламные материалы",
+        search: "Поиск",
     },
 
     categoriesCards: {
@@ -3042,6 +3043,10 @@ const ru = {
             modeli: "модели",
             model: "модель",
         },
+    },
+
+    search: {
+        title: "Поиск",
     },
 };
 
