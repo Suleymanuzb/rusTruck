@@ -21,6 +21,7 @@ const ResponsiveSearch = ({ isSticky }) => {
 
         navigate(`/search?query=${search}`);
         setIsSearchOpen(false);
+        setSearch("");
     };
 
     return (
@@ -40,14 +41,14 @@ const ResponsiveSearch = ({ isSticky }) => {
                         >
                             <input
                                 type='text'
-                                className='w-full h-full text-[16px] outline-none ml-4'
+                                className='w-full min-w-0 h-full text-[16px] outline-none ml-4'
                                 onChange={handleSearch}
                                 value={search}
                             />
 
                             <SearchIcon
                                 onClick={handleSubmit}
-                                className='mr-4 active:scale-95 cursor-pointer'
+                                className='mr-4 active:scale-95 cursor-pointer shrink-0'
                             />
                         </form>
                     </div>
