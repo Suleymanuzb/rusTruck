@@ -22,7 +22,7 @@ const SearchInput = () => {
     return (
         <form
             onSubmit={handleSubmit}
-            className='hidden min-w-77.5 lg:flex items-center justify-center border-2 border-[#FEC80B] rounded-full '
+            className='hidden min-w-77.5 lg:flex items-center justify-center border-2 border-[#FEC80B] rounded-full'
         >
             <input
                 type='text'

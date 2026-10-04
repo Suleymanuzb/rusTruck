@@ -21,22 +21,22 @@ const AddedCartToKorzina = () => {
     return noCarts ? (
         <div>
             <p
-                className='text-2xl mb-14'
+                className='sm:text-xl lg:text-2xl mb-6 sm:mb-14 w-full!'
                 dangerouslySetInnerHTML={{
                     __html: t("korzinka.empty"),
                 }}
             ></p>
 
-            <div className='flex items-center gap-4'>
+            <div className='flex flex-col sm:flex-row items-center gap-4'>
                 <Link
                     to={"/"}
-                    className='bg-transparent border-2 hover:bg-[#FFD43A] border-[#FEC80B] hover:bg-[#FFD43A] text-black active:bg-[#E9C135] rounded-md leading-none px-10 py-2.5'
+                    className='bg-transparent border-2 hover:bg-[#FFD43A] border-[#FEC80B] text-black active:bg-[#E9C135] rounded-md leading-none px-10 py-2.5 whitespace-nowrap max-[640px]:w-45 max-[640px]:text-center max-[640px]:self-start'
                 >
                     {t("korzinka.toHome")}
                 </Link>
                 <Link
                     to={"/catalog"}
-                    className='bg-[#FEC80B] text-black hover:bg-[#FFD43A] active:bg-[#E9C135] px-10 py-2 rounded'
+                    className='bg-[#FEC80B] text-black hover:bg-[#FFD43A] active:bg-[#E9C135] min-[640px]:px-10 py-2 rounded whitespace-nowrap max-[640px]:w-45 max-[640px]:text-center max-[640px]:self-start'
                 >
                     {t("korzinka.toCatalog")}
                 </Link>

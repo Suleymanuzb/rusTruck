@@ -18,6 +18,7 @@ import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import PhoneCallOnly from "./PhoneCalIconItself";
 import Modal from "./Modal";
+import ResponsiveSearch from "./ResponsiveSearch";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(null);
@@ -189,9 +190,10 @@ const Header = () => {
                         </div>
 
                         <div className='flex items-center gap-4'>
-                            <SearchInput className='hidden lg:block' />
+                            <SearchInput />
 
-                            <div className='flex items-center gap-4.5'>
+                            <div className='flex items-center gap-4'>
+                                <ResponsiveSearch isSticky={isSticky} />
                                 <Korzinka to='/korzinka' />
                                 <Favourites to='/favourites' />
                                 <LanguageDropdown className='hidden sm:flex w-10 h-10' />
