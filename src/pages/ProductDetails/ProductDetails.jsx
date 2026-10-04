@@ -14,6 +14,7 @@ import { useCartStore } from "../../store/cartStore";
 import SimilarProducts from "./SimilarProdcts";
 
 const ProductDetails = () => {
+    const { t } = useTranslation();
     const [fancyboxRef] = useFancybox();
 
     const [isOpen, setIsOpen] = useState(false);
@@ -327,7 +328,15 @@ const ProductDetails = () => {
 
             {/* similar trucks */}
             <Container>
-                <SimilarProducts similarTrucks={similarTrucks} />
+                <div>
+                    <div className='mb-4'>
+                        <h1 className='text-xl sm:text-2xl lg:text-3xl'>
+                            {t("similartTrucks.title")}
+                        </h1>
+                    </div>
+
+                    <SimilarProducts similarTrucks={similarTrucks} />
+                </div>
             </Container>
 
             <AnyQuestions />

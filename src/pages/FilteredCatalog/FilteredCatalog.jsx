@@ -22,6 +22,7 @@ import Button from "../../components/Button/Button";
 import LiftingCapacity from "./Ranges/LiftingCapacity";
 import PriceRange from "./Ranges/PriceRange";
 import TankCapacity from "./Ranges/TankCapacity";
+import SimilarProducts from "./SimilarProdcts";
 
 const FilteredCatalog = () => {
     const [isLine, setIsLine] = useState(false);
@@ -415,6 +416,20 @@ const FilteredCatalog = () => {
                     </div>
                 </form>
             </div>
+
+            {/* similar trucks */}
+
+            <Container className='mt-20'>
+                <div>
+                    <div className='mb-4'>
+                        <h1 className='text-xl sm:text-2xl lg:text-3xl'>
+                            {t("similartTrucks.title")}
+                        </h1>
+                    </div>
+
+                    <SimilarProducts similarTrucks={matchingTrucks} />
+                </div>
+            </Container>
         </div>
     );
 };

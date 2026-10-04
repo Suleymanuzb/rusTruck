@@ -2999,6 +2999,11 @@ const uz = {
 
         button: "Kategoriyalarga o‘tish",
     },
+
+    // UZ
+    similarTrucks: {
+        title: "O‘xshash yuk mashinalari",
+    },
 };
 
 export default uz;

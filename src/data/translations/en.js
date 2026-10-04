@@ -3228,6 +3228,10 @@ const en = {
 
         button: "Go to categories",
     },
+
+    similarTrucks: {
+        title: "Similar trucks",
+    },
 };
 
 export default en;
