@@ -34,7 +34,7 @@ const ResponsiveSearch = ({ isSticky }) => {
             </span>
 
             <div
-                className={`border search-box absolute z-300 ${isSticky ? "top-24.5 sm:top-16" : "top-13"} left-0 w-full grid transition-all duration-300 ${isSearchOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr] pointer-events-none"}`}
+                className={`search-box absolute z-300 ${isSticky ? "top-24.5 sm:top-16" : "top-13"} left-0 w-full grid transition-all duration-300 ${isSearchOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr] pointer-events-none"}`}
             >
                 <Container className='overflow-hidden'>
                     <div
