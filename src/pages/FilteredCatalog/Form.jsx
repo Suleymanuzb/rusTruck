@@ -26,6 +26,10 @@ const Form = ({
         setLocalSearch(e.target.value);
     };
 
+    const handleShowButton = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
     return (
         <form className='hidden lg:block bg-white py-5 px-4 overflow-y-scroll max-h-160 top-7 sticky scrollbar-thin'>
             {/* price range */}
@@ -226,7 +230,10 @@ const Form = ({
 
             <div>
                 <Button
-                    onClick={handleApplyFilters}
+                    onClick={() => {
+                        handleApplyFilters();
+                        handleShowButton();
+                    }}
                     type='button'
                     variant='btn_big'
                     className='w-full py-3! text-normal outline-none'
