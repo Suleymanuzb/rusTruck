@@ -7,6 +7,7 @@ import LiftingCapacity from "./Ranges/LiftingCapacity";
 import TankCapacity from "./Ranges/TankCapacity";
 import PriceRange from "./Ranges/PriceRange";
 import { useState } from "react";
+import Loader from "../../components/Loader/Loader";
 
 const Form = ({
     selectedCategory,
@@ -22,180 +23,80 @@ const Form = ({
 
     const { t } = useTranslation();
 
+    const [loading, setPageLoading] = useState(false);
+
     const handle = (e) => {
         setLocalSearch(e.target.value);
     };
 
     const handleShowButton = () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
+        setPageLoading(true);
+        window.scrollTo({ top: 0, behavior: "instant" });
+
+        setTimeout(() => {
+            setPageLoading(false);
+        }, 400);
     };
 
     return (
-        <form className='hidden lg:block bg-white py-5 px-4 overflow-y-scroll max-h-160 top-7 sticky scrollbar-thin'>
-            {/* price range */}
-            {selectedCategory?.id === 3 && (
-                <PriceRange selectedCategory={selectedCategory} />
-            )}
+        <>
+            {loading && <Loader />}
+            <form className='hidden lg:block bg-white py-5 px-4 overflow-y-scroll max-h-160 top-7 sticky scrollbar-thin'>
+                {/* price range */}
+                {selectedCategory?.id === 3 && (
+                    <PriceRange selectedCategory={selectedCategory} />
+                )}
 
-            <p className='mb-4 font-medium leading-[1.1]'>
-                {selectedCategory?.brandsOfTrucks?.title}
-            </p>
+                <p className='mb-4 font-medium leading-[1.1]'>
+                    {selectedCategory?.brandsOfTrucks?.title}
+                </p>
 
-            <div className='relative'>
-                <input
-                    onChange={(e) => handle(e)}
-                    value={localSearch}
-                    type='text'
-                    className='outline-none border border-[#a2a2a2] rounded focus:border-[#fec80b] focus:shadow-[0_0_4px_#fec80b] transform duration-300 placeholder:text-gray-400 py-2 pl-3 pr-10 w-full'
-                    placeholder='Найти'
-                />
-                <span className='absolute right-[4%] top-[15%]'>
-                    <SearchIcon />
-                </span>
-            </div>
-
-            <div className='mt-6 mb-8'>
-                {searchedBrands.map((item) => {
-                    const isChecked = selectedBrands.includes(item);
-
-                    return (
-                        <div key={item} className='flex flex-col p-1'>
-                            <label className='flex items-center cursor-pointer gap-2'>
-                                <div className='relative flex items-center'>
-                                    <input
-                                        checked={isChecked}
-                                        onChange={() => handleBrandChange(item)}
-                                        className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
-                                        type='checkbox'
-                                    />
-                                    <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
-                                </div>
-                                <span>{item}</span>
-                            </label>
-                        </div>
-                    );
-                })}
-            </div>
-
-            {/* Тип бортовой платформы */}
-            {selectedCategory?.typesOfFlatbedPlatforms && (
-                <div className='mb-8'>
-                    <h1 className='text-lg font-medium mb-2'>
-                        {selectedCategory.typesOfFlatbedPlatforms.title}
-                    </h1>
-
-                    {selectedCategory?.typesOfFlatbedPlatforms?.flatbeds.map(
-                        (item, i) => {
-                            return (
-                                <div key={i} className='flex flex-col p-1'>
-                                    <label className='flex items-center cursor-pointer gap-2'>
-                                        <div className='relative flex items-center'>
-                                            <input
-                                                className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
-                                                type='checkbox'
-                                            />
-                                            <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
-                                        </div>
-                                        <span>{item.flatbed}</span>
-                                    </label>
-                                </div>
-                            );
-                        },
-                    )}
+                <div className='relative'>
+                    <input
+                        onChange={(e) => handle(e)}
+                        value={localSearch}
+                        type='text'
+                        className='outline-none border border-[#a2a2a2] rounded focus:border-[#fec80b] focus:shadow-[0_0_4px_#fec80b] transform duration-300 placeholder:text-gray-400 py-2 pl-3 pr-10 w-full'
+                        placeholder='Найти'
+                    />
+                    <span className='absolute right-[4%] top-[15%]'>
+                        <SearchIcon />
+                    </span>
                 </div>
-            )}
 
-            {selectedCategory?.WheelFormula && (
-                <div className='mb-8'>
-                    <h1 className='text-lg font-medium mb-2'>
-                        {selectedCategory?.WheelFormula.title}
-                    </h1>
+                <div className='mt-6 mb-8'>
+                    {searchedBrands.map((item) => {
+                        const isChecked = selectedBrands.includes(item);
 
-                    {selectedCategory?.WheelFormula.wheelFormulaSizes.map(
-                        (item, i) => {
-                            return (
-                                <div key={i} className='flex flex-col p-1'>
-                                    <label className='flex items-center cursor-pointer gap-2'>
-                                        <div className='relative flex items-center'>
-                                            <input
-                                                className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
-                                                type='checkbox'
-                                            />
-                                            <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
-                                        </div>
-                                        <span>{item.size}</span>
-                                    </label>
-                                </div>
-                            );
-                        },
-                    )}
+                        return (
+                            <div key={item} className='flex flex-col p-1'>
+                                <label className='flex items-center cursor-pointer gap-2'>
+                                    <div className='relative flex items-center'>
+                                        <input
+                                            checked={isChecked}
+                                            onChange={() =>
+                                                handleBrandChange(item)
+                                            }
+                                            className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
+                                            type='checkbox'
+                                        />
+                                        <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
+                                    </div>
+                                    <span>{item}</span>
+                                </label>
+                            </div>
+                        );
+                    })}
                 </div>
-            )}
 
-            <div className='mb-8'>
-                <h1 className='text-lg font-medium mb-4'>
-                    {selectedCategory?.GrossLoad?.title}
-                </h1>
+                {/* Тип бортовой платформы */}
+                {selectedCategory?.typesOfFlatbedPlatforms && (
+                    <div className='mb-8'>
+                        <h1 className='text-lg font-medium mb-2'>
+                            {selectedCategory.typesOfFlatbedPlatforms.title}
+                        </h1>
 
-                <div>
-                    {selectedCategory?.GrossLoad?.grossCapacities.map(
-                        (item, i) => {
-                            return (
-                                <div key={i} className='flex flex-col p-1'>
-                                    <label className='flex items-center cursor-pointer gap-2'>
-                                        <div className='relative flex items-center'>
-                                            <input
-                                                className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
-                                                type='checkbox'
-                                            />
-                                            <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
-                                        </div>
-                                        <span>{item.cap}</span>
-                                    </label>
-                                </div>
-                            );
-                        },
-                    )}
-                </div>
-            </div>
-
-            {/* Length of Platforms */}
-            <div className='mb-8'>
-                <h1 className='text-lg font-medium mb-4'>
-                    {selectedCategory?.lengthOfPlatform?.title}
-                </h1>
-
-                <div>
-                    {selectedCategory?.lengthOfPlatform?.lengths.map(
-                        (item, i) => {
-                            return (
-                                <div key={i} className='flex flex-col p-1'>
-                                    <label className='flex items-center cursor-pointer gap-2'>
-                                        <div className='relative flex items-center'>
-                                            <input
-                                                className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
-                                                type='checkbox'
-                                            />
-                                            <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
-                                        </div>
-                                        <span>{item.option}</span>
-                                    </label>
-                                </div>
-                            );
-                        },
-                    )}
-                </div>
-            </div>
-
-            {/* Тип автоцистерны */}
-            {selectedCategory?.typesOfTanks && (
-                <div className='mb-8'>
-                    <h1 className='text-lg font-medium mb-4'>
-                        {selectedCategory?.typesOfTanks?.title}
-                    </h1>
-
-                    <div>
-                        {selectedCategory?.typesOfTanks?.tanks?.map(
+                        {selectedCategory?.typesOfFlatbedPlatforms?.flatbeds.map(
                             (item, i) => {
                                 return (
                                     <div key={i} className='flex flex-col p-1'>
@@ -207,7 +108,61 @@ const Form = ({
                                                 />
                                                 <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
                                             </div>
-                                            <span>{item.tank}</span>
+                                            <span>{item.flatbed}</span>
+                                        </label>
+                                    </div>
+                                );
+                            },
+                        )}
+                    </div>
+                )}
+
+                {selectedCategory?.WheelFormula && (
+                    <div className='mb-8'>
+                        <h1 className='text-lg font-medium mb-2'>
+                            {selectedCategory?.WheelFormula.title}
+                        </h1>
+
+                        {selectedCategory?.WheelFormula.wheelFormulaSizes.map(
+                            (item, i) => {
+                                return (
+                                    <div key={i} className='flex flex-col p-1'>
+                                        <label className='flex items-center cursor-pointer gap-2'>
+                                            <div className='relative flex items-center'>
+                                                <input
+                                                    className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
+                                                    type='checkbox'
+                                                />
+                                                <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
+                                            </div>
+                                            <span>{item.size}</span>
+                                        </label>
+                                    </div>
+                                );
+                            },
+                        )}
+                    </div>
+                )}
+
+                <div className='mb-8'>
+                    <h1 className='text-lg font-medium mb-4'>
+                        {selectedCategory?.GrossLoad?.title}
+                    </h1>
+
+                    <div>
+                        {selectedCategory?.GrossLoad?.grossCapacities.map(
+                            (item, i) => {
+                                return (
+                                    <div key={i} className='flex flex-col p-1'>
+                                        <label className='flex items-center cursor-pointer gap-2'>
+                                            <div className='relative flex items-center'>
+                                                <input
+                                                    className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
+                                                    type='checkbox'
+                                                />
+                                                <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
+                                            </div>
+                                            <span>{item.cap}</span>
                                         </label>
                                     </div>
                                 );
@@ -215,34 +170,96 @@ const Form = ({
                         )}
                     </div>
                 </div>
-            )}
 
-            {/* range capacity slider */}
-            {(selectedCategory?.id === 2 || selectedCategory?.id === 11) && (
-                <LiftingCapacity selectedCategory={selectedCategory} />
-            )}
-            {/* ! */}
+                {/* Length of Platforms */}
+                <div className='mb-8'>
+                    <h1 className='text-lg font-medium mb-4'>
+                        {selectedCategory?.lengthOfPlatform?.title}
+                    </h1>
 
-            {/* Tank Capacity */}
-            {selectedCategory?.TankCapacity && (
-                <TankCapacity selectedCategory={selectedCategory} />
-            )}
+                    <div>
+                        {selectedCategory?.lengthOfPlatform?.lengths.map(
+                            (item, i) => {
+                                return (
+                                    <div key={i} className='flex flex-col p-1'>
+                                        <label className='flex items-center cursor-pointer gap-2'>
+                                            <div className='relative flex items-center'>
+                                                <input
+                                                    className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
+                                                    type='checkbox'
+                                                />
+                                                <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
+                                            </div>
+                                            <span>{item.option}</span>
+                                        </label>
+                                    </div>
+                                );
+                            },
+                        )}
+                    </div>
+                </div>
 
-            <div>
-                <Button
-                    onClick={() => {
-                        handleApplyFilters();
-                        handleShowButton();
-                    }}
-                    type='button'
-                    variant='btn_big'
-                    className='w-full py-3! text-normal outline-none'
-                >
-                    {t("filteredPage.filterSideBar.showMore")}{" "}
-                    <span>({previewCount})</span>
-                </Button>
-            </div>
-        </form>
+                {/* Тип автоцистерны */}
+                {selectedCategory?.typesOfTanks && (
+                    <div className='mb-8'>
+                        <h1 className='text-lg font-medium mb-4'>
+                            {selectedCategory?.typesOfTanks?.title}
+                        </h1>
+
+                        <div>
+                            {selectedCategory?.typesOfTanks?.tanks?.map(
+                                (item, i) => {
+                                    return (
+                                        <div
+                                            key={i}
+                                            className='flex flex-col p-1'
+                                        >
+                                            <label className='flex items-center cursor-pointer gap-2'>
+                                                <div className='relative flex items-center'>
+                                                    <input
+                                                        className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
+                                                        type='checkbox'
+                                                    />
+                                                    <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
+                                                </div>
+                                                <span>{item.tank}</span>
+                                            </label>
+                                        </div>
+                                    );
+                                },
+                            )}
+                        </div>
+                    </div>
+                )}
+
+                {/* range capacity slider */}
+                {(selectedCategory?.id === 2 ||
+                    selectedCategory?.id === 11) && (
+                    <LiftingCapacity selectedCategory={selectedCategory} />
+                )}
+                {/* ! */}
+
+                {/* Tank Capacity */}
+                {selectedCategory?.TankCapacity && (
+                    <TankCapacity selectedCategory={selectedCategory} />
+                )}
+
+                <div>
+                    <Button
+                        onClick={() => {
+                            handleApplyFilters();
+                            handleShowButton();
+                        }}
+                        type='button'
+                        variant='btn_big'
+                        className='w-full py-3! text-normal outline-none'
+                    >
+                        {t("filteredPage.filterSideBar.showMore")}{" "}
+                        <span>({previewCount})</span>
+                    </Button>
+                </div>
+            </form>
+        </>
     );
 };
 
