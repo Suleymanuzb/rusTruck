@@ -67,9 +67,9 @@ const ScrollSlider = () => {
 
         "top-[45%] left-[98%] min-[1000px]:left-[97.5%] min-[900px]:left-[98%] min-[850px]:left-[98.5%]  min-[600px]:left-[98%] min-[482px]:left-[98.5%] min-[472px]:left-[98%] min-[380px]:left-[98%]",
 
-        "top-[67%] left-[92.5%] min-[1120px]:left-[95%] min-[1024px]:left-[94%] min-[850px]:left-[95.5%] min-[780px]:left-[95.5%] min-[680px]:left-[95%] min-[600px]:left-[94.5%] min-[550px]:left-[95%] min-[450px]:left-[94.5%] min-[380px]:left-[94%]",
+        "top-[67%] left-[92.5%] min-[1120px]:left-[95%] min-[1024px]:left-[94%] min-[850px]:left-[95.5%] min-[780px]:left-[95.5%] min-[680px]:left-[95%] min-[600px]:left-[94.5%] min-[550px]:left-[95%] min-[450px]:left-[95.5%] min-[380px]:left-[95%] min-[365px]:left-[95%] max-[365px]:left-[95%]",
 
-        "top-[82%] left-[84%] min-[1200px]:left-[85.5%] min-[1024px]:left-[85%] min-[890px]:left-[85.5%] min-[760px]:left-[86%] min-[550px]:left-[85.5%] min-[460px]:left-[85%]",
+        "top-[82%] left-[84%] min-[1200px]:left-[85.5%] min-[1024px]:left-[85%] min-[890px]:left-[85.5%] min-[760px]:left-[86%] min-[600px]:left-[85%] min-[590px]:left-[86%] min-[550px]:left-[85.5%] min-[460px]:left-[86%] min-[414px]:left-[86%] min-[365px]:left-[85%]", 
     ];
 
     return (
