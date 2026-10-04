@@ -32,6 +32,11 @@ const RusTruck = ({ to = "/", className = "", isAnimated = true }) => {
     return (
         <Link
             to={to}
+            onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                    e.preventDefault();
+                }
+            }}
             className={`flex items-center shrink-0 py-1 ${className} outline-none`}
         >
             <div

@@ -41,7 +41,12 @@ const Form = ({
     return (
         <>
             {loading && <Loader />}
-            <form className='hidden lg:block bg-white py-5 px-4 overflow-y-scroll max-h-160 top-7 sticky scrollbar-thin'>
+            <form
+                onSubmit={(e) => {
+                    e.preventDefault();
+                }}
+                className='hidden lg:block bg-white py-5 px-4 overflow-y-scroll max-h-160 top-7 sticky scrollbar-thin'
+            >
                 {/* price range */}
                 {selectedCategory?.id === 3 && (
                     <PriceRange selectedCategory={selectedCategory} />

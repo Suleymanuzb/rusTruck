@@ -139,7 +139,7 @@ const FilteredCatalog = () => {
         ) || [];
 
     return (
-        <div className='bg-gray-100 relative pb-40'>
+        <div className='bg-gray-100 relative pb-15 md:pb-25'>
             <Container>
                 <Breadcrumbs />
 
@@ -153,6 +153,7 @@ const FilteredCatalog = () => {
                     isLine={isLine}
                     isTable={isTable}
                     loader={loader}
+                    finalFilteredTrucks={finalFilteredTrucks}
                 />
 
                 {/* LEFT RIGHT */}
@@ -166,6 +167,9 @@ const FilteredCatalog = () => {
                         searchedBrands={searchedBrands}
                         localSearch={localSearch}
                         setLocalSearch={setLocalSearch}
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                        }}
                     />
 
                     {/*Trucks Part  */}
@@ -203,7 +207,12 @@ const FilteredCatalog = () => {
                     </div>
                 </div>
 
-                <form className='bg-white py-5 px-4 overflow-y-auto flex-1 min-h-0'>
+                <form
+                    onSubmit={(e) => {
+                        e.preventDefault();
+                    }}
+                    className='bg-white py-5 px-4 overflow-y-auto flex-1 min-h-0'
+                >
                     <div className='mb-7.75 flex items-center gap-2'>
                         <span>
                             <RefreshIcon className='w-7 h-7' />
@@ -430,18 +439,19 @@ const FilteredCatalog = () => {
             </div>
 
             {/* similar trucks */}
+            {finalFilteredTrucks.length >= 1 && (
+                <Container className='mt-20'>
+                    <div>
+                        <div className='mb-4'>
+                            <h1 className='text-xl sm:text-2xl lg:text-3xl'>
+                                {t("similartTrucks.title")}
+                            </h1>
+                        </div>
 
-            <Container className='mt-20'>
-                <div>
-                    <div className='mb-4'>
-                        <h1 className='text-xl sm:text-2xl lg:text-3xl'>
-                            {t("similartTrucks.title")}
-                        </h1>
+                        <SimilarProducts similarTrucks={matchingTrucks} />
                     </div>
-
-                    <SimilarProducts similarTrucks={matchingTrucks} />
-                </div>
-            </Container>
+                </Container>
+            )}
         </div>
     );
 };

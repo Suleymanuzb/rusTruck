@@ -13,6 +13,7 @@ const Head = ({
     isLine,
     isTable,
     loader,
+    finalFilteredTrucks,
 }) => {
     const { t } = useTranslation();
 
@@ -25,8 +26,8 @@ const Head = ({
                         {selectedCategory?.name}
                     </h1>
 
-                    <span>
-                        {matchingTrucks.length}
+                    <span className=''>
+                        {finalFilteredTrucks.length}
                         <span className='ml-1'>
                             {matchingTrucks.length === 1
                                 ? t(

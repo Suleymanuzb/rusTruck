@@ -83,12 +83,14 @@ const App = () => {
     useEffect(() => {
         setPageLoading(true);
 
+        console.log("LOCATION CHANGED:", location.pathname, location.search);
+
         const timer = setTimeout(() => {
             setPageLoading(false);
         }, 300);
 
         return () => clearTimeout(timer);
-    }, [location]);
+    }, [location.pathname]);
 
     return (
         <>
