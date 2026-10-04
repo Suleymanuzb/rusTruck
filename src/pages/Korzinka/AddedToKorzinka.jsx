@@ -4,6 +4,7 @@ import { icons } from "../../assets/icons/icons";
 const { DownloadIcon, DeleteIcon } = icons;
 import Button from "../../components/Button/Button";
 import trucks from "../../data/truckData";
+import noItem from "../../assets/images/noCart/noItem.jpg";
 
 import ModalFull from "./ModalFull";
 import { Link } from "react-router-dom";
@@ -19,7 +20,7 @@ const AddedCartToKorzina = () => {
     const increaseQuantity = useCartStore((state) => state.increaseQuantity);
 
     return noCarts ? (
-        <div>
+        <div className='flex flex-col'>
             <p
                 className='sm:text-xl lg:text-2xl mb-6 sm:mb-14 w-full!'
                 dangerouslySetInnerHTML={{
@@ -40,6 +41,14 @@ const AddedCartToKorzina = () => {
                 >
                     {t("korzinka.toCatalog")}
                 </Link>
+            </div>
+
+            <div className='w-50 md:w-100 h-50 self-center flex items-center justify-center mt-5'>
+                <img
+                    src={noItem}
+                    alt='no item'
+                    className='w-full h-full object-cover'
+                />
             </div>
         </div>
     ) : (
