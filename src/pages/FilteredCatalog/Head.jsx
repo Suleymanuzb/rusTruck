@@ -49,7 +49,7 @@ const Head = ({
                 <div className=' flex items-centers gap-3 lg:gap-40 self-end'>
                     <SortDown />
 
-                    <div className='flex gap-1 items-center'>
+                    <div className='flex md:gap-1 items-center'>
                         <div
                             onClick={handleLine}
                             className={`p-2 rounded-full ${isLine ? "bg-[#fec400]" : ""}`}
@@ -57,7 +57,7 @@ const Head = ({
                             <span
                                 className={`hover:text-black text-[#A2A2A2] transform duration-300 cursor-pointer ${isLine ? "text-black" : "text-[#A2A2A2]"}`}
                             >
-                                <IconLine />
+                                <IconLine className='w-3 h-3 md:w-4 md:h-4' />
                             </span>
                         </div>
 
@@ -67,7 +67,7 @@ const Head = ({
                         >
                             <span>
                                 <IconTable
-                                    className={`hover:text-black text-[#A2A2A2] transform duration-300 cursor-pointer ${isTable ? "text-black" : ""}`}
+                                    className={`hover:text-black text-[#A2A2A2] transform duration-300 cursor-pointer  ${isTable ? "text-black" : ""} w-3 h-3 md:w-4 md:h-4`}
                                 />
                             </span>
                         </div>

@@ -22,8 +22,6 @@ import Button from "../../components/Button/Button";
 import LiftingCapacity from "./Ranges/LiftingCapacity";
 import PriceRange from "./Ranges/PriceRange";
 import TankCapacity from "./Ranges/TankCapacity";
-import { useCartStore } from "../../store/cartStore";
-import { useFavouriteStore } from "../../store/favouritesStore";
 
 const FilteredCatalog = () => {
     const [isLine, setIsLine] = useState(false);
@@ -88,6 +86,10 @@ const FilteredCatalog = () => {
     const handleApplyFilters = () => {
         setAppliedBrands(tempSelectedBrands);
     };
+    const handleApplyFiltersResponsive = () => {
+        setAppliedBrands(tempSelectedBrands);
+        setIsFilter(false);
+    };
 
     const categoryTrucks = trucks.filter(
         (truck) => truck.categoryId === selectedCategory?.id,
@@ -113,6 +115,17 @@ const FilteredCatalog = () => {
         );
     });
 
+    // responsive form search brands
+    const [localSearch, setLocalSearch] = useState("");
+
+    const searchedBrands =
+        selectedCategory.brandsOfTrucks.brands.filter((item) =>
+            item
+                .trim()
+                .toLowerCase()
+                .includes(localSearch.toLowerCase().trim()),
+        ) || [];
+
     return (
         <div className='bg-gray-100 relative pb-40'>
             <Container>
@@ -137,6 +150,9 @@ const FilteredCatalog = () => {
                         handleBrandChange={handleBrandChange}
                         handleApplyFilters={handleApplyFilters}
                         previewCount={previewFilteredTrucks.length}
+                        searchedBrands={searchedBrands}
+                        localSearch={localSearch}
+                        setLocalSearch={setLocalSearch}
                     />
 
                     {/*Trucks Part  */}
@@ -163,11 +179,12 @@ const FilteredCatalog = () => {
                 </div>
             </Container>
 
+            {/* responsive form */}
             <div
                 className={`fixed top-0 flex flex-col h-dvh  bg-white transition-transform duration-500 z-999 w-full ${isFilter ? "translate-x-0" : "-translate-x-full"}`}
             >
-                <div className='shrink-0 flex items-center justify-between bg-black text-white py-4.5 pl-6 pr-2'>
-                    <div>{t("filteredPage?.filterResponsive?.title")}</div>
+                <div className='shrink-0 flex items-center justify-between bg-black text-white py-4 pl-6 pr-2'>
+                    <div>{t("filteredPage.filterResponsive.title")}</div>
                     <div onClick={() => setIsFilter((prev) => !prev)}>
                         <IconClose className='w-8 h-8 cursor-pointer' />
                     </div>
@@ -180,7 +197,7 @@ const FilteredCatalog = () => {
                         </span>
 
                         <span className='opacity-30'>
-                            {t("filteredPage?.filterResponsive?.reset")}
+                            {t("filteredPage.filterResponsive.reset")}
                         </span>
                     </div>
 
@@ -194,6 +211,7 @@ const FilteredCatalog = () => {
                     </p>
                     <div className='relative'>
                         <input
+                            onChange={(e) => setLocalSearch(e.target.value)}
                             type='text'
                             className='outline-none border border-[#a2a2a2] rounded focus:border-[#fec80b] focus:shadow-[0_0_4px_#fec80b] transform duration-300 placeholder:text-gray-400 py-2 pl-3 pr-10 w-full'
                             placeholder='Найти'
@@ -204,27 +222,28 @@ const FilteredCatalog = () => {
                     </div>
 
                     <div className='mt-6 mb-8'>
-                        {selectedCategory?.brandsOfTrucks?.brands?.map(
-                            (item) => {
-                                return (
-                                    <div
-                                        key={item}
-                                        className='flex flex-col p-1'
-                                    >
-                                        <label className='flex items-center cursor-pointer gap-2'>
-                                            <div className='relative flex items-center'>
-                                                <input
-                                                    className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
-                                                    type='checkbox'
-                                                />
-                                                <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
-                                            </div>
-                                            <span>{item}</span>
-                                        </label>
-                                    </div>
-                                );
-                            },
-                        )}
+                        {searchedBrands.map((item) => {
+                            const isChecked = tempSelectedBrands.includes(item);
+
+                            return (
+                                <div key={item} className='flex flex-col p-1'>
+                                    <label className='flex items-center cursor-pointer gap-2'>
+                                        <div className='relative flex items-center'>
+                                            <input
+                                                className='peer outline-none appearance-none rounded-xs w-6 h-6 border border-gray-400  checked:border-none checked:bg-black  cursor-pointer'
+                                                type='checkbox'
+                                                checked={isChecked}
+                                                onChange={() =>
+                                                    handleBrandChange(item)
+                                                }
+                                            />
+                                            <CheckIcon className='absolute hidden peer-checked:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white pointer-events-none w-6 h-6' />
+                                        </div>
+                                        <span>{item}</span>
+                                    </label>
+                                </div>
+                            );
+                        })}
                     </div>
 
                     {/* Тип бортовой платформы */}
@@ -388,8 +407,10 @@ const FilteredCatalog = () => {
                             type='button'
                             variant='btn_big'
                             className='w-full py-3! text-normal outline-none'
+                            onClick={handleApplyFiltersResponsive}
                         >
-                            {t("filteredPage?.filterSideBar?.showMore")}
+                            {t("filteredPage.filterSideBar.showMore")}{" "}
+                            <span>({previewFilteredTrucks.length})</span>
                         </Button>
                     </div>
                 </form>

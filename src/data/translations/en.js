@@ -69,217 +69,219 @@ const en = {
                             ],
                         },
                         seoText: `
-    <div class="text-[18px] leading-normal">
+<div class="text-[14px] sm:text-[16px] lg:text-[18px] leading-relaxed">
 
-        <p>
-            Shtornyy truck sochetaet utobstvo zagruzki and reliability on toroge.
-            Moshchnye engines and modern equipment delayut control bezopasnym and komfortnym.
-            company «RusTruck» offers shtornye vehicles, gfromovye to any zadacham.
-            reliable construction and kachestvennye materials provide tolgiy service life vehicles.
-            selection podkhodyashchey vehicles pomozhet spravitsya with samymi raznymi zadachami.
-            each model sozdayotsya with uchyotom pfromrebnostey vladeltsev, sochetaya praktichnost and tolgovechnost.
-        </p>
+    <p>
+        Шторный грузовик сочетает удобство загрузки и надёжность на дороге.
+        Мощные двигатели и современное оборудование делают управление безопасным и комфортным.
+        Компания «РусТрак» предлагает шторные автомобили, готовые к различным задачам.
+        Надёжная конструкция и качественные материалы обеспечивают долгий срок службы техники.
+        Выбор подходящего автомобиля поможет справиться с самыми разными задачами.
+        Каждая модель создаётся с учётом потребностей владельцев, сочетая практичность и долговечность.
+    </p>
 
-        <h2 class="text-[22px] mt-5 mb-3">
-            Product range
-        </h2>
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Ассортимент
+    </h2>
 
-        <p>
-            we offer wide range commercial vehicles, fromvechayushchikh sovremennym standards quality.
-            in our kataloge predstavlena shtornaya vehicle in different ispolneniyakh and markakh,
-            that allows potobrat equipment for any tasks operation.
-        </p>
+    <p class="mb-4">
+        Мы предлагаем широкий выбор коммерческих автомобилей, соответствующих современным стандартам качества.
+        В нашем каталоге представлены шторные автомобили в различных исполнениях и марках,
+        что позволяет подобрать технику для любых задач эксплуатации.
+    </p>
 
-        <p>Brands:</p>
+    <p class="mb-4">
+        Марки:
+    </p>
 
-        <ul class="list-none pl-0">
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                GAZ
-            </li>
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            ГАЗ
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Valday
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            ВАЛДАЙ
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                KAMAZ
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            КАМАЗ
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Kompas
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            КОМПАС
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                JAC
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            JAC
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                MAZ
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            МАЗ
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                FAW
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            FAW
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                FOTON
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            FOTON
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                DAEWOO
-            </li>
-        </ul>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            DAEWOO
+        </li>
+    </ul>
 
-        <p>
-            Razmery and tonnazh vehicles zavisyat from vybrannogo chassis:
-            from kompaktnykh models gruzopodyomnostyu 3 tonny to moshchnykh vehicles,
-            rasschitannykh on perevozku to 30 tons. such diapazon allows potobrat
-            optimalnoe solution for any logisticheskikh and commercial tasks,
-            providing reliability and tolgovechnost equipment.
-        </p>
+    <p class="mb-4">
+        Размеры и тоннаж автомобилей зависят от выбранного шасси:
+        от компактных моделей грузоподъёмностью 3 тонны до мощных автомобилей,
+        рассчитанных на перевозку до 30 тонн. Такой диапазон позволяет подобрать
+        оптимальное решение для любых логистических и коммерческих задач,
+        обеспечивая надёжность и долговечность техники.
+    </p>
 
-        <h2 class="text-[22px] mt-5 mb-3">
-            Features shtornykh vehicles
-        </h2>
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Особенности шторных автомобилей
+    </h2>
 
-        <ul class="list-none pl-0">
+    <ul class="list-none pl-0 mb-4">
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Otsinkovannye stoyki on boltovykh soedineniyakh — when povrezhdenii ikh mozhno quickly zamenit without slozhnogo remonta,
-                that reduces costs and reduces prostoi.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Оцинкованные стойки на болтовых соединениях — при повреждении их можно быстро заменить без сложного ремонта,
+            что снижает затраты и сокращает простой.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Alyuminievye napravlyayushchie with rezinovym uplfromnitelem — shtorno flatbed vehicle poluchaet nadyozhnuyu germetizatsiyu,
-                zashchishchayushchuyu cargo from moisture and dust when operation in any conditions.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Алюминиевые направляющие с резиновым уплотнителем — шторный бортовой автомобиль получает надёжную герметизацию,
+            защищающую груз от влаги и пыли при эксплуатации в любых условиях.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Profil Hossen — reinforced konstruktivnyy element, kfromoryy increases zhyostkost and tolgovechnost vsey nadstroyki.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Профиль Hossen — усиленный конструктивный элемент, который увеличивает жёсткость и долговечность всей надстройки.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Otkidnye sides on 180° — allow legko zagruzhat and razgruzhat cargo with lyuboy storony, ekonomya time on marshrute.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Откидные борта на 180° — позволяют легко загружать и разгружать груз с любой стороны, экономя время на маршруте.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Sdvizhnaya shtora in obe storony — gibkost operation: tostup to gruzu vozmozhen with lyuboy storony platforms.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Сдвижная штора в обе стороны — обеспечивает гибкость эксплуатации: доступ к грузу возможен с любой стороны платформы.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Alyuminievaya perednyaya wall — lyogkaya and durable, ona reduces obshchiy weight construction and increases stability to corrosion.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Алюминиевая передняя стенка — лёгкая и прочная, она снижает общий вес конструкции и повышает устойчивость к коррозии.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Sdvizhnaya roof — provides utobnyy tostup sverkhu, that osobenno vazhno when pogruzke oversized cargo in shtorno flatbed furgon.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Сдвижная крыша — обеспечивает удобный доступ сверху, что особенно важно при погрузке негабаритного груза в шторный бортовой фургон.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Tent kryshi with krestoobraznym usilitelem — vyderzhivaet topolnitelnye loads and sokhranyaet formu dazhe when dlitelnoy operation.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Тент крыши с крестообразным усилителем — выдерживает дополнительные нагрузки и сохраняет форму даже при длительной эксплуатации.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Dvunapravlennoe usilenie bokovogo tenta — increases reliability when perevozke heavy and khrupkikh cargo.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Двунаправленное усиление бокового тента — повышает надёжность при перевозке тяжёлых и хрупких грузов.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Skrytye petli mounting cargo — bezopasnaya fiksatsiya without vystupayushchikh elementov, that delaet platformu akkuratnoy and utobnoy.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Скрытые петли крепления груза — обеспечивают безопасную фиксацию без выступающих элементов, что делает платформу аккуратной и удобной.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Skladnaya ladder — bystryy and safe tostup to kuzovu without topolnitelnykh prisposobleniy.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Складная лестница — обеспечивает быстрый и безопасный доступ к кузову без дополнительных приспособлений.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Tri varianta mounting nadstroyki to podramniku — shtornyy furgon adaptiruetsya to raznym usloviyam montazha,
-                providing versatility for different tasks and tipov chassis.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Три варианта крепления надстройки к подрамнику — шторный фургон адаптируется к разным условиям монтажа,
+            обеспечивая универсальность для различных задач и типов шасси.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Sdvizhnye tsentralnye stoyki — allow optimalno ispolzovat space and uproshchayut rabfromu with krupnogabaritnymi gruzami.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Сдвижные центральные стойки — позволяют оптимально использовать пространство и упрощают работу с крупногабаритными грузами.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Alyuminievye vorfroma so skrytoy zapornoy armaturoy — reliable protection cargo and estetichnyy vneshniy vid without lishnikh detaley.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Алюминиевые ворота со скрытой запорной арматурой — обеспечивают надёжную защиту груза и эстетичный внешний вид без лишних деталей.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Prfromivozalivnoy kozyryok — topolnitelnaya protection from osadkov and gryazi, povyshayushchaya preservation perevozimogo cargo.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Противозаливной козырёк — дополнительная защита от осадков и грязи, повышающая сохранность перевозимого груза.
+        </li>
 
-        </ul>
+    </ul>
 
-        <h2 class="text-[22px] mt-5 mb-3">
-            Applications
-        </h2>
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Области применения
+    </h2>
 
-        <p>
-            Shtornyy truck from company «RusTruck» nakhodyat shirokoe primenenie
-            in construction kompaniyakh, logisticheskikh and transportnykh organizatsiyakh,
-            providing safe and utobnuyu tostavku materials. Oni are used
-            for kommercheskoy tostavki products, in torgovykh and optovykh kompaniyakh,
-            and also when perevozke oversized and heavy cargo.
-            reliable construction and kachestvennaya protection cargo delayut ikh utobnymi
-            for dlitelnykh marshrutov and rabfromy in any pogodnykh conditions,
-            providing efficiency transportation and preservation imushchestva.
-        </p>
+    <p class="mb-4">
+        Шторные грузовики компании «РусТрак» находят широкое применение
+        в строительных компаниях, логистических и транспортных организациях,
+        обеспечивая безопасную и удобную доставку материалов. Они используются
+        для коммерческой доставки продукции, в торговых и оптовых компаниях,
+        а также при перевозке негабаритных и тяжёлых грузов.
+        Надёжная конструкция и качественная защита груза делают их удобными
+        для длительных маршрутов и работы в любых погодных условиях,
+        обеспечивая эффективность транспортировки и сохранность имущества.
+    </p>
 
-        <h2 class="text-[22px] mt-5 mb-3">
-            Advantages of working with «RusTruck»
-        </h2>
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Преимущества работы с «РусТрак»
+    </h2>
 
-        <ul class="list-none pl-0">
+    <ul class="list-none pl-0 mb-4">
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                large selection equipment<br>
-                U nas are presented shtornye and drugie kommercheskie vehicles different marok and tipov,
-                that allows potobrat equipment for any tasks.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Широкий выбор техники<br>
+            У нас представлены шторные и другие коммерческие автомобили разных марок и типов,
+            что позволяет подобрать технику для любых задач.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                professional support<br>
-                our specialists help potobrat equipment with uchyotom tasks customer and osobennostey business.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Профессиональная поддержка<br>
+            Наши специалисты помогут подобрать технику с учётом задач клиента и особенностей бизнеса.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                certification and control quality<br>
-                all trucks prokhodyat stroguyu inspection and are certified, that guarantees safety operation.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Сертификация и контроль качества<br>
+            Все грузовики проходят строгую проверку и сертифицированы, что гарантирует безопасность эксплуатации.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Garantiynoe and poslegarantiynoe maintenance<br>
-                company provides podderzhku posle purchase, vklyuchaya tekhnicheskoe maintenance and consultations.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Гарантийное и послегарантийное обслуживание<br>
+            Компания предоставляет поддержку после покупки, включая техническое обслуживание и консультации.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Utobstvo purchase<br>
-                Pretostavlyayutsya prozrachnye conditions priobreteniya, razlichnye formy oplaty and individualnye predlozheniya for customers.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Удобство покупки<br>
+            Предоставляются прозрачные условия приобретения, различные формы оплаты и индивидуальные предложения для клиентов.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                experience and reputation<br>
-                «RusTruck» imeet mnogoletniy experience rabfromy on rynke commercial vehicles,
-                that podtverzhdaet vysokiy professionalizm and toverie customers.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Опыт и репутация<br>
+            «РусТрак» имеет многолетний опыт работы на рынке коммерческих автомобилей,
+            что подтверждает высокий профессионализм и доверие клиентов.
+        </li>
 
-        </ul>
+    </ul>
 
-        <h2 class="text-[22px] mt-5 mb-3">
-            Equipment designed for reliability and comfort
-        </h2>
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Техника, созданная для надёжности и комфорта
+    </h2>
 
-        <p>
-            buy shtornyy truck — cost-effective solution, pozvolyayushchee optimizirovat logistiku
-            and sokratit costs on operation. Vybiraya equipment, kfromoraya sofromvetstvuet
-            vashim requirements and standards quality, vy poluchaete reliable vehicle,
-            polnostyu gfromovyy to operation. company «RusTruck» pomozhet potobrat model,
-            idealno podkhodyashchuyu for vashikh nuzhd. Oznakomtes with kharakteristikami and vozmozhnostyami
-            kazhtoy vehicles. Sdelayte selection in polzu nadyozhnosti, komforta and tolgovechnosti vashey equipment.
-            for processing order contact with us any utobnym way and poluchite konsultatsiyu spetsialistov.
-        </p>
+    <p>
+        Купить шторный грузовик — экономичное решение, позволяющее оптимизировать логистику
+        и сократить расходы на эксплуатацию. Выбирая технику, которая соответствует
+        вашим требованиям и стандартам качества, вы получаете надёжный автомобиль,
+        полностью готовый к эксплуатации. Компания «РусТрак» поможет подобрать модель,
+        идеально подходящую для ваших нужд. Ознакомьтесь с характеристиками и возможностями
+        каждого автомобиля. Сделайте выбор в пользу надёжности, комфорта и долговечности вашей техники.
+        Для оформления заказа свяжитесь с нами любым удобным способом и получите консультацию специалистов.
+    </p>
 
-    </div>
-                                `,
+</div>
+`,
                     },
                     {
                         id: 2,
@@ -374,189 +376,218 @@ const en = {
                         },
 
                         seoText: `
-    <div class="text-[18px] leading-normal">
+<div class="text-[14px] sm:text-[16px] lg:text-[18px] leading-relaxed">
 
-        <p>
-           Gruzopodyomnaya equipment provides utobstvo when rabfrome with tyazhyolymi materialami. vehicle with crane manipulyatorom pomogaet vypolnyat pogruzku and perevozku without lishnikh usiliy. such equipment fromlichaetsya manevrennostyu and tochnoy rabfromoy. company «RusTruck» offers models, rasschitannye on raznye conditions. quality sborki, reliability mekhanizmov and produmannaya construction allow tekhnike tolgo sluzhit without sboev. such transport darit oshchushchenie nadyozhnosti and uverenno pomogaet spravlyatsya so slozhnymi zadachami.
-        </p>
+    <p>
+        Грузоподъёмная техника обеспечивает удобство при работе с тяжёлыми материалами.
+        Автомобиль с краном-манипулятором помогает выполнять погрузку и перевозку без лишних усилий.
+        Такая техника отличается маневренностью и точной работой.
+        Компания «РусТрак» предлагает модели, рассчитанные на разные условия эксплуатации.
+        Качество сборки, надёжность механизмов и продуманная конструкция позволяют технике долго служить без сбоев.
+        Такой транспорт дарит ощущение надёжности и уверенно помогает справляться со сложными задачами.
+    </p>
 
-        <h2 class="font-medium text-[22px] mt-5 mb-3">
-            Product range
-        </h2>
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Ассортимент
+    </h2>
 
-        <p>
-            company «RusTruck» offers wide selection models for different tipov rabfrom and conditions operation, podbiraya equipment with optimalnoy moshchnostyu and kharakteristikami, chtoby ona efficiently spravlyalas with postavlennymi zadachami. we osushchestvlyaem montazh kranov‑manipulyatorov vedushchikh proizvoditeley:
-        </p>
+    <p class="mb-4">
+        Компания «РусТрак» предлагает широкий выбор моделей для разных типов работ и условий эксплуатации,
+        подбирая технику с оптимальной мощностью и характеристиками, чтобы она эффективно справлялась с поставленными задачами.
+        Мы осуществляем монтаж кранов-манипуляторов ведущих производителей:
+    </p>
 
-        <p>Brands:</p>
+    <p class="mb-4">
+        Марки:
+    </p>
 
-        <ul class="list-none pl-0">
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                INMAN
-            </li>
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            INMAN
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                HKTC
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            HKTC
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                XCMG
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            XCMG
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                PALFINGER
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            PALFINGER
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                HANGIL
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            HANGIL
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                DY
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            DY
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                FAW
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            FAW
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                UNIC
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            UNIC
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                FASSI
-            </li>
-            <li class="relative pl-6.25 mb-2.5 text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                SOOSAN
-            </li>
-        </ul>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            FASSI
+        </li>
 
-      
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            SOOSAN
+        </li>
+    </ul>
 
-        <h2 class="text-[22px] mt-5 mb-3">
-           in zavisimosti from tasks mozhno choose podkhodyashchiy tip truck-mounted crane:
-        </h2>
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        В зависимости от задач можно выбрать подходящий тип крана-манипулятора:
+    </h2>
 
-        <ul class="list-none pl-0">
+    <ul class="list-none pl-0 mb-4">
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Trosovyy — boom osnashchena trosom, that delaet vozmozhnoy and utobnoy rabfromu nizhe urovnya zemli. in transportnom polozhenii ona ne skladyvaetsya za kabinoy, that osobenno polezno when vypolnenii spetsificheskikh tasks.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Тросовый — стрела оснащена тросом, что делает возможной и удобной работу ниже уровня земли.
+            В транспортном положении она не складывается за кабиной, что особенно полезно при выполнении специфических задач.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                Sharnirno‑sochlenyonnyy (kryukovoy) — vmesto trosa is used kryuk. construction skladyvaetsya za kabinoy in transportnom polozhenii, blagodarya chemu equipment stanovitsya kompaktnoy and utobnoy when peremeshchenii.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Шарнирно-сочленённый (крюковой) — вместо троса используется крюк.
+            Конструкция складывается за кабиной в транспортном положении, благодаря чему техника становится компактной и удобной при перемещении.
+        </li>
 
-        <h2 class="text-[22px] mt-5 mb-3">
-            Applications
-        </h2>
+    </ul>
 
-        <p>
-            Shtornyy truck from company «RusTruck» nakhodyat shirokoe primenenie
-            in construction kompaniyakh, logisticheskikh and transportnykh organizatsiyakh,
-            providing safe and utobnuyu tostavku materials. Oni are used
-            for kommercheskoy tostavki products, in torgovykh and optovykh kompaniyakh,
-            and also when perevozke oversized and heavy cargo.
-            reliable construction and kachestvennaya protection cargo delayut ikh utobnymi
-            for dlitelnykh marshrutov and rabfromy in any pogodnykh conditions,
-            providing efficiency transportation and preservation imushchestva.
-        </p>
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Области применения
+    </h2>
 
-        <h2 class="font-bold text-[22px] mt-5 mb-3">
-            Konstruktivnye osobennosti crane-manipulyatora
-        </h2>
+    <p class="mb-4">
+        Шторные грузовики компании «РусТрак» находят широкое применение
+        в строительных компаниях, логистических и транспортных организациях,
+        обеспечивая безопасную и удобную доставку материалов. Они используются
+        для коммерческой доставки продукции, в торговых и оптовых компаниях,
+        а также при перевозке негабаритных и тяжёлых грузов.
+        Надёжная конструкция и качественная защита груза делают их удобными
+        для длительных маршрутов и работы в любых погодных условиях,
+        обеспечивая эффективность транспортировки и сохранность имущества.
+    </p>
 
-        <ul class="list-none pl-0">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Конструктивные особенности крана-манипулятора
+    </h2>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                large selection equipment<br>
-              durable profil Hossen — reliable osnova, blagodarya kfromoroy gruzovaya vehicle with crane manipulyatorom sokhranyaet stability and tolgovechnost.
-            </li>
+    <ul class="list-none pl-0 mb-4">
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-              Osnovanie iz fromkrytykh profiley — optimalnoe solution for vysokoy prochnosti and stabilnosti when operation.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Прочный профиль Hossen — надёжная основа, благодаря которой грузовой автомобиль с краном-манипулятором сохраняет стабильность и долговечность.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                certification and control quality<br>
-              Usilennaya montazhnaya plita zadnikh opor — guarantees reliability when rabfrome with tyazhyolymi gruzami.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Основание из открытых профилей — оптимальное решение для высокой прочности и стабильности при эксплуатации.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Otkidnye sides on 180° — utobnaya zagruzka and unloading with lyuboy storony, blagodarya chemu bortovaya vehicle with truck-mounted crane rabfromaet bystree and effektivnee.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Усиленная монтажная плита задних опор — гарантирует надёжность при работе с тяжёлыми грузами.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Nadyozhnoe mounting truck-mounted crane — ustanovka cherez shirokuyu montazhnuyu plitu and fiksatsiya on shpilkakh provides safety and tolgiy service life.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Откидные борта на 180° — удобная загрузка и разгрузка с любой стороны, благодаря чему бортовой автомобиль с краном-манипулятором работает быстрее и эффективнее.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Iznosostoykiy flooring pola iz transportnoy fanery — all shvy tshchatelno germetizirovany, that protects from moisture and prodlevaet service life operation.
-            </li>
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-        protection kabiny — predfromvrashchaet sluchaynye povrezhdeniya, sokhranyaya tselostnost when operation and delaya cargo vehicle with truck-mounted crane more bezopasnym.
-            </li>
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-        Sdvizhnaya roof — utobnyy tostup and topolnitelnaya protection perevozimykh materials.
-            </li>
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                        Okras platforms in tsvet crane — edinyy stil and akkuratnyy vneshniy vid equipment.
-            </li>
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                      Prfromivosdvigovye plastiny on rame — nadyozhnoe soedinenie nadstroyki with ramoy, usilenie construction with obeikh storon.
-            </li>
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                     Skrytye petli mounting cargo — bezopasnaya fiksatsiya and estetichnyy vneshniy vid without lishnikh detaley.
-            </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Надёжное крепление крана-манипулятора — установка через широкую монтажную плиту и фиксация на шпильках обеспечивает безопасность и долгий срок службы.
+        </li>
 
-        </ul>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Износостойкий настил пола из транспортной фанеры — все швы тщательно герметизированы, что защищает от влаги и продлевает срок эксплуатации.
+        </li>
 
-        <h2 class="font-bold text-[22px] mt-5 mb-3">
-            Applications
-        </h2>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Защита кабины — предотвращает случайные повреждения, сохраняя целостность при эксплуатации и делая грузовой автомобиль с краном-манипулятором более безопасным.
+        </li>
 
-        <p>
-          crane manipulyator price kfromorogo ostayotsya tostupnoy when vysokom kachestve equipment, nakhodit shirokoe primenenie in samykh different sferakh. On efficiently is used on construction sites for podyoma and transportation stroymaterialov, in kommunalnom khozyaystve when obsluzhivanii infrastruktury and perevozke oborutovaniya, and also in logistike and skladskikh operatsiyakh for unloading and loading containers and oversized cargo. Blagodarya universalnosti and manevrennosti equipment podkhodit for rabfromy in conditions ogranichennogo prostranstva, on urban ulitsakh and industrial territoriyakh, providing vysokuyu performance and reduction vremeni on vypolnenie tasks.
-        </p>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Сдвижная крыша — удобный доступ и дополнительная защита перевозимых материалов.
+        </li>
 
-          <h2 class="font-bold text-[22px] mt-5 mb-3">
-           Advantages of working with «RusTruck»
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Окраска платформы в цвет крана — единый стиль и аккуратный внешний вид техники.
+        </li>
 
-        </h2>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Противосдвиговые пластины на раме — надёжное соединение надстройки с рамой, усиление конструкции с обеих сторон.
+        </li>
 
-         <ul class="list-none pl-0">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Скрытые петли крепления груза — безопасная фиксация и эстетичный внешний вид без лишних деталей.
+        </li>
 
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-                wide selection equipment – large range kranov-manipulyatorov and gruzovykh vehicles different marok and konfiguratsiy.
-            </li>
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               quality and reliability – equipment proverena on prochnost and tolgovechnost, sofromvetstvuet vysokim standards operation.
-            </li>
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               professional support – specialists help potobrat optimalnoe solution for konkretnye tasks and conditions rabfromy.
-            </li>
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               Service and maintenance – company provides tekhnicheskuyu podderzhku and consultations on vsekh etapakh operation.
-            </li>
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               prompt tostavka – lyubaya vehicle with crane manipulyatorom quickly is delivered in regiony.
-            </li>
-            <li class="relative pl-6.25 mb-2.5 before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[16px]">
-               individual podkhod – uchityvayutsya pfromrebnosti kazhtogo customer, predlagayutsya optimalnye configurations and topolnitelnye optsii.
-            </li>
-              </ul>
+    </ul>
 
-               <h2 class="font-bold text-[22px] mt-5 mb-3">
-           Reliable equipment for any task
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Области применения
+    </h2>
 
-        </h2>
+    <p class="mb-4">
+        Кран-манипулятор, цена которого остаётся доступной при высоком качестве оборудования,
+        находит широкое применение в самых разных сферах. Он эффективно используется на строительных
+        площадках для подъёма и транспортировки стройматериалов, в коммунальном хозяйстве при обслуживании
+        инфраструктуры и перевозке оборудования, а также в логистике и складских операциях для разгрузки
+        и загрузки контейнеров и негабаритных грузов. Благодаря универсальности и маневренности техника
+        подходит для работы в условиях ограниченного пространства, на городских улицах и промышленных
+        территориях, обеспечивая высокую производительность и сокращение времени на выполнение задач.
+    </p>
 
-          <p>
-         buy crane manipulyator – cost-effective solution for tekh, kto tsenit praktichnost and ekonomiyu vremeni. we will help potobrat equipment for vashi tasks and conditions rabfromy. company «RusTruck» provides large selection and kachestvennoe maintenance. Sdelayte uverennyy shag to povysheniyu efficiency svoikh protsessov. Poluchite professionalnuyu konsultatsiyu and operativnoe soprovozhdenie. for processing order contact with us any utobnym way.
-        </p>
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Преимущества работы с «РусТрак»
+    </h2>
 
-    </div>
-                                `,
+    <ul class="list-none pl-0 mb-4">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Широкий выбор техники — большой ассортимент кранов-манипуляторов и грузовых автомобилей разных марок и конфигураций.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Качество и надёжность — техника проверена на прочность и долговечность, соответствует высоким стандартам эксплуатации.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Профессиональная поддержка — специалисты помогут подобрать оптимальное решение для конкретных задач и условий работы.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Сервис и обслуживание — компания предоставляет техническую поддержку и консультации на всех этапах эксплуатации.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Оперативная доставка — любой автомобиль с краном-манипулятором быстро доставляется в регионы.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Индивидуальный подход — учитываются потребности каждого клиента, предлагаются оптимальные конфигурации и дополнительные опции.
+        </li>
+
+    </ul>
+
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Надёжная техника для любых задач
+    </h2>
+
+    <p>
+        Купить кран-манипулятор — выгодное решение для тех, кто ценит практичность и экономию времени.
+        Мы поможем подобрать технику для ваших задач и условий работы. Компания «РусТрак» предоставляет
+        большой выбор и качественное обслуживание. Сделайте уверенный шаг к повышению эффективности
+        своих процессов. Получите профессиональную консультацию и оперативное сопровождение.
+        Для оформления заказа свяжитесь с нами любым удобным способом.
+    </p>
+
+</div>
+`,
                     },
                     {
                         id: 3,
@@ -594,71 +625,212 @@ const en = {
                         },
 
                         seoText: `
-<div class="text-[18px] leading-[1.5]">
-    <div class="[&>h2]:text-[22px] [&>h2]:mt-[20px] [&>h2]:mb-[3.125rem]">
-        <p class="mb-4">Nadyozhnoe snabzhenie fuel uproshchaet rabfromu on any obektakh. buy avtfromoplivozapravshchik — ability zapravlyat equipment pryamo on meste, ekonomya time and snizhaya expenses. Oborutovanie osnashcheno prochnymi tsisternami and sovremennymi pumps for tochnogo ucheta topliva. company «RusTruck» offers models, kfromorye podkhodyat for different tasks and obyomov. selection podkhodyashchego avtozapravshchika zavisit from intensivnosti rabfromy and conditions operation. use proverennykh sistem refueling guarantees safety and bespereboynuyu rabfromu on vsekh obektakh.</p>
-        
-        <h2 class="text-[22px] mt-5 mb-3">Product range</h2>
-        <p class="mb-4">company «RusTruck» offers raznoobraznuyu equipment, where each model ATZ adaptirovana for razlichnye tasks and obyomy rabfromy. in our kataloge are presented vehicles vedushchikh marok:</p>
-        
-        <ul class="list-none pl-0 mb-4 [&>li]:relative [&>li]:pl-6.25 [&>li]:mb-2.5 [&>li]:text-[18px] [&>li]:before:content-['♦'] [&>li]:before:absolute [&>li]:before:left-0 [&>li]:before:text-[#fec80b] [&>li]:before:text-[16px] [&>li]:before:top-0.5">
-            <li>GAZ</li>
-            <li>KAMAZ</li>
-            <li>JAC</li>
-            <li>FAW</li>
-            <li>FOTON</li>
-        </ul>
-        
-        <p class="mb-4">Available options vmestimosti tsistern:</p>
-        
-        <ul class="list-none pl-0 mb-4 [&>li]:relative [&>li]:pl-6.25 [&>li]:mb-2.5 [&>li]:text-[18px] [&>li]:before:content-['♦'] [&>li]:before:absolute [&>li]:before:left-0 [&>li]:before:text-[#fec80b] [&>li]:before:text-[16px] [&>li]:before:top-0.5">
-            <li>5 200 liters (5 m³)</li>
-            <li>6 000 liters (6 tons)</li>
-            <li>8 000 liters (8 m³)</li>
-            <li>10 000 liters (10 m³)</li>
-            <li>12 000 liters (12 m³)</li>
-        </ul>
-        
-        <p class="mb-4">all models are certified and sofromvetstvuyut sovremennym standards quality and safety, that guarantees reliability, tolgovechnost and uverennost in bespereboynoy rabfrome.</p>
-        
-        <h2 class="text-[22px] mt-5 mb-3">Features avtfromoplivozapravshchikov</h2>
-        <ul class="list-none pl-0 mb-4 [&>li]:relative [&>li]:pl-6.25 [&>li]:mb-2.5 [&>li]:text-[18px] [&>li]:before:content-['♦'] [&>li]:before:absolute [&>li]:before:left-0 [&>li]:before:text-[#fec80b] [&>li]:before:text-[16px] [&>li]:before:top-0.5">
-            <li>Gibkost operation – avtomobilnyy toplivozapravshchik osnashchyon dvumya toplivnymi fromsekami, that allows rabfromat srazu with raznymi vidami goryuchego.</li>
-            <li>reliability and tolgovechnost – tank vypolnena iz prochnoy stali 09G2with tolshchinoy 3 mm.</li>
-            <li>Minimalnye costs on maintenance – alyuminievye kommunikatsii legkie, ustoychivye to corrosion and ne trebuyut slozhnogo ukhoda.</li>
-            <li>Dopolnitelnaya protection on toroge – bokovoe ustroystvo iz alyuminiya reduces risk povrezhdeniy when movement.</li>
-            <li>Bystryy tostup to uzlam – skladnaya alyuminievaya ladder oblegchaet maintenance.</li>
-            <li>savings vremeni when zapravke – toplivozapravochnye vehicles osnashcheny shibernym nasosom with proizvoditelnostyu 600 l/min, that provides vysokuyu skorost rabfromy.</li>
-            <li>Utobstvo podklyucheniya – dva vsasyvayushchikh rukava dlinoy po 3 metra allow organizovat zapravku in any conditions.</li>
-            <li>reduction prostoev – bystrorazemnye soedineniya Elaflex Du-75 guarantee reliability and uskoryayut processes.</li>
-            <li>Komfort when rabfrome – kryshka uzla vydachi topliva osnashchena gazliftami for utobnogo and bezopasnogo use.</li>
-            <li>protection gorlovin – avtotsisterna for GSM osnashchena ograzhdeniem po vsey dline, that oblegchaet maintenance and increases safety.</li>
-            <li>Rabfroma on rasstoyanii – razdatochnyy rukav Du-25 dlinoy 10 metrov provides utobstvo when zapravke.</li>
-            <li>Stabilnost davleniya – dykhatelnoe ustroystvo UD-33 guarantees bezopasnoe khranenie topliva.</li>
-            <li>Polnyy control electrical system – mobilnyy zapravshchik oborutovan tremya vyklyuchatelyami massy, pozvolyayushchimi obestochit mashinu with lyuboy storony and iz kabiny.</li>
-            <li>Prostfroma operatsiy – control tonnymi klapanami sosredfromocheno in uzle vydachi, that delaet process bystrym and nadezhnym.</li>
-            <li>protection from static elektrichestva – shtyr grounding dlinoy 10 metrov provides safety when rabfrome with goryuchim.</li>
-        </ul>
-        
-        <h2 class="text-[22px] mt-5 mb-3">Applications</h2>
-        <p class="mb-4">buy avtfromoplivozapravshchik cost-effective for any sfer deyatelnosti, where trebuetsya prompt refueling vehicles and spetsmashin. On nezamenim on construction sites, where oborutovanie tolzhno rabfromat without prostoev, and also in agricultural khozyaystve for maintenance traktorov and kombaynov. in industry and on production obektakh on provides bespereboynuyu rabfromu avtoparka. systems refueling aktivno are used kommunalnymi and torozhnymi sluzhbami, and also transportnymi kompaniyami, kfromorym vazhno save time and resursy. Krome togo, avtozapravshchiki podkhodyat for organizatsii mobilnykh zapravochnykh stantsiy on udalyonnykh obektakh and meropriyatiyakh. Ikh versatility delaet process snabzheniya fuel proshche, bezopasnee and effektivnee.</p>
-        
-        <h2 class="text-[22px] mt-5 mb-3">Advantages of working with «RusTruck»</h2>
-        <ul class="list-none pl-0 mb-4 [&>li]:relative [&>li]:pl-6.25 [&>li]:mb-2.5 [&>li]:text-[18px] [&>li]:before:content-['♦'] [&>li]:before:absolute [&>li]:before:left-0 [&>li]:before:text-[#fec80b] [&>li]:before:text-[16px] [&>li]:before:top-0.5">
-            <li>Raznoobrazie equipment – ability potobrat avtfromoplivozapravshchik for any tasks and obemy rabfromy.</li>
-            <li>quality and reliability – avtfromoplivozapravshchik sofromvetstvuet sovremennym standards and obespechena sistemami safety.</li>
-            <li>assistance in vybore oborutovaniya – specialists company konsultiruyut and podbirayut optimalnoe solution with uchetom vashikh pfromrebnostey.</li>
-            <li>Mobilnaya tostavka and operativnost – equipment tostavlyaetsya and vvoditsya in operation without lishnikh zaderzhek.</li>
-            <li>Tekhnicheskaya support and service – company provides maintenance, repair and consultations po operation oborutovaniya.</li>
-            <li>savings vremeni and resursov – with pravilnym avtozapravshchikom vy sokrashchaete prostoi equipment and snizhaete expenses on fuel.</li>
-            <li>individual podkhod to kazhtomu klientu – solution podbiraetsya with uchetom osobennostey rabfromy, obema and conditions operation.</li>
-        </ul>
-        
-        <h2 class="text-[22px] mt-5 mb-3">Simple and safe on-site refueling</h2>
-        <p class="mb-4">buy avtfromoplivozapravshchik — pervyy shag to utobnomu and bezopasnomu obespecheniyu transporta fuel. Ne fromkladyvayte solution — vyberite model, kfromoraya idealno podkhodit for vashikh tasks. company «RusTruck» imeet large selection nadyozhnykh and modern avtozapravshchikov. we will help opredelit podkhodyashchee solution, uchityvaya vashi pfromrebnosti and conditions operation. Ubedites, that vash avtopark vsegda zapravlen and gfromov to rabfrome. for processing order contact with us any utobnym way, and we podberyom optimalnyy variant imenno for vas.</p>
-    </div>
+<div class="text-[14px] sm:text-[16px] lg:text-[18px] leading-relaxed">
+
+    <p class="mb-4">
+        Надёжное снабжение топливом упрощает работу на любых объектах.
+        Купить автотопливозаправщик — возможность заправлять технику прямо на месте,
+        экономя время и снижая расходы. Оборудование оснащено прочными цистернами и современными
+        насосами для точного учёта топлива. Компания «РусТрак» предлагает модели, которые подходят
+        для разных задач и объёмов. Выбор подходящего автотопливозаправщика зависит от интенсивности
+        работы и условий эксплуатации. Использование проверенных систем заправки гарантирует безопасность
+        и бесперебойную работу на всех объектах.
+    </p>
+
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Ассортимент
+    </h2>
+
+    <p class="mb-4">
+        Компания «РусТрак» предлагает разнообразную технику, где каждая модель АТЗ адаптирована
+        для различных задач и объёмов работы. В нашем каталоге представлены автомобили ведущих марок:
+    </p>
+
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            ГАЗ
+        </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            КАМАЗ
+        </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            JAC
+        </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            FAW
+        </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            FOTON
+        </li>
+    </ul>
+
+    <p class="mb-4">
+        Доступные варианты вместимости цистерн:
+    </p>
+
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            5 200 литров (5 м³)
+        </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            6 000 литров (6 м³)
+        </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            8 000 литров (8 м³)
+        </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            10 000 литров (10 м³)
+        </li>
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            12 000 литров (12 м³)
+        </li>
+    </ul>
+
+    <p class="mb-4">
+        Все модели сертифицированы и соответствуют современным стандартам качества и безопасности,
+        что гарантирует надёжность, долговечность и уверенность в бесперебойной работе.
+    </p>
+
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Особенности автотопливозаправщиков
+    </h2>
+
+    <ul class="list-none pl-0 mb-4">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Гибкость эксплуатации — автомобильный топливозаправщик оснащён двумя топливными отсеками,
+            что позволяет работать сразу с разными видами горючего.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Надёжность и долговечность — бак выполнен из прочной стали 09Г2С толщиной 3 мм.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Минимальные затраты на обслуживание — алюминиевые коммуникации лёгкие, устойчивые к коррозии и не требуют сложного ухода.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Дополнительная защита на дороге — боковое устройство из алюминия снижает риск повреждений при движении.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Быстрый доступ к узлам — складная алюминиевая лестница облегчает обслуживание.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Экономия времени при заправке — топливозаправочные автомобили оснащены шиберным насосом
+            с производительностью 600 л/мин, что обеспечивает высокую скорость работы.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Удобство подключения — два всасывающих рукава длиной по 3 метра позволяют организовать заправку в любых условиях.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Сокращение простоев — быстроразъёмные соединения Elaflex Du-75 гарантируют надёжность и ускоряют процессы.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Комфорт при работе — крышка узла выдачи топлива оснащена газлифтами для удобного и безопасного использования.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Защита горловин — автоцистерна для ГСМ оснащена ограждением по всей длине,
+            что облегчает обслуживание и повышает безопасность.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Работа на расстоянии — раздаточный рукав Du-25 длиной 10 метров обеспечивает удобство при заправке.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Стабильность давления — дыхательное устройство УД-33 гарантирует безопасное хранение топлива.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Полный контроль электрической системы — мобильный заправщик оборудован тремя выключателями массы,
+            позволяющими обесточить машину с любой стороны и из кабины.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Простота операций — управление топливными клапанами сосредоточено в узле выдачи,
+            что делает процесс быстрым и надёжным.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Защита от статического электричества — штырь заземления длиной 10 метров обеспечивает безопасность при работе с горючим.
+        </li>
+
+    </ul>
+
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Области применения
+    </h2>
+
+    <p class="mb-4">
+        Купить автотопливозаправщик выгодно для любой сферы деятельности, где требуется оперативная заправка
+        автомобилей и спецмашин. Он незаменим на строительных площадках, где оборудование должно работать
+        без простоев, а также в сельском хозяйстве для обслуживания тракторов и комбайнов.
+        В промышленности и на производственных объектах он обеспечивает бесперебойную работу автопарка.
+        Системы заправки активно используются коммунальными и дорожными службами, а также транспортными
+        компаниями, которым важно экономить время и ресурсы. Кроме того, автозаправщики подходят для организации
+        мобильных заправочных станций на удалённых объектах и мероприятиях. Их универсальность делает процесс
+        снабжения топливом проще, безопаснее и эффективнее.
+    </p>
+
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Преимущества работы с «РусТрак»
+    </h2>
+
+    <ul class="list-none pl-0 mb-4">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Разнообразие техники — возможность подобрать автотопливозаправщик для любых задач и объёмов работы.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Качество и надёжность — автотопливозаправщик соответствует современным стандартам и оснащён системами безопасности.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Помощь в выборе оборудования — специалисты компании консультируют и подбирают оптимальное решение с учётом ваших потребностей.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Мобильная доставка и оперативность — оборудование доставляется и вводится в эксплуатацию без лишних задержек.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Техническая поддержка и сервис — компания предоставляет обслуживание, ремонт и консультации по эксплуатации оборудования.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Экономия времени и ресурсов — с правильным автотопливозаправщиком вы сокращаете простои техники и снижаете расходы на топливо.
+        </li>
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Индивидуальный подход к каждому клиенту — решение подбирается с учётом особенностей работы,
+            объёма и условий эксплуатации.
+        </li>
+
+    </ul>
+
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
+        Простая и безопасная заправка на месте
+    </h2>
+
+    <p>
+        Купить автотопливозаправщик — первый шаг к удобному и безопасному обеспечению транспорта топливом.
+        Не откладывайте решение — выберите модель, которая идеально подходит для ваших задач.
+        Компания «РусТрак» имеет большой выбор надёжных и современных автозаправщиков.
+        Мы поможем определить подходящее решение, учитывая ваши потребности и условия эксплуатации.
+        Убедитесь, что ваш автопарк всегда заправлен и готов к работе.
+        Для оформления заказа свяжитесь с нами любым удобным способом, и мы подберём оптимальный вариант именно для вас.
+    </p>
+
 </div>
-                                        `,
+`,
                     },
                     {
                         id: 4,
@@ -679,119 +851,119 @@ const en = {
                         },
 
                         seoText: `
-<div class="text-lg leading-normal">
+<div class="text-[14px] sm:text-[16px] lg:text-[18px] leading-relaxed">
     <p>
         vehicles for rabfromy on vysfrome stanovyatsya vsyo more tekhnologichnymi and utobnymi. buy avtogidropodemnik — cost-effective solution for povysheniya efficiency and safety rabfrom. such equipment provides tochnoe vypolnenie tasks and minimiziruet riski. company «RusTruck» offers nadyozhnye models for different conditions operation. Produmannaya construction guarantees stability and tochnost dvizheniya. additional funktsii delayut control proshche and povyshayut utobstvo rabfromy.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Product range
     </h2>
 
-    <p>
+    <p class="mb-4">
         company «RusTruck» offers equipment different tipov and naznacheniya, podkhodyashchuyu for any tasks. in nalichii est vehicles proverennykh marok:
     </p>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             GAZ
         </li>
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             ISUZU
         </li>
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             FUSO
         </li>
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             PALFINGER
         </li>
     </ul>
 
-    <p>
+    <p class="mb-4">
         Vsya equipment sertifitsirovana and sofromvetstvuet strogim standards quality, that guarantees safety and tolgiy service life operation. company soblyudaet mezhdunarodnye normy and rossiyskie requirements, and each edinitsa prokhodit inspection pered postavkoy klientu. this allows klientam byt uverennymi in nadezhnosti and efficiency priobretaemogo oborutovaniya.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Features avtogidropodemnikov
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Reguliruemaya vysfroma podyoma<br>
             allows tochno podnimat lyudey and gruzy on nuzhnuyu vysfromu, povyshaya safety and utobstvo rabfromy.
         </li>
 
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Gidravlicheskaya sistema control<br>
             provides plavnoe and tochnoe movement boom, snizhaya risk rezkikh ryvkov and povrezhdeniy.
         </li>
 
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Stabilizatsionnye opory<br>
             guarantee stability equipment dazhe on nerovnoy poverkhnosti, predfromvrashchaya oprokidyvanie.
         </li>
 
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Kompaktnye razmery chassis<br>
             Uproshchayut manevrirovanie in ogranichennom space and transportirovku oborutovaniya.
         </li>
 
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Ergonomichnoe control<br>
             Panel control produmana for utobstva operatora, sokrashchaya time obucheniya and snizhaya ustalost.
         </li>
 
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             reliable construction boom and platforms<br>
             provides tolgovechnost operation and vysokuyu stability when rabfrome with gruzom.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Applications
     </h2>
 
-    <p>
+    <p class="mb-4">
         buy avtogidropodemnik budet nadyozhnym resheniem for povysheniya safety and efficiency rabfrom. such vehicles are used for maintenance liniy elektroperedach, montazha and remonta naruzhnoy reklamy, ustanovki osveshcheniya and videonablyudeniya, and also for construction and fromdelochnykh rabfrom. equipment vostrebovana in kommunalnom khozyaystve, when obsluzhivanii zdaniy and sooruzheniy, on warehouses and industrial obektakh. versatility and reliability uskoryayut processes, povyshayut safety and snizhayut trutozatraty. Avtogidropodemniki provide tochnoe and effektivnoe vypolnenie tasks in any conditions. use such equipment stanovitsya optimalnym resheniem for organizatsiy lyubogo masshtaba.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Advantages of working with «RusTruck»
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             wide range equipment<br>
             company offers raznoobraznye models avtogidropodemnikov, podkhodyashchie for different tasks and conditions operation.
         </li>
 
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             professional consultation<br>
             specialists help choose optimalnoe oborutovanie with uchyotom vysfromy podyoma, gruzopodyomnosti and spetsifiki rabfromy.
         </li>
 
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             warranty quality<br>
             all vehicles prokhodyat inspection and sofromvetstvuyut standards safety, that provides nadyozhnuyu and tolgovechnuyu operation.
         </li>
 
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Utobstvo purchase<br>
             company offers gibkie conditions priobreteniya, vklyuchaya tostavku and oformlenie tokumentov, that ekonomit time customers.
         </li>
 
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             support and maintenance<br>
             Posle purchase tostupny servisnye uslugi and consultations po operation, that prodlevaet service life equipment.
         </li>
 
-        <li class="relative pl-5.75 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             individual podkhod<br>
             Kazhtomu klientu podbirayutsya solutions, uchityvayushchie konkretnye tasks and byudzhet, that increases efficiency use equipment.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Equipment that makes work at height easier
     </h2>
 
@@ -830,116 +1002,130 @@ const en = {
                         },
 
                         seoText: `
-<div class="text-lg leading-[1.5]">
+<div class="text-[14px] sm:text-[16px] lg:text-[18px] leading-relaxed">
     <p>
         equipment for maintenance zhidkikh and vyazkikh sred requires tochnosti and produmannogo podkhoda. Vacuum tank truck provides akkuratnoe obrashchenie with rabochimi sredami and podderzhivaet stabilnost tekhnologicheskikh operatsiy. Eyo construction napravlena on utobnoe control and safety personala. company «RusTruck» offers solutions, sofromvetstvuyushchie strogim requirements and osobennostyam fromrasli. models fromlichayutsya prochnostyu and sposobnostyu sokhranyat rabochie specifications when dlitelnoy operation. such podkhod ukreplyaet toverie to tekhnike and reduces veroyatnost nepredvidyonnykh ostanovok.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Product range
     </h2>
 
-    <p>
+    <p class="mb-4">
         we offer models avtotsistern, tostupnye in different ispolneniyakh and modifikatsiyakh. in our kataloge predstavlen large selection equipment, sredi kfromoroy kazhdyy smozhet nayti podkhodyashchiy variant for svoikh nuzhd.
     </p>
 
-    <p>Brand:</p>
+    <p class="mb-2">
+        Brand:
+    </p>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             GAZ
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             KAMAZ
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             JAC
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             ISUZU
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             HYUNDAI
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             HINO
         </li>
     </ul>
 
-    <p>Tank truck type:</p>
+    <p class="mb-2">
+        Tank truck type:
+    </p>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Vacuum tank truck
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Food-grade tank truck
         </li>
     </ul>
 
-    <p>
+    <p class="mb-4">
         all models prokhodyat obyazatelnuyu sertifikatsiyu and sofromvetstvuyut rossiyskim and mezhdunarodnym standards quality. this provides reliability, safety operation and tolgovechnost equipment, and also dayot uverennost in sofromvetstvii oborutovaniya zayavlennym requirements.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Features avtotsistern
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Sozdanie vakuuma – provides efficient sbor and transportirovku zhidkikh and vyazkikh veshchestv without razlivov and pfromer.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Prochnost construction – korpus and komplektuyushchie vypolneny iz materials, ustoychivykh to corrosion and mekhanicheskim nagruzkam.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Sistema control – allows tochno kontrolirovat process zakachki and fromkachki liquids, uproshchaya rabfromu operatora.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             versatility applications – equipment mozhet ispolzovatsya in different fromraslyakh blagodarya adaptiruemym parametram and modifikatsiyam.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             maintenance and repair – produmannaya construction uproshchaet tostup to klyuchevym uzlam for profilaktiki and remonta.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             safety operation – vstroennye systems zashchity predfromvrashchayut avariynye situatsii and provide safe rabfromu with opasnymi sredami.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Applications
     </h2>
 
-    <p>
+    <p class="mb-4">
         Avtotsisterna vakuumnaya is used in samykh different sferakh, where vazhny bezopasnaya and effektivnaya transportirovka and khranenie zhidkikh and vyazkikh veshchestv. Ona is used in industry for peremeshcheniya tekhnologicheskikh liquids, in kommunalnoy sfere for fromkachki stochnykh vod and maintenance urban sistem, and also in pishchevoy fromrasli for transportation zhidkikh produktov and syrya. reliability and prochnost construction delayut eyo vostrebovannoy in stroitelstve and agricultural khozyaystve, where trebuetsya akkuratnaya rabfroma with zhidkostyami when different conditions operation. such avtotsisterna pomogaet optimizirovat processes, increases efficiency rabfromy and provides safety personala.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Advantages of working with «RusTruck»
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             wide range equipment – in nalichii razlichnye models vakuumnykh avtotsistern, adaptirovannye for konkretnye tasks and conditions operation.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             reliability oborutovaniya – all tank-trucks prokhodyat strogiy control quality and provide safe and stabilnuyu rabfromu.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             individual podbor resheniy – specialists help choose model with optimalnymi kharakteristikami and komplektatsiey for vashi pfromrebnosti.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             support on vsekh etapakh – consultations when vybore, soprovozhdenie when zakaze and tekhnicheskaya support posle purchase.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             delivery and service – company provides operativnuyu postavku and kachestvennoe maintenance equipment in Nizhnem Novgorode and regione.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Prozrachnye conditions sfromrudnichestva – chestnye prices, podrobnye spetsifikatsii and ofitsialnaya tokumentatsiya for kazhtogo order.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Comfort and safety when transporting liquids
     </h2>
 
@@ -984,106 +1170,117 @@ const en = {
                         },
 
                         seoText: `
-<div class="text-lg leading-[1.5]">
+<div class="text-[14px] sm:text-[16px] lg:text-[18px] leading-relaxed">
     <p>
-        Avtomobilnaya equipment razvivaetsya stremitelnymi tempami, predlagaya voditelyam new capabilities and utobstva. buy avtoevakuator stanovitsya razumnym resheniem for rasshireniya vozmozhnostey business and povysheniya mobilnosti. Sfera transportation vehicles requires nadezhnogo oborutovaniya and tochnogo planirovaniya. company «RusTruck» offers spetsializirovannuyu equipment, kfromoraya fromvechaet vysokim standards safety. Vnedrenie modern resheniy allows sokratit time vypolneniya tasks and povysit quality maintenance. Nadezhnoe oborutovanie sochetaet funktsionalnost with tolgovechnostyu and prostfromoy operation.
+        Avtomobilnaya equipment razvivaetsya stremitelnymi tempami, predlagaya voditelyam new capabilities and utobstva. buy avtoevakuator stanovitsya razumnym resheniem for rassshireniya vozmozhnostey business and povysheniya mobilnosti. Sfera transportation vehicles requires nadezhnogo oborutovaniya and tochnogo planirovaniya. company «RusTruck» offers spetsializirovannuyu equipment, kfromoraya fromvechaet vysokim standards safety. Vnedrenie modern resheniy allows sokratit time vypolneniya tasks and povysit quality maintenance. Nadezhnoe oborutovanie sochetaet funktsionalnost with tolgovechnostyu and prostfromoy operation.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Product range
     </h2>
 
-    <p>
+    <p class="mb-4">
         in nalichii predstavlena reliable equipment, rasschitannaya on raznye conditions operation and tasks. models podbirayutsya with uchetom trebovaniy to gruzopodemnosti, manevrennosti and tekhnicheskim kharakteristikam, that provides utobstvo and stabilnost rabfromy.
     </p>
 
-    <h3>
+    <h3 class="font-medium text-[18px] sm:text-[20px] lg:text-[22px] mt-4 mb-3">
         Available options on baze:
     </h3>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             KAMAZ
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             ISUZU
         </li>
     </ul>
 
-    <p>
+    <p class="mb-4">
         each pozitsiya fromlichaetsya kachestvennoy sborkoy and produmannoy konstruktsiey, that polozhitelno skazyvaetsya on sroke sluzhby and utobstve operation. such selection allows potobrat podkhodyashchee solution for konkretnye conditions.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Features avtoevakuatorov
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             reliability construction — tow truck for avtomobilya rasschitan on intensivnuyu operation and stabilnuyu rabfromu when vysokikh nagruzkakh.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Vysokaya payload capacity — allows safely transport razlichnye transportnye sredstva without snizheniya efficiency.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Utobstvo control — produmannaya komponovka uproshchaet rabfromu operatora and reduces utomlyaemost.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             durability uzlov and agregatov — kachestvennye materials and sborka uvelichivayut service life equipment.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             safety when pogruzke — technical solutions provide stability and control when vypolnenii rabfrom.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             versatility applications — evakuatory on chassis KAMAZ and ISUZU podkhodyat for vypolneniya different tasks in any conditions operation.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Applications
     </h2>
 
-    <p>
+    <p class="mb-4">
         Evakator with truck-mounted crane shiroko is used for transportation legkovykh transportnykh sredstv on razlichnye rasstoyaniya and for solutions slozhnykh tasks on toroge. construction and technical capabilities provide safe pogruzku and stabilnoe peremeshchenie without riska povrezhdeniy, and utobstvo control allows legko manevrirovat dazhe in plfromnom gorodskom movement.
     </p>
 
-    <p>
+    <p class="mb-4">
         Evakuatsionnyy vehicle efficiently is used for recovery neispravnykh vehicles posle polomok and torozhno-transportnykh proisshestviy. reliability uzlov and prochnost construction allow vypolnyat tasks on trassakh and in conditions ogranichennogo prostranstva without pfromeri efficiency.
     </p>
 
-    <p>
+    <p class="mb-4">
         Dopolnitelno vozmozhna operation when rabfrome with kommercheskim transportom and on sites with ogranichennym prostranstvom. versatility construction delaet such vehicles podkhodyashchimi for regulyarnoy and intensivnoy operation in different conditions.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Advantages of working with «RusTruck»
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Nalichie vsekh necessary sertifikatov — equipment sofromvetstvuet ustanovlennym requirements and normativam.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             control quality on kazhtom etape — inspection oborutovaniya pered peredachey zakazchiku.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Garantiynoe and poslegarantiynoe maintenance — tekhnicheskaya support in protsesse operation.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Utobnyy process purchase — soprovozhdenie sdelki and assistance with oformleniem tokumentov.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Prakticheskiy experience rabfromy — ponimanie osobennostey equipment and conditions operation.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Konkurentnaya price — ability priobresti netorogoy avtoevakuator without ushcherba for quality.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Doverie so storony customers — stabilnaya rabfroma and podtverzhdennoe quality postavlyaemoy equipment.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Modern transportation solutions
     </h2>
 
@@ -1147,137 +1344,149 @@ const en = {
                         },
 
                         seoText: `
-<div class="text-lg leading-[1.5]">
+<div class="text-[14px] sm:text-[16px] lg:text-[18px] leading-relaxed">
     <p>
         Avtomobilnaya equipment protolzhaet razvivatsya, fromkryvaya new capabilities for business and industry. Mnogie company stremyatsya buy bortovye vehicles for povysheniya efficiency transportation cargo. selection podkhodyashchey models requires vnimatelnogo izucheniya kharakteristik and ekspluatatsionnykh kachestv. company «RusTruck» offers wide range gruzovykh vehicles, fromvechayushchikh sovremennym requirements nadezhnosti. Tekhnicheskaya support and servisnoe maintenance igrayut vazhnuyu rol in tolgosrochnoy operation transporta. Investitsii in kachestvennuyu equipment help optimizirovat expenses and uskorit logisticheskie processes.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Product range
     </h2>
 
-    <p>
+    <p class="mb-4">
         company «RusTruck» offers wide selection bortovykh vehicles, allowing potobrat equipment for any tasks and byudzhet. in our kataloge are presented nadezhnye and proverennye models from vedushchikh proizvoditeley:
     </p>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             KAMAZ
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             JAC
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             DAEWOO
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             FAW
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             ISUZU
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             FOTON
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             HYUNDAI
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             HINO
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             FUSO
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             DONG FENG
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             MAZ
         </li>
     </ul>
 
-    <p>
+    <p class="mb-4">
         each marka obladaet svoimi preimushchestvami, and specialists «RusTruck» pomogut choose optimalnyy variant for vashego business. Nezavisimo from vybrannoy models, vy poluchite vysokoe quality, garantiyu and polnoe servisnoe soprovozhdenie.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Features bortovykh vehicles
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             reliability and tolgovechnost — equipment vyderzhivaet bolshie loads and intensivnuyu operation without snizheniya proizvoditelnosti.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Raznoobrazie models — wide selection marok and modifikatsiy allows potobrat vehicle for any tasks and byudzhet.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Vysokaya payload capacity — each gruzovaya bortovaya platform sproektirovana for effektivnoy transportation cargo razlichnogo obema and vesa.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             modern technologies — vehicles osnashcheny sovremennymi dvigatelyami and sistemami safety, that increases komfort and economy.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Garantiynoe maintenance — «RusTruck» provides podderzhku and servisnoe soprovozhdenie on ves service life operation.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             additional optsii and configurations — ability adaptirovat vehicle for spetsificheskie requirements business.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             economy and efficiency — optimalnoe sofromnoshenie prices, zatrat on maintenance and ekspluatatsionnykh kharakteristik.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Applications
     </h2>
 
-    <p>
+    <p class="mb-4">
         Bortovye vehicles nakhodyat shirokoe primenenie in sfere gruzoperevozok, providing bystruyu and safe tostavku different products. Mnogie company stremyatsya buy flatbed truck, chtoby transportirovat stroitelnye materials, promyshlennoe oborutovanie and drugie tyazhelye gruzy, where vazhna reliability equipment and stabilnaya rabfroma in any conditions.
     </p>
 
-    <p>
+    <p class="mb-4">
         Krome togo, such vehicle with flatbed platformoy aktivno is used in agricultural khozyaystve for transportation selskokhozyaystvennoy produktsii, kormov and equipment. Kompaktnye and manevrennye models allow rabfromat on uzkikh torogakh and selskikh uchastkakh, oblegchaya logistiku and snizhaya time on transportirovku.
     </p>
 
-    <p>
+    <p class="mb-4">
         in promyshlennom and kommercheskom sektore bortovye vehicles help organizovat operativnye postavki produktsii, uskoryayut rabfromu predpriyatiy and povyshayut efficiency business. ability adaptirovat equipment for konkretnye tasks delaet eyo universalnym resheniem for kompaniy razlichnogo profilya.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Advantages of working with «RusTruck»
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             wide selection equipment — raznoobrazie marok and models allows potobrat flatbed truck price kfromorogo ne tolko vygodna, no and sofromvetstvuet pfromrebnostyam for any tasks and byudzhet.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             professional consultation — specialists pomogut choose optimalnuyu model, uchityvaya pfromrebnosti vashego business.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             warranty quality — all vehicles prokhodyat inspection and postavlyayutsya with ofitsialnoy warranty proizvoditelya.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Servicenoe soprovozhdenie — polnaya support on vsekh etapakh operation: from maintenance to remonta.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             individual podkhod — podbor topolnitelnykh optsiy and komplektatsiy for konkretnye tasks and fromrasli.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Utobnye conditions purchase — gibkie skhemy oplaty and assistance in oformlenii tokumentov delayut process purchase prostym and prozrachnym.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             reliability and fromvetstvennost — company provides svoevremennuyu postavku and tolgosrochnoe sfromrudnichestvo with klientami.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Reliable vehicles for major tasks
     </h2>
 
     <p>
-        new flatbed vehicle stanet nadezhnym pomoshchnikom in any transportnykh zadachakh. company «RusTruck» offers wide selection equipment with warranty quality and podderzhkoy spetsialistov. we will help potobrat podkhodyashchuyu model and oformit pokupku without lishnikh slozhnostey. Obnovite avtopark and povyste efficiency rabfromy vashey company. Vospolzuytes topolnitelnymi optsiyami and servisnymi paketami for tolgoy and bespereboynoy operation. for processing order contact with us any utobnym way, and we obespechim bystryy and utobnyy process purchase.
+        new flatbed vehicle stanet nadezhnym pomoshchnikom in any transportnykh zadachakh. company «RusTruck» offers wide selection equipment with warranty quality and podderzhkoy spetsialistov. we will help potobrat podkhodyashchuyu model and oformit pokupku without lishnikh slozhnostey. Obnovite avtopark and povyste efficiency rabfromy vashey company. Vospolzuytes topolnitelnyimi optsiyami and servisnymi paketami for tolgoy and bespereboynoy operation. for processing order contact with us any utobnym way, and we obespechim bystryy and utobnyy process purchase.
     </p>
 </div>
 `,
@@ -1303,96 +1512,105 @@ const en = {
                         },
 
                         seoText: `
-<div class="text-lg leading-[1.5]">
+<div class="text-[14px] sm:text-[16px] lg:text-[18px] leading-relaxed">
     <p>
         Transportirovka cargo provides bystruyu and nadezhnuyu tostavku mezhdu gorodami and regionami. buy konteynerovoz for increase mobilnosti and obema transportation pomogaet kompaniyam spravlyatsya with bolshimi obemami rabfromy. company «RusTruck» offers wide selection gruzovykh vehicles for different tasks and conditions rabfromy. use modern vehicles uskoryaet tostavku and increases safety cargo. equipment for transportation containers allows transport raznoobraznye gruzy with vysokoy effektivnostyu. Peretovye technologies in avtomobilnoy logistike delayut transportation more utobnymi and nadezhnymi.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Product range
     </h2>
 
-    <p>
+    <p class="mb-4">
         company «RusTruck» offers raznoobraznye avto container-trucks, podkhodyashchie for different tasks and conditions operation. in our predlozhenii are presented marki, izvestnye nadezhnostyu, vysokoy gruzopodemnostyu and aktualnymi tekhnologiyami:
     </p>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             GAZ
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             KAMAZ
         </li>
     </ul>
 
-    <p>
+    <p class="mb-4">
         each model osnashchena vsem neobkhodimym for bezopasnoy and bystroy transportation cargo. we udelyaem vnimanie kachestvu equipment and utobstvu operation, chtoby transportation prokhodili maksimalno efficiently.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Features konteynerovozov
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Vysokaya payload capacity — allow transport bolshie obemy cargo za odnu poezdku, snizhaya kolichestvo reysov and ekonomya time.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             reliability construction — durable frame and chassis provide stabilnuyu rabfromu dazhe when slozhnykh torozhnykh conditions.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             versatility applications — podkhodyat for transportation different tipov containers and cargo, that delaet ikh utobnymi for raznoobraznykh tasks.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             maneuverability and mobility — ability rabfromy on uzkikh ulitsakh and in urban conditions, where krupnaya equipment menee effektivna.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             modern technologies and safety — peretovye tormoznye systems, podveska and elektronika povyshayut safety transportation and komfort voditelya.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             economy operation — konteynerovoz, price kfromorogo sochetaet tostupnost and efficiency, allows sokratit expenses on operation.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Applications
     </h2>
 
-    <p>
+    <p class="mb-4">
         Konteynernye vehicles shiroko are used for transportation different cargo on dalnie and srednie rasstoyaniya. Oni idealno podkhodyat for tostavki produktsii mezhdu gorodami, that osobenno vazhno for kompaniy, kfromorym trebuetsya prompt and bezopasnaya transportirovka.
     </p>
 
-    <p>
+    <p class="mb-4">
         Krome togo, such vehicles aktivno are used on industrial and construction sites, where neobkhodimo peremeshchat konteynery with oborutovaniem ili materialami. reliability chassis and vysokaya payload capacity delayut ikh utobnymi for rabfromy in conditions povyshennoy loads.
     </p>
 
-    <p>
+    <p class="mb-4">
         cargo vehicle konteynerovoz also vostrebovan in logisticheskikh kompaniyakh and u postavshchikov products for roznichnoy torgovli. Blagodarya mobilnosti and universalnosti on allows quickly reagirovat on izmeneniya in planakh tostavki and obespechivat svoevremennuyu postavku produktsii.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Advantages of working with «RusTruck»
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             reliable equipment — all vehicles container-trucks prokhodyat strogiy control quality and inspection pered postavkoy, that guarantees ikh tolguyu and stabilnuyu rabfromu.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Raznoobrazie models — wide selection vehicles allows potobrat konteynerovoz for any tasks and conditions operation.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             professional support — specialists company konsultiruyut on kazhtom etape, pomogaya choose optimalnoe solution for transportation.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             fast tostavka and service — equipment is delivered in kratchayshie sroki, and servisnoe maintenance provides bespereboynuyu rabfromu.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Prozrachnye conditions sfromrudnichestva — ponyatnye conditions purchase, warranty and soprovozhdenie sdelki delayut sfromrudnichestvo utobnym and bezopasnym.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Modern solutions for mobile logistics
     </h2>
 
@@ -1419,105 +1637,118 @@ const en = {
                             ],
                         },
                         seoText: `
-<div class="text-lg leading-[1.5]">
+<div class="text-[14px] sm:text-[16px] lg:text-[18px] leading-relaxed">
     <p>
         Transportnaya logistics okazyvaet znachitelnoe vliyanie on razvitie industry and torgovli. for effektivnoy rabfromy portov and sklatov ispolzuyut kryukovoy pogruzchik, sposobnyy spravlyatsya with tyazhelymi gruzami. new technical solutions in etoy sfere povyshayut skorost and safety operatsiy. company «RusTruck» vnedryaet innovatsionnye podkhody, optimiziruya processes transportation and khraneniya. Avtomatizatsiya and tsifrovye systems kontrolya allow snizit chelovecheskiy faktor and uskorit obrabfromku cargo. Primenenie modern mekhanizmov znachitelno uvelichivaet performance and reduces izderzhki.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Product range
     </h2>
 
-    <p>
+    <p class="mb-4">
         we offer tolko kachestvennuyu and sertifitsirovannuyu equipment, kfromoraya sofromvetstvuet vsem standards safety and nadezhnosti. each edinitsa oborutovaniya prokhodit strogiy control and gfromova to intensivnoy operation, that guarantees tolgiy service life and efficiency rabfromy. Sredi predstavlennykh marok:
     </p>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             ISUZU
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             HYUNDAI
         </li>
     </ul>
 
-    <p>
+    <p class="mb-4">
         all models osnashcheny sovremennymi sistemami control and proverennymi mekhanizmami, that delaet ikh utobnymi and bezopasnymi in operation. selection equipment allows potobrat optimalnoe solution for any tasks and conditions rabfromy, providing stabilnost and performance on vysokom urovne.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Features kryukovykh pogruzchikov
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Moshchnye podemnye mechanisms – kryukovye multilifty allow legko spravlyatsya with tyazhelymi and krupnogabaritnymi gruzami.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             reliable construction chassis – provides stabilnost and tolgovechnost dazhe when intensivnoy operation.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Gibkost and maneuverability – equipment legko rabfromaet in ogranichennom space, on uzkikh warehouses and stroyploshchadkakh.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Sistema avtomaticheskoy zashchity – predfromvrashchaet peregruzku and protects mechanisms from polomok.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Energoeffektivnost – optimizirovannyy raskhod topliva reduces ekspluatatsionnye costs.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Utobstvo maintenance – prostaya construction uzlov and lyogkiy tostup to servisnym tochkam uskoryayut repair and tekhobsluzhivanie.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Adaptivnost to usloviyam rabfromy – equipment gfromova to operation when different klimaticheskikh and torozhnykh conditions.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Applications
     </h2>
 
-    <p>
+    <p class="mb-4">
         Pogruzchik with kryukom aktivno is used in portakh and on terminalakh for bystroy loading and unloading containers and oversized cargo. equipment allows efficiently peremeshchat tyazhelye materials mezhdu skladami and transportnymi sredstvami, uskoryaya obrabfromku cargo and snizhaya nagruzku on personal.
     </p>
 
-    <p>
+    <p class="mb-4">
         on construction sites such vehicles help transportirovat stroitelnye bloki, metallokonstruktsii and drugie tyazhyolye materials, providing tochnost and safety when podyome and peremeshchenii. Ikh versatility allows rabfromat in ogranichennom space and on nerovnoy mestnosti, that osobenno vazhno for krupnykh obektov and mnogoetazhnogo stroitelstva.
     </p>
 
-    <p>
+    <p class="mb-4">
         in industry equipment is used for peremeshcheniya syrya, gfromovoy produktsii and krupnogabaritnogo oborutovaniya vnutri production tsekhov and skladskikh pomeshcheniy. use modern mekhanizmov increases skorost operatsiy and minimiziruet risk povrezhdeniya cargo, that delaet logisticheskie processes more stabilnymi and predskazuemymi.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Advantages of working with «RusTruck»
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             wide selection equipment – company offers raznoobraznye models pogruzchikov and spetsializirovannogo oborutovaniya, that allows potobrat solution for any tasks.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Kachestvennaya sertifitsirovannaya equipment – kryukovoy pogruzchik prokhodit strogiy control quality and polnostyu sofromvetstvuet standards safety and nadezhnosti.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             professional support – specialists company gfromovy help with vyborom, nastroykoy and ekspluatatsiey oborutovaniya.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Servicenoe maintenance and spare parts – operativnyy repair and nalichie originalnykh zapchastey minimiziruyut prostoi equipment.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Individualnye solutions – company podbiraet equipment and conditions rabfromy with uchetom osobennostey business kazhtogo customer.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             experience and reputation – «RusTruck» imeet mnogoletniy experience on rynke and zarekomentoval sebya kak reliable partner in sfere transportnoy logistics.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Optimizatsiya zatrat – vygodnye conditions postavki and maintenance help snizit expenses on operation oborutovaniya.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Reliable solutions for cargo transportation
     </h2>
 
@@ -1525,7 +1756,7 @@ const en = {
         Pogruzchik with kryukom demonstriruet vysokuyu efficiency when rabfrome with tyazhelymi gruzami and uskoryaet logisticheskie processes. Investitsii in sovremennuyu equipment help povysit performance and snizit costs. company «RusTruck» offers wide spektr resheniy for transportnoy logistics and maintenance oborutovaniya. Otsenite capabilities avtomatizatsii and vnedrite new technologies in svoy business. Sledite za obnovleniyami and sovershenstvuyte processes khraneniya and transportation cargo. for processing order contact with us any utobnym way, and our specialists pomogut potobrat optimalnoe solution.
     </p>
 </div>
-                                 `,
+`,
                     },
                     {
                         id: 10,
@@ -1564,118 +1795,118 @@ const en = {
                         },
 
                         seoText: `
-<div class="text-lg leading-normal">
+<div class="text-[14px] sm:text-[16px] lg:text-[18px] leading-relaxed">
     <p>
         Gruzovye transportation yavlyayutsya vazhnym elementom ekonomicheskogo razvitiya and promyshlennoy logistics. solution buy new samosval allows povysit efficiency transportation materials and sokratit expenses on maintenance vehicles. when vybore podkhodyashchey models we vsegda will help potobrat vehicle for rabfromy in different torozhnykh conditions. company «RusTruck» offers raznoobraznye models with sovremennymi tekhnicheskimi kharakteristikami. Nadyozhnye vehicles podderzhivayut stabilnuyu perevozku cargo on proizvodstvennye ploshchadki. Obnovlenie parka allows vypolnyat more slozhnye tasks and uvelichivat capacity transportation.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Product range
     </h2>
 
-    <p>
+    <p class="mb-4">
         company «RusTruck» offers equipment for transportation sypuchikh and construction materials. Katalog samosvalov obedinyaet models razlichnoy gruzopodyomnosti and konfiguratsii for rabfromy in different conditions operation.
     </p>
 
-    <p>
+    <p class="mb-2">
         Available options chassis:
     </p>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             KAMAZ
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             JAC
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             GAZ
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             VALDAY
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             KOMPAS
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             DONG FENG
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             SOLLERS
         </li>
     </ul>
 
-    <p>
+    <p class="mb-4">
         models fromlichayutsya tekhnicheskimi kharakteristikami and vozmozhnostyami for vypolneniya different tasks. such podkhod provides safe and effektivnuyu transportirovku cargo, obedinyaya reliability oborutovaniya with praktichnostyu use.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Features samosvalov
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Raznaya payload capacity – allows transport kak nebolshie, tak and krupnye obyomy sypuchikh materials, podbiraya model for konkretnye tasks.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
-            Adaptatsiya to torozhnym usloviyam – equipment legko spravlyaetsya with gruntovymi, gorodskimi and stroitelnymi torogami.
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
+            Adaptatsiya to torozhnym usloviyam – equipment legko spravlyayetsya with gruntovymi, gorodskimi and stroitelnymi torogami.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Raznoobrazie konfiguratsiy kuzova – ability choose mashinu with optimalnoy platformoy for spetsificheskikh cargo delaet solution buy samosval more tochnym for tasks.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Ekonomichnoe raskhotovanie topliva – modern engines snizhayut costs on operation when intensivnoy rabfrome.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             reliability and tolgovechnost – prochnye chassis and kachestvennye komplektuyushchie provide tolgiy service life equipment.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Prostfroma maintenance – tostupnye spare parts and utobnaya construction oblegchayut tekhnicheskoe maintenance and repair.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Applications
     </h2>
 
-    <p>
+    <p class="mb-4">
         buy avto samosval aktualno for stroitelstva, where equipment is used for transportation sypuchikh materials, shchebnya and grunta on stroitelnye ploshchadki. Ona provides bystruyu and effektivnuyu tostavku cargo, sokrashchaya time on logistiku.
     </p>
 
-    <p>
+    <p class="mb-4">
         in urban conditions such transport perevozit stroitelnye and bytovye fromkhody, uchastvuet in raschistke territoriy posle snegopatov and tostavke materials for blagoustroystva ulits and dvorov. vehicles spravlyayutsya with razlichnymi torozhnymi usloviyami and zadachami.
     </p>
 
-    <p>
+    <p class="mb-4">
         in selskoy and lesnoy fromrasli dump-trucks perevozyat urozhay, korm, drevesinu and utobreniya, providing nadyozhnuyu tostavku cargo on bolshie rasstoyaniya. on industrial and logisticheskikh obektakh vehicles are used for peremeshcheniya materials mezhdu ploshchadkami, povyshaya efficiency rabfromy.
     </p>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Advantages of working with «RusTruck»
     </h2>
 
-    <ul class="list-none pl-0">
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+    <ul class="list-none pl-0 mb-4">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             wide selection equipment – katalog samosvalov vklyuchaet models razlichnoy gruzopodyomnosti and konfiguratsii, podkhodyashchie for any tasks and conditions operation.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             consultations and podbor – specialists help choose samosval with uchyotom konkretnykh trebovaniy and conditions rabfromy.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             warranty quality – company offers tolko proverennye models with nadyozhnymi chassis and komplektuyushchimi.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             Vygodnye conditions purchase – specialists pretostavlyayut polnuyu informatsiyu o pokupke and help rasschitat stoimost gruzovogo samosvala for kazhtoy models.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             prompt tostavka – equipment is delivered in kratchayshie sroki, providing bespereboynuyu rabfromu predpriyatiy.
         </li>
-        <li class="relative pl-5 mb-2.5 text-lg before:content-['♦'] before:absolute before:left-0 before:text-[#fec80b] before:text-base before:top-0.5">
+        <li class="relative pl-6 mb-2.5 text-[14px] sm:text-[16px] lg:text-[18px] before:content-['♦'] before:absolute before:left-0 before:top-0.5 before:text-[#fec80b] before:text-[13px] sm:before:text-[16px]">
             experience and reputation – mnogoletniy experience allows reshat tasks lyuboy slozhnosti and podderzhivat toverie customers.
         </li>
     </ul>
 
-    <h2 class="text-[22px] mt-5 mb-3">
+    <h2 class="font-medium text-[20px] sm:text-[22px] lg:text-[24px] mt-5 mb-3">
         Reliable equipment for any conditions
     </h2>
 
@@ -1683,7 +1914,7 @@ const en = {
         buy new samosval price kfromorogo vygodna, pozvolit povysit efficiency transportation cargo and sokratit costs. vehicles provide stabilnuyu operation in different conditions and podkhodyat for samykh raznoobraznykh tasks. company «RusTruck» offers models with razlichnoy gruzopodyomnostyu and konfiguratsiey. Oznakomtes with katalogom and vyberite podkhodyashchuyu equipment for svoikh nuzhd. our specialists pomogut potobrat optimalnyy variant and fromvetyat on all voprosy po postavke and operation. for processing order contact with us any utobnym way and obespechte stabilnuyu rabfromu svoikh proektov.
     </p>
 </div>
-                                 `,
+`,
                     },
                     {
                         id: 11,

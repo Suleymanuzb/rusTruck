@@ -14,25 +14,13 @@ const Form = ({
     handleBrandChange,
     handleApplyFilters,
     previewCount,
+    searchedBrands,
+    localSearch,
+    setLocalSearch,
 }) => {
     // console.log(selectedCategory);
 
     const { t } = useTranslation();
-
-    // for brand search input
-    const [localSearch, setLocalSearch] = useState("");
-    console.log(localSearch);
-
-    const searchedBrands =
-        selectedCategory.brandsOfTrucks.brands.filter((item) =>
-            item
-                .trim()
-                .toLowerCase()
-                .includes(localSearch.trim().toLowerCase()),
-        ) || [];
-
-    console.log(searchedBrands);
-    // for brand search input
 
     const handle = (e) => {
         setLocalSearch(e.target.value);

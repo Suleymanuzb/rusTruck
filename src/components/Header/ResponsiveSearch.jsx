@@ -26,15 +26,20 @@ const ResponsiveSearch = ({ isSticky }) => {
 
     return (
         <div className='lg:hidden'>
-            <span onClick={() => setIsSearchOpen(true)} className='text-2xl'>
+            <span
+                onClick={() => setIsSearchOpen((prev) => !prev)}
+                className='text-2xl'
+            >
                 <IconSearch />
             </span>
 
             <div
-                className={`search-box absolute z-300 ${isSticky ? "top-24.5 sm:top-16 bg-amber-200" : "top-13"} left-0 w-full grid transition-all duration-300 ${isSearchOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr] pointer-events-none"}`}
+                className={`search-box absolute z-300 ${isSticky ? "top-24.5 sm:top-16" : "top-13"} left-0 w-full grid transition-all duration-300 ${isSearchOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr] pointer-events-none"}`}
             >
                 <Container className='overflow-hidden'>
-                    <div className='bg-white py-2.5'>
+                    <div
+                        className={`bg-white py-2.5 ${isSticky ? "px-4" : ""}`}
+                    >
                         <form
                             onSubmit={handleSubmit}
                             className='flex items-center h-10 border-2 border-[#FEC80B] rounded-full py-3 bg-gray-200!'
