@@ -38,7 +38,7 @@ const ResponsiveSearch = ({ isSticky }) => {
             >
                 <Container className='overflow-hidden'>
                     <div
-                        className={`border bg-white py-2.5 ${isSticky ? "px-4" : ""}`}
+                        className={`bg-white py-2.5 ${isSticky ? "px-4" : ""}`}
                     >
                         <form
                             onSubmit={handleSubmit}
