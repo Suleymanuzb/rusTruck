@@ -28,15 +28,26 @@ const FilteredCatalog = () => {
     const [isLine, setIsLine] = useState(false);
     const [isTable, setIsTable] = useState(true);
     const [isFilter, setIsFilter] = useState(false);
+    const [loader, setLoader] = useState(false);
 
     const handleTable = () => {
         setIsTable(true);
         setIsLine(false);
+
+        setLoader(true);
+        setTimeout(() => {
+            setLoader(false);
+        }, 300);
     };
 
     const handleLine = () => {
         setIsTable(false);
         setIsLine(true);
+
+        setLoader(true);
+        setTimeout(() => {
+            setLoader(false);
+        }, 300);
     };
 
     const { t } = useTranslation();
@@ -141,6 +152,7 @@ const FilteredCatalog = () => {
                     setIsFilter={setIsFilter}
                     isLine={isLine}
                     isTable={isTable}
+                    loader={loader}
                 />
 
                 {/* LEFT RIGHT */}
