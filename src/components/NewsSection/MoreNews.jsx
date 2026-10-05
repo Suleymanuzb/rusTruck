@@ -19,6 +19,17 @@ export default function MoreNews({ TruckNews }) {
             <Swiper
                 slidesPerView={4}
                 spaceBetween={30}
+                breakpoints={{
+                    0: {
+                        slidesPerView: 2,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                    },
+                    1024: {
+                        slidesPerView: 4,
+                    },
+                }}
                 loop={true}
                 modules={[Pagination, Navigation]}
                 className='mySwiper'
