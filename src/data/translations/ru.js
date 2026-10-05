@@ -2366,6 +2366,10 @@ const ru = {
         similarTrucks: {
             title: "Похожие грузовики",
         },
+
+        moreNews: {
+            title: "Ещё новости",
+        },
     },
 
     footer: {

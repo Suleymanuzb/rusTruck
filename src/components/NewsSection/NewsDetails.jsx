@@ -17,6 +17,8 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
+import MoreNews from "./MoreNews";
+import AnyQuestions from "../AnyQuestions/AnyQuestions";
 
 const NewsDetails = () => {
     const { t } = useTranslation();
@@ -24,142 +26,164 @@ const NewsDetails = () => {
     const { slug } = useParams();
 
     const currentTruck = TruckNews.find((item) => item.slug === slug);
-    console.log(slug);
-    // console.log(currentTruck);
+    // console.log(slug);
+    // console.log("cc", currentTruck);
 
     const truckWithLanguage = currentTruck?.[i18n.language];
     // console.log(truckWithLanguage);
 
     return (
-        <Container className='pb-39'>
-            <Link to={"/news"} className='flex items-center gap-2 opacity-40'>
-                <span className='text-2xl'>
-                    <IconArrowLeft />
-                </span>
-                {t("newsPage.back")}
-            </Link>
-            <h1 className='text-xl max-[400px]:leading-[110%] leading-[135%] font-bold sm:font-normal sm:text-2xl lg:text-3xl mb-3 mt-5'>
-                {truckWithLanguage?.mainTitle}
-            </h1>
-            <p className='leading-normal text-lg sm:mb-5 md:mb-7 lg:mb-10'>
-                {currentTruck?.date}
-            </p>
+        <div className='bg-gray-50'>
+            <Container className='pb-39'>
+                <Link
+                    to={"/news"}
+                    className='flex items-center gap-2 opacity-40'
+                >
+                    <span className='text-2xl'>
+                        <IconArrowLeft />
+                    </span>
+                    {t("newsPage.back")}
+                </Link>
+                <h1 className='text-xl max-[400px]:leading-[110%] leading-[135%] font-bold sm:font-normal sm:text-2xl lg:text-3xl mb-3 mt-5'>
+                    {truckWithLanguage?.mainTitle}
+                </h1>
+                <p className='leading-normal text-lg sm:mb-5 md:mb-7 lg:mb-10'>
+                    {currentTruck?.date}
+                </p>
 
-            <div className='flex flex-col lg:flex-row lg:justify-between gap-6'>
-                <div className='lg:w-[40%]'>
-                    {truckWithLanguage?.newsInfo?.map((mainNews, i) => (
-                        <div key={i}>
-                            {mainNews?.title && (
-                                <h2 className='text-xl font-bold mb-4'>
-                                    {mainNews.title}
-                                </h2>
-                            )}
+                <div className='flex flex-col lg:flex-row lg:justify-between gap-6 mb-20 md:mb-30 lg:39'>
+                    <div className='lg:w-[40%]'>
+                        {truckWithLanguage?.newsInfo?.map((mainNews, i) => (
+                            <div key={i}>
+                                {mainNews?.title && (
+                                    <h2 className='text-xl font-bold mb-4'>
+                                        {mainNews.title}
+                                    </h2>
+                                )}
 
-                            {mainNews.type === "paragraph" && (
-                                <p>
-                                    {mainNews.section.map((each, i) => {
-                                        if (each.type === "Link") {
+                                {mainNews.type === "paragraph" && (
+                                    <p>
+                                        {mainNews.section.map((each, i) => {
+                                            if (each.type === "Link") {
+                                                return (
+                                                    <Link
+                                                        key={i}
+                                                        className=' ml-1 cursor-pointer text-purple-700 font-medium'
+                                                        to={each.href}
+                                                    >
+                                                        {each.value}
+                                                    </Link>
+                                                );
+                                            }
+
+                                            if (
+                                                each.value.includes(
+                                                    "Завод «Рустрак»",
+                                                )
+                                            ) {
+                                                return (
+                                                    <span
+                                                        key={i}
+                                                        className=' ml-1 cursor-pointer font-extrabold'
+                                                        to={each.href}
+                                                    >
+                                                        {each.value} <br />
+                                                    </span>
+                                                );
+                                            }
+
                                             return (
-                                                <Link
-                                                    key={i}
-                                                    className=' ml-1 cursor-pointer text-purple-700 font-medium'
-                                                    to={each.href}
-                                                >
+                                                <span key={i}>
                                                     {each.value}
-                                                </Link>
-                                            );
-                                        }
-
-                                        if (
-                                            each.value.includes(
-                                                "Завод «Рустрак»",
-                                            )
-                                        ) {
-                                            return (
-                                                <span
-                                                    key={i}
-                                                    className=' ml-1 cursor-pointer font-extrabold'
-                                                    to={each.href}
-                                                >
-                                                    {each.value} <br />
                                                 </span>
                                             );
-                                        }
+                                        })}
+                                    </p>
+                                )}
 
-                                        return <span>{each.value}</span>;
-                                    })}
-                                </p>
-                            )}
+                                {mainNews?.section?.map((item, j) => {
+                                    if (item.type === "comment") {
+                                        return (
+                                            <div className='mb-3' key={j}>
+                                                <p className=''>
+                                                    <span className='font-bold text-[#f55409]'>
+                                                        {item.author}
+                                                    </span>{" "}
+                                                </p>
+                                                <p className='text-[#f16522]'>
+                                                    {item.text}
+                                                </p>
+                                            </div>
+                                        );
+                                    }
 
-                            {mainNews?.section?.map((item, j) => {
-                                if (item.type === "comment") {
                                     return (
-                                        <div className='mb-3' key={j}>
-                                            <p className=''>
-                                                <span className='font-bold text-[#f55409]'>
-                                                    {item.author}
-                                                </span>{" "}
-                                            </p>
-                                            <p className='text-[#f16522]'>
-                                                {item.text}
-                                            </p>
+                                        <div key={j}>
+                                            <p
+                                                dangerouslySetInnerHTML={{
+                                                    __html: item.text,
+                                                }}
+                                                className='my-3'
+                                            ></p>
                                         </div>
+                                    );
+                                })}
+                            </div>
+                        ))}
+                    </div>
+                    <div className=' lg:w-[50%] cursor-pointer rounded'>
+                        <Swiper
+                            spaceBetween={0}
+                            centeredSlides={true}
+                            autoplay={{
+                                delay: 2500,
+                                disableOnInteraction: false,
+                            }}
+                            modules={[Autoplay, Pagination, Navigation]}
+                            className='mySwiper rounded-xl'
+                        >
+                            {currentTruck?.gallerImages?.map((each, i) => {
+                                if (currentTruck.id === 6) {
+                                    return (
+                                        <SwiperSlide key={i}>
+                                            <img
+                                                src={each?.image}
+                                                alt={
+                                                    truckWithLanguage?.mainTitle
+                                                }
+                                                className='w-full aspect-square object-cover'
+                                            />
+                                        </SwiperSlide>
                                     );
                                 }
 
                                 return (
-                                    <div key={j}>
-                                        <p
-                                            dangerouslySetInnerHTML={{
-                                                __html: item.text,
-                                            }}
-                                            className='my-3'
-                                        ></p>
-                                    </div>
-                                );
-                            })}
-                        </div>
-                    ))}
-                </div>
-                <div className=' lg:w-[50%] cursor-pointer rounded'>
-                    <Swiper
-                        spaceBetween={0}
-                        centeredSlides={true}
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        }}
-                        modules={[Autoplay, Pagination, Navigation]}
-                        className='mySwiper rounded-xl'
-                    >
-                        {currentTruck?.gallerImages?.map((each, i) => {
-                            if (currentTruck.id === 6) {
-                                return (
-                                    <SwiperSlide key={i}>
+                                    <SwiperSlide>
                                         <img
+                                            key={i}
                                             src={each?.image}
                                             alt={truckWithLanguage?.mainTitle}
-                                            className='w-full aspect-square object-cover'
+                                            className='w-full rounded-2xl! aspect-30/22 object-cover'
                                         />
                                     </SwiperSlide>
                                 );
-                            }
-
-                            return (
-                                <SwiperSlide>
-                                    <img
-                                        key={i}
-                                        src={each?.image}
-                                        alt={truckWithLanguage?.mainTitle}
-                                        className='w-full rounded-2xl! aspect-30/22 object-cover'
-                                    />
-                                </SwiperSlide>
-                            );
-                        })}
-                    </Swiper>
+                            })}
+                        </Swiper>
+                    </div>
                 </div>
-            </div>
-        </Container>
+
+                <div>
+                    <h1 className='text-xl sm:text-2xl lg:text-3xl mb-8'>
+                        {t("newsPage.moreNews.title")}
+                    </h1>
+
+                    {/*  */}
+                    <MoreNews TruckNews={TruckNews} />
+                </div>
+            </Container>
+
+            <AnyQuestions />
+        </div>
     );
 };
 
