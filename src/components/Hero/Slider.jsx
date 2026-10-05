@@ -15,8 +15,10 @@ import "swiper/css/navigation";
 // import required modules
 import { Keyboard, Pagination, Navigation } from "swiper/modules";
 import H1 from "../Typography/H1";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import Modal from "./Modal";
 
 const Slider = () => {
     const { t } = useTranslation();
@@ -31,6 +33,9 @@ const Slider = () => {
             once: true,
         });
     }, []);
+
+    // modal state
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
         <>
@@ -75,50 +80,84 @@ const Slider = () => {
                     );
 
                     return (
-                        <SwiperSlide key={slideText.id}>
-                            <div
-                                className='relative min-h-115 md:min-h-129.5 max-w-full rounded-xl bg-cover bg-center'
-                                style={{
-                                    backgroundImage: `url(${slideImage.image})`,
-                                }}
-                            >
-                                {/* Dark overlay */}
-                                <div className='absolute inset-0 bg-black/30 z-0 rounded-xl' />
-
-                                {/* text */}
+                        <div>
+                            <SwiperSlide key={slideText.id}>
                                 <div
-                                    data-aos='fade-right'
-                                    className='absolute max-[442px]:left-4 left-10 top-40 md:top-50 z-3 -translate-y-1/2'
+                                    className='relative min-h-115 md:min-h-129.5 max-w-full rounded-xl bg-cover bg-center'
+                                    style={{
+                                        backgroundImage: `url(${slideImage.image})`,
+                                    }}
                                 >
-                                    <div>
-                                        <h1 className='max-w-113 font-bold leading-7.5 max-[442px]:text-[23px] text-[28px] mb-4 text-white'>
-                                            {slideText.title}
-                                        </h1>
-                                    </div>
-                                    <p className='text-white mb-8 leading-normal max-w-111.75 max-[442px]:text-[14px]'>
-                                        {slideText.description}
-                                    </p>
+                                    {/* Dark overlay */}
+                                    <div className='absolute inset-0 bg-black/30 z-0 rounded-xl' />
 
-                                    {/* buttons */}
-                                    <div className='flex gap-4'>
+                                    {/* text */}
+                                    <div
+                                        data-aos='fade-right'
+                                        className='absolute max-[442px]:left-4 left-10 top-40 md:top-50 z-3 -translate-y-1/2'
+                                    >
+                                        <div>
+                                            <h1 className='max-w-113 font-bold leading-7.5 max-[442px]:text-[23px] text-[28px] mb-4 text-white'>
+                                                {slideText.title}
+                                            </h1>
+                                        </div>
+                                        <p className='text-white mb-8 leading-normal max-w-111.75 max-[442px]:text-[14px]'>
+                                            {slideText.description}
+                                        </p>
+
+                                        {/* buttons */}
                                         {slideText.buttons.map(
-                                            (button, buttonIndex) => (
-                                                <Button
-                                                    className='text-white max-[768px]:px-4 py-2'
-                                                    key={buttonIndex}
-                                                    variant={button.variant}
-                                                >
-                                                    {button.text}
-                                                </Button>
-                                            ),
+                                            (button, buttonIndex) => {
+                                                // / If button has "to", it is a navigation button
+                                                if (button?.to) {
+                                                    return (
+                                                        <Link
+                                                            to={button.to}
+                                                            key={buttonIndex}
+                                                        >
+                                                            <Button
+                                                                key={
+                                                                    buttonIndex
+                                                                }
+                                                                className='text-white max-[768px]:px-4 py-2'
+                                                                variant={
+                                                                    button.variant
+                                                                }
+                                                            >
+                                                                {button.text}
+                                                            </Button>
+                                                        </Link>
+                                                    );
+                                                }
+
+                                                return (
+                                                    <Button
+                                                        key={buttonIndex}
+                                                        className='text-white max-[768px]:px-4 py-2'
+                                                        variant={button.variant}
+                                                        onClick={() => {
+                                                            if (
+                                                                button.text ===
+                                                                "Заказать звонок"
+                                                            ) {
+                                                                setIsOpen(true);
+                                                            }
+                                                        }}
+                                                    >
+                                                        {button.text}
+                                                    </Button>
+                                                );
+                                            },
                                         )}
                                     </div>
                                 </div>
-                            </div>
-                        </SwiperSlide>
+                            </SwiperSlide>
+                        </div>
                     );
                 })}
             </Swiper>
+
+            {isOpen && <Modal isOpen={isOpen} setIsOpen={setIsOpen} />}
         </>
     );
 };

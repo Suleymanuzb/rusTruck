@@ -2149,6 +2149,7 @@ const ru = {
                     {
                         text: "Открыть каталог",
                         variant: "btn_big",
+                        to: "/catalog",
                     },
                     {
                         text: "Заказать звонок",
