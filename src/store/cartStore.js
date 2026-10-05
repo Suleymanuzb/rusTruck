@@ -7,15 +7,31 @@ export const useCartStore = create(
             cart: [],
 
             addToCart: (truckId) =>
-                set((state) => ({
-                    cart: [
-                        ...state.cart,
-                        {
-                            id: truckId,
-                            quantity: 1,
-                        },
-                    ],
-                })),
+                set((state) => {
+                    const existingTruck = state.cart.find(
+                        (item) => item.id === truckId,
+                    );
+
+                    if (existingTruck) {
+                        return {
+                            cart: state.cart.map((item) =>
+                                item.id === truckId
+                                    ? { ...item, quantity: item.quantity + 1 }
+                                    : item,
+                            ),
+                        };
+                    }
+
+                    return {
+                        cart: [
+                            ...state.cart,
+                            {
+                                id: truckId,
+                                quantity: 1,
+                            },
+                        ],
+                    };
+                }),
 
             removeFromCart: (truckId) =>
                 set((state) => ({

@@ -66,6 +66,7 @@ const App = ({ className = "w-10 h-10" }) => {
                 root: "my-language-popup",
             }}
             className=' my-language-menu'
+            placement="bottomRight"
         >
             <div
                 className={`${className} rounded-full bg-[#fec80b] border-red-500 border-[0.5px] flex items-center justify-center overflow-hidden shadow-sm hover:shadow-md active:scale-85 transition-all  cursor-pointer`}
