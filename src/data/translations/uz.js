@@ -3000,9 +3000,13 @@ const uz = {
         button: "Kategoriyalarga o‘tish",
     },
 
-    // UZ
     similarTrucks: {
         title: "O‘xshash yuk mashinalari",
+    },
+
+    pagination: {
+        prev: "Oldingi",
+        next: "Keyingi",
     },
 };
 

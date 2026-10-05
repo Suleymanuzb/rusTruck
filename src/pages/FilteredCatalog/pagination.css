@@ -1,0 +1,24 @@
+.my-pagination .ant-pagination-item {
+  border: none;
+  border-radius: 50%;
+}
+
+
+.my-pagination .ant-pagination-item-active {
+  background-color: #fec80b;
+  border-color: #fec80b;
+}
+
+.my-pagination .ant-pagination-item-active a {
+  color: black;
+}
+
+.my-pagination .ant-pagination-prev,
+.my-pagination .ant-pagination-next {
+  width: auto;
+}
+
+.my-pagination .ant-pagination-prev .ant-pagination-item-link,
+.my-pagination .ant-pagination-next .ant-pagination-item-link {
+  border: none;
+}

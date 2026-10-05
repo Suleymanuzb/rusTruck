@@ -3232,6 +3232,11 @@ const en = {
     similarTrucks: {
         title: "Similar trucks",
     },
+
+    pagination: {
+        prev: "Previous",
+        next: "Next",
+    },
 };
 
 export default en;

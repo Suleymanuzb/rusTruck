@@ -3304,6 +3304,11 @@ const ru = {
     similartTrucks: {
         title: "Похожие грузовики",
     },
+
+    pagination: {
+        prev: "Назад",
+        next: "Дальше",
+    },
 };
 
 export default ru;

@@ -150,7 +150,7 @@ const RecProductSliders = forwardRef((props, ref) => {
                                         </Link>
                                         <Button
                                             onClick={handleOpenModal}
-                                            className='hidden md:flex gap-2.5 cursor-pointer  whitespace-nowrap'
+                                            className='hidden md:flex gap-2.5 cursor-pointer opacity-60 transition-all hover:text-black hover:font-medium whitespace-nowrap'
                                             variant='getKp'
                                             arrowDown='true'
                                         >
