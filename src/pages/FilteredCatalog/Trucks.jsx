@@ -44,7 +44,7 @@ const Trucks = ({ i18n, category, isLine, isTable, finalFilteredTrucks }) => {
                 {/*finalFilteredTrucks  - which is  searching based on brand*/}
                 <div className='flex items-center justify-center'>
                     {finalFilteredTrucks.length === 0 ? (
-                        <div className='w-80 h-80 my-10'>
+                        <div className='max-[450px]:w-full w-80 h-80 my-10'>
                             <img
                                 className='w-full h-full object-cover'
                                 src={NoItem}

@@ -43,7 +43,7 @@ const AddedCartToKorzina = () => {
                 </Link>
             </div>
 
-            <div className='w-50 md:w-100 h-50 self-center flex items-center justify-center mt-5'>
+            <div className='max-[450px]:w-full w-50 md:w-100 h-50 self-center flex items-center justify-center mt-5'>
                 <img
                     src={noItem}
                     alt='no item'
