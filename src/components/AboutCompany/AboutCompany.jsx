@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import aboutCompanyImage from "../../assets/images/aboutComapny/aboutCompany.png";
 import Button from "../Button/Button";
 import Container from "../Container/Container";
@@ -33,15 +34,17 @@ const AboutCompany = () => {
                             </div>
                         );
                     })}
-                    <Button
-                        data-aos='fade-right'
-                        data-aos-duration='1000'
-                        variant='btn_big_more'
-                        arrow='right'
-                        className='hidden lg:flex items-center [&>span]:text-4xl text-xl font-light [&>span]:ml-2 [&>span]:font-thin'
-                    >
-                        {t("aboutCompany.intro.button")}
-                    </Button>
+                    <Link to={"/about"}>
+                        <Button
+                            data-aos='fade-right'
+                            data-aos-duration='1000'
+                            variant='btn_big_more'
+                            arrow='right'
+                            className='hidden lg:flex items-center [&>span]:text-4xl text-xl font-light [&>span]:ml-2 [&>span]:font-thin cursor-pointer'
+                        >
+                            {t("aboutCompany.intro.button")}
+                        </Button>
+                    </Link>
                 </div>
 
                 <div className='overflow-hidden'>

@@ -133,9 +133,12 @@ const RecProductSliders = forwardRef((props, ref) => {
 
                                 <div className='bg-white px-0.5 py-2 min-[500px]:px-3 sm:py-4'>
                                     <div>
-                                        <a className='md:text-center xl:text-start mb-4 line-clamp-2 text-[14px] min-[1200px]:text-lg w-full'>
+                                        <Link
+                                            to={`/catalog/${category.slug}/${truck.id}`}
+                                            className='md:text-center xl:text-start mb-4 line-clamp-2 text-[14px] min-[1200px]:text-lg w-full'
+                                        >
                                             {truck[language]?.truckType}
-                                        </a>
+                                        </Link>
                                         <p className='text-center md:text-start font-medium leading-[1.18] mb-3 md:text-xl'>
                                             {truck[language]?.price}
                                         </p>

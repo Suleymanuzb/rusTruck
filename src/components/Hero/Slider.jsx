@@ -109,7 +109,7 @@ const Slider = () => {
                                         {slideText.buttons.map(
                                             (button, buttonIndex) => {
                                                 // / If button has "to", it is a navigation button
-                                                if (button?.to) {
+                                                if (button.to) {
                                                     return (
                                                         <Link
                                                             to={button.to}
